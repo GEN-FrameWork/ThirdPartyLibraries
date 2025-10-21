@@ -1,0 +1,178 @@
+
+Dump of file Release\postgres/win32_shmem.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 42A0, #relocs   9A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .data
+    Section length    8, #relocs    0, #linenums    0, checksum 44660075
+00A 00000000 SECT4  notype       External     | UsedShmemSegID
+00B 00000000 SECT5  notype       Static       | .bss
+    Section length   10, #relocs    0, #linenums    0, checksum        0
+00D 00000000 SECT5  notype       External     | UsedShmemSegAddr
+00E 00000000 SECT6  notype       Static       | .text$mn
+    Section length  6F5, #relocs   8F, #linenums    0, checksum A365B9D9
+010 00000000 SECT7  notype       Static       | .text$mn
+    Section length  12E, #relocs   1B, #linenums    0, checksum F6F08E4A, selection    1 (pick no duplicates)
+012 00000000 SECT8  notype       Static       | .debug$S
+    Section length  22C, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+014 00000000 UNDEF  notype       External     | __imp_free
+015 00000000 UNDEF  notype       External     | __imp_malloc
+016 00000000 UNDEF  notype       External     | __imp_GetFullPathNameA
+017 00000000 UNDEF  notype       External     | __imp_CloseHandle
+018 00000000 UNDEF  notype       External     | __imp_DuplicateHandle
+019 00000000 UNDEF  notype       External     | __imp_GetLastError
+01A 00000000 UNDEF  notype       External     | __imp_SetLastError
+01B 00000000 UNDEF  notype       External     | __imp_Sleep
+01C 00000000 UNDEF  notype       External     | __imp_GetCurrentProcess
+01D 00000000 UNDEF  notype       External     | __imp_VirtualFree
+01E 00000000 UNDEF  notype       External     | __imp_VirtualAllocEx
+01F 00000000 UNDEF  notype       External     | __imp_VirtualFreeEx
+020 00000000 UNDEF  notype       External     | __imp_MapViewOfFileEx
+021 00000000 UNDEF  notype       External     | __imp_UnmapViewOfFile
+022 00000000 UNDEF  notype       External     | __imp_CreateFileMappingA
+023 00000000 UNDEF  notype       External     | __imp_OpenFileMappingA
+024 00000000 UNDEF  notype       External     | __imp_getpid
+025 00000000 SECT6  notype ()    External     | pgwin32_ReserveSharedMemoryRegion
+026 00000000 UNDEF  notype ()    External     | errstart
+027 00000000 UNDEF  notype ()    External     | errfinish
+028 00000000 UNDEF  notype ()    External     | errcode
+029 00000000 UNDEF  notype ()    External     | errmsg
+02A 00000000 UNDEF  notype ()    External     | errdetail
+02B 00000000 UNDEF  notype ()    External     | errhint
+02C 00000000 UNDEF  notype ()    External     | elog_start
+02D 00000000 UNDEF  notype ()    External     | elog_finish
+02E 00000000 UNDEF  notype ()    External     | dsm_set_control_handle
+02F 00000000 UNDEF  notype ()    External     | on_shmem_exit
+030 00000100 SECT6  notype ()    External     | PGSharedMemoryReAttach
+031 00000260 SECT6  notype ()    External     | PGSharedMemoryNoReAttach
+032 00000280 SECT6  notype ()    External     | PGSharedMemoryCreate
+033 000005D0 SECT6  notype ()    External     | PGSharedMemoryIsInUse
+034 00000630 SECT6  notype ()    External     | PGSharedMemoryDetach
+035 000006F0 SECT6  notype ()    Static       | pgwin32_SharedMemoryDelete
+036 00000000 SECT7  notype ()    Static       | GetSharedMemName
+037 00000000 SECT6  notype       Label        | $LN14
+038 00000100 SECT6  notype       Label        | $LN24
+039 00000280 SECT6  notype       Label        | $LN49
+03A 000005D0 SECT6  notype       Label        | $LN5
+03B 00000630 SECT6  notype       Label        | $LN16
+03C 00000000 SECT9  notype       Static       | .xdata
+    Section length   48, #relocs    0, #linenums    0, checksum 1FD4A8CB
+03E 00000000 SECT9  notype       Static       | $unwind$pgwin32_ReserveSharedMemoryRegion
+03F 00000000 SECTA  notype       Static       | .pdata
+    Section length   3C, #relocs    F, #linenums    0, checksum 21DE5AE6
+041 00000000 SECTA  notype       Static       | $pdata$pgwin32_ReserveSharedMemoryRegion
+042 0000000C SECT9  notype       Static       | $unwind$PGSharedMemoryReAttach
+043 0000000C SECTA  notype       Static       | $pdata$PGSharedMemoryReAttach
+044 00000018 SECT9  notype       Static       | $unwind$PGSharedMemoryCreate
+045 00000018 SECTA  notype       Static       | $pdata$PGSharedMemoryCreate
+046 00000034 SECT9  notype       Static       | $unwind$PGSharedMemoryIsInUse
+047 00000024 SECTA  notype       Static       | $pdata$PGSharedMemoryIsInUse
+048 00000040 SECT9  notype       Static       | $unwind$PGSharedMemoryDetach
+049 00000030 SECTA  notype       Static       | $pdata$PGSharedMemoryDetach
+04A 00000000 SECTB  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0x7)
+04C 00000000 SECTB  notype       Static       | $unwind$GetSharedMemName
+04D 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4A8B7BD0, selection    5 (pick associative Section 0x7)
+04F 00000000 SECTC  notype       Static       | $pdata$GetSharedMemName
+050 00000000 UNDEF  notype       External     | DataDir
+051 00000000 UNDEF  notype       External     | huge_pages
+052 00000008 SECT5  notype       Static       | UsedShmemSegSize
+053 00000000 SECTD  notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 7D2EDC78, selection    2 (pick any)
+055 00000000 SECTD  notype       External     | ??_C@_0BB@ELDONCDK@GetSharedMemName?$AA@ (`string')
+056 00000000 SECTE  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 4C8A9815, selection    2 (pick any)
+058 00000000 SECTE  notype       External     | ??_C@_0BP@NKHMMLFK@src?1backend?1port?1win32_shmem?4c?$AA@ (`string')
+059 00000000 SECTF  notype       Static       | .rdata
+    Section length   43, #relocs    0, #linenums    0, checksum 27CCB06D, selection    2 (pick any)
+05B 00000000 SECTF  notype       External     | ??_C@_0ED@NKENMICO@could?5not?5get?5size?5for?5full?5path@ (`string')
+05C 00000000 SECT10 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum 1FEE73F2, selection    2 (pick any)
+05E 00000000 SECT10 notype       External     | ??_C@_0DB@LCIEIMPI@could?5not?5allocate?5memory?5for?5sh@ (`string')
+05F 00000000 SECT11 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum DFF2017B, selection    2 (pick any)
+061 00000000 SECT11 notype       External     | ??_C@_0BD@PKAFDHOL@Global?2PostgreSQL?3?$AA@ (`string')
+062 00000000 SECT12 notype       Static       | .rdata
+    Section length   40, #relocs    0, #linenums    0, checksum C64E47E7, selection    2 (pick any)
+064 00000000 SECT12 notype       External     | ??_C@_0EA@EMDMNLCO@could?5not?5generate?5full?5pathname@ (`string')
+065 00000000 SECT13 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 18F764DE, selection    2 (pick any)
+067 00000000 SECT13 notype       External     | ??_C@_0BF@KGAMFOKK@PGSharedMemoryCreate?$AA@ (`string')
+068 00000000 SECT14 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum B3597CBD, selection    2 (pick any)
+06A 00000000 SECT14 notype       External     | ??_C@_0CK@KIMJKLLJ@huge?5pages?5not?5supported?5on?5this@ (`string')
+06B 00000000 SECT15 notype       Static       | .rdata
+    Section length   3D, #relocs    0, #linenums    0, checksum 8BDDB798, selection    2 (pick any)
+06D 00000000 SECT15 notype       External     | ??_C@_0DN@KIPPDNFB@Failed?5system?5call?5was?5CreateFil@ (`string')
+06E 00000000 SECT16 notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum  957A83F, selection    2 (pick any)
+070 00000000 SECT16 notype       External     | ??_C@_0DH@OHJDJFIB@could?5not?5create?5shared?5memory?5s@ (`string')
+071 00000000 SECT17 notype       Static       | .rdata
+    Section length   4F, #relocs    0, #linenums    0, checksum 335FFD8D, selection    2 (pick any)
+073 00000000 SECT17 notype       External     | ??_C@_0EP@FODNGNMJ@Check?5if?5there?5are?5any?5old?5serve@ (`string')
+074 00000000 SECT18 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum 1A1272D3, selection    2 (pick any)
+076 00000000 SECT18 notype       External     | ??_C@_0DB@LHHIINNJ@pre?9existing?5shared?5memory?5block@ (`string')
+077 00000000 SECT19 notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 3D4C169A, selection    2 (pick any)
+079 00000000 SECT19 notype       External     | ??_C@_0CI@CLFPNENE@Failed?5system?5call?5was?5Duplicate@ (`string')
+07A 00000000 SECT1A notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum C735DD76, selection    2 (pick any)
+07C 00000000 SECT1A notype       External     | ??_C@_0DI@OLACIHMA@could?5not?5close?5handle?5to?5shared@ (`string')
+07D 00000000 SECT1B notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 88E4946A, selection    2 (pick any)
+07F 00000000 SECT1B notype       External     | ??_C@_0CI@JOPHFGCE@Failed?5system?5call?5was?5MapViewOf@ (`string')
+080 00000000 SECT1C notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 989FB601, selection    2 (pick any)
+082 00000000 SECT1C notype       External     | ??_C@_0BH@BFMAGNLK@PGSharedMemoryReAttach?$AA@ (`string')
+083 00000000 SECT1D notype       Static       | .rdata
+    Section length   43, #relocs    0, #linenums    0, checksum 5C52912B, selection    2 (pick any)
+085 00000000 SECT1D notype       External     | ??_C@_0ED@KBNDOJGI@failed?5to?5release?5reserved?5memor@ (`string')
+086 00000000 SECT1E notype       Static       | .rdata
+    Section length   46, #relocs    0, #linenums    0, checksum A46C4FF6, selection    2 (pick any)
+088 00000000 SECT1E notype       External     | ??_C@_0EG@KLOJDMNK@could?5not?5reattach?5to?5shared?5mem@ (`string')
+089 00000000 SECT1F notype       Static       | .rdata
+    Section length   4F, #relocs    0, #linenums    0, checksum 3DD3F24B, selection    2 (pick any)
+08B 00000000 SECT1F notype       External     | ??_C@_0EP@FALBGCAP@reattaching?5to?5shared?5memory?5ret@ (`string')
+08C 00000000 SECT20 notype       Static       | .rdata
+    Section length   3C, #relocs    0, #linenums    0, checksum 85734AC3, selection    2 (pick any)
+08E 00000000 SECT20 notype       External     | ??_C@_0DM@HOJODMDE@reattaching?5to?5shared?5memory?5ret@ (`string')
+08F 00000000 SECT21 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 32C41DF9, selection    2 (pick any)
+091 00000000 SECT21 notype       External     | ??_C@_0BF@IMDPCHIN@PGSharedMemoryDetach?$AA@ (`string')
+092 00000000 SECT22 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum 705E6AAD, selection    2 (pick any)
+094 00000000 SECT22 notype       External     | ??_C@_0DG@LKACPIKP@could?5not?5unmap?5view?5of?5shared?5m@ (`string')
+095 00000000 SECT23 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 97E0FAA8, selection    2 (pick any)
+097 00000000 SECT23 notype       External     | ??_C@_0CC@CJGOGJHN@pgwin32_ReserveSharedMemoryRegio@ (`string')
+098 00000000 SECT24 notype       Static       | .rdata
+    Section length   4E, #relocs    0, #linenums    0, checksum 924D5BF7, selection    2 (pick any)
+09A 00000000 SECT24 notype       External     | ??_C@_0EO@CNDJPEOC@could?5not?5reserve?5shared?5memory?5@ (`string')
+09B 00000000 SECT25 notype       Static       | .rdata
+    Section length   44, #relocs    0, #linenums    0, checksum  3541DE1, selection    2 (pick any)
+09D 00000000 SECT25 notype       External     | ??_C@_0EE@OMHMIMLD@reserved?5shared?5memory?5region?5go@ (`string')
+
+String Table Size = 0x95E bytes
+
+  Summary
+
+          10 .bss
+           8 .data
+        44CC .debug$S
+          68 .debug$T
+          5D .drectve
+          48 .pdata
+         4DC .rdata
+         823 .text$mn
+          54 .xdata

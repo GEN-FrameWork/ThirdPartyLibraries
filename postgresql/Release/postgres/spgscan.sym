@@ -1,0 +1,220 @@
+
+Dump of file Release\postgres/spgscan.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5A2C, #relocs   88, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  3E7, #relocs   1F, #linenums    0, checksum 4EF323D0
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   7A, #relocs    4, #linenums    0, checksum  1146287, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  1DC, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   C7, #relocs    7, #linenums    0, checksum B6527693, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  1B4, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  106, #relocs    0, #linenums    0, checksum 2009993C, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  2A0, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  827, #relocs   40, #linenums    0, checksum B49ABDFC, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length 1188, #relocs   CA, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 UNDEF  notype       External     | __imp_memmove
+01B 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+01C 00000000 UNDEF  notype ()    External     | elog_start
+01D 00000000 UNDEF  notype ()    External     | elog_finish
+01E 00000000 UNDEF  notype ()    External     | palloc
+01F 00000000 UNDEF  notype ()    External     | palloc0
+020 00000000 UNDEF  notype ()    External     | pfree
+021 00000000 UNDEF  notype ()    External     | FunctionCall2Coll
+022 00000000 UNDEF  notype ()    External     | tbm_add_tuples
+023 00000000 UNDEF  notype ()    External     | lappend
+024 00000000 UNDEF  notype ()    External     | lcons
+025 00000000 UNDEF  notype ()    External     | list_delete_first
+026 00000000 UNDEF  notype ()    External     | list_free
+027 00000000 UNDEF  notype ()    External     | index_getprocinfo
+028 00000000 UNDEF  notype ()    External     | RelationGetIndexScan
+029 00000000 UNDEF  notype ()    External     | heap_form_tuple
+02A 00000000 SECT4  notype ()    External     | spgbeginscan
+02B 000000E0 SECT4  notype ()    External     | spgendscan
+02C 00000130 SECT4  notype ()    External     | spgrescan
+02D 00000180 SECT4  notype ()    External     | spggetbitmap
+02E 000001D0 SECT4  notype ()    External     | spggettuple
+02F 00000310 SECT4  notype ()    External     | spgcanreturn
+030 00000000 UNDEF  notype ()    External     | spgGetCache
+031 00000000 UNDEF  notype ()    External     | initSpGistState
+032 00000000 UNDEF  notype ()    External     | spgExtractNodeLabels
+033 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+034 00000000 UNDEF  notype ()    External     | HeapTupleSatisfiesMVCC
+035 00000000 UNDEF  notype ()    External     | HeapTupleSatisfiesToast
+036 00000000 UNDEF  notype ()    External     | ReadBuffer
+037 00000000 UNDEF  notype ()    External     | UnlockReleaseBuffer
+038 00000000 UNDEF  notype ()    External     | BufferGetBlockNumber
+039 00000000 UNDEF  notype ()    External     | LockBuffer
+03A 00000000 UNDEF  notype ()    External     | TestForOldSnapshot_impl
+03B 00000000 UNDEF  notype ()    External     | datumCopy
+03C 00000000 UNDEF  notype ()    External     | MemoryContextReset
+03D 00000000 UNDEF  notype ()    External     | MemoryContextDelete
+03E 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+03F 00000000 SECT5  notype ()    Static       | freeScanStack
+040 00000000 SECT7  notype ()    Static       | resetSpGistScanOpaque
+041 00000000 SECT9  notype ()    Static       | spgPrepareScanKeys
+042 00000000 SECTB  notype ()    Static       | spgWalk
+043 00000330 SECT4  notype ()    Static       | storeBitmap
+044 00000360 SECT4  notype ()    Static       | storeGettuple
+045 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+046 00000000 UNDEF  notype ()    External     | __security_check_cookie
+047 00000000 SECT4  notype       Label        | $LN6
+048 000000E0 SECT4  notype       Label        | $LN6
+049 00000130 SECT4  notype       Label        | $LN5
+04A 00000180 SECT4  notype       Label        | $LN4
+04B 000001D0 SECT4  notype       Label        | $LN28
+04C 00000310 SECT4  notype       Label        | $LN4
+04D 00000090 SECTB  notype       Label        | $redirect$159
+04E 00000000 SECTD  notype       Static       | .xdata
+    Section length   60, #relocs    0, #linenums    0, checksum E2DFD00C
+050 00000000 SECTD  notype       Static       | $unwind$spgbeginscan
+051 00000000 SECTE  notype       Static       | .pdata
+    Section length   60, #relocs   18, #linenums    0, checksum 4F6D6217
+053 00000000 SECTE  notype       Static       | $pdata$spgbeginscan
+054 00000014 SECTD  notype       Static       | $unwind$spgendscan
+055 0000000C SECTE  notype       Static       | $pdata$spgendscan
+056 0000001C SECTD  notype       Static       | $unwind$spgrescan
+057 00000018 SECTE  notype       Static       | $pdata$spgrescan
+058 00000028 SECTD  notype       Static       | $unwind$spggetbitmap
+059 00000024 SECTE  notype       Static       | $pdata$spggetbitmap
+05A 00000030 SECTD  notype       Static       | $unwind$spggettuple
+05B 00000030 SECTE  notype       Static       | $pdata$spggettuple
+05C 00000048 SECTD  notype       Static       | $unwind$spgcanreturn
+05D 0000003C SECTE  notype       Static       | $pdata$spgcanreturn
+05E 00000000 SECTF  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum F3B20EE4, selection    5 (pick associative Section 0x5)
+060 00000000 SECTF  notype       Static       | $unwind$freeScanStack
+061 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A59B2387, selection    5 (pick associative Section 0x5)
+063 00000000 SECT10 notype       Static       | $pdata$freeScanStack
+064 00000000 SECT11 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum EFE5879C, selection    5 (pick associative Section 0x5)
+066 00000000 SECT11 notype       Static       | $chain$0$freeScanStack
+067 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3E209379, selection    5 (pick associative Section 0x5)
+069 00000000 SECT12 notype       Static       | $pdata$0$freeScanStack
+06A 00000000 SECT13 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 1CCCC96B, selection    5 (pick associative Section 0x5)
+06C 00000000 SECT13 notype       Static       | $chain$1$freeScanStack
+06D 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E8DA044A, selection    5 (pick associative Section 0x5)
+06F 00000000 SECT14 notype       Static       | $pdata$1$freeScanStack
+070 00000000 SECT15 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum FF724293, selection    5 (pick associative Section 0x7)
+072 00000000 SECT15 notype       Static       | $unwind$resetSpGistScanOpaque
+073 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4C749EF1, selection    5 (pick associative Section 0x7)
+075 00000000 SECT16 notype       Static       | $pdata$resetSpGistScanOpaque
+076 00000000 SECT17 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 4268A5A5, selection    5 (pick associative Section 0x7)
+078 00000000 SECT17 notype       Static       | $chain$0$resetSpGistScanOpaque
+079 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2B9883D6, selection    5 (pick associative Section 0x7)
+07B 00000000 SECT18 notype       Static       | $pdata$0$resetSpGistScanOpaque
+07C 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum F523741D, selection    5 (pick associative Section 0x7)
+07E 00000000 SECT19 notype       Static       | $chain$1$resetSpGistScanOpaque
+07F 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  48D17CA, selection    5 (pick associative Section 0x7)
+081 00000000 SECT1A notype       Static       | $pdata$1$resetSpGistScanOpaque
+082 00000000 SECT1B notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 7F5FB411, selection    5 (pick associative Section 0x9)
+084 00000000 SECT1B notype       Static       | $unwind$spgPrepareScanKeys
+085 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7D3C6CAC, selection    5 (pick associative Section 0x9)
+087 00000000 SECT1C notype       Static       | $pdata$spgPrepareScanKeys
+088 00000000 SECT1D notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 8F655152, selection    5 (pick associative Section 0x9)
+08A 00000000 SECT1D notype       Static       | $chain$2$spgPrepareScanKeys
+08B 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 386F2B73, selection    5 (pick associative Section 0x9)
+08D 00000000 SECT1E notype       Static       | $pdata$2$spgPrepareScanKeys
+08E 00000000 SECT1F notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum D71DD48A, selection    5 (pick associative Section 0x9)
+090 00000000 SECT1F notype       Static       | $chain$3$spgPrepareScanKeys
+091 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4B2D9A74, selection    5 (pick associative Section 0x9)
+093 00000000 SECT20 notype       Static       | $pdata$3$spgPrepareScanKeys
+094 00000000 SECT21 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 8138C19F, selection    5 (pick associative Section 0x9)
+096 00000000 SECT21 notype       Static       | $chain$4$spgPrepareScanKeys
+097 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 9AE5F8DF, selection    5 (pick associative Section 0x9)
+099 00000000 SECT22 notype       Static       | $pdata$4$spgPrepareScanKeys
+09A 00000000 SECT23 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 89F8DA6A, selection    5 (pick associative Section 0x9)
+09C 00000000 SECT23 notype       Static       | $chain$6$spgPrepareScanKeys
+09D 00000000 SECT24 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B5243B4A, selection    5 (pick associative Section 0x9)
+09F 00000000 SECT24 notype       Static       | $pdata$6$spgPrepareScanKeys
+0A0 00000000 SECT25 notype       Static       | .xdata
+    Section length   24, #relocs    1, #linenums    0, checksum C0B6D43E, selection    5 (pick associative Section 0xB)
+0A2 00000000 SECT25 notype       Static       | $unwind$spgWalk
+0A3 00000000 SECT26 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C05C2528, selection    5 (pick associative Section 0xB)
+0A5 00000000 SECT26 notype       Static       | $pdata$spgWalk
+0A6 00000050 SECTD  notype       Static       | $unwind$storeBitmap
+0A7 00000048 SECTE  notype       Static       | $pdata$storeBitmap
+0A8 00000058 SECTD  notype       Static       | $unwind$storeGettuple
+0A9 00000054 SECTE  notype       Static       | $pdata$storeGettuple
+0AA 00000000 UNDEF  notype       External     | pg_signal_queue
+0AB 00000000 UNDEF  notype       External     | pg_signal_mask
+0AC 00000000 UNDEF  notype       External     | CurrentMemoryContext
+0AD 00000000 UNDEF  notype       External     | InterruptPending
+0AE 00000000 UNDEF  notype       External     | old_snapshot_threshold
+0AF 00000000 UNDEF  notype       External     | BufferBlocks
+0B0 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+0B1 00000000 SECT27 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum B5F15A83, selection    2 (pick any)
+0B3 00000000 SECT27 notype       External     | ??_C@_0CB@DAHCJPPB@SP?9GiST?5search?5temporary?5context@ (`string')
+0B4 00000000 SECT28 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 7185796D, selection    2 (pick any)
+0B6 00000000 SECT28 notype       External     | ??_C@_0CA@JHHANDDP@SP?9GiST?5traversal?9value?5context?$AA@ (`string')
+0B7 00000000 SECT29 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 152B7A2F, selection    2 (pick any)
+0B9 00000000 SECT29 notype       External     | ??_C@_07IPPGFKLJ@spgWalk?$AA@ (`string')
+0BA 00000000 SECT2A notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 6FDF33DC, selection    2 (pick any)
+0BC 00000000 SECT2A notype       External     | ??_C@_0CE@PKJGHOPG@src?1backend?1access?1spgist?1spgsca@ (`string')
+0BD 00000000 SECT2B notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 670441FE, selection    2 (pick any)
+0BF 00000000 SECT2B notype       External     | ??_C@_0CC@NJIKNCCL@unexpected?5SPGiST?5tuple?5state?3?5?$CF@ (`string')
+0C0 00000000 SECT2C notype       Static       | .rdata
+    Section length   41, #relocs    0, #linenums    0, checksum 678E6DF7, selection    2 (pick any)
+0C2 00000000 SECT2C notype       External     | ??_C@_0EB@IFLMGFHP@inconsistent?5inner_consistent?5re@ (`string')
+0C3 00000000 SECT2D notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum B51A8526, selection    2 (pick any)
+0C5 00000000 SECT2D notype       External     | ??_C@_0M@DBDALMLG@spggettuple?$AA@ (`string')
+0C6 00000000 SECT2E notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum B0DED73C, selection    2 (pick any)
+0C8 00000000 SECT2E notype       External     | ??_C@_0CN@IJKBLPGH@SP?9GiST?5only?5supports?5forward?5sc@ (`string')
+0C9 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x87C bytes
+
+  Summary
+
+        71E4 .debug$S
+          68 .debug$T
+          5D .drectve
+          F0 .pdata
+         109 .rdata
+         E55 .text$mn
+         14C .xdata

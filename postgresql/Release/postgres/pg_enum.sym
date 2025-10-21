@@ -1,0 +1,166 @@
+
+Dump of file Release\postgres/pg_enum.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   8A, #relocs    0, #linenums    0, checksum DCC1741D
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5794, #relocs   C0, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .bss
+    Section length    4, #relocs    0, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       External     | binary_upgrade_next_pg_enum_oid
+00B 00000000 SECT5  notype       Static       | .text$mn
+    Section length  BB6, #relocs   86, #linenums    0, checksum 459B619B
+00D 00000000 SECT6  notype       Static       | .text$mn
+    Section length   9C, #relocs    4, #linenums    0, checksum 836BBD8C, selection    1 (pick no duplicates)
+00F 00000000 SECT7  notype       Static       | .debug$S
+    Section length  260, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+011 00000000 UNDEF  notype ()    External     | pg_qsort
+012 00000000 UNDEF  notype ()    External     | errstart
+013 00000000 UNDEF  notype ()    External     | errfinish
+014 00000000 UNDEF  notype ()    External     | errcode
+015 00000000 UNDEF  notype ()    External     | errmsg
+016 00000000 UNDEF  notype ()    External     | errdetail
+017 00000000 UNDEF  notype ()    External     | palloc
+018 00000000 UNDEF  notype ()    External     | pfree
+019 00000000 UNDEF  notype ()    External     | ScanKeyInit
+01A 00000000 UNDEF  notype ()    External     | systable_beginscan
+01B 00000000 UNDEF  notype ()    External     | systable_getnext
+01C 00000000 UNDEF  notype ()    External     | systable_endscan
+01D 00000000 UNDEF  notype ()    External     | relation_close
+01E 00000000 UNDEF  notype ()    External     | heap_open
+01F 00000000 UNDEF  notype ()    External     | heap_copytuple
+020 00000000 UNDEF  notype ()    External     | heap_form_tuple
+021 00000000 UNDEF  notype ()    External     | heap_freetuple
+022 00000000 UNDEF  notype ()    External     | CommandCounterIncrement
+023 00000000 UNDEF  notype ()    External     | GetNewOid
+024 00000000 UNDEF  notype ()    External     | CatalogTupleInsert
+025 00000000 UNDEF  notype ()    External     | CatalogTupleUpdate
+026 00000000 UNDEF  notype ()    External     | CatalogTupleDelete
+027 00000000 SECT5  notype ()    External     | EnumValuesCreate
+028 00000250 SECT5  notype ()    External     | EnumValuesDelete
+029 00000310 SECT5  notype ()    External     | AddEnumLabel
+02A 00000900 SECT5  notype ()    External     | RenameEnumLabel
+02B 00000000 UNDEF  notype ()    External     | LockDatabaseObject
+02C 00000000 UNDEF  notype ()    External     | namestrcpy
+02D 00000000 UNDEF  notype ()    External     | oid_cmp
+02E 00000000 UNDEF  notype ()    External     | ReleaseCatCacheList
+02F 00000000 UNDEF  notype ()    External     | SearchSysCache
+030 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+031 00000000 UNDEF  notype ()    External     | SearchSysCacheList
+032 00000000 SECT6  notype ()    Static       | RenumberEnumType
+033 00000B80 SECT5  notype ()    Static       | sort_order_cmp
+034 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+035 00000000 UNDEF  notype ()    External     | __security_check_cookie
+036 00000000 SECT5  notype       Label        | $LN44
+037 00000250 SECT5  notype       Label        | $LN10
+038 000004D0 SECT5  notype       Label        | $restart$139
+039 00000310 SECT5  notype       Label        | $LN138
+03A 00000900 SECT5  notype       Label        | $LN37
+03B 00000000 SECT8  notype       Static       | .xdata
+    Section length   FC, #relocs   1A, #linenums    0, checksum B696781A
+03D 00000000 SECT8  notype       Static       | $unwind$EnumValuesCreate
+03E 00000000 SECT9  notype       Static       | .pdata
+    Section length   90, #relocs   24, #linenums    0, checksum 1AD1F1D8
+040 00000000 SECT9  notype       Static       | $pdata$EnumValuesCreate
+041 00000020 SECT8  notype       Static       | $chain$0$EnumValuesCreate
+042 0000000C SECT9  notype       Static       | $pdata$0$EnumValuesCreate
+043 00000034 SECT8  notype       Static       | $chain$1$EnumValuesCreate
+044 00000018 SECT9  notype       Static       | $pdata$1$EnumValuesCreate
+045 00000048 SECT8  notype       Static       | $chain$2$EnumValuesCreate
+046 00000024 SECT9  notype       Static       | $pdata$2$EnumValuesCreate
+047 00000058 SECT8  notype       Static       | $chain$3$EnumValuesCreate
+048 00000030 SECT9  notype       Static       | $pdata$3$EnumValuesCreate
+049 00000068 SECT8  notype       Static       | $unwind$EnumValuesDelete
+04A 0000003C SECT9  notype       Static       | $pdata$EnumValuesDelete
+04B 00000074 SECT8  notype       Static       | $unwind$AddEnumLabel
+04C 00000048 SECT9  notype       Static       | $pdata$AddEnumLabel
+04D 00000090 SECT8  notype       Static       | $chain$0$AddEnumLabel
+04E 00000054 SECT9  notype       Static       | $pdata$0$AddEnumLabel
+04F 000000A4 SECT8  notype       Static       | $chain$2$AddEnumLabel
+050 00000060 SECT9  notype       Static       | $pdata$2$AddEnumLabel
+051 000000BC SECT8  notype       Static       | $chain$3$AddEnumLabel
+052 0000006C SECT9  notype       Static       | $pdata$3$AddEnumLabel
+053 000000D0 SECT8  notype       Static       | $chain$4$AddEnumLabel
+054 00000078 SECT9  notype       Static       | $pdata$4$AddEnumLabel
+055 000000E0 SECT8  notype       Static       | $unwind$RenameEnumLabel
+056 00000084 SECT9  notype       Static       | $pdata$RenameEnumLabel
+057 00000000 SECTA  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum CBA82A37, selection    5 (pick associative Section 0x6)
+059 00000000 SECTA  notype       Static       | $unwind$RenumberEnumType
+05A 00000000 SECTB  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3F196BD1, selection    5 (pick associative Section 0x6)
+05C 00000000 SECTB  notype       Static       | $pdata$RenumberEnumType
+05D 00000000 SECTC  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum BF9CB4B7, selection    5 (pick associative Section 0x6)
+05F 00000000 SECTC  notype       Static       | $chain$0$RenumberEnumType
+060 00000000 SECTD  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E612FCBF, selection    5 (pick associative Section 0x6)
+062 00000000 SECTD  notype       Static       | $pdata$0$RenumberEnumType
+063 00000000 SECTE  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 864E813D, selection    5 (pick associative Section 0x6)
+065 00000000 SECTE  notype       Static       | $chain$1$RenumberEnumType
+066 00000000 SECTF  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F4D350C1, selection    5 (pick associative Section 0x6)
+068 00000000 SECTF  notype       Static       | $pdata$1$RenumberEnumType
+069 00000000 UNDEF  notype       External     | IsBinaryUpgrade
+06A 00000000 SECT10 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 70F94D6A, selection    2 (pick any)
+06C 00000000 SECT10 notype       External     | ??_C@_0BB@EGOJEDCI@EnumValuesCreate?$AA@ (`string')
+06D 00000000 SECT11 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 865DFCAD, selection    2 (pick any)
+06F 00000000 SECT11 notype       External     | ??_C@_0BO@HJKGDNOH@src?1backend?1catalog?1pg_enum?4c?$AA@ (`string')
+070 00000000 SECT12 notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum B2110316, selection    2 (pick any)
+072 00000000 SECT12 notype       External     | ??_C@_0CG@NFBHGHFK@Labels?5must?5be?5?$CFd?5characters?5or?5@ (`string')
+073 00000000 SECT13 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 44379936, selection    2 (pick any)
+075 00000000 SECT13 notype       External     | ??_C@_0BI@BIAJKMOJ@invalid?5enum?5label?5?$CC?$CFs?$CC?$AA@ (`string')
+076 00000000 SECT14 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 831258E2, selection    2 (pick any)
+078 00000000 SECT14 notype       External     | ??_C@_0N@HDJJOBJP@AddEnumLabel?$AA@ (`string')
+079 00000000 SECT15 notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum AF5F93D1, selection    2 (pick any)
+07B 00000000 SECT15 notype       External     | ??_C@_0CJ@DOCNOMIE@enum?5label?5?$CC?$CFs?$CC?5already?5exists?0?5@ (`string')
+07C 00000000 SECT16 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum E47E956D, selection    2 (pick any)
+07E 00000000 SECT16 notype       External     | ??_C@_0BP@HCIIMGCC@enum?5label?5?$CC?$CFs?$CC?5already?5exists?$AA@ (`string')
+07F 00000000 SECT17 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 71B366DF, selection    2 (pick any)
+081 00000000 SECT17 notype       External     | ??_C@_0CD@IHLEMOBH@?$CC?$CFs?$CC?5is?5not?5an?5existing?5enum?5lab@ (`string')
+082 00000000 SECT18 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum FE3B31B0, selection    2 (pick any)
+084 00000000 SECT18 notype       External     | ??_C@_0DG@DEGHKDLC@pg_enum?5OID?5value?5not?5set?5when?5i@ (`string')
+085 00000000 SECT19 notype       Static       | .rdata
+    Section length   40, #relocs    0, #linenums    0, checksum BF12B51A, selection    2 (pick any)
+087 00000000 SECT19 notype       External     | ??_C@_0EA@DFGACJND@ALTER?5TYPE?5ADD?5BEFORE?1AFTER?5is?5i@ (`string')
+088 00000000 SECT1A notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 154D3A80, selection    2 (pick any)
+08A 00000000 SECT1A notype       External     | ??_C@_0BA@GAJIOCK@RenameEnumLabel?$AA@ (`string')
+08B 00000000 SECT1B notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum B6662D3D, selection    2 (pick any)
+08D 00000000 SECT1B notype       External     | __real@3f000000
+08E 00000000 SECT1C notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum 8DE5B576, selection    2 (pick any)
+090 00000000 SECT1C notype       External     | __real@3f800000
+091 00000000 UNDEF  notype       External     | __security_cookie
+092 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x793 bytes
+
+  Summary
+
+           4 .bss
+        59F4 .debug$S
+          68 .debug$T
+          8A .drectve
+          B4 .pdata
+         173 .rdata
+         C52 .text$mn
+         134 .xdata

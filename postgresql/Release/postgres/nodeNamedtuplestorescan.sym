@@ -1,0 +1,80 @@
+
+Dump of file Release\postgres/nodeNamedtuplestorescan.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5218, #relocs   40, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  243, #relocs   22, #linenums    0, checksum 65458069
+00A 00000000 UNDEF  notype ()    External     | elog_start
+00B 00000000 UNDEF  notype ()    External     | elog_finish
+00C 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+00D 00000000 UNDEF  notype ()    External     | ExecClearTuple
+00E 00000000 UNDEF  notype ()    External     | get_ENR
+00F 00000000 UNDEF  notype ()    External     | ENRMetadataGetTupDesc
+010 00000000 UNDEF  notype ()    External     | tuplestore_alloc_read_pointer
+011 00000000 UNDEF  notype ()    External     | tuplestore_select_read_pointer
+012 00000000 UNDEF  notype ()    External     | tuplestore_gettupleslot
+013 00000000 UNDEF  notype ()    External     | tuplestore_rescan
+014 00000000 UNDEF  notype ()    External     | ExecInitQual
+015 00000000 UNDEF  notype ()    External     | ExecScan
+016 00000000 UNDEF  notype ()    External     | ExecAssignScanProjectionInfo
+017 00000000 UNDEF  notype ()    External     | ExecScanReScan
+018 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+019 00000000 UNDEF  notype ()    External     | ExecInitScanTupleSlot
+01A 00000000 UNDEF  notype ()    External     | ExecAssignExprContext
+01B 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+01C 00000000 UNDEF  notype ()    External     | ExecFreeExprContext
+01D 00000000 UNDEF  notype ()    External     | ExecAssignScanType
+01E 00000000 SECT4  notype ()    External     | ExecInitNamedTuplestoreScan
+01F 00000150 SECT4  notype ()    External     | ExecEndNamedTuplestoreScan
+020 00000180 SECT4  notype ()    External     | ExecReScanNamedTuplestoreScan
+021 000001D0 SECT4  notype ()    Static       | NamedTuplestoreScanNext
+022 00000220 SECT4  notype ()    Static       | NamedTuplestoreScanRecheck
+023 00000230 SECT4  notype ()    Static       | ExecNamedTuplestoreScan
+024 00000000 SECT4  notype       Label        | $LN9
+025 00000150 SECT4  notype       Label        | $LN4
+026 00000180 SECT4  notype       Label        | $LN4
+027 00000000 SECT5  notype       Static       | .xdata
+    Section length   34, #relocs    0, #linenums    0, checksum 45D343B9
+029 00000000 SECT5  notype       Static       | $unwind$ExecInitNamedTuplestoreScan
+02A 00000000 SECT6  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum  CEF186E
+02C 00000000 SECT6  notype       Static       | $pdata$ExecInitNamedTuplestoreScan
+02D 00000014 SECT5  notype       Static       | $unwind$ExecEndNamedTuplestoreScan
+02E 0000000C SECT6  notype       Static       | $pdata$ExecEndNamedTuplestoreScan
+02F 0000001C SECT5  notype       Static       | $unwind$ExecReScanNamedTuplestoreScan
+030 00000018 SECT6  notype       Static       | $pdata$ExecReScanNamedTuplestoreScan
+031 00000028 SECT5  notype       Static       | $unwind$NamedTuplestoreScanNext
+032 00000024 SECT6  notype       Static       | $pdata$NamedTuplestoreScanNext
+033 00000000 UNDEF  notype       External     | CurrentMemoryContext
+034 00000000 UNDEF  notype       External     | newNodeMacroHolder
+035 00000000 SECT7  notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 55A3BCD2, selection    2 (pick any)
+037 00000000 SECT7  notype       External     | ??_C@_0BM@CKCMDEME@ExecInitNamedTuplestoreScan?$AA@ (`string')
+038 00000000 SECT8  notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum 1162E2C1, selection    2 (pick any)
+03A 00000000 SECT8  notype       External     | ??_C@_0CP@LEELGEL@src?1backend?1executor?1nodeNamedtu@ (`string')
+03B 00000000 SECT9  notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum  EA747B7, selection    2 (pick any)
+03D 00000000 SECT9  notype       External     | ??_C@_0CO@PCCHLAKD@executor?5could?5not?5find?5named?5tu@ (`string')
+
+String Table Size = 0x407 bytes
+
+  Summary
+
+        5218 .debug$S
+          68 .debug$T
+          5D .drectve
+          30 .pdata
+          79 .rdata
+         243 .text$mn
+          34 .xdata

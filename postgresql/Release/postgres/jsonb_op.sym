@@ -1,0 +1,119 @@
+
+Dump of file Release\postgres/jsonb_op.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4E54, #relocs   D2, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  8FA, #relocs   4C, #linenums    0, checksum 55BE85EF
+00A 00000000 UNDEF  notype ()    External     | elog_start
+00B 00000000 UNDEF  notype ()    External     | elog_finish
+00C 00000000 UNDEF  notype ()    External     | pfree
+00D 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+00E 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+00F 00000000 SECT4  notype ()    External     | jsonb_ne
+010 00000090 SECT4  notype ()    External     | jsonb_lt
+011 00000120 SECT4  notype ()    External     | jsonb_gt
+012 000001B0 SECT4  notype ()    External     | jsonb_le
+013 00000240 SECT4  notype ()    External     | jsonb_ge
+014 000002D0 SECT4  notype ()    External     | jsonb_eq
+015 00000360 SECT4  notype ()    External     | jsonb_cmp
+016 000003E0 SECT4  notype ()    External     | jsonb_hash
+017 00000520 SECT4  notype ()    External     | jsonb_contains
+018 000005B0 SECT4  notype ()    External     | jsonb_exists
+019 00000680 SECT4  notype ()    External     | jsonb_exists_any
+01A 00000780 SECT4  notype ()    External     | jsonb_exists_all
+01B 00000880 SECT4  notype ()    External     | jsonb_contained
+01C 00000000 UNDEF  notype ()    External     | deconstruct_array
+01D 00000000 UNDEF  notype ()    External     | compareJsonbContainers
+01E 00000000 UNDEF  notype ()    External     | findJsonbValueFromContainer
+01F 00000000 UNDEF  notype ()    External     | JsonbIteratorInit
+020 00000000 UNDEF  notype ()    External     | JsonbIteratorNext
+021 00000000 UNDEF  notype ()    External     | JsonbDeepContains
+022 00000000 UNDEF  notype ()    External     | JsonbHashScalarValue
+023 00000000 SECT4  notype       Label        | $LN12
+024 00000090 SECT4  notype       Label        | $LN12
+025 00000120 SECT4  notype       Label        | $LN12
+026 000001B0 SECT4  notype       Label        | $LN12
+027 00000240 SECT4  notype       Label        | $LN12
+028 000002D0 SECT4  notype       Label        | $LN12
+029 00000360 SECT4  notype       Label        | $LN12
+02A 000004F4 SECT4  notype       Static       | $LN25
+02B 00000466 SECT4  notype       Label        | $LN13
+02C 00000470 SECT4  notype       Label        | $LN14
+02D 0000047A SECT4  notype       Label        | $LN15
+02E 000004B7 SECT4  notype       Label        | $LN7
+02F 000003E0 SECT4  notype       Label        | $LN27
+030 00000520 SECT4  notype       Label        | $LN5
+031 000005B0 SECT4  notype       Label        | $LN16
+032 00000680 SECT4  notype       Label        | $LN15
+033 00000780 SECT4  notype       Label        | $LN15
+034 00000880 SECT4  notype       Label        | $LN5
+035 00000000 SECT5  notype       Static       | .xdata
+    Section length  11C, #relocs    C, #linenums    0, checksum F24ECE17
+037 00000000 SECT5  notype       Static       | $unwind$jsonb_ne
+038 00000000 SECT6  notype       Static       | .pdata
+    Section length   CC, #relocs   33, #linenums    0, checksum EF9BAFEB
+03A 00000000 SECT6  notype       Static       | $pdata$jsonb_ne
+03B 00000014 SECT5  notype       Static       | $unwind$jsonb_lt
+03C 0000000C SECT6  notype       Static       | $pdata$jsonb_lt
+03D 00000028 SECT5  notype       Static       | $unwind$jsonb_gt
+03E 00000018 SECT6  notype       Static       | $pdata$jsonb_gt
+03F 0000003C SECT5  notype       Static       | $unwind$jsonb_le
+040 00000024 SECT6  notype       Static       | $pdata$jsonb_le
+041 00000050 SECT5  notype       Static       | $unwind$jsonb_ge
+042 00000030 SECT6  notype       Static       | $pdata$jsonb_ge
+043 00000064 SECT5  notype       Static       | $unwind$jsonb_eq
+044 0000003C SECT6  notype       Static       | $pdata$jsonb_eq
+045 00000078 SECT5  notype       Static       | $unwind$jsonb_cmp
+046 00000048 SECT6  notype       Static       | $pdata$jsonb_cmp
+047 0000008C SECT5  notype       Static       | $unwind$jsonb_hash
+048 00000054 SECT6  notype       Static       | $pdata$jsonb_hash
+049 00000098 SECT5  notype       Static       | $chain$0$jsonb_hash
+04A 00000060 SECT6  notype       Static       | $pdata$0$jsonb_hash
+04B 000000AC SECT5  notype       Static       | $chain$1$jsonb_hash
+04C 0000006C SECT6  notype       Static       | $pdata$1$jsonb_hash
+04D 000000C0 SECT5  notype       Static       | $chain$2$jsonb_hash
+04E 00000078 SECT6  notype       Static       | $pdata$2$jsonb_hash
+04F 000000D0 SECT5  notype       Static       | $chain$3$jsonb_hash
+050 00000084 SECT6  notype       Static       | $pdata$3$jsonb_hash
+051 000000E0 SECT5  notype       Static       | $unwind$jsonb_contains
+052 00000090 SECT6  notype       Static       | $pdata$jsonb_contains
+053 000000EC SECT5  notype       Static       | $unwind$jsonb_exists
+054 0000009C SECT6  notype       Static       | $pdata$jsonb_exists
+055 000000F8 SECT5  notype       Static       | $unwind$jsonb_exists_any
+056 000000A8 SECT6  notype       Static       | $pdata$jsonb_exists_any
+057 00000104 SECT5  notype       Static       | $unwind$jsonb_exists_all
+058 000000B4 SECT6  notype       Static       | $pdata$jsonb_exists_all
+059 00000110 SECT5  notype       Static       | $unwind$jsonb_contained
+05A 000000C0 SECT6  notype       Static       | $pdata$jsonb_contained
+05B 00000000 SECT7  notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum D9047079, selection    2 (pick any)
+05D 00000000 SECT7  notype       External     | ??_C@_0L@ENHMDOGK@jsonb_hash?$AA@ (`string')
+05E 00000000 SECT8  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 59F935F6, selection    2 (pick any)
+060 00000000 SECT8  notype       External     | ??_C@_0CB@NMHKPAIE@src?1backend?1utils?1adt?1jsonb_op?4c@ (`string')
+061 00000000 SECT9  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 46EE900C, selection    2 (pick any)
+063 00000000 SECT9  notype       External     | ??_C@_0CB@MDGNFFHO@invalid?5JsonbIteratorNext?5rc?3?5?$CFd@ (`string')
+064 00000000 UNDEF  notype       External     | __ImageBase
+
+String Table Size = 0x470 bytes
+
+  Summary
+
+        4E54 .debug$S
+          68 .debug$T
+          5D .drectve
+          CC .pdata
+          4D .rdata
+         8FA .text$mn
+         11C .xdata

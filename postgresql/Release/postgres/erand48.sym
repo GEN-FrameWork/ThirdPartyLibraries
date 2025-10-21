@@ -1,0 +1,52 @@
+
+Dump of file Release\postgres/erand48.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 3858, #relocs   3E, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .data
+    Section length   12, #relocs    0, #linenums    0, checksum 87947CD7
+00A 00000000 SECT4  notype       Static       | _rand48_seed
+00B 00000000 SECT5  notype       Static       | .text$mn
+    Section length  280, #relocs   1B, #linenums    0, checksum 1A8F7771
+00D 00000000 UNDEF  notype       External     | __imp_ldexp
+00E 00000000 SECT5  notype ()    External     | pg_erand48
+00F 000000F0 SECT5  notype ()    External     | pg_lrand48
+010 000001A0 SECT5  notype ()    External     | pg_jrand48
+011 00000240 SECT5  notype ()    External     | pg_srand48
+012 00000000 SECT5  notype       Label        | $LN6
+013 000000F0 SECT5  notype       Label        | $LN6
+014 000001A0 SECT5  notype       Label        | $LN6
+015 00000000 SECT6  notype       Static       | .xdata
+    Section length   20, #relocs    0, #linenums    0, checksum 29B85DF1
+017 00000000 SECT6  notype       Static       | $unwind$pg_erand48
+018 00000000 SECT7  notype       Static       | .pdata
+    Section length   24, #relocs    9, #linenums    0, checksum 115EFC5F
+01A 00000000 SECT7  notype       Static       | $pdata$pg_erand48
+01B 00000010 SECT6  notype       Static       | $unwind$pg_lrand48
+01C 0000000C SECT7  notype       Static       | $pdata$pg_lrand48
+01D 00000018 SECT6  notype       Static       | $unwind$pg_jrand48
+01E 00000018 SECT7  notype       Static       | $pdata$pg_jrand48
+01F 00000008 SECT4  notype       Static       | _rand48_mult
+020 00000010 SECT4  notype       Static       | _rand48_add
+021 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0xD1 bytes
+
+  Summary
+
+          12 .data
+        3858 .debug$S
+          68 .debug$T
+          5D .drectve
+          24 .pdata
+         280 .text$mn
+          20 .xdata

@@ -1,0 +1,135 @@
+
+Dump of file Release\postgres/varsup.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   7D, #relocs    0, #linenums    0, checksum CBCA8BC0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4B04, #relocs   7E, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       External     | ShmemVariableCache
+00B 00000000 SECT5  notype       Static       | .text$mn
+    Section length  7BE, #relocs   91, #linenums    0, checksum 22DD09AD
+00D 00000000 UNDEF  notype ()    External     | errstart
+00E 00000000 UNDEF  notype ()    External     | errfinish
+00F 00000000 UNDEF  notype ()    External     | errcode
+010 00000000 UNDEF  notype ()    External     | errmsg
+011 00000000 UNDEF  notype ()    External     | errhint
+012 00000000 UNDEF  notype ()    External     | elog_start
+013 00000000 UNDEF  notype ()    External     | elog_finish
+014 00000000 UNDEF  notype ()    External     | ExtendCLOG
+015 00000000 UNDEF  notype ()    External     | RecoveryInProgress
+016 00000000 UNDEF  notype ()    External     | XLogPutNextOid
+017 00000000 UNDEF  notype ()    External     | ExtendCommitTs
+018 00000000 UNDEF  notype ()    External     | ExtendSUBTRANS
+019 00000000 UNDEF  notype ()    External     | TransactionIdPrecedes
+01A 00000000 UNDEF  notype ()    External     | TransactionIdFollowsOrEquals
+01B 00000000 SECT5  notype ()    External     | GetNewTransactionId
+01C 00000350 SECT5  notype ()    External     | ReadNewTransactionId
+01D 000003A0 SECT5  notype ()    External     | SetTransactionIdLimit
+01E 000005D0 SECT5  notype ()    External     | AdvanceOldestClogXid
+01F 00000630 SECT5  notype ()    External     | ForceTransactionIdLimitUpdate
+020 000006E0 SECT5  notype ()    External     | GetNewObjectId
+021 00000000 UNDEF  notype ()    External     | IsTransactionState
+022 00000000 UNDEF  notype ()    External     | IsInParallelMode
+023 00000000 UNDEF  notype ()    External     | get_database_name
+024 00000000 UNDEF  notype ()    External     | SendPostmasterSignal
+025 00000000 UNDEF  notype ()    External     | LWLockAcquire
+026 00000000 UNDEF  notype ()    External     | LWLockRelease
+027 00000000 UNDEF  notype ()    External     | SearchSysCacheExists
+028 00000000 SECT5  notype       Label        | $LN54
+029 00000350 SECT5  notype       Label        | $LN4
+02A 000003A0 SECT5  notype       Label        | $LN30
+02B 000005D0 SECT5  notype       Label        | $LN5
+02C 00000630 SECT5  notype       Label        | $LN9
+02D 000006E0 SECT5  notype       Label        | $LN15
+02E 00000000 SECT6  notype       Static       | .xdata
+    Section length   80, #relocs    6, #linenums    0, checksum 153B1983
+030 00000000 SECT6  notype       Static       | $unwind$GetNewTransactionId
+031 00000000 SECT7  notype       Static       | .pdata
+    Section length   60, #relocs   18, #linenums    0, checksum 519C77E9
+033 00000000 SECT7  notype       Static       | $pdata$GetNewTransactionId
+034 0000000C SECT6  notype       Static       | $chain$4$GetNewTransactionId
+035 0000000C SECT7  notype       Static       | $pdata$4$GetNewTransactionId
+036 0000002C SECT6  notype       Static       | $chain$5$GetNewTransactionId
+037 00000018 SECT7  notype       Static       | $pdata$5$GetNewTransactionId
+038 0000003C SECT6  notype       Static       | $unwind$ReadNewTransactionId
+039 00000024 SECT7  notype       Static       | $pdata$ReadNewTransactionId
+03A 00000044 SECT6  notype       Static       | $unwind$SetTransactionIdLimit
+03B 00000030 SECT7  notype       Static       | $pdata$SetTransactionIdLimit
+03C 0000005C SECT6  notype       Static       | $unwind$AdvanceOldestClogXid
+03D 0000003C SECT7  notype       Static       | $pdata$AdvanceOldestClogXid
+03E 00000064 SECT6  notype       Static       | $unwind$ForceTransactionIdLimitUpdate
+03F 00000048 SECT7  notype       Static       | $pdata$ForceTransactionIdLimitUpdate
+040 00000078 SECT6  notype       Static       | $unwind$GetNewObjectId
+041 00000054 SECT7  notype       Static       | $pdata$GetNewObjectId
+042 00000000 UNDEF  notype       External     | InRecovery
+043 00000000 UNDEF  notype       External     | IsPostmasterEnvironment
+044 00000000 UNDEF  notype       External     | IsUnderPostmaster
+045 00000000 UNDEF  notype       External     | Mode
+046 00000000 UNDEF  notype       External     | autovacuum_freeze_max_age
+047 00000000 UNDEF  notype       External     | MainLWLockArray
+048 00000000 UNDEF  notype       External     | MyProc
+049 00000000 UNDEF  notype       External     | MyPgXact
+04A 00000000 SECT8  notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 559884D6, selection    2 (pick any)
+04C 00000000 SECT8  notype       External     | ??_C@_0BE@KFLCOAKE@GetNewTransactionId?$AA@ (`string')
+04D 00000000 SECT9  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum  31F200E, selection    2 (pick any)
+04F 00000000 SECT9  notype       External     | ??_C@_0CE@JGFGGNCE@src?1backend?1access?1transam?1varsu@ (`string')
+050 00000000 SECTA  notype       Static       | .rdata
+    Section length   39, #relocs    0, #linenums    0, checksum 8735F995, selection    2 (pick any)
+052 00000000 SECTA  notype       External     | ??_C@_0DJ@KFBLNIHG@cannot?5assign?5TransactionIds?5dur@ (`string')
+053 00000000 SECTB  notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum DED96E64, selection    2 (pick any)
+055 00000000 SECTB  notype       External     | ??_C@_0CN@OHKGAGDP@cannot?5assign?5TransactionIds?5dur@ (`string')
+056 00000000 SECTC  notype       Static       | .rdata
+    Section length   88, #relocs    0, #linenums    0, checksum CD72E721, selection    2 (pick any)
+058 00000000 SECTC  notype       External     | ??_C@_0II@EFLOCLDI@Stop?5the?5postmaster?5and?5vacuum?5t@ (`string')
+059 00000000 SECTD  notype       Static       | .rdata
+    Section length   52, #relocs    0, #linenums    0, checksum 27A77419, selection    2 (pick any)
+05B 00000000 SECTD  notype       External     | ??_C@_0FC@ICMJNLAG@database?5is?5not?5accepting?5comman@ (`string')
+05C 00000000 SECTE  notype       Static       | .rdata
+    Section length   59, #relocs    0, #linenums    0, checksum 4E101272, selection    2 (pick any)
+05E 00000000 SECTE  notype       External     | ??_C@_0FJ@GLHLHNHF@database?5is?5not?5accepting?5comman@ (`string')
+05F 00000000 SECTF  notype       Static       | .rdata
+    Section length   95, #relocs    0, #linenums    0, checksum 13921AC4, selection    2 (pick any)
+061 00000000 SECTF  notype       External     | ??_C@_0JF@CLMPNECF@To?5avoid?5a?5database?5shutdown?0?5ex@ (`string')
+062 00000000 SECT10 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum AF48E3B2, selection    2 (pick any)
+064 00000000 SECT10 notype       External     | ??_C@_0DG@GFBEHBLA@database?5?$CC?$CFs?$CC?5must?5be?5vacuumed?5w@ (`string')
+065 00000000 SECT11 notype       Static       | .rdata
+    Section length   3D, #relocs    0, #linenums    0, checksum 9FCF162E, selection    2 (pick any)
+067 00000000 SECT11 notype       External     | ??_C@_0DN@LMONJMOH@database?5with?5OID?5?$CFu?5must?5be?5vac@ (`string')
+068 00000000 SECT12 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum CE222BBE, selection    2 (pick any)
+06A 00000000 SECT12 notype       External     | ??_C@_0BG@JJPEGFKB@SetTransactionIdLimit?$AA@ (`string')
+06B 00000000 SECT13 notype       Static       | .rdata
+    Section length   41, #relocs    0, #linenums    0, checksum 7E8F08C4, selection    2 (pick any)
+06D 00000000 SECT13 notype       External     | ??_C@_0EB@JMLNAAEM@transaction?5ID?5wrap?5limit?5is?5?$CFu?0@ (`string')
+06E 00000000 SECT14 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 6F8287AC, selection    2 (pick any)
+070 00000000 SECT14 notype       External     | ??_C@_0P@EHKOHLLE@GetNewObjectId?$AA@ (`string')
+071 00000000 SECT15 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 622B60F5, selection    2 (pick any)
+073 00000000 SECT15 notype       External     | ??_C@_0CD@JECMMIDN@cannot?5assign?5OIDs?5during?5recove@ (`string')
+
+String Table Size = 0x6EA bytes
+
+  Summary
+
+           8 .bss
+        4B04 .debug$S
+          68 .debug$T
+          7D .drectve
+          60 .pdata
+         362 .rdata
+         7BE .text$mn
+          80 .xdata

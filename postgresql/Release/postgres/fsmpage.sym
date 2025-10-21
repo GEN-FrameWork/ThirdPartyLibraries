@@ -1,0 +1,74 @@
+
+Dump of file Release\postgres/fsmpage.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 464C, #relocs   88, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  40A, #relocs    F, #linenums    0, checksum 80B14DA5
+00A 00000000 UNDEF  notype ()    External     | elog_start
+00B 00000000 UNDEF  notype ()    External     | elog_finish
+00C 00000000 UNDEF  notype ()    External     | BufferGetTag
+00D 00000000 UNDEF  notype ()    External     | MarkBufferDirtyHint
+00E 00000000 UNDEF  notype ()    External     | LockBuffer
+00F 00000000 SECT4  notype ()    External     | fsm_search_avail
+010 000001D0 SECT4  notype ()    External     | fsm_get_avail
+011 000001F0 SECT4  notype ()    External     | fsm_get_max_avail
+012 00000200 SECT4  notype ()    External     | fsm_set_avail
+013 000002A0 SECT4  notype ()    External     | fsm_truncate_avail
+014 00000370 SECT4  notype ()    External     | fsm_rebuild_page
+015 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+016 00000000 UNDEF  notype ()    External     | __security_check_cookie
+017 00000072 SECT4  notype       Label        | $restart$50
+018 00000000 SECT4  notype       Label        | $LN49
+019 00000200 SECT4  notype       Label        | $LN17
+01A 000002A0 SECT4  notype       Label        | $LN29
+01B 00000370 SECT4  notype       Label        | $LN16
+01C 00000000 SECT5  notype       Static       | .xdata
+    Section length   60, #relocs    7, #linenums    0, checksum EFA401D7
+01E 00000000 SECT5  notype       Static       | $unwind$fsm_search_avail
+01F 00000000 SECT6  notype       Static       | .pdata
+    Section length   48, #relocs   12, #linenums    0, checksum DA58336D
+021 00000000 SECT6  notype       Static       | $pdata$fsm_search_avail
+022 00000020 SECT5  notype       Static       | $unwind$fsm_set_avail
+023 0000000C SECT6  notype       Static       | $pdata$fsm_set_avail
+024 00000028 SECT5  notype       Static       | $unwind$fsm_truncate_avail
+025 00000018 SECT6  notype       Static       | $pdata$fsm_truncate_avail
+026 00000030 SECT5  notype       Static       | $chain$0$fsm_truncate_avail
+027 00000024 SECT6  notype       Static       | $pdata$0$fsm_truncate_avail
+028 00000044 SECT5  notype       Static       | $chain$1$fsm_truncate_avail
+029 00000030 SECT6  notype       Static       | $pdata$1$fsm_truncate_avail
+02A 00000054 SECT5  notype       Static       | $unwind$fsm_rebuild_page
+02B 0000003C SECT6  notype       Static       | $pdata$fsm_rebuild_page
+02C 00000000 UNDEF  notype       External     | BufferBlocks
+02D 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+02E 00000000 SECT7  notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 326AAAA5, selection    2 (pick any)
+030 00000000 SECT7  notype       External     | ??_C@_0BB@EHKKEOH@fsm_search_avail?$AA@ (`string')
+031 00000000 SECT8  notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum C3CCD509, selection    2 (pick any)
+033 00000000 SECT8  notype       External     | ??_C@_0CI@NFNPBHEH@src?1backend?1storage?1freespace?1fs@ (`string')
+034 00000000 SECT9  notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum 61A8183F, selection    2 (pick any)
+036 00000000 SECT9  notype       External     | ??_C@_0CP@HLIOEMLF@fixing?5corrupt?5FSM?5block?5?$CFu?0?5rel@ (`string')
+037 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x2E8 bytes
+
+  Summary
+
+        464C .debug$S
+          68 .debug$T
+          5D .drectve
+          48 .pdata
+          68 .rdata
+         40A .text$mn
+          60 .xdata

@@ -1,0 +1,118 @@
+
+Dump of file Release\postgres/bgwriter.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 50A0, #relocs   74, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .data
+    Section length    4, #relocs    0, #linenums    0, checksum B3F9C6E9
+00A 00000000 SECT4  notype       External     | BgWriterDelay
+00B 00000000 SECT5  notype       Static       | .text$mn
+    Section length  42C, #relocs   67, #linenums    0, checksum 64403E3E
+00D 00000000 UNDEF  notype       External     | __imp__errno
+00E 00000000 UNDEF  notype       External     | __imp_exit
+00F 00000000 UNDEF  notype       External     | __imp__exit
+010 00000000 UNDEF  notype ()    External     | pg_usleep
+011 00000000 UNDEF  notype ()    External     | pqsignal
+012 00000000 UNDEF  notype ()    External     | EmitErrorReport
+013 00000000 UNDEF  notype ()    External     | FlushErrorState
+014 00000000 UNDEF  notype ()    External     | AtEOXact_Files
+015 00000000 UNDEF  notype ()    External     | RecoveryInProgress
+016 00000000 UNDEF  notype ()    External     | GetLastImportantRecPtr
+017 00000000 UNDEF  notype ()    External     | pqsigsetmask
+018 00000000 UNDEF  notype ()    External     | SetLatch
+019 00000000 UNDEF  notype ()    External     | ResetLatch
+01A 00000000 UNDEF  notype ()    External     | WaitLatch
+01B 00000000 UNDEF  notype ()    External     | LWLockReleaseAll
+01C 00000000 UNDEF  notype ()    External     | AtEOXact_HashTables
+01D 00000000 UNDEF  notype ()    External     | pgstat_send_bgwriter
+01E 00000000 SECT5  notype ()    External     | BackgroundWriterMain
+01F 00000000 UNDEF  notype ()    External     | FirstCallSinceLastCheckpoint
+020 00000000 UNDEF  notype ()    External     | ResourceOwnerCreate
+021 00000000 UNDEF  notype ()    External     | ResourceOwnerRelease
+022 00000000 UNDEF  notype ()    External     | AtEOXact_Buffers
+023 00000000 UNDEF  notype ()    External     | UnlockBuffers
+024 00000000 UNDEF  notype ()    External     | AbortBufferIO
+025 00000000 UNDEF  notype ()    External     | BgBufferSync
+026 00000000 UNDEF  notype ()    External     | smgrcloseall
+027 00000000 UNDEF  notype ()    External     | AtEOXact_SMgr
+028 00000000 UNDEF  notype ()    External     | WritebackContextInit
+029 00000000 UNDEF  notype ()    External     | StrategyNotifyBgWriter
+02A 00000000 UNDEF  notype ()    External     | ConditionVariableCancelSleep
+02B 00000000 UNDEF  notype ()    External     | proc_exit
+02C 00000000 UNDEF  notype ()    External     | LogStandbySnapshot
+02D 00000000 UNDEF  notype ()    External     | ProcessConfigFile
+02E 00000000 UNDEF  notype ()    External     | MemoryContextReset
+02F 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+030 00000000 UNDEF  notype ()    External     | GetCurrentTimestamp
+031 00000370 SECT5  notype ()    Static       | bg_quickdie
+032 00000390 SECT5  notype ()    Static       | BgSigHupHandler
+033 000003D0 SECT5  notype ()    Static       | ReqShutdownHandler
+034 00000410 SECT5  notype ()    Static       | bgwriter_sigusr1_handler
+035 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+036 00000000 UNDEF  notype ()    External     | __chkstk
+037 00000000 UNDEF  notype ()    External     | __security_check_cookie
+038 00000000 UNDEF  notype ()    External     | _setjmp
+039 0000035D SECT5  notype       Label        | $LN30
+03A 00000000 SECT5  notype       Label        | $LN31
+03B 00000380 SECT5  notype       Label        | $LN3
+03C 00000000 SECT6  notype       Static       | .xdata
+    Section length   40, #relocs    1, #linenums    0, checksum 6BAA637D
+03E 00000000 SECT6  notype       Static       | $unwind$BackgroundWriterMain
+03F 00000000 SECT7  notype       Static       | .pdata
+    Section length   3C, #relocs    F, #linenums    0, checksum 20135BFD
+041 00000000 SECT7  notype       Static       | $pdata$BackgroundWriterMain
+042 00000020 SECT6  notype       Static       | $unwind$bg_quickdie
+043 0000000C SECT7  notype       Static       | $pdata$bg_quickdie
+044 00000028 SECT6  notype       Static       | $unwind$BgSigHupHandler
+045 00000018 SECT7  notype       Static       | $pdata$BgSigHupHandler
+046 00000030 SECT6  notype       Static       | $unwind$ReqShutdownHandler
+047 00000024 SECT7  notype       Static       | $pdata$ReqShutdownHandler
+048 00000038 SECT6  notype       Static       | $unwind$bgwriter_sigusr1_handler
+049 00000030 SECT7  notype       Static       | $pdata$bgwriter_sigusr1_handler
+04A 00000000 UNDEF  notype       External     | error_context_stack
+04B 00000000 UNDEF  notype       External     | PG_exception_stack
+04C 00000000 UNDEF  notype       External     | CurrentMemoryContext
+04D 00000000 UNDEF  notype       External     | wal_level
+04E 00000000 UNDEF  notype       External     | UnBlockSig
+04F 00000000 UNDEF  notype       External     | BlockSig
+050 00000000 UNDEF  notype       External     | InterruptHoldoffCount
+051 00000000 UNDEF  notype       External     | ExitOnAnyError
+052 00000000 UNDEF  notype       External     | MyLatch
+053 00000000 UNDEF  notype       External     | MyProc
+054 00000000 UNDEF  notype       External     | pgstat_track_activities
+055 00000000 UNDEF  notype       External     | CurrentResourceOwner
+056 00000000 UNDEF  notype       External     | bgwriter_flush_after
+057 00000000 UNDEF  notype       External     | TopMemoryContext
+058 00000000 SECT8  notype       Static       | .bss
+    Section length   18, #relocs    0, #linenums    0, checksum        0
+05A 00000000 SECT8  notype       Static       | last_snapshot_ts
+05B 00000008 SECT8  notype       Static       | last_snapshot_lsn
+05C 00000010 SECT8  notype       Static       | got_SIGHUP
+05D 00000014 SECT8  notype       Static       | shutdown_requested
+05E 00000000 SECT9  notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 957771AE, selection    2 (pick any)
+060 00000000 SECT9  notype       External     | ??_C@_0BC@NJDEBBM@Background?5Writer?$AA@ (`string')
+061 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x516 bytes
+
+  Summary
+
+          18 .bss
+           4 .data
+        50A0 .debug$S
+          68 .debug$T
+          5D .drectve
+          3C .pdata
+          12 .rdata
+         42C .text$mn
+          40 .xdata

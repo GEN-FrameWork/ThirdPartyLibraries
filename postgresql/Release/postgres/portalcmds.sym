@@ -1,0 +1,150 @@
+
+Dump of file Release\postgres/portalcmds.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5D74, #relocs   74, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  843, #relocs   8F, #linenums    0, checksum  85A6E50
+00A 00000000 UNDEF  notype ()    External     | pg_snprintf
+00B 00000000 UNDEF  notype ()    External     | errstart
+00C 00000000 UNDEF  notype ()    External     | errfinish
+00D 00000000 UNDEF  notype ()    External     | errcode
+00E 00000000 UNDEF  notype ()    External     | errmsg
+00F 00000000 UNDEF  notype ()    External     | elog_start
+010 00000000 UNDEF  notype ()    External     | elog_finish
+011 00000000 UNDEF  notype ()    External     | pg_re_throw
+012 00000000 UNDEF  notype ()    External     | pstrdup
+013 00000000 UNDEF  notype ()    External     | copyObjectImpl
+014 00000000 UNDEF  notype ()    External     | lcons
+015 00000000 UNDEF  notype ()    External     | RequireTransactionChain
+016 00000000 UNDEF  notype ()    External     | CreateTupleDescCopy
+017 00000000 UNDEF  notype ()    External     | copyParamList
+018 00000000 UNDEF  notype ()    External     | tuplestore_skiptuples
+019 00000000 UNDEF  notype ()    External     | tuplestore_rescan
+01A 00000000 UNDEF  notype ()    External     | CreateDestReceiver
+01B 00000000 UNDEF  notype ()    External     | FreeQueryDesc
+01C 00000000 UNDEF  notype ()    External     | CreatePortal
+01D 00000000 UNDEF  notype ()    External     | MarkPortalActive
+01E 00000000 UNDEF  notype ()    External     | MarkPortalFailed
+01F 00000000 UNDEF  notype ()    External     | PortalDrop
+020 00000000 UNDEF  notype ()    External     | GetPortalByName
+021 00000000 UNDEF  notype ()    External     | PortalDefineQuery
+022 00000000 UNDEF  notype ()    External     | PortalHashTableDeleteAll
+023 00000000 SECT4  notype ()    External     | PerformCursorOpen
+024 00000210 SECT4  notype ()    External     | PerformPortalFetch
+025 00000350 SECT4  notype ()    External     | PerformPortalClose
+026 00000440 SECT4  notype ()    External     | PortalCleanup
+027 00000570 SECT4  notype ()    External     | PersistHoldablePortal
+028 00000000 UNDEF  notype ()    External     | ExecSupportsBackwardScan
+029 00000000 UNDEF  notype ()    External     | ExecutorRun
+02A 00000000 UNDEF  notype ()    External     | ExecutorFinish
+02B 00000000 UNDEF  notype ()    External     | ExecutorEnd
+02C 00000000 UNDEF  notype ()    External     | ExecutorRewind
+02D 00000000 UNDEF  notype ()    External     | SetTuplestoreDestReceiverParams
+02E 00000000 UNDEF  notype ()    External     | QueryRewrite
+02F 00000000 UNDEF  notype ()    External     | PortalStart
+030 00000000 UNDEF  notype ()    External     | PortalRunFetch
+031 00000000 UNDEF  notype ()    External     | pg_plan_query
+032 00000000 UNDEF  notype ()    External     | MemoryContextDeleteChildren
+033 00000000 UNDEF  notype ()    External     | PushActiveSnapshot
+034 00000000 UNDEF  notype ()    External     | PopActiveSnapshot
+035 00000000 UNDEF  notype ()    External     | GetActiveSnapshot
+036 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+037 00000000 UNDEF  notype ()    External     | __security_check_cookie
+038 00000000 UNDEF  notype ()    External     | _setjmp
+039 00000000 SECT4  notype       Label        | $LN38
+03A 00000210 SECT4  notype       Label        | $LN19
+03B 00000350 SECT4  notype       Label        | $LN18
+03C 00000569 SECT4  notype       Label        | $LN12
+03D 00000440 SECT4  notype       Label        | $LN13
+03E 00000843 SECT4  notype       Label        | $LN32
+03F 00000570 SECT4  notype       Label        | $LN33
+040 00000000 SECT5  notype       Static       | .xdata
+    Section length   8C, #relocs    8, #linenums    0, checksum 220FEC06
+042 00000000 SECT5  notype       Static       | $unwind$PerformCursorOpen
+043 00000000 SECT6  notype       Static       | .pdata
+    Section length   54, #relocs   15, #linenums    0, checksum C030A436
+045 00000000 SECT6  notype       Static       | $pdata$PerformCursorOpen
+046 0000001C SECT5  notype       Static       | $unwind$PerformPortalFetch
+047 0000000C SECT6  notype       Static       | $pdata$PerformPortalFetch
+048 00000030 SECT5  notype       Static       | $unwind$PerformPortalClose
+049 00000018 SECT6  notype       Static       | $pdata$PerformPortalClose
+04A 00000038 SECT5  notype       Static       | $chain$0$PerformPortalClose
+04B 00000024 SECT6  notype       Static       | $pdata$0$PerformPortalClose
+04C 0000004C SECT5  notype       Static       | $chain$2$PerformPortalClose
+04D 00000030 SECT6  notype       Static       | $pdata$2$PerformPortalClose
+04E 00000060 SECT5  notype       Static       | $unwind$PortalCleanup
+04F 0000003C SECT6  notype       Static       | $pdata$PortalCleanup
+050 00000070 SECT5  notype       Static       | $unwind$PersistHoldablePortal
+051 00000048 SECT6  notype       Static       | $pdata$PersistHoldablePortal
+052 00000000 UNDEF  notype       External     | error_context_stack
+053 00000000 UNDEF  notype       External     | PG_exception_stack
+054 00000000 UNDEF  notype       External     | CurrentMemoryContext
+055 00000000 UNDEF  notype       External     | None_Receiver
+056 00000000 UNDEF  notype       External     | CurrentResourceOwner
+057 00000000 UNDEF  notype       External     | ActivePortal
+058 00000000 UNDEF  notype       External     | PortalContext
+059 00000000 SECT7  notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum  1D1F355, selection    2 (pick any)
+05B 00000000 SECT7  notype       External     | ??_C@_0BC@JJDFMDOH@PerformCursorOpen?$AA@ (`string')
+05C 00000000 SECT8  notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum E52C2B35, selection    2 (pick any)
+05E 00000000 SECT8  notype       External     | ??_C@_0CC@FLKCLIOA@src?1backend?1commands?1portalcmds?4@ (`string')
+05F 00000000 SECT9  notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 422F0BB1, selection    2 (pick any)
+061 00000000 SECT9  notype       External     | ??_C@_0CH@DNCCAAGO@invalid?5cursor?5name?3?5must?5not?5be@ (`string')
+062 00000000 SECTA  notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 36670BBE, selection    2 (pick any)
+064 00000000 SECTA  notype       External     | ??_C@_0P@BOELPHKG@DECLARE?5CURSOR?$AA@ (`string')
+065 00000000 SECTB  notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 44A8A5B0, selection    2 (pick any)
+067 00000000 SECTB  notype       External     | ??_C@_0CH@DLKFKOGP@non?9SELECT?5statement?5in?5DECLARE?5@ (`string')
+068 00000000 SECTC  notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum D06ADE7B, selection    2 (pick any)
+06A 00000000 SECTC  notype       External     | ??_C@_06LCPJPOPK@SELECT?$AA@ (`string')
+06B 00000000 SECTD  notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum A883449F, selection    2 (pick any)
+06D 00000000 SECTD  notype       External     | ??_C@_0BD@INHEHCAP@PerformPortalFetch?$AA@ (`string')
+06E 00000000 SECTE  notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 2D796B79, selection    2 (pick any)
+070 00000000 SECTE  notype       External     | ??_C@_0BL@MIPMMGDF@cursor?5?$CC?$CFs?$CC?5does?5not?5exist?$AA@ (`string')
+071 00000000 SECTF  notype       Static       | .rdata
+    Section length    5, #relocs    0, #linenums    0, checksum 862B3DD1, selection    2 (pick any)
+073 00000000 SECTF  notype       External     | ??_C@_04LPPGDFDD@MOVE?$AA@ (`string')
+074 00000000 SECT10 notype       Static       | .rdata
+    Section length    6, #relocs    0, #linenums    0, checksum 47015029, selection    2 (pick any)
+076 00000000 SECT10 notype       External     | ??_C@_05JDMAOHF@FETCH?$AA@ (`string')
+077 00000000 SECT11 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum   EEF48A, selection    2 (pick any)
+079 00000000 SECT11 notype       External     | ??_C@_07JKDDNEBM@?$CFs?5?$CFllu?$AA@ (`string')
+07A 00000000 SECT12 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum DBCEBAFE, selection    2 (pick any)
+07C 00000000 SECT12 notype       External     | ??_C@_0BD@PODJIMGO@PerformPortalClose?$AA@ (`string')
+07D 00000000 SECT13 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 4BC19AB8, selection    2 (pick any)
+07F 00000000 SECT13 notype       External     | ??_C@_0BG@BMBHNEKH@PersistHoldablePortal?$AA@ (`string')
+080 00000000 SECT14 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum  5CAE506, selection    2 (pick any)
+082 00000000 SECT14 notype       External     | ??_C@_0BP@JDDMLGEJ@unexpected?5end?5of?5tuple?5stream?$AA@ (`string')
+083 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x736 bytes
+
+  Summary
+
+        5D74 .debug$S
+          68 .debug$T
+          5D .drectve
+          54 .pdata
+         121 .rdata
+         843 .text$mn
+          8C .xdata

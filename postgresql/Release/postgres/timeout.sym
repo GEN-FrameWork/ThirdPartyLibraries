@@ -1,0 +1,192 @@
+
+Dump of file Release\postgres/timeout.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4E68, #relocs   B8, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  74B, #relocs   64, #linenums    0, checksum 6DF2586F
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   D2, #relocs    8, #linenums    0, checksum 41116035, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  280, #relocs   1A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   AC, #relocs    B, #linenums    0, checksum ED64F02D, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  184, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length   99, #relocs    B, #linenums    0, checksum 77A1044B, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  134, #relocs    A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  110, #relocs    C, #linenums    0, checksum 778DCBB4, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  22C, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 UNDEF  notype       External     | __imp__errno
+01B 00000000 UNDEF  notype ()    External     | setitimer
+01C 00000000 UNDEF  notype ()    External     | pqsignal
+01D 00000000 UNDEF  notype ()    External     | errstart
+01E 00000000 UNDEF  notype ()    External     | errfinish
+01F 00000000 UNDEF  notype ()    External     | errcode
+020 00000000 UNDEF  notype ()    External     | errmsg
+021 00000000 UNDEF  notype ()    External     | elog_start
+022 00000000 UNDEF  notype ()    External     | elog_finish
+023 00000000 UNDEF  notype ()    External     | SetLatch
+024 00000000 SECT4  notype ()    External     | InitializeTimeouts
+025 00000070 SECT4  notype ()    External     | RegisterTimeout
+026 00000130 SECT4  notype ()    External     | reschedule_timeouts
+027 00000170 SECT4  notype ()    External     | enable_timeout_after
+028 000001D0 SECT4  notype ()    External     | enable_timeout_at
+029 00000220 SECT4  notype ()    External     | enable_timeouts
+02A 000002F0 SECT4  notype ()    External     | disable_timeout
+02B 00000390 SECT4  notype ()    External     | disable_timeouts
+02C 00000480 SECT4  notype ()    External     | disable_all_timeouts
+02D 00000580 SECT4  notype ()    External     | get_timeout_indicator
+02E 000005B0 SECT4  notype ()    External     | get_timeout_start_time
+02F 000005D0 SECT4  notype ()    External     | get_timeout_finish_time
+030 00000000 UNDEF  notype ()    External     | GetCurrentTimestamp
+031 00000000 UNDEF  notype ()    External     | TimestampDifference
+032 00000000 SECT7  notype ()    Static       | insert_timeout
+033 00000000 SECT9  notype ()    Static       | remove_timeout_index
+034 00000000 SECT5  notype ()    Static       | enable_timeout
+035 00000000 SECTB  notype ()    Static       | schedule_alarm
+036 000005F0 SECT4  notype ()    Static       | handle_sig_alarm
+037 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+038 00000000 UNDEF  notype ()    External     | __security_check_cookie
+039 00000070 SECT4  notype       Label        | $LN20
+03A 00000130 SECT4  notype       Label        | $LN6
+03B 00000170 SECT4  notype       Label        | $LN4
+03C 000001D0 SECT4  notype       Label        | $LN4
+03D 00000220 SECT4  notype       Label        | $LN22
+03E 000002F0 SECT4  notype       Label        | $LN18
+03F 00000390 SECT4  notype       Label        | $LN25
+040 00000480 SECT4  notype       Label        | $LN31
+041 00000000 SECTD  notype       Static       | .xdata
+    Section length  120, #relocs   19, #linenums    0, checksum  A295039
+043 00000000 SECTD  notype       Static       | $unwind$RegisterTimeout
+044 00000000 SECTE  notype       Static       | .pdata
+    Section length   CC, #relocs   33, #linenums    0, checksum 313D7DFD
+046 00000000 SECTE  notype       Static       | $pdata$RegisterTimeout
+047 0000000C SECTD  notype       Static       | $chain$0$RegisterTimeout
+048 0000000C SECTE  notype       Static       | $pdata$0$RegisterTimeout
+049 00000020 SECTD  notype       Static       | $chain$1$RegisterTimeout
+04A 00000018 SECTE  notype       Static       | $pdata$1$RegisterTimeout
+04B 00000030 SECTD  notype       Static       | $unwind$reschedule_timeouts
+04C 00000024 SECTE  notype       Static       | $pdata$reschedule_timeouts
+04D 00000038 SECTD  notype       Static       | $unwind$enable_timeout_after
+04E 00000030 SECTE  notype       Static       | $pdata$enable_timeout_after
+04F 00000048 SECTD  notype       Static       | $unwind$enable_timeout_at
+050 0000003C SECTE  notype       Static       | $pdata$enable_timeout_at
+051 00000058 SECTD  notype       Static       | $unwind$enable_timeouts
+052 00000048 SECTE  notype       Static       | $pdata$enable_timeouts
+053 0000006C SECTD  notype       Static       | $unwind$disable_timeout
+054 00000054 SECTE  notype       Static       | $pdata$disable_timeout
+055 00000078 SECTD  notype       Static       | $unwind$disable_timeouts
+056 00000060 SECTE  notype       Static       | $pdata$disable_timeouts
+057 00000080 SECTD  notype       Static       | $chain$2$disable_timeouts
+058 0000006C SECTE  notype       Static       | $pdata$2$disable_timeouts
+059 0000009C SECTD  notype       Static       | $chain$5$disable_timeouts
+05A 00000078 SECTE  notype       Static       | $pdata$5$disable_timeouts
+05B 000000B8 SECTD  notype       Static       | $chain$6$disable_timeouts
+05C 00000084 SECTE  notype       Static       | $pdata$6$disable_timeouts
+05D 000000C8 SECTD  notype       Static       | $chain$7$disable_timeouts
+05E 00000090 SECTE  notype       Static       | $pdata$7$disable_timeouts
+05F 000000D8 SECTD  notype       Static       | $unwind$disable_all_timeouts
+060 0000009C SECTE  notype       Static       | $pdata$disable_all_timeouts
+061 00000000 SECTF  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0x7)
+063 00000000 SECTF  notype       Static       | $unwind$insert_timeout
+064 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FDE2F2C3, selection    5 (pick associative Section 0x7)
+066 00000000 SECT10 notype       Static       | $pdata$insert_timeout
+067 00000000 SECT11 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum F4D9A8A3, selection    5 (pick associative Section 0x9)
+069 00000000 SECT11 notype       Static       | $unwind$remove_timeout_index
+06A 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 30CFAFDA, selection    5 (pick associative Section 0x9)
+06C 00000000 SECT12 notype       Static       | $pdata$remove_timeout_index
+06D 00000000 SECT13 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum C2D1B755, selection    5 (pick associative Section 0x5)
+06F 00000000 SECT13 notype       Static       | $unwind$enable_timeout
+070 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 44387161, selection    5 (pick associative Section 0x5)
+072 00000000 SECT14 notype       Static       | $pdata$enable_timeout
+073 00000000 SECT15 notype       Static       | .xdata
+    Section length   10, #relocs    1, #linenums    0, checksum EA58436F, selection    5 (pick associative Section 0xB)
+075 00000000 SECT15 notype       Static       | $unwind$schedule_alarm
+076 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DACC3A9F, selection    5 (pick associative Section 0xB)
+078 00000000 SECT16 notype       Static       | $pdata$schedule_alarm
+079 000000EC SECTD  notype       Static       | $unwind$handle_sig_alarm
+07A 000000A8 SECTE  notype       Static       | $pdata$handle_sig_alarm
+07B 000000F4 SECTD  notype       Static       | $chain$2$handle_sig_alarm
+07C 000000B4 SECTE  notype       Static       | $pdata$2$handle_sig_alarm
+07D 00000110 SECTD  notype       Static       | $chain$3$handle_sig_alarm
+07E 000000C0 SECTE  notype       Static       | $pdata$3$handle_sig_alarm
+07F 00000000 UNDEF  notype       External     | InterruptHoldoffCount
+080 00000000 UNDEF  notype       External     | MyLatch
+081 00000000 SECT17 notype       Static       | .bss
+    Section length  290, #relocs    0, #linenums    0, checksum        0
+083 00000000 SECT17 notype       Static       | all_timeouts
+084 00000200 SECT17 notype       Static       | all_timeouts_initialized
+085 00000204 SECT17 notype       Static       | num_active_timeouts
+086 00000210 SECT17 notype       Static       | active_timeouts
+087 00000208 SECT17 notype       Static       | alarm_enabled
+088 00000000 SECT18 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 996240F9, selection    2 (pick any)
+08A 00000000 SECT18 notype       External     | ??_C@_0P@LBEOLMOB@insert_timeout?$AA@ (`string')
+08B 00000000 SECT19 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 3F55E18A, selection    2 (pick any)
+08D 00000000 SECT19 notype       External     | ??_C@_0CB@LKNGCEPI@src?1backend?1utils?1misc?1timeout?4c@ (`string')
+08E 00000000 SECT1A notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum D0EE0F68, selection    2 (pick any)
+090 00000000 SECT1A notype       External     | ??_C@_0CE@EFKHECEC@timeout?5index?5?$CFd?5out?5of?5range?50?4@ (`string')
+091 00000000 SECT1B notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 41DE5A3C, selection    2 (pick any)
+093 00000000 SECT1B notype       External     | ??_C@_0BF@PPCFGAEI@remove_timeout_index?$AA@ (`string')
+094 00000000 SECT1C notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 9FE6995A, selection    2 (pick any)
+096 00000000 SECT1C notype       External     | ??_C@_0P@LHMKGFEC@schedule_alarm?$AA@ (`string')
+097 00000000 SECT1D notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 13F6A94A, selection    2 (pick any)
+099 00000000 SECT1D notype       External     | ??_C@_0CD@OFPBABIC@could?5not?5enable?5SIGALRM?5timer?3?5@ (`string')
+09A 00000000 SECT1E notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum FA54548D, selection    2 (pick any)
+09C 00000000 SECT1E notype       External     | ??_C@_0BA@OJBAOACH@RegisterTimeout?$AA@ (`string')
+09D 00000000 SECT1F notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 526A970B, selection    2 (pick any)
+09F 00000000 SECT1F notype       External     | ??_C@_0CA@LEJPDNFJ@cannot?5add?5more?5timeout?5reasons?$AA@ (`string')
+0A0 00000000 SECT20 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 17360A75, selection    2 (pick any)
+0A2 00000000 SECT20 notype       External     | ??_C@_0BA@EHCLONP@enable_timeouts?$AA@ (`string')
+0A3 00000000 SECT21 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 5AA875DA, selection    2 (pick any)
+0A5 00000000 SECT21 notype       External     | ??_C@_0BN@KOADEPAD@unrecognized?5timeout?5type?5?$CFd?$AA@ (`string')
+0A6 00000000 SECT22 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 60C30EB6, selection    2 (pick any)
+0A8 00000000 SECT22 notype       External     | ??_C@_0BF@NODIDEMC@disable_all_timeouts?$AA@ (`string')
+0A9 00000000 SECT23 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum E7B45060, selection    2 (pick any)
+0AB 00000000 SECT23 notype       External     | ??_C@_0CE@HCPNBNEK@could?5not?5disable?5SIGALRM?5timer?3@ (`string')
+0AC 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x8CA bytes
+
+  Summary
+
+         290 .bss
+        55CC .debug$S
+          68 .debug$T
+          5D .drectve
+          FC .pdata
+         131 .rdata
+         A72 .text$mn
+         15C .xdata

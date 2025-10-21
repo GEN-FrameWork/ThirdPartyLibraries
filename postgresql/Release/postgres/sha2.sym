@@ -1,0 +1,142 @@
+
+Dump of file Release\postgres/sha2.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4790, #relocs   CC, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length  440, #relocs    0, #linenums    0, checksum AB6EF102
+00A 00000000 SECT4  notype       Static       | sha224_initial_hash_value
+00B 00000020 SECT4  notype       Static       | sha256_initial_hash_value
+00C 00000040 SECT4  notype       Static       | sha384_initial_hash_value
+00D 00000080 SECT4  notype       Static       | sha512_initial_hash_value
+00E 00000000 SECT5  notype       Static       | .text$mn
+    Section length  AB8, #relocs   20, #linenums    0, checksum BA923458
+010 00000000 SECT6  notype       Static       | .text$mn
+    Section length  12C, #relocs    4, #linenums    0, checksum  3931ADE, selection    1 (pick no duplicates)
+012 00000000 SECT7  notype       Static       | .debug$S
+    Section length  1D8, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+014 00000000 SECT8  notype       Static       | .text$mn
+    Section length  268, #relocs    4, #linenums    0, checksum D66F03A6, selection    1 (pick no duplicates)
+016 00000000 SECT9  notype       Static       | .debug$S
+    Section length  4B8, #relocs   50, #linenums    0, checksum        0, selection    5 (pick associative Section 0x8)
+018 00000000 SECTA  notype       Static       | .text$mn
+    Section length  15A, #relocs    6, #linenums    0, checksum 7FA5F971, selection    1 (pick no duplicates)
+01A 00000000 SECTB  notype       Static       | .debug$S
+    Section length  210, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0xA)
+01C 00000000 SECTC  notype       Static       | .text$mn
+    Section length  31A, #relocs    4, #linenums    0, checksum  88F98A2, selection    1 (pick no duplicates)
+01E 00000000 SECTD  notype       Static       | .debug$S
+    Section length  4E0, #relocs   52, #linenums    0, checksum        0, selection    5 (pick associative Section 0xC)
+020 00000000 SECT5  notype ()    External     | pg_sha224_init
+021 00000050 SECT5  notype ()    External     | pg_sha224_update
+022 00000060 SECT5  notype ()    External     | pg_sha224_final
+023 000001C0 SECT5  notype ()    External     | pg_sha256_init
+024 00000210 SECT5  notype ()    External     | pg_sha256_update
+025 000002F0 SECT5  notype ()    External     | pg_sha256_final
+026 00000450 SECT5  notype ()    External     | pg_sha384_init
+027 000004B0 SECT5  notype ()    External     | pg_sha384_update
+028 000004C0 SECT5  notype ()    External     | pg_sha384_final
+029 000006C0 SECT5  notype ()    External     | pg_sha512_init
+02A 00000720 SECT5  notype ()    External     | pg_sha512_update
+02B 00000840 SECT5  notype ()    External     | pg_sha512_final
+02C 00000000 SECTA  notype ()    Static       | SHA512_Last
+02D 00000000 SECT8  notype ()    Static       | SHA256_Transform
+02E 00000000 SECTC  notype ()    Static       | SHA512_Transform
+02F 00000000 SECT6  notype ()    Static       | SHA256_Last
+030 00000000 UNDEF  notype ()    External     | memcpy
+031 00000000 UNDEF  notype ()    External     | memset
+032 00000060 SECT5  notype       Label        | $LN20
+033 00000210 SECT5  notype       Label        | $LN17
+034 000002F0 SECT5  notype       Label        | $LN20
+035 00000450 SECT5  notype       Label        | $LN6
+036 000004C0 SECT5  notype       Label        | $LN18
+037 000006C0 SECT5  notype       Label        | $LN6
+038 00000720 SECT5  notype       Label        | $LN22
+039 00000840 SECT5  notype       Label        | $LN20
+03A 00000000 SECTE  notype       Static       | .xdata
+    Section length   A8, #relocs    C, #linenums    0, checksum 387A6547
+03C 00000000 SECTE  notype       Static       | $unwind$pg_sha224_final
+03D 00000000 SECTF  notype       Static       | .pdata
+    Section length   90, #relocs   24, #linenums    0, checksum DBB4AC97
+03F 00000000 SECTF  notype       Static       | $pdata$pg_sha224_final
+040 0000000C SECTE  notype       Static       | $unwind$pg_sha256_update
+041 0000000C SECTF  notype       Static       | $pdata$pg_sha256_update
+042 0000001C SECTE  notype       Static       | $chain$0$pg_sha256_update
+043 00000018 SECTF  notype       Static       | $pdata$0$pg_sha256_update
+044 00000030 SECTE  notype       Static       | $chain$1$pg_sha256_update
+045 00000024 SECTF  notype       Static       | $pdata$1$pg_sha256_update
+046 00000040 SECTE  notype       Static       | $unwind$pg_sha256_final
+047 00000030 SECTF  notype       Static       | $pdata$pg_sha256_final
+048 0000004C SECTE  notype       Static       | $unwind$pg_sha384_init
+049 0000003C SECTF  notype       Static       | $pdata$pg_sha384_init
+04A 00000054 SECTE  notype       Static       | $unwind$pg_sha384_final
+04B 00000048 SECTF  notype       Static       | $pdata$pg_sha384_final
+04C 00000060 SECTE  notype       Static       | $unwind$pg_sha512_init
+04D 00000054 SECTF  notype       Static       | $pdata$pg_sha512_init
+04E 00000068 SECTE  notype       Static       | $unwind$pg_sha512_update
+04F 00000060 SECTF  notype       Static       | $pdata$pg_sha512_update
+050 00000078 SECTE  notype       Static       | $chain$0$pg_sha512_update
+051 0000006C SECTF  notype       Static       | $pdata$0$pg_sha512_update
+052 0000008C SECTE  notype       Static       | $chain$1$pg_sha512_update
+053 00000078 SECTF  notype       Static       | $pdata$1$pg_sha512_update
+054 0000009C SECTE  notype       Static       | $unwind$pg_sha512_final
+055 00000084 SECTF  notype       Static       | $pdata$pg_sha512_final
+056 00000000 SECT10 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0xA)
+058 00000000 SECT10 notype       Static       | $unwind$SHA512_Last
+059 00000000 SECT11 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6291E4BA, selection    5 (pick associative Section 0xA)
+05B 00000000 SECT11 notype       Static       | $pdata$SHA512_Last
+05C 00000000 SECT12 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum  F27CC00, selection    5 (pick associative Section 0x8)
+05E 00000000 SECT12 notype       Static       | $unwind$SHA256_Transform
+05F 00000000 SECT13 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 9491AA27, selection    5 (pick associative Section 0x8)
+061 00000000 SECT13 notype       Static       | $pdata$SHA256_Transform
+062 00000000 SECT14 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 64AB563C, selection    5 (pick associative Section 0xC)
+064 00000000 SECT14 notype       Static       | $unwind$SHA512_Transform
+065 00000000 SECT15 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DC93377E, selection    5 (pick associative Section 0xC)
+067 00000000 SECT15 notype       Static       | $pdata$SHA512_Transform
+068 00000000 SECT16 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 8205E933, selection    5 (pick associative Section 0x6)
+06A 00000000 SECT16 notype       Static       | $unwind$SHA256_Last
+06B 00000000 SECT17 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 72EAA8A7, selection    5 (pick associative Section 0x6)
+06D 00000000 SECT17 notype       Static       | $pdata$SHA256_Last
+06E 00000000 SECT18 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum F26F77C1, selection    5 (pick associative Section 0x6)
+070 00000000 SECT18 notype       Static       | $chain$0$SHA256_Last
+071 00000000 SECT19 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2E8C32C6, selection    5 (pick associative Section 0x6)
+073 00000000 SECT19 notype       Static       | $pdata$0$SHA256_Last
+074 00000000 SECT1A notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum CBBD424B, selection    5 (pick associative Section 0x6)
+076 00000000 SECT1A notype       Static       | $chain$1$SHA256_Last
+077 00000000 SECT1B notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D786DED6, selection    5 (pick associative Section 0x6)
+079 00000000 SECT1B notype       Static       | $pdata$1$SHA256_Last
+07A 000000C0 SECT4  notype       Static       | K256
+07B 000001C0 SECT4  notype       Static       | K512
+
+String Table Size = 0x4B2 bytes
+
+  Summary
+
+        5510 .debug$S
+          68 .debug$T
+          5D .drectve
+          D8 .pdata
+         440 .rdata
+        12C0 .text$mn
+         110 .xdata

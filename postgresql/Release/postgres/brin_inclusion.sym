@@ -1,0 +1,162 @@
+
+Dump of file Release\postgres/brin_inclusion.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 505C, #relocs   84, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  6D5, #relocs   41, #linenums    0, checksum 811AD5AC
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   BB, #relocs    3, #linenums    0, checksum 461918F3, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  208, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  169, #relocs    A, #linenums    0, checksum B3637877, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  374, #relocs   26, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | elog_start
+013 00000000 UNDEF  notype ()    External     | elog_finish
+014 00000000 UNDEF  notype ()    External     | palloc0
+015 00000000 UNDEF  notype ()    External     | pfree
+016 00000000 UNDEF  notype ()    External     | fmgr_info_cxt
+017 00000000 UNDEF  notype ()    External     | fmgr_info_copy
+018 00000000 UNDEF  notype ()    External     | FunctionCall1Coll
+019 00000000 UNDEF  notype ()    External     | FunctionCall2Coll
+01A 00000000 UNDEF  notype ()    External     | index_getprocid
+01B 00000000 UNDEF  notype ()    External     | index_getprocinfo
+01C 00000000 UNDEF  notype ()    External     | lookup_type_cache
+01D 00000000 SECT4  notype ()    External     | brin_inclusion_opcinfo
+01E 00000070 SECT4  notype ()    External     | brin_inclusion_add_value
+01F 00000240 SECT4  notype ()    External     | brin_inclusion_consistent
+020 00000550 SECT4  notype ()    External     | brin_inclusion_union
+021 00000000 UNDEF  notype ()    External     | datumCopy
+022 00000000 UNDEF  notype ()    External     | get_opcode
+023 00000000 UNDEF  notype ()    External     | SearchSysCache
+024 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+025 00000000 UNDEF  notype ()    External     | SysCacheGetAttr
+026 00000000 SECT5  notype ()    Static       | inclusion_get_procinfo
+027 00000000 SECT7  notype ()    Static       | inclusion_get_strategy_procinfo
+028 00000000 SECT4  notype       Label        | $LN11
+029 00000070 SECT4  notype       Label        | $LN24
+02A 000004DC SECT4  notype       Static       | $LN37
+02B 0000030F SECT4  notype       Label        | $LN14
+02C 0000031A SECT4  notype       Label        | $LN15
+02D 00000325 SECT4  notype       Label        | $LN17
+02E 00000330 SECT4  notype       Label        | $LN18
+02F 0000033B SECT4  notype       Label        | $LN19
+030 00000346 SECT4  notype       Label        | $LN20
+031 00000351 SECT4  notype       Label        | $LN21
+032 0000035C SECT4  notype       Label        | $LN22
+033 00000362 SECT4  notype       Label        | $LN23
+034 0000036D SECT4  notype       Label        | $LN25
+035 000003C4 SECT4  notype       Label        | $LN27
+036 000003F7 SECT4  notype       Label        | $LN29
+037 0000042A SECT4  notype       Label        | $LN31
+038 0000045D SECT4  notype       Label        | $LN33
+039 0000048E SECT4  notype       Label        | $LN6
+03A 00000240 SECT4  notype       Label        | $LN47
+03B 00000550 SECT4  notype       Label        | $LN23
+03C 00000000 SECT9  notype       Static       | .xdata
+    Section length   D8, #relocs   15, #linenums    0, checksum BFC45746
+03E 00000000 SECT9  notype       Static       | $unwind$brin_inclusion_opcinfo
+03F 00000000 SECTA  notype       Static       | .pdata
+    Section length   84, #relocs   21, #linenums    0, checksum 5EE8A356
+041 00000000 SECTA  notype       Static       | $pdata$brin_inclusion_opcinfo
+042 00000010 SECT9  notype       Static       | $unwind$brin_inclusion_add_value
+043 0000000C SECTA  notype       Static       | $pdata$brin_inclusion_add_value
+044 00000024 SECT9  notype       Static       | $chain$1$brin_inclusion_add_value
+045 00000018 SECTA  notype       Static       | $pdata$1$brin_inclusion_add_value
+046 0000003C SECT9  notype       Static       | $chain$2$brin_inclusion_add_value
+047 00000024 SECTA  notype       Static       | $pdata$2$brin_inclusion_add_value
+048 0000004C SECT9  notype       Static       | $unwind$brin_inclusion_consistent
+049 00000030 SECTA  notype       Static       | $pdata$brin_inclusion_consistent
+04A 0000005C SECT9  notype       Static       | $chain$0$brin_inclusion_consistent
+04B 0000003C SECTA  notype       Static       | $pdata$0$brin_inclusion_consistent
+04C 00000070 SECT9  notype       Static       | $chain$5$brin_inclusion_consistent
+04D 00000048 SECTA  notype       Static       | $pdata$5$brin_inclusion_consistent
+04E 00000090 SECT9  notype       Static       | $chain$6$brin_inclusion_consistent
+04F 00000054 SECTA  notype       Static       | $pdata$6$brin_inclusion_consistent
+050 000000A0 SECT9  notype       Static       | $unwind$brin_inclusion_union
+051 00000060 SECTA  notype       Static       | $pdata$brin_inclusion_union
+052 000000B0 SECT9  notype       Static       | $chain$1$brin_inclusion_union
+053 0000006C SECTA  notype       Static       | $pdata$1$brin_inclusion_union
+054 000000C8 SECT9  notype       Static       | $chain$2$brin_inclusion_union
+055 00000078 SECTA  notype       Static       | $pdata$2$brin_inclusion_union
+056 00000000 SECTB  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum CBA82A37, selection    5 (pick associative Section 0x5)
+058 00000000 SECTB  notype       Static       | $unwind$inclusion_get_procinfo
+059 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FA78D958, selection    5 (pick associative Section 0x5)
+05B 00000000 SECTC  notype       Static       | $pdata$inclusion_get_procinfo
+05C 00000000 SECTD  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 7AFD063E, selection    5 (pick associative Section 0x5)
+05E 00000000 SECTD  notype       Static       | $chain$0$inclusion_get_procinfo
+05F 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 882F6937, selection    5 (pick associative Section 0x5)
+061 00000000 SECTE  notype       Static       | $pdata$0$inclusion_get_procinfo
+062 00000000 SECTF  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 432F33B4, selection    5 (pick associative Section 0x5)
+064 00000000 SECTF  notype       Static       | $chain$1$inclusion_get_procinfo
+065 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 501EBCDA, selection    5 (pick associative Section 0x5)
+067 00000000 SECT10 notype       Static       | $pdata$1$inclusion_get_procinfo
+068 00000000 SECT11 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 3E2E5692, selection    5 (pick associative Section 0x5)
+06A 00000000 SECT11 notype       Static       | $chain$2$inclusion_get_procinfo
+06B 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FF729315, selection    5 (pick associative Section 0x5)
+06D 00000000 SECT12 notype       Static       | $pdata$2$inclusion_get_procinfo
+06E 00000000 SECT13 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 618542F7, selection    5 (pick associative Section 0x7)
+070 00000000 SECT13 notype       Static       | $unwind$inclusion_get_strategy_procinfo
+071 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C83E900B, selection    5 (pick associative Section 0x7)
+073 00000000 SECT14 notype       Static       | $pdata$inclusion_get_strategy_procinfo
+074 00000000 SECT15 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 7B8EAF18, selection    5 (pick associative Section 0x7)
+076 00000000 SECT15 notype       Static       | $chain$2$inclusion_get_strategy_procinfo
+077 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DEDC8DC9, selection    5 (pick associative Section 0x7)
+079 00000000 SECT16 notype       Static       | $pdata$2$inclusion_get_strategy_procinfo
+07A 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 71697AE7, selection    5 (pick associative Section 0x7)
+07C 00000000 SECT17 notype       Static       | $chain$3$inclusion_get_strategy_procinfo
+07D 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 922A4316, selection    5 (pick associative Section 0x7)
+07F 00000000 SECT18 notype       Static       | $pdata$3$inclusion_get_strategy_procinfo
+080 00000000 SECT19 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 68B8E511, selection    2 (pick any)
+082 00000000 SECT19 notype       External     | ??_C@_0BK@DIKLKENM@brin_inclusion_consistent?$AA@ (`string')
+083 00000000 SECT1A notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum 1220C5A0, selection    2 (pick any)
+085 00000000 SECT1A notype       External     | ??_C@_0CJ@IDFCLKPF@src?1backend?1access?1brin?1brin_inc@ (`string')
+086 00000000 SECT1B notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum E28BB2CD, selection    2 (pick any)
+088 00000000 SECT1B notype       External     | ??_C@_0BL@HAOBPIB@invalid?5strategy?5number?5?$CFd?$AA@ (`string')
+089 00000000 SECT1C notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 33AFFFEA, selection    2 (pick any)
+08B 00000000 SECT1C notype       External     | ??_C@_0CA@NFFKFFLI@inclusion_get_strategy_procinfo?$AA@ (`string')
+08C 00000000 SECT1D notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum  F453653, selection    2 (pick any)
+08E 00000000 SECT1D notype       External     | ??_C@_0CK@BENFOBFH@missing?5operator?5?$CFd?$CI?$CFu?0?$CFu?$CJ?5in?5op@ (`string')
+08F 00000000 UNDEF  notype       External     | __ImageBase
+
+String Table Size = 0x756 bytes
+
+  Summary
+
+        55D8 .debug$S
+          68 .debug$T
+          5D .drectve
+          D8 .pdata
+          A8 .rdata
+         8F9 .text$mn
+         160 .xdata

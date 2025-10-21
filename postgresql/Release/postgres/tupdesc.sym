@@ -1,0 +1,157 @@
+
+Dump of file Release\postgres/tupdesc.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6670, #relocs  174, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  ED3, #relocs   34, #linenums    0, checksum 47A8B2D3
+00A 00000000 UNDEF  notype ()    External     | errstart
+00B 00000000 UNDEF  notype ()    External     | errfinish
+00C 00000000 UNDEF  notype ()    External     | errcode
+00D 00000000 UNDEF  notype ()    External     | errmsg
+00E 00000000 UNDEF  notype ()    External     | elog_start
+00F 00000000 UNDEF  notype ()    External     | elog_finish
+010 00000000 UNDEF  notype ()    External     | palloc
+011 00000000 UNDEF  notype ()    External     | palloc0
+012 00000000 UNDEF  notype ()    External     | pfree
+013 00000000 UNDEF  notype ()    External     | pstrdup
+014 00000000 SECT4  notype ()    External     | CreateTemplateTupleDesc
+015 000000B0 SECT4  notype ()    External     | CreateTupleDesc
+016 00000110 SECT4  notype ()    External     | CreateTupleDescCopy
+017 000001F0 SECT4  notype ()    External     | CreateTupleDescCopyConstr
+018 00000420 SECT4  notype ()    External     | TupleDescCopyEntry
+019 000004F0 SECT4  notype ()    External     | FreeTupleDesc
+01A 000005E0 SECT4  notype ()    External     | IncrTupleDescRefCount
+01B 00000620 SECT4  notype ()    External     | DecrTupleDescRefCount
+01C 00000660 SECT4  notype ()    External     | equalTupleDescs
+01D 00000970 SECT4  notype ()    External     | TupleDescInitEntry
+01E 00000AD0 SECT4  notype ()    External     | TupleDescInitBuiltinEntry
+01F 00000BB0 SECT4  notype ()    External     | TupleDescInitEntryCollation
+020 00000BD0 SECT4  notype ()    External     | BuildDescForRelation
+021 00000DE0 SECT4  notype ()    External     | BuildDescFromLists
+022 00000000 UNDEF  notype ()    External     | GetUserId
+023 00000000 UNDEF  notype ()    External     | typenameTypeIdAndMod
+024 00000000 UNDEF  notype ()    External     | GetColumnDefCollation
+025 00000000 UNDEF  notype ()    External     | pg_type_aclcheck
+026 00000000 UNDEF  notype ()    External     | aclcheck_error_type
+027 00000000 UNDEF  notype ()    External     | namestrcpy
+028 00000000 UNDEF  notype ()    External     | ResourceOwnerEnlargeTupleDescs
+029 00000000 UNDEF  notype ()    External     | ResourceOwnerRememberTupleDesc
+02A 00000000 UNDEF  notype ()    External     | ResourceOwnerForgetTupleDesc
+02B 00000000 UNDEF  notype ()    External     | SearchSysCache
+02C 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+02D 00000000 UNDEF  notype ()    External     | memcpy
+02E 00000000 SECT4  notype       Label        | $LN15
+02F 000000B0 SECT4  notype       Label        | $LN4
+030 00000110 SECT4  notype       Label        | $LN11
+031 000001F0 SECT4  notype       Label        | $LN43
+032 00000420 SECT4  notype       Label        | $LN4
+033 000004F0 SECT4  notype       Label        | $LN24
+034 000005E0 SECT4  notype       Label        | $LN4
+035 00000620 SECT4  notype       Label        | $LN5
+036 00000660 SECT4  notype       Label        | $LN111
+037 00000970 SECT4  notype       Label        | $LN25
+038 00000AD0 SECT4  notype       Label        | $LN11
+039 00000BD0 SECT4  notype       Label        | $LN40
+03A 00000DE0 SECT4  notype       Label        | $LN35
+03B 00000000 SECT5  notype       Static       | .xdata
+    Section length  220, #relocs   33, #linenums    0, checksum BD447980
+03D 00000000 SECT5  notype       Static       | $unwind$CreateTemplateTupleDesc
+03E 00000000 SECT6  notype       Static       | .pdata
+    Section length  168, #relocs   5A, #linenums    0, checksum C651CAE6
+040 00000000 SECT6  notype       Static       | $pdata$CreateTemplateTupleDesc
+041 00000014 SECT5  notype       Static       | $unwind$CreateTupleDesc
+042 0000000C SECT6  notype       Static       | $pdata$CreateTupleDesc
+043 00000024 SECT5  notype       Static       | $unwind$CreateTupleDescCopy
+044 00000018 SECT6  notype       Static       | $pdata$CreateTupleDescCopy
+045 0000002C SECT5  notype       Static       | $unwind$CreateTupleDescCopyConstr
+046 00000024 SECT6  notype       Static       | $pdata$CreateTupleDescCopyConstr
+047 00000038 SECT5  notype       Static       | $chain$1$CreateTupleDescCopyConstr
+048 00000030 SECT6  notype       Static       | $pdata$1$CreateTupleDescCopyConstr
+049 00000050 SECT5  notype       Static       | $chain$2$CreateTupleDescCopyConstr
+04A 0000003C SECT6  notype       Static       | $pdata$2$CreateTupleDescCopyConstr
+04B 00000064 SECT5  notype       Static       | $chain$3$CreateTupleDescCopyConstr
+04C 00000048 SECT6  notype       Static       | $pdata$3$CreateTupleDescCopyConstr
+04D 00000074 SECT5  notype       Static       | $chain$4$CreateTupleDescCopyConstr
+04E 00000054 SECT6  notype       Static       | $pdata$4$CreateTupleDescCopyConstr
+04F 00000088 SECT5  notype       Static       | $chain$5$CreateTupleDescCopyConstr
+050 00000060 SECT6  notype       Static       | $pdata$5$CreateTupleDescCopyConstr
+051 00000098 SECT5  notype       Static       | $chain$6$CreateTupleDescCopyConstr
+052 0000006C SECT6  notype       Static       | $pdata$6$CreateTupleDescCopyConstr
+053 000000A8 SECT5  notype       Static       | $unwind$TupleDescCopyEntry
+054 00000078 SECT6  notype       Static       | $pdata$TupleDescCopyEntry
+055 000000B0 SECT5  notype       Static       | $unwind$FreeTupleDesc
+056 00000084 SECT6  notype       Static       | $pdata$FreeTupleDesc
+057 000000B8 SECT5  notype       Static       | $chain$2$FreeTupleDesc
+058 00000090 SECT6  notype       Static       | $pdata$2$FreeTupleDesc
+059 000000D4 SECT5  notype       Static       | $chain$3$FreeTupleDesc
+05A 0000009C SECT6  notype       Static       | $pdata$3$FreeTupleDesc
+05B 000000E4 SECT5  notype       Static       | $unwind$IncrTupleDescRefCount
+05C 000000A8 SECT6  notype       Static       | $pdata$IncrTupleDescRefCount
+05D 000000EC SECT5  notype       Static       | $unwind$DecrTupleDescRefCount
+05E 000000B4 SECT6  notype       Static       | $pdata$DecrTupleDescRefCount
+05F 000000F4 SECT5  notype       Static       | $unwind$equalTupleDescs
+060 000000C0 SECT6  notype       Static       | $pdata$equalTupleDescs
+061 000000FC SECT5  notype       Static       | $chain$2$equalTupleDescs
+062 000000CC SECT6  notype       Static       | $pdata$2$equalTupleDescs
+063 00000118 SECT5  notype       Static       | $chain$3$equalTupleDescs
+064 000000D8 SECT6  notype       Static       | $pdata$3$equalTupleDescs
+065 0000012C SECT5  notype       Static       | $chain$4$equalTupleDescs
+066 000000E4 SECT6  notype       Static       | $pdata$4$equalTupleDescs
+067 0000013C SECT5  notype       Static       | $chain$6$equalTupleDescs
+068 000000F0 SECT6  notype       Static       | $pdata$6$equalTupleDescs
+069 0000015C SECT5  notype       Static       | $chain$8$equalTupleDescs
+06A 000000FC SECT6  notype       Static       | $pdata$8$equalTupleDescs
+06B 0000017C SECT5  notype       Static       | $unwind$TupleDescInitEntry
+06C 00000108 SECT6  notype       Static       | $pdata$TupleDescInitEntry
+06D 00000190 SECT5  notype       Static       | $unwind$TupleDescInitBuiltinEntry
+06E 00000114 SECT6  notype       Static       | $pdata$TupleDescInitBuiltinEntry
+06F 000001A4 SECT5  notype       Static       | $unwind$BuildDescForRelation
+070 00000120 SECT6  notype       Static       | $pdata$BuildDescForRelation
+071 000001B8 SECT5  notype       Static       | $chain$3$BuildDescForRelation
+072 0000012C SECT6  notype       Static       | $pdata$3$BuildDescForRelation
+073 000001D4 SECT5  notype       Static       | $chain$4$BuildDescForRelation
+074 00000138 SECT6  notype       Static       | $pdata$4$BuildDescForRelation
+075 000001E4 SECT5  notype       Static       | $unwind$BuildDescFromLists
+076 00000144 SECT6  notype       Static       | $pdata$BuildDescFromLists
+077 000001FC SECT5  notype       Static       | $chain$0$BuildDescFromLists
+078 00000150 SECT6  notype       Static       | $pdata$0$BuildDescFromLists
+079 00000210 SECT5  notype       Static       | $chain$1$BuildDescFromLists
+07A 0000015C SECT6  notype       Static       | $pdata$1$BuildDescFromLists
+07B 00000000 UNDEF  notype       External     | CurrentResourceOwner
+07C 00000000 SECT7  notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum D53AD4EC, selection    2 (pick any)
+07E 00000000 SECT7  notype       External     | ??_C@_0BD@PAMNOCHM@TupleDescInitEntry?$AA@ (`string')
+07F 00000000 SECT8  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum E42D20D2, selection    2 (pick any)
+081 00000000 SECT8  notype       External     | ??_C@_0CE@HBGEGNPI@src?1backend?1access?1common?1tupdes@ (`string')
+082 00000000 SECT9  notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 407A3292, selection    2 (pick any)
+084 00000000 SECT9  notype       External     | ??_C@_0CA@KGIPJIMA@cache?5lookup?5failed?5for?5type?5?$CFu?$AA@ (`string')
+085 00000000 SECTA  notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 43EA4C72, selection    2 (pick any)
+087 00000000 SECTA  notype       External     | ??_C@_0BF@PNBBHGAG@BuildDescForRelation?$AA@ (`string')
+088 00000000 SECTB  notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 7C744704, selection    2 (pick any)
+08A 00000000 SECTB  notype       External     | ??_C@_0CF@KHFKMHJP@column?5?$CC?$CFs?$CC?5cannot?5be?5declared?5S@ (`string')
+
+String Table Size = 0xA06 bytes
+
+  Summary
+
+        6670 .debug$S
+          68 .debug$T
+          5D .drectve
+         168 .pdata
+          91 .rdata
+         ED3 .text$mn
+         220 .xdata

@@ -1,0 +1,246 @@
+
+Dump of file Release\postgres/gistutil.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 8BA4, #relocs  2B2, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length   20, #relocs    2, #linenums    0, checksum 84F3A172
+00A 00000000 SECT4  notype       Static       | ?tab@?1??gistoptions@@9@9 (`gistoptions'::`2'::tab)
+00B 00000000 SECT5  notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum E703BC9A, selection    2 (pick any)
+00D 00000000 SECT5  notype       External     | ??_C@_0L@HDHLPCIJ@fillfactor?$AA@ (`string')
+00E 00000000 SECT6  notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum 64340CB1, selection    2 (pick any)
+010 00000000 SECT6  notype       External     | ??_C@_09HIEBJLDI@buffering?$AA@ (`string')
+011 00000000 SECT7  notype       Static       | .text$mn
+    Section length 1A24, #relocs   71, #linenums    0, checksum 20F4C7EC
+013 00000000 UNDEF  notype ()    External     | __report_rangecheckfailure
+014 00000000 UNDEF  notype       External     | __imp_memmove
+015 00000000 UNDEF  notype       External     | __imp__fdclass
+016 00000000 UNDEF  notype ()    External     | random
+017 00000000 UNDEF  notype ()    External     | errstart
+018 00000000 UNDEF  notype ()    External     | errfinish
+019 00000000 UNDEF  notype ()    External     | errcode
+01A 00000000 UNDEF  notype ()    External     | errmsg
+01B 00000000 UNDEF  notype ()    External     | errhint
+01C 00000000 UNDEF  notype ()    External     | elog_start
+01D 00000000 UNDEF  notype ()    External     | elog_finish
+01E 00000000 UNDEF  notype ()    External     | palloc
+01F 00000000 UNDEF  notype ()    External     | repalloc
+020 00000000 UNDEF  notype ()    External     | pfree
+021 00000000 UNDEF  notype ()    External     | FunctionCall1Coll
+022 00000000 UNDEF  notype ()    External     | FunctionCall2Coll
+023 00000000 UNDEF  notype ()    External     | FunctionCall3Coll
+024 00000000 UNDEF  notype ()    External     | GetFakeLSNForUnloggedRel
+025 00000000 UNDEF  notype ()    External     | PageInit
+026 00000000 UNDEF  notype ()    External     | PageAddItemExtended
+027 00000000 UNDEF  notype ()    External     | PageGetFreeSpace
+028 00000000 UNDEF  notype ()    External     | index_form_tuple
+029 00000000 UNDEF  notype ()    External     | nocache_index_getattr
+02A 00000000 UNDEF  notype ()    External     | ReadBuffer
+02B 00000000 UNDEF  notype ()    External     | ReleaseBuffer
+02C 00000000 UNDEF  notype ()    External     | BufferGetBlockNumber
+02D 00000000 UNDEF  notype ()    External     | LockBuffer
+02E 00000000 UNDEF  notype ()    External     | ConditionalLockBuffer
+02F 00000000 SECT7  notype ()    External     | gistoptions
+030 000000A0 SECT7  notype ()    External     | gistproperty
+031 000001C0 SECT7  notype ()    External     | gistfitpage
+032 00000200 SECT7  notype ()    External     | gistnospace
+033 000002A0 SECT7  notype ()    External     | gistcheckpage
+034 00000400 SECT7  notype ()    External     | gistNewBuffer
+035 00000500 SECT7  notype ()    External     | gistfillbuffer
+036 000005F0 SECT7  notype ()    External     | gistextractpage
+037 00000680 SECT7  notype ()    External     | gistjoinvector
+038 000006F0 SECT7  notype ()    External     | gistfillitupvec
+039 000007A0 SECT7  notype ()    External     | gistunion
+03A 00000820 SECT7  notype ()    External     | gistgetadjusted
+03B 00000A60 SECT7  notype ()    External     | gistFormTuple
+03C 00000BA0 SECT7  notype ()    External     | gistchoose
+03D 00001070 SECT7  notype ()    External     | GISTInitBuffer
+03E 000010F0 SECT7  notype ()    External     | gistdentryinit
+03F 00001190 SECT7  notype ()    External     | gistpenalty
+040 00001240 SECT7  notype ()    External     | gistMakeUnionItVec
+041 000014C0 SECT7  notype ()    External     | gistKeyIsEQ
+042 00001510 SECT7  notype ()    External     | gistDeCompressAtt
+043 00001710 SECT7  notype ()    External     | gistFetchTuple
+044 00001900 SECT7  notype ()    External     | gistMakeUnionKey
+045 00001A00 SECT7  notype ()    External     | gistGetFakeLSN
+046 00000000 UNDEF  notype ()    External     | heap_form_tuple
+047 00000000 UNDEF  notype ()    External     | parseRelOptions
+048 00000000 UNDEF  notype ()    External     | allocateReloptStruct
+049 00000000 UNDEF  notype ()    External     | fillRelOptions
+04A 00000000 UNDEF  notype ()    External     | GetFreeIndexPage
+04B 00000000 UNDEF  notype ()    External     | LockRelationForExtension
+04C 00000000 UNDEF  notype ()    External     | UnlockRelationForExtension
+04D 00000000 UNDEF  notype ()    External     | get_float4_infinity
+04E 00000000 UNDEF  notype ()    External     | SearchSysCache
+04F 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+050 00000000 UNDEF  notype ()    External     | SearchSysCacheExists
+051 00000000 UNDEF  notype ()    External     | SysCacheGetAttr
+052 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+053 00000000 UNDEF  notype ()    External     | __security_check_cookie
+054 00000000 UNDEF  notype ()    External     | memcpy
+055 00000000 SECT7  notype       Label        | $LN5
+056 000000A0 SECT7  notype       Label        | $LN16
+057 00000200 SECT7  notype       Label        | $LN12
+058 000002A0 SECT7  notype       Label        | $LN18
+059 00000400 SECT7  notype       Label        | $LN26
+05A 00000500 SECT7  notype       Label        | $LN22
+05B 000005F0 SECT7  notype       Label        | $LN14
+05C 00000680 SECT7  notype       Label        | $LN4
+05D 000006F0 SECT7  notype       Label        | $LN19
+05E 000007A0 SECT7  notype       Label        | $LN4
+05F 00000820 SECT7  notype       Label        | $LN22
+060 00000A60 SECT7  notype       Label        | $LN16
+061 00000BA0 SECT7  notype       Label        | $LN87
+062 00001070 SECT7  notype       Label        | $LN6
+063 000010F0 SECT7  notype       Label        | $LN16
+064 00001190 SECT7  notype       Label        | $LN13
+065 00001240 SECT7  notype       Label        | $LN53
+066 000014C0 SECT7  notype       Label        | $LN4
+067 00001510 SECT7  notype       Label        | $LN41
+068 000018EE SECT7  notype       Label        | $LN39
+069 00001710 SECT7  notype       Label        | $LN41
+06A 00001900 SECT7  notype       Label        | $LN14
+06B 00000000 SECT8  notype       Static       | .xdata
+    Section length  344, #relocs   45, #linenums    0, checksum 70B73814
+06D 00000000 SECT8  notype       Static       | $unwind$gistoptions
+06E 00000000 SECT9  notype       Static       | .pdata
+    Section length  1F8, #relocs   7E, #linenums    0, checksum 65DED190
+070 00000000 SECT9  notype       Static       | $pdata$gistoptions
+071 00000010 SECT8  notype       Static       | $unwind$gistproperty
+072 0000000C SECT9  notype       Static       | $pdata$gistproperty
+073 00000018 SECT8  notype       Static       | $chain$0$gistproperty
+074 00000018 SECT9  notype       Static       | $pdata$0$gistproperty
+075 0000002C SECT8  notype       Static       | $chain$3$gistproperty
+076 00000024 SECT9  notype       Static       | $pdata$3$gistproperty
+077 00000044 SECT8  notype       Static       | $chain$5$gistproperty
+078 00000030 SECT9  notype       Static       | $pdata$5$gistproperty
+079 0000005C SECT8  notype       Static       | $unwind$gistnospace
+07A 0000003C SECT9  notype       Static       | $pdata$gistnospace
+07B 0000006C SECT8  notype       Static       | $unwind$gistcheckpage
+07C 00000048 SECT9  notype       Static       | $pdata$gistcheckpage
+07D 00000078 SECT8  notype       Static       | $chain$2$gistcheckpage
+07E 00000054 SECT9  notype       Static       | $pdata$2$gistcheckpage
+07F 00000094 SECT8  notype       Static       | $chain$3$gistcheckpage
+080 00000060 SECT9  notype       Static       | $pdata$3$gistcheckpage
+081 000000AC SECT8  notype       Static       | $unwind$gistNewBuffer
+082 0000006C SECT9  notype       Static       | $pdata$gistNewBuffer
+083 000000BC SECT8  notype       Static       | $unwind$gistfillbuffer
+084 00000078 SECT9  notype       Static       | $pdata$gistfillbuffer
+085 000000D4 SECT8  notype       Static       | $chain$0$gistfillbuffer
+086 00000084 SECT9  notype       Static       | $pdata$0$gistfillbuffer
+087 000000E8 SECT8  notype       Static       | $chain$1$gistfillbuffer
+088 00000090 SECT9  notype       Static       | $pdata$1$gistfillbuffer
+089 000000F8 SECT8  notype       Static       | $unwind$gistextractpage
+08A 0000009C SECT9  notype       Static       | $pdata$gistextractpage
+08B 00000104 SECT8  notype       Static       | $unwind$gistjoinvector
+08C 000000A8 SECT9  notype       Static       | $pdata$gistjoinvector
+08D 00000118 SECT8  notype       Static       | $unwind$gistfillitupvec
+08E 000000B4 SECT9  notype       Static       | $pdata$gistfillitupvec
+08F 0000012C SECT8  notype       Static       | $unwind$gistunion
+090 000000C0 SECT9  notype       Static       | $pdata$gistunion
+091 00000140 SECT8  notype       Static       | $unwind$gistgetadjusted
+092 000000CC SECT9  notype       Static       | $pdata$gistgetadjusted
+093 0000015C SECT8  notype       Static       | $chain$2$gistgetadjusted
+094 000000D8 SECT9  notype       Static       | $pdata$2$gistgetadjusted
+095 00000178 SECT8  notype       Static       | $chain$3$gistgetadjusted
+096 000000E4 SECT9  notype       Static       | $pdata$3$gistgetadjusted
+097 00000188 SECT8  notype       Static       | $unwind$gistFormTuple
+098 000000F0 SECT9  notype       Static       | $pdata$gistFormTuple
+099 000001A0 SECT8  notype       Static       | $chain$3$gistFormTuple
+09A 000000FC SECT9  notype       Static       | $pdata$3$gistFormTuple
+09B 000001C0 SECT8  notype       Static       | $chain$4$gistFormTuple
+09C 00000108 SECT9  notype       Static       | $pdata$4$gistFormTuple
+09D 000001D0 SECT8  notype       Static       | $unwind$gistchoose
+09E 00000114 SECT9  notype       Static       | $pdata$gistchoose
+09F 000001E8 SECT8  notype       Static       | $chain$1$gistchoose
+0A0 00000120 SECT9  notype       Static       | $pdata$1$gistchoose
+0A1 00000200 SECT8  notype       Static       | $chain$5$gistchoose
+0A2 0000012C SECT9  notype       Static       | $pdata$5$gistchoose
+0A3 00000220 SECT8  notype       Static       | $chain$6$gistchoose
+0A4 00000138 SECT9  notype       Static       | $pdata$6$gistchoose
+0A5 00000230 SECT8  notype       Static       | $chain$7$gistchoose
+0A6 00000144 SECT9  notype       Static       | $pdata$7$gistchoose
+0A7 00000240 SECT8  notype       Static       | $chain$8$gistchoose
+0A8 00000150 SECT9  notype       Static       | $pdata$8$gistchoose
+0A9 00000258 SECT8  notype       Static       | $chain$9$gistchoose
+0AA 0000015C SECT9  notype       Static       | $pdata$9$gistchoose
+0AB 00000268 SECT8  notype       Static       | $unwind$GISTInitBuffer
+0AC 00000168 SECT9  notype       Static       | $pdata$GISTInitBuffer
+0AD 00000274 SECT8  notype       Static       | $unwind$gistdentryinit
+0AE 00000174 SECT9  notype       Static       | $pdata$gistdentryinit
+0AF 0000027C SECT8  notype       Static       | $unwind$gistpenalty
+0B0 00000180 SECT9  notype       Static       | $pdata$gistpenalty
+0B1 00000288 SECT8  notype       Static       | $unwind$gistMakeUnionItVec
+0B2 0000018C SECT9  notype       Static       | $pdata$gistMakeUnionItVec
+0B3 00000298 SECT8  notype       Static       | $chain$2$gistMakeUnionItVec
+0B4 00000198 SECT9  notype       Static       | $pdata$2$gistMakeUnionItVec
+0B5 000002B4 SECT8  notype       Static       | $chain$3$gistMakeUnionItVec
+0B6 000001A4 SECT9  notype       Static       | $pdata$3$gistMakeUnionItVec
+0B7 000002C4 SECT8  notype       Static       | $unwind$gistKeyIsEQ
+0B8 000001B0 SECT9  notype       Static       | $pdata$gistKeyIsEQ
+0B9 000002CC SECT8  notype       Static       | $unwind$gistDeCompressAtt
+0BA 000001BC SECT9  notype       Static       | $pdata$gistDeCompressAtt
+0BB 000002DC SECT8  notype       Static       | $chain$3$gistDeCompressAtt
+0BC 000001C8 SECT9  notype       Static       | $pdata$3$gistDeCompressAtt
+0BD 000002FC SECT8  notype       Static       | $chain$4$gistDeCompressAtt
+0BE 000001D4 SECT9  notype       Static       | $pdata$4$gistDeCompressAtt
+0BF 0000030C SECT8  notype       Static       | $unwind$gistFetchTuple
+0C0 000001E0 SECT9  notype       Static       | $pdata$gistFetchTuple
+0C1 00000330 SECT8  notype       Static       | $unwind$gistMakeUnionKey
+0C2 000001EC SECT9  notype       Static       | $pdata$gistMakeUnionKey
+0C3 00000000 UNDEF  notype       External     | CurrentMemoryContext
+0C4 00000000 UNDEF  notype       External     | BufferBlocks
+0C5 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+0C6 00000000 SECTA  notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 6FAADDE7, selection    2 (pick any)
+0C8 00000000 SECTA  notype       External     | ??_C@_0P@EHIGCBPP@gistfillbuffer?$AA@ (`string')
+0C9 00000000 SECTB  notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 4E948F2F, selection    2 (pick any)
+0CB 00000000 SECTB  notype       External     | ??_C@_0CD@LIJDCHOH@src?1backend?1access?1gist?1gistutil@ (`string')
+0CC 00000000 SECTC  notype       Static       | .rdata
+    Section length   48, #relocs    0, #linenums    0, checksum F4452CCA, selection    2 (pick any)
+0CE 00000000 SECTC  notype       External     | ??_C@_0EI@EHIGIGH@failed?5to?5add?5item?5to?5GiST?5index@ (`string')
+0CF 00000000 SECTD  notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum CF0E2E35, selection    2 (pick any)
+0D1 00000000 SECTD  notype       External     | ??_C@_0O@OBEKKIAN@gistcheckpage?$AA@ (`string')
+0D2 00000000 SECTE  notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 9EB21C37, selection    2 (pick any)
+0D4 00000000 SECTE  notype       External     | ??_C@_0BD@LLEFCKKH@Please?5REINDEX?5it?4?$AA@ (`string')
+0D5 00000000 SECTF  notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum B863953B, selection    2 (pick any)
+0D7 00000000 SECTF  notype       External     | ??_C@_0DF@FODDBNMK@index?5?$CC?$CFs?$CC?5contains?5unexpected?5z@ (`string')
+0D8 00000000 SECT10 notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum 7D96AE77, selection    2 (pick any)
+0DA 00000000 SECT10 notype       External     | ??_C@_0CP@GHLAPKPN@index?5?$CC?$CFs?$CC?5contains?5corrupted?5pa@ (`string')
+0DB 00000000 SECT11 notype       Static       | .data
+    Section length    8, #relocs    0, #linenums    0, checksum CCAA009E
+0DD 00000000 SECT11 notype       Static       | ?counter@?1??gistGetFakeLSN@@9@9 (`gistGetFakeLSN'::`2'::counter)
+0DE 00000000 SECT12 notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum 605D3656, selection    2 (pick any)
+0E0 00000000 SECT12 notype       External     | __real@bf800000
+0E1 00000000 UNDEF  notype       External     | __security_cookie
+0E2 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0xD44 bytes
+
+  Summary
+
+           8 .data
+        8BA4 .debug$S
+          68 .debug$T
+          5D .drectve
+         1F8 .pdata
+         138 .rdata
+        1A24 .text$mn
+         344 .xdata

@@ -1,0 +1,146 @@
+
+Dump of file Release\postgres/visibilitymap.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 54A4, #relocs   C4, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  91D, #relocs   50, #linenums    0, checksum ED62DDBD
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  150, #relocs    E, #linenums    0, checksum 5BCDDFE8, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  214, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  180, #relocs    D, #linenums    0, checksum B9CD2931, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  2B0, #relocs   1A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | elog_start
+013 00000000 UNDEF  notype ()    External     | elog_finish
+014 00000000 UNDEF  notype ()    External     | PageInit
+015 00000000 UNDEF  notype ()    External     | PageSetChecksumInplace
+016 00000000 UNDEF  notype ()    External     | log_heap_visible
+017 00000000 SECT4  notype ()    External     | visibilitymap_clear
+018 00000120 SECT4  notype ()    External     | visibilitymap_pin
+019 00000190 SECT4  notype ()    External     | visibilitymap_pin_ok
+01A 000001E0 SECT4  notype ()    External     | visibilitymap_set
+01B 00000400 SECT4  notype ()    External     | visibilitymap_get_status
+01C 000004F0 SECT4  notype ()    External     | visibilitymap_count
+01D 00000710 SECT4  notype ()    External     | visibilitymap_truncate
+01E 00000000 UNDEF  notype ()    External     | log_newpage_buffer
+01F 00000000 UNDEF  notype ()    External     | DataChecksumsEnabled
+020 00000000 UNDEF  notype ()    External     | ReadBufferExtended
+021 00000000 UNDEF  notype ()    External     | ReleaseBuffer
+022 00000000 UNDEF  notype ()    External     | UnlockReleaseBuffer
+023 00000000 UNDEF  notype ()    External     | MarkBufferDirty
+024 00000000 UNDEF  notype ()    External     | BufferGetBlockNumber
+025 00000000 UNDEF  notype ()    External     | LockBuffer
+026 00000000 UNDEF  notype ()    External     | LockRelationForExtension
+027 00000000 UNDEF  notype ()    External     | UnlockRelationForExtension
+028 00000000 UNDEF  notype ()    External     | smgropen
+029 00000000 UNDEF  notype ()    External     | smgrexists
+02A 00000000 UNDEF  notype ()    External     | smgrsetowner
+02B 00000000 UNDEF  notype ()    External     | smgrcreate
+02C 00000000 UNDEF  notype ()    External     | smgrextend
+02D 00000000 UNDEF  notype ()    External     | smgrnblocks
+02E 00000000 UNDEF  notype ()    External     | smgrtruncate
+02F 00000000 UNDEF  notype ()    External     | CacheInvalidateSmgr
+030 00000000 SECT7  notype ()    Static       | vm_readbuf
+031 00000000 SECT5  notype ()    Static       | vm_extend
+032 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+033 00000000 UNDEF  notype ()    External     | __chkstk
+034 00000000 UNDEF  notype ()    External     | __security_check_cookie
+035 00000000 UNDEF  notype ()    External     | memset
+036 00000000 SECT4  notype       Label        | $LN13
+037 00000120 SECT4  notype       Label        | $LN6
+038 00000190 SECT4  notype       Label        | $LN6
+039 000001E0 SECT4  notype       Label        | $LN27
+03A 00000400 SECT4  notype       Label        | $LN11
+03B 000004F0 SECT4  notype       Label        | $LN45
+03C 00000710 SECT4  notype       Label        | $LN36
+03D 00000000 SECT9  notype       Static       | .xdata
+    Section length   DC, #relocs    C, #linenums    0, checksum 7768A24E
+03F 00000000 SECT9  notype       Static       | $unwind$visibilitymap_clear
+040 00000000 SECTA  notype       Static       | .pdata
+    Section length   84, #relocs   21, #linenums    0, checksum 81B144A1
+042 00000000 SECTA  notype       Static       | $pdata$visibilitymap_clear
+043 00000018 SECT9  notype       Static       | $unwind$visibilitymap_pin
+044 0000000C SECTA  notype       Static       | $pdata$visibilitymap_pin
+045 00000028 SECT9  notype       Static       | $unwind$visibilitymap_pin_ok
+046 00000018 SECTA  notype       Static       | $pdata$visibilitymap_pin_ok
+047 00000030 SECT9  notype       Static       | $unwind$visibilitymap_set
+048 00000024 SECTA  notype       Static       | $pdata$visibilitymap_set
+049 0000004C SECT9  notype       Static       | $unwind$visibilitymap_get_status
+04A 00000030 SECTA  notype       Static       | $pdata$visibilitymap_get_status
+04B 00000064 SECT9  notype       Static       | $unwind$visibilitymap_count
+04C 0000003C SECTA  notype       Static       | $pdata$visibilitymap_count
+04D 00000080 SECT9  notype       Static       | $unwind$visibilitymap_truncate
+04E 00000048 SECTA  notype       Static       | $pdata$visibilitymap_truncate
+04F 00000094 SECT9  notype       Static       | $chain$0$visibilitymap_truncate
+050 00000054 SECTA  notype       Static       | $pdata$0$visibilitymap_truncate
+051 000000A8 SECT9  notype       Static       | $chain$1$visibilitymap_truncate
+052 00000060 SECTA  notype       Static       | $pdata$1$visibilitymap_truncate
+053 000000BC SECT9  notype       Static       | $chain$2$visibilitymap_truncate
+054 0000006C SECTA  notype       Static       | $pdata$2$visibilitymap_truncate
+055 000000CC SECT9  notype       Static       | $chain$3$visibilitymap_truncate
+056 00000078 SECTA  notype       Static       | $pdata$3$visibilitymap_truncate
+057 00000000 SECTB  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum F0AB61A9, selection    5 (pick associative Section 0x7)
+059 00000000 SECTB  notype       Static       | $unwind$vm_readbuf
+05A 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F54C8E6E, selection    5 (pick associative Section 0x7)
+05C 00000000 SECTC  notype       Static       | $pdata$vm_readbuf
+05D 00000000 SECTD  notype       Static       | .xdata
+    Section length   20, #relocs    1, #linenums    0, checksum CC409585, selection    5 (pick associative Section 0x5)
+05F 00000000 SECTD  notype       Static       | $unwind$vm_extend
+060 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F351F872, selection    5 (pick associative Section 0x5)
+062 00000000 SECTE  notype       Static       | $pdata$vm_extend
+063 00000000 UNDEF  notype       External     | InRecovery
+064 00000000 UNDEF  notype       External     | wal_log_hints
+065 00000000 UNDEF  notype       External     | CritSectionCount
+066 00000000 UNDEF  notype       External     | BufferBlocks
+067 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+068 00000000 SECTF  notype       Static       | .rdata
+    Section length  200, #relocs    0, #linenums    0, checksum F9803DE8
+06A 00000000 SECTF  notype       Static       | number_of_ones_for_visible
+06B 00000100 SECTF  notype       Static       | number_of_ones_for_frozen
+06C 00000000 SECT10 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 54D9F1D1, selection    2 (pick any)
+06E 00000000 SECT10 notype       External     | ??_C@_0BE@KEPDJFKD@visibilitymap_clear?$AA@ (`string')
+06F 00000000 SECT11 notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 9B42C3DD, selection    2 (pick any)
+071 00000000 SECT11 notype       External     | ??_C@_0CI@INFBABJD@src?1backend?1access?1heap?1visibili@ (`string')
+072 00000000 SECT12 notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum  B6E8073, selection    2 (pick any)
+074 00000000 SECT12 notype       External     | ??_C@_0CL@MBINELN@wrong?5buffer?5passed?5to?5visibilit@ (`string')
+075 00000000 SECT13 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum FD98F1B8, selection    2 (pick any)
+077 00000000 SECT13 notype       External     | ??_C@_0BC@GFHMMBAK@visibilitymap_set?$AA@ (`string')
+078 00000000 SECT14 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum 751CB73A, selection    2 (pick any)
+07A 00000000 SECT14 notype       External     | ??_C@_0CO@IJJMEACO@wrong?5heap?5buffer?5passed?5to?5visi@ (`string')
+07B 00000000 SECT15 notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum 32115F6D, selection    2 (pick any)
+07D 00000000 SECT15 notype       External     | ??_C@_0CM@EOMKMGIO@wrong?5VM?5buffer?5passed?5to?5visibi@ (`string')
+07E 00000000 UNDEF  notype       External     | __ImageBase
+07F 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x6DF bytes
+
+  Summary
+
+        5968 .debug$S
+          68 .debug$T
+          5D .drectve
+          9C .pdata
+         2D3 .rdata
+         BED .text$mn
+         110 .xdata

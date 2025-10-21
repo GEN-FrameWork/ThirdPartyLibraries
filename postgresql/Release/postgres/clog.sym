@@ -1,0 +1,182 @@
+
+Dump of file Release\postgres/clog.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5414, #relocs   BA, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  701, #relocs   5C, #linenums    0, checksum 28A311D9
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  210, #relocs    E, #linenums    0, checksum 44B1FB80, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  528, #relocs   3E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   9D, #relocs    3, #linenums    0, checksum 5E3BEF7D, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  280, #relocs   1A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  1DA, #relocs    A, #linenums    0, checksum 77EBEC7E, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  4F0, #relocs   3E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 UNDEF  notype ()    External     | elog_start
+017 00000000 UNDEF  notype ()    External     | elog_finish
+018 00000000 SECT4  notype ()    External     | TransactionIdSetTreeStatus
+019 000000E0 SECT4  notype ()    External     | TransactionIdGetStatus
+01A 00000190 SECT4  notype ()    External     | CLOGShmemBuffers
+01B 000001D0 SECT4  notype ()    External     | CLOGShmemSize
+01C 00000210 SECT4  notype ()    External     | CLOGShmemInit
+01D 000002A0 SECT4  notype ()    External     | BootStrapCLOG
+01E 00000300 SECT4  notype ()    External     | StartupCLOG
+01F 00000350 SECT4  notype ()    External     | TrimCLOG
+020 00000480 SECT4  notype ()    External     | ShutdownCLOG
+021 000004B0 SECT4  notype ()    External     | CheckPointCLOG
+022 000004E0 SECT4  notype ()    External     | ExtendCLOG
+023 00000560 SECT4  notype ()    External     | TruncateCLOG
+024 00000610 SECT4  notype ()    External     | clog_redo
+025 00000000 UNDEF  notype ()    External     | LWLockAcquire
+026 00000000 UNDEF  notype ()    External     | LWLockRelease
+027 00000000 UNDEF  notype ()    External     | SimpleLruShmemSize
+028 00000000 UNDEF  notype ()    External     | SimpleLruInit
+029 00000000 UNDEF  notype ()    External     | SimpleLruZeroPage
+02A 00000000 UNDEF  notype ()    External     | SimpleLruReadPage
+02B 00000000 UNDEF  notype ()    External     | SimpleLruReadPage_ReadOnly
+02C 00000000 UNDEF  notype ()    External     | SimpleLruWritePage
+02D 00000000 UNDEF  notype ()    External     | SimpleLruFlush
+02E 00000000 UNDEF  notype ()    External     | SimpleLruTruncate
+02F 00000000 UNDEF  notype ()    External     | SlruScanDirectory
+030 00000000 UNDEF  notype ()    External     | SlruScanDirCbReportPresence
+031 00000000 UNDEF  notype ()    External     | TransactionIdPrecedes
+032 00000000 UNDEF  notype ()    External     | AdvanceOldestClogXid
+033 00000000 UNDEF  notype ()    External     | XLogBeginInsert
+034 00000000 UNDEF  notype ()    External     | XLogInsert
+035 00000000 UNDEF  notype ()    External     | XLogRegisterData
+036 00000000 UNDEF  notype ()    External     | fsync_fname
+037 00000000 UNDEF  notype ()    External     | XLogFlush
+038 000006F0 SECT4  notype ()    Static       | CLOGPagePrecedes
+039 00000000 SECT5  notype ()    Static       | TransactionIdSetPageStatus
+03A 00000000 SECT7  notype ()    Static       | TransactionIdSetStatusBit
+03B 00000000 SECT9  notype ()    Static       | set_status_by_pages
+03C 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+03D 00000000 UNDEF  notype ()    External     | __security_check_cookie
+03E 00000000 UNDEF  notype ()    External     | memset
+03F 00000000 SECT4  notype       Label        | $LN17
+040 000000E0 SECT4  notype       Label        | $LN4
+041 00000210 SECT4  notype       Label        | $LN12
+042 000002A0 SECT4  notype       Label        | $LN9
+043 00000300 SECT4  notype       Label        | $LN4
+044 00000350 SECT4  notype       Label        | $LN18
+045 00000480 SECT4  notype       Label        | $LN4
+046 000004B0 SECT4  notype       Label        | $LN4
+047 000004E0 SECT4  notype       Label        | $LN10
+048 00000560 SECT4  notype       Label        | $LN7
+049 00000610 SECT4  notype       Label        | $LN17
+04A 00000000 SECTB  notype       Static       | .xdata
+    Section length   E4, #relocs   10, #linenums    0, checksum D3E3A228
+04C 00000000 SECTB  notype       Static       | $unwind$TransactionIdSetTreeStatus
+04D 00000000 SECTC  notype       Static       | .pdata
+    Section length   C0, #relocs   30, #linenums    0, checksum 9277A0BA
+04F 00000000 SECTC  notype       Static       | $pdata$TransactionIdSetTreeStatus
+050 00000018 SECTB  notype       Static       | $chain$0$TransactionIdSetTreeStatus
+051 0000000C SECTC  notype       Static       | $pdata$0$TransactionIdSetTreeStatus
+052 0000002C SECTB  notype       Static       | $chain$1$TransactionIdSetTreeStatus
+053 00000018 SECTC  notype       Static       | $pdata$1$TransactionIdSetTreeStatus
+054 0000003C SECTB  notype       Static       | $unwind$TransactionIdGetStatus
+055 00000024 SECTC  notype       Static       | $pdata$TransactionIdGetStatus
+056 0000004C SECTB  notype       Static       | $unwind$CLOGShmemInit
+057 00000030 SECTC  notype       Static       | $pdata$CLOGShmemInit
+058 00000054 SECTB  notype       Static       | $unwind$BootStrapCLOG
+059 0000003C SECTC  notype       Static       | $pdata$BootStrapCLOG
+05A 0000005C SECTB  notype       Static       | $unwind$StartupCLOG
+05B 00000048 SECTC  notype       Static       | $pdata$StartupCLOG
+05C 00000064 SECTB  notype       Static       | $unwind$TrimCLOG
+05D 00000054 SECTC  notype       Static       | $pdata$TrimCLOG
+05E 00000070 SECTB  notype       Static       | $chain$2$TrimCLOG
+05F 00000060 SECTC  notype       Static       | $pdata$2$TrimCLOG
+060 0000008C SECTB  notype       Static       | $chain$3$TrimCLOG
+061 0000006C SECTC  notype       Static       | $pdata$3$TrimCLOG
+062 000000A0 SECTB  notype       Static       | $chain$4$TrimCLOG
+063 00000078 SECTC  notype       Static       | $pdata$4$TrimCLOG
+064 000000B0 SECTB  notype       Static       | $unwind$ShutdownCLOG
+065 00000084 SECTC  notype       Static       | $pdata$ShutdownCLOG
+066 000000B8 SECTB  notype       Static       | $unwind$CheckPointCLOG
+067 00000090 SECTC  notype       Static       | $pdata$CheckPointCLOG
+068 000000C0 SECTB  notype       Static       | $unwind$ExtendCLOG
+069 0000009C SECTC  notype       Static       | $pdata$ExtendCLOG
+06A 000000C8 SECTB  notype       Static       | $unwind$TruncateCLOG
+06B 000000A8 SECTC  notype       Static       | $pdata$TruncateCLOG
+06C 000000DC SECTB  notype       Static       | $unwind$clog_redo
+06D 000000B4 SECTC  notype       Static       | $pdata$clog_redo
+06E 00000000 SECTD  notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum  B87DB6D, selection    5 (pick associative Section 0x5)
+070 00000000 SECTD  notype       Static       | $unwind$TransactionIdSetPageStatus
+071 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum EB242002, selection    5 (pick associative Section 0x5)
+073 00000000 SECTE  notype       Static       | $pdata$TransactionIdSetPageStatus
+074 00000000 SECTF  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum B9697155, selection    5 (pick associative Section 0x7)
+076 00000000 SECTF  notype       Static       | $unwind$TransactionIdSetStatusBit
+077 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B485A120, selection    5 (pick associative Section 0x7)
+079 00000000 SECT10 notype       Static       | $pdata$TransactionIdSetStatusBit
+07A 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum FB91E58E, selection    5 (pick associative Section 0x9)
+07C 00000000 SECT11 notype       Static       | $unwind$set_status_by_pages
+07D 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7D3C6CAC, selection    5 (pick associative Section 0x9)
+07F 00000000 SECT12 notype       Static       | $pdata$set_status_by_pages
+080 00000000 SECT13 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 59BF3566, selection    5 (pick associative Section 0x9)
+082 00000000 SECT13 notype       Static       | $chain$2$set_status_by_pages
+083 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A4128604, selection    5 (pick associative Section 0x9)
+085 00000000 SECT14 notype       Static       | $pdata$2$set_status_by_pages
+086 00000000 SECT15 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum C46B8640, selection    5 (pick associative Section 0x9)
+088 00000000 SECT15 notype       Static       | $chain$3$set_status_by_pages
+089 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3131B1DD, selection    5 (pick associative Section 0x9)
+08B 00000000 SECT16 notype       Static       | $pdata$3$set_status_by_pages
+08C 00000000 UNDEF  notype       External     | MainLWLockArray
+08D 00000000 UNDEF  notype       External     | ShmemVariableCache
+08E 00000000 UNDEF  notype       External     | InRecovery
+08F 00000000 UNDEF  notype       External     | NBuffers
+090 00000000 SECT17 notype       Static       | .bss
+    Section length   58, #relocs    0, #linenums    0, checksum        0
+092 00000000 SECT17 notype       Static       | ClogCtlData
+093 00000000 SECT18 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 5463AB3A, selection    2 (pick any)
+095 00000000 SECT18 notype       External     | ??_C@_07MOLOILKM@pg_xact?$AA@ (`string')
+096 00000000 SECT19 notype       Static       | .rdata
+    Section length    5, #relocs    0, #linenums    0, checksum C655345B, selection    2 (pick any)
+098 00000000 SECT19 notype       External     | ??_C@_04PPIIDMLJ@clog?$AA@ (`string')
+099 00000000 SECT1A notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum 18D41797, selection    2 (pick any)
+09B 00000000 SECT1A notype       External     | ??_C@_09EKBIABO@clog_redo?$AA@ (`string')
+09C 00000000 SECT1B notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 6D0F6FCF, selection    2 (pick any)
+09E 00000000 SECT1B notype       External     | ??_C@_0CC@NDIBPMBK@src?1backend?1access?1transam?1clog?4@ (`string')
+09F 00000000 SECT1C notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 7C3EE815, selection    2 (pick any)
+0A1 00000000 SECT1C notype       External     | ??_C@_0BO@IDMFCJFP@clog_redo?3?5unknown?5op?5code?5?$CFu?$AA@ (`string')
+0A2 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x7D2 bytes
+
+  Summary
+
+          58 .bss
+        60AC .debug$S
+          68 .debug$T
+          5D .drectve
+          FC .pdata
+          57 .rdata
+         B88 .text$mn
+         148 .xdata

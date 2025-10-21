@@ -1,0 +1,425 @@
+
+Dump of file Release\postgres/nodeFuncs.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length DA84, #relocs  66E, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 3515, #relocs  205, #linenums    0, checksum 841EBD00
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   76, #relocs    0, #linenums    0, checksum 1E75D1F5, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  268, #relocs   1A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | errstart
+00F 00000000 UNDEF  notype ()    External     | errfinish
+010 00000000 UNDEF  notype ()    External     | errcode
+011 00000000 UNDEF  notype ()    External     | errmsg
+012 00000000 UNDEF  notype ()    External     | elog_start
+013 00000000 UNDEF  notype ()    External     | elog_finish
+014 00000000 UNDEF  notype ()    External     | palloc
+015 00000000 UNDEF  notype ()    External     | check_stack_depth
+016 00000000 UNDEF  notype ()    External     | copyObjectImpl
+017 00000000 UNDEF  notype ()    External     | lappend
+018 00000000 UNDEF  notype ()    External     | list_copy
+019 00000000 UNDEF  notype ()    External     | makeRelabelType
+01A 00000000 SECT4  notype ()    External     | exprType
+01B 00000360 SECT4  notype ()    External     | exprTypmod
+01C 00000780 SECT4  notype ()    External     | exprIsLengthCoercion
+01D 00000810 SECT4  notype ()    External     | relabel_to_typmod
+01E 00000880 SECT4  notype ()    External     | strip_implicit_coercions
+01F 000008F0 SECT4  notype ()    External     | expression_returns_set
+020 00000940 SECT4  notype ()    External     | exprCollation
+021 00000B90 SECT4  notype ()    External     | exprInputCollation
+022 00000C10 SECT4  notype ()    External     | exprSetCollation
+023 00000D60 SECT4  notype ()    External     | exprSetInputCollation
+024 00000DD0 SECT4  notype ()    External     | exprLocation
+025 00001240 SECT4  notype ()    External     | fix_opfuncids
+026 000012A0 SECT4  notype ()    External     | set_opfuncid
+027 000012D0 SECT4  notype ()    External     | set_sa_opfuncid
+028 00001300 SECT4  notype ()    External     | check_functions_in_node
+029 00001450 SECT4  notype ()    External     | expression_tree_walker
+02A 00001A50 SECT4  notype ()    External     | expression_tree_mutator
+02B 000024C0 SECT4  notype ()    External     | query_tree_walker
+02C 000025C0 SECT4  notype ()    External     | query_tree_mutator
+02D 00002760 SECT4  notype ()    External     | range_table_walker
+02E 00002880 SECT4  notype ()    External     | range_table_mutator
+02F 00002B20 SECT4  notype ()    External     | query_or_expression_tree_walker
+030 00002B40 SECT4  notype ()    External     | query_or_expression_tree_mutator
+031 00002B60 SECT4  notype ()    External     | raw_expression_tree_walker
+032 00003260 SECT4  notype ()    External     | planstate_tree_walker
+033 00000000 UNDEF  notype ()    External     | format_type_be
+034 00000000 UNDEF  notype ()    External     | get_opcode
+035 00000000 UNDEF  notype ()    External     | get_promoted_array_type
+036 00000000 UNDEF  notype ()    External     | getTypeInputInfo
+037 00000000 UNDEF  notype ()    External     | getTypeOutputInfo
+038 00003460 SECT4  notype ()    Static       | expression_returns_set_walker
+039 000034B0 SECT4  notype ()    Static       | fix_opfuncids_walker
+03A 00000000 SECT5  notype ()    Static       | planstate_walk_members
+03B 000002F4 SECT4  notype       Static       | $LN100
+03C 000002B8 SECT4  notype       Static       | $LN101
+03D 00000050 SECT4  notype       Label        | $LN17
+03E 00000058 SECT4  notype       Label        | $LN18
+03F 00000060 SECT4  notype       Label        | $LN21
+040 0000006A SECT4  notype       Label        | $LN23
+041 00000078 SECT4  notype       Label        | $LN20
+042 00000080 SECT4  notype       Label        | $LN28
+043 00000090 SECT4  notype       Label        | $LN32
+044 0000009A SECT4  notype       Label        | $LN34
+045 00000193 SECT4  notype       Label        | $LN47
+046 0000021D SECT4  notype       Label        | $LN57
+047 00000242 SECT4  notype       Label        | $LN58
+048 00000247 SECT4  notype       Label        | $LN59
+049 0000024C SECT4  notype       Label        | $LN60
+04A 00000251 SECT4  notype       Label        | $LN73
+04B 0000026F SECT4  notype       Label        | $LN15
+04C 00000000 SECT4  notype       Label        | $LN104
+04D 00000714 SECT4  notype       Static       | $LN154
+04E 000006D4 SECT4  notype       Static       | $LN155
+04F 000003B4 SECT4  notype       Label        | $LN27
+050 000003C7 SECT4  notype       Label        | $LN28
+051 00000423 SECT4  notype       Label        | $LN70
+052 0000044B SECT4  notype       Label        | $LN37
+053 0000045F SECT4  notype       Label        | $LN20
+054 00000464 SECT4  notype       Label        | $LN21
+055 00000469 SECT4  notype       Label        | $LN23
+056 0000046E SECT4  notype       Label        | $LN24
+057 00000485 SECT4  notype       Label        | $LN128
+058 00000497 SECT4  notype       Label        | $LN38
+059 0000049C SECT4  notype       Label        | $LN39
+05A 000004A1 SECT4  notype       Label        | $LN42
+05B 00000515 SECT4  notype       Label        | $LN49
+05C 00000593 SECT4  notype       Label        | $LN56
+05D 00000633 SECT4  notype       Label        | $LN61
+05E 00000433 SECT4  notype       Label        | $LN127
+05F 00000360 SECT4  notype       Label        | $LN157
+060 00000810 SECT4  notype       Label        | $LN11
+061 00000B20 SECT4  notype       Static       | $LN77
+062 00000AEC SECT4  notype       Static       | $LN78
+063 00000981 SECT4  notype       Label        | $LN11
+064 0000098C SECT4  notype       Label        | $LN12
+065 00000997 SECT4  notype       Label        | $LN17
+066 000009A2 SECT4  notype       Label        | $LN19
+067 000009B3 SECT4  notype       Label        | $LN25
+068 00000A33 SECT4  notype       Label        | $LN32
+069 00000A4F SECT4  notype       Label        | $LN36
+06A 00000A7C SECT4  notype       Label        | $LN37
+06B 00000A87 SECT4  notype       Label        | $LN39
+06C 00000A92 SECT4  notype       Label        | $LN44
+06D 00000A9D SECT4  notype       Label        | $LN52
+06E 00000ADF SECT4  notype       Label        | $LN15
+06F 00000AB3 SECT4  notype       Label        | $LN9
+070 00000940 SECT4  notype       Label        | $LN80
+071 00000BE0 SECT4  notype       Static       | $LN15
+072 00000BD0 SECT4  notype       Static       | $LN16
+073 00000BC1 SECT4  notype       Label        | $LN5
+074 00000BC5 SECT4  notype       Label        | $LN7
+075 00000BC9 SECT4  notype       Label        | $LN12
+076 00000BCD SECT4  notype       Label        | $LN13
+077 00000CA8 SECT4  notype       Static       | $LN46
+078 00000C3A SECT4  notype       Label        | $LN7
+079 00000C43 SECT4  notype       Label        | $LN8
+07A 00000C4C SECT4  notype       Label        | $LN13
+07B 00000C55 SECT4  notype       Label        | $LN22
+07C 00000C5E SECT4  notype       Label        | $LN24
+07D 00000C67 SECT4  notype       Label        | $LN28
+07E 00000CA1 SECT4  notype       Label        | $LN5
+07F 00000C70 SECT4  notype       Label        | $LN6
+080 00000C10 SECT4  notype       Label        | $LN48
+081 00000DA8 SECT4  notype       Static       | $LN14
+082 00000D98 SECT4  notype       Static       | $LN15
+083 00000D8A SECT4  notype       Label        | $LN4
+084 00000D8E SECT4  notype       Label        | $LN6
+085 00000D92 SECT4  notype       Label        | $LN11
+086 00000D95 SECT4  notype       Label        | $LN12
+087 00001150 SECT4  notype       Static       | $LN199
+088 000010F0 SECT4  notype       Static       | $LN200
+089 00000E2C SECT4  notype       Label        | $LN8
+08A 00000E3C SECT4  notype       Label        | $LN9
+08B 00000E4C SECT4  notype       Label        | $LN10
+08C 00000E5C SECT4  notype       Label        | $LN12
+08D 00000E6C SECT4  notype       Label        | $LN13
+08E 00000E7C SECT4  notype       Label        | $LN16
+08F 00000E92 SECT4  notype       Label        | $LN17
+090 00000EBE SECT4  notype       Label        | $LN18
+091 00000ECE SECT4  notype       Label        | $LN20
+092 00000EDE SECT4  notype       Label        | $LN21
+093 00000EEE SECT4  notype       Label        | $LN22
+094 00000EFC SECT4  notype       Label        | $LN23
+095 00000F12 SECT4  notype       Label        | $LN25
+096 00000F25 SECT4  notype       Label        | $LN27
+097 00000F2E SECT4  notype       Label        | $LN28
+098 00000F41 SECT4  notype       Label        | $LN30
+099 00000F51 SECT4  notype       Label        | $LN32
+09A 00000F61 SECT4  notype       Label        | $LN33
+09B 00000F71 SECT4  notype       Label        | $LN34
+09C 00000F87 SECT4  notype       Label        | $LN38
+09D 00000F9A SECT4  notype       Label        | $LN40
+09E 00000FAD SECT4  notype       Label        | $LN46
+09F 00001204 SECT4  notype       Static       | $LN197
+0A0 000011CC SECT4  notype       Static       | $LN198
+0A1 00001024 SECT4  notype       Label        | $LN49
+0A2 00001034 SECT4  notype       Label        | $LN50
+0A3 00001044 SECT4  notype       Label        | $LN52
+0A4 00001057 SECT4  notype       Label        | $LN56
+0A5 00001099 SECT4  notype       Label        | $LN59
+0A6 000010A9 SECT4  notype       Label        | $LN62
+0A7 000010B9 SECT4  notype       Label        | $LN63
+0A8 000010C9 SECT4  notype       Label        | $LN64
+0A9 000010DF SECT4  notype       Label        | $LN77
+0AA 00000DD0 SECT4  notype       Label        | $LN206
+0AB 00001240 SECT4  notype       Label        | $LN29
+0AC 000012A0 SECT4  notype       Label        | $LN5
+0AD 000012D0 SECT4  notype       Label        | $LN5
+0AE 00001420 SECT4  notype       Static       | $LN41
+0AF 00001408 SECT4  notype       Static       | $LN42
+0B0 00001345 SECT4  notype       Label        | $LN7
+0B1 00001367 SECT4  notype       Label        | $LN13
+0B2 0000137D SECT4  notype       Label        | $LN17
+0B3 000013BC SECT4  notype       Label        | $LN20
+0B4 000013C5 SECT4  notype       Label        | $LN22
+0B5 000013F6 SECT4  notype       Label        | $LN5
+0B6 00001300 SECT4  notype       Label        | $LN50
+0B7 000019BC SECT4  notype       Static       | $LN138
+0B8 00001960 SECT4  notype       Static       | $LN139
+0B9 000014CA SECT4  notype       Label        | $LN16
+0BA 0000153E SECT4  notype       Label        | $LN24
+0BB 0000155C SECT4  notype       Label        | $LN27
+0BC 000015B3 SECT4  notype       Label        | $LN35
+0BD 000015D1 SECT4  notype       Label        | $LN39
+0BE 000015EF SECT4  notype       Label        | $LN41
+0BF 0000160E SECT4  notype       Label        | $LN43
+0C0 0000163D SECT4  notype       Label        | $LN48
+0C1 00001666 SECT4  notype       Label        | $LN56
+0C2 000016CB SECT4  notype       Label        | $LN63
+0C3 000016E3 SECT4  notype       Label        | $LN66
+0C4 000016F1 SECT4  notype       Label        | $LN68
+0C5 0000171A SECT4  notype       Label        | $LN82
+0C6 00001745 SECT4  notype       Label        | $LN84
+0C7 0000175D SECT4  notype       Label        | $LN87
+0C8 000017A8 SECT4  notype       Label        | $LN93
+0C9 000017E2 SECT4  notype       Label        | $LN97
+0CA 0000180B SECT4  notype       Label        | $LN102
+0CB 00001829 SECT4  notype       Label        | $LN109
+0CC 00001885 SECT4  notype       Label        | $LN105
+0CD 0000191D SECT4  notype       Label        | $LN15
+0CE 00001948 SECT4  notype       Label        | $LN11
+0CF 000018B7 SECT4  notype       Label        | $LN12
+0D0 00001450 SECT4  notype       Label        | $LN143
+0D1 00002430 SECT4  notype       Static       | $LN75
+0D2 000023B4 SECT4  notype       Static       | $LN76
+0D3 00001ACA SECT4  notype       Label        | $LN11
+0D4 00001AF1 SECT4  notype       Label        | $LN15
+0D5 00001B81 SECT4  notype       Label        | $LN16
+0D6 00001BD2 SECT4  notype       Label        | $LN17
+0D7 00001C1E SECT4  notype       Label        | $LN18
+0D8 00001C84 SECT4  notype       Label        | $LN19
+0D9 00001CB9 SECT4  notype       Label        | $LN20
+0DA 00001CE6 SECT4  notype       Label        | $LN24
+0DB 00001D1D SECT4  notype       Label        | $LN25
+0DC 00001D4C SECT4  notype       Label        | $LN26
+0DD 00001D8E SECT4  notype       Label        | $LN27
+0DE 00001DE8 SECT4  notype       Label        | $LN28
+0DF 00001E0D SECT4  notype       Label        | $LN30
+0E0 00001E4D SECT4  notype       Label        | $LN31
+0E1 00001E84 SECT4  notype       Label        | $LN33
+0E2 00001EB9 SECT4  notype       Label        | $LN36
+0E3 00001F08 SECT4  notype       Label        | $LN37
+0E4 00001F25 SECT4  notype       Label        | $LN38
+0E5 00001F45 SECT4  notype       Label        | $LN40
+0E6 00001F87 SECT4  notype       Label        | $LN42
+0E7 00001FBE SECT4  notype       Label        | $LN43
+0E8 0000200A SECT4  notype       Label        | $LN48
+0E9 00002012 SECT4  notype       Label        | $LN51
+0EA 00002045 SECT4  notype       Label        | $LN53
+0EB 000020B6 SECT4  notype       Label        | $LN54
+0EC 0000210D SECT4  notype       Label        | $LN55
+0ED 00002157 SECT4  notype       Label        | $LN57
+0EE 00002186 SECT4  notype       Label        | $LN62
+0EF 00002359 SECT4  notype       Label        | $LN13
+0F0 00002363 SECT4  notype       Label        | $LN61
+0F1 00002276 SECT4  notype       Label        | $LN9
+0F2 00001A50 SECT4  notype       Label        | $LN84
+0F3 000024C0 SECT4  notype       Label        | $LN18
+0F4 000025C0 SECT4  notype       Label        | $LN8
+0F5 00002854 SECT4  notype       Static       | $LN43
+0F6 000027DE SECT4  notype       Label        | $LN9
+0F7 000027E4 SECT4  notype       Label        | $LN12
+0F8 000027F0 SECT4  notype       Label        | $LN15
+0F9 000027FC SECT4  notype       Label        | $LN18
+0FA 00002802 SECT4  notype       Label        | $LN20
+0FB 00002808 SECT4  notype       Label        | $LN22
+0FC 00002760 SECT4  notype       Label        | $LN47
+0FD 00002AFC SECT4  notype       Static       | $LN27
+0FE 00002975 SECT4  notype       Label        | $LN7
+0FF 00002988 SECT4  notype       Label        | $LN9
+100 00002A3B SECT4  notype       Label        | $LN12
+101 00002A5C SECT4  notype       Label        | $LN15
+102 00002A6C SECT4  notype       Label        | $LN16
+103 00002A7C SECT4  notype       Label        | $LN17
+104 00002880 SECT4  notype       Label        | $LN32
+105 0000311C SECT4  notype       Static       | $LN181
+106 000030E0 SECT4  notype       Static       | $LN182
+107 00002BDC SECT4  notype       Label        | $LN16
+108 00002BEA SECT4  notype       Label        | $LN21
+109 00002C53 SECT4  notype       Label        | $LN27
+10A 00002C61 SECT4  notype       Label        | $LN29
+10B 00002C79 SECT4  notype       Label        | $LN34
+10C 00002C90 SECT4  notype       Label        | $LN39
+10D 00002CA8 SECT4  notype       Label        | $LN42
+10E 00002CD3 SECT4  notype       Label        | $LN57
+10F 00002D2F SECT4  notype       Label        | $LN64
+110 00002E4C SECT4  notype       Label        | $LN84
+111 000031A4 SECT4  notype       Static       | $LN180
+112 00002E87 SECT4  notype       Label        | $LN87
+113 00002ED2 SECT4  notype       Label        | $LN99
+114 00002EE0 SECT4  notype       Label        | $LN109
+115 00002F2B SECT4  notype       Label        | $LN117
+116 00002F3C SECT4  notype       Label        | $LN118
+117 00002F54 SECT4  notype       Label        | $LN121
+118 00002F8E SECT4  notype       Label        | $LN125
+119 00002FC1 SECT4  notype       Label        | $LN131
+11A 00002FD5 SECT4  notype       Label        | $LN134
+11B 00002FFE SECT4  notype       Label        | $LN137
+11C 00003030 SECT4  notype       Label        | $LN145
+11D 00003044 SECT4  notype       Label        | $LN149
+11E 00003051 SECT4  notype       Label        | $LN150
+11F 00003062 SECT4  notype       Label        | $LN152
+120 0000308D SECT4  notype       Label        | $LN156
+121 000030C4 SECT4  notype       Label        | $LN11
+122 00003098 SECT4  notype       Label        | $LN12
+123 00002B60 SECT4  notype       Label        | $LN189
+124 000033FC SECT4  notype       Static       | $LN70
+125 00003301 SECT4  notype       Label        | $LN12
+126 00003329 SECT4  notype       Label        | $LN14
+127 0000334A SECT4  notype       Label        | $LN18
+128 00003368 SECT4  notype       Label        | $LN22
+129 0000337C SECT4  notype       Label        | $LN24
+12A 000033A6 SECT4  notype       Label        | $LN5
+12B 00003260 SECT4  notype       Label        | $LN72
+12C 00000000 SECT7  notype       Static       | .xdata
+    Section length  1F8, #relocs   21, #linenums    0, checksum B91CFFCF
+12E 00000000 SECT7  notype       Static       | $unwind$exprType
+12F 00000000 SECT8  notype       Static       | .pdata
+    Section length  168, #relocs   5A, #linenums    0, checksum C1A72FD4
+131 00000000 SECT8  notype       Static       | $pdata$exprType
+132 00000008 SECT7  notype       Static       | $chain$2$exprType
+133 0000000C SECT8  notype       Static       | $pdata$2$exprType
+134 00000024 SECT7  notype       Static       | $chain$3$exprType
+135 00000018 SECT8  notype       Static       | $pdata$3$exprType
+136 00000034 SECT7  notype       Static       | $unwind$exprTypmod
+137 00000024 SECT8  notype       Static       | $pdata$exprTypmod
+138 00000048 SECT7  notype       Static       | $unwind$relabel_to_typmod
+139 00000030 SECT8  notype       Static       | $pdata$relabel_to_typmod
+13A 00000058 SECT7  notype       Static       | $unwind$exprCollation
+13B 0000003C SECT8  notype       Static       | $pdata$exprCollation
+13C 00000060 SECT7  notype       Static       | $unwind$exprSetCollation
+13D 00000048 SECT8  notype       Static       | $pdata$exprSetCollation
+13E 00000068 SECT7  notype       Static       | $unwind$exprLocation
+13F 00000054 SECT8  notype       Static       | $pdata$exprLocation
+140 00000074 SECT7  notype       Static       | $unwind$fix_opfuncids
+141 00000060 SECT8  notype       Static       | $pdata$fix_opfuncids
+142 0000007C SECT7  notype       Static       | $unwind$set_opfuncid
+143 0000006C SECT8  notype       Static       | $pdata$set_opfuncid
+144 00000084 SECT7  notype       Static       | $unwind$set_sa_opfuncid
+145 00000078 SECT8  notype       Static       | $pdata$set_sa_opfuncid
+146 0000008C SECT7  notype       Static       | $unwind$check_functions_in_node
+147 00000084 SECT8  notype       Static       | $pdata$check_functions_in_node
+148 0000009C SECT7  notype       Static       | $unwind$expression_tree_walker
+149 00000090 SECT8  notype       Static       | $pdata$expression_tree_walker
+14A 000000AC SECT7  notype       Static       | $chain$0$expression_tree_walker
+14B 0000009C SECT8  notype       Static       | $pdata$0$expression_tree_walker
+14C 000000C0 SECT7  notype       Static       | $chain$1$expression_tree_walker
+14D 000000A8 SECT8  notype       Static       | $pdata$1$expression_tree_walker
+14E 000000D0 SECT7  notype       Static       | $unwind$expression_tree_mutator
+14F 000000B4 SECT8  notype       Static       | $pdata$expression_tree_mutator
+150 000000E0 SECT7  notype       Static       | $chain$0$expression_tree_mutator
+151 000000C0 SECT8  notype       Static       | $pdata$0$expression_tree_mutator
+152 000000F4 SECT7  notype       Static       | $chain$1$expression_tree_mutator
+153 000000CC SECT8  notype       Static       | $pdata$1$expression_tree_mutator
+154 00000104 SECT7  notype       Static       | $unwind$query_tree_walker
+155 000000D8 SECT8  notype       Static       | $pdata$query_tree_walker
+156 00000118 SECT7  notype       Static       | $unwind$query_tree_mutator
+157 000000E4 SECT8  notype       Static       | $pdata$query_tree_mutator
+158 0000012C SECT7  notype       Static       | $unwind$range_table_walker
+159 000000F0 SECT8  notype       Static       | $pdata$range_table_walker
+15A 00000148 SECT7  notype       Static       | $unwind$range_table_mutator
+15B 000000FC SECT8  notype       Static       | $pdata$range_table_mutator
+15C 00000158 SECT7  notype       Static       | $chain$3$range_table_mutator
+15D 00000108 SECT8  notype       Static       | $pdata$3$range_table_mutator
+15E 00000178 SECT7  notype       Static       | $chain$5$range_table_mutator
+15F 00000114 SECT8  notype       Static       | $pdata$5$range_table_mutator
+160 0000018C SECT7  notype       Static       | $chain$6$range_table_mutator
+161 00000120 SECT8  notype       Static       | $pdata$6$range_table_mutator
+162 0000019C SECT7  notype       Static       | $unwind$raw_expression_tree_walker
+163 0000012C SECT8  notype       Static       | $pdata$raw_expression_tree_walker
+164 000001AC SECT7  notype       Static       | $chain$1$raw_expression_tree_walker
+165 00000138 SECT8  notype       Static       | $pdata$1$raw_expression_tree_walker
+166 000001C4 SECT7  notype       Static       | $chain$2$raw_expression_tree_walker
+167 00000144 SECT8  notype       Static       | $pdata$2$raw_expression_tree_walker
+168 000001D4 SECT7  notype       Static       | $unwind$planstate_tree_walker
+169 00000150 SECT8  notype       Static       | $pdata$planstate_tree_walker
+16A 000001EC SECT7  notype       Static       | $unwind$fix_opfuncids_walker
+16B 0000015C SECT8  notype       Static       | $pdata$fix_opfuncids_walker
+16C 00000000 SECT9  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum C2D1B755, selection    5 (pick associative Section 0x5)
+16E 00000000 SECT9  notype       Static       | $unwind$planstate_walk_members
+16F 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6A3F9817, selection    5 (pick associative Section 0x5)
+171 00000000 SECTA  notype       Static       | $pdata$planstate_walk_members
+172 00000000 SECTB  notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 541C4380, selection    2 (pick any)
+174 00000000 SECTB  notype       External     | ??_C@_08ENOKKINB@exprType?$AA@ (`string')
+175 00000000 SECTC  notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum C53C5736, selection    2 (pick any)
+177 00000000 SECTC  notype       External     | ??_C@_0BO@DKMHJGHM@src?1backend?1nodes?1nodeFuncs?4c?$AA@ (`string')
+178 00000000 SECTD  notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum 3D9ECB14, selection    2 (pick any)
+17A 00000000 SECTD  notype       External     | ??_C@_0CK@CGAOBMBA@cannot?5get?5type?5for?5untransforme@ (`string')
+17B 00000000 SECTE  notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum D9250AC1, selection    2 (pick any)
+17D 00000000 SECTE  notype       External     | ??_C@_0CL@NOFDFOAP@could?5not?5find?5array?5type?5for?5da@ (`string')
+17E 00000000 SECTF  notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 37C5203E, selection    2 (pick any)
+180 00000000 SECTF  notype       External     | ??_C@_0BL@NCEAINHC@unrecognized?5node?5type?3?5?$CFd?$AA@ (`string')
+181 00000000 SECT10 notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum 53F8D62C, selection    2 (pick any)
+183 00000000 SECT10 notype       External     | ??_C@_0L@MHIAJIDP@exprTypmod?$AA@ (`string')
+184 00000000 SECT11 notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 66A9AD95, selection    2 (pick any)
+186 00000000 SECT11 notype       External     | ??_C@_0O@EIONCLKN@exprCollation?$AA@ (`string')
+187 00000000 SECT12 notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum F6D28225, selection    2 (pick any)
+189 00000000 SECT12 notype       External     | ??_C@_0CP@OMPENGKP@cannot?5get?5collation?5for?5untrans@ (`string')
+18A 00000000 SECT13 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 600DD2B8, selection    2 (pick any)
+18C 00000000 SECT13 notype       External     | ??_C@_0BB@FGBNNMPK@exprSetCollation?$AA@ (`string')
+18D 00000000 SECT14 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 1CFB53ED, selection    2 (pick any)
+18F 00000000 SECT14 notype       External     | ??_C@_0BH@JBKEIIFG@expression_tree_walker?$AA@ (`string')
+190 00000000 SECT15 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum E42A7352, selection    2 (pick any)
+192 00000000 SECT15 notype       External     | ??_C@_0BI@LIBEEGIN@expression_tree_mutator?$AA@ (`string')
+193 00000000 SECT16 notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum  A29C222, selection    2 (pick any)
+195 00000000 SECT16 notype       External     | ??_C@_0BL@OPKMGPGO@raw_expression_tree_walker?$AA@ (`string')
+196 00000000 UNDEF  notype       External     | __ImageBase
+
+String Table Size = 0xBC4 bytes
+
+  Summary
+
+        DCEC .debug$S
+          68 .debug$T
+          5D .drectve
+         174 .pdata
+         13A .rdata
+        358B .text$mn
+         210 .xdata

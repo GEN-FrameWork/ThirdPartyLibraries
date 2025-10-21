@@ -1,0 +1,127 @@
+
+Dump of file Release\postgres/getaddrinfo.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 3F88, #relocs   86, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  3F2, #relocs   20, #linenums    0, checksum 79A02F08
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  115, #relocs   1A, #linenums    0, checksum DE2A3EEE, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  234, #relocs   1A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype       External     | __imp_free
+00F 00000000 UNDEF  notype       External     | __imp_malloc
+010 00000000 UNDEF  notype       External     | __imp_atoi
+011 00000000 UNDEF  notype       External     | __imp_FreeLibrary
+012 00000000 UNDEF  notype       External     | __imp_GetProcAddress
+013 00000000 UNDEF  notype       External     | __imp_LoadLibraryA
+014 00000000 UNDEF  notype       External     | __imp_htonl
+015 00000000 UNDEF  notype       External     | __imp_htons
+016 00000000 UNDEF  notype       External     | __imp_ntohs
+017 00000000 UNDEF  notype       External     | __imp_gethostbyname
+018 00000000 UNDEF  notype       External     | __imp_WSAGetLastError
+019 00000000 UNDEF  notype ()    External     | pg_snprintf
+01A 00000000 UNDEF  notype ()    External     | inet_aton
+01B 00000000 UNDEF  notype ()    External     | inet_net_ntop
+01C 00000000 SECT4  notype ()    External     | pg_getaddrinfo
+01D 00000200 SECT4  notype ()    External     | pg_freeaddrinfo
+01E 00000250 SECT4  notype ()    External     | pg_gai_strerror
+01F 000002D0 SECT4  notype ()    External     | pg_getnameinfo
+020 00000000 SECT5  notype ()    Static       | haveNativeWindowsIPv6routines
+021 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+022 00000000 UNDEF  notype ()    External     | __security_check_cookie
+023 00000000 UNDEF  notype ()    External     | memcpy
+024 00000000 SECT4  notype       Label        | $LN34
+025 00000200 SECT4  notype       Label        | $LN8
+026 000002D0 SECT4  notype       Label        | $LN17
+027 00000000 SECT7  notype       Static       | .xdata
+    Section length   58, #relocs    7, #linenums    0, checksum AF216B07
+029 00000000 SECT7  notype       Static       | $unwind$pg_getaddrinfo
+02A 00000000 SECT8  notype       Static       | .pdata
+    Section length   3C, #relocs    F, #linenums    0, checksum 738C5D3D
+02C 00000000 SECT8  notype       Static       | $pdata$pg_getaddrinfo
+02D 00000018 SECT7  notype       Static       | $chain$0$pg_getaddrinfo
+02E 0000000C SECT8  notype       Static       | $pdata$0$pg_getaddrinfo
+02F 0000002C SECT7  notype       Static       | $chain$1$pg_getaddrinfo
+030 00000018 SECT8  notype       Static       | $pdata$1$pg_getaddrinfo
+031 0000003C SECT7  notype       Static       | $unwind$pg_freeaddrinfo
+032 00000024 SECT8  notype       Static       | $pdata$pg_freeaddrinfo
+033 00000044 SECT7  notype       Static       | $unwind$pg_getnameinfo
+034 00000030 SECT8  notype       Static       | $pdata$pg_getnameinfo
+035 00000000 SECT9  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 6520726B, selection    5 (pick associative Section 0x5)
+037 00000000 SECT9  notype       Static       | $unwind$haveNativeWindowsIPv6routines
+038 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 922C34FB, selection    5 (pick associative Section 0x5)
+03A 00000000 SECTA  notype       Static       | $pdata$haveNativeWindowsIPv6routines
+03B 00000000 SECTB  notype       Static       | .bss
+    Section length   19, #relocs    0, #linenums    0, checksum        0
+03D 00000000 SECTB  notype       Static       | getaddrinfo_ptr
+03E 00000008 SECTB  notype       Static       | freeaddrinfo_ptr
+03F 00000010 SECTB  notype       Static       | getnameinfo_ptr
+040 00000018 SECTB  notype       Static       | ?alreadyLookedForIpv6routines@?1??haveNativeWindowsIPv6routines@@9@9 (`haveNativeWindowsIPv6routines'::`2'::alreadyLookedForIpv6routines)
+041 00000000 SECTC  notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 27AB6A60, selection    2 (pick any)
+043 00000000 SECTC  notype       External     | ??_C@_06EFDIEKOB@ws2_32?$AA@ (`string')
+044 00000000 SECTD  notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 45A53073, selection    2 (pick any)
+046 00000000 SECTD  notype       External     | ??_C@_0M@MBIPAJOD@getaddrinfo?$AA@ (`string')
+047 00000000 SECTE  notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 96F8ECEA, selection    2 (pick any)
+049 00000000 SECTE  notype       External     | ??_C@_06PEGLMMGL@wship6?$AA@ (`string')
+04A 00000000 SECTF  notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum B76445CA, selection    2 (pick any)
+04C 00000000 SECTF  notype       External     | ??_C@_0N@EHOPPMLH@freeaddrinfo?$AA@ (`string')
+04D 00000000 SECT10 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 59B78636, selection    2 (pick any)
+04F 00000000 SECT10 notype       External     | ??_C@_0M@NNJNLPKG@getnameinfo?$AA@ (`string')
+050 00000000 SECT11 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 47944B9B, selection    2 (pick any)
+052 00000000 SECT11 notype       External     | ??_C@_0N@LHBPPCOG@Unknown?5host?$AA@ (`string')
+053 00000000 SECT12 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum FF2636A8, selection    2 (pick any)
+055 00000000 SECT12 notype       External     | ??_C@_0BJ@OJBGMHNI@Host?5name?5lookup?5failure?$AA@ (`string')
+056 00000000 SECT13 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 4A762A54, selection    2 (pick any)
+058 00000000 SECT13 notype       External     | ??_C@_0BB@HMGGCEBG@Invalid?5argument?$AA@ (`string')
+059 00000000 SECT14 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 98EA04A3, selection    2 (pick any)
+05B 00000000 SECT14 notype       External     | ??_C@_0BN@GMEBDOHK@Address?5family?5not?5supported?$AA@ (`string')
+05C 00000000 SECT15 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 884C3A57, selection    2 (pick any)
+05E 00000000 SECT15 notype       External     | ??_C@_0BC@BAKIAKOF@Not?5enough?5memory?$AA@ (`string')
+05F 00000000 SECT16 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum F9796C1D, selection    2 (pick any)
+061 00000000 SECT16 notype       External     | ??_C@_0BF@EHICFGGJ@Class?5type?5not?5found?$AA@ (`string')
+062 00000000 SECT17 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 5BD3C6D6, selection    2 (pick any)
+064 00000000 SECT17 notype       External     | ??_C@_0BK@LMAIHBL@Socket?5type?5not?5supported?$AA@ (`string')
+065 00000000 SECT18 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 57E31E6F, selection    2 (pick any)
+067 00000000 SECT18 notype       External     | ??_C@_0BF@OJBICEBL@Unknown?5server?5error?$AA@ (`string')
+068 00000000 SECT19 notype       Static       | .rdata
+    Section length    3, #relocs    0, #linenums    0, checksum 3F172AA8, selection    2 (pick any)
+06A 00000000 SECT19 notype       External     | ??_C@_02DPKJAMEF@?$CFd?$AA@ (`string')
+06B 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x54E bytes
+
+  Summary
+
+          19 .bss
+        41BC .debug$S
+          68 .debug$T
+          5D .drectve
+          48 .pdata
+          E0 .rdata
+         507 .text$mn
+          64 .xdata

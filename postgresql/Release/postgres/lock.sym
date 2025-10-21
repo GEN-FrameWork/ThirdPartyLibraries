@@ -1,0 +1,683 @@
+
+Dump of file Release\postgres/lock.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length B540, #relocs  432, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length   D0, #relocs   11, #linenums    0, checksum E48BF80C
+00A 00000000 SECT4  notype       Static       | LockConflicts
+00B 00000030 SECT4  notype       Static       | lock_mode_names
+00C 00000000 SECT5  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A73E963A, selection    2 (pick any)
+00E 00000000 SECT5  notype       External     | ??_C@_07DNODLGKM@INVALID?$AA@ (`string')
+00F 00000000 SECT6  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum BCE89889, selection    2 (pick any)
+011 00000000 SECT6  notype       External     | ??_C@_0BA@KPKMCMCD@AccessShareLock?$AA@ (`string')
+012 00000000 SECT7  notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 5CC04202, selection    2 (pick any)
+014 00000000 SECT7  notype       External     | ??_C@_0N@KMELPLHP@RowShareLock?$AA@ (`string')
+015 00000000 SECT8  notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 67873B9B, selection    2 (pick any)
+017 00000000 SECT8  notype       External     | ??_C@_0BB@FBJHDFNJ@RowExclusiveLock?$AA@ (`string')
+018 00000000 SECT9  notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 5C1E8529, selection    2 (pick any)
+01A 00000000 SECT9  notype       External     | ??_C@_0BJ@EKCOHEFJ@ShareUpdateExclusiveLock?$AA@ (`string')
+01B 00000000 SECTA  notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum B8C97431, selection    2 (pick any)
+01D 00000000 SECTA  notype       External     | ??_C@_09KELMODLI@ShareLock?$AA@ (`string')
+01E 00000000 SECTB  notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 3EB55B29, selection    2 (pick any)
+020 00000000 SECTB  notype       External     | ??_C@_0BG@GJGDBFDG@ShareRowExclusiveLock?$AA@ (`string')
+021 00000000 SECTC  notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum D35A68DE, selection    2 (pick any)
+023 00000000 SECTC  notype       External     | ??_C@_0O@PNBOOOOG@ExclusiveLock?$AA@ (`string')
+024 00000000 SECTD  notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 2096F695, selection    2 (pick any)
+026 00000000 SECTD  notype       External     | ??_C@_0BE@NALMJCOH@AccessExclusiveLock?$AA@ (`string')
+027 00000000 SECTE  notype       Static       | .bss
+    Section length   48, #relocs    0, #linenums    0, checksum        0
+029 00000000 SECTE  notype       Static       | Dummy_trace
+02A 00000078 SECT4  notype       Static       | default_lockmethod
+02B 00000098 SECT4  notype       Static       | user_lockmethod
+02C 00000004 UNDEF  notype       External     | max_locks_per_xact
+02D 00000000 SECTF  notype       Static       | .text$mn
+    Section length 34B6, #relocs  265, #linenums    0, checksum 8EA90CE6
+02F 00000000 SECT10 notype       Static       | .text$mn
+    Section length   87, #relocs    9, #linenums    0, checksum CD1B45DF, selection    1 (pick no duplicates)
+031 00000000 SECT11 notype       Static       | .debug$S
+    Section length  168, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x10)
+033 00000000 SECT12 notype       Static       | .text$mn
+    Section length  10D, #relocs   11, #linenums    0, checksum  94B68C3, selection    1 (pick no duplicates)
+035 00000000 SECT13 notype       Static       | .debug$S
+    Section length  30C, #relocs   1A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x12)
+037 00000000 SECT14 notype       Static       | .text$mn
+    Section length  2C0, #relocs   29, #linenums    0, checksum 5F7DB974, selection    1 (pick no duplicates)
+039 00000000 SECT15 notype       Static       | .debug$S
+    Section length  474, #relocs   26, #linenums    0, checksum        0, selection    5 (pick associative Section 0x14)
+03B 00000000 SECT16 notype       Static       | .text$mn
+    Section length   DB, #relocs    3, #linenums    0, checksum B21EAFA4, selection    1 (pick no duplicates)
+03D 00000000 SECT17 notype       Static       | .debug$S
+    Section length  1F8, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0x16)
+03F 00000000 SECT18 notype       Static       | .text$mn
+    Section length  1CB, #relocs    A, #linenums    0, checksum 32ADB93F, selection    1 (pick no duplicates)
+041 00000000 SECT19 notype       Static       | .debug$S
+    Section length  45C, #relocs   30, #linenums    0, checksum        0, selection    5 (pick associative Section 0x18)
+043 00000000 SECT1A notype       Static       | .text$mn
+    Section length   9E, #relocs    4, #linenums    0, checksum FDB504B8, selection    1 (pick no duplicates)
+045 00000000 SECT1B notype       Static       | .debug$S
+    Section length  1FC, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x1A)
+047 00000000 SECT1C notype       Static       | .text$mn
+    Section length  1C8, #relocs    6, #linenums    0, checksum 22AAD83B, selection    1 (pick no duplicates)
+049 00000000 SECT1D notype       Static       | .debug$S
+    Section length  368, #relocs   22, #linenums    0, checksum        0, selection    5 (pick associative Section 0x1C)
+04B 00000000 SECT1E notype       Static       | .text$mn
+    Section length   57, #relocs    1, #linenums    0, checksum 6211F6F4, selection    1 (pick no duplicates)
+04D 00000000 SECT1F notype       Static       | .debug$S
+    Section length  1C4, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x1E)
+04F 00000000 SECT20 notype       Static       | .text$mn
+    Section length   C0, #relocs    4, #linenums    0, checksum B18F7CD5, selection    1 (pick no duplicates)
+051 00000000 SECT21 notype       Static       | .debug$S
+    Section length  2B0, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x20)
+053 00000000 SECT22 notype       Static       | .text$mn
+    Section length  24E, #relocs   22, #linenums    0, checksum 523D0627, selection    1 (pick no duplicates)
+055 00000000 SECT23 notype       Static       | .debug$S
+    Section length  514, #relocs   28, #linenums    0, checksum        0, selection    5 (pick associative Section 0x22)
+057 00000000 SECT24 notype       Static       | .text$mn
+    Section length  112, #relocs    8, #linenums    0, checksum E2BFE0CC, selection    1 (pick no duplicates)
+059 00000000 SECT25 notype       Static       | .debug$S
+    Section length  278, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x24)
+05B 00000000 SECT26 notype       Static       | .text$mn
+    Section length  12A, #relocs   11, #linenums    0, checksum F5770968, selection    1 (pick no duplicates)
+05D 00000000 SECT27 notype       Static       | .debug$S
+    Section length  1E0, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0x26)
+05F 00000000 SECT28 notype       Static       | .text$mn
+    Section length  27A, #relocs   14, #linenums    0, checksum 1A1CE9D6, selection    1 (pick no duplicates)
+061 00000000 SECT29 notype       Static       | .debug$S
+    Section length  5C4, #relocs   3E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x28)
+063 00000000 SECT2A notype       Static       | .text$mn
+    Section length   42, #relocs    0, #linenums    0, checksum DB230C46, selection    1 (pick no duplicates)
+065 00000000 SECT2B notype       Static       | .debug$S
+    Section length  1C8, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x2A)
+067 00000000 SECT2C notype       Static       | .text$mn
+    Section length  1F0, #relocs   21, #linenums    0, checksum 7F70DFDC, selection    1 (pick no duplicates)
+069 00000000 SECT2D notype       Static       | .debug$S
+    Section length  414, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0x2C)
+06B 00000000 UNDEF  notype ()    External     | errstart
+06C 00000000 UNDEF  notype ()    External     | errfinish
+06D 00000000 UNDEF  notype ()    External     | errcode
+06E 00000000 UNDEF  notype ()    External     | errmsg
+06F 00000000 UNDEF  notype ()    External     | errhint
+070 00000000 UNDEF  notype ()    External     | elog_start
+071 00000000 UNDEF  notype ()    External     | elog_finish
+072 00000000 UNDEF  notype ()    External     | pg_re_throw
+073 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+074 00000000 UNDEF  notype ()    External     | palloc
+075 00000000 UNDEF  notype ()    External     | palloc0
+076 00000000 UNDEF  notype ()    External     | repalloc
+077 00000000 UNDEF  notype ()    External     | pfree
+078 00000000 UNDEF  notype ()    External     | s_lock
+079 00000000 UNDEF  notype ()    External     | LWLockAcquire
+07A 00000000 UNDEF  notype ()    External     | LWLockRelease
+07B 00000000 UNDEF  notype ()    External     | hash_create
+07C 00000000 UNDEF  notype ()    External     | hash_destroy
+07D 00000000 UNDEF  notype ()    External     | hash_search
+07E 00000000 UNDEF  notype ()    External     | get_hash_value
+07F 00000000 UNDEF  notype ()    External     | hash_search_with_hash_value
+080 00000000 UNDEF  notype ()    External     | hash_update_hash_key
+081 00000000 UNDEF  notype ()    External     | hash_get_num_entries
+082 00000000 UNDEF  notype ()    External     | hash_seq_init
+083 00000000 UNDEF  notype ()    External     | hash_seq_search
+084 00000000 UNDEF  notype ()    External     | hash_estimate_size
+085 00000000 UNDEF  notype ()    External     | ShmemInitHash
+086 00000000 UNDEF  notype ()    External     | ShmemInitStruct
+087 00000000 UNDEF  notype ()    External     | add_size
+088 00000000 UNDEF  notype ()    External     | mul_size
+089 00000000 UNDEF  notype ()    External     | SHMQueueInit
+08A 00000000 UNDEF  notype ()    External     | SHMQueueDelete
+08B 00000000 UNDEF  notype ()    External     | SHMQueueInsertBefore
+08C 00000000 UNDEF  notype ()    External     | SHMQueueNext
+08D 00000000 SECTF  notype ()    External     | InitLocks
+08E 000001B0 SECTF  notype ()    External     | GetLocksMethodTable
+08F 000001D0 SECTF  notype ()    External     | GetLockTagsMethodTable
+090 000001F0 SECTF  notype ()    External     | LockTagHashCode
+091 00000210 SECTF  notype ()    External     | DoLockModesConflict
+092 00000230 SECTF  notype ()    External     | LockAcquire
+093 00000260 SECTF  notype ()    External     | LockAcquireExtended
+094 00000930 SECTF  notype ()    External     | AbortStrongLockAcquire
+095 000009D0 SECTF  notype ()    External     | MarkLockClear
+096 000009E0 SECTF  notype ()    External     | LockRelease
+097 00000DF0 SECTF  notype ()    External     | LockReleaseAll
+098 00001230 SECTF  notype ()    External     | LockReleaseSession
+099 00001390 SECTF  notype ()    External     | LockReleaseCurrentOwner
+09A 00001510 SECTF  notype ()    External     | LockReassignCurrentOwner
+09B 00001670 SECTF  notype ()    External     | LockHasWaiters
+09C 00001890 SECTF  notype ()    External     | GetLockConflicts
+09D 00001C50 SECTF  notype ()    External     | AtPrepare_Locks
+09E 00001DC0 SECTF  notype ()    External     | PostPrepare_Locks
+09F 000020A0 SECTF  notype ()    External     | LockCheckConflicts
+0A0 00002290 SECTF  notype ()    External     | GrantLock
+0A1 000022D0 SECTF  notype ()    External     | GrantAwaitedLock
+0A2 00002340 SECTF  notype ()    External     | RemoveFromWaitQueue
+0A3 000023F0 SECTF  notype ()    External     | LockShmemSize
+0A4 00002480 SECTF  notype ()    External     | GetLockStatusData
+0A5 000027E0 SECTF  notype ()    External     | GetBlockerStatusData
+0A6 00002970 SECTF  notype ()    External     | GetRunningTransactionLocks
+0A7 00002AB0 SECTF  notype ()    External     | GetLockmodeName
+0A8 00002AD0 SECTF  notype ()    External     | lock_twophase_recover
+0A9 00002F30 SECTF  notype ()    External     | lock_twophase_postcommit
+0AA 00002FC0 SECTF  notype ()    External     | lock_twophase_postabort
+0AB 00002FD0 SECTF  notype ()    External     | lock_twophase_standby_recover
+0AC 00000000 UNDEF  notype ()    External     | DeadLockReport
+0AD 00003060 SECTF  notype ()    External     | LockWaiterCount
+0AE 00003130 SECTF  notype ()    External     | VirtualXactLockTableInsert
+0AF 00003190 SECTF  notype ()    External     | VirtualXactLockTableCleanup
+0B0 00003270 SECTF  notype ()    External     | VirtualXactLock
+0B1 00000000 UNDEF  notype ()    External     | TwoPhaseGetDummyProc
+0B2 00000000 UNDEF  notype ()    External     | RegisterTwoPhaseRecord
+0B3 00000000 UNDEF  notype ()    External     | RecoveryInProgress
+0B4 00000000 UNDEF  notype ()    External     | ProcQueueInit
+0B5 00000000 UNDEF  notype ()    External     | ProcSleep
+0B6 00000000 UNDEF  notype ()    External     | ProcLockWakeup
+0B7 00000000 UNDEF  notype ()    External     | StandbyAcquireAccessExclusiveLock
+0B8 00000000 UNDEF  notype ()    External     | LogAccessExclusiveLock
+0B9 00000000 UNDEF  notype ()    External     | LogAccessExclusiveLockPrepare
+0BA 00000000 UNDEF  notype ()    External     | BackendPidGetProcWithLock
+0BB 00000000 UNDEF  notype ()    External     | BackendIdGetProc
+0BC 00000000 UNDEF  notype ()    External     | set_ps_display
+0BD 00000000 UNDEF  notype ()    External     | get_ps_display
+0BE 00000000 UNDEF  notype ()    External     | ResourceOwnerGetParent
+0BF 00000000 UNDEF  notype ()    External     | ResourceOwnerRememberLock
+0C0 00000000 UNDEF  notype ()    External     | ResourceOwnerForgetLock
+0C1 00000000 SECT16 notype ()    Static       | FastPathGrantRelationLock
+0C2 00000000 SECT1A notype ()    Static       | FastPathUnGrantRelationLock
+0C3 00000000 SECT18 notype ()    Static       | FastPathTransferRelationLocks
+0C4 00000000 SECT14 notype ()    Static       | FastPathGetRelationLockEntry
+0C5 00003490 SECTF  notype ()    Static       | proclock_hash
+0C6 00000000 SECT26 notype ()    Static       | RemoveLocalLock
+0C7 00000000 SECT28 notype ()    Static       | SetupLockInTable
+0C8 00000000 SECT1E notype ()    Static       | GrantLockLocal
+0C9 00000000 SECT10 notype ()    Static       | BeginStrongLockAcquire
+0CA 00000000 SECT2C notype ()    Static       | WaitOnLock
+0CB 00000000 SECT24 notype ()    Static       | ReleaseLockIfHeld
+0CC 00000000 SECT20 notype ()    Static       | LockReassignOwner
+0CD 00000000 SECT2A notype ()    Static       | UnGrantLock
+0CE 00000000 SECT12 notype ()    Static       | CleanUpLock
+0CF 00000000 SECT22 notype ()    Static       | LockRefindAndRelease
+0D0 00000000 SECT1C notype ()    Static       | GetSingleProcBlockerStatusData
+0D1 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+0D2 00000000 UNDEF  notype ()    External     | __security_check_cookie
+0D3 00000000 UNDEF  notype ()    External     | _setjmp
+0D4 00000000 UNDEF  notype ()    External     | memcpy
+0D5 00000000 UNDEF  notype ()    External     | memset
+0D6 00000000 SECTF  notype       Label        | $LN22
+0D7 00000230 SECTF  notype       Label        | $LN4
+0D8 00000260 SECTF  notype       Label        | $LN103
+0D9 00000930 SECTF  notype       Label        | $LN10
+0DA 000009E0 SECTF  notype       Label        | $LN78
+0DB 00000DF0 SECTF  notype       Label        | $LN84
+0DC 00001230 SECTF  notype       Label        | $LN42
+0DD 00001390 SECTF  notype       Label        | $LN42
+0DE 00001510 SECTF  notype       Label        | $LN34
+0DF 00001670 SECTF  notype       Label        | $LN43
+0E0 00001890 SECTF  notype       Label        | $LN71
+0E1 00001C50 SECTF  notype       Label        | $LN33
+0E2 00001DC0 SECTF  notype       Label        | $LN66
+0E3 000020A0 SECTF  notype       Label        | $LN45
+0E4 00002340 SECTF  notype       Label        | $LN5
+0E5 000023F0 SECTF  notype       Label        | $LN4
+0E6 00002480 SECTF  notype       Label        | $LN45
+0E7 000027E0 SECTF  notype       Label        | $LN30
+0E8 00002970 SECTF  notype       Label        | $LN26
+0E9 00002AD0 SECTF  notype       Label        | $LN78
+0EA 00002F30 SECTF  notype       Label        | $LN11
+0EB 00002FD0 SECTF  notype       Label        | $LN12
+0EC 00003060 SECTF  notype       Label        | $LN14
+0ED 00003130 SECTF  notype       Label        | $LN4
+0EE 00003190 SECTF  notype       Label        | $LN5
+0EF 00003270 SECTF  notype       Label        | $LN21
+0F0 000001F0 SECT2C notype       Label        | $LN13
+0F1 00000000 SECT2E notype       Static       | .xdata
+    Section length  424, #relocs   5B, #linenums    0, checksum 7BDED78D
+0F3 00000000 SECT2E notype       Static       | $unwind$InitLocks
+0F4 00000000 SECT2F notype       Static       | .pdata
+    Section length  294, #relocs   A5, #linenums    0, checksum F035B661
+0F6 00000000 SECT2F notype       Static       | $pdata$InitLocks
+0F7 00000014 SECT2E notype       Static       | $unwind$LockAcquire
+0F8 0000000C SECT2F notype       Static       | $pdata$LockAcquire
+0F9 0000001C SECT2E notype       Static       | $unwind$LockAcquireExtended
+0FA 00000018 SECT2F notype       Static       | $pdata$LockAcquireExtended
+0FB 0000003C SECT2E notype       Static       | $unwind$AbortStrongLockAcquire
+0FC 00000024 SECT2F notype       Static       | $pdata$AbortStrongLockAcquire
+0FD 00000044 SECT2E notype       Static       | $chain$0$AbortStrongLockAcquire
+0FE 00000030 SECT2F notype       Static       | $pdata$0$AbortStrongLockAcquire
+0FF 00000058 SECT2E notype       Static       | $chain$1$AbortStrongLockAcquire
+100 0000003C SECT2F notype       Static       | $pdata$1$AbortStrongLockAcquire
+101 00000068 SECT2E notype       Static       | $unwind$LockRelease
+102 00000048 SECT2F notype       Static       | $pdata$LockRelease
+103 00000084 SECT2E notype       Static       | $chain$0$LockRelease
+104 00000054 SECT2F notype       Static       | $pdata$0$LockRelease
+105 00000098 SECT2E notype       Static       | $chain$1$LockRelease
+106 00000060 SECT2F notype       Static       | $pdata$1$LockRelease
+107 000000A8 SECT2E notype       Static       | $unwind$LockReleaseAll
+108 0000006C SECT2F notype       Static       | $pdata$LockReleaseAll
+109 000000C0 SECT2E notype       Static       | $unwind$LockReleaseSession
+10A 00000078 SECT2F notype       Static       | $pdata$LockReleaseSession
+10B 000000C8 SECT2E notype       Static       | $unwind$LockReleaseCurrentOwner
+10C 00000084 SECT2F notype       Static       | $pdata$LockReleaseCurrentOwner
+10D 000000D4 SECT2E notype       Static       | $chain$1$LockReleaseCurrentOwner
+10E 00000090 SECT2F notype       Static       | $pdata$1$LockReleaseCurrentOwner
+10F 000000EC SECT2E notype       Static       | $chain$2$LockReleaseCurrentOwner
+110 0000009C SECT2F notype       Static       | $pdata$2$LockReleaseCurrentOwner
+111 000000FC SECT2E notype       Static       | $unwind$LockReassignCurrentOwner
+112 000000A8 SECT2F notype       Static       | $pdata$LockReassignCurrentOwner
+113 0000010C SECT2E notype       Static       | $unwind$LockHasWaiters
+114 000000B4 SECT2F notype       Static       | $pdata$LockHasWaiters
+115 00000124 SECT2E notype       Static       | $unwind$GetLockConflicts
+116 000000C0 SECT2F notype       Static       | $pdata$GetLockConflicts
+117 00000138 SECT2E notype       Static       | $chain$1$GetLockConflicts
+118 000000CC SECT2F notype       Static       | $pdata$1$GetLockConflicts
+119 00000150 SECT2E notype       Static       | $chain$2$GetLockConflicts
+11A 000000D8 SECT2F notype       Static       | $pdata$2$GetLockConflicts
+11B 00000164 SECT2E notype       Static       | $unwind$AtPrepare_Locks
+11C 000000E4 SECT2F notype       Static       | $pdata$AtPrepare_Locks
+11D 00000174 SECT2E notype       Static       | $chain$1$AtPrepare_Locks
+11E 000000F0 SECT2F notype       Static       | $pdata$1$AtPrepare_Locks
+11F 0000018C SECT2E notype       Static       | $chain$2$AtPrepare_Locks
+120 000000FC SECT2F notype       Static       | $pdata$2$AtPrepare_Locks
+121 0000019C SECT2E notype       Static       | $unwind$PostPrepare_Locks
+122 00000108 SECT2F notype       Static       | $pdata$PostPrepare_Locks
+123 000001B4 SECT2E notype       Static       | $unwind$LockCheckConflicts
+124 00000114 SECT2F notype       Static       | $pdata$LockCheckConflicts
+125 000001CC SECT2E notype       Static       | $chain$0$LockCheckConflicts
+126 00000120 SECT2F notype       Static       | $pdata$0$LockCheckConflicts
+127 000001E0 SECT2E notype       Static       | $chain$3$LockCheckConflicts
+128 0000012C SECT2F notype       Static       | $pdata$3$LockCheckConflicts
+129 000001FC SECT2E notype       Static       | $chain$4$LockCheckConflicts
+12A 00000138 SECT2F notype       Static       | $pdata$4$LockCheckConflicts
+12B 0000020C SECT2E notype       Static       | $chain$5$LockCheckConflicts
+12C 00000144 SECT2F notype       Static       | $pdata$5$LockCheckConflicts
+12D 0000021C SECT2E notype       Static       | $chain$6$LockCheckConflicts
+12E 00000150 SECT2F notype       Static       | $pdata$6$LockCheckConflicts
+12F 0000023C SECT2E notype       Static       | $chain$7$LockCheckConflicts
+130 0000015C SECT2F notype       Static       | $pdata$7$LockCheckConflicts
+131 00000250 SECT2E notype       Static       | $unwind$RemoveFromWaitQueue
+132 00000168 SECT2F notype       Static       | $pdata$RemoveFromWaitQueue
+133 00000268 SECT2E notype       Static       | $unwind$LockShmemSize
+134 00000174 SECT2F notype       Static       | $pdata$LockShmemSize
+135 00000274 SECT2E notype       Static       | $unwind$GetLockStatusData
+136 00000180 SECT2F notype       Static       | $pdata$GetLockStatusData
+137 00000280 SECT2E notype       Static       | $chain$0$GetLockStatusData
+138 0000018C SECT2F notype       Static       | $pdata$0$GetLockStatusData
+139 00000294 SECT2E notype       Static       | $chain$2$GetLockStatusData
+13A 00000198 SECT2F notype       Static       | $pdata$2$GetLockStatusData
+13B 000002AC SECT2E notype       Static       | $chain$4$GetLockStatusData
+13C 000001A4 SECT2F notype       Static       | $pdata$4$GetLockStatusData
+13D 000002C4 SECT2E notype       Static       | $chain$5$GetLockStatusData
+13E 000001B0 SECT2F notype       Static       | $pdata$5$GetLockStatusData
+13F 000002D4 SECT2E notype       Static       | $chain$6$GetLockStatusData
+140 000001BC SECT2F notype       Static       | $pdata$6$GetLockStatusData
+141 000002E8 SECT2E notype       Static       | $chain$7$GetLockStatusData
+142 000001C8 SECT2F notype       Static       | $pdata$7$GetLockStatusData
+143 000002F8 SECT2E notype       Static       | $unwind$GetBlockerStatusData
+144 000001D4 SECT2F notype       Static       | $pdata$GetBlockerStatusData
+145 00000308 SECT2E notype       Static       | $chain$0$GetBlockerStatusData
+146 000001E0 SECT2F notype       Static       | $pdata$0$GetBlockerStatusData
+147 0000031C SECT2E notype       Static       | $chain$1$GetBlockerStatusData
+148 000001EC SECT2F notype       Static       | $pdata$1$GetBlockerStatusData
+149 0000032C SECT2E notype       Static       | $unwind$GetRunningTransactionLocks
+14A 000001F8 SECT2F notype       Static       | $pdata$GetRunningTransactionLocks
+14B 00000344 SECT2E notype       Static       | $unwind$lock_twophase_recover
+14C 00000204 SECT2F notype       Static       | $pdata$lock_twophase_recover
+14D 00000360 SECT2E notype       Static       | $unwind$lock_twophase_postcommit
+14E 00000210 SECT2F notype       Static       | $pdata$lock_twophase_postcommit
+14F 00000370 SECT2E notype       Static       | $unwind$lock_twophase_standby_recover
+150 0000021C SECT2F notype       Static       | $pdata$lock_twophase_standby_recover
+151 00000384 SECT2E notype       Static       | $unwind$LockWaiterCount
+152 00000228 SECT2F notype       Static       | $pdata$LockWaiterCount
+153 00000398 SECT2E notype       Static       | $unwind$VirtualXactLockTableInsert
+154 00000234 SECT2F notype       Static       | $pdata$VirtualXactLockTableInsert
+155 000003A0 SECT2E notype       Static       | $unwind$VirtualXactLockTableCleanup
+156 00000240 SECT2F notype       Static       | $pdata$VirtualXactLockTableCleanup
+157 000003B8 SECT2E notype       Static       | $unwind$VirtualXactLock
+158 0000024C SECT2F notype       Static       | $pdata$VirtualXactLock
+159 000003D0 SECT2E notype       Static       | $chain$0$VirtualXactLock
+15A 00000258 SECT2F notype       Static       | $pdata$0$VirtualXactLock
+15B 000003E4 SECT2E notype       Static       | $chain$2$VirtualXactLock
+15C 00000264 SECT2F notype       Static       | $pdata$2$VirtualXactLock
+15D 000003FC SECT2E notype       Static       | $chain$3$VirtualXactLock
+15E 00000270 SECT2F notype       Static       | $pdata$3$VirtualXactLock
+15F 0000040C SECT2E notype       Static       | $chain$4$VirtualXactLock
+160 0000027C SECT2F notype       Static       | $pdata$4$VirtualXactLock
+161 00000000 SECT30 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 7B2C45B3, selection    5 (pick associative Section 0x16)
+163 00000000 SECT30 notype       Static       | $unwind$FastPathGrantRelationLock
+164 00000000 SECT31 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5B776A4A, selection    5 (pick associative Section 0x16)
+166 00000000 SECT31 notype       Static       | $pdata$FastPathGrantRelationLock
+167 00000000 SECT32 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 7B2C45B3, selection    5 (pick associative Section 0x1A)
+169 00000000 SECT32 notype       Static       | $unwind$FastPathUnGrantRelationLock
+16A 00000000 SECT33 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3A0AA6C3, selection    5 (pick associative Section 0x1A)
+16C 00000000 SECT33 notype       Static       | $pdata$FastPathUnGrantRelationLock
+16D 00000000 SECT34 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 419A864B, selection    5 (pick associative Section 0x18)
+16F 00000000 SECT34 notype       Static       | $unwind$FastPathTransferRelationLocks
+170 00000000 SECT35 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 81BB50D5, selection    5 (pick associative Section 0x18)
+172 00000000 SECT35 notype       Static       | $pdata$FastPathTransferRelationLocks
+173 00000000 SECT36 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum EDE5DC69, selection    5 (pick associative Section 0x14)
+175 00000000 SECT36 notype       Static       | $unwind$FastPathGetRelationLockEntry
+176 00000000 SECT37 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D8A74F2B, selection    5 (pick associative Section 0x14)
+178 00000000 SECT37 notype       Static       | $pdata$FastPathGetRelationLockEntry
+179 00000000 SECT38 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum DDE1D0DD, selection    5 (pick associative Section 0x14)
+17B 00000000 SECT38 notype       Static       | $chain$0$FastPathGetRelationLockEntry
+17C 00000000 SECT39 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum EFA0057C, selection    5 (pick associative Section 0x14)
+17E 00000000 SECT39 notype       Static       | $pdata$0$FastPathGetRelationLockEntry
+17F 00000000 SECT3A notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 87CB30B2, selection    5 (pick associative Section 0x14)
+181 00000000 SECT3A notype       Static       | $chain$2$FastPathGetRelationLockEntry
+182 00000000 SECT3B notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F9D73853, selection    5 (pick associative Section 0x14)
+184 00000000 SECT3B notype       Static       | $pdata$2$FastPathGetRelationLockEntry
+185 00000000 SECT3C notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 56F7EF90, selection    5 (pick associative Section 0x14)
+187 00000000 SECT3C notype       Static       | $chain$3$FastPathGetRelationLockEntry
+188 00000000 SECT3D notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8160F37B, selection    5 (pick associative Section 0x14)
+18A 00000000 SECT3D notype       Static       | $pdata$3$FastPathGetRelationLockEntry
+18B 00000000 SECT3E notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 61F0A5C7, selection    5 (pick associative Section 0x14)
+18D 00000000 SECT3E notype       Static       | $chain$4$FastPathGetRelationLockEntry
+18E 00000000 SECT3F notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  49355BD, selection    5 (pick associative Section 0x14)
+190 00000000 SECT3F notype       Static       | $pdata$4$FastPathGetRelationLockEntry
+191 0000041C SECT2E notype       Static       | $unwind$proclock_hash
+192 00000288 SECT2F notype       Static       | $pdata$proclock_hash
+193 00000000 SECT40 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum ED4F81A7, selection    5 (pick associative Section 0x26)
+195 00000000 SECT40 notype       Static       | $unwind$RemoveLocalLock
+196 00000000 SECT41 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum CEC1752A, selection    5 (pick associative Section 0x26)
+198 00000000 SECT41 notype       Static       | $pdata$RemoveLocalLock
+199 00000000 SECT42 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum B960C16A, selection    5 (pick associative Section 0x28)
+19B 00000000 SECT42 notype       Static       | $unwind$SetupLockInTable
+19C 00000000 SECT43 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum AA0F9C71, selection    5 (pick associative Section 0x28)
+19E 00000000 SECT43 notype       Static       | $pdata$SetupLockInTable
+19F 00000000 SECT44 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0x10)
+1A1 00000000 SECT44 notype       Static       | $unwind$BeginStrongLockAcquire
+1A2 00000000 SECT45 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 59FE8CC3, selection    5 (pick associative Section 0x10)
+1A4 00000000 SECT45 notype       Static       | $pdata$BeginStrongLockAcquire
+1A5 00000000 SECT46 notype       Static       | .xdata
+    Section length   18, #relocs    1, #linenums    0, checksum 7CDA1ADD, selection    5 (pick associative Section 0x2C)
+1A7 00000000 SECT46 notype       Static       | $unwind$WaitOnLock
+1A8 00000000 SECT47 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 591C1FFE, selection    5 (pick associative Section 0x2C)
+1AA 00000000 SECT47 notype       Static       | $pdata$WaitOnLock
+1AB 00000000 SECT48 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum FF724293, selection    5 (pick associative Section 0x24)
+1AD 00000000 SECT48 notype       Static       | $unwind$ReleaseLockIfHeld
+1AE 00000000 SECT49 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8744B5F4, selection    5 (pick associative Section 0x24)
+1B0 00000000 SECT49 notype       Static       | $pdata$ReleaseLockIfHeld
+1B1 00000000 SECT4A notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 89588EA0, selection    5 (pick associative Section 0x24)
+1B3 00000000 SECT4A notype       Static       | $chain$0$ReleaseLockIfHeld
+1B4 00000000 SECT4B notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C90A2D40, selection    5 (pick associative Section 0x24)
+1B6 00000000 SECT4B notype       Static       | $pdata$0$ReleaseLockIfHeld
+1B7 00000000 SECT4C notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 3E135F18, selection    5 (pick associative Section 0x24)
+1B9 00000000 SECT4C notype       Static       | $chain$1$ReleaseLockIfHeld
+1BA 00000000 SECT4D notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B55C7CBD, selection    5 (pick associative Section 0x24)
+1BC 00000000 SECT4D notype       Static       | $pdata$1$ReleaseLockIfHeld
+1BD 00000000 SECT4E notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0x20)
+1BF 00000000 SECT4E notype       Static       | $unwind$LockReassignOwner
+1C0 00000000 SECT4F notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7AA64737, selection    5 (pick associative Section 0x20)
+1C2 00000000 SECT4F notype       Static       | $pdata$LockReassignOwner
+1C3 00000000 SECT50 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 79191DC9, selection    5 (pick associative Section 0x12)
+1C5 00000000 SECT50 notype       Static       | $unwind$CleanUpLock
+1C6 00000000 SECT51 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3D721E65, selection    5 (pick associative Section 0x12)
+1C8 00000000 SECT51 notype       Static       | $pdata$CleanUpLock
+1C9 00000000 SECT52 notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum B737BC33, selection    5 (pick associative Section 0x22)
+1CB 00000000 SECT52 notype       Static       | $unwind$LockRefindAndRelease
+1CC 00000000 SECT53 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum AB88C1F6, selection    5 (pick associative Section 0x22)
+1CE 00000000 SECT53 notype       Static       | $pdata$LockRefindAndRelease
+1CF 00000000 SECT54 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum DD0213CE, selection    5 (pick associative Section 0x1C)
+1D1 00000000 SECT54 notype       Static       | $unwind$GetSingleProcBlockerStatusData
+1D2 00000000 SECT55 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7D3C6CAC, selection    5 (pick associative Section 0x1C)
+1D4 00000000 SECT55 notype       Static       | $pdata$GetSingleProcBlockerStatusData
+1D5 00000000 SECT56 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 57006D9A, selection    5 (pick associative Section 0x1C)
+1D7 00000000 SECT56 notype       Static       | $chain$2$GetSingleProcBlockerStatusData
+1D8 00000000 SECT57 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 26A76DDF, selection    5 (pick associative Section 0x1C)
+1DA 00000000 SECT57 notype       Static       | $pdata$2$GetSingleProcBlockerStatusData
+1DB 00000000 SECT58 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 9D16AA51, selection    5 (pick associative Section 0x1C)
+1DD 00000000 SECT58 notype       Static       | $chain$4$GetSingleProcBlockerStatusData
+1DE 00000000 SECT59 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A5273F38, selection    5 (pick associative Section 0x1C)
+1E0 00000000 SECT59 notype       Static       | $pdata$4$GetSingleProcBlockerStatusData
+1E1 00000000 SECT5A notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 9FF08733, selection    5 (pick associative Section 0x1C)
+1E3 00000000 SECT5A notype       Static       | $chain$5$GetSingleProcBlockerStatusData
+1E4 00000000 SECT5B notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 280F51F5, selection    5 (pick associative Section 0x1C)
+1E6 00000000 SECT5B notype       Static       | $pdata$5$GetSingleProcBlockerStatusData
+1E7 00000000 SECT5C notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum C46B8640, selection    5 (pick associative Section 0x1C)
+1E9 00000000 SECT5C notype       Static       | $chain$6$GetSingleProcBlockerStatusData
+1EA 00000000 SECT5D notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5365020C, selection    5 (pick associative Section 0x1C)
+1EC 00000000 SECT5D notype       Static       | $pdata$6$GetSingleProcBlockerStatusData
+1ED 00000000 UNDEF  notype       External     | error_context_stack
+1EE 00000000 UNDEF  notype       External     | PG_exception_stack
+1EF 00000000 UNDEF  notype       External     | MyBackendId
+1F0 00000000 UNDEF  notype       External     | MainLWLockArray
+1F1 00000000 UNDEF  notype       External     | max_prepared_xacts
+1F2 00000000 UNDEF  notype       External     | InRecovery
+1F3 00000000 UNDEF  notype       External     | standbyState
+1F4 00000000 UNDEF  notype       External     | wal_level
+1F5 00000000 UNDEF  notype       External     | CritSectionCount
+1F6 00000000 UNDEF  notype       External     | MaxBackends
+1F7 00000000 UNDEF  notype       External     | MyDatabaseId
+1F8 00000000 UNDEF  notype       External     | MyProc
+1F9 00000000 UNDEF  notype       External     | ProcGlobal
+1FA 00000000 UNDEF  notype       External     | TopMemoryContext
+1FB 00000000 UNDEF  notype       External     | update_process_title
+1FC 00000000 UNDEF  notype       External     | CurrentResourceOwner
+1FD 000000B8 SECT4  notype       Static       | LockMethods
+1FE 00000004 SECTE  notype       Static       | FastPathLocalUseCount
+1FF 00000008 SECTE  notype       Static       | FastPathStrongRelationLocks
+200 00000010 SECTE  notype       Static       | LockMethodLockHash
+201 00000018 SECTE  notype       Static       | LockMethodProcLockHash
+202 00000020 SECTE  notype       Static       | LockMethodLocalHash
+203 00000028 SECTE  notype       Static       | StrongLockInProgress
+204 00000030 SECTE  notype       Static       | awaitedLock
+205 00000038 SECTE  notype       Static       | awaitedOwner
+206 00000000 SECT5E notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum B254510F, selection    2 (pick any)
+208 00000000 SECT5E notype       External     | ??_C@_09KOCBMGIG@LOCK?5hash?$AA@ (`string')
+209 00000000 SECT5F notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum F1D44FC7, selection    2 (pick any)
+20B 00000000 SECT5F notype       External     | ??_C@_0O@NPJAMJPP@PROCLOCK?5hash?$AA@ (`string')
+20C 00000000 SECT60 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum  9E9BB0E, selection    2 (pick any)
+20E 00000000 SECT60 notype       External     | ??_C@_0CE@JMKAPGCE@Fast?5Path?5Strong?5Relation?5Lock?5D@ (`string')
+20F 00000000 SECT61 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 5DA44D43, selection    2 (pick any)
+211 00000000 SECT61 notype       External     | ??_C@_0P@HFIILBFL@LOCALLOCK?5hash?$AA@ (`string')
+212 00000000 SECT62 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 2A2ACB0D, selection    2 (pick any)
+214 00000000 SECT62 notype       External     | ??_C@_0P@CAGDHBF@LockHasWaiters?$AA@ (`string')
+215 00000000 SECT63 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum C9EB08D6, selection    2 (pick any)
+217 00000000 SECT63 notype       External     | ??_C@_0CA@CPBOKCIE@src?1backend?1storage?1lmgr?1lock?4c?$AA@ (`string')
+218 00000000 SECT64 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 60153B6D, selection    2 (pick any)
+21A 00000000 SECT64 notype       External     | ??_C@_0BN@JELOABLE@unrecognized?5lock?5method?3?5?$CFd?$AA@ (`string')
+21B 00000000 SECT65 notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum D9635241, selection    2 (pick any)
+21D 00000000 SECT65 notype       External     | ??_C@_0BL@DMOGPPAN@unrecognized?5lock?5mode?3?5?$CFd?$AA@ (`string')
+21E 00000000 SECT66 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 297D7396, selection    2 (pick any)
+220 00000000 SECT66 notype       External     | ??_C@_0CA@MPIINJME@you?5don?8t?5own?5a?5lock?5of?5type?5?$CFs?$AA@ (`string')
+221 00000000 SECT67 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 540FC84F, selection    2 (pick any)
+223 00000000 SECT67 notype       External     | ??_C@_0BE@KECFKMDN@LockAcquireExtended?$AA@ (`string')
+224 00000000 SECT68 notype       Static       | .rdata
+    Section length   53, #relocs    0, #linenums    0, checksum CD146A48, selection    2 (pick any)
+226 00000000 SECT68 notype       External     | ??_C@_0FD@EALJAJBC@Only?5RowExclusiveLock?5or?5less?5ca@ (`string')
+227 00000000 SECT69 notype       Static       | .rdata
+    Section length   4E, #relocs    0, #linenums    0, checksum B9A06082, selection    2 (pick any)
+229 00000000 SECT69 notype       External     | ??_C@_0EO@GNEMPJH@cannot?5acquire?5lock?5mode?5?$CFs?5on?5d@ (`string')
+22A 00000000 SECT6A notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum C3A1D72B, selection    2 (pick any)
+22C 00000000 SECT6A notype       External     | ??_C@_0DG@JPNEFCJ@You?5might?5need?5to?5increase?5max_l@ (`string')
+22D 00000000 SECT6B notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 51A17634, selection    2 (pick any)
+22F 00000000 SECT6B notype       External     | ??_C@_0BF@OPFKEMEA@out?5of?5shared?5memory?$AA@ (`string')
+230 00000000 SECT6C notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum C67470D7, selection    2 (pick any)
+232 00000000 SECT6C notype       External     | ??_C@_0BJ@NAEEIBKH@proclock?5table?5corrupted?$AA@ (`string')
+233 00000000 SECT6D notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 1091672F, selection    2 (pick any)
+235 00000000 SECT6D notype       External     | ??_C@_0BD@DFGGFBLP@LockAcquire?5failed?$AA@ (`string')
+236 00000000 SECT6E notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum  650B936, selection    2 (pick any)
+238 00000000 SECT6E notype       External     | ??_C@_0BB@DAEALHHE@SetupLockInTable?$AA@ (`string')
+239 00000000 SECT6F notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum E1BCE705, selection    2 (pick any)
+23B 00000000 SECT6F notype       External     | ??_C@_0BF@FPEHNNHB@lock?5table?5corrupted?$AA@ (`string')
+23C 00000000 SECT70 notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum DF481DAB, selection    2 (pick any)
+23E 00000000 SECT70 notype       External     | ??_C@_0CL@NIDOEJGF@lock?5?$CFs?5on?5object?5?$CFu?1?$CFu?1?$CFu?5is?5al@ (`string')
+23F 00000000 SECT71 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum FF01EB63, selection    2 (pick any)
+241 00000000 SECT71 notype       External     | ??_C@_0BA@OMEFFPMJ@RemoveLocalLock?$AA@ (`string')
+242 00000000 SECT72 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 872D6750, selection    2 (pick any)
+244 00000000 SECT72 notype       External     | ??_C@_0BK@NHDOCGJN@locallock?5table?5corrupted?$AA@ (`string')
+245 00000000 SECT73 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum EA4A2DDC, selection    2 (pick any)
+247 00000000 SECT73 notype       External     | ??_C@_0BD@MPLNBLEM@LockCheckConflicts?$AA@ (`string')
+248 00000000 SECT74 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 6C6EDE87, selection    2 (pick any)
+24A 00000000 SECT74 notype       External     | ??_C@_0CB@OJONBLPF@proclocks?5held?5do?5not?5match?5lock@ (`string')
+24B 00000000 SECT75 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum EC95D77C, selection    2 (pick any)
+24D 00000000 SECT75 notype       External     | ??_C@_0M@GILPOOOM@CleanUpLock?$AA@ (`string')
+24E 00000000 SECT76 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 65767B22, selection    2 (pick any)
+250 00000000 SECT76 notype       External     | ??_C@_0BH@OICJKAJJ@BeginStrongLockAcquire?$AA@ (`string')
+251 00000000 SECT77 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum EF5B650A, selection    2 (pick any)
+253 00000000 SECT77 notype       External     | ??_C@_0BH@GCAELOLB@AbortStrongLockAcquire?$AA@ (`string')
+254 00000000 SECT78 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum  4D7E625, selection    2 (pick any)
+256 00000000 SECT78 notype       External     | ??_C@_08BNCBANHE@?5waiting?$AA@ (`string')
+257 00000000 SECT79 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 3F6D41ED, selection    2 (pick any)
+259 00000000 SECT79 notype       External     | ??_C@_0M@LLEHHIHN@LockRelease?$AA@ (`string')
+25A 00000000 SECT7A notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 875486EB, selection    2 (pick any)
+25C 00000000 SECT7A notype       External     | ??_C@_0CF@FMHKAGHA@failed?5to?5re?9find?5shared?5lock?5ob@ (`string')
+25D 00000000 SECT7B notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum A0680EAC, selection    2 (pick any)
+25F 00000000 SECT7B notype       External     | ??_C@_0CJ@DBBKHBPJ@failed?5to?5re?9find?5shared?5procloc@ (`string')
+260 00000000 SECT7C notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum D07609DA, selection    2 (pick any)
+262 00000000 SECT7C notype       External     | ??_C@_0P@PIFKPFMC@LockReleaseAll?$AA@ (`string')
+263 00000000 SECT7D notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum A0A145BF, selection    2 (pick any)
+265 00000000 SECT7D notype       External     | ??_C@_0BD@IFFGHDCP@LockReleaseSession?$AA@ (`string')
+266 00000000 SECT7E notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 60BEBDB9, selection    2 (pick any)
+268 00000000 SECT7E notype       External     | ??_C@_0BC@PIFKINAL@ReleaseLockIfHeld?$AA@ (`string')
+269 00000000 SECT7F notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum C6C591E5, selection    2 (pick any)
+26B 00000000 SECT7F notype       External     | ??_C@_0BM@LJEKBJPD@ReleaseLockIfHeld?3?5failed?$DP?$DP?$AA@ (`string')
+26C 00000000 SECT80 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 7F733AEA, selection    2 (pick any)
+26E 00000000 SECT80 notype       External     | ??_C@_0BN@ILNIAADD@FastPathGetRelationLockEntry?$AA@ (`string')
+26F 00000040 SECTE  notype       Static       | ?vxids@?1??GetLockConflicts@@9@9 (`GetLockConflicts'::`2'::vxids)
+270 00000000 SECT81 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 9227611B, selection    2 (pick any)
+272 00000000 SECT81 notype       External     | ??_C@_0BB@KEDHGPFJ@GetLockConflicts?$AA@ (`string')
+273 00000000 SECT82 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 68A2E4EF, selection    2 (pick any)
+275 00000000 SECT82 notype       External     | ??_C@_0CB@ONCBCBJN@too?5many?5conflicting?5locks?5found@ (`string')
+276 00000000 SECT83 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum F62360B9, selection    2 (pick any)
+278 00000000 SECT83 notype       External     | ??_C@_0BF@EINIFKMN@LockRefindAndRelease?$AA@ (`string')
+279 00000000 SECT84 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 185B5C13, selection    2 (pick any)
+27B 00000000 SECT84 notype       External     | ??_C@_0BA@LBPOILJ@AtPrepare_Locks?$AA@ (`string')
+27C 00000000 SECT85 notype       Static       | .rdata
+    Section length   5F, #relocs    0, #linenums    0, checksum 9E5492DA, selection    2 (pick any)
+27E 00000000 SECT85 notype       External     | ??_C@_0FP@EKJCLGPH@cannot?5PREPARE?5while?5holding?5bot@ (`string')
+27F 00000000 SECT86 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 4FAA7430, selection    2 (pick any)
+281 00000000 SECT86 notype       External     | ??_C@_0BC@NHEOEEIC@PostPrepare_Locks?$AA@ (`string')
+282 00000000 SECT87 notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 12DB0AC5, selection    2 (pick any)
+284 00000000 SECT87 notype       External     | ??_C@_0CI@EMIMIIL@we?5seem?5to?5have?5dropped?5a?5bit?5so@ (`string')
+285 00000000 SECT88 notype       Static       | .rdata
+    Section length   47, #relocs    0, #linenums    0, checksum D70E4BB8, selection    2 (pick any)
+287 00000000 SECT88 notype       External     | ??_C@_0EH@OFNJKCCI@duplicate?5entry?5found?5while?5reas@ (`string')
+288 00000000 SECT89 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum C7289932, selection    2 (pick any)
+28A 00000000 SECT89 notype       External     | ??_C@_0BG@JAPONHCN@lock_twophase_recover?$AA@ (`string')
+28B 00000000 SECT8A notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 41D08AE9, selection    2 (pick any)
+28D 00000000 SECT8A notype       External     | ??_C@_0BO@LOCLELKD@lock_twophase_standby_recover?$AA@ (`string')
+28E 00000000 SECT8B notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum C3521D4B, selection    2 (pick any)
+290 00000000 SECT8B notype       External     | ??_C@_0BJ@NFGCOMDL@lock_twophase_postcommit?$AA@ (`string')
+291 00000000 SECT8C notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum F55806F8, selection    2 (pick any)
+293 00000000 SECT8C notype       External     | ??_C@_0BA@OGBMLCFC@VirtualXactLock?$AA@ (`string')
+294 00000000 SECT8D notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum FBC1D6AE, selection    2 (pick any)
+296 00000000 SECT8D notype       External     | ??_C@_0BA@OIIFGCAE@LockWaiterCount?$AA@ (`string')
+297 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x24EC bytes
+
+  Summary
+
+          48 .bss
+        E360 .debug$S
+          68 .debug$T
+          5D .drectve
+         3A8 .pdata
+         6BC .rdata
+        4863 .text$mn
+         5D4 .xdata

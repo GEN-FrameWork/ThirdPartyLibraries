@@ -1,0 +1,329 @@
+
+Dump of file Release\postgres/slru.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6704, #relocs  1A4, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  EB5, #relocs   6F, #linenums    0, checksum 3EFD1FFB
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   C7, #relocs    6, #linenums    0, checksum D4394A38, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  1AC, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   78, #relocs    1, #linenums    0, checksum 27A97672, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  24C, #relocs   20, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length   9D, #relocs    B, #linenums    0, checksum D255C2C5, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  174, #relocs    8, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  157, #relocs    8, #linenums    0, checksum 258093C6, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  2C0, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 SECTD  notype       Static       | .text$mn
+    Section length  1FC, #relocs   20, #linenums    0, checksum FD70A21D, selection    1 (pick no duplicates)
+01C 00000000 SECTE  notype       Static       | .debug$S
+    Section length  410, #relocs   26, #linenums    0, checksum        0, selection    5 (pick associative Section 0xD)
+01E 00000000 SECTF  notype       Static       | .text$mn
+    Section length  312, #relocs   27, #linenums    0, checksum 78E91F14, selection    1 (pick no duplicates)
+020 00000000 SECT10 notype       Static       | .debug$S
+    Section length  75C, #relocs   4E, #linenums    0, checksum        0, selection    5 (pick associative Section 0xF)
+022 00000000 SECT11 notype       Static       | .text$mn
+    Section length  2A0, #relocs   35, #linenums    0, checksum 486F4CC8, selection    1 (pick no duplicates)
+024 00000000 SECT12 notype       Static       | .debug$S
+    Section length  334, #relocs   20, #linenums    0, checksum        0, selection    5 (pick associative Section 0x11)
+026 00000000 SECT13 notype       Static       | .text$mn
+    Section length  1EB, #relocs    2, #linenums    0, checksum 2E05CC6A, selection    1 (pick no duplicates)
+028 00000000 SECT14 notype       Static       | .debug$S
+    Section length  608, #relocs   48, #linenums    0, checksum        0, selection    5 (pick associative Section 0x13)
+02A 00000000 UNDEF  notype       External     | __imp__errno
+02B 00000000 UNDEF  notype       External     | __imp_strtol
+02C 00000000 UNDEF  notype       External     | __imp_strncpy
+02D 00000000 UNDEF  notype       External     | __imp_strspn
+02E 00000000 UNDEF  notype ()    External     | pg_snprintf
+02F 00000000 UNDEF  notype ()    External     | pgunlink
+030 00000000 UNDEF  notype       External     | __imp_lseek
+031 00000000 UNDEF  notype       External     | __imp_read
+032 00000000 UNDEF  notype       External     | __imp_write
+033 00000000 UNDEF  notype ()    External     | strlcpy
+034 00000000 UNDEF  notype ()    External     | errstart
+035 00000000 UNDEF  notype ()    External     | errfinish
+036 00000000 UNDEF  notype ()    External     | errcode_for_file_access
+037 00000000 UNDEF  notype ()    External     | errmsg
+038 00000000 UNDEF  notype ()    External     | errdetail
+039 00000000 UNDEF  notype ()    External     | elog_start
+03A 00000000 UNDEF  notype ()    External     | elog_finish
+03B 00000000 UNDEF  notype ()    External     | LWLockAcquire
+03C 00000000 UNDEF  notype ()    External     | LWLockConditionalAcquire
+03D 00000000 UNDEF  notype ()    External     | LWLockRelease
+03E 00000000 UNDEF  notype ()    External     | LWLockRegisterTranche
+03F 00000000 UNDEF  notype ()    External     | LWLockInitialize
+040 00000000 SECT4  notype ()    External     | SimpleLruShmemSize
+041 00000080 SECT4  notype ()    External     | SimpleLruInit
+042 00000260 SECT4  notype ()    External     | SimpleLruZeroPage
+043 00000300 SECT4  notype ()    External     | SimpleLruReadPage
+044 000004F0 SECT4  notype ()    External     | SimpleLruReadPage_ReadOnly
+045 00000770 SECT4  notype ()    External     | SimpleLruWritePage
+046 00000780 SECT4  notype ()    External     | SimpleLruFlush
+047 00000900 SECT4  notype ()    External     | SimpleLruTruncate
+048 00000A50 SECT4  notype ()    External     | SimpleLruDoesPhysicalPageExist
+049 00000B90 SECT4  notype ()    External     | SlruScanDirectory
+04A 00000CC0 SECT4  notype ()    External     | SlruDeleteSegment
+04B 00000E20 SECT4  notype ()    External     | SlruScanDirCbReportPresence
+04C 00000E60 SECT4  notype ()    External     | SlruScanDirCbDeleteAll
+04D 00000000 UNDEF  notype ()    External     | AllocateDir
+04E 00000000 UNDEF  notype ()    External     | ReadDir
+04F 00000000 UNDEF  notype ()    External     | FreeDir
+050 00000000 UNDEF  notype ()    External     | OpenTransientFile
+051 00000000 UNDEF  notype ()    External     | CloseTransientFile
+052 00000000 UNDEF  notype ()    External     | pg_fsync
+053 00000000 UNDEF  notype ()    External     | XLogFlush
+054 00000000 UNDEF  notype ()    External     | ShmemInitStruct
+055 00000000 SECT7  notype ()    Static       | SimpleLruZeroLSNs
+056 00000000 SECT5  notype ()    Static       | SimpleLruWaitIO
+057 00000000 SECTB  notype ()    Static       | SlruInternalWritePage
+058 00000000 SECTD  notype ()    Static       | SlruPhysicalReadPage
+059 00000000 SECTF  notype ()    Static       | SlruPhysicalWritePage
+05A 00000000 SECT11 notype ()    Static       | SlruReportIOError
+05B 00000000 SECT13 notype ()    Static       | SlruSelectLRUPage
+05C 00000E80 SECT4  notype ()    Static       | SlruScanDirCbDeleteCutoff
+05D 00000000 SECT9  notype ()    Static       | SlruInternalDeleteSegment
+05E 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+05F 00000000 UNDEF  notype ()    External     | __security_check_cookie
+060 00000000 UNDEF  notype ()    External     | memset
+061 00000080 SECT4  notype       Label        | $LN20
+062 00000260 SECT4  notype       Label        | $LN21
+063 00000300 SECT4  notype       Label        | $LN40
+064 000004F0 SECT4  notype       Label        | $LN59
+065 00000780 SECT4  notype       Label        | $LN30
+066 00000950 SECT4  notype       Label        | $restart$33
+067 00000900 SECT4  notype       Label        | $LN32
+068 00000A50 SECT4  notype       Label        | $LN7
+069 00000B90 SECT4  notype       Label        | $LN23
+06A 00000D00 SECT4  notype       Label        | $restart$28
+06B 00000CC0 SECT4  notype       Label        | $LN27
+06C 00000E20 SECT4  notype       Label        | $LN6
+06D 00000E60 SECT4  notype       Label        | $LN4
+06E 00000288 SECT11 notype       Static       | $LN46
+06F 0000008B SECT11 notype       Label        | $LN6
+070 000000F3 SECT11 notype       Label        | $LN9
+071 00000138 SECT11 notype       Label        | $LN12
+072 00000180 SECT11 notype       Label        | $LN15
+073 000001C8 SECT11 notype       Label        | $LN18
+074 000001FF SECT11 notype       Label        | $LN21
+075 00000000 SECT15 notype       Static       | .xdata
+    Section length  254, #relocs   36, #linenums    0, checksum 46822073
+077 00000000 SECT15 notype       Static       | $unwind$SimpleLruInit
+078 00000000 SECT16 notype       Static       | .pdata
+    Section length  15C, #relocs   57, #linenums    0, checksum 2D40E4AD
+07A 00000000 SECT16 notype       Static       | $pdata$SimpleLruInit
+07B 00000010 SECT15 notype       Static       | $chain$1$SimpleLruInit
+07C 0000000C SECT16 notype       Static       | $pdata$1$SimpleLruInit
+07D 00000028 SECT15 notype       Static       | $chain$2$SimpleLruInit
+07E 00000018 SECT16 notype       Static       | $pdata$2$SimpleLruInit
+07F 00000038 SECT15 notype       Static       | $unwind$SimpleLruZeroPage
+080 00000024 SECT16 notype       Static       | $pdata$SimpleLruZeroPage
+081 0000004C SECT15 notype       Static       | $unwind$SimpleLruReadPage
+082 00000030 SECT16 notype       Static       | $pdata$SimpleLruReadPage
+083 00000060 SECT15 notype       Static       | $chain$1$SimpleLruReadPage
+084 0000003C SECT16 notype       Static       | $pdata$1$SimpleLruReadPage
+085 00000078 SECT15 notype       Static       | $chain$2$SimpleLruReadPage
+086 00000048 SECT16 notype       Static       | $pdata$2$SimpleLruReadPage
+087 00000088 SECT15 notype       Static       | $chain$3$SimpleLruReadPage
+088 00000054 SECT16 notype       Static       | $pdata$3$SimpleLruReadPage
+089 000000A0 SECT15 notype       Static       | $chain$4$SimpleLruReadPage
+08A 00000060 SECT16 notype       Static       | $pdata$4$SimpleLruReadPage
+08B 000000B4 SECT15 notype       Static       | $chain$5$SimpleLruReadPage
+08C 0000006C SECT16 notype       Static       | $pdata$5$SimpleLruReadPage
+08D 000000C4 SECT15 notype       Static       | $unwind$SimpleLruReadPage_ReadOnly
+08E 00000078 SECT16 notype       Static       | $pdata$SimpleLruReadPage_ReadOnly
+08F 000000D4 SECT15 notype       Static       | $chain$3$SimpleLruReadPage_ReadOnly
+090 00000084 SECT16 notype       Static       | $pdata$3$SimpleLruReadPage_ReadOnly
+091 000000F4 SECT15 notype       Static       | $chain$4$SimpleLruReadPage_ReadOnly
+092 00000090 SECT16 notype       Static       | $pdata$4$SimpleLruReadPage_ReadOnly
+093 00000104 SECT15 notype       Static       | $chain$5$SimpleLruReadPage_ReadOnly
+094 0000009C SECT16 notype       Static       | $pdata$5$SimpleLruReadPage_ReadOnly
+095 00000118 SECT15 notype       Static       | $chain$7$SimpleLruReadPage_ReadOnly
+096 000000A8 SECT16 notype       Static       | $pdata$7$SimpleLruReadPage_ReadOnly
+097 00000138 SECT15 notype       Static       | $chain$8$SimpleLruReadPage_ReadOnly
+098 000000B4 SECT16 notype       Static       | $pdata$8$SimpleLruReadPage_ReadOnly
+099 00000150 SECT15 notype       Static       | $chain$9$SimpleLruReadPage_ReadOnly
+09A 000000C0 SECT16 notype       Static       | $pdata$9$SimpleLruReadPage_ReadOnly
+09B 00000164 SECT15 notype       Static       | $unwind$SimpleLruFlush
+09C 000000CC SECT16 notype       Static       | $pdata$SimpleLruFlush
+09D 00000188 SECT15 notype       Static       | $unwind$SimpleLruTruncate
+09E 000000D8 SECT16 notype       Static       | $pdata$SimpleLruTruncate
+09F 0000019C SECT15 notype       Static       | $unwind$SimpleLruDoesPhysicalPageExist
+0A0 000000E4 SECT16 notype       Static       | $pdata$SimpleLruDoesPhysicalPageExist
+0A1 000001B8 SECT15 notype       Static       | $chain$0$SimpleLruDoesPhysicalPageExist
+0A2 000000F0 SECT16 notype       Static       | $pdata$0$SimpleLruDoesPhysicalPageExist
+0A3 000001CC SECT15 notype       Static       | $chain$1$SimpleLruDoesPhysicalPageExist
+0A4 000000FC SECT16 notype       Static       | $pdata$1$SimpleLruDoesPhysicalPageExist
+0A5 000001DC SECT15 notype       Static       | $unwind$SlruScanDirectory
+0A6 00000108 SECT16 notype       Static       | $pdata$SlruScanDirectory
+0A7 000001F0 SECT15 notype       Static       | $chain$1$SlruScanDirectory
+0A8 00000114 SECT16 notype       Static       | $pdata$1$SlruScanDirectory
+0A9 00000208 SECT15 notype       Static       | $chain$2$SlruScanDirectory
+0AA 00000120 SECT16 notype       Static       | $pdata$2$SlruScanDirectory
+0AB 00000218 SECT15 notype       Static       | $unwind$SlruDeleteSegment
+0AC 0000012C SECT16 notype       Static       | $pdata$SlruDeleteSegment
+0AD 00000238 SECT15 notype       Static       | $unwind$SlruScanDirCbReportPresence
+0AE 00000138 SECT16 notype       Static       | $pdata$SlruScanDirCbReportPresence
+0AF 00000240 SECT15 notype       Static       | $unwind$SlruScanDirCbDeleteAll
+0B0 00000144 SECT16 notype       Static       | $pdata$SlruScanDirCbDeleteAll
+0B1 00000000 SECT17 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum E7460F8C, selection    5 (pick associative Section 0x5)
+0B3 00000000 SECT17 notype       Static       | $unwind$SimpleLruWaitIO
+0B4 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 70634E2E, selection    5 (pick associative Section 0x5)
+0B6 00000000 SECT18 notype       Static       | $pdata$SimpleLruWaitIO
+0B7 00000000 SECT19 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum EF8C8B53, selection    5 (pick associative Section 0xB)
+0B9 00000000 SECT19 notype       Static       | $unwind$SlruInternalWritePage
+0BA 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C2FB9912, selection    5 (pick associative Section 0xB)
+0BC 00000000 SECT1A notype       Static       | $pdata$SlruInternalWritePage
+0BD 00000000 SECT1B notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 32E0D055, selection    5 (pick associative Section 0xB)
+0BF 00000000 SECT1B notype       Static       | $chain$1$SlruInternalWritePage
+0C0 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A38FD651, selection    5 (pick associative Section 0xB)
+0C2 00000000 SECT1C notype       Static       | $pdata$1$SlruInternalWritePage
+0C3 00000000 SECT1D notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 7BAC73FE, selection    5 (pick associative Section 0xB)
+0C5 00000000 SECT1D notype       Static       | $chain$2$SlruInternalWritePage
+0C6 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 58ABF120, selection    5 (pick associative Section 0xB)
+0C8 00000000 SECT1E notype       Static       | $pdata$2$SlruInternalWritePage
+0C9 00000000 SECT1F notype       Static       | .xdata
+    Section length   1C, #relocs    1, #linenums    0, checksum  2DD2ED9, selection    5 (pick associative Section 0xD)
+0CB 00000000 SECT1F notype       Static       | $unwind$SlruPhysicalReadPage
+0CC 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  EB30AB1, selection    5 (pick associative Section 0xD)
+0CE 00000000 SECT20 notype       Static       | $pdata$SlruPhysicalReadPage
+0CF 00000000 SECT21 notype       Static       | .xdata
+    Section length   24, #relocs    1, #linenums    0, checksum 2DEBFA20, selection    5 (pick associative Section 0xF)
+0D1 00000000 SECT21 notype       Static       | $unwind$SlruPhysicalWritePage
+0D2 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  F762CCB, selection    5 (pick associative Section 0xF)
+0D4 00000000 SECT22 notype       Static       | $pdata$SlruPhysicalWritePage
+0D5 00000000 SECT23 notype       Static       | .xdata
+    Section length   18, #relocs    1, #linenums    0, checksum C1212C90, selection    5 (pick associative Section 0x11)
+0D7 00000000 SECT23 notype       Static       | $unwind$SlruReportIOError
+0D8 00000000 SECT24 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3DD2F6A5, selection    5 (pick associative Section 0x11)
+0DA 00000000 SECT24 notype       Static       | $pdata$SlruReportIOError
+0DB 00000000 SECT25 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 24A5825B, selection    5 (pick associative Section 0x13)
+0DD 00000000 SECT25 notype       Static       | $unwind$SlruSelectLRUPage
+0DE 00000000 SECT26 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 78CD3283, selection    5 (pick associative Section 0x13)
+0E0 00000000 SECT26 notype       Static       | $pdata$SlruSelectLRUPage
+0E1 00000248 SECT15 notype       Static       | $unwind$SlruScanDirCbDeleteCutoff
+0E2 00000150 SECT16 notype       Static       | $pdata$SlruScanDirCbDeleteCutoff
+0E3 00000000 SECT27 notype       Static       | .xdata
+    Section length   10, #relocs    1, #linenums    0, checksum B0063834, selection    5 (pick associative Section 0x9)
+0E5 00000000 SECT27 notype       Static       | $unwind$SlruInternalDeleteSegment
+0E6 00000000 SECT28 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B485A120, selection    5 (pick associative Section 0x9)
+0E8 00000000 SECT28 notype       Static       | $pdata$SlruInternalDeleteSegment
+0E9 00000000 UNDEF  notype       External     | InRecovery
+0EA 00000000 UNDEF  notype       External     | MyProc
+0EB 00000000 UNDEF  notype       External     | pgstat_track_activities
+0EC 00000000 UNDEF  notype       External     | CritSectionCount
+0ED 00000000 UNDEF  notype       External     | IsUnderPostmaster
+0EE 00000000 SECT29 notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+0F0 00000000 SECT29 notype       Static       | slru_errcause
+0F1 00000004 SECT29 notype       Static       | slru_errno
+0F2 00000000 SECT2A notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 32E6D3A2, selection    2 (pick any)
+0F4 00000000 SECT2A notype       External     | ??_C@_07KIDLPDDE@?$CFs?1?$CF04X?$AA@ (`string')
+0F5 00000000 SECT2B notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum E71FE4EC, selection    2 (pick any)
+0F7 00000000 SECT2B notype       External     | ??_C@_0BF@FJOENOJI@SlruPhysicalReadPage?$AA@ (`string')
+0F8 00000000 SECT2C notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 68B13F26, selection    2 (pick any)
+0FA 00000000 SECT2C notype       External     | ??_C@_0CC@NGDPKMPD@src?1backend?1access?1transam?1slru?4@ (`string')
+0FB 00000000 SECT2D notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum 47BA92AA, selection    2 (pick any)
+0FD 00000000 SECT2D notype       External     | ??_C@_0CL@EAMMMGGE@file?5?$CC?$CFs?$CC?5doesn?8t?5exist?0?5reading@ (`string')
+0FE 00000000 SECT2E notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 5FC6754B, selection    2 (pick any)
+100 00000000 SECT2E notype       External     | ??_C@_0BC@MHCCEFPJ@SlruReportIOError?$AA@ (`string')
+101 00000000 SECT2F notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum CC1642E6, selection    2 (pick any)
+103 00000000 SECT2F notype       External     | ??_C@_0BO@DDONIDKM@Could?5not?5open?5file?5?$CC?$CFs?$CC?3?5?$CFm?4?$AA@ (`string')
+104 00000000 SECT30 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum 39A745F8, selection    2 (pick any)
+106 00000000 SECT30 notype       External     | ??_C@_0CK@CCDHJCPM@could?5not?5access?5status?5of?5trans@ (`string')
+107 00000000 SECT31 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum  622F0E5, selection    2 (pick any)
+109 00000000 SECT31 notype       External     | ??_C@_0CO@PKKCAHPB@Could?5not?5seek?5in?5file?5?$CC?$CFs?$CC?5to?5o@ (`string')
+10A 00000000 SECT32 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum F84596D7, selection    2 (pick any)
+10C 00000000 SECT32 notype       External     | ??_C@_0DA@PFDCNKLN@Could?5not?5read?5from?5file?5?$CC?$CFs?$CC?5at@ (`string')
+10D 00000000 SECT33 notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum F810D05E, selection    2 (pick any)
+10F 00000000 SECT33 notype       External     | ??_C@_0CP@OCDGIENE@Could?5not?5write?5to?5file?5?$CC?$CFs?$CC?5at?5@ (`string')
+110 00000000 SECT34 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 18712489, selection    2 (pick any)
+112 00000000 SECT34 notype       External     | ??_C@_0BP@IOIHHHMG@Could?5not?5fsync?5file?5?$CC?$CFs?$CC?3?5?$CFm?4?$AA@ (`string')
+113 00000000 SECT35 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum FDA96C4A, selection    2 (pick any)
+115 00000000 SECT35 notype       External     | ??_C@_0BP@GLFPDPAF@Could?5not?5close?5file?5?$CC?$CFs?$CC?3?5?$CFm?4?$AA@ (`string')
+116 00000000 SECT36 notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 3957D035, selection    2 (pick any)
+118 00000000 SECT36 notype       External     | ??_C@_0CH@EGFKNLOK@unrecognized?5SimpleLru?5error?5cau@ (`string')
+119 00000000 SECT37 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 3700CAC9, selection    2 (pick any)
+11B 00000000 SECT37 notype       External     | ??_C@_0BC@KPOEPKHL@SimpleLruTruncate?$AA@ (`string')
+11C 00000000 SECT38 notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum 22655190, selection    2 (pick any)
+11E 00000000 SECT38 notype       External     | ??_C@_0DH@MMKBGMCO@could?5not?5truncate?5directory?5?$CC?$CFs@ (`string')
+11F 00000000 SECT39 notype       Static       | .rdata
+    Section length    6, #relocs    0, #linenums    0, checksum 2BD61FCC, selection    2 (pick any)
+121 00000000 SECT39 notype       External     | ??_C@_05GFOLEBJA@?$CFs?1?$CFs?$AA@ (`string')
+122 00000000 SECT3A notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 10E51D62, selection    2 (pick any)
+124 00000000 SECT3A notype       External     | ??_C@_0BK@EAPGFMKP@SlruInternalDeleteSegment?$AA@ (`string')
+125 00000000 SECT3B notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 59629151, selection    2 (pick any)
+127 00000000 SECT3B notype       External     | ??_C@_0BD@HMJFKHMB@removing?5file?5?$CC?$CFs?$CC?$AA@ (`string')
+128 00000000 SECT3C notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 289A91D5, selection    2 (pick any)
+12A 00000000 SECT3C notype       External     | ??_C@_0BC@LAHOKBGH@SlruDeleteSegment?$AA@ (`string')
+12B 00000000 SECT3D notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum A07E6504, selection    2 (pick any)
+12D 00000000 SECT3D notype       External     | ??_C@_0BB@JGGOGLEG@0123456789ABCDEF?$AA@ (`string')
+12E 00000000 SECT3E notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum B4DB3E32, selection    2 (pick any)
+130 00000000 SECT3E notype       External     | ??_C@_0BC@CMDPAOIA@SlruScanDirectory?$AA@ (`string')
+131 00000000 SECT3F notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum FEFD6A4F, selection    2 (pick any)
+133 00000000 SECT3F notype       External     | ??_C@_0CN@MHICACBE@SlruScanDirectory?5invoking?5callb@ (`string')
+134 00000000 UNDEF  notype       External     | __ImageBase
+135 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x116D bytes
+
+  Summary
+
+           8 .bss
+        83D8 .debug$S
+          68 .debug$T
+          5D .drectve
+         1C8 .pdata
+         294 .rdata
+        1B81 .text$mn
+         324 .xdata

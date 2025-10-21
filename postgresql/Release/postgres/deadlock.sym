@@ -1,0 +1,238 @@
+
+Dump of file Release\postgres/deadlock.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4E18, #relocs   7C, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  535, #relocs   5D, #linenums    0, checksum ACE3CCF4
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  167, #relocs   15, #linenums    0, checksum ACAAA0B5, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  38C, #relocs   26, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  3EC, #relocs    C, #linenums    0, checksum ED25D2D1, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  8B4, #relocs   76, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  135, #relocs    6, #linenums    0, checksum B4A97076, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  3A0, #relocs   24, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  3A2, #relocs    F, #linenums    0, checksum  B137B7D, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  9FC, #relocs   86, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 SECTD  notype       Static       | .text$mn
+    Section length  16D, #relocs   13, #linenums    0, checksum 6BBFB10C, selection    1 (pick no duplicates)
+01C 00000000 SECTE  notype       Static       | .debug$S
+    Section length  368, #relocs   1A, #linenums    0, checksum        0, selection    5 (pick associative Section 0xD)
+01E 00000000 UNDEF  notype ()    External     | errstart
+01F 00000000 UNDEF  notype ()    External     | errfinish
+020 00000000 UNDEF  notype ()    External     | errcode
+021 00000000 UNDEF  notype ()    External     | errmsg
+022 00000000 UNDEF  notype ()    External     | errdetail_internal
+023 00000000 UNDEF  notype ()    External     | errdetail_log
+024 00000000 UNDEF  notype ()    External     | errhint
+025 00000000 UNDEF  notype ()    External     | elog_start
+026 00000000 UNDEF  notype ()    External     | elog_finish
+027 00000000 UNDEF  notype ()    External     | palloc
+028 00000000 UNDEF  notype ()    External     | SHMQueueInsertBefore
+029 00000000 UNDEF  notype ()    External     | SHMQueueNext
+02A 00000000 UNDEF  notype ()    External     | GetLocksMethodTable
+02B 00000000 UNDEF  notype ()    External     | GetLockmodeName
+02C 00000000 SECT4  notype ()    External     | DeadLockCheck
+02D 000001A0 SECT4  notype ()    External     | GetBlockingAutoVacuumPgproc
+02E 000001C0 SECT4  notype ()    External     | DeadLockReport
+02F 000003D0 SECT4  notype ()    External     | RememberSimpleDeadLock
+030 00000420 SECT4  notype ()    External     | InitDeadLockChecking
+031 00000000 UNDEF  notype ()    External     | ProcQueueInit
+032 00000000 UNDEF  notype ()    External     | ProcLockWakeup
+033 00000000 UNDEF  notype ()    External     | pgstat_report_deadlock
+034 00000000 UNDEF  notype ()    External     | pgstat_get_backend_current_activity
+035 00000000 UNDEF  notype ()    External     | initStringInfo
+036 00000000 UNDEF  notype ()    External     | resetStringInfo
+037 00000000 UNDEF  notype ()    External     | appendStringInfo
+038 00000000 UNDEF  notype ()    External     | appendStringInfoString
+039 00000000 UNDEF  notype ()    External     | appendStringInfoChar
+03A 00000000 UNDEF  notype ()    External     | DescribeLockTag
+03B 00000000 SECT5  notype ()    Static       | DeadLockCheckRecurse
+03C 00000000 SECTD  notype ()    Static       | TestConfiguration
+03D 00000000 SECT9  notype ()    Static       | FindLockCycleRecurse
+03E 00000000 SECTB  notype ()    Static       | FindLockCycleRecurseMember
+03F 00000000 SECT7  notype ()    Static       | ExpandConstraints
+040 00000000 UNDEF  notype ()    External     | memset
+041 00000000 SECT4  notype       Label        | $LN31
+042 000001C0 SECT4  notype       Label        | $LN26
+043 00000420 SECT4  notype       Label        | $LN8
+044 00000000 SECTF  notype       Static       | .xdata
+    Section length   A8, #relocs   12, #linenums    0, checksum 9CB930C6
+046 00000000 SECTF  notype       Static       | $unwind$DeadLockCheck
+047 00000000 SECT10 notype       Static       | .pdata
+    Section length   6C, #relocs   1B, #linenums    0, checksum C16DD0D8
+049 00000000 SECT10 notype       Static       | $pdata$DeadLockCheck
+04A 0000000C SECTF  notype       Static       | $chain$0$DeadLockCheck
+04B 0000000C SECT10 notype       Static       | $pdata$0$DeadLockCheck
+04C 00000020 SECTF  notype       Static       | $chain$5$DeadLockCheck
+04D 00000018 SECT10 notype       Static       | $pdata$5$DeadLockCheck
+04E 00000044 SECTF  notype       Static       | $chain$6$DeadLockCheck
+04F 00000024 SECT10 notype       Static       | $pdata$6$DeadLockCheck
+050 00000054 SECTF  notype       Static       | $chain$8$DeadLockCheck
+051 00000030 SECT10 notype       Static       | $pdata$8$DeadLockCheck
+052 00000068 SECTF  notype       Static       | $unwind$DeadLockReport
+053 0000003C SECT10 notype       Static       | $pdata$DeadLockReport
+054 0000007C SECTF  notype       Static       | $chain$0$DeadLockReport
+055 00000048 SECT10 notype       Static       | $pdata$0$DeadLockReport
+056 00000090 SECTF  notype       Static       | $chain$1$DeadLockReport
+057 00000054 SECT10 notype       Static       | $pdata$1$DeadLockReport
+058 000000A0 SECTF  notype       Static       | $unwind$InitDeadLockChecking
+059 00000060 SECT10 notype       Static       | $pdata$InitDeadLockChecking
+05A 00000000 SECT11 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 390BFBFC, selection    5 (pick associative Section 0x5)
+05C 00000000 SECT11 notype       Static       | $unwind$DeadLockCheckRecurse
+05D 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8D81BCED, selection    5 (pick associative Section 0x5)
+05F 00000000 SECT12 notype       Static       | $pdata$DeadLockCheckRecurse
+060 00000000 SECT13 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 927EC30B, selection    5 (pick associative Section 0x5)
+062 00000000 SECT13 notype       Static       | $chain$1$DeadLockCheckRecurse
+063 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2EDB3E8E, selection    5 (pick associative Section 0x5)
+065 00000000 SECT14 notype       Static       | $pdata$1$DeadLockCheckRecurse
+066 00000000 SECT15 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 521D2EEC, selection    5 (pick associative Section 0x5)
+068 00000000 SECT15 notype       Static       | $chain$3$DeadLockCheckRecurse
+069 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 82AA1CA5, selection    5 (pick associative Section 0x5)
+06B 00000000 SECT16 notype       Static       | $pdata$3$DeadLockCheckRecurse
+06C 00000000 SECT17 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 951FF097, selection    5 (pick associative Section 0xD)
+06E 00000000 SECT17 notype       Static       | $unwind$TestConfiguration
+06F 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 281A9F6A, selection    5 (pick associative Section 0xD)
+071 00000000 SECT18 notype       Static       | $pdata$TestConfiguration
+072 00000000 SECT19 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 830AFFDC, selection    5 (pick associative Section 0xD)
+074 00000000 SECT19 notype       Static       | $chain$2$TestConfiguration
+075 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DED84BE0, selection    5 (pick associative Section 0xD)
+077 00000000 SECT1A notype       Static       | $pdata$2$TestConfiguration
+078 00000000 SECT1B notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 914D7586, selection    5 (pick associative Section 0xD)
+07A 00000000 SECT1B notype       Static       | $chain$3$TestConfiguration
+07B 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 64F4D29D, selection    5 (pick associative Section 0xD)
+07D 00000000 SECT1C notype       Static       | $pdata$3$TestConfiguration
+07E 00000000 SECT1D notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum A2D5E806, selection    5 (pick associative Section 0x9)
+080 00000000 SECT1D notype       Static       | $unwind$FindLockCycleRecurse
+081 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E32AB46F, selection    5 (pick associative Section 0x9)
+083 00000000 SECT1E notype       Static       | $pdata$FindLockCycleRecurse
+084 00000000 SECT1F notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum EBC4AB4C, selection    5 (pick associative Section 0x9)
+086 00000000 SECT1F notype       Static       | $chain$1$FindLockCycleRecurse
+087 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 19EDCBA3, selection    5 (pick associative Section 0x9)
+089 00000000 SECT20 notype       Static       | $pdata$1$FindLockCycleRecurse
+08A 00000000 SECT21 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 5A7D5E83, selection    5 (pick associative Section 0x9)
+08C 00000000 SECT21 notype       Static       | $chain$2$FindLockCycleRecurse
+08D 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B63DF087, selection    5 (pick associative Section 0x9)
+08F 00000000 SECT22 notype       Static       | $pdata$2$FindLockCycleRecurse
+090 00000000 SECT23 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 2BA746AB, selection    5 (pick associative Section 0x9)
+092 00000000 SECT23 notype       Static       | $chain$3$FindLockCycleRecurse
+093 00000000 SECT24 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2558F306, selection    5 (pick associative Section 0x9)
+095 00000000 SECT24 notype       Static       | $pdata$3$FindLockCycleRecurse
+096 00000000 SECT25 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 98BA6A05, selection    5 (pick associative Section 0xB)
+098 00000000 SECT25 notype       Static       | $unwind$FindLockCycleRecurseMember
+099 00000000 SECT26 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D980FA6C, selection    5 (pick associative Section 0xB)
+09B 00000000 SECT26 notype       Static       | $pdata$FindLockCycleRecurseMember
+09C 00000000 SECT27 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 422F2028, selection    5 (pick associative Section 0x7)
+09E 00000000 SECT27 notype       Static       | $unwind$ExpandConstraints
+09F 00000000 SECT28 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E5972AB3, selection    5 (pick associative Section 0x7)
+0A1 00000000 SECT28 notype       Static       | $pdata$ExpandConstraints
+0A2 00000000 UNDEF  notype       External     | CurrentMemoryContext
+0A3 00000000 UNDEF  notype       External     | MaxBackends
+0A4 00000000 UNDEF  notype       External     | MyProc
+0A5 00000000 UNDEF  notype       External     | ProcGlobal
+0A6 00000000 UNDEF  notype       External     | TopMemoryContext
+0A7 00000000 SECT29 notype       Static       | .bss
+    Section length   70, #relocs    0, #linenums    0, checksum        0
+0A9 00000000 SECT29 notype       Static       | visitedProcs
+0AA 00000008 SECT29 notype       Static       | nVisitedProcs
+0AB 00000010 SECT29 notype       Static       | topoProcs
+0AC 00000018 SECT29 notype       Static       | beforeConstraints
+0AD 00000020 SECT29 notype       Static       | afterConstraints
+0AE 00000028 SECT29 notype       Static       | waitOrders
+0AF 0000000C SECT29 notype       Static       | nWaitOrders
+0B0 00000030 SECT29 notype       Static       | waitOrderProcs
+0B1 00000038 SECT29 notype       Static       | curConstraints
+0B2 00000040 SECT29 notype       Static       | nCurConstraints
+0B3 00000044 SECT29 notype       Static       | maxCurConstraints
+0B4 00000048 SECT29 notype       Static       | possibleConstraints
+0B5 00000050 SECT29 notype       Static       | nPossibleConstraints
+0B6 00000054 SECT29 notype       Static       | maxPossibleConstraints
+0B7 00000058 SECT29 notype       Static       | deadlockDetails
+0B8 00000060 SECT29 notype       Static       | nDeadlockDetails
+0B9 00000068 SECT29 notype       Static       | blocking_autovacuum_proc
+0BA 00000000 SECT2A notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 2854460C, selection    2 (pick any)
+0BC 00000000 SECT2A notype       External     | ??_C@_0O@GBAMADE@DeadLockCheck?$AA@ (`string')
+0BD 00000000 SECT2B notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum E2C92652, selection    2 (pick any)
+0BF 00000000 SECT2B notype       External     | ??_C@_0CE@HHIAGLHI@src?1backend?1storage?1lmgr?1deadloc@ (`string')
+0C0 00000000 SECT2C notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 564DCE1E, selection    2 (pick any)
+0C2 00000000 SECT2C notype       External     | ??_C@_0CD@KAEKGGNG@deadlock?5seems?5to?5have?5disappear@ (`string')
+0C3 00000000 SECT2D notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 4860C991, selection    2 (pick any)
+0C5 00000000 SECT2D notype       External     | ??_C@_0BF@PGJLPDOF@DeadLockCheckRecurse?$AA@ (`string')
+0C6 00000000 SECT2E notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum 8B6FF553, selection    2 (pick any)
+0C8 00000000 SECT2E notype       External     | ??_C@_0CL@IMBJKBJN@inconsistent?5results?5during?5dead@ (`string')
+0C9 00000000 SECT2F notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum CA411CA9, selection    2 (pick any)
+0CB 00000000 SECT2F notype       External     | ??_C@_0DG@BNIOKL@Process?5?$CFd?5waits?5for?5?$CFs?5on?5?$CFs?$DL?5b@ (`string')
+0CC 00000000 SECT30 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 80A541BE, selection    2 (pick any)
+0CE 00000000 SECT30 notype       External     | ??_C@_0P@KIIJLNKG@Process?5?$CFd?3?5?$CFs?$AA@ (`string')
+0CF 00000000 SECT31 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum CEDB1F8E, selection    2 (pick any)
+0D1 00000000 SECT31 notype       External     | ??_C@_0P@OGPHODJG@DeadLockReport?$AA@ (`string')
+0D2 00000000 SECT32 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum EC52171F, selection    2 (pick any)
+0D4 00000000 SECT32 notype       External     | ??_C@_0CC@FCNMIEMK@See?5server?5log?5for?5query?5details@ (`string')
+0D5 00000000 SECT33 notype       Static       | .rdata
+    Section length    3, #relocs    0, #linenums    0, checksum 3A94AE3E, selection    2 (pick any)
+0D7 00000000 SECT33 notype       External     | ??_C@_02DKCKIIND@?$CFs?$AA@ (`string')
+0D8 00000000 SECT34 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 7454ACE1, selection    2 (pick any)
+0DA 00000000 SECT34 notype       External     | ??_C@_0BC@OMLAJMFD@deadlock?5detected?$AA@ (`string')
+
+String Table Size = 0x9E9 bytes
+
+  Summary
+
+          70 .bss
+        6B5C .debug$S
+          68 .debug$T
+          5D .drectve
+          FC .pdata
+         120 .rdata
+        10CC .text$mn
+         1A0 .xdata

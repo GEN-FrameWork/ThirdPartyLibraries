@@ -1,0 +1,184 @@
+
+Dump of file Release\postgres/schemacmds.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5670, #relocs   94, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  85D, #relocs   82, #linenums    0, checksum 2995E951
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  1D0, #relocs   16, #linenums    0, checksum C2D402FB, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  404, #relocs   20, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | errstart
+00F 00000000 UNDEF  notype ()    External     | errfinish
+010 00000000 UNDEF  notype ()    External     | errcode
+011 00000000 UNDEF  notype ()    External     | errmsg
+012 00000000 UNDEF  notype ()    External     | errdetail
+013 00000000 UNDEF  notype ()    External     | elog_start
+014 00000000 UNDEF  notype ()    External     | elog_finish
+015 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+016 00000000 UNDEF  notype ()    External     | pstrdup
+017 00000000 UNDEF  notype ()    External     | lcons_oid
+018 00000000 UNDEF  notype ()    External     | heap_modify_tuple
+019 00000000 UNDEF  notype ()    External     | heap_freetuple
+01A 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+01B 00000000 UNDEF  notype ()    External     | relation_close
+01C 00000000 UNDEF  notype ()    External     | heap_open
+01D 00000000 UNDEF  notype ()    External     | CommandCounterIncrement
+01E 00000000 UNDEF  notype ()    External     | IsReservedName
+01F 00000000 UNDEF  notype ()    External     | aclnewowner
+020 00000000 UNDEF  notype ()    External     | check_is_member_of_role
+021 00000000 UNDEF  notype ()    External     | get_rolespec_oid
+022 00000000 UNDEF  notype ()    External     | pg_database_aclcheck
+023 00000000 UNDEF  notype ()    External     | aclcheck_error
+024 00000000 UNDEF  notype ()    External     | pg_namespace_ownercheck
+025 00000000 UNDEF  notype ()    External     | changeDependencyOnOwner
+026 00000000 UNDEF  notype ()    External     | CatalogTupleUpdate
+027 00000000 UNDEF  notype ()    External     | CatalogTupleDelete
+028 00000000 UNDEF  notype ()    External     | get_namespace_oid
+029 00000000 UNDEF  notype ()    External     | GetOverrideSearchPath
+02A 00000000 UNDEF  notype ()    External     | PushOverrideSearchPath
+02B 00000000 UNDEF  notype ()    External     | PopOverrideSearchPath
+02C 00000000 UNDEF  notype ()    External     | RunObjectPostAlterHook
+02D 00000000 UNDEF  notype ()    External     | NamespaceCreate
+02E 00000000 UNDEF  notype ()    External     | get_database_name
+02F 00000000 UNDEF  notype ()    External     | EventTriggerCollectSimpleCommand
+030 00000000 SECT4  notype ()    External     | CreateSchemaCommand
+031 00000350 SECT4  notype ()    External     | RemoveSchemaById
+032 00000400 SECT4  notype ()    External     | RenameSchema
+033 000006A0 SECT4  notype ()    External     | AlterSchemaOwner
+034 000007B0 SECT4  notype ()    External     | AlterSchemaOwner_oid
+035 00000000 UNDEF  notype ()    External     | GetUserId
+036 00000000 UNDEF  notype ()    External     | GetUserIdAndSecContext
+037 00000000 UNDEF  notype ()    External     | SetUserIdAndSecContext
+038 00000000 UNDEF  notype ()    External     | transformCreateSchemaStmt
+039 00000000 UNDEF  notype ()    External     | ProcessUtility
+03A 00000000 UNDEF  notype ()    External     | namestrcpy
+03B 00000000 UNDEF  notype ()    External     | SearchSysCache
+03C 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+03D 00000000 UNDEF  notype ()    External     | SearchSysCacheCopy
+03E 00000000 UNDEF  notype ()    External     | SearchSysCacheExists
+03F 00000000 UNDEF  notype ()    External     | SysCacheGetAttr
+040 00000000 SECT5  notype ()    Static       | AlterSchemaOwner_internal
+041 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+042 00000000 UNDEF  notype ()    External     | __security_check_cookie
+043 00000000 SECT4  notype       Label        | $LN40
+044 00000350 SECT4  notype       Label        | $LN9
+045 00000400 SECT4  notype       Label        | $LN37
+046 000006A0 SECT4  notype       Label        | $LN15
+047 000007B0 SECT4  notype       Label        | $LN9
+048 00000000 SECT7  notype       Static       | .xdata
+    Section length   74, #relocs    0, #linenums    0, checksum 3D8AC7A0
+04A 00000000 SECT7  notype       Static       | $unwind$CreateSchemaCommand
+04B 00000000 SECT8  notype       Static       | .pdata
+    Section length   3C, #relocs    F, #linenums    0, checksum 8C97F399
+04D 00000000 SECT8  notype       Static       | $pdata$CreateSchemaCommand
+04E 0000001C SECT7  notype       Static       | $unwind$RemoveSchemaById
+04F 0000000C SECT8  notype       Static       | $pdata$RemoveSchemaById
+050 0000002C SECT7  notype       Static       | $unwind$RenameSchema
+051 00000018 SECT8  notype       Static       | $pdata$RenameSchema
+052 00000048 SECT7  notype       Static       | $unwind$AlterSchemaOwner
+053 00000024 SECT8  notype       Static       | $pdata$AlterSchemaOwner
+054 00000060 SECT7  notype       Static       | $unwind$AlterSchemaOwner_oid
+055 00000030 SECT8  notype       Static       | $pdata$AlterSchemaOwner_oid
+056 00000000 SECT9  notype       Static       | .xdata
+    Section length   14, #relocs    1, #linenums    0, checksum CAB779BF, selection    5 (pick associative Section 0x5)
+058 00000000 SECT9  notype       Static       | $unwind$AlterSchemaOwner_internal
+059 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 63F42A00, selection    5 (pick associative Section 0x5)
+05B 00000000 SECTA  notype       Static       | $pdata$AlterSchemaOwner_internal
+05C 00000000 SECTB  notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum AA07130F, selection    5 (pick associative Section 0x5)
+05E 00000000 SECTB  notype       Static       | $chain$2$AlterSchemaOwner_internal
+05F 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A7630EAB, selection    5 (pick associative Section 0x5)
+061 00000000 SECTC  notype       Static       | $pdata$2$AlterSchemaOwner_internal
+062 00000000 SECTD  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 44BFD9B3, selection    5 (pick associative Section 0x5)
+064 00000000 SECTD  notype       Static       | $chain$3$AlterSchemaOwner_internal
+065 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 17FC26F0, selection    5 (pick associative Section 0x5)
+067 00000000 SECTE  notype       Static       | $pdata$3$AlterSchemaOwner_internal
+068 00000000 SECTF  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 1E34E447, selection    5 (pick associative Section 0x5)
+06A 00000000 SECTF  notype       Static       | $chain$4$AlterSchemaOwner_internal
+06B 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B9AB479F, selection    5 (pick associative Section 0x5)
+06D 00000000 SECT10 notype       Static       | $pdata$4$AlterSchemaOwner_internal
+06E 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum DAA3C0EC, selection    5 (pick associative Section 0x5)
+070 00000000 SECT11 notype       Static       | $chain$5$AlterSchemaOwner_internal
+071 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E100BEEB, selection    5 (pick associative Section 0x5)
+073 00000000 SECT12 notype       Static       | $pdata$5$AlterSchemaOwner_internal
+074 00000000 UNDEF  notype       External     | CurrentMemoryContext
+075 00000000 UNDEF  notype       External     | newNodeMacroHolder
+076 00000000 UNDEF  notype       External     | InvalidObjectAddress
+077 00000000 UNDEF  notype       External     | object_access_hook
+078 00000000 UNDEF  notype       External     | MyDatabaseId
+079 00000000 UNDEF  notype       External     | allowSystemTableMods
+07A 00000000 UNDEF  notype       External     | None_Receiver
+07B 00000000 SECT13 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 5C5E97FF, selection    2 (pick any)
+07D 00000000 SECT13 notype       External     | ??_C@_0BE@KMHEPDIN@CreateSchemaCommand?$AA@ (`string')
+07E 00000000 SECT14 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum A4E89A26, selection    2 (pick any)
+080 00000000 SECT14 notype       External     | ??_C@_0CC@BKGGAJPD@src?1backend?1commands?1schemacmds?4@ (`string')
+081 00000000 SECT15 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum F60F5001, selection    2 (pick any)
+083 00000000 SECT15 notype       External     | ??_C@_0CA@BAPKPKFD@cache?5lookup?5failed?5for?5role?5?$CFu?$AA@ (`string')
+084 00000000 SECT16 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum 240D4782, selection    2 (pick any)
+086 00000000 SECT16 notype       External     | ??_C@_0DB@IJGHLIII@The?5prefix?5?$CCpg_?$CC?5is?5reserved?5for@ (`string')
+087 00000000 SECT17 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 55F291E7, selection    2 (pick any)
+089 00000000 SECT17 notype       External     | ??_C@_0BO@KKAJFAKN@unacceptable?5schema?5name?5?$CC?$CFs?$CC?$AA@ (`string')
+08A 00000000 SECT18 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum C198A4DF, selection    2 (pick any)
+08C 00000000 SECT18 notype       External     | ??_C@_0CF@BKLGCEEE@schema?5?$CC?$CFs?$CC?5already?5exists?0?5skip@ (`string')
+08D 00000000 SECT19 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum D4810C92, selection    2 (pick any)
+08F 00000000 SECT19 notype       External     | ??_C@_0BB@OCJBACNA@RemoveSchemaById?$AA@ (`string')
+090 00000000 SECT1A notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 6F132F68, selection    2 (pick any)
+092 00000000 SECT1A notype       External     | ??_C@_0CF@LEDNKPPD@cache?5lookup?5failed?5for?5namespac@ (`string')
+093 00000000 SECT1B notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum D5893488, selection    2 (pick any)
+095 00000000 SECT1B notype       External     | ??_C@_0N@CFACINPF@RenameSchema?$AA@ (`string')
+096 00000000 SECT1C notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum B0B4CDE4, selection    2 (pick any)
+098 00000000 SECT1C notype       External     | ??_C@_0BL@FFDBGAKI@schema?5?$CC?$CFs?$CC?5does?5not?5exist?$AA@ (`string')
+099 00000000 SECT1D notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 5A00EC1B, selection    2 (pick any)
+09B 00000000 SECT1D notype       External     | ??_C@_0BL@LPIFEBFH@schema?5?$CC?$CFs?$CC?5already?5exists?$AA@ (`string')
+09C 00000000 SECT1E notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum B2DCB97D, selection    2 (pick any)
+09E 00000000 SECT1E notype       External     | ??_C@_0BF@MCHIDAJ@AlterSchemaOwner_oid?$AA@ (`string')
+09F 00000000 SECT1F notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 71641179, selection    2 (pick any)
+0A1 00000000 SECT1F notype       External     | ??_C@_0CC@MPOKICKM@cache?5lookup?5failed?5for?5schema?5?$CF@ (`string')
+0A2 00000000 SECT20 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 175D7BC4, selection    2 (pick any)
+0A4 00000000 SECT20 notype       External     | ??_C@_0BB@CBENHFIG@AlterSchemaOwner?$AA@ (`string')
+0A5 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x96E bytes
+
+  Summary
+
+        5A74 .debug$S
+          68 .debug$T
+          5D .drectve
+          78 .pdata
+         18B .rdata
+         A2D .text$mn
+          D8 .xdata

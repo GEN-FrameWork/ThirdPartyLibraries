@@ -1,0 +1,78 @@
+
+Dump of file Release\postgres/regexport.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 443C, #relocs   82, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  261, #relocs    3, #linenums    0, checksum 6571FCF7
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   A6, #relocs    2, #linenums    0, checksum E5FE5B16, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  2BC, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | check_stack_depth
+00F 00000000 SECT4  notype ()    External     | pg_reg_getnumstates
+010 00000010 SECT4  notype ()    External     | pg_reg_getinitialstate
+011 00000020 SECT4  notype ()    External     | pg_reg_getfinalstate
+012 00000030 SECT4  notype ()    External     | pg_reg_getnumoutarcs
+013 000000F0 SECT4  notype ()    External     | pg_reg_getoutarcs
+014 00000130 SECT4  notype ()    External     | pg_reg_getnumcolors
+015 00000150 SECT4  notype ()    External     | pg_reg_colorisbegin
+016 00000180 SECT4  notype ()    External     | pg_reg_colorisend
+017 000001B0 SECT4  notype ()    External     | pg_reg_getnumcharacters
+018 000001F0 SECT4  notype ()    External     | pg_reg_getcharacters
+019 00000000 SECT5  notype ()    Static       | traverse_lacons
+01A 00000030 SECT4  notype       Label        | $LN19
+01B 000000F0 SECT4  notype       Label        | $LN6
+01C 000001F0 SECT4  notype       Label        | $LN18
+01D 00000000 SECT7  notype       Static       | .xdata
+    Section length   40, #relocs    6, #linenums    0, checksum DC8A9F3E
+01F 00000000 SECT7  notype       Static       | $unwind$pg_reg_getnumoutarcs
+020 00000000 SECT8  notype       Static       | .pdata
+    Section length   3C, #relocs    F, #linenums    0, checksum D8382048
+022 00000000 SECT8  notype       Static       | $pdata$pg_reg_getnumoutarcs
+023 0000000C SECT7  notype       Static       | $chain$0$pg_reg_getnumoutarcs
+024 0000000C SECT8  notype       Static       | $pdata$0$pg_reg_getnumoutarcs
+025 00000020 SECT7  notype       Static       | $chain$1$pg_reg_getnumoutarcs
+026 00000018 SECT8  notype       Static       | $pdata$1$pg_reg_getnumoutarcs
+027 00000030 SECT7  notype       Static       | $unwind$pg_reg_getoutarcs
+028 00000024 SECT8  notype       Static       | $pdata$pg_reg_getoutarcs
+029 00000038 SECT7  notype       Static       | $unwind$pg_reg_getcharacters
+02A 00000030 SECT8  notype       Static       | $pdata$pg_reg_getcharacters
+02B 00000000 SECT9  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 49D335D8, selection    5 (pick associative Section 0x5)
+02D 00000000 SECT9  notype       Static       | $unwind$traverse_lacons
+02E 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D8A74F2B, selection    5 (pick associative Section 0x5)
+030 00000000 SECTA  notype       Static       | $pdata$traverse_lacons
+031 00000000 SECTB  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum D187802E, selection    5 (pick associative Section 0x5)
+033 00000000 SECTB  notype       Static       | $chain$0$traverse_lacons
+034 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8C542F7C, selection    5 (pick associative Section 0x5)
+036 00000000 SECTC  notype       Static       | $pdata$0$traverse_lacons
+037 00000000 SECTD  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 61F0A5C7, selection    5 (pick associative Section 0x5)
+039 00000000 SECTD  notype       Static       | $chain$1$traverse_lacons
+03A 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum EFC0C9F7, selection    5 (pick associative Section 0x5)
+03C 00000000 SECTE  notype       Static       | $pdata$1$traverse_lacons
+
+String Table Size = 0x2A4 bytes
+
+  Summary
+
+        46F8 .debug$S
+          68 .debug$T
+          5D .drectve
+          60 .pdata
+         307 .text$mn
+          74 .xdata

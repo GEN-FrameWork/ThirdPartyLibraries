@@ -1,0 +1,64 @@
+
+Dump of file Release\postgres/geqo_selection.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 3C68, #relocs   28, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  198, #relocs    9, #linenums    0, checksum 1FC7C22A
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   EC, #relocs    5, #linenums    0, checksum 26D80622, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  224, #relocs   1A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | geqo_copy
+00F 00000000 UNDEF  notype ()    External     | geqo_rand
+010 00000000 SECT4  notype ()    External     | geqo_selection
+011 00000000 SECT5  notype ()    Static       | linear_rand
+012 00000000 UNDEF  notype ()    External     | sqrt
+013 00000000 SECT4  notype       Label        | $LN21
+014 00000000 SECT7  notype       Static       | .xdata
+    Section length   58, #relocs    6, #linenums    0, checksum 46CE5C76
+016 00000000 SECT7  notype       Static       | $unwind$geqo_selection
+017 00000000 SECT8  notype       Static       | .pdata
+    Section length   24, #relocs    9, #linenums    0, checksum BDF6E0C8
+019 00000000 SECT8  notype       Static       | $pdata$geqo_selection
+01A 00000020 SECT7  notype       Static       | $chain$5$geqo_selection
+01B 0000000C SECT8  notype       Static       | $pdata$5$geqo_selection
+01C 00000048 SECT7  notype       Static       | $chain$6$geqo_selection
+01D 00000018 SECT8  notype       Static       | $pdata$6$geqo_selection
+01E 00000000 SECT9  notype       Static       | .xdata
+    Section length   28, #relocs    0, #linenums    0, checksum C50ED990, selection    5 (pick associative Section 0x5)
+020 00000000 SECT9  notype       Static       | $unwind$linear_rand
+021 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D47F302E, selection    5 (pick associative Section 0x5)
+023 00000000 SECTA  notype       Static       | $pdata$linear_rand
+024 00000000 SECTB  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum E818DED1, selection    2 (pick any)
+026 00000000 SECTB  notype       External     | __real@3fe0000000000000
+027 00000000 SECTC  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+029 00000000 SECTC  notype       External     | __real@3ff0000000000000
+02A 00000000 SECTD  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 3C1E53C1, selection    2 (pick any)
+02C 00000000 SECTD  notype       External     | __real@4010000000000000
+02D 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x12F bytes
+
+  Summary
+
+        3E8C .debug$S
+          68 .debug$T
+          5D .drectve
+          30 .pdata
+          18 .rdata
+         284 .text$mn
+          80 .xdata

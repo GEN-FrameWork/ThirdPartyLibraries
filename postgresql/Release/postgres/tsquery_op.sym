@@ -1,0 +1,207 @@
+
+Dump of file Release\postgres/tsquery_op.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 51A0, #relocs  108, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  929, #relocs   59, #linenums    0, checksum 2CA6BFE9
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   CC, #relocs    5, #linenums    0, checksum 1FBDF17F, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  21C, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   E5, #relocs    3, #linenums    0, checksum CE44C824, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  32C, #relocs   28, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length   D7, #relocs    5, #linenums    0, checksum 30BB2925, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  224, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length   92, #relocs    0, #linenums    0, checksum 52EDD525, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  1D0, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 UNDEF  notype ()    External     | pg_qsort
+01B 00000000 UNDEF  notype ()    External     | errstart
+01C 00000000 UNDEF  notype ()    External     | errfinish
+01D 00000000 UNDEF  notype ()    External     | errcode
+01E 00000000 UNDEF  notype ()    External     | errmsg
+01F 00000000 UNDEF  notype ()    External     | palloc
+020 00000000 UNDEF  notype ()    External     | palloc0
+021 00000000 UNDEF  notype ()    External     | pfree
+022 00000000 UNDEF  notype ()    External     | pg_detoast_datum_copy
+023 00000000 UNDEF  notype ()    External     | DirectFunctionCall2Coll
+024 00000000 UNDEF  notype ()    External     | DirectFunctionCall3Coll
+025 00000000 UNDEF  notype ()    External     | QT2QTN
+026 00000000 UNDEF  notype ()    External     | QTN2QT
+027 00000000 UNDEF  notype ()    External     | QTNFree
+028 00000000 UNDEF  notype ()    External     | QTNodeCompare
+029 00000000 SECT4  notype ()    External     | makeTSQuerySign
+02A 00000030 SECT4  notype ()    External     | tsquery_lt
+02B 000000B0 SECT4  notype ()    External     | tsquery_le
+02C 00000130 SECT4  notype ()    External     | tsquery_eq
+02D 000001B0 SECT4  notype ()    External     | tsquery_ne
+02E 00000230 SECT4  notype ()    External     | tsquery_ge
+02F 000002B0 SECT4  notype ()    External     | tsquery_gt
+030 00000330 SECT4  notype ()    External     | tsquery_cmp
+031 000003B0 SECT4  notype ()    External     | tsquery_and
+032 000004A0 SECT4  notype ()    External     | tsquery_or
+033 00000590 SECT4  notype ()    External     | tsquery_not
+034 00000660 SECT4  notype ()    External     | tsquery_numnode
+035 00000670 SECT4  notype ()    External     | tsq_mcontains
+036 00000780 SECT4  notype ()    External     | tsq_mcontained
+037 000007A0 SECT4  notype ()    External     | tsquery_phrase
+038 000007D0 SECT4  notype ()    External     | tsquery_phrase_distance
+039 00000000 SECT9  notype ()    Static       | join_tsqueries
+03A 00000000 SECT5  notype ()    Static       | CompareTSQ
+03B 00000000 SECT7  notype ()    Static       | collectTSQueryValues
+03C 00000900 SECT4  notype ()    Static       | cmp_string
+03D 00000000 SECTB  notype ()    Static       | remove_duplicates
+03E 00000000 UNDEF  notype ()    External     | memcpy
+03F 00000030 SECT4  notype       Label        | $LN12
+040 000000B0 SECT4  notype       Label        | $LN12
+041 00000130 SECT4  notype       Label        | $LN12
+042 000001B0 SECT4  notype       Label        | $LN12
+043 00000230 SECT4  notype       Label        | $LN12
+044 000002B0 SECT4  notype       Label        | $LN12
+045 00000330 SECT4  notype       Label        | $LN12
+046 000003B0 SECT4  notype       Label        | $LN23
+047 000004A0 SECT4  notype       Label        | $LN23
+048 00000590 SECT4  notype       Label        | $LN9
+049 00000670 SECT4  notype       Label        | $LN29
+04A 000007A0 SECT4  notype       Label        | $LN4
+04B 000007D0 SECT4  notype       Label        | $LN31
+04C 00000000 SECTD  notype       Static       | .xdata
+    Section length  180, #relocs   15, #linenums    0, checksum AE5CE5E3
+04E 00000000 SECTD  notype       Static       | $unwind$tsquery_lt
+04F 00000000 SECTE  notype       Static       | .pdata
+    Section length   F0, #relocs   3C, #linenums    0, checksum 2CB09195
+051 00000000 SECTE  notype       Static       | $pdata$tsquery_lt
+052 00000014 SECTD  notype       Static       | $unwind$tsquery_le
+053 0000000C SECTE  notype       Static       | $pdata$tsquery_le
+054 00000028 SECTD  notype       Static       | $unwind$tsquery_eq
+055 00000018 SECTE  notype       Static       | $pdata$tsquery_eq
+056 0000003C SECTD  notype       Static       | $unwind$tsquery_ne
+057 00000024 SECTE  notype       Static       | $pdata$tsquery_ne
+058 00000050 SECTD  notype       Static       | $unwind$tsquery_ge
+059 00000030 SECTE  notype       Static       | $pdata$tsquery_ge
+05A 00000064 SECTD  notype       Static       | $unwind$tsquery_gt
+05B 0000003C SECTE  notype       Static       | $pdata$tsquery_gt
+05C 00000078 SECTD  notype       Static       | $unwind$tsquery_cmp
+05D 00000048 SECTE  notype       Static       | $pdata$tsquery_cmp
+05E 0000008C SECTD  notype       Static       | $unwind$tsquery_and
+05F 00000054 SECTE  notype       Static       | $pdata$tsquery_and
+060 0000009C SECTD  notype       Static       | $chain$1$tsquery_and
+061 00000060 SECTE  notype       Static       | $pdata$1$tsquery_and
+062 000000B4 SECTD  notype       Static       | $chain$2$tsquery_and
+063 0000006C SECTE  notype       Static       | $pdata$2$tsquery_and
+064 000000C8 SECTD  notype       Static       | $unwind$tsquery_or
+065 00000078 SECTE  notype       Static       | $pdata$tsquery_or
+066 000000D8 SECTD  notype       Static       | $chain$1$tsquery_or
+067 00000084 SECTE  notype       Static       | $pdata$1$tsquery_or
+068 000000F0 SECTD  notype       Static       | $chain$2$tsquery_or
+069 00000090 SECTE  notype       Static       | $pdata$2$tsquery_or
+06A 00000104 SECTD  notype       Static       | $unwind$tsquery_not
+06B 0000009C SECTE  notype       Static       | $pdata$tsquery_not
+06C 00000110 SECTD  notype       Static       | $chain$1$tsquery_not
+06D 000000A8 SECTE  notype       Static       | $pdata$1$tsquery_not
+06E 00000128 SECTD  notype       Static       | $chain$2$tsquery_not
+06F 000000B4 SECTE  notype       Static       | $pdata$2$tsquery_not
+070 0000013C SECTD  notype       Static       | $chain$3$tsquery_not
+071 000000C0 SECTE  notype       Static       | $pdata$3$tsquery_not
+072 0000014C SECTD  notype       Static       | $unwind$tsq_mcontains
+073 000000CC SECTE  notype       Static       | $pdata$tsq_mcontains
+074 00000160 SECTD  notype       Static       | $unwind$tsquery_phrase
+075 000000D8 SECTE  notype       Static       | $pdata$tsquery_phrase
+076 00000168 SECTD  notype       Static       | $unwind$tsquery_phrase_distance
+077 000000E4 SECTE  notype       Static       | $pdata$tsquery_phrase_distance
+078 00000000 SECTF  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum C2D1B755, selection    5 (pick associative Section 0x9)
+07A 00000000 SECTF  notype       Static       | $unwind$join_tsqueries
+07B 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  CD87F05, selection    5 (pick associative Section 0x9)
+07D 00000000 SECT10 notype       Static       | $pdata$join_tsqueries
+07E 00000000 SECT11 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum F4D9A8A3, selection    5 (pick associative Section 0x5)
+080 00000000 SECT11 notype       Static       | $unwind$CompareTSQ
+081 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  84CEF90, selection    5 (pick associative Section 0x5)
+083 00000000 SECT12 notype       Static       | $pdata$CompareTSQ
+084 00000000 SECT13 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum E5C48D66, selection    5 (pick associative Section 0x5)
+086 00000000 SECT13 notype       Static       | $chain$1$CompareTSQ
+087 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B305B7CF, selection    5 (pick associative Section 0x5)
+089 00000000 SECT14 notype       Static       | $pdata$1$CompareTSQ
+08A 00000000 SECT15 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum B11B057C, selection    5 (pick associative Section 0x5)
+08C 00000000 SECT15 notype       Static       | $chain$2$CompareTSQ
+08D 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7EABB117, selection    5 (pick associative Section 0x5)
+08F 00000000 SECT16 notype       Static       | $pdata$2$CompareTSQ
+090 00000000 SECT17 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum A70122DD, selection    5 (pick associative Section 0x7)
+092 00000000 SECT17 notype       Static       | $unwind$collectTSQueryValues
+093 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 86C3E873, selection    5 (pick associative Section 0x7)
+095 00000000 SECT18 notype       Static       | $pdata$collectTSQueryValues
+096 00000000 SECT19 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum D55AFEB3, selection    5 (pick associative Section 0x7)
+098 00000000 SECT19 notype       Static       | $chain$1$collectTSQueryValues
+099 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B8205414, selection    5 (pick associative Section 0x7)
+09B 00000000 SECT1A notype       Static       | $pdata$1$collectTSQueryValues
+09C 00000000 SECT1B notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 3F94029F, selection    5 (pick associative Section 0x7)
+09E 00000000 SECT1B notype       Static       | $chain$2$collectTSQueryValues
+09F 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 948A2596, selection    5 (pick associative Section 0x7)
+0A1 00000000 SECT1C notype       Static       | $pdata$2$collectTSQueryValues
+0A2 00000000 SECT1D notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum BBE5893D, selection    5 (pick associative Section 0xB)
+0A4 00000000 SECT1D notype       Static       | $unwind$remove_duplicates
+0A5 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 68B67E9E, selection    5 (pick associative Section 0xB)
+0A7 00000000 SECT1E notype       Static       | $pdata$remove_duplicates
+0A8 00000000 SECT1F notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum F19F2EE3, selection    5 (pick associative Section 0xB)
+0AA 00000000 SECT1F notype       Static       | $chain$2$remove_duplicates
+0AB 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E318B13E, selection    5 (pick associative Section 0xB)
+0AD 00000000 SECT20 notype       Static       | $pdata$2$remove_duplicates
+0AE 00000000 SECT21 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum D1E19472, selection    5 (pick associative Section 0xB)
+0B0 00000000 SECT21 notype       Static       | $chain$3$remove_duplicates
+0B1 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E15942F3, selection    5 (pick associative Section 0xB)
+0B3 00000000 SECT22 notype       Static       | $pdata$3$remove_duplicates
+0B4 00000000 SECT23 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 4C60C9D7, selection    2 (pick any)
+0B6 00000000 SECT23 notype       External     | ??_C@_0BI@BAFOPMAI@tsquery_phrase_distance?$AA@ (`string')
+0B7 00000000 SECT24 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum D6A03A06, selection    2 (pick any)
+0B9 00000000 SECT24 notype       External     | ??_C@_0CD@CAKHJCMO@src?1backend?1utils?1adt?1tsquery_op@ (`string')
+0BA 00000000 SECT25 notype       Static       | .rdata
+    Section length   44, #relocs    0, #linenums    0, checksum 9C3F7559, selection    2 (pick any)
+0BC 00000000 SECT25 notype       External     | ??_C@_0EE@HDBHOEAL@distance?5in?5phrase?5operator?5shou@ (`string')
+
+String Table Size = 0x748 bytes
+
+  Summary
+
+        5ADC .debug$S
+          68 .debug$T
+          5D .drectve
+         168 .pdata
+          7F .rdata
+         C43 .text$mn
+         238 .xdata

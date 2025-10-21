@@ -1,0 +1,156 @@
+
+Dump of file Release\postgres/generic_xlog.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   94, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4D34, #relocs   70, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  6EB, #relocs   35, #linenums    0, checksum 6CBFBF95
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   93, #relocs    2, #linenums    0, checksum A97A638D, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  234, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  1C0, #relocs    2, #linenums    0, checksum 10E9AC2C, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  52C, #relocs   32, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | elog_start
+013 00000000 UNDEF  notype ()    External     | elog_finish
+014 00000000 UNDEF  notype ()    External     | palloc
+015 00000000 UNDEF  notype ()    External     | pfree
+016 00000000 UNDEF  notype ()    External     | UnlockReleaseBuffer
+017 00000000 UNDEF  notype ()    External     | MarkBufferDirty
+018 00000000 UNDEF  notype ()    External     | mask_page_lsn_and_checksum
+019 00000000 UNDEF  notype ()    External     | mask_unused_space
+01A 00000000 UNDEF  notype ()    External     | XLogBeginInsert
+01B 00000000 UNDEF  notype ()    External     | XLogInsert
+01C 00000000 UNDEF  notype ()    External     | XLogRegisterBuffer
+01D 00000000 UNDEF  notype ()    External     | XLogRegisterBufData
+01E 00000000 UNDEF  notype ()    External     | XLogRecGetBlockData
+01F 00000000 SECT4  notype ()    External     | GenericXLogStart
+020 00000130 SECT4  notype ()    External     | GenericXLogRegisterBuffer
+021 00000240 SECT4  notype ()    External     | GenericXLogFinish
+022 00000510 SECT4  notype ()    External     | GenericXLogAbort
+023 00000520 SECT4  notype ()    External     | generic_redo
+024 000006D0 SECT4  notype ()    External     | generic_mask
+025 00000000 UNDEF  notype ()    External     | XLogReadBufferForRedo
+026 00000000 SECT7  notype ()    Static       | computeRegionDelta
+027 00000000 SECT5  notype ()    Static       | computeDelta
+028 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+029 00000000 UNDEF  notype ()    External     | __security_check_cookie
+02A 00000000 UNDEF  notype ()    External     | memcpy
+02B 00000000 UNDEF  notype ()    External     | memset
+02C 00000000 SECT4  notype       Label        | $LN18
+02D 00000130 SECT4  notype       Label        | $LN23
+02E 00000240 SECT4  notype       Label        | $LN47
+02F 00000520 SECT4  notype       Label        | $LN31
+030 000006D0 SECT4  notype       Label        | $LN4
+031 00000000 SECT9  notype       Static       | .xdata
+    Section length   C0, #relocs   13, #linenums    0, checksum 824A8901
+033 00000000 SECT9  notype       Static       | $unwind$GenericXLogStart
+034 00000000 SECTA  notype       Static       | .pdata
+    Section length   84, #relocs   21, #linenums    0, checksum 3B47C471
+036 00000000 SECTA  notype       Static       | $pdata$GenericXLogStart
+037 0000000C SECT9  notype       Static       | $unwind$GenericXLogRegisterBuffer
+038 0000000C SECTA  notype       Static       | $pdata$GenericXLogRegisterBuffer
+039 00000014 SECT9  notype       Static       | $unwind$GenericXLogFinish
+03A 00000018 SECTA  notype       Static       | $pdata$GenericXLogFinish
+03B 00000024 SECT9  notype       Static       | $chain$1$GenericXLogFinish
+03C 00000024 SECTA  notype       Static       | $pdata$1$GenericXLogFinish
+03D 0000003C SECT9  notype       Static       | $chain$2$GenericXLogFinish
+03E 00000030 SECTA  notype       Static       | $pdata$2$GenericXLogFinish
+03F 0000004C SECT9  notype       Static       | $unwind$generic_redo
+040 0000003C SECTA  notype       Static       | $pdata$generic_redo
+041 00000060 SECT9  notype       Static       | $chain$1$generic_redo
+042 00000048 SECTA  notype       Static       | $pdata$1$generic_redo
+043 00000078 SECT9  notype       Static       | $chain$5$generic_redo
+044 00000054 SECTA  notype       Static       | $pdata$5$generic_redo
+045 00000098 SECT9  notype       Static       | $chain$6$generic_redo
+046 00000060 SECTA  notype       Static       | $pdata$6$generic_redo
+047 000000A8 SECT9  notype       Static       | $chain$7$generic_redo
+048 0000006C SECTA  notype       Static       | $pdata$7$generic_redo
+049 000000B8 SECT9  notype       Static       | $unwind$generic_mask
+04A 00000078 SECTA  notype       Static       | $pdata$generic_mask
+04B 00000000 SECTB  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 38F8871D, selection    5 (pick associative Section 0x7)
+04D 00000000 SECTB  notype       Static       | $unwind$computeRegionDelta
+04E 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7CBB312B, selection    5 (pick associative Section 0x7)
+050 00000000 SECTC  notype       Static       | $pdata$computeRegionDelta
+051 00000000 SECTD  notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum  11A67F5, selection    5 (pick associative Section 0x7)
+053 00000000 SECTD  notype       Static       | $chain$2$computeRegionDelta
+054 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 527C4AA4, selection    5 (pick associative Section 0x7)
+056 00000000 SECTE  notype       Static       | $pdata$2$computeRegionDelta
+057 00000000 SECTF  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum CA353424, selection    5 (pick associative Section 0x7)
+059 00000000 SECTF  notype       Static       | $chain$3$computeRegionDelta
+05A 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum AC9D468A, selection    5 (pick associative Section 0x7)
+05C 00000000 SECT10 notype       Static       | $pdata$3$computeRegionDelta
+05D 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum EB2BA048, selection    5 (pick associative Section 0x7)
+05F 00000000 SECT11 notype       Static       | $chain$4$computeRegionDelta
+060 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  5E62920, selection    5 (pick associative Section 0x7)
+062 00000000 SECT12 notype       Static       | $pdata$4$computeRegionDelta
+063 00000000 SECT13 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum C5ECDBC7, selection    5 (pick associative Section 0x7)
+065 00000000 SECT13 notype       Static       | $chain$5$computeRegionDelta
+066 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 42932DBB, selection    5 (pick associative Section 0x7)
+068 00000000 SECT14 notype       Static       | $pdata$5$computeRegionDelta
+069 00000000 SECT15 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum CDB1427D, selection    5 (pick associative Section 0x5)
+06B 00000000 SECT15 notype       Static       | $unwind$computeDelta
+06C 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A10FB312, selection    5 (pick associative Section 0x5)
+06E 00000000 SECT16 notype       Static       | $pdata$computeDelta
+06F 00000000 UNDEF  notype       External     | BufferBlocks
+070 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+071 00000000 UNDEF  notype       External     | CritSectionCount
+072 00000000 SECT17 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 282425ED, selection    2 (pick any)
+074 00000000 SECT17 notype       External     | ??_C@_0BK@HIDHGECA@GenericXLogRegisterBuffer?$AA@ (`string')
+075 00000000 SECT18 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum B6441B63, selection    2 (pick any)
+077 00000000 SECT18 notype       External     | ??_C@_0CK@KNNEMMGH@src?1backend?1access?1transam?1gener@ (`string')
+078 00000000 SECT19 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum DA294277, selection    2 (pick any)
+07A 00000000 SECT19 notype       External     | ??_C@_0DG@BAHFNAHF@maximum?5number?5?$CFd?5of?5generic?5xlo@ (`string')
+07B 00000000 UNDEF  notype       External     | __isa_available
+07C 00000000 SECT1A notype       Static       | .bss
+    Section length    4, #relocs    0, #linenums    0, checksum        0, selection    2 (pick any)
+07E 00000000 SECT1A notype       External     | __isa_available_default
+07F 00000000 UNDEF  notype       External     | __security_cookie
+080 00000000 SECT1B notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 69A1F69D, selection    2 (pick any)
+082 00000000 SECT1B notype       External     | __xmm@00000000000080880000000000008088
+083 00000000 SECT1C notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 83B7740A, selection    2 (pick any)
+085 00000000 SECT1C notype       External     | __xmm@00000002000000020000000200000002
+086 00000000 SECT1D notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum CB35E4FC, selection    2 (pick any)
+088 00000000 SECT1D notype       External     | __xmm@00000003000000020000000100000000
+
+String Table Size = 0x66A bytes
+
+  Summary
+
+           4 .bss
+        5494 .debug$S
+          68 .debug$T
+          94 .drectve
+          CC .pdata
+          AA .rdata
+         93E .text$mn
+         138 .xdata

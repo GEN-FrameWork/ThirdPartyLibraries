@@ -1,0 +1,118 @@
+
+Dump of file Release\postgres/rbtree.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4900, #relocs   A6, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .data
+    Section length   20, #relocs    2, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       Static       | sentinel
+00B 00000000 SECT5  notype       Static       | .text$mn
+    Section length  58D, #relocs   16, #linenums    0, checksum 42C17FD2
+00D 00000000 SECT6  notype       Static       | .text$mn
+    Section length  2F8, #relocs    1, #linenums    0, checksum 1A7C8786, selection    1 (pick no duplicates)
+00F 00000000 SECT7  notype       Static       | .debug$S
+    Section length  634, #relocs   3A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+011 00000000 SECT8  notype       Static       | .text$mn
+    Section length   E0, #relocs    3, #linenums    0, checksum 85E29099, selection    1 (pick no duplicates)
+013 00000000 SECT9  notype       Static       | .debug$S
+    Section length  278, #relocs   1A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x8)
+015 00000000 SECTA  notype       Static       | .text$mn
+    Section length  20C, #relocs    1, #linenums    0, checksum 605807A2, selection    1 (pick no duplicates)
+017 00000000 SECTB  notype       Static       | .debug$S
+    Section length  470, #relocs   2A, #linenums    0, checksum        0, selection    5 (pick associative Section 0xA)
+019 00000000 UNDEF  notype ()    External     | elog_start
+01A 00000000 UNDEF  notype ()    External     | elog_finish
+01B 00000000 UNDEF  notype ()    External     | palloc
+01C 00000000 SECT5  notype ()    External     | rb_create
+01D 00000080 SECT5  notype ()    External     | rb_find
+01E 00000100 SECT5  notype ()    External     | rb_leftmost
+01F 00000130 SECT5  notype ()    External     | rb_insert
+020 00000230 SECT5  notype ()    External     | rb_delete
+021 00000240 SECT5  notype ()    External     | rb_begin_iterate
+022 00000300 SECT5  notype ()    External     | rb_iterate
+023 00000000 SECTA  notype ()    Static       | rb_insert_fixup
+024 00000000 SECT6  notype ()    Static       | rb_delete_fixup
+025 00000000 SECT8  notype ()    Static       | rb_delete_node
+026 00000320 SECT5  notype ()    Static       | rb_left_right_iterator
+027 000003C0 SECT5  notype ()    Static       | rb_right_left_iterator
+028 00000460 SECT5  notype ()    Static       | rb_direct_iterator
+029 000004F0 SECT5  notype ()    Static       | rb_inverted_iterator
+02A 00000000 UNDEF  notype ()    External     | memcpy
+02B 00000000 SECT5  notype       Label        | $LN4
+02C 00000080 SECT5  notype       Label        | $LN14
+02D 00000130 SECT5  notype       Label        | $LN21
+02E 00000240 SECT5  notype       Label        | $LN16
+02F 00000500 SECT5  notype       Label        | $loop$36
+030 00000000 SECTC  notype       Static       | .xdata
+    Section length   4C, #relocs    0, #linenums    0, checksum 357CE166
+032 00000000 SECTC  notype       Static       | $unwind$rb_create
+033 00000000 SECTD  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum 47191975
+035 00000000 SECTD  notype       Static       | $pdata$rb_create
+036 00000014 SECTC  notype       Static       | $unwind$rb_find
+037 0000000C SECTD  notype       Static       | $pdata$rb_find
+038 00000028 SECTC  notype       Static       | $unwind$rb_insert
+039 00000018 SECTD  notype       Static       | $pdata$rb_insert
+03A 00000044 SECTC  notype       Static       | $unwind$rb_begin_iterate
+03B 00000024 SECTD  notype       Static       | $pdata$rb_begin_iterate
+03C 00000000 SECTE  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum A13015D7, selection    5 (pick associative Section 0x8)
+03E 00000000 SECTE  notype       Static       | $unwind$rb_delete_node
+03F 00000000 SECTF  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7D3C6CAC, selection    5 (pick associative Section 0x8)
+041 00000000 SECTF  notype       Static       | $pdata$rb_delete_node
+042 00000000 SECT10 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum FDB9B3CA, selection    5 (pick associative Section 0x8)
+044 00000000 SECT10 notype       Static       | $chain$0$rb_delete_node
+045 00000000 SECT11 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FD0E99FA, selection    5 (pick associative Section 0x8)
+047 00000000 SECT11 notype       Static       | $pdata$0$rb_delete_node
+048 00000000 SECT12 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 2A7FDC97, selection    5 (pick associative Section 0x8)
+04A 00000000 SECT12 notype       Static       | $chain$1$rb_delete_node
+04B 00000000 SECT13 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A891B311, selection    5 (pick associative Section 0x8)
+04D 00000000 SECT13 notype       Static       | $pdata$1$rb_delete_node
+04E 00000000 SECT14 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 44597316, selection    5 (pick associative Section 0x8)
+050 00000000 SECT14 notype       Static       | $chain$2$rb_delete_node
+051 00000000 SECT15 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C273FF45, selection    5 (pick associative Section 0x8)
+053 00000000 SECT15 notype       Static       | $pdata$2$rb_delete_node
+054 00000000 SECT16 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum C46B8640, selection    5 (pick associative Section 0x8)
+056 00000000 SECT16 notype       Static       | $chain$3$rb_delete_node
+057 00000000 SECT17 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 355BF8EC, selection    5 (pick associative Section 0x8)
+059 00000000 SECT17 notype       Static       | $pdata$3$rb_delete_node
+05A 00000000 SECT18 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 7BC1C98E, selection    2 (pick any)
+05C 00000000 SECT18 notype       External     | ??_C@_0BB@ENNBMHMM@rb_begin_iterate?$AA@ (`string')
+05D 00000000 SECT19 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 4B3D862A, selection    2 (pick any)
+05F 00000000 SECT19 notype       External     | ??_C@_0BJ@FNANHHFK@src?1backend?1lib?1rbtree?4c?$AA@ (`string')
+060 00000000 SECT1A notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 7AA96DA6, selection    2 (pick any)
+062 00000000 SECT1A notype       External     | ??_C@_0CI@GMLKKPOI@unrecognized?5rbtree?5iteration?5or@ (`string')
+
+String Table Size = 0x2FF bytes
+
+  Summary
+
+          20 .data
+        561C .debug$S
+          68 .debug$T
+          5D .drectve
+          6C .pdata
+          52 .rdata
+         B71 .text$mn
+          9C .xdata

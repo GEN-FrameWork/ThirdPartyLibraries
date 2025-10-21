@@ -1,0 +1,184 @@
+
+Dump of file Release\postgres/ginutil.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6C6C, #relocs  12E, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length   20, #relocs    2, #linenums    0, checksum 47F3C328
+00A 00000000 SECT4  notype       Static       | ?tab@?1??ginoptions@@9@9 (`ginoptions'::`2'::tab)
+00B 00000000 SECT5  notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum 7658BF87, selection    2 (pick any)
+00D 00000000 SECT5  notype       External     | ??_C@_0L@OCCAPBJE@fastupdate?$AA@ (`string')
+00E 00000000 SECT6  notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum  3D8FDF1, selection    2 (pick any)
+010 00000000 SECT6  notype       External     | ??_C@_0BH@IOIHCGEK@gin_pending_list_limit?$AA@ (`string')
+011 00000000 SECT7  notype       Static       | .text$mn
+    Section length 1077, #relocs   75, #linenums    0, checksum AC083E5E
+013 00000000 UNDEF  notype ()    External     | qsort_arg
+014 00000000 UNDEF  notype ()    External     | errstart
+015 00000000 UNDEF  notype ()    External     | errfinish
+016 00000000 UNDEF  notype ()    External     | errcode
+017 00000000 UNDEF  notype ()    External     | errmsg
+018 00000000 UNDEF  notype ()    External     | elog_start
+019 00000000 UNDEF  notype ()    External     | elog_finish
+01A 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+01B 00000000 UNDEF  notype ()    External     | palloc
+01C 00000000 UNDEF  notype ()    External     | palloc0
+01D 00000000 UNDEF  notype ()    External     | pfree
+01E 00000000 UNDEF  notype ()    External     | fmgr_info_copy
+01F 00000000 UNDEF  notype ()    External     | FunctionCall2Coll
+020 00000000 UNDEF  notype ()    External     | FunctionCall3Coll
+021 00000000 UNDEF  notype ()    External     | CreateTemplateTupleDesc
+022 00000000 UNDEF  notype ()    External     | TupleDescInitEntry
+023 00000000 UNDEF  notype ()    External     | TupleDescInitEntryCollation
+024 00000000 UNDEF  notype ()    External     | index_getprocid
+025 00000000 UNDEF  notype ()    External     | index_getprocinfo
+026 00000000 SECT7  notype ()    External     | ginGetStats
+027 00000090 SECT7  notype ()    External     | ginUpdateStats
+028 00000000 UNDEF  notype ()    External     | PageInit
+029 00000000 UNDEF  notype ()    External     | nocache_index_getattr
+02A 00000000 UNDEF  notype ()    External     | ReadBuffer
+02B 00000000 UNDEF  notype ()    External     | ReleaseBuffer
+02C 00000000 UNDEF  notype ()    External     | UnlockReleaseBuffer
+02D 00000000 UNDEF  notype ()    External     | MarkBufferDirty
+02E 00000000 UNDEF  notype ()    External     | LockBuffer
+02F 00000000 UNDEF  notype ()    External     | ConditionalLockBuffer
+030 000001F0 SECT7  notype ()    External     | ginoptions
+031 00000290 SECT7  notype ()    External     | initGinState
+032 00000620 SECT7  notype ()    External     | GinNewBuffer
+033 00000730 SECT7  notype ()    External     | GinInitBuffer
+034 000007A0 SECT7  notype ()    External     | GinInitPage
+035 000007F0 SECT7  notype ()    External     | GinInitMetabuffer
+036 00000890 SECT7  notype ()    External     | ginCompareEntries
+037 000008F0 SECT7  notype ()    External     | ginCompareAttEntries
+038 00000970 SECT7  notype ()    External     | ginExtractEntries
+039 00000C50 SECT7  notype ()    External     | gintuple_get_attrnum
+03A 00000CF0 SECT7  notype ()    External     | gintuple_get_key
+03B 00000000 UNDEF  notype ()    External     | ginbuild
+03C 00000000 UNDEF  notype ()    External     | ginbuildempty
+03D 00000000 UNDEF  notype ()    External     | gininsert
+03E 00000000 UNDEF  notype ()    External     | ginbeginscan
+03F 00000000 UNDEF  notype ()    External     | ginendscan
+040 00000000 UNDEF  notype ()    External     | ginrescan
+041 00000000 UNDEF  notype ()    External     | gingetbitmap
+042 00000000 UNDEF  notype ()    External     | ginbulkdelete
+043 00000000 UNDEF  notype ()    External     | ginvacuumcleanup
+044 00000000 UNDEF  notype ()    External     | ginvalidate
+045 00000000 UNDEF  notype ()    External     | parseRelOptions
+046 00000000 UNDEF  notype ()    External     | allocateReloptStruct
+047 00000000 UNDEF  notype ()    External     | fillRelOptions
+048 00000000 UNDEF  notype ()    External     | XLogBeginInsert
+049 00000000 UNDEF  notype ()    External     | XLogInsert
+04A 00000000 UNDEF  notype ()    External     | XLogRegisterData
+04B 00000000 UNDEF  notype ()    External     | XLogRegisterBuffer
+04C 00000000 UNDEF  notype ()    External     | GetFreeIndexPage
+04D 00000000 UNDEF  notype ()    External     | LockRelationForExtension
+04E 00000000 UNDEF  notype ()    External     | UnlockRelationForExtension
+04F 00000F20 SECT7  notype ()    External     | ginhandler
+050 00000000 UNDEF  notype ()    External     | format_type_be
+051 00000000 UNDEF  notype ()    External     | gincostestimate
+052 00000000 UNDEF  notype ()    External     | lookup_type_cache
+053 00001030 SECT7  notype ()    Static       | cmpEntries
+054 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+055 00000000 UNDEF  notype ()    External     | __security_check_cookie
+056 00000000 UNDEF  notype ()    External     | memset
+057 00000000 SECT7  notype       Label        | $LN6
+058 00000090 SECT7  notype       Label        | $LN10
+059 000001F0 SECT7  notype       Label        | $LN5
+05A 00000290 SECT7  notype       Label        | $LN48
+05B 00000620 SECT7  notype       Label        | $LN26
+05C 00000730 SECT7  notype       Label        | $LN8
+05D 000007A0 SECT7  notype       Label        | $LN4
+05E 000007F0 SECT7  notype       Label        | $LN8
+05F 00000970 SECT7  notype       Label        | $LN60
+060 00000CF0 SECT7  notype       Label        | $LN39
+061 00000F20 SECT7  notype       Label        | $LN4
+062 00000000 SECT8  notype       Static       | .xdata
+    Section length  180, #relocs   22, #linenums    0, checksum 916B9833
+064 00000000 SECT8  notype       Static       | $unwind$ginGetStats
+065 00000000 SECT9  notype       Static       | .pdata
+    Section length  114, #relocs   45, #linenums    0, checksum 1993165A
+067 00000000 SECT9  notype       Static       | $pdata$ginGetStats
+068 0000000C SECT8  notype       Static       | $unwind$ginUpdateStats
+069 0000000C SECT9  notype       Static       | $pdata$ginUpdateStats
+06A 0000002C SECT8  notype       Static       | $unwind$ginoptions
+06B 00000018 SECT9  notype       Static       | $pdata$ginoptions
+06C 0000003C SECT8  notype       Static       | $unwind$initGinState
+06D 00000024 SECT9  notype       Static       | $pdata$initGinState
+06E 0000004C SECT8  notype       Static       | $chain$2$initGinState
+06F 00000030 SECT9  notype       Static       | $pdata$2$initGinState
+070 00000068 SECT8  notype       Static       | $chain$3$initGinState
+071 0000003C SECT9  notype       Static       | $pdata$3$initGinState
+072 00000078 SECT8  notype       Static       | $unwind$GinNewBuffer
+073 00000048 SECT9  notype       Static       | $pdata$GinNewBuffer
+074 00000084 SECT8  notype       Static       | $chain$0$GinNewBuffer
+075 00000054 SECT9  notype       Static       | $pdata$0$GinNewBuffer
+076 00000098 SECT8  notype       Static       | $chain$1$GinNewBuffer
+077 00000060 SECT9  notype       Static       | $pdata$1$GinNewBuffer
+078 000000A8 SECT8  notype       Static       | $chain$2$GinNewBuffer
+079 0000006C SECT9  notype       Static       | $pdata$2$GinNewBuffer
+07A 000000BC SECT8  notype       Static       | $unwind$GinInitBuffer
+07B 00000078 SECT9  notype       Static       | $pdata$GinInitBuffer
+07C 000000C8 SECT8  notype       Static       | $unwind$GinInitPage
+07D 00000084 SECT9  notype       Static       | $pdata$GinInitPage
+07E 000000D4 SECT8  notype       Static       | $unwind$GinInitMetabuffer
+07F 00000090 SECT9  notype       Static       | $pdata$GinInitMetabuffer
+080 000000E0 SECT8  notype       Static       | $unwind$ginExtractEntries
+081 0000009C SECT9  notype       Static       | $pdata$ginExtractEntries
+082 000000F4 SECT8  notype       Static       | $chain$2$ginExtractEntries
+083 000000A8 SECT9  notype       Static       | $pdata$2$ginExtractEntries
+084 00000108 SECT8  notype       Static       | $chain$3$ginExtractEntries
+085 000000B4 SECT9  notype       Static       | $pdata$3$ginExtractEntries
+086 0000011C SECT8  notype       Static       | $chain$4$ginExtractEntries
+087 000000C0 SECT9  notype       Static       | $pdata$4$ginExtractEntries
+088 00000130 SECT8  notype       Static       | $chain$5$ginExtractEntries
+089 000000CC SECT9  notype       Static       | $pdata$5$ginExtractEntries
+08A 00000140 SECT8  notype       Static       | $chain$6$ginExtractEntries
+08B 000000D8 SECT9  notype       Static       | $pdata$6$ginExtractEntries
+08C 00000150 SECT8  notype       Static       | $chain$7$ginExtractEntries
+08D 000000E4 SECT9  notype       Static       | $pdata$7$ginExtractEntries
+08E 00000160 SECT8  notype       Static       | $unwind$gintuple_get_key
+08F 000000F0 SECT9  notype       Static       | $pdata$gintuple_get_key
+090 00000170 SECT8  notype       Static       | $unwind$ginhandler
+091 000000FC SECT9  notype       Static       | $pdata$ginhandler
+092 00000178 SECT8  notype       Static       | $unwind$cmpEntries
+093 00000108 SECT9  notype       Static       | $pdata$cmpEntries
+094 00000000 UNDEF  notype       External     | CurrentMemoryContext
+095 00000000 UNDEF  notype       External     | newNodeMacroHolder
+096 00000000 UNDEF  notype       External     | BufferBlocks
+097 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+098 00000000 UNDEF  notype       External     | CritSectionCount
+099 00000000 SECTA  notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 7C40F347, selection    2 (pick any)
+09B 00000000 SECTA  notype       External     | ??_C@_0N@IMMLEKDK@initGinState?$AA@ (`string')
+09C 00000000 SECTB  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 48D2EA4D, selection    2 (pick any)
+09E 00000000 SECTB  notype       External     | ??_C@_0CB@MNFBCPDP@src?1backend?1access?1gin?1ginutil?4c@ (`string')
+09F 00000000 SECTC  notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum FA3430DE, selection    2 (pick any)
+0A1 00000000 SECTC  notype       External     | ??_C@_0DF@BMGELICP@could?5not?5identify?5a?5comparison?5@ (`string')
+0A2 00000000 SECTD  notype       Static       | .rdata
+    Section length   47, #relocs    0, #linenums    0, checksum 8CAD19C5, selection    2 (pick any)
+0A4 00000000 SECTD  notype       External     | ??_C@_0EH@LOHKPAFF@missing?5GIN?5support?5function?5?$CI?$CFd@ (`string')
+0A5 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x992 bytes
+
+  Summary
+
+        6C6C .debug$S
+          68 .debug$T
+          5D .drectve
+         114 .pdata
+          EC .rdata
+        1077 .text$mn
+         180 .xdata

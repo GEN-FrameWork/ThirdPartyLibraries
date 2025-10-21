@@ -1,0 +1,121 @@
+
+Dump of file Release\postgres/array_expanded.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4854, #relocs   86, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  65B, #relocs   25, #linenums    0, checksum E465DF2F
+00A 00000360 SECT4  notype ()    Static       | EA_get_flat_size
+00B 00000560 SECT4  notype ()    Static       | EA_flatten_into
+00C 00000000 SECT5  notype       Static       | .rdata
+    Section length   10, #relocs    2, #linenums    0, checksum        0
+00E 00000000 SECT5  notype       Static       | EA_methods
+00F 00000000 SECT6  notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum E389AE3B, selection    2 (pick any)
+011 00000000 SECT6  notype       External     | ??_C@_0BB@NFJJKAHJ@EA_get_flat_size?$AA@ (`string')
+012 00000000 SECT7  notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 4C69705D, selection    2 (pick any)
+014 00000000 SECT7  notype       External     | ??_C@_0CH@DDGEHLIC@src?1backend?1utils?1adt?1array_expa@ (`string')
+015 00000000 SECT8  notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum 9ED1ED3A, selection    2 (pick any)
+017 00000000 SECT8  notype       External     | ??_C@_0CM@OCAKHENJ@array?5size?5exceeds?5the?5maximum?5a@ (`string')
+018 00000000 SECT9  notype       Static       | .text$mn
+    Section length  11A, #relocs    7, #linenums    0, checksum 776836F1, selection    1 (pick no duplicates)
+01A 00000000 SECTA  notype       Static       | .debug$S
+    Section length  218, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+01C 00000000 UNDEF  notype ()    External     | errstart
+01D 00000000 UNDEF  notype ()    External     | errfinish
+01E 00000000 UNDEF  notype ()    External     | errcode
+01F 00000000 UNDEF  notype ()    External     | errmsg
+020 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+021 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+022 00000000 UNDEF  notype ()    External     | pg_detoast_datum_copy
+023 00000000 UNDEF  notype ()    External     | DatumGetEOHP
+024 00000000 UNDEF  notype ()    External     | EOH_init_header
+025 00000000 UNDEF  notype ()    External     | CopyArrayEls
+026 00000000 UNDEF  notype ()    External     | deconstruct_array
+027 00000000 SECT4  notype ()    External     | expand_array
+028 000001F0 SECT4  notype ()    External     | DatumGetExpandedArray
+029 00000220 SECT4  notype ()    External     | DatumGetExpandedArrayX
+02A 00000290 SECT4  notype ()    External     | DatumGetAnyArray
+02B 000002B0 SECT4  notype ()    External     | deconstruct_expanded_array
+02C 00000000 UNDEF  notype ()    External     | get_typlenbyvalalign
+02D 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+02E 00000000 SECT9  notype ()    Static       | copy_byval_expanded_array
+02F 00000000 UNDEF  notype ()    External     | memcpy
+030 00000000 UNDEF  notype ()    External     | memset
+031 00000000 SECT4  notype       Label        | $LN18
+032 000001F0 SECT4  notype       Label        | $LN6
+033 00000220 SECT4  notype       Label        | $LN6
+034 000002B0 SECT4  notype       Label        | $LN9
+035 00000000 SECTB  notype       Static       | .xdata
+    Section length  134, #relocs   24, #linenums    0, checksum F67B75A3
+037 00000000 SECTB  notype       Static       | $unwind$expand_array
+038 00000000 SECTC  notype       Static       | .pdata
+    Section length   D8, #relocs   36, #linenums    0, checksum 16C97422
+03A 00000000 SECTC  notype       Static       | $pdata$expand_array
+03B 00000010 SECTB  notype       Static       | $chain$0$expand_array
+03C 0000000C SECTC  notype       Static       | $pdata$0$expand_array
+03D 00000024 SECTB  notype       Static       | $chain$1$expand_array
+03E 00000018 SECTC  notype       Static       | $pdata$1$expand_array
+03F 00000038 SECTB  notype       Static       | $chain$2$expand_array
+040 00000024 SECTC  notype       Static       | $pdata$2$expand_array
+041 00000048 SECTB  notype       Static       | $chain$3$expand_array
+042 00000030 SECTC  notype       Static       | $pdata$3$expand_array
+043 00000058 SECTB  notype       Static       | $unwind$DatumGetExpandedArray
+044 0000003C SECTC  notype       Static       | $pdata$DatumGetExpandedArray
+045 00000060 SECTB  notype       Static       | $unwind$DatumGetExpandedArrayX
+046 00000048 SECTC  notype       Static       | $pdata$DatumGetExpandedArrayX
+047 00000068 SECTB  notype       Static       | $unwind$deconstruct_expanded_array
+048 00000054 SECTC  notype       Static       | $pdata$deconstruct_expanded_array
+049 00000070 SECTB  notype       Static       | $chain$0$deconstruct_expanded_array
+04A 00000060 SECTC  notype       Static       | $pdata$0$deconstruct_expanded_array
+04B 00000084 SECTB  notype       Static       | $chain$1$deconstruct_expanded_array
+04C 0000006C SECTC  notype       Static       | $pdata$1$deconstruct_expanded_array
+04D 00000094 SECTB  notype       Static       | $unwind$EA_get_flat_size
+04E 00000078 SECTC  notype       Static       | $pdata$EA_get_flat_size
+04F 0000009C SECTB  notype       Static       | $chain$0$EA_get_flat_size
+050 00000084 SECTC  notype       Static       | $pdata$0$EA_get_flat_size
+051 000000B0 SECTB  notype       Static       | $chain$5$EA_get_flat_size
+052 00000090 SECTC  notype       Static       | $pdata$5$EA_get_flat_size
+053 000000D4 SECTB  notype       Static       | $chain$6$EA_get_flat_size
+054 0000009C SECTC  notype       Static       | $pdata$6$EA_get_flat_size
+055 000000E8 SECTB  notype       Static       | $chain$7$EA_get_flat_size
+056 000000A8 SECTC  notype       Static       | $pdata$7$EA_get_flat_size
+057 000000F8 SECTB  notype       Static       | $chain$8$EA_get_flat_size
+058 000000B4 SECTC  notype       Static       | $pdata$8$EA_get_flat_size
+059 0000010C SECTB  notype       Static       | $chain$9$EA_get_flat_size
+05A 000000C0 SECTC  notype       Static       | $pdata$9$EA_get_flat_size
+05B 0000011C SECTB  notype       Static       | $unwind$EA_flatten_into
+05C 000000CC SECTC  notype       Static       | $pdata$EA_flatten_into
+05D 00000000 SECTD  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 4D92FE4F, selection    5 (pick associative Section 0x9)
+05F 00000000 SECTD  notype       Static       | $unwind$copy_byval_expanded_array
+060 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4B0C2657, selection    5 (pick associative Section 0x9)
+062 00000000 SECTE  notype       Static       | $pdata$copy_byval_expanded_array
+063 00000000 UNDEF  notype       External     | CurrentMemoryContext
+064 00000000 SECTF  notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum C0AE2415, selection    2 (pick any)
+066 00000000 SECTF  notype       External     | ??_C@_0P@OIICNIAN@expanded?5array?$AA@ (`string')
+
+String Table Size = 0x634 bytes
+
+  Summary
+
+        4A6C .debug$S
+          68 .debug$T
+          5D .drectve
+          E4 .pdata
+          83 .rdata
+         775 .text$mn
+         14C .xdata

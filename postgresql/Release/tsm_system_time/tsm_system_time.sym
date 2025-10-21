@@ -1,0 +1,112 @@
+
+Dump of file Release\tsm_system_time/tsm_system_time.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   9C, #relocs    0, #linenums    0, checksum 163AFFD1
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 57DC, #relocs   90, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   70, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum DAFFF829
+00A 00000000 SECT4  notype       Static       | ?Pg_magic_data@?1??Pg_magic_func@@9@9 (`Pg_magic_func'::`2'::Pg_magic_data)
+00B 0000001C SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_tsm_system_time_handler@@9@9 (`pg_finfo_tsm_system_time_handler'::`2'::my_finfo)
+00C 00000000 SECT5  notype       Static       | .text$mn
+    Section length  43B, #relocs   24, #linenums    0, checksum 1B627516
+00E 00000000 SECT6  notype       Static       | .text$mn
+    Section length   B9, #relocs    6, #linenums    0, checksum 359DA094, selection    1 (pick no duplicates)
+010 00000000 SECT7  notype       Static       | .debug$S
+    Section length  260, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+012 00000000 UNDEF  notype       External     | __imp_QueryPerformanceCounter
+013 00000000 UNDEF  notype       External     | __imp_QueryPerformanceFrequency
+014 00000000 UNDEF  notype       External     | __imp__dclass
+015 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+016 00000000 UNDEF  notype ()    External     | errstart
+017 00000000 UNDEF  notype ()    External     | errfinish
+018 00000000 UNDEF  notype ()    External     | errcode
+019 00000000 UNDEF  notype ()    External     | errmsg
+01A 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+01B 00000000 UNDEF  notype ()    External     | palloc0
+01C 00000000 UNDEF  notype ()    External     | lcons_oid
+01D 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+01E 00000000 UNDEF  notype ()    External     | estimate_expression_value
+01F 00000000 UNDEF  notype ()    External     | clamp_row_est
+020 00000000 UNDEF  notype ()    External     | sampler_random_init_state
+021 00000000 UNDEF  notype ()    External     | sampler_random_fract
+022 00000000 UNDEF  notype ()    External     | get_tablespace_page_costs
+023 00000000 SECT5  notype ()    External     | Pg_magic_func
+024 00000010 SECT5  notype ()    External     | tsm_system_time_handler
+025 000000B0 SECT5  notype ()    External     | pg_finfo_tsm_system_time_handler
+026 000000C0 SECT5  notype ()    Static       | system_time_samplescangetsamplesize
+027 000001D0 SECT5  notype ()    Static       | system_time_initsamplescan
+028 00000200 SECT5  notype ()    Static       | system_time_beginsamplescan
+029 000002D0 SECT5  notype ()    Static       | system_time_nextsampleblock
+02A 00000410 SECT5  notype ()    Static       | system_time_nextsampletuple
+02B 00000000 SECT6  notype ()    Static       | random_relative_prime
+02C 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+02D 00000000 UNDEF  notype ()    External     | __security_check_cookie
+02E 00000010 SECT5  notype       Label        | $LN4
+02F 00000000 SECT8  notype       Static       | .xdata
+    Section length   94, #relocs    D, #linenums    0, checksum 9A8BE84A
+031 00000000 SECT8  notype       Static       | $unwind$tsm_system_time_handler
+032 00000000 SECT9  notype       Static       | .pdata
+    Section length   6C, #relocs   1B, #linenums    0, checksum E7F0CF26
+034 00000000 SECT9  notype       Static       | $pdata$tsm_system_time_handler
+035 00000008 SECT8  notype       Static       | $unwind$system_time_samplescangetsamplesize
+036 0000000C SECT9  notype       Static       | $pdata$system_time_samplescangetsamplesize
+037 0000001C SECT8  notype       Static       | $unwind$system_time_initsamplescan
+038 00000018 SECT9  notype       Static       | $pdata$system_time_initsamplescan
+039 00000024 SECT8  notype       Static       | $unwind$system_time_beginsamplescan
+03A 00000024 SECT9  notype       Static       | $pdata$system_time_beginsamplescan
+03B 00000038 SECT8  notype       Static       | $chain$0$system_time_beginsamplescan
+03C 00000030 SECT9  notype       Static       | $pdata$0$system_time_beginsamplescan
+03D 0000004C SECT8  notype       Static       | $chain$1$system_time_beginsamplescan
+03E 0000003C SECT9  notype       Static       | $pdata$1$system_time_beginsamplescan
+03F 0000005C SECT8  notype       Static       | $unwind$system_time_nextsampleblock
+040 00000048 SECT9  notype       Static       | $pdata$system_time_nextsampleblock
+041 00000070 SECT8  notype       Static       | $chain$0$system_time_nextsampleblock
+042 00000054 SECT9  notype       Static       | $pdata$0$system_time_nextsampleblock
+043 00000084 SECT8  notype       Static       | $chain$1$system_time_nextsampleblock
+044 00000060 SECT9  notype       Static       | $pdata$1$system_time_nextsampleblock
+045 00000000 SECTA  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum E402661B, selection    5 (pick associative Section 0x6)
+047 00000000 SECTA  notype       Static       | $unwind$random_relative_prime
+048 00000000 SECTB  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C9B9CD8C, selection    5 (pick associative Section 0x6)
+04A 00000000 SECTB  notype       Static       | $pdata$random_relative_prime
+04B 00000000 UNDEF  notype       External     | __imp_pg_signal_queue
+04C 00000000 UNDEF  notype       External     | __imp_pg_signal_mask
+04D 00000000 UNDEF  notype       External     | __imp_CurrentMemoryContext
+04E 00000000 UNDEF  notype       External     | __imp_newNodeMacroHolder
+04F 00000000 UNDEF  notype       External     | __imp_InterruptPending
+050 00000000 SECTC  notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 3F9FC4FD, selection    2 (pick any)
+052 00000000 SECTC  notype       External     | ??_C@_0BM@EABAEMOL@system_time_beginsamplescan?$AA@ (`string')
+053 00000000 SECTD  notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum AE357742, selection    2 (pick any)
+055 00000000 SECTD  notype       External     | ??_C@_0CK@LFKFKAEG@contrib?1tsm_system_time?1tsm_syst@ (`string')
+056 00000000 SECTE  notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum 2E68ACD7, selection    2 (pick any)
+058 00000000 SECTE  notype       External     | ??_C@_0CM@FCLDDFDE@sample?5collection?5time?5must?5not?5@ (`string')
+059 00000000 SECTF  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum BA5D48D4, selection    2 (pick any)
+05B 00000000 SECTF  notype       External     | __real@408f400000000000
+05C 00000000 UNDEF  notype       External     | __security_cookie
+05D 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x6A9 bytes
+
+  Summary
+
+        5A3C .debug$S
+          70 .debug$T
+          9C .drectve
+          78 .pdata
+          9A .rdata
+         4F4 .text$mn
+          A4 .xdata

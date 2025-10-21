@@ -1,0 +1,113 @@
+
+Dump of file Release\postgres/copydir.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4714, #relocs   66, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  76D, #relocs   88, #linenums    0, checksum 76D3C5E3
+00A 00000000 UNDEF  notype       External     | __imp__errno
+00B 00000000 UNDEF  notype       External     | __imp_mkdir
+00C 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+00D 00000000 UNDEF  notype ()    External     | pg_snprintf
+00E 00000000 UNDEF  notype       External     | __imp_read
+00F 00000000 UNDEF  notype       External     | __imp_write
+010 00000000 UNDEF  notype ()    External     | pgwin32_safestat
+011 00000000 UNDEF  notype ()    External     | errstart
+012 00000000 UNDEF  notype ()    External     | errfinish
+013 00000000 UNDEF  notype ()    External     | errcode_for_file_access
+014 00000000 UNDEF  notype ()    External     | errmsg
+015 00000000 UNDEF  notype ()    External     | palloc
+016 00000000 UNDEF  notype ()    External     | pfree
+017 00000000 SECT4  notype ()    External     | copydir
+018 00000420 SECT4  notype ()    External     | copy_file
+019 00000000 UNDEF  notype ()    External     | AllocateDir
+01A 00000000 UNDEF  notype ()    External     | ReadDir
+01B 00000000 UNDEF  notype ()    External     | FreeDir
+01C 00000000 UNDEF  notype ()    External     | OpenTransientFile
+01D 00000000 UNDEF  notype ()    External     | CloseTransientFile
+01E 00000000 UNDEF  notype ()    External     | pg_flush_data
+01F 00000000 UNDEF  notype ()    External     | fsync_fname
+020 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+021 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+022 00000000 UNDEF  notype ()    External     | __chkstk
+023 00000000 UNDEF  notype ()    External     | __security_check_cookie
+024 00000000 SECT4  notype       Label        | $LN75
+025 00000420 SECT4  notype       Label        | $LN75
+026 00000000 SECT5  notype       Static       | .xdata
+    Section length   38, #relocs    1, #linenums    0, checksum 82833C4B
+028 00000000 SECT5  notype       Static       | $unwind$copydir
+029 00000000 SECT6  notype       Static       | .pdata
+    Section length   18, #relocs    6, #linenums    0, checksum 1687B062
+02B 00000000 SECT6  notype       Static       | $pdata$copydir
+02C 0000001C SECT5  notype       Static       | $unwind$copy_file
+02D 0000000C SECT6  notype       Static       | $pdata$copy_file
+02E 00000000 UNDEF  notype       External     | pg_signal_queue
+02F 00000000 UNDEF  notype       External     | pg_signal_mask
+030 00000000 UNDEF  notype       External     | InterruptPending
+031 00000000 UNDEF  notype       External     | enableFsync
+032 00000000 UNDEF  notype       External     | MyProc
+033 00000000 UNDEF  notype       External     | pgstat_track_activities
+034 00000000 SECT7  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 32319FA4, selection    2 (pick any)
+036 00000000 SECT7  notype       External     | ??_C@_07KIOMLPDC@copydir?$AA@ (`string')
+037 00000000 SECT8  notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 3DD75BFE, selection    2 (pick any)
+039 00000000 SECT8  notype       External     | ??_C@_0CD@MLNAPDDG@src?1backend?1storage?1file?1copydir@ (`string')
+03A 00000000 SECT9  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 947C1ED4, selection    2 (pick any)
+03C 00000000 SECT9  notype       External     | ??_C@_0CE@BDFFDPO@could?5not?5create?5directory?5?$CC?$CFs?$CC?3@ (`string')
+03D 00000000 SECTA  notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum DF65D840, selection    2 (pick any)
+03F 00000000 SECTA  notype       External     | ??_C@_0CC@GBOLELJF@could?5not?5open?5directory?5?$CC?$CFs?$CC?3?5?$CF@ (`string')
+040 00000000 SECTB  notype       Static       | .rdata
+    Section length    2, #relocs    0, #linenums    0, checksum  B07092C, selection    2 (pick any)
+042 00000000 SECTB  notype       External     | ??_C@_01LFCBOECM@?4?$AA@ (`string')
+043 00000000 SECTC  notype       Static       | .rdata
+    Section length    3, #relocs    0, #linenums    0, checksum 39D462C6, selection    2 (pick any)
+045 00000000 SECTC  notype       External     | ??_C@_02DJGKEECL@?4?4?$AA@ (`string')
+046 00000000 SECTD  notype       Static       | .rdata
+    Section length    6, #relocs    0, #linenums    0, checksum 2BD61FCC, selection    2 (pick any)
+048 00000000 SECTD  notype       External     | ??_C@_05GFOLEBJA@?$CFs?1?$CFs?$AA@ (`string')
+049 00000000 SECTE  notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 89BC3D26, selection    2 (pick any)
+04B 00000000 SECTE  notype       External     | ??_C@_0BN@HNBHAHPP@could?5not?5stat?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+04C 00000000 SECTF  notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum 9869D88E, selection    2 (pick any)
+04E 00000000 SECTF  notype       External     | ??_C@_09IEBMEPAH@copy_file?$AA@ (`string')
+04F 00000000 SECT10 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 10036230, selection    2 (pick any)
+051 00000000 SECT10 notype       External     | ??_C@_0BN@OEKIFIOJ@could?5not?5open?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+052 00000000 SECT11 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 290C78ED, selection    2 (pick any)
+054 00000000 SECT11 notype       External     | ??_C@_0BP@LPPKCLKC@could?5not?5create?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+055 00000000 SECT12 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 79886919, selection    2 (pick any)
+057 00000000 SECT12 notype       External     | ??_C@_0BN@INCDFDMA@could?5not?5read?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+058 00000000 SECT13 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 784F9D32, selection    2 (pick any)
+05A 00000000 SECT13 notype       External     | ??_C@_0CB@PNMMFIEA@could?5not?5write?5to?5file?5?$CC?$CFs?$CC?3?5?$CFm@ (`string')
+05B 00000000 SECT14 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum F69B45D1, selection    2 (pick any)
+05D 00000000 SECT14 notype       External     | ??_C@_0BO@JGAIEJL@could?5not?5close?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+05E 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x4CF bytes
+
+  Summary
+
+        4714 .debug$S
+          68 .debug$T
+          5D .drectve
+          18 .pdata
+         13B .rdata
+         76D .text$mn
+          38 .xdata

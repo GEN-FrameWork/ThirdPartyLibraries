@@ -1,0 +1,78 @@
+
+Dump of file Release\postgres/geqo_eval.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4410, #relocs   66, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  2E6, #relocs   16, #linenums    0, checksum FA20AAD3
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  160, #relocs    A, #linenums    0, checksum A28F6339, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  4A8, #relocs   32, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | palloc
+00F 00000000 UNDEF  notype ()    External     | pfree
+010 00000000 UNDEF  notype ()    External     | lappend
+011 00000000 UNDEF  notype ()    External     | lappend_cell
+012 00000000 UNDEF  notype ()    External     | lcons
+013 00000000 UNDEF  notype ()    External     | list_truncate
+014 00000000 UNDEF  notype ()    External     | list_nth
+015 00000000 UNDEF  notype ()    External     | list_delete_cell
+016 00000000 SECT4  notype ()    External     | geqo_eval
+017 00000100 SECT4  notype ()    External     | gimme_tree
+018 00000000 UNDEF  notype ()    External     | have_relevant_joinclause
+019 00000000 UNDEF  notype ()    External     | set_cheapest
+01A 00000000 UNDEF  notype ()    External     | generate_gather_paths
+01B 00000000 UNDEF  notype ()    External     | make_join_rel
+01C 00000000 UNDEF  notype ()    External     | have_join_order_restriction
+01D 00000000 UNDEF  notype ()    External     | MemoryContextDelete
+01E 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+01F 00000000 SECT5  notype ()    Static       | merge_clump
+020 00000000 SECT4  notype       Label        | $LN14
+021 00000100 SECT4  notype       Label        | $LN77
+022 00000000 SECT7  notype       Static       | .xdata
+    Section length   5C, #relocs    6, #linenums    0, checksum 11622C46
+024 00000000 SECT7  notype       Static       | $unwind$geqo_eval
+025 00000000 SECT8  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum AF2AF1F5
+027 00000000 SECT8  notype       Static       | $pdata$geqo_eval
+028 00000020 SECT7  notype       Static       | $unwind$gimme_tree
+029 0000000C SECT8  notype       Static       | $pdata$gimme_tree
+02A 00000038 SECT7  notype       Static       | $chain$0$gimme_tree
+02B 00000018 SECT8  notype       Static       | $pdata$0$gimme_tree
+02C 0000004C SECT7  notype       Static       | $chain$1$gimme_tree
+02D 00000024 SECT8  notype       Static       | $pdata$1$gimme_tree
+02E 00000000 SECT9  notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 2A62C272, selection    5 (pick associative Section 0x5)
+030 00000000 SECT9  notype       Static       | $unwind$merge_clump
+031 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 769CAB0F, selection    5 (pick associative Section 0x5)
+033 00000000 SECTA  notype       Static       | $pdata$merge_clump
+034 00000000 UNDEF  notype       External     | CurrentMemoryContext
+035 00000000 SECTB  notype       Static       | .rdata
+    Section length    5, #relocs    0, #linenums    0, checksum 5C863B1B, selection    2 (pick any)
+037 00000000 SECTB  notype       External     | ??_C@_04GFFLDDPJ@GEQO?$AA@ (`string')
+038 00000000 SECTC  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum E31C9104, selection    2 (pick any)
+03A 00000000 SECTC  notype       External     | __real@7fefffffffffffff
+03B 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x1E8 bytes
+
+  Summary
+
+        48B8 .debug$S
+          68 .debug$T
+          5D .drectve
+          3C .pdata
+           D .rdata
+         446 .text$mn
+          78 .xdata

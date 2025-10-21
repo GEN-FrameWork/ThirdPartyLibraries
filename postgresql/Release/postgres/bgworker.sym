@@ -1,0 +1,318 @@
+
+Dump of file Release\postgres/bgworker.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 68A8, #relocs  14A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length   30, #relocs    6, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       Static       | InternalBGWorkers
+00B 00000000 SECT5  notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum CC4DE482, selection    2 (pick any)
+00D 00000000 SECT5  notype       External     | ??_C@_0BD@OJLKNCBC@ParallelWorkerMain?$AA@ (`string')
+00E 00000000 SECT6  notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 1F61AA53, selection    2 (pick any)
+010 00000000 SECT6  notype       External     | ??_C@_0BC@IHIFJKOB@ApplyLauncherMain?$AA@ (`string')
+011 00000000 SECT7  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 63D76336, selection    2 (pick any)
+013 00000000 SECT7  notype       External     | ??_C@_0BA@HAJDNHJM@ApplyWorkerMain?$AA@ (`string')
+014 00000000 SECT8  notype       Static       | .bss
+    Section length  174, #relocs    0, #linenums    0, checksum        0
+016 00000000 SECT8  notype       External     | BackgroundWorkerList
+017 00000000 UNDEF  notype ()    External     | ParallelWorkerMain
+018 00000000 UNDEF  notype ()    External     | ApplyLauncherMain
+019 00000000 UNDEF  notype ()    External     | ApplyWorkerMain
+01A 00000000 SECT9  notype       Static       | .text$mn
+    Section length 13AC, #relocs   F1, #linenums    0, checksum 8BE6BD9E
+01C 00000000 SECTA  notype       Static       | .text$mn
+    Section length   C1, #relocs    9, #linenums    0, checksum CD533457, selection    1 (pick no duplicates)
+01E 00000000 SECTB  notype       Static       | .debug$S
+    Section length  1BC, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0xA)
+020 00000000 SECTC  notype       Static       | .text$mn
+    Section length  137, #relocs   13, #linenums    0, checksum CA20A24A, selection    1 (pick no duplicates)
+022 00000000 SECTD  notype       Static       | .debug$S
+    Section length  1F0, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0xC)
+024 00000000 UNDEF  notype       External     | __imp_free
+025 00000000 UNDEF  notype       External     | __imp_malloc
+026 00000000 UNDEF  notype       External     | __imp__errno
+027 00000000 UNDEF  notype       External     | __imp__exit
+028 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+029 00000000 UNDEF  notype ()    External     | pg_usleep
+02A 00000000 UNDEF  notype ()    External     | pg_snprintf
+02B 00000000 UNDEF  notype ()    External     | pgkill
+02C 00000000 UNDEF  notype ()    External     | pqsignal
+02D 00000000 UNDEF  notype ()    External     | errstart
+02E 00000000 UNDEF  notype ()    External     | errfinish
+02F 00000000 UNDEF  notype ()    External     | errcode
+030 00000000 UNDEF  notype ()    External     | errmsg
+031 00000000 UNDEF  notype ()    External     | errdetail_plural
+032 00000000 UNDEF  notype ()    External     | errhint
+033 00000000 UNDEF  notype ()    External     | elog_start
+034 00000000 UNDEF  notype ()    External     | elog_finish
+035 00000000 UNDEF  notype ()    External     | EmitErrorReport
+036 00000000 UNDEF  notype ()    External     | palloc
+037 00000000 UNDEF  notype ()    External     | pqsigsetmask
+038 00000000 SECT9  notype ()    External     | RegisterBackgroundWorker
+039 00000300 SECT9  notype ()    External     | RegisterDynamicBackgroundWorker
+03A 000004E0 SECT9  notype ()    External     | GetBackgroundWorkerPid
+03B 000005A0 SECT9  notype ()    External     | WaitForBackgroundWorkerStartup
+03C 000006C0 SECT9  notype ()    External     | WaitForBackgroundWorkerShutdown
+03D 000007B0 SECT9  notype ()    External     | TerminateBackgroundWorker
+03E 00000000 UNDEF  notype ()    External     | dsm_detach_all
+03F 00000000 UNDEF  notype ()    External     | ResetLatch
+040 00000000 UNDEF  notype ()    External     | WaitLatch
+041 00000000 UNDEF  notype ()    External     | LWLockAcquire
+042 00000000 UNDEF  notype ()    External     | LWLockRelease
+043 00000000 UNDEF  notype ()    External     | ShmemInitStruct
+044 00000000 UNDEF  notype ()    External     | add_size
+045 00000000 UNDEF  notype ()    External     | mul_size
+046 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+047 00000000 UNDEF  notype ()    External     | BaseInit
+048 00000000 UNDEF  notype ()    External     | load_external_function
+049 00000840 SECT9  notype ()    External     | BackgroundWorkerShmemSize
+04A 00000870 SECT9  notype ()    External     | BackgroundWorkerShmemInit
+04B 00000A10 SECT9  notype ()    External     | BackgroundWorkerStateChange
+04C 00000D90 SECT9  notype ()    External     | ForgetBackgroundWorker
+04D 00000E40 SECT9  notype ()    External     | ReportBackgroundWorkerPID
+04E 00000E80 SECT9  notype ()    External     | ReportBackgroundWorkerExit
+04F 00000EE0 SECT9  notype ()    External     | BackgroundWorkerStopNotifications
+050 00000F10 SECT9  notype ()    External     | ResetBackgroundWorkerCrashTimes
+051 00001020 SECT9  notype ()    External     | StartBackgroundWorker
+052 00001230 SECT9  notype ()    External     | BackgroundWorkerEntry
+053 00000000 UNDEF  notype ()    External     | PostmasterMarkPIDForWorkerNotify
+054 00000000 UNDEF  notype ()    External     | proc_exit
+055 00000000 UNDEF  notype ()    External     | PGSharedMemoryDetach
+056 00000000 UNDEF  notype ()    External     | SendPostmasterSignal
+057 00000000 UNDEF  notype ()    External     | procsignal_sigusr1_handler
+058 00000000 UNDEF  notype ()    External     | StatementCancelHandler
+059 00000000 UNDEF  notype ()    External     | FloatExceptionHandler
+05A 00000000 UNDEF  notype ()    External     | ascii_safe_strlcpy
+05B 00000000 UNDEF  notype ()    External     | init_ps_display
+05C 00000000 UNDEF  notype ()    External     | InitializeTimeouts
+05D 00000000 SECTA  notype ()    Static       | LookupBackgroundWorkerFunction
+05E 00000000 SECTC  notype ()    Static       | SanityCheckBackgroundWorker
+05F 000012F0 SECT9  notype ()    Static       | bgworker_quickdie
+060 00001310 SECT9  notype ()    Static       | bgworker_die
+061 00001390 SECT9  notype ()    Static       | bgworker_sigusr1_handler
+062 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+063 00000000 UNDEF  notype ()    External     | __security_check_cookie
+064 00000000 UNDEF  notype ()    External     | _setjmp
+065 00000000 UNDEF  notype ()    External     | strcmp
+066 00000000 SECT9  notype       Label        | $LN44
+067 00000300 SECT9  notype       Label        | $LN22
+068 000004E0 SECT9  notype       Label        | $LN10
+069 000005A0 SECT9  notype       Label        | $LN32
+06A 000006C0 SECT9  notype       Label        | $LN30
+06B 000007B0 SECT9  notype       Label        | $LN6
+06C 00000840 SECT9  notype       Label        | $LN4
+06D 00000870 SECT9  notype       Label        | $LN22
+06E 00000A10 SECT9  notype       Label        | $LN63
+06F 00000D90 SECT9  notype       Label        | $LN12
+070 00000E80 SECT9  notype       Label        | $LN7
+071 00000F10 SECT9  notype       Label        | $LN30
+072 00001020 SECT9  notype       Label        | $LN19
+073 00001300 SECT9  notype       Label        | $LN3
+074 00000000 SECTE  notype       Static       | .xdata
+    Section length  1B0, #relocs   25, #linenums    0, checksum 20A61D98
+076 00000000 SECTE  notype       Static       | $unwind$RegisterBackgroundWorker
+077 00000000 SECTF  notype       Static       | .pdata
+    Section length  150, #relocs   54, #linenums    0, checksum 9B56676F
+079 00000000 SECTF  notype       Static       | $pdata$RegisterBackgroundWorker
+07A 0000000C SECTE  notype       Static       | $chain$0$RegisterBackgroundWorker
+07B 0000000C SECTF  notype       Static       | $pdata$0$RegisterBackgroundWorker
+07C 00000020 SECTE  notype       Static       | $chain$1$RegisterBackgroundWorker
+07D 00000018 SECTF  notype       Static       | $pdata$1$RegisterBackgroundWorker
+07E 00000030 SECTE  notype       Static       | $unwind$RegisterDynamicBackgroundWorker
+07F 00000024 SECTF  notype       Static       | $pdata$RegisterDynamicBackgroundWorker
+080 00000044 SECTE  notype       Static       | $chain$1$RegisterDynamicBackgroundWorker
+081 00000030 SECTF  notype       Static       | $pdata$1$RegisterDynamicBackgroundWorker
+082 00000058 SECTE  notype       Static       | $chain$2$RegisterDynamicBackgroundWorker
+083 0000003C SECTF  notype       Static       | $pdata$2$RegisterDynamicBackgroundWorker
+084 00000068 SECTE  notype       Static       | $unwind$GetBackgroundWorkerPid
+085 00000048 SECTF  notype       Static       | $pdata$GetBackgroundWorkerPid
+086 00000078 SECTE  notype       Static       | $unwind$WaitForBackgroundWorkerStartup
+087 00000054 SECTF  notype       Static       | $pdata$WaitForBackgroundWorkerStartup
+088 00000088 SECTE  notype       Static       | $unwind$WaitForBackgroundWorkerShutdown
+089 00000060 SECTF  notype       Static       | $pdata$WaitForBackgroundWorkerShutdown
+08A 00000094 SECTE  notype       Static       | $unwind$TerminateBackgroundWorker
+08B 0000006C SECTF  notype       Static       | $pdata$TerminateBackgroundWorker
+08C 000000A4 SECTE  notype       Static       | $unwind$BackgroundWorkerShmemSize
+08D 00000078 SECTF  notype       Static       | $pdata$BackgroundWorkerShmemSize
+08E 000000AC SECTE  notype       Static       | $unwind$BackgroundWorkerShmemInit
+08F 00000084 SECTF  notype       Static       | $pdata$BackgroundWorkerShmemInit
+090 000000B4 SECTE  notype       Static       | $chain$0$BackgroundWorkerShmemInit
+091 00000090 SECTF  notype       Static       | $pdata$0$BackgroundWorkerShmemInit
+092 000000C8 SECTE  notype       Static       | $chain$1$BackgroundWorkerShmemInit
+093 0000009C SECTF  notype       Static       | $pdata$1$BackgroundWorkerShmemInit
+094 000000D8 SECTE  notype       Static       | $unwind$BackgroundWorkerStateChange
+095 000000A8 SECTF  notype       Static       | $pdata$BackgroundWorkerStateChange
+096 000000E8 SECTE  notype       Static       | $chain$4$BackgroundWorkerStateChange
+097 000000B4 SECTF  notype       Static       | $pdata$4$BackgroundWorkerStateChange
+098 00000104 SECTE  notype       Static       | $chain$5$BackgroundWorkerStateChange
+099 000000C0 SECTF  notype       Static       | $pdata$5$BackgroundWorkerStateChange
+09A 00000114 SECTE  notype       Static       | $unwind$ForgetBackgroundWorker
+09B 000000CC SECTF  notype       Static       | $pdata$ForgetBackgroundWorker
+09C 00000120 SECTE  notype       Static       | $unwind$ReportBackgroundWorkerExit
+09D 000000D8 SECTF  notype       Static       | $pdata$ReportBackgroundWorkerExit
+09E 00000128 SECTE  notype       Static       | $unwind$ResetBackgroundWorkerCrashTimes
+09F 000000E4 SECTF  notype       Static       | $pdata$ResetBackgroundWorkerCrashTimes
+0A0 00000134 SECTE  notype       Static       | $chain$2$ResetBackgroundWorkerCrashTimes
+0A1 000000F0 SECTF  notype       Static       | $pdata$2$ResetBackgroundWorkerCrashTimes
+0A2 00000150 SECTE  notype       Static       | $chain$3$ResetBackgroundWorkerCrashTimes
+0A3 000000FC SECTF  notype       Static       | $pdata$3$ResetBackgroundWorkerCrashTimes
+0A4 00000160 SECTE  notype       Static       | $unwind$StartBackgroundWorker
+0A5 00000108 SECTF  notype       Static       | $pdata$StartBackgroundWorker
+0A6 00000000 SECT10 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0xA)
+0A8 00000000 SECT10 notype       Static       | $unwind$LookupBackgroundWorkerFunction
+0A9 00000000 SECT11 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B60C47A9, selection    5 (pick associative Section 0xA)
+0AB 00000000 SECT11 notype       Static       | $pdata$LookupBackgroundWorkerFunction
+0AC 00000000 SECT12 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum BC0E6383, selection    5 (pick associative Section 0xC)
+0AE 00000000 SECT12 notype       Static       | $unwind$SanityCheckBackgroundWorker
+0AF 00000000 SECT13 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 297F51D0, selection    5 (pick associative Section 0xC)
+0B1 00000000 SECT13 notype       Static       | $pdata$SanityCheckBackgroundWorker
+0B2 00000174 SECTE  notype       Static       | $unwind$bgworker_quickdie
+0B3 00000114 SECTF  notype       Static       | $pdata$bgworker_quickdie
+0B4 0000017C SECTE  notype       Static       | $unwind$bgworker_die
+0B5 00000120 SECTF  notype       Static       | $pdata$bgworker_die
+0B6 00000184 SECTE  notype       Static       | $chain$0$bgworker_die
+0B7 0000012C SECTF  notype       Static       | $pdata$0$bgworker_die
+0B8 00000198 SECTE  notype       Static       | $chain$1$bgworker_die
+0B9 00000138 SECTF  notype       Static       | $pdata$1$bgworker_die
+0BA 000001A8 SECTE  notype       Static       | $unwind$bgworker_sigusr1_handler
+0BB 00000144 SECTF  notype       Static       | $pdata$bgworker_sigusr1_handler
+0BC 00000000 UNDEF  notype       External     | pg_signal_queue
+0BD 00000000 UNDEF  notype       External     | pg_signal_mask
+0BE 00000000 UNDEF  notype       External     | error_context_stack
+0BF 00000000 UNDEF  notype       External     | PG_exception_stack
+0C0 00000000 UNDEF  notype       External     | BlockSig
+0C1 00000000 UNDEF  notype       External     | MyBgworkerEntry
+0C2 00000000 UNDEF  notype       External     | MainLWLockArray
+0C3 00000000 UNDEF  notype       External     | InterruptPending
+0C4 00000000 UNDEF  notype       External     | InterruptHoldoffCount
+0C5 00000000 UNDEF  notype       External     | IsUnderPostmaster
+0C6 00000000 UNDEF  notype       External     | IsBackgroundWorker
+0C7 00000000 UNDEF  notype       External     | max_worker_processes
+0C8 00000000 UNDEF  notype       External     | max_parallel_workers
+0C9 00000000 UNDEF  notype       External     | MyLatch
+0CA 00000000 UNDEF  notype       External     | Mode
+0CB 00000000 UNDEF  notype       External     | process_shared_preload_libraries_in_progress
+0CC 00000000 UNDEF  notype       External     | PostAuthDelay
+0CD 00000008 SECT8  notype       Static       | BackgroundWorkerData
+0CE 00000000 SECT14 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 8E126944, selection    2 (pick any)
+0D0 00000000 SECT14 notype       External     | ??_C@_0BH@DENLCPP@Background?5Worker?5Data?$AA@ (`string')
+0D1 00000000 SECT15 notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 5B34012D, selection    2 (pick any)
+0D3 00000000 SECT15 notype       External     | ??_C@_0BM@CELLIJDL@BackgroundWorkerStateChange?$AA@ (`string')
+0D4 00000000 SECT16 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 799FDED4, selection    2 (pick any)
+0D6 00000000 SECT16 notype       External     | ??_C@_0CC@MHBBENAB@src?1backend?1postmaster?1bgworker?4@ (`string')
+0D7 00000000 SECT17 notype       Static       | .rdata
+    Section length   4E, #relocs    0, #linenums    0, checksum 78353926, selection    2 (pick any)
+0D9 00000000 SECT17 notype       External     | ??_C@_0EO@MHEBJGDD@inconsistent?5background?5worker?5s@ (`string')
+0DA 00000000 SECT18 notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 33969D75, selection    2 (pick any)
+0DC 00000000 SECT18 notype       External     | ??_C@_0O@BNNCBLEN@out?5of?5memory?$AA@ (`string')
+0DD 00000000 SECT19 notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum  3F9D132, selection    2 (pick any)
+0DF 00000000 SECT19 notype       External     | ??_C@_0CJ@JCILKOGH@worker?5notification?5PID?5?$CFlu?5is?5n@ (`string')
+0E0 00000000 SECT1A notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum C591D54B, selection    2 (pick any)
+0E2 00000000 SECT1A notype       External     | ??_C@_0CD@DDJGHNID@registering?5background?5worker?5?$CC?$CF@ (`string')
+0E3 00000000 SECT1B notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum E67C6917, selection    2 (pick any)
+0E5 00000000 SECT1B notype       External     | ??_C@_0BH@GLCDLCKM@ForgetBackgroundWorker?$AA@ (`string')
+0E6 00000000 SECT1C notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 4D820440, selection    2 (pick any)
+0E8 00000000 SECT1C notype       External     | ??_C@_0CF@JGKMIENL@unregistering?5background?5worker?5@ (`string')
+0E9 00000010 SECT8  notype       Static       | ?myEntry@?1??BackgroundWorkerEntry@@9@9 (`BackgroundWorkerEntry'::`2'::myEntry)
+0EA 00000000 SECT1D notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 92AEE367, selection    2 (pick any)
+0EC 00000000 SECT1D notype       External     | ??_C@_0BM@ONCBGLHB@SanityCheckBackgroundWorker?$AA@ (`string')
+0ED 00000000 SECT1E notype       Static       | .rdata
+    Section length   5F, #relocs    0, #linenums    0, checksum 3F7D1D75, selection    2 (pick any)
+0EF 00000000 SECT1E notype       External     | ??_C@_0FP@OLLLDJFI@background?5worker?5?$CC?$CFs?$CC?3?5must?5att@ (`string')
+0F0 00000000 SECT1F notype       Static       | .rdata
+    Section length   57, #relocs    0, #linenums    0, checksum  BC7DDB9, selection    2 (pick any)
+0F2 00000000 SECT1F notype       External     | ??_C@_0FH@GNEGHKDP@background?5worker?5?$CC?$CFs?$CC?3?5cannot?5r@ (`string')
+0F3 00000000 SECT20 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum B17844B0, selection    2 (pick any)
+0F5 00000000 SECT20 notype       External     | ??_C@_0DB@BMBCLLLK@background?5worker?5?$CC?$CFs?$CC?3?5invalid?5@ (`string')
+0F6 00000000 SECT21 notype       Static       | .rdata
+    Section length   4B, #relocs    0, #linenums    0, checksum 252CB1C1, selection    2 (pick any)
+0F8 00000000 SECT21 notype       External     | ??_C@_0EL@DIPBLJBC@background?5worker?5?$CC?$CFs?$CC?3?5parallel@ (`string')
+0F9 00000000 SECT22 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 58AB3D2A, selection    2 (pick any)
+0FB 00000000 SECT22 notype       External     | ??_C@_0N@KICAIEFH@bgworker_die?$AA@ (`string')
+0FC 00000000 SECT23 notype       Static       | .rdata
+    Section length   40, #relocs    0, #linenums    0, checksum 82F591A0, selection    2 (pick any)
+0FE 00000000 SECT23 notype       External     | ??_C@_0EA@IIHANGJ@terminating?5background?5worker?5?$CC?$CF@ (`string')
+0FF 00000000 SECT24 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum E194478D, selection    2 (pick any)
+101 00000000 SECT24 notype       External     | ??_C@_0BG@LGECAJJC@StartBackgroundWorker?$AA@ (`string')
+102 00000000 SECT25 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 30A09963, selection    2 (pick any)
+104 00000000 SECT25 notype       External     | ??_C@_0BO@MPFLFICJ@unable?5to?5find?5bgworker?5entry?$AA@ (`string')
+105 00000000 SECT26 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 7817CB0E, selection    2 (pick any)
+107 00000000 SECT26 notype       External     | ??_C@_0N@IIJMHCHD@bgworker?3?5?$CFs?$AA@ (`string')
+108 00000000 SECT27 notype       Static       | .rdata
+    Section length    1, #relocs    0, #linenums    0, checksum        0, selection    2 (pick any)
+10A 00000000 SECT27 notype       External     | ??_C@_00CNPNBAHC@?$AA@ (`string')
+10B 00000170 SECT8  notype       Static       | ?numworkers@?1??RegisterBackgroundWorker@@9@9 (`RegisterBackgroundWorker'::`2'::numworkers)
+10C 00000000 SECT28 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 90A76952, selection    2 (pick any)
+10E 00000000 SECT28 notype       External     | ??_C@_0BJ@IGJHJICC@RegisterBackgroundWorker?$AA@ (`string')
+10F 00000000 SECT29 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 14711417, selection    2 (pick any)
+111 00000000 SECT29 notype       External     | ??_C@_08NIHPPEG@postgres?$AA@ (`string')
+112 00000000 SECT2A notype       Static       | .rdata
+    Section length   47, #relocs    0, #linenums    0, checksum 55A8C0B4, selection    2 (pick any)
+114 00000000 SECT2A notype       External     | ??_C@_0EH@GHHPCJCE@background?5worker?5?$CC?$CFs?$CC?3?5must?5be?5@ (`string')
+115 00000000 SECT2B notype       Static       | .rdata
+    Section length   51, #relocs    0, #linenums    0, checksum 85F42DD8, selection    2 (pick any)
+117 00000000 SECT2B notype       External     | ??_C@_0FB@OBOOFJPP@background?5worker?5?$CC?$CFs?$CC?3?5only?5dyn@ (`string')
+118 00000000 SECT2C notype       Static       | .rdata
+    Section length   48, #relocs    0, #linenums    0, checksum 1D191B79, selection    2 (pick any)
+11A 00000000 SECT2C notype       External     | ??_C@_0EI@ONCEFPNE@Consider?5increasing?5the?5configur@ (`string')
+11B 00000000 SECT2D notype       Static       | .rdata
+    Section length   49, #relocs    0, #linenums    0, checksum 58D00B42, selection    2 (pick any)
+11D 00000000 SECT2D notype       External     | ??_C@_0EJ@PAEHOJFD@Up?5to?5?$CFd?5background?5workers?5can?5@ (`string')
+11E 00000000 SECT2E notype       Static       | .rdata
+    Section length   48, #relocs    0, #linenums    0, checksum  9F925E7, selection    2 (pick any)
+120 00000000 SECT2E notype       External     | ??_C@_0EI@PJMEGBEK@Up?5to?5?$CFd?5background?5worker?5can?5b@ (`string')
+121 00000000 SECT2F notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 262FFA18, selection    2 (pick any)
+123 00000000 SECT2F notype       External     | ??_C@_0BM@FJKAHCAO@too?5many?5background?5workers?$AA@ (`string')
+124 00000000 SECT30 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 54691029, selection    2 (pick any)
+126 00000000 SECT30 notype       External     | ??_C@_0BP@MCJPEDGG@LookupBackgroundWorkerFunction?$AA@ (`string')
+127 00000000 SECT31 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum A1104A5C, selection    2 (pick any)
+129 00000000 SECT31 notype       External     | ??_C@_0CB@CEJDIPCO@internal?5function?5?$CC?$CFs?$CC?5not?5found@ (`string')
+12A 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x1520 bytes
+
+  Summary
+
+         174 .bss
+        6C54 .debug$S
+          68 .debug$T
+          5D .drectve
+         168 .pdata
+         56A .rdata
+        15A4 .text$mn
+         1C4 .xdata

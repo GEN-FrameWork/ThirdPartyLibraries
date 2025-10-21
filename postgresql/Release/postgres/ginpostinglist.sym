@@ -1,0 +1,73 @@
+
+Dump of file Release\postgres/ginpostinglist.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4EC0, #relocs   EA, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  741, #relocs   10, #linenums    0, checksum A6384D1F
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   4A, #relocs    0, #linenums    0, checksum C9EEF0D8, selection    2 (pick any)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  160, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | palloc
+00F 00000000 UNDEF  notype ()    External     | repalloc
+010 00000000 UNDEF  notype ()    External     | pfree
+011 00000000 UNDEF  notype ()    External     | tbm_add_tuples
+012 00000000 SECT4  notype ()    External     | ginCompressPostingList
+013 000001D0 SECT4  notype ()    External     | ginPostingListDecodeAllSegmentsToTbm
+014 00000220 SECT4  notype ()    External     | ginPostingListDecodeAllSegments
+015 00000450 SECT4  notype ()    External     | ginPostingListDecode
+016 00000470 SECT4  notype ()    External     | ginMergeItemPointers
+017 00000000 SECT5  notype ()    Static       | ginCompareItemPointers
+018 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+019 00000000 UNDEF  notype ()    External     | __security_check_cookie
+01A 00000000 UNDEF  notype ()    External     | memcpy
+01B 00000000 SECT4  notype       Label        | $LN39
+01C 000001D0 SECT4  notype       Label        | $LN4
+01D 00000220 SECT4  notype       Label        | $LN32
+01E 00000470 SECT4  notype       Label        | $LN50
+01F 00000000 SECT7  notype       Static       | .xdata
+    Section length   CC, #relocs   13, #linenums    0, checksum BA35F2B4
+021 00000000 SECT7  notype       Static       | $unwind$ginCompressPostingList
+022 00000000 SECT8  notype       Static       | .pdata
+    Section length   78, #relocs   1E, #linenums    0, checksum 6C90BE68
+024 00000000 SECT8  notype       Static       | $pdata$ginCompressPostingList
+025 00000020 SECT7  notype       Static       | $unwind$ginPostingListDecodeAllSegmentsToTbm
+026 0000000C SECT8  notype       Static       | $pdata$ginPostingListDecodeAllSegmentsToTbm
+027 0000002C SECT7  notype       Static       | $unwind$ginPostingListDecodeAllSegments
+028 00000018 SECT8  notype       Static       | $pdata$ginPostingListDecodeAllSegments
+029 00000038 SECT7  notype       Static       | $chain$2$ginPostingListDecodeAllSegments
+02A 00000024 SECT8  notype       Static       | $pdata$2$ginPostingListDecodeAllSegments
+02B 00000054 SECT7  notype       Static       | $chain$5$ginPostingListDecodeAllSegments
+02C 00000030 SECT8  notype       Static       | $pdata$5$ginPostingListDecodeAllSegments
+02D 00000070 SECT7  notype       Static       | $chain$6$ginPostingListDecodeAllSegments
+02E 0000003C SECT8  notype       Static       | $pdata$6$ginPostingListDecodeAllSegments
+02F 00000080 SECT7  notype       Static       | $chain$7$ginPostingListDecodeAllSegments
+030 00000048 SECT8  notype       Static       | $pdata$7$ginPostingListDecodeAllSegments
+031 00000090 SECT7  notype       Static       | $unwind$ginMergeItemPointers
+032 00000054 SECT8  notype       Static       | $pdata$ginMergeItemPointers
+033 000000A8 SECT7  notype       Static       | $chain$0$ginMergeItemPointers
+034 00000060 SECT8  notype       Static       | $pdata$0$ginMergeItemPointers
+035 000000BC SECT7  notype       Static       | $chain$1$ginMergeItemPointers
+036 0000006C SECT8  notype       Static       | $pdata$1$ginMergeItemPointers
+037 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x3C9 bytes
+
+  Summary
+
+        5020 .debug$S
+          68 .debug$T
+          5D .drectve
+          78 .pdata
+         78B .text$mn
+          CC .xdata

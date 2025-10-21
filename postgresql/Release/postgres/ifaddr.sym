@@ -1,0 +1,72 @@
+
+Dump of file Release\postgres/ifaddr.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 3E14, #relocs   6A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  389, #relocs   10, #linenums    0, checksum D880F4D2
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   3D, #relocs    0, #linenums    0, checksum 9F2FBF26, selection    2 (pick any)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length   E4, #relocs    6, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   AA, #relocs    4, #linenums    0, checksum FEF7A014, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  2B0, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype       External     | __imp_free
+013 00000000 UNDEF  notype       External     | __imp_realloc
+014 00000000 UNDEF  notype       External     | __imp__errno
+015 00000000 UNDEF  notype       External     | __imp_strtol
+016 00000000 UNDEF  notype       External     | __imp_closesocket
+017 00000000 UNDEF  notype       External     | __imp_htonl
+018 00000000 UNDEF  notype       External     | __imp_WSAGetLastError
+019 00000000 UNDEF  notype       External     | __imp_WSAIoctl
+01A 00000000 UNDEF  notype       External     | __imp_WSASocketA
+01B 00000000 SECT5  notype ()    External     | IN6_IS_ADDR_UNSPECIFIED
+01C 00000000 SECT4  notype ()    External     | pg_range_sockaddr
+01D 00000070 SECT4  notype ()    External     | pg_sockaddr_cidr_mask
+01E 000001E0 SECT4  notype ()    External     | pg_foreach_ifaddr
+01F 00000000 SECT7  notype ()    Static       | run_ifaddr_callback
+020 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+021 00000000 UNDEF  notype ()    External     | __security_check_cookie
+022 00000070 SECT4  notype       Label        | $LN36
+023 000001E0 SECT4  notype       Label        | $LN29
+024 00000000 SECT9  notype       Static       | .xdata
+    Section length   54, #relocs    7, #linenums    0, checksum 348DA899
+026 00000000 SECT9  notype       Static       | $unwind$pg_sockaddr_cidr_mask
+027 00000000 SECTA  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum B3F3D9DD
+029 00000000 SECTA  notype       Static       | $pdata$pg_sockaddr_cidr_mask
+02A 00000018 SECT9  notype       Static       | $unwind$pg_foreach_ifaddr
+02B 0000000C SECTA  notype       Static       | $pdata$pg_foreach_ifaddr
+02C 0000002C SECT9  notype       Static       | $chain$1$pg_foreach_ifaddr
+02D 00000018 SECTA  notype       Static       | $pdata$1$pg_foreach_ifaddr
+02E 00000044 SECT9  notype       Static       | $chain$2$pg_foreach_ifaddr
+02F 00000024 SECTA  notype       Static       | $pdata$2$pg_foreach_ifaddr
+030 00000000 SECTB  notype       Static       | .xdata
+    Section length   18, #relocs    1, #linenums    0, checksum 519D772C, selection    5 (pick associative Section 0x7)
+032 00000000 SECTB  notype       Static       | $unwind$run_ifaddr_callback
+033 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3B8DFB44, selection    5 (pick associative Section 0x7)
+035 00000000 SECTC  notype       Static       | $pdata$run_ifaddr_callback
+036 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x23D bytes
+
+  Summary
+
+        41A8 .debug$S
+          68 .debug$T
+          5D .drectve
+          3C .pdata
+         470 .text$mn
+          6C .xdata

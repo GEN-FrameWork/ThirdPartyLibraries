@@ -1,0 +1,384 @@
+
+Dump of file Release\postgres/lwlock.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   C7, #relocs    0, #linenums    0, checksum E7BE35BE
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 7848, #relocs  1E0, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .bss
+    Section length  CB4, #relocs    0, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       External     | MainLWLockArray
+00B 00000008 SECT4  notype       External     | NamedLWLockTrancheArray
+00C 00000010 SECT4  notype       External     | NamedLWLockTrancheRequests
+00D 00000018 SECT4  notype       External     | NamedLWLockTrancheRequestArray
+00E 00000000 SECT5  notype       Static       | .text$mn
+    Section length 1079, #relocs   A5, #linenums    0, checksum 46286617
+010 00000000 SECT6  notype       Static       | .text$mn
+    Section length  2B2, #relocs   12, #linenums    0, checksum 9EFA28D8, selection    1 (pick no duplicates)
+012 00000000 SECT7  notype       Static       | .debug$S
+    Section length  71C, #relocs   38, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+014 00000000 SECT8  notype       Static       | .text$mn
+    Section length  1C8, #relocs    C, #linenums    0, checksum 8548C330, selection    1 (pick no duplicates)
+016 00000000 SECT9  notype       Static       | .debug$S
+    Section length  654, #relocs   36, #linenums    0, checksum        0, selection    5 (pick associative Section 0x8)
+018 00000000 SECTA  notype       Static       | .text$mn
+    Section length  17B, #relocs   13, #linenums    0, checksum 3505E0C7, selection    1 (pick no duplicates)
+01A 00000000 SECTB  notype       Static       | .debug$S
+    Section length  418, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0xA)
+01C 00000000 SECTC  notype       Static       | .text$mn
+    Section length   A5, #relocs    4, #linenums    0, checksum   F7852A, selection    1 (pick no duplicates)
+01E 00000000 SECTD  notype       Static       | .debug$S
+    Section length  254, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0xC)
+020 00000000 SECTE  notype       Static       | .text$mn
+    Section length  268, #relocs    9, #linenums    0, checksum 4E865B82, selection    1 (pick no duplicates)
+022 00000000 SECTF  notype       Static       | .debug$S
+    Section length  654, #relocs   3A, #linenums    0, checksum        0, selection    5 (pick associative Section 0xE)
+024 00000000 SECT10 notype       Static       | .text$mn
+    Section length  174, #relocs    2, #linenums    0, checksum 1F4C54F7, selection    1 (pick no duplicates)
+026 00000000 SECT11 notype       Static       | .debug$S
+    Section length  1FC, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x10)
+028 00000000 SECT12 notype       Static       | .text$mn
+    Section length  2C9, #relocs   22, #linenums    0, checksum 6E9EE524, selection    1 (pick no duplicates)
+02A 00000000 SECT13 notype       Static       | .debug$S
+    Section length  60C, #relocs   44, #linenums    0, checksum        0, selection    5 (pick associative Section 0x12)
+02C 00000000 UNDEF  notype       External     | __imp_strncpy
+02D 00000000 UNDEF  notype ()    External     | elog_start
+02E 00000000 UNDEF  notype ()    External     | elog_finish
+02F 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+030 00000000 UNDEF  notype ()    External     | MemoryContextAllocZero
+031 00000000 UNDEF  notype ()    External     | repalloc
+032 00000000 UNDEF  notype ()    External     | s_lock
+033 00000000 UNDEF  notype ()    External     | perform_spin_delay
+034 00000000 UNDEF  notype ()    External     | finish_spin_delay
+035 00000000 SECT5  notype ()    External     | LWLockAcquire
+036 00000200 SECT5  notype ()    External     | LWLockConditionalAcquire
+037 000002F0 SECT5  notype ()    External     | LWLockAcquireOrWait
+038 000004D0 SECT5  notype ()    External     | LWLockRelease
+039 000005F0 SECT5  notype ()    External     | LWLockReleaseClearVar
+03A 00000650 SECT5  notype ()    External     | LWLockReleaseAll
+03B 000007C0 SECT5  notype ()    External     | LWLockHeldByMe
+03C 00000800 SECT5  notype ()    External     | LWLockHeldByMeInMode
+03D 00000840 SECT5  notype ()    External     | LWLockWaitForVar
+03E 00000A30 SECT5  notype ()    External     | LWLockUpdateVar
+03F 00000C50 SECT5  notype ()    External     | LWLockShmemSize
+040 00000D00 SECT5  notype ()    External     | CreateLWLocks
+041 00000D50 SECT5  notype ()    External     | InitLWLockAccess
+042 00000D60 SECT5  notype ()    External     | GetLWLockIdentifier
+043 00000D90 SECT5  notype ()    External     | RequestNamedLWLockTranche
+044 00000E70 SECT5  notype ()    External     | GetNamedLWLockTranche
+045 00000F40 SECT5  notype ()    External     | LWLockNewTrancheId
+046 00000FB0 SECT5  notype ()    External     | LWLockRegisterTranche
+047 00001060 SECT5  notype ()    External     | LWLockInitialize
+048 00000000 UNDEF  notype ()    External     | ShmemAlloc
+049 00000000 UNDEF  notype ()    External     | add_size
+04A 00000000 UNDEF  notype ()    External     | mul_size
+04B 00000000 UNDEF  notype ()    External     | PGSemaphoreLock
+04C 00000000 UNDEF  notype ()    External     | PGSemaphoreUnlock
+04D 00000000 SECT6  notype ()    Static       | InitializeLWLocks
+04E 00000000 SECT12 notype ()    Static       | RegisterLWLockTranches
+04F 00000000 SECT10 notype ()    Static       | NumLWLocksByNamedTranches
+050 00000000 SECTC  notype ()    Static       | LWLockWaitListLock
+051 00000000 SECTE  notype ()    Static       | LWLockWakeup
+052 00000000 SECTA  notype ()    Static       | LWLockQueueSelf
+053 00000000 SECT8  notype ()    Static       | LWLockDequeueSelf
+054 00000000 SECT5  notype       Label        | $LN112
+055 00000200 SECT5  notype       Label        | $LN39
+056 000002F0 SECT5  notype       Label        | $LN93
+057 000004D0 SECT5  notype       Label        | $LN52
+058 000005F0 SECT5  notype       Label        | $LN22
+059 00000650 SECT5  notype       Label        | $LN61
+05A 00000840 SECT5  notype       Label        | $LN119
+05B 00000A30 SECT5  notype       Label        | $LN96
+05C 00000C50 SECT5  notype       Label        | $LN13
+05D 00000D00 SECT5  notype       Label        | $LN5
+05E 00000D90 SECT5  notype       Label        | $LN18
+05F 00000E70 SECT5  notype       Label        | $LN21
+060 00000F40 SECT5  notype       Label        | $LN9
+061 00000FB0 SECT5  notype       Label        | $LN20
+062 00000000 SECT14 notype       Static       | .xdata
+    Section length  1DC, #relocs   27, #linenums    0, checksum FC67E6C3
+064 00000000 SECT14 notype       Static       | $unwind$LWLockAcquire
+065 00000000 SECT15 notype       Static       | .pdata
+    Section length  144, #relocs   51, #linenums    0, checksum 5B662A1A
+067 00000000 SECT15 notype       Static       | $pdata$LWLockAcquire
+068 00000018 SECT14 notype       Static       | $unwind$LWLockConditionalAcquire
+069 0000000C SECT15 notype       Static       | $pdata$LWLockConditionalAcquire
+06A 00000024 SECT14 notype       Static       | $unwind$LWLockAcquireOrWait
+06B 00000018 SECT15 notype       Static       | $pdata$LWLockAcquireOrWait
+06C 0000003C SECT14 notype       Static       | $unwind$LWLockRelease
+06D 00000024 SECT15 notype       Static       | $pdata$LWLockRelease
+06E 00000044 SECT14 notype       Static       | $chain$1$LWLockRelease
+06F 00000030 SECT15 notype       Static       | $pdata$1$LWLockRelease
+070 0000005C SECT14 notype       Static       | $chain$2$LWLockRelease
+071 0000003C SECT15 notype       Static       | $pdata$2$LWLockRelease
+072 00000070 SECT14 notype       Static       | $chain$3$LWLockRelease
+073 00000048 SECT15 notype       Static       | $pdata$3$LWLockRelease
+074 00000080 SECT14 notype       Static       | $chain$4$LWLockRelease
+075 00000054 SECT15 notype       Static       | $pdata$4$LWLockRelease
+076 00000090 SECT14 notype       Static       | $unwind$LWLockReleaseClearVar
+077 00000060 SECT15 notype       Static       | $pdata$LWLockReleaseClearVar
+078 000000A0 SECT14 notype       Static       | $unwind$LWLockReleaseAll
+079 0000006C SECT15 notype       Static       | $pdata$LWLockReleaseAll
+07A 000000A8 SECT14 notype       Static       | $chain$5$LWLockReleaseAll
+07B 00000078 SECT15 notype       Static       | $pdata$5$LWLockReleaseAll
+07C 000000D0 SECT14 notype       Static       | $chain$6$LWLockReleaseAll
+07D 00000084 SECT15 notype       Static       | $pdata$6$LWLockReleaseAll
+07E 000000E0 SECT14 notype       Static       | $unwind$LWLockWaitForVar
+07F 00000090 SECT15 notype       Static       | $pdata$LWLockWaitForVar
+080 000000EC SECT14 notype       Static       | $chain$5$LWLockWaitForVar
+081 0000009C SECT15 notype       Static       | $pdata$5$LWLockWaitForVar
+082 00000114 SECT14 notype       Static       | $chain$6$LWLockWaitForVar
+083 000000A8 SECT15 notype       Static       | $pdata$6$LWLockWaitForVar
+084 00000128 SECT14 notype       Static       | $unwind$LWLockUpdateVar
+085 000000B4 SECT15 notype       Static       | $pdata$LWLockUpdateVar
+086 0000013C SECT14 notype       Static       | $unwind$LWLockShmemSize
+087 000000C0 SECT15 notype       Static       | $pdata$LWLockShmemSize
+088 00000144 SECT14 notype       Static       | $unwind$CreateLWLocks
+089 000000CC SECT15 notype       Static       | $pdata$CreateLWLocks
+08A 0000014C SECT14 notype       Static       | $unwind$RequestNamedLWLockTranche
+08B 000000D8 SECT15 notype       Static       | $pdata$RequestNamedLWLockTranche
+08C 00000158 SECT14 notype       Static       | $chain$0$RequestNamedLWLockTranche
+08D 000000E4 SECT15 notype       Static       | $pdata$0$RequestNamedLWLockTranche
+08E 0000016C SECT14 notype       Static       | $chain$1$RequestNamedLWLockTranche
+08F 000000F0 SECT15 notype       Static       | $pdata$1$RequestNamedLWLockTranche
+090 0000017C SECT14 notype       Static       | $unwind$GetNamedLWLockTranche
+091 000000FC SECT15 notype       Static       | $pdata$GetNamedLWLockTranche
+092 0000018C SECT14 notype       Static       | $unwind$LWLockNewTrancheId
+093 00000108 SECT15 notype       Static       | $pdata$LWLockNewTrancheId
+094 00000194 SECT14 notype       Static       | $unwind$LWLockRegisterTranche
+095 00000114 SECT15 notype       Static       | $pdata$LWLockRegisterTranche
+096 000001A4 SECT14 notype       Static       | $chain$0$LWLockRegisterTranche
+097 00000120 SECT15 notype       Static       | $pdata$0$LWLockRegisterTranche
+098 000001B8 SECT14 notype       Static       | $chain$2$LWLockRegisterTranche
+099 0000012C SECT15 notype       Static       | $pdata$2$LWLockRegisterTranche
+09A 000001CC SECT14 notype       Static       | $chain$3$LWLockRegisterTranche
+09B 00000138 SECT15 notype       Static       | $pdata$3$LWLockRegisterTranche
+09C 00000000 SECT16 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 9E6AAF91, selection    5 (pick associative Section 0x6)
+09E 00000000 SECT16 notype       Static       | $unwind$InitializeLWLocks
+09F 00000000 SECT17 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 87A626C9, selection    5 (pick associative Section 0x6)
+0A1 00000000 SECT17 notype       Static       | $pdata$InitializeLWLocks
+0A2 00000000 SECT18 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 1400DB42, selection    5 (pick associative Section 0x6)
+0A4 00000000 SECT18 notype       Static       | $chain$1$InitializeLWLocks
+0A5 00000000 SECT19 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 501A756B, selection    5 (pick associative Section 0x6)
+0A7 00000000 SECT19 notype       Static       | $pdata$1$InitializeLWLocks
+0A8 00000000 SECT1A notype       Static       | .xdata
+    Section length   28, #relocs    3, #linenums    0, checksum  BD08791, selection    5 (pick associative Section 0x6)
+0AA 00000000 SECT1A notype       Static       | $chain$7$InitializeLWLocks
+0AB 00000000 SECT1B notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D3014E1B, selection    5 (pick associative Section 0x6)
+0AD 00000000 SECT1B notype       Static       | $pdata$7$InitializeLWLocks
+0AE 00000000 SECT1C notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum E94D9F87, selection    5 (pick associative Section 0x6)
+0B0 00000000 SECT1C notype       Static       | $chain$8$InitializeLWLocks
+0B1 00000000 SECT1D notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F1D33C5D, selection    5 (pick associative Section 0x6)
+0B3 00000000 SECT1D notype       Static       | $pdata$8$InitializeLWLocks
+0B4 00000000 SECT1E notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 3EF1CC25, selection    5 (pick associative Section 0x6)
+0B6 00000000 SECT1E notype       Static       | $chain$9$InitializeLWLocks
+0B7 00000000 SECT1F notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum BD79CCC4, selection    5 (pick associative Section 0x6)
+0B9 00000000 SECT1F notype       Static       | $pdata$9$InitializeLWLocks
+0BA 00000000 SECT20 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum F6B6C260, selection    5 (pick associative Section 0x12)
+0BC 00000000 SECT20 notype       Static       | $unwind$RegisterLWLockTranches
+0BD 00000000 SECT21 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 158A1232, selection    5 (pick associative Section 0x12)
+0BF 00000000 SECT21 notype       Static       | $pdata$RegisterLWLockTranches
+0C0 00000000 SECT22 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum BFFA5C79, selection    5 (pick associative Section 0x12)
+0C2 00000000 SECT22 notype       Static       | $chain$0$RegisterLWLockTranches
+0C3 00000000 SECT23 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 1B05E5D6, selection    5 (pick associative Section 0x12)
+0C5 00000000 SECT23 notype       Static       | $pdata$0$RegisterLWLockTranches
+0C6 00000000 SECT24 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum A2E3AED9, selection    5 (pick associative Section 0x12)
+0C8 00000000 SECT24 notype       Static       | $chain$1$RegisterLWLockTranches
+0C9 00000000 SECT25 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D4D81592, selection    5 (pick associative Section 0x12)
+0CB 00000000 SECT25 notype       Static       | $pdata$1$RegisterLWLockTranches
+0CC 00000000 SECT26 notype       Static       | .xdata
+    Section length   20, #relocs    3, #linenums    0, checksum 167B7D08, selection    5 (pick associative Section 0x12)
+0CE 00000000 SECT26 notype       Static       | $chain$5$RegisterLWLockTranches
+0CF 00000000 SECT27 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5A21A5D6, selection    5 (pick associative Section 0x12)
+0D1 00000000 SECT27 notype       Static       | $pdata$5$RegisterLWLockTranches
+0D2 00000000 SECT28 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 6D8FFF7E, selection    5 (pick associative Section 0x12)
+0D4 00000000 SECT28 notype       Static       | $chain$6$RegisterLWLockTranches
+0D5 00000000 SECT29 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8F2E2CF7, selection    5 (pick associative Section 0x12)
+0D7 00000000 SECT29 notype       Static       | $pdata$6$RegisterLWLockTranches
+0D8 00000000 SECT2A notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum A2520F3A, selection    5 (pick associative Section 0x12)
+0DA 00000000 SECT2A notype       Static       | $chain$7$RegisterLWLockTranches
+0DB 00000000 SECT2B notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7CD95B00, selection    5 (pick associative Section 0x12)
+0DD 00000000 SECT2B notype       Static       | $pdata$7$RegisterLWLockTranches
+0DE 00000000 SECT2C notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum ACDDF8DE, selection    5 (pick associative Section 0x12)
+0E0 00000000 SECT2C notype       Static       | $chain$8$RegisterLWLockTranches
+0E1 00000000 SECT2D notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B15BA418, selection    5 (pick associative Section 0x12)
+0E3 00000000 SECT2D notype       Static       | $pdata$8$RegisterLWLockTranches
+0E4 00000000 SECT2E notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum B9697155, selection    5 (pick associative Section 0x10)
+0E6 00000000 SECT2E notype       Static       | $unwind$NumLWLocksByNamedTranches
+0E7 00000000 SECT2F notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8E6D94DE, selection    5 (pick associative Section 0x10)
+0E9 00000000 SECT2F notype       Static       | $pdata$NumLWLocksByNamedTranches
+0EA 00000000 SECT30 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 6360E6FE, selection    5 (pick associative Section 0xC)
+0EC 00000000 SECT30 notype       Static       | $unwind$LWLockWaitListLock
+0ED 00000000 SECT31 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E2ADE9E8, selection    5 (pick associative Section 0xC)
+0EF 00000000 SECT31 notype       Static       | $pdata$LWLockWaitListLock
+0F0 00000000 SECT32 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 71DC30DC, selection    5 (pick associative Section 0xE)
+0F2 00000000 SECT32 notype       Static       | $unwind$LWLockWakeup
+0F3 00000000 SECT33 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  AC50919, selection    5 (pick associative Section 0xE)
+0F5 00000000 SECT33 notype       Static       | $pdata$LWLockWakeup
+0F6 00000000 SECT34 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum DA6A01F8, selection    5 (pick associative Section 0xE)
+0F8 00000000 SECT34 notype       Static       | $chain$2$LWLockWakeup
+0F9 00000000 SECT35 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2875A85E, selection    5 (pick associative Section 0xE)
+0FB 00000000 SECT35 notype       Static       | $pdata$2$LWLockWakeup
+0FC 00000000 SECT36 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum A9DF58A2, selection    5 (pick associative Section 0xE)
+0FE 00000000 SECT36 notype       Static       | $chain$4$LWLockWakeup
+0FF 00000000 SECT37 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 73D5287A, selection    5 (pick associative Section 0xE)
+101 00000000 SECT37 notype       Static       | $pdata$4$LWLockWakeup
+102 00000000 SECT38 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 912242B2, selection    5 (pick associative Section 0xE)
+104 00000000 SECT38 notype       Static       | $chain$5$LWLockWakeup
+105 00000000 SECT39 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 418BEA55, selection    5 (pick associative Section 0xE)
+107 00000000 SECT39 notype       Static       | $pdata$5$LWLockWakeup
+108 00000000 SECT3A notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 4F9C7D06, selection    5 (pick associative Section 0xE)
+10A 00000000 SECT3A notype       Static       | $chain$6$LWLockWakeup
+10B 00000000 SECT3B notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 934D33F0, selection    5 (pick associative Section 0xE)
+10D 00000000 SECT3B notype       Static       | $pdata$6$LWLockWakeup
+10E 00000000 SECT3C notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum B392E3F5, selection    5 (pick associative Section 0xE)
+110 00000000 SECT3C notype       Static       | $chain$7$LWLockWakeup
+111 00000000 SECT3D notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5365B372, selection    5 (pick associative Section 0xE)
+113 00000000 SECT3D notype       Static       | $pdata$7$LWLockWakeup
+114 00000000 SECT3E notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0xA)
+116 00000000 SECT3E notype       Static       | $unwind$LWLockQueueSelf
+117 00000000 SECT3F notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 574D8672, selection    5 (pick associative Section 0xA)
+119 00000000 SECT3F notype       Static       | $pdata$LWLockQueueSelf
+11A 00000000 SECT40 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum EE051E80, selection    5 (pick associative Section 0x8)
+11C 00000000 SECT40 notype       Static       | $unwind$LWLockDequeueSelf
+11D 00000000 SECT41 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  F345736, selection    5 (pick associative Section 0x8)
+11F 00000000 SECT41 notype       Static       | $pdata$LWLockDequeueSelf
+120 00000000 UNDEF  notype       External     | InterruptHoldoffCount
+121 00000000 UNDEF  notype       External     | IsUnderPostmaster
+122 00000000 UNDEF  notype       External     | MainLWLockNames
+123 00000000 UNDEF  notype       External     | MyProc
+124 00000000 UNDEF  notype       External     | ProcGlobal
+125 00000000 UNDEF  notype       External     | pgstat_track_activities
+126 00000000 UNDEF  notype       External     | TopMemoryContext
+127 00000000 UNDEF  notype       External     | ShmemLock
+128 00000020 SECT4  notype       Static       | LWLockTrancheArray
+129 00000028 SECT4  notype       Static       | LWLockTranchesAllocated
+12A 0000002C SECT4  notype       Static       | num_held_lwlocks
+12B 00000030 SECT4  notype       Static       | held_lwlocks
+12C 00000CB0 SECT4  notype       Static       | NamedLWLockTrancheRequestsAllocated
+12D 00000000 SECT42 notype       Static       | .data
+    Section length    1, #relocs    0, #linenums    0, checksum 77073096
+12F 00000000 SECT42 notype       Static       | lock_named_request_allowed
+130 00000000 SECT43 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 29DDB8BF, selection    2 (pick any)
+132 00000000 SECT43 notype       External     | ??_C@_0P@BPBEEKH@buffer_mapping?$AA@ (`string')
+133 00000000 SECT44 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 86320E2C, selection    2 (pick any)
+135 00000000 SECT44 notype       External     | ??_C@_0N@HGLJLHFB@lock_manager?$AA@ (`string')
+136 00000000 SECT45 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 8D4AAE46, selection    2 (pick any)
+138 00000000 SECT45 notype       External     | ??_C@_0BH@BFHFPN@predicate_lock_manager?$AA@ (`string')
+139 00000000 SECT46 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 6BEFE149, selection    2 (pick any)
+13B 00000000 SECT46 notype       External     | ??_C@_0BD@EOBINHNJ@parallel_query_dsa?$AA@ (`string')
+13C 00000000 SECT47 notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum 7F5D3D6F, selection    2 (pick any)
+13E 00000000 SECT47 notype       External     | ??_C@_03KBOGBNIM@tbm?$AA@ (`string')
+13F 00000000 SECT48 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum CEA559E2, selection    2 (pick any)
+141 00000000 SECT48 notype       External     | ??_C@_0BG@JJHDBHPN@GetNamedLWLockTranche?$AA@ (`string')
+142 00000000 SECT49 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum  2EADCB8, selection    2 (pick any)
+144 00000000 SECT49 notype       External     | ??_C@_0CC@LMGEEPGN@src?1backend?1storage?1lmgr?1lwlock?4@ (`string')
+145 00000000 SECT4A notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 186F6361, selection    2 (pick any)
+147 00000000 SECT4A notype       External     | ??_C@_0CE@INCGCOEL@requested?5tranche?5is?5not?5registe@ (`string')
+148 00000000 SECT4B notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum EB73633F, selection    2 (pick any)
+14A 00000000 SECT4B notype       External     | ??_C@_0BD@MOIEFFKP@LWLockNewTrancheId?$AA@ (`string')
+14B 00000000 SECT4C notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum FF76D459, selection    2 (pick any)
+14D 00000000 SECT4C notype       External     | ??_C@_09ODADEDNA@extension?$AA@ (`string')
+14E 00000000 SECT4D notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum AC4861EE, selection    2 (pick any)
+150 00000000 SECT4D notype       External     | ??_C@_0BD@IJLPFHHO@LWLockWaitListLock?$AA@ (`string')
+151 00000000 SECT4E notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 6193E030, selection    2 (pick any)
+153 00000000 SECT4E notype       External     | ??_C@_0BA@HCNHFEJK@LWLockQueueSelf?$AA@ (`string')
+154 00000000 SECT4F notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 5475125B, selection    2 (pick any)
+156 00000000 SECT4F notype       External     | ??_C@_0CH@CLHIBJIE@cannot?5wait?5without?5a?5PGPROC?5str@ (`string')
+157 00000000 SECT50 notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum F73FCD6F, selection    2 (pick any)
+159 00000000 SECT50 notype       External     | ??_C@_0CP@ONBJJJOF@queueing?5for?5lock?5while?5waiting?5@ (`string')
+15A 00000000 SECT51 notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum AAE2D1F5, selection    2 (pick any)
+15C 00000000 SECT51 notype       External     | ??_C@_0O@IEKGFHMN@LWLockAcquire?$AA@ (`string')
+15D 00000000 SECT52 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum CC7D9A19, selection    2 (pick any)
+15F 00000000 SECT52 notype       External     | ??_C@_0BH@EBCCEBKC@too?5many?5LWLocks?5taken?$AA@ (`string')
+160 00000000 SECT53 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 8F41185D, selection    2 (pick any)
+162 00000000 SECT53 notype       External     | ??_C@_0BJ@JJHBOJCN@LWLockConditionalAcquire?$AA@ (`string')
+163 00000000 SECT54 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum A806E9FC, selection    2 (pick any)
+165 00000000 SECT54 notype       External     | ??_C@_0BE@FICMINIO@LWLockAcquireOrWait?$AA@ (`string')
+166 00000000 SECT55 notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 20D81618, selection    2 (pick any)
+168 00000000 SECT55 notype       External     | ??_C@_0O@OJMJACA@LWLockRelease?$AA@ (`string')
+169 00000000 SECT56 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 6C6F6EEF, selection    2 (pick any)
+16B 00000000 SECT56 notype       External     | ??_C@_0BE@JMEFAKJN@lock?5?$CFs?5is?5not?5held?$AA@ (`string')
+
+String Table Size = 0x11BC bytes
+
+  Summary
+
+         CB4 .bss
+           1 .data
+        9A80 .debug$S
+          68 .debug$T
+          C7 .drectve
+         24C .pdata
+         1B0 .rdata
+        1DB8 .text$mn
+         378 .xdata

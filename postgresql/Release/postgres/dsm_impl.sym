@@ -1,0 +1,177 @@
+
+Dump of file Release\postgres/dsm_impl.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 47B8, #relocs   50, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length   30, #relocs    2, #linenums    0, checksum 2ABCB088
+00A 00000000 SECT4  notype       External     | dynamic_shared_memory_options
+00B 00000000 SECT5  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum D01E9DAD, selection    2 (pick any)
+00D 00000000 SECT5  notype       External     | ??_C@_07EKMDLNDL@windows?$AA@ (`string')
+00E 00000000 SECT6  notype       Static       | .rdata
+    Section length    5, #relocs    0, #linenums    0, checksum 1F8457B1, selection    2 (pick any)
+010 00000000 SECT6  notype       External     | ??_C@_04CGFJFPFD@none?$AA@ (`string')
+011 00000004 UNDEF  notype       External     | dynamic_shared_memory_type
+012 00000000 SECT7  notype       Static       | .text$mn
+    Section length  302, #relocs   32, #linenums    0, checksum 273D9514
+014 00000000 SECT8  notype       Static       | .text$mn
+    Section length  494, #relocs   53, #linenums    0, checksum 120A388B, selection    1 (pick no duplicates)
+016 00000000 SECT9  notype       Static       | .debug$S
+    Section length  8F0, #relocs   6A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x8)
+018 00000000 SECTA  notype       Static       | .text$mn
+    Section length   31, #relocs    4, #linenums    0, checksum 4CFA63D2, selection    1 (pick no duplicates)
+01A 00000000 SECTB  notype       Static       | .debug$S
+    Section length  100, #relocs    8, #linenums    0, checksum        0, selection    5 (pick associative Section 0xA)
+01C 00000000 UNDEF  notype       External     | __imp__errno
+01D 00000000 UNDEF  notype       External     | __imp_CloseHandle
+01E 00000000 UNDEF  notype       External     | __imp_DuplicateHandle
+01F 00000000 UNDEF  notype       External     | __imp_GetLastError
+020 00000000 UNDEF  notype       External     | __imp_SetLastError
+021 00000000 UNDEF  notype       External     | __imp_GetCurrentProcess
+022 00000000 UNDEF  notype       External     | __imp_VirtualQuery
+023 00000000 UNDEF  notype       External     | __imp_MapViewOfFile
+024 00000000 UNDEF  notype       External     | __imp_UnmapViewOfFile
+025 00000000 UNDEF  notype       External     | __imp_CreateFileMappingA
+026 00000000 UNDEF  notype       External     | __imp_OpenFileMappingA
+027 00000000 UNDEF  notype ()    External     | _dosmaperr
+028 00000000 UNDEF  notype ()    External     | pg_snprintf
+029 00000000 UNDEF  notype ()    External     | errstart
+02A 00000000 UNDEF  notype ()    External     | errfinish
+02B 00000000 UNDEF  notype ()    External     | errcode
+02C 00000000 UNDEF  notype ()    External     | errcode_for_file_access
+02D 00000000 UNDEF  notype ()    External     | errmsg
+02E 00000000 UNDEF  notype ()    External     | elog_start
+02F 00000000 UNDEF  notype ()    External     | elog_finish
+030 00000000 SECT7  notype ()    External     | dsm_impl_op
+031 00000060 SECT7  notype ()    External     | dsm_impl_can_resize
+032 00000090 SECT7  notype ()    External     | dsm_impl_pin_segment
+033 000001D0 SECT7  notype ()    External     | dsm_impl_unpin_segment
+034 00000000 SECT8  notype ()    Static       | dsm_impl_windows
+035 00000000 SECTA  notype ()    Static       | errcode_for_dynamic_shared_memory
+036 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+037 00000000 UNDEF  notype ()    External     | __security_check_cookie
+038 00000000 SECT7  notype       Label        | $LN12
+039 00000090 SECT7  notype       Label        | $LN20
+03A 000001D0 SECT7  notype       Label        | $LN20
+03B 00000000 SECTC  notype       Static       | .xdata
+    Section length   5C, #relocs    8, #linenums    0, checksum EE5FD6EE
+03D 00000000 SECTC  notype       Static       | $unwind$dsm_impl_op
+03E 00000000 SECTD  notype       Static       | .pdata
+    Section length   3C, #relocs    F, #linenums    0, checksum 5E275CE5
+040 00000000 SECTD  notype       Static       | $pdata$dsm_impl_op
+041 00000008 SECTC  notype       Static       | $unwind$dsm_impl_pin_segment
+042 0000000C SECTD  notype       Static       | $pdata$dsm_impl_pin_segment
+043 00000020 SECTC  notype       Static       | $unwind$dsm_impl_unpin_segment
+044 00000018 SECTD  notype       Static       | $pdata$dsm_impl_unpin_segment
+045 00000038 SECTC  notype       Static       | $chain$0$dsm_impl_unpin_segment
+046 00000024 SECTD  notype       Static       | $pdata$0$dsm_impl_unpin_segment
+047 0000004C SECTC  notype       Static       | $chain$1$dsm_impl_unpin_segment
+048 00000030 SECTD  notype       Static       | $pdata$1$dsm_impl_unpin_segment
+049 00000000 SECTE  notype       Static       | .xdata
+    Section length   1C, #relocs    1, #linenums    0, checksum 2F5729AB, selection    5 (pick associative Section 0x8)
+04B 00000000 SECTE  notype       Static       | $unwind$dsm_impl_windows
+04C 00000000 SECTF  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum CAF50D7F, selection    5 (pick associative Section 0x8)
+04E 00000000 SECTF  notype       Static       | $pdata$dsm_impl_windows
+04F 00000000 SECT10 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 82AAA36B, selection    5 (pick associative Section 0x8)
+051 00000000 SECT10 notype       Static       | $chain$0$dsm_impl_windows
+052 00000000 SECT11 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F4EA7736, selection    5 (pick associative Section 0x8)
+054 00000000 SECT11 notype       Static       | $pdata$0$dsm_impl_windows
+055 00000000 SECT12 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 73A2E793, selection    5 (pick associative Section 0x8)
+057 00000000 SECT12 notype       Static       | $chain$1$dsm_impl_windows
+058 00000000 SECT13 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum EB92A346, selection    5 (pick associative Section 0x8)
+05A 00000000 SECT13 notype       Static       | $pdata$1$dsm_impl_windows
+05B 00000000 SECT14 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum F81821A1, selection    5 (pick associative Section 0x8)
+05D 00000000 SECT14 notype       Static       | $chain$2$dsm_impl_windows
+05E 00000000 SECT15 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8AC02BE8, selection    5 (pick associative Section 0x8)
+060 00000000 SECT15 notype       Static       | $pdata$2$dsm_impl_windows
+061 00000000 SECT16 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 73A2E793, selection    5 (pick associative Section 0x8)
+063 00000000 SECT16 notype       Static       | $chain$3$dsm_impl_windows
+064 00000000 SECT17 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 88883D64, selection    5 (pick associative Section 0x8)
+066 00000000 SECT17 notype       Static       | $pdata$3$dsm_impl_windows
+067 00000000 SECT18 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum  FC539D1, selection    5 (pick associative Section 0xA)
+069 00000000 SECT18 notype       Static       | $unwind$errcode_for_dynamic_shared_memory
+06A 00000000 SECT19 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 496753E3, selection    5 (pick associative Section 0xA)
+06C 00000000 SECT19 notype       Static       | $pdata$errcode_for_dynamic_shared_memory
+06D 00000000 UNDEF  notype       External     | PostmasterHandle
+06E 00000000 SECT1A notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 489989C5, selection    2 (pick any)
+070 00000000 SECT1A notype       External     | ??_C@_0M@MMLDLAFF@dsm_impl_op?$AA@ (`string')
+071 00000000 SECT1B notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 1D1F8E8D, selection    2 (pick any)
+073 00000000 SECT1B notype       External     | ??_C@_0CD@OLBICGEF@src?1backend?1storage?1ipc?1dsm_impl@ (`string')
+074 00000000 SECT1C notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum 526B6295, selection    2 (pick any)
+076 00000000 SECT1C notype       External     | ??_C@_0CK@EJPLLFJB@unexpected?5dynamic?5shared?5memory@ (`string')
+077 00000000 SECT1D notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 4E7B27F9, selection    2 (pick any)
+079 00000000 SECT1D notype       External     | ??_C@_0BB@HIGLCJLL@dsm_impl_windows?$AA@ (`string')
+07A 00000000 SECT1E notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum A1488D8E, selection    2 (pick any)
+07C 00000000 SECT1E notype       External     | ??_C@_0DB@MCCHCIE@Windows?5shared?5memory?5segments?5c@ (`string')
+07D 00000000 SECT1F notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum  736321A, selection    2 (pick any)
+07F 00000000 SECT1F notype       External     | ??_C@_0BC@JPNCACKI@Global?1PostgreSQL?$AA@ (`string')
+080 00000000 SECT20 notype       Static       | .rdata
+    Section length    6, #relocs    0, #linenums    0, checksum C530DF2F, selection    2 (pick any)
+082 00000000 SECT20 notype       External     | ??_C@_05ILANIBHD@?$CFs?4?$CFu?$AA@ (`string')
+083 00000000 SECT21 notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum 1EF09020, selection    2 (pick any)
+085 00000000 SECT21 notype       External     | ??_C@_0CP@ENGMEKK@could?5not?5unmap?5shared?5memory?5se@ (`string')
+086 00000000 SECT22 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum 43209877, selection    2 (pick any)
+088 00000000 SECT22 notype       External     | ??_C@_0DA@EOFHNEBN@could?5not?5remove?5shared?5memory?5s@ (`string')
+089 00000000 SECT23 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum 12226BAE, selection    2 (pick any)
+08B 00000000 SECT23 notype       External     | ??_C@_0DA@BPFFCHME@could?5not?5create?5shared?5memory?5s@ (`string')
+08C 00000000 SECT24 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum B39B0306, selection    2 (pick any)
+08E 00000000 SECT24 notype       External     | ??_C@_0CO@EPBLPEBC@could?5not?5open?5shared?5memory?5seg@ (`string')
+08F 00000000 SECT25 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 434A80F2, selection    2 (pick any)
+091 00000000 SECT25 notype       External     | ??_C@_0CN@HKDFOIKJ@could?5not?5map?5shared?5memory?5segm@ (`string')
+092 00000000 SECT26 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum D8723C14, selection    2 (pick any)
+094 00000000 SECT26 notype       External     | ??_C@_0CO@CEPCMLAA@could?5not?5stat?5shared?5memory?5seg@ (`string')
+095 00000000 SECT27 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 646D7579, selection    2 (pick any)
+097 00000000 SECT27 notype       External     | ??_C@_0BF@NKJGEPAN@dsm_impl_pin_segment?$AA@ (`string')
+098 00000000 SECT28 notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum B6340BEB, selection    2 (pick any)
+09A 00000000 SECT28 notype       External     | ??_C@_0CI@KACHMJKF@could?5not?5duplicate?5handle?5for?5?$CC@ (`string')
+09B 00000000 SECT29 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 4B3274B2, selection    2 (pick any)
+09D 00000000 SECT29 notype       External     | ??_C@_0BH@MGGNKPAJ@dsm_impl_unpin_segment?$AA@ (`string')
+09E 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x819 bytes
+
+  Summary
+
+        51A8 .debug$S
+          68 .debug$T
+          5D .drectve
+          84 .pdata
+         25C .rdata
+         7C7 .text$mn
+          C8 .xdata

@@ -1,0 +1,91 @@
+
+Dump of file Release\postgres/procsignal.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4884, #relocs   74, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  452, #relocs   38, #linenums    0, checksum 6B6D6815
+00A 00000000 UNDEF  notype       External     | __imp__errno
+00B 00000000 UNDEF  notype ()    External     | pgkill
+00C 00000000 UNDEF  notype ()    External     | elog_start
+00D 00000000 UNDEF  notype ()    External     | elog_finish
+00E 00000000 UNDEF  notype ()    External     | SetLatch
+00F 00000000 UNDEF  notype ()    External     | ShmemInitStruct
+010 00000000 UNDEF  notype ()    External     | HandleParallelMessageInterrupt
+011 00000000 UNDEF  notype ()    External     | HandleNotifyInterrupt
+012 00000000 UNDEF  notype ()    External     | HandleWalSndInitStopping
+013 00000000 UNDEF  notype ()    External     | on_shmem_exit
+014 00000000 UNDEF  notype ()    External     | HandleCatchupInterrupt
+015 00000000 SECT4  notype ()    External     | ProcSignalShmemSize
+016 00000020 SECT4  notype ()    External     | ProcSignalShmemInit
+017 000000C0 SECT4  notype ()    External     | ProcSignalInit
+018 000001A0 SECT4  notype ()    External     | SendProcSignal
+019 00000250 SECT4  notype ()    External     | procsignal_sigusr1_handler
+01A 00000000 UNDEF  notype ()    External     | RecoveryConflictInterrupt
+01B 000003D0 SECT4  notype ()    Static       | CleanupProcSignalState
+01C 00000000 UNDEF  notype ()    External     | memset
+01D 00000020 SECT4  notype       Label        | $LN20
+01E 000000C0 SECT4  notype       Label        | $LN22
+01F 000001A0 SECT4  notype       Label        | $LN16
+020 00000250 SECT4  notype       Label        | $LN82
+021 00000000 SECT5  notype       Static       | .xdata
+    Section length   34, #relocs    0, #linenums    0, checksum 3A0E45BA
+023 00000000 SECT5  notype       Static       | $unwind$ProcSignalShmemInit
+024 00000000 SECT6  notype       Static       | .pdata
+    Section length   3C, #relocs    F, #linenums    0, checksum 2E0A03C0
+026 00000000 SECT6  notype       Static       | $pdata$ProcSignalShmemInit
+027 00000008 SECT5  notype       Static       | $unwind$ProcSignalInit
+028 0000000C SECT6  notype       Static       | $pdata$ProcSignalInit
+029 00000014 SECT5  notype       Static       | $unwind$SendProcSignal
+02A 00000018 SECT6  notype       Static       | $pdata$SendProcSignal
+02B 0000001C SECT5  notype       Static       | $unwind$procsignal_sigusr1_handler
+02C 00000024 SECT6  notype       Static       | $pdata$procsignal_sigusr1_handler
+02D 00000028 SECT5  notype       Static       | $unwind$CleanupProcSignalState
+02E 00000030 SECT6  notype       Static       | $pdata$CleanupProcSignalState
+02F 00000000 UNDEF  notype       External     | MaxBackends
+030 00000000 UNDEF  notype       External     | MyProcPid
+031 00000000 UNDEF  notype       External     | MyLatch
+032 00000000 SECT7  notype       Static       | .bss
+    Section length   10, #relocs    0, #linenums    0, checksum        0
+034 00000000 SECT7  notype       Static       | ProcSignalSlots
+035 00000008 SECT7  notype       Static       | MyProcSignalSlot
+036 00000000 SECT8  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 7A352025, selection    2 (pick any)
+038 00000000 SECT8  notype       External     | ??_C@_0BA@GJHBJEIP@ProcSignalSlots?$AA@ (`string')
+039 00000000 SECT9  notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 12A29617, selection    2 (pick any)
+03B 00000000 SECT9  notype       External     | ??_C@_0P@DKIOGKAP@ProcSignalInit?$AA@ (`string')
+03C 00000000 SECTA  notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum ED434774, selection    2 (pick any)
+03E 00000000 SECTA  notype       External     | ??_C@_0CF@DGGNMHOP@src?1backend?1storage?1ipc?1procsign@ (`string')
+03F 00000000 SECTB  notype       Static       | .rdata
+    Section length   3E, #relocs    0, #linenums    0, checksum C2A4FBD9, selection    2 (pick any)
+041 00000000 SECTB  notype       External     | ??_C@_0DO@CADPKDEH@process?5?$CFd?5taking?5over?5ProcSigna@ (`string')
+042 00000000 SECTC  notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 104089AA, selection    2 (pick any)
+044 00000000 SECTC  notype       External     | ??_C@_0BH@JNBPFCBB@CleanupProcSignalState?$AA@ (`string')
+045 00000000 SECTD  notype       Static       | .rdata
+    Section length   3C, #relocs    0, #linenums    0, checksum 5594D667, selection    2 (pick any)
+047 00000000 SECTD  notype       External     | ??_C@_0DM@KOHJKAJA@process?5?$CFd?5releasing?5ProcSignal?5@ (`string')
+
+String Table Size = 0x3B5 bytes
+
+  Summary
+
+          10 .bss
+        4884 .debug$S
+          68 .debug$T
+          5D .drectve
+          3C .pdata
+          D5 .rdata
+         452 .text$mn
+          34 .xdata

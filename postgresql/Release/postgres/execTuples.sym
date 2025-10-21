@@ -1,0 +1,253 @@
+
+Dump of file Release\postgres/execTuples.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 89E8, #relocs  21A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 13BA, #relocs   9C, #linenums    0, checksum 2204B896
+00A 00000000 UNDEF  notype       External     | __imp_strchr
+00B 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+00C 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+00D 00000000 UNDEF  notype ()    External     | palloc
+00E 00000000 UNDEF  notype ()    External     | palloc0
+00F 00000000 UNDEF  notype ()    External     | pfree
+010 00000000 UNDEF  notype ()    External     | lappend
+011 00000000 UNDEF  notype ()    External     | list_free
+012 00000000 UNDEF  notype ()    External     | CreateTemplateTupleDesc
+013 00000000 UNDEF  notype ()    External     | IncrTupleDescRefCount
+014 00000000 UNDEF  notype ()    External     | DecrTupleDescRefCount
+015 00000000 UNDEF  notype ()    External     | TupleDescInitEntry
+016 00000000 UNDEF  notype ()    External     | TupleDescInitEntryCollation
+017 00000000 UNDEF  notype ()    External     | heap_copytuple
+018 00000000 UNDEF  notype ()    External     | heap_copy_tuple_as_datum
+019 00000000 UNDEF  notype ()    External     | heap_form_tuple
+01A 00000000 UNDEF  notype ()    External     | heap_freetuple
+01B 00000000 UNDEF  notype ()    External     | heap_form_minimal_tuple
+01C 00000000 UNDEF  notype ()    External     | heap_free_minimal_tuple
+01D 00000000 UNDEF  notype ()    External     | heap_copy_minimal_tuple
+01E 00000000 UNDEF  notype ()    External     | heap_tuple_from_minimal_tuple
+01F 00000000 UNDEF  notype ()    External     | minimal_tuple_from_heap_tuple
+020 00000000 UNDEF  notype ()    External     | toast_flatten_tuple_to_datum
+021 00000000 UNDEF  notype ()    External     | fmgr_info
+022 00000000 UNDEF  notype ()    External     | InputFunctionCall
+023 00000000 SECT4  notype ()    External     | MakeTupleTableSlot
+024 00000070 SECT4  notype ()    External     | ExecAllocTableSlot
+025 00000100 SECT4  notype ()    External     | ExecResetTupleTable
+026 00000210 SECT4  notype ()    External     | MakeSingleTupleTableSlot
+027 00000290 SECT4  notype ()    External     | ExecDropSingleTupleTableSlot
+028 00000330 SECT4  notype ()    External     | ExecSetSlotDescriptor
+029 00000400 SECT4  notype ()    External     | ExecStoreTuple
+02A 000004A0 SECT4  notype ()    External     | ExecStoreMinimalTuple
+02B 00000530 SECT4  notype ()    External     | ExecClearTuple
+02C 000005A0 SECT4  notype ()    External     | ExecStoreVirtualTuple
+02D 000005C0 SECT4  notype ()    External     | ExecStoreAllNullTuple
+02E 000006A0 SECT4  notype ()    External     | ExecCopySlotTuple
+02F 000006F0 SECT4  notype ()    External     | ExecCopySlotMinimalTuple
+030 00000730 SECT4  notype ()    External     | ExecFetchSlotTuple
+031 00000750 SECT4  notype ()    External     | ExecFetchSlotMinimalTuple
+032 000007D0 SECT4  notype ()    External     | ExecFetchSlotTupleDatum
+033 00000810 SECT4  notype ()    External     | ExecMaterializeSlot
+034 000008C0 SECT4  notype ()    External     | ExecCopySlot
+035 00000990 SECT4  notype ()    External     | ExecInitResultTupleSlot
+036 000009C0 SECT4  notype ()    External     | ExecInitScanTupleSlot
+037 000009F0 SECT4  notype ()    External     | ExecInitExtraTupleSlot
+038 00000A10 SECT4  notype ()    External     | ExecInitNullTupleSlot
+039 00000A50 SECT4  notype ()    External     | ExecTypeFromTL
+03A 00000B20 SECT4  notype ()    External     | ExecCleanTypeFromTL
+03B 00000BF0 SECT4  notype ()    External     | ExecTypeFromExprList
+03C 00000CC0 SECT4  notype ()    External     | ExecTypeSetColNames
+03D 00000D80 SECT4  notype ()    External     | begin_tup_output_tupdesc
+03E 00000DE0 SECT4  notype ()    External     | do_tup_output
+03F 00000EF0 SECT4  notype ()    External     | do_text_output_multiline
+040 00001070 SECT4  notype ()    External     | end_tup_output
+041 00000000 UNDEF  notype ()    External     | ExecTargetListLength
+042 00000000 UNDEF  notype ()    External     | ExecCleanTargetListLength
+043 000010A0 SECT4  notype ()    External     | BlessTupleDesc
+044 000010D0 SECT4  notype ()    External     | TupleDescGetAttInMetadata
+045 000011F0 SECT4  notype ()    External     | BuildTupleFromCStrings
+046 00001330 SECT4  notype ()    External     | HeapTupleHeaderGetDatum
+047 00001390 SECT4  notype ()    External     | TupleDescGetSlot
+048 00000000 UNDEF  notype ()    External     | exprType
+049 00000000 UNDEF  notype ()    External     | exprTypmod
+04A 00000000 UNDEF  notype ()    External     | exprCollation
+04B 00000000 UNDEF  notype ()    External     | ReleaseBuffer
+04C 00000000 UNDEF  notype ()    External     | IncrBufferRefCount
+04D 00000000 UNDEF  notype ()    External     | namestrcpy
+04E 00000000 UNDEF  notype ()    External     | cstring_to_text_with_len
+04F 00000000 UNDEF  notype ()    External     | getTypeInputInfo
+050 00000000 UNDEF  notype ()    External     | lookup_rowtype_tupdesc
+051 00000000 UNDEF  notype ()    External     | assign_record_type_typmod
+052 00000000 UNDEF  notype ()    External     | memcpy
+053 00000000 UNDEF  notype ()    External     | memset
+054 00000000 SECT4  notype       Label        | $LN4
+055 00000070 SECT4  notype       Label        | $LN6
+056 00000100 SECT4  notype       Label        | $LN30
+057 00000210 SECT4  notype       Label        | $LN6
+058 00000290 SECT4  notype       Label        | $LN16
+059 00000330 SECT4  notype       Label        | $LN20
+05A 00000400 SECT4  notype       Label        | $LN11
+05B 000004A0 SECT4  notype       Label        | $LN7
+05C 00000530 SECT4  notype       Label        | $LN7
+05D 000005C0 SECT4  notype       Label        | $LN24
+05E 00000750 SECT4  notype       Label        | $LN13
+05F 000007D0 SECT4  notype       Label        | $LN7
+060 00000810 SECT4  notype       Label        | $LN15
+061 000008C0 SECT4  notype       Label        | $LN21
+062 00000990 SECT4  notype       Label        | $LN4
+063 000009C0 SECT4  notype       Label        | $LN4
+064 00000A10 SECT4  notype       Label        | $LN6
+065 00000A50 SECT4  notype       Label        | $LN22
+066 00000B20 SECT4  notype       Label        | $LN22
+067 00000BF0 SECT4  notype       Label        | $LN21
+068 00000CC0 SECT4  notype       Label        | $LN24
+069 00000D80 SECT4  notype       Label        | $LN4
+06A 00000DE0 SECT4  notype       Label        | $LN16
+06B 00000EF0 SECT4  notype       Label        | $LN27
+06C 00001070 SECT4  notype       Label        | $LN4
+06D 000010A0 SECT4  notype       Label        | $LN7
+06E 000010D0 SECT4  notype       Label        | $LN15
+06F 000011F0 SECT4  notype       Label        | $LN15
+070 00001330 SECT4  notype       Label        | $LN10
+071 00001390 SECT4  notype       Label        | $LN7
+072 00000000 SECT5  notype       Static       | .xdata
+    Section length  394, #relocs   54, #linenums    0, checksum 3912A177
+074 00000000 SECT5  notype       Static       | $unwind$MakeTupleTableSlot
+075 00000000 SECT6  notype       Static       | .pdata
+    Section length  2B8, #relocs   AE, #linenums    0, checksum 93CB096F
+077 00000000 SECT6  notype       Static       | $pdata$MakeTupleTableSlot
+078 00000008 SECT5  notype       Static       | $unwind$ExecAllocTableSlot
+079 0000000C SECT6  notype       Static       | $pdata$ExecAllocTableSlot
+07A 00000014 SECT5  notype       Static       | $unwind$ExecResetTupleTable
+07B 00000018 SECT6  notype       Static       | $pdata$ExecResetTupleTable
+07C 0000001C SECT5  notype       Static       | $chain$0$ExecResetTupleTable
+07D 00000024 SECT6  notype       Static       | $pdata$0$ExecResetTupleTable
+07E 00000030 SECT5  notype       Static       | $chain$1$ExecResetTupleTable
+07F 00000030 SECT6  notype       Static       | $pdata$1$ExecResetTupleTable
+080 00000044 SECT5  notype       Static       | $chain$3$ExecResetTupleTable
+081 0000003C SECT6  notype       Static       | $pdata$3$ExecResetTupleTable
+082 0000005C SECT5  notype       Static       | $chain$4$ExecResetTupleTable
+083 00000048 SECT6  notype       Static       | $pdata$4$ExecResetTupleTable
+084 0000006C SECT5  notype       Static       | $chain$5$ExecResetTupleTable
+085 00000054 SECT6  notype       Static       | $pdata$5$ExecResetTupleTable
+086 0000007C SECT5  notype       Static       | $chain$6$ExecResetTupleTable
+087 00000060 SECT6  notype       Static       | $pdata$6$ExecResetTupleTable
+088 0000008C SECT5  notype       Static       | $unwind$MakeSingleTupleTableSlot
+089 0000006C SECT6  notype       Static       | $pdata$MakeSingleTupleTableSlot
+08A 00000098 SECT5  notype       Static       | $unwind$ExecDropSingleTupleTableSlot
+08B 00000078 SECT6  notype       Static       | $pdata$ExecDropSingleTupleTableSlot
+08C 000000A4 SECT5  notype       Static       | $unwind$ExecSetSlotDescriptor
+08D 00000084 SECT6  notype       Static       | $pdata$ExecSetSlotDescriptor
+08E 000000B4 SECT5  notype       Static       | $unwind$ExecStoreTuple
+08F 00000090 SECT6  notype       Static       | $pdata$ExecStoreTuple
+090 000000C8 SECT5  notype       Static       | $unwind$ExecStoreMinimalTuple
+091 0000009C SECT6  notype       Static       | $pdata$ExecStoreMinimalTuple
+092 000000D8 SECT5  notype       Static       | $unwind$ExecClearTuple
+093 000000A8 SECT6  notype       Static       | $pdata$ExecClearTuple
+094 000000E4 SECT5  notype       Static       | $unwind$ExecStoreAllNullTuple
+095 000000B4 SECT6  notype       Static       | $pdata$ExecStoreAllNullTuple
+096 000000F0 SECT5  notype       Static       | $unwind$ExecFetchSlotMinimalTuple
+097 000000C0 SECT6  notype       Static       | $pdata$ExecFetchSlotMinimalTuple
+098 000000F8 SECT5  notype       Static       | $chain$0$ExecFetchSlotMinimalTuple
+099 000000CC SECT6  notype       Static       | $pdata$0$ExecFetchSlotMinimalTuple
+09A 0000010C SECT5  notype       Static       | $chain$1$ExecFetchSlotMinimalTuple
+09B 000000D8 SECT6  notype       Static       | $pdata$1$ExecFetchSlotMinimalTuple
+09C 0000011C SECT5  notype       Static       | $unwind$ExecFetchSlotTupleDatum
+09D 000000E4 SECT6  notype       Static       | $pdata$ExecFetchSlotTupleDatum
+09E 00000124 SECT5  notype       Static       | $unwind$ExecMaterializeSlot
+09F 000000F0 SECT6  notype       Static       | $pdata$ExecMaterializeSlot
+0A0 0000012C SECT5  notype       Static       | $chain$0$ExecMaterializeSlot
+0A1 000000FC SECT6  notype       Static       | $pdata$0$ExecMaterializeSlot
+0A2 00000140 SECT5  notype       Static       | $chain$1$ExecMaterializeSlot
+0A3 00000108 SECT6  notype       Static       | $pdata$1$ExecMaterializeSlot
+0A4 00000150 SECT5  notype       Static       | $unwind$ExecCopySlot
+0A5 00000114 SECT6  notype       Static       | $pdata$ExecCopySlot
+0A6 00000160 SECT5  notype       Static       | $unwind$ExecInitResultTupleSlot
+0A7 00000120 SECT6  notype       Static       | $pdata$ExecInitResultTupleSlot
+0A8 00000168 SECT5  notype       Static       | $unwind$ExecInitScanTupleSlot
+0A9 0000012C SECT6  notype       Static       | $pdata$ExecInitScanTupleSlot
+0AA 00000170 SECT5  notype       Static       | $unwind$ExecInitNullTupleSlot
+0AB 00000138 SECT6  notype       Static       | $pdata$ExecInitNullTupleSlot
+0AC 0000017C SECT5  notype       Static       | $unwind$ExecTypeFromTL
+0AD 00000144 SECT6  notype       Static       | $pdata$ExecTypeFromTL
+0AE 0000018C SECT5  notype       Static       | $chain$1$ExecTypeFromTL
+0AF 00000150 SECT6  notype       Static       | $pdata$1$ExecTypeFromTL
+0B0 000001A4 SECT5  notype       Static       | $chain$2$ExecTypeFromTL
+0B1 0000015C SECT6  notype       Static       | $pdata$2$ExecTypeFromTL
+0B2 000001B4 SECT5  notype       Static       | $unwind$ExecCleanTypeFromTL
+0B3 00000168 SECT6  notype       Static       | $pdata$ExecCleanTypeFromTL
+0B4 000001C4 SECT5  notype       Static       | $chain$1$ExecCleanTypeFromTL
+0B5 00000174 SECT6  notype       Static       | $pdata$1$ExecCleanTypeFromTL
+0B6 000001DC SECT5  notype       Static       | $chain$2$ExecCleanTypeFromTL
+0B7 00000180 SECT6  notype       Static       | $pdata$2$ExecCleanTypeFromTL
+0B8 000001EC SECT5  notype       Static       | $unwind$ExecTypeFromExprList
+0B9 0000018C SECT6  notype       Static       | $pdata$ExecTypeFromExprList
+0BA 000001FC SECT5  notype       Static       | $chain$1$ExecTypeFromExprList
+0BB 00000198 SECT6  notype       Static       | $pdata$1$ExecTypeFromExprList
+0BC 00000214 SECT5  notype       Static       | $chain$2$ExecTypeFromExprList
+0BD 000001A4 SECT6  notype       Static       | $pdata$2$ExecTypeFromExprList
+0BE 00000224 SECT5  notype       Static       | $unwind$ExecTypeSetColNames
+0BF 000001B0 SECT6  notype       Static       | $pdata$ExecTypeSetColNames
+0C0 00000230 SECT5  notype       Static       | $chain$0$ExecTypeSetColNames
+0C1 000001BC SECT6  notype       Static       | $pdata$0$ExecTypeSetColNames
+0C2 00000244 SECT5  notype       Static       | $chain$1$ExecTypeSetColNames
+0C3 000001C8 SECT6  notype       Static       | $pdata$1$ExecTypeSetColNames
+0C4 00000258 SECT5  notype       Static       | $chain$2$ExecTypeSetColNames
+0C5 000001D4 SECT6  notype       Static       | $pdata$2$ExecTypeSetColNames
+0C6 00000268 SECT5  notype       Static       | $chain$3$ExecTypeSetColNames
+0C7 000001E0 SECT6  notype       Static       | $pdata$3$ExecTypeSetColNames
+0C8 00000278 SECT5  notype       Static       | $unwind$begin_tup_output_tupdesc
+0C9 000001EC SECT6  notype       Static       | $pdata$begin_tup_output_tupdesc
+0CA 00000288 SECT5  notype       Static       | $unwind$do_tup_output
+0CB 000001F8 SECT6  notype       Static       | $pdata$do_tup_output
+0CC 000002A0 SECT5  notype       Static       | $unwind$do_text_output_multiline
+0CD 00000204 SECT6  notype       Static       | $pdata$do_text_output_multiline
+0CE 000002AC SECT5  notype       Static       | $chain$3$do_text_output_multiline
+0CF 00000210 SECT6  notype       Static       | $pdata$3$do_text_output_multiline
+0D0 000002CC SECT5  notype       Static       | $chain$4$do_text_output_multiline
+0D1 0000021C SECT6  notype       Static       | $pdata$4$do_text_output_multiline
+0D2 000002DC SECT5  notype       Static       | $unwind$end_tup_output
+0D3 00000228 SECT6  notype       Static       | $pdata$end_tup_output
+0D4 000002E4 SECT5  notype       Static       | $unwind$BlessTupleDesc
+0D5 00000234 SECT6  notype       Static       | $pdata$BlessTupleDesc
+0D6 000002EC SECT5  notype       Static       | $unwind$TupleDescGetAttInMetadata
+0D7 00000240 SECT6  notype       Static       | $pdata$TupleDescGetAttInMetadata
+0D8 00000300 SECT5  notype       Static       | $chain$0$TupleDescGetAttInMetadata
+0D9 0000024C SECT6  notype       Static       | $pdata$0$TupleDescGetAttInMetadata
+0DA 00000314 SECT5  notype       Static       | $chain$1$TupleDescGetAttInMetadata
+0DB 00000258 SECT6  notype       Static       | $pdata$1$TupleDescGetAttInMetadata
+0DC 00000324 SECT5  notype       Static       | $unwind$BuildTupleFromCStrings
+0DD 00000264 SECT6  notype       Static       | $pdata$BuildTupleFromCStrings
+0DE 00000338 SECT5  notype       Static       | $chain$1$BuildTupleFromCStrings
+0DF 00000270 SECT6  notype       Static       | $pdata$1$BuildTupleFromCStrings
+0E0 00000350 SECT5  notype       Static       | $chain$2$BuildTupleFromCStrings
+0E1 0000027C SECT6  notype       Static       | $pdata$2$BuildTupleFromCStrings
+0E2 00000360 SECT5  notype       Static       | $unwind$HeapTupleHeaderGetDatum
+0E3 00000288 SECT6  notype       Static       | $pdata$HeapTupleHeaderGetDatum
+0E4 00000368 SECT5  notype       Static       | $chain$0$HeapTupleHeaderGetDatum
+0E5 00000294 SECT6  notype       Static       | $pdata$0$HeapTupleHeaderGetDatum
+0E6 0000037C SECT5  notype       Static       | $chain$1$HeapTupleHeaderGetDatum
+0E7 000002A0 SECT6  notype       Static       | $pdata$1$HeapTupleHeaderGetDatum
+0E8 0000038C SECT5  notype       Static       | $unwind$TupleDescGetSlot
+0E9 000002AC SECT6  notype       Static       | $pdata$TupleDescGetSlot
+0EA 00000000 UNDEF  notype       External     | CurrentMemoryContext
+0EB 00000000 UNDEF  notype       External     | newNodeMacroHolder
+
+String Table Size = 0x12D0 bytes
+
+  Summary
+
+        89E8 .debug$S
+          68 .debug$T
+          5D .drectve
+         2B8 .pdata
+        13BA .text$mn
+         394 .xdata

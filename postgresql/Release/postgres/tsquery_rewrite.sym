@@ -1,0 +1,173 @@
+
+Dump of file Release\postgres/tsquery_rewrite.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 57C0, #relocs   92, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  5F5, #relocs   57, #linenums    0, checksum 3135D76B
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  135, #relocs    A, #linenums    0, checksum 8978A04B, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  348, #relocs   24, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  1DC, #relocs    9, #linenums    0, checksum 2D7D75B9, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  4FC, #relocs   3A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+013 00000000 UNDEF  notype ()    External     | errstart
+014 00000000 UNDEF  notype ()    External     | errfinish
+015 00000000 UNDEF  notype ()    External     | errcode
+016 00000000 UNDEF  notype ()    External     | errmsg
+017 00000000 UNDEF  notype ()    External     | elog_start
+018 00000000 UNDEF  notype ()    External     | elog_finish
+019 00000000 UNDEF  notype ()    External     | palloc0
+01A 00000000 UNDEF  notype ()    External     | pfree
+01B 00000000 UNDEF  notype ()    External     | pg_detoast_datum_copy
+01C 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+01D 00000000 UNDEF  notype ()    External     | SPI_connect
+01E 00000000 UNDEF  notype ()    External     | SPI_finish
+01F 00000000 UNDEF  notype ()    External     | SPI_prepare
+020 00000000 UNDEF  notype ()    External     | SPI_freeplan
+021 00000000 UNDEF  notype ()    External     | SPI_getbinval
+022 00000000 UNDEF  notype ()    External     | SPI_gettypeid
+023 00000000 UNDEF  notype ()    External     | SPI_freetuptable
+024 00000000 UNDEF  notype ()    External     | SPI_cursor_open
+025 00000000 UNDEF  notype ()    External     | SPI_cursor_fetch
+026 00000000 UNDEF  notype ()    External     | SPI_cursor_close
+027 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+028 00000000 UNDEF  notype ()    External     | check_stack_depth
+029 00000000 UNDEF  notype ()    External     | QT2QTN
+02A 00000000 UNDEF  notype ()    External     | QTN2QT
+02B 00000000 UNDEF  notype ()    External     | QTNFree
+02C 00000000 UNDEF  notype ()    External     | QTNSort
+02D 00000000 UNDEF  notype ()    External     | QTNTernary
+02E 00000000 UNDEF  notype ()    External     | QTNBinary
+02F 00000000 UNDEF  notype ()    External     | QTNodeCompare
+030 00000000 UNDEF  notype ()    External     | QTNCopy
+031 00000000 UNDEF  notype ()    External     | QTNClearFlags
+032 00000000 UNDEF  notype ()    External     | QTNEq
+033 00000000 SECT4  notype ()    External     | findsubquery
+034 00000030 SECT4  notype ()    External     | tsquery_rewrite
+035 000001D0 SECT4  notype ()    External     | tsquery_rewrite_query
+036 00000000 UNDEF  notype ()    External     | text_to_cstring
+037 00000000 SECT7  notype ()    Static       | findeq
+038 00000000 SECT5  notype ()    Static       | dofindsubquery
+039 00000000 SECT4  notype       Label        | $LN6
+03A 00000030 SECT4  notype       Label        | $LN41
+03B 000001D0 SECT4  notype       Label        | $LN67
+03C 00000000 SECT9  notype       Static       | .xdata
+    Section length   D0, #relocs   18, #linenums    0, checksum  85BAD9B
+03E 00000000 SECT9  notype       Static       | $unwind$findsubquery
+03F 00000000 SECTA  notype       Static       | .pdata
+    Section length   84, #relocs   21, #linenums    0, checksum 5F9EABB5
+041 00000000 SECTA  notype       Static       | $pdata$findsubquery
+042 00000008 SECT9  notype       Static       | $unwind$tsquery_rewrite
+043 0000000C SECTA  notype       Static       | $pdata$tsquery_rewrite
+044 00000018 SECT9  notype       Static       | $chain$1$tsquery_rewrite
+045 00000018 SECTA  notype       Static       | $pdata$1$tsquery_rewrite
+046 00000030 SECT9  notype       Static       | $chain$2$tsquery_rewrite
+047 00000024 SECTA  notype       Static       | $pdata$2$tsquery_rewrite
+048 00000044 SECT9  notype       Static       | $chain$4$tsquery_rewrite
+049 00000030 SECTA  notype       Static       | $pdata$4$tsquery_rewrite
+04A 00000058 SECT9  notype       Static       | $chain$5$tsquery_rewrite
+04B 0000003C SECTA  notype       Static       | $pdata$5$tsquery_rewrite
+04C 00000068 SECT9  notype       Static       | $unwind$tsquery_rewrite_query
+04D 00000048 SECTA  notype       Static       | $pdata$tsquery_rewrite_query
+04E 00000078 SECT9  notype       Static       | $chain$1$tsquery_rewrite_query
+04F 00000054 SECTA  notype       Static       | $pdata$1$tsquery_rewrite_query
+050 00000090 SECT9  notype       Static       | $chain$3$tsquery_rewrite_query
+051 00000060 SECTA  notype       Static       | $pdata$3$tsquery_rewrite_query
+052 000000A8 SECT9  notype       Static       | $chain$4$tsquery_rewrite_query
+053 0000006C SECTA  notype       Static       | $pdata$4$tsquery_rewrite_query
+054 000000BC SECT9  notype       Static       | $chain$5$tsquery_rewrite_query
+055 00000078 SECTA  notype       Static       | $pdata$5$tsquery_rewrite_query
+056 00000000 SECTB  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 3AE6A4B7, selection    5 (pick associative Section 0x7)
+058 00000000 SECTB  notype       Static       | $unwind$findeq
+059 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B85DDE25, selection    5 (pick associative Section 0x7)
+05B 00000000 SECTC  notype       Static       | $pdata$findeq
+05C 00000000 SECTD  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum F2237A3E, selection    5 (pick associative Section 0x7)
+05E 00000000 SECTD  notype       Static       | $chain$0$findeq
+05F 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum CB4ADD36, selection    5 (pick associative Section 0x7)
+061 00000000 SECTE  notype       Static       | $pdata$0$findeq
+062 00000000 SECTF  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 46C97C5E, selection    5 (pick associative Section 0x7)
+064 00000000 SECTF  notype       Static       | $chain$1$findeq
+065 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D5027DBC, selection    5 (pick associative Section 0x7)
+067 00000000 SECT10 notype       Static       | $pdata$1$findeq
+068 00000000 SECT11 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum F8ED2403, selection    5 (pick associative Section 0x7)
+06A 00000000 SECT11 notype       Static       | $chain$3$findeq
+06B 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7E828D45, selection    5 (pick associative Section 0x7)
+06D 00000000 SECT12 notype       Static       | $pdata$3$findeq
+06E 00000000 SECT13 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 7446BD1D, selection    5 (pick associative Section 0x7)
+070 00000000 SECT13 notype       Static       | $chain$4$findeq
+071 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F8C8088E, selection    5 (pick associative Section 0x7)
+073 00000000 SECT14 notype       Static       | $pdata$4$findeq
+074 00000000 SECT15 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 721D37DA, selection    5 (pick associative Section 0x7)
+076 00000000 SECT15 notype       Static       | $chain$5$findeq
+077 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6D18A310, selection    5 (pick associative Section 0x7)
+079 00000000 SECT16 notype       Static       | $pdata$5$findeq
+07A 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum  10A34C9, selection    5 (pick associative Section 0x7)
+07C 00000000 SECT17 notype       Static       | $chain$6$findeq
+07D 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8FDEBC29, selection    5 (pick associative Section 0x7)
+07F 00000000 SECT18 notype       Static       | $pdata$6$findeq
+080 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum  EF5E483, selection    5 (pick associative Section 0x5)
+082 00000000 SECT19 notype       Static       | $unwind$dofindsubquery
+083 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6B5A56AD, selection    5 (pick associative Section 0x5)
+085 00000000 SECT1A notype       Static       | $pdata$dofindsubquery
+086 00000000 UNDEF  notype       External     | pg_signal_queue
+087 00000000 UNDEF  notype       External     | pg_signal_mask
+088 00000000 UNDEF  notype       External     | CurrentMemoryContext
+089 00000000 UNDEF  notype       External     | SPI_processed
+08A 00000000 UNDEF  notype       External     | SPI_tuptable
+08B 00000000 UNDEF  notype       External     | InterruptPending
+08C 00000000 SECT1B notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 14566E9F, selection    2 (pick any)
+08E 00000000 SECT1B notype       External     | ??_C@_0BG@EDIACAIA@tsquery_rewrite_query?$AA@ (`string')
+08F 00000000 SECT1C notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum F259EC4F, selection    2 (pick any)
+091 00000000 SECT1C notype       External     | ??_C@_0CI@OEEKCOAB@src?1backend?1utils?1adt?1tsquery_re@ (`string')
+092 00000000 SECT1D notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 1580B16E, selection    2 (pick any)
+094 00000000 SECT1D notype       External     | ??_C@_0BJ@DLAEABO@SPI_prepare?$CI?$CC?$CFs?$CC?$CJ?5failed?$AA@ (`string')
+095 00000000 SECT1E notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum FF474910, selection    2 (pick any)
+097 00000000 SECT1E notype       External     | ??_C@_0BN@LOMHDMJ@SPI_cursor_open?$CI?$CC?$CFs?$CC?$CJ?5failed?$AA@ (`string')
+098 00000000 SECT1F notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum EF6E8D94, selection    2 (pick any)
+09A 00000000 SECT1F notype       External     | ??_C@_0DB@ECAEHCJO@ts_rewrite?5query?5must?5return?5two@ (`string')
+
+String Table Size = 0x68A bytes
+
+  Summary
+
+        6004 .debug$S
+          68 .debug$T
+          5D .drectve
+          E4 .pdata
+          A5 .rdata
+         906 .text$mn
+         164 .xdata

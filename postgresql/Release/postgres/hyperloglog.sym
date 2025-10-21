@@ -1,0 +1,110 @@
+
+Dump of file Release\postgres/hyperloglog.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 3C34, #relocs   52, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  399, #relocs   1C, #linenums    0, checksum 49191E3B
+00A 00000000 UNDEF  notype ()    External     | elog_start
+00B 00000000 UNDEF  notype ()    External     | elog_finish
+00C 00000000 UNDEF  notype ()    External     | palloc0
+00D 00000000 UNDEF  notype ()    External     | pfree
+00E 00000000 SECT4  notype ()    External     | initHyperLogLog
+00F 00000110 SECT4  notype ()    External     | initHyperLogLogError
+010 000001C0 SECT4  notype ()    External     | addHyperLogLog
+011 00000230 SECT4  notype ()    External     | estimateHyperLogLog
+012 00000390 SECT4  notype ()    External     | freeHyperLogLog
+013 00000000 UNDEF  notype ()    External     | log
+014 00000000 UNDEF  notype ()    External     | pow
+015 00000000 UNDEF  notype ()    External     | sqrt
+016 00000000 SECT4  notype       Label        | $LN19
+017 00000110 SECT4  notype       Label        | $LN13
+018 00000230 SECT4  notype       Label        | $LN33
+019 00000000 SECT5  notype       Static       | .xdata
+    Section length   88, #relocs    C, #linenums    0, checksum C6E9159B
+01B 00000000 SECT5  notype       Static       | $unwind$initHyperLogLog
+01C 00000000 SECT6  notype       Static       | .pdata
+    Section length   54, #relocs   15, #linenums    0, checksum 1BE1D08D
+01E 00000000 SECT6  notype       Static       | $pdata$initHyperLogLog
+01F 0000000C SECT5  notype       Static       | $unwind$initHyperLogLogError
+020 0000000C SECT6  notype       Static       | $pdata$initHyperLogLogError
+021 00000024 SECT5  notype       Static       | $unwind$estimateHyperLogLog
+022 00000018 SECT6  notype       Static       | $pdata$estimateHyperLogLog
+023 0000003C SECT5  notype       Static       | $chain$0$estimateHyperLogLog
+024 00000024 SECT6  notype       Static       | $pdata$0$estimateHyperLogLog
+025 00000050 SECT5  notype       Static       | $chain$2$estimateHyperLogLog
+026 00000030 SECT6  notype       Static       | $pdata$2$estimateHyperLogLog
+027 00000068 SECT5  notype       Static       | $chain$3$estimateHyperLogLog
+028 0000003C SECT6  notype       Static       | $pdata$3$estimateHyperLogLog
+029 00000078 SECT5  notype       Static       | $chain$4$estimateHyperLogLog
+02A 00000048 SECT6  notype       Static       | $pdata$4$estimateHyperLogLog
+02B 00000000 SECT7  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 47975D75, selection    2 (pick any)
+02D 00000000 SECT7  notype       External     | ??_C@_0BA@FENDOJNP@initHyperLogLog?$AA@ (`string')
+02E 00000000 SECT8  notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum D9F252D5, selection    2 (pick any)
+030 00000000 SECT8  notype       External     | ??_C@_0BO@CGAJJDJP@src?1backend?1lib?1hyperloglog?4c?$AA@ (`string')
+031 00000000 SECT9  notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum FFC9964B, selection    2 (pick any)
+033 00000000 SECT9  notype       External     | ??_C@_0CN@MGLGPOBA@bit?5width?5must?5be?5between?54?5and?5@ (`string')
+034 00000000 SECTA  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 4CD4ADAC, selection    2 (pick any)
+036 00000000 SECTA  notype       External     | __real@3df0000000000000
+037 00000000 SECTB  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 8382A7D8, selection    2 (pick any)
+039 00000000 SECTB  notype       External     | __real@3fe589374bc6a7f0
+03A 00000000 SECTC  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum EE766D46, selection    2 (pick any)
+03C 00000000 SECTC  notype       External     | __real@3fe64dd2f1a9fbe7
+03D 00000000 SECTD  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A8D65EA9, selection    2 (pick any)
+03F 00000000 SECTD  notype       External     | __real@3fe6b020c49ba5e3
+040 00000000 SECTE  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 2BD01C5C, selection    2 (pick any)
+042 00000000 SECTE  notype       External     | __real@3fe714e3bcd35a86
+043 00000000 SECTF  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+045 00000000 SECTF  notype       External     | __real@3ff0000000000000
+046 00000000 SECT10 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum F25C9B16, selection    2 (pick any)
+048 00000000 SECT10 notype       External     | __real@3ff0a3d70a3d70a4
+049 00000000 SECT11 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum BFB6DBB3, selection    2 (pick any)
+04B 00000000 SECT11 notype       External     | __real@3ff14395810624dd
+04C 00000000 SECT12 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 76DC4190, selection    2 (pick any)
+04E 00000000 SECT12 notype       External     | __real@4000000000000000
+04F 00000000 SECT13 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 12B08494, selection    2 (pick any)
+051 00000000 SECT13 notype       External     | __real@4004000000000000
+052 00000000 SECT14 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A734CCD0, selection    2 (pick any)
+054 00000000 SECT14 notype       External     | __real@41a1111111111111
+055 00000000 SECT15 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum FB69F197, selection    2 (pick any)
+057 00000000 SECT15 notype       External     | __real@43f0000000000000
+058 00000000 SECT16 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum F8DF139B, selection    2 (pick any)
+05A 00000000 SECT16 notype       External     | __real@c1f0000000000000
+05B 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x3D0 bytes
+
+  Summary
+
+        3C34 .debug$S
+          68 .debug$T
+          5D .drectve
+          54 .pdata
+          C3 .rdata
+         399 .text$mn
+          88 .xdata

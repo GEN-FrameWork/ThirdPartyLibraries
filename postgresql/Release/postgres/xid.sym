@@ -1,0 +1,88 @@
+
+Dump of file Release\postgres/xid.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 442C, #relocs   76, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  271, #relocs   12, #linenums    0, checksum ADE0DFA8
+00A 00000000 UNDEF  notype       External     | __imp_strtoul
+00B 00000000 UNDEF  notype ()    External     | pg_snprintf
+00C 00000000 UNDEF  notype ()    External     | palloc
+00D 00000000 UNDEF  notype ()    External     | ReadNextMultiXactId
+00E 00000000 UNDEF  notype ()    External     | GetStableLatestTransactionId
+00F 00000000 UNDEF  notype ()    External     | pq_sendint
+010 00000000 UNDEF  notype ()    External     | pq_begintypsend
+011 00000000 UNDEF  notype ()    External     | pq_endtypsend
+012 00000000 UNDEF  notype ()    External     | pq_getmsgint
+013 00000000 SECT4  notype ()    External     | xidin
+014 00000020 SECT4  notype ()    External     | xidout
+015 00000070 SECT4  notype ()    External     | cidin
+016 00000090 SECT4  notype ()    External     | cidout
+017 000000E0 SECT4  notype ()    External     | xideq
+018 00000100 SECT4  notype ()    External     | cideq
+019 00000120 SECT4  notype ()    External     | xid_age
+01A 00000150 SECT4  notype ()    External     | xidrecv
+01B 00000170 SECT4  notype ()    External     | xidsend
+01C 000001B0 SECT4  notype ()    External     | cidrecv
+01D 000001D0 SECT4  notype ()    External     | cidsend
+01E 00000210 SECT4  notype ()    External     | xidneq
+01F 00000230 SECT4  notype ()    External     | mxid_age
+020 00000260 SECT4  notype ()    External     | xidComparator
+021 00000000 SECT4  notype       Label        | $LN4
+022 00000020 SECT4  notype       Label        | $LN4
+023 00000070 SECT4  notype       Label        | $LN4
+024 00000090 SECT4  notype       Label        | $LN4
+025 00000120 SECT4  notype       Label        | $LN5
+026 00000150 SECT4  notype       Label        | $LN4
+027 00000170 SECT4  notype       Label        | $LN4
+028 000001B0 SECT4  notype       Label        | $LN4
+029 000001D0 SECT4  notype       Label        | $LN4
+02A 00000230 SECT4  notype       Label        | $LN5
+02B 00000000 SECT5  notype       Static       | .xdata
+    Section length   58, #relocs    0, #linenums    0, checksum 44CD6FBF
+02D 00000000 SECT5  notype       Static       | $unwind$xidin
+02E 00000000 SECT6  notype       Static       | .pdata
+    Section length   78, #relocs   1E, #linenums    0, checksum 372BA143
+030 00000000 SECT6  notype       Static       | $pdata$xidin
+031 00000008 SECT5  notype       Static       | $unwind$xidout
+032 0000000C SECT6  notype       Static       | $pdata$xidout
+033 00000014 SECT5  notype       Static       | $unwind$cidin
+034 00000018 SECT6  notype       Static       | $pdata$cidin
+035 0000001C SECT5  notype       Static       | $unwind$cidout
+036 00000024 SECT6  notype       Static       | $pdata$cidout
+037 00000028 SECT5  notype       Static       | $unwind$xid_age
+038 00000030 SECT6  notype       Static       | $pdata$xid_age
+039 00000030 SECT5  notype       Static       | $unwind$xidrecv
+03A 0000003C SECT6  notype       Static       | $pdata$xidrecv
+03B 00000038 SECT5  notype       Static       | $unwind$xidsend
+03C 00000048 SECT6  notype       Static       | $pdata$xidsend
+03D 00000040 SECT5  notype       Static       | $unwind$cidrecv
+03E 00000054 SECT6  notype       Static       | $pdata$cidrecv
+03F 00000048 SECT5  notype       Static       | $unwind$cidsend
+040 00000060 SECT6  notype       Static       | $pdata$cidsend
+041 00000050 SECT5  notype       Static       | $unwind$mxid_age
+042 0000006C SECT6  notype       Static       | $pdata$mxid_age
+043 00000000 SECT7  notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum 8469E0FB, selection    2 (pick any)
+045 00000000 SECT7  notype       External     | ??_C@_03FKNCMABI@?$CFlu?$AA@ (`string')
+
+String Table Size = 0x1DC bytes
+
+  Summary
+
+        442C .debug$S
+          68 .debug$T
+          5D .drectve
+          78 .pdata
+           4 .rdata
+         271 .text$mn
+          58 .xdata

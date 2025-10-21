@@ -1,0 +1,291 @@
+
+Dump of file Release\postgres/execSRF.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6BD4, #relocs   FC, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  AC9, #relocs   74, #linenums    0, checksum 864552EF
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   87, #relocs    0, #linenums    0, checksum F2CED61F, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  27C, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  118, #relocs   10, #linenums    0, checksum 6CEC00B8, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  334, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  28F, #relocs   21, #linenums    0, checksum E0AC99DC, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  630, #relocs   38, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  1FB, #relocs   1F, #linenums    0, checksum C08F9CF5, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  244, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+01B 00000000 UNDEF  notype ()    External     | errstart
+01C 00000000 UNDEF  notype ()    External     | errfinish
+01D 00000000 UNDEF  notype ()    External     | errcode
+01E 00000000 UNDEF  notype ()    External     | errmsg
+01F 00000000 UNDEF  notype ()    External     | errmsg_plural
+020 00000000 UNDEF  notype ()    External     | errdetail
+021 00000000 UNDEF  notype ()    External     | errdetail_plural
+022 00000000 UNDEF  notype ()    External     | elog_start
+023 00000000 UNDEF  notype ()    External     | elog_finish
+024 00000000 UNDEF  notype ()    External     | MemoryContextAllocZero
+025 00000000 UNDEF  notype ()    External     | palloc
+026 00000000 UNDEF  notype ()    External     | CreateTemplateTupleDesc
+027 00000000 UNDEF  notype ()    External     | CreateTupleDescCopy
+028 00000000 UNDEF  notype ()    External     | FreeTupleDesc
+029 00000000 UNDEF  notype ()    External     | TupleDescInitEntry
+02A 00000000 UNDEF  notype ()    External     | RunFunctionExecuteHook
+02B 00000000 UNDEF  notype ()    External     | fmgr_info_cxt
+02C 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+02D 00000000 UNDEF  notype ()    External     | MakeSingleTupleTableSlot
+02E 00000000 UNDEF  notype ()    External     | ExecClearTuple
+02F 00000000 UNDEF  notype ()    External     | ExecFetchSlotTupleDatum
+030 00000000 UNDEF  notype ()    External     | slot_getattr
+031 00000000 UNDEF  notype ()    External     | tuplestore_begin_heap
+032 00000000 UNDEF  notype ()    External     | tuplestore_puttuple
+033 00000000 UNDEF  notype ()    External     | tuplestore_putvalues
+034 00000000 UNDEF  notype ()    External     | tuplestore_gettupleslot
+035 00000000 UNDEF  notype ()    External     | tuplestore_end
+036 00000000 UNDEF  notype ()    External     | pg_proc_aclcheck
+037 00000000 UNDEF  notype ()    External     | aclcheck_error
+038 00000000 UNDEF  notype ()    External     | ExecInitExpr
+039 00000000 UNDEF  notype ()    External     | ExecInitExprList
+03A 00000000 SECT4  notype ()    External     | ExecInitTableFunctionResult
+03B 000000D0 SECT4  notype ()    External     | ExecMakeTableFunctionResult
+03C 00000690 SECT4  notype ()    External     | ExecInitFunctionResultSet
+03D 000007B0 SECT4  notype ()    External     | ExecMakeFunctionResultSet
+03E 00000000 UNDEF  notype ()    External     | executor_errposition
+03F 00000000 UNDEF  notype ()    External     | RegisterExprContextCallback
+040 00000000 UNDEF  notype ()    External     | get_expr_result_type
+041 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+042 00000000 UNDEF  notype ()    External     | check_stack_depth
+043 00000000 UNDEF  notype ()    External     | GetUserId
+044 00000000 UNDEF  notype ()    External     | exprType
+045 00000000 UNDEF  notype ()    External     | exprLocation
+046 00000000 UNDEF  notype ()    External     | IsBinaryCoercible
+047 00000000 UNDEF  notype ()    External     | pgstat_init_function_usage
+048 00000000 UNDEF  notype ()    External     | pgstat_end_function_usage
+049 00000000 UNDEF  notype ()    External     | format_type_be
+04A 00000000 UNDEF  notype ()    External     | get_func_name
+04B 00000000 UNDEF  notype ()    External     | type_is_rowtype
+04C 00000000 UNDEF  notype ()    External     | MemoryContextReset
+04D 00000000 UNDEF  notype ()    External     | lookup_rowtype_tupdesc_copy
+04E 00000000 SECT9  notype ()    Static       | init_sexpr
+04F 00000A90 SECT4  notype ()    Static       | ShutdownSetExpr
+050 00000000 SECT5  notype ()    Static       | ExecEvalFuncArgs
+051 00000000 SECT7  notype ()    Static       | ExecPrepareTuplestoreResult
+052 00000000 SECTB  notype ()    Static       | tupledesc_match
+053 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+054 00000000 UNDEF  notype ()    External     | __security_check_cookie
+055 00000000 UNDEF  notype ()    External     | memset
+056 00000000 SECT4  notype       Label        | $LN7
+057 000005A2 SECT4  notype       Label        | $no_function_result$129
+058 000000D0 SECT4  notype       Label        | $LN128
+059 00000690 SECT4  notype       Label        | $LN13
+05A 000007F0 SECT4  notype       Label        | $restart$51
+05B 000007B0 SECT4  notype       Label        | $LN50
+05C 00000000 SECTD  notype       Static       | .xdata
+    Section length   70, #relocs    1, #linenums    0, checksum F64B111E
+05E 00000000 SECTD  notype       Static       | $unwind$ExecInitTableFunctionResult
+05F 00000000 SECTE  notype       Static       | .pdata
+    Section length   3C, #relocs    F, #linenums    0, checksum EE981422
+061 00000000 SECTE  notype       Static       | $pdata$ExecInitTableFunctionResult
+062 00000014 SECTD  notype       Static       | $unwind$ExecMakeTableFunctionResult
+063 0000000C SECTE  notype       Static       | $pdata$ExecMakeTableFunctionResult
+064 00000034 SECTD  notype       Static       | $unwind$ExecInitFunctionResultSet
+065 00000018 SECTE  notype       Static       | $pdata$ExecInitFunctionResultSet
+066 00000048 SECTD  notype       Static       | $unwind$ExecMakeFunctionResultSet
+067 00000024 SECTE  notype       Static       | $pdata$ExecMakeFunctionResultSet
+068 00000000 SECTF  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum  B63B00C, selection    5 (pick associative Section 0x9)
+06A 00000000 SECTF  notype       Static       | $unwind$init_sexpr
+06B 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 1D84865F, selection    5 (pick associative Section 0x9)
+06D 00000000 SECT10 notype       Static       | $pdata$init_sexpr
+06E 00000068 SECTD  notype       Static       | $unwind$ShutdownSetExpr
+06F 00000030 SECTE  notype       Static       | $pdata$ShutdownSetExpr
+070 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 2C6F0354, selection    5 (pick associative Section 0x5)
+072 00000000 SECT11 notype       Static       | $unwind$ExecEvalFuncArgs
+073 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 63F42A00, selection    5 (pick associative Section 0x5)
+075 00000000 SECT12 notype       Static       | $pdata$ExecEvalFuncArgs
+076 00000000 SECT13 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum E371F566, selection    5 (pick associative Section 0x5)
+078 00000000 SECT13 notype       Static       | $chain$0$ExecEvalFuncArgs
+079 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B1E7A797, selection    5 (pick associative Section 0x5)
+07B 00000000 SECT14 notype       Static       | $pdata$0$ExecEvalFuncArgs
+07C 00000000 SECT15 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 6696E2FA, selection    5 (pick associative Section 0x5)
+07E 00000000 SECT15 notype       Static       | $chain$1$ExecEvalFuncArgs
+07F 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  A5FD587, selection    5 (pick associative Section 0x5)
+081 00000000 SECT16 notype       Static       | $pdata$1$ExecEvalFuncArgs
+082 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum  8B04D7B, selection    5 (pick associative Section 0x5)
+084 00000000 SECT17 notype       Static       | $chain$2$ExecEvalFuncArgs
+085 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2ABB41C6, selection    5 (pick associative Section 0x5)
+087 00000000 SECT18 notype       Static       | $pdata$2$ExecEvalFuncArgs
+088 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum DAA3C0EC, selection    5 (pick associative Section 0x5)
+08A 00000000 SECT19 notype       Static       | $chain$3$ExecEvalFuncArgs
+08B 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D60446C3, selection    5 (pick associative Section 0x5)
+08D 00000000 SECT1A notype       Static       | $pdata$3$ExecEvalFuncArgs
+08E 00000000 SECT1B notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 28C0E2C0, selection    5 (pick associative Section 0x7)
+090 00000000 SECT1B notype       Static       | $unwind$ExecPrepareTuplestoreResult
+091 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7CBB312B, selection    5 (pick associative Section 0x7)
+093 00000000 SECT1C notype       Static       | $pdata$ExecPrepareTuplestoreResult
+094 00000000 SECT1D notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum A090D0E4, selection    5 (pick associative Section 0x7)
+096 00000000 SECT1D notype       Static       | $chain$0$ExecPrepareTuplestoreResult
+097 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum EA219481, selection    5 (pick associative Section 0x7)
+099 00000000 SECT1E notype       Static       | $pdata$0$ExecPrepareTuplestoreResult
+09A 00000000 SECT1F notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 5444388C, selection    5 (pick associative Section 0x7)
+09C 00000000 SECT1F notype       Static       | $chain$2$ExecPrepareTuplestoreResult
+09D 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4763787B, selection    5 (pick associative Section 0x7)
+09F 00000000 SECT20 notype       Static       | $pdata$2$ExecPrepareTuplestoreResult
+0A0 00000000 SECT21 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum ED133630, selection    5 (pick associative Section 0x7)
+0A2 00000000 SECT21 notype       Static       | $chain$3$ExecPrepareTuplestoreResult
+0A3 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3537723F, selection    5 (pick associative Section 0x7)
+0A5 00000000 SECT22 notype       Static       | $pdata$3$ExecPrepareTuplestoreResult
+0A6 00000000 SECT23 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum FE349297, selection    5 (pick associative Section 0x7)
+0A8 00000000 SECT23 notype       Static       | $chain$4$ExecPrepareTuplestoreResult
+0A9 00000000 SECT24 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B60B3C67, selection    5 (pick associative Section 0x7)
+0AB 00000000 SECT24 notype       Static       | $pdata$4$ExecPrepareTuplestoreResult
+0AC 00000000 SECT25 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 53767E6D, selection    5 (pick associative Section 0x7)
+0AE 00000000 SECT25 notype       Static       | $chain$5$ExecPrepareTuplestoreResult
+0AF 00000000 SECT26 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4F9D749C, selection    5 (pick associative Section 0x7)
+0B1 00000000 SECT26 notype       Static       | $pdata$5$ExecPrepareTuplestoreResult
+0B2 00000000 SECT27 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum C5ECDBC7, selection    5 (pick associative Section 0x7)
+0B4 00000000 SECT27 notype       Static       | $chain$6$ExecPrepareTuplestoreResult
+0B5 00000000 SECT28 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A793275F, selection    5 (pick associative Section 0x7)
+0B7 00000000 SECT28 notype       Static       | $pdata$6$ExecPrepareTuplestoreResult
+0B8 00000000 SECT29 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum  E17A620, selection    5 (pick associative Section 0xB)
+0BA 00000000 SECT29 notype       Static       | $unwind$tupledesc_match
+0BB 00000000 SECT2A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6760BA95, selection    5 (pick associative Section 0xB)
+0BD 00000000 SECT2A notype       Static       | $pdata$tupledesc_match
+0BE 00000000 SECT2B notype       Static       | .xdata
+    Section length   20, #relocs    3, #linenums    0, checksum 812B09CA, selection    5 (pick associative Section 0xB)
+0C0 00000000 SECT2B notype       Static       | $chain$3$tupledesc_match
+0C1 00000000 SECT2C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum AD60EAF2, selection    5 (pick associative Section 0xB)
+0C3 00000000 SECT2C notype       Static       | $pdata$3$tupledesc_match
+0C4 00000000 SECT2D notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum DE375079, selection    5 (pick associative Section 0xB)
+0C6 00000000 SECT2D notype       Static       | $chain$4$tupledesc_match
+0C7 00000000 SECT2E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8175327C, selection    5 (pick associative Section 0xB)
+0C9 00000000 SECT2E notype       Static       | $pdata$4$tupledesc_match
+0CA 00000000 UNDEF  notype       External     | pg_signal_queue
+0CB 00000000 UNDEF  notype       External     | pg_signal_mask
+0CC 00000000 UNDEF  notype       External     | CurrentMemoryContext
+0CD 00000000 UNDEF  notype       External     | newNodeMacroHolder
+0CE 00000000 UNDEF  notype       External     | object_access_hook
+0CF 00000000 UNDEF  notype       External     | InterruptPending
+0D0 00000000 UNDEF  notype       External     | work_mem
+0D1 00000000 SECT2F notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum F8AE3F4F, selection    2 (pick any)
+0D3 00000000 SECT2F notype       External     | ??_C@_06JKDNBPMO@column?$AA@ (`string')
+0D4 00000000 SECT30 notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 9018A146, selection    2 (pick any)
+0D6 00000000 SECT30 notype       External     | ??_C@_0BM@OPJHCJFA@ExecMakeTableFunctionResult?$AA@ (`string')
+0D7 00000000 SECT31 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 45F7FA2E, selection    2 (pick any)
+0D9 00000000 SECT31 notype       External     | ??_C@_0BP@NDABKJGB@src?1backend?1executor?1execSRF?4c?$AA@ (`string')
+0DA 00000000 SECT32 notype       Static       | .rdata
+    Section length   3B, #relocs    0, #linenums    0, checksum  D17F877, selection    2 (pick any)
+0DC 00000000 SECT32 notype       External     | ??_C@_0DL@DECNGKCI@rows?5returned?5by?5function?5are?5no@ (`string')
+0DD 00000000 SECT33 notype       Static       | .rdata
+    Section length   3E, #relocs    0, #linenums    0, checksum 7E3FC133, selection    2 (pick any)
+0DF 00000000 SECT33 notype       External     | ??_C@_0DO@JMKEJJKN@table?9function?5protocol?5for?5mate@ (`string')
+0E0 00000000 SECT34 notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum B0FF2009, selection    2 (pick any)
+0E2 00000000 SECT34 notype       External     | ??_C@_0CL@LHIJHEMH@unrecognized?5table?9function?5retu@ (`string')
+0E3 00000000 SECT35 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 71D12E2E, selection    2 (pick any)
+0E5 00000000 SECT35 notype       External     | ??_C@_0BK@CBMCGPOD@ExecInitFunctionResultSet?$AA@ (`string')
+0E6 00000000 SECT36 notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 37C5203E, selection    2 (pick any)
+0E8 00000000 SECT36 notype       External     | ??_C@_0BL@NCEAINHC@unrecognized?5node?5type?3?5?$CFd?$AA@ (`string')
+0E9 00000000 SECT37 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 6F0BFFDE, selection    2 (pick any)
+0EB 00000000 SECT37 notype       External     | ??_C@_0BK@DPBILOBD@ExecMakeFunctionResultSet?$AA@ (`string')
+0EC 00000000 SECT38 notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum D2E7D1B0, selection    2 (pick any)
+0EE 00000000 SECT38 notype       External     | ??_C@_0L@EGJPJPKD@init_sexpr?$AA@ (`string')
+0EF 00000000 SECT39 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum FE2C0CF3, selection    2 (pick any)
+0F1 00000000 SECT39 notype       External     | ??_C@_0DB@FDEGPDPJ@cannot?5pass?5more?5than?5?$CFd?5argumen@ (`string')
+0F2 00000000 SECT3A notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum 6F0786CF, selection    2 (pick any)
+0F4 00000000 SECT3A notype       External     | ??_C@_0DA@GCHAMKKF@cannot?5pass?5more?5than?5?$CFd?5argumen@ (`string')
+0F5 00000000 SECT3B notype       Static       | .rdata
+    Section length   3F, #relocs    0, #linenums    0, checksum 67EA171F, selection    2 (pick any)
+0F7 00000000 SECT3B notype       External     | ??_C@_0DP@HALPDCAE@set?9valued?5function?5called?5in?5co@ (`string')
+0F8 00000000 SECT3C notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum D6632493, selection    2 (pick any)
+0FA 00000000 SECT3C notype       External     | ??_C@_0BM@KJOMKMIF@ExecPrepareTuplestoreResult?$AA@ (`string')
+0FB 00000000 SECT3D notype       Static       | .rdata
+    Section length   51, #relocs    0, #linenums    0, checksum 7437403D, selection    2 (pick any)
+0FD 00000000 SECT3D notype       External     | ??_C@_0FB@BACNDEBK@function?5returning?5setof?5record?5@ (`string')
+0FE 00000000 SECT3E notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 769F5ABD, selection    2 (pick any)
+100 00000000 SECT3E notype       External     | ??_C@_0BA@GFNLOOBH@tupledesc_match?$AA@ (`string')
+101 00000000 SECT3F notype       Static       | .rdata
+    Section length   3B, #relocs    0, #linenums    0, checksum 3D409124, selection    2 (pick any)
+103 00000000 SECT3F notype       External     | ??_C@_0DL@EHKADHL@Returned?5row?5contains?5?$CFd?5attribu@ (`string')
+104 00000000 SECT40 notype       Static       | .rdata
+    Section length   3A, #relocs    0, #linenums    0, checksum 6848880A, selection    2 (pick any)
+106 00000000 SECT40 notype       External     | ??_C@_0DK@FBGJBFOJ@Returned?5row?5contains?5?$CFd?5attribu@ (`string')
+107 00000000 SECT41 notype       Static       | .rdata
+    Section length   40, #relocs    0, #linenums    0, checksum A23469C7, selection    2 (pick any)
+109 00000000 SECT41 notype       External     | ??_C@_0EA@CIEGPFAO@function?5return?5row?5and?5query?9sp@ (`string')
+10A 00000000 SECT42 notype       Static       | .rdata
+    Section length   3F, #relocs    0, #linenums    0, checksum F74AF41D, selection    2 (pick any)
+10C 00000000 SECT42 notype       External     | ??_C@_0DP@OABPNBAG@Returned?5type?5?$CFs?5at?5ordinal?5posi@ (`string')
+10D 00000000 SECT43 notype       Static       | .rdata
+    Section length   47, #relocs    0, #linenums    0, checksum 717FD39E, selection    2 (pick any)
+10F 00000000 SECT43 notype       External     | ??_C@_0EH@EDKIDKAO@Physical?5storage?5mismatch?5on?5dro@ (`string')
+110 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0xE11 bytes
+
+  Summary
+
+        79F8 .debug$S
+          68 .debug$T
+          5D .drectve
+          FC .pdata
+         398 .rdata
+        10F2 .text$mn
+         19C .xdata

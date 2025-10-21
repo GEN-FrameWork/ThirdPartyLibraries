@@ -1,0 +1,162 @@
+
+Dump of file Release\postgres/var.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5CA8, #relocs   E2, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  AAC, #relocs   6D, #linenums    0, checksum F275EF7D
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   90, #relocs    6, #linenums    0, checksum F6E30AD0, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  1F0, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | elog_start
+00F 00000000 UNDEF  notype ()    External     | elog_finish
+010 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+011 00000000 UNDEF  notype ()    External     | bms_is_empty
+012 00000000 UNDEF  notype ()    External     | bms_add_member
+013 00000000 UNDEF  notype ()    External     | bms_add_members
+014 00000000 UNDEF  notype ()    External     | bms_int_members
+015 00000000 UNDEF  notype ()    External     | bms_join
+016 00000000 UNDEF  notype ()    External     | bms_next_member
+017 00000000 UNDEF  notype ()    External     | copyObjectImpl
+018 00000000 UNDEF  notype ()    External     | lappend
+019 00000000 UNDEF  notype ()    External     | list_nth
+01A 00000000 UNDEF  notype ()    External     | expression_tree_walker
+01B 00000000 UNDEF  notype ()    External     | expression_tree_mutator
+01C 00000000 UNDEF  notype ()    External     | query_tree_walker
+01D 00000000 UNDEF  notype ()    External     | query_tree_mutator
+01E 00000000 UNDEF  notype ()    External     | query_or_expression_tree_walker
+01F 00000000 UNDEF  notype ()    External     | get_relids_for_join
+020 00000000 SECT4  notype ()    External     | pull_varnos
+021 00000040 SECT4  notype ()    External     | pull_varnos_of_level
+022 00000080 SECT4  notype ()    External     | pull_varattnos
+023 000000F0 SECT4  notype ()    External     | pull_vars_of_level
+024 00000130 SECT4  notype ()    External     | contain_var_clause
+025 00000180 SECT4  notype ()    External     | contain_vars_of_level
+026 000001B0 SECT4  notype ()    External     | locate_var_of_level
+027 000001F0 SECT4  notype ()    External     | pull_var_clause
+028 00000220 SECT4  notype ()    External     | flatten_join_alias_vars
+029 00000000 UNDEF  notype ()    External     | IncrementVarSublevelsUp
+02A 00000000 UNDEF  notype ()    External     | checkExprHasSubLink
+02B 00000270 SECT4  notype ()    Static       | pull_varnos_walker
+02C 000003A0 SECT4  notype ()    Static       | pull_varattnos_walker
+02D 00000400 SECT4  notype ()    Static       | pull_vars_walker
+02E 000004A0 SECT4  notype ()    Static       | contain_var_clause_walker
+02F 000004F0 SECT4  notype ()    Static       | contain_vars_of_level_walker
+030 00000580 SECT4  notype ()    Static       | locate_var_of_level_walker
+031 00000600 SECT4  notype ()    Static       | pull_var_clause_walker
+032 00000810 SECT4  notype ()    Static       | flatten_join_alias_vars_mutator
+033 00000000 SECT5  notype ()    Static       | alias_relid_set
+034 00000000 SECT4  notype       Label        | $LN4
+035 00000040 SECT4  notype       Label        | $LN4
+036 00000080 SECT4  notype       Label        | $LN13
+037 000000F0 SECT4  notype       Label        | $LN4
+038 00000180 SECT4  notype       Label        | $LN4
+039 000001B0 SECT4  notype       Label        | $LN4
+03A 000001F0 SECT4  notype       Label        | $LN4
+03B 00000220 SECT4  notype       Label        | $LN4
+03C 00000000 SECT7  notype       Static       | .xdata
+    Section length  100, #relocs   12, #linenums    0, checksum  7A9BABF
+03E 00000000 SECT7  notype       Static       | $unwind$pull_varnos
+03F 00000000 SECT8  notype       Static       | .pdata
+    Section length   FC, #relocs   3F, #linenums    0, checksum D58ED346
+041 00000000 SECT8  notype       Static       | $pdata$pull_varnos
+042 00000008 SECT7  notype       Static       | $unwind$pull_varnos_of_level
+043 0000000C SECT8  notype       Static       | $pdata$pull_varnos_of_level
+044 00000010 SECT7  notype       Static       | $unwind$pull_varattnos
+045 00000018 SECT8  notype       Static       | $pdata$pull_varattnos
+046 00000018 SECT7  notype       Static       | $unwind$pull_vars_of_level
+047 00000024 SECT8  notype       Static       | $pdata$pull_vars_of_level
+048 00000020 SECT7  notype       Static       | $unwind$contain_vars_of_level
+049 00000030 SECT8  notype       Static       | $pdata$contain_vars_of_level
+04A 00000028 SECT7  notype       Static       | $unwind$locate_var_of_level
+04B 0000003C SECT8  notype       Static       | $pdata$locate_var_of_level
+04C 00000030 SECT7  notype       Static       | $unwind$pull_var_clause
+04D 00000048 SECT8  notype       Static       | $pdata$pull_var_clause
+04E 00000038 SECT7  notype       Static       | $unwind$flatten_join_alias_vars
+04F 00000054 SECT8  notype       Static       | $pdata$flatten_join_alias_vars
+050 00000040 SECT7  notype       Static       | $unwind$pull_varnos_walker
+051 00000060 SECT8  notype       Static       | $pdata$pull_varnos_walker
+052 0000004C SECT7  notype       Static       | $unwind$pull_varattnos_walker
+053 0000006C SECT8  notype       Static       | $pdata$pull_varattnos_walker
+054 00000054 SECT7  notype       Static       | $unwind$pull_vars_walker
+055 00000078 SECT8  notype       Static       | $pdata$pull_vars_walker
+056 0000005C SECT7  notype       Static       | $unwind$contain_vars_of_level_walker
+057 00000084 SECT8  notype       Static       | $pdata$contain_vars_of_level_walker
+058 00000064 SECT7  notype       Static       | $unwind$locate_var_of_level_walker
+059 00000090 SECT8  notype       Static       | $pdata$locate_var_of_level_walker
+05A 0000006C SECT7  notype       Static       | $unwind$pull_var_clause_walker
+05B 0000009C SECT8  notype       Static       | $pdata$pull_var_clause_walker
+05C 00000078 SECT7  notype       Static       | $unwind$flatten_join_alias_vars_mutator
+05D 000000A8 SECT8  notype       Static       | $pdata$flatten_join_alias_vars_mutator
+05E 00000084 SECT7  notype       Static       | $chain$0$flatten_join_alias_vars_mutator
+05F 000000B4 SECT8  notype       Static       | $pdata$0$flatten_join_alias_vars_mutator
+060 00000098 SECT7  notype       Static       | $chain$3$flatten_join_alias_vars_mutator
+061 000000C0 SECT8  notype       Static       | $pdata$3$flatten_join_alias_vars_mutator
+062 000000B0 SECT7  notype       Static       | $chain$5$flatten_join_alias_vars_mutator
+063 000000CC SECT8  notype       Static       | $pdata$5$flatten_join_alias_vars_mutator
+064 000000C4 SECT7  notype       Static       | $chain$7$flatten_join_alias_vars_mutator
+065 000000D8 SECT8  notype       Static       | $pdata$7$flatten_join_alias_vars_mutator
+066 000000D8 SECT7  notype       Static       | $chain$9$flatten_join_alias_vars_mutator
+067 000000E4 SECT8  notype       Static       | $pdata$9$flatten_join_alias_vars_mutator
+068 000000EC SECT7  notype       Static       | $chain$11$flatten_join_alias_vars_mutator
+069 000000F0 SECT8  notype       Static       | $pdata$11$flatten_join_alias_vars_mutator
+06A 00000000 SECT9  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum F4634387, selection    5 (pick associative Section 0x5)
+06C 00000000 SECT9  notype       Static       | $unwind$alias_relid_set
+06D 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2F80B4F1, selection    5 (pick associative Section 0x5)
+06F 00000000 SECTA  notype       Static       | $pdata$alias_relid_set
+070 00000000 UNDEF  notype       External     | CurrentMemoryContext
+071 00000000 UNDEF  notype       External     | newNodeMacroHolder
+072 00000000 SECTB  notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 74DBB5FA, selection    2 (pick any)
+074 00000000 SECTB  notype       External     | ??_C@_0BH@PJIEGOEB@pull_var_clause_walker?$AA@ (`string')
+075 00000000 SECTC  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 2F18945B, selection    2 (pick any)
+077 00000000 SECTC  notype       External     | ??_C@_0CB@KKJLFBCJ@src?1backend?1optimizer?1util?1var?4c@ (`string')
+078 00000000 SECTD  notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum 5EC9EF73, selection    2 (pick any)
+07A 00000000 SECTD  notype       External     | ??_C@_0CJ@MPLLJACG@Upper?9level?5Var?5found?5where?5not?5@ (`string')
+07B 00000000 SECTE  notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum D1EF452C, selection    2 (pick any)
+07D 00000000 SECTE  notype       External     | ??_C@_0CM@KNDENMMP@Upper?9level?5Aggref?5found?5where?5n@ (`string')
+07E 00000000 SECTF  notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum FBB22028, selection    2 (pick any)
+080 00000000 SECTF  notype       External     | ??_C@_0CA@BNEHIKHK@Aggref?5found?5where?5not?5expected?$AA@ (`string')
+081 00000000 SECT10 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum 64961B34, selection    2 (pick any)
+083 00000000 SECT10 notype       External     | ??_C@_0CO@JIBGOMCA@Upper?9level?5GROUPING?5found?5where@ (`string')
+084 00000000 SECT11 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 3D2261BA, selection    2 (pick any)
+086 00000000 SECT11 notype       External     | ??_C@_0CC@IDKMPCGP@GROUPING?5found?5where?5not?5expecte@ (`string')
+087 00000000 SECT12 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum C1DFCF26, selection    2 (pick any)
+089 00000000 SECT12 notype       External     | ??_C@_0CE@FEJGICAM@WindowFunc?5found?5where?5not?5expec@ (`string')
+08A 00000000 SECT13 notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum CE130FA5, selection    2 (pick any)
+08C 00000000 SECT13 notype       External     | ??_C@_0DE@PNMHPPOK@Upper?9level?5PlaceHolderVar?5found@ (`string')
+08D 00000000 SECT14 notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum A8B64E91, selection    2 (pick any)
+08F 00000000 SECT14 notype       External     | ??_C@_0CI@LOKFIMNP@PlaceHolderVar?5found?5where?5not?5e@ (`string')
+
+String Table Size = 0xA9B bytes
+
+  Summary
+
+        5E98 .debug$S
+          68 .debug$T
+          5D .drectve
+         108 .pdata
+         17D .rdata
+         B3C .text$mn
+         114 .xdata

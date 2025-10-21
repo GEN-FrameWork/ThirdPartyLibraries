@@ -1,0 +1,120 @@
+
+Dump of file Release\postgres/planagg.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4AE4, #relocs   72, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  498, #relocs   21, #linenums    0, checksum 67DE9665
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  37B, #relocs   21, #linenums    0, checksum 6937C15A, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  544, #relocs   38, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | elog_start
+00F 00000000 UNDEF  notype ()    External     | elog_finish
+010 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+011 00000000 UNDEF  notype ()    External     | palloc
+012 00000000 UNDEF  notype ()    External     | pstrdup
+013 00000000 UNDEF  notype ()    External     | copyObjectImpl
+014 00000000 UNDEF  notype ()    External     | equal
+015 00000000 UNDEF  notype ()    External     | lappend
+016 00000000 UNDEF  notype ()    External     | lcons
+017 00000000 UNDEF  notype ()    External     | list_nth
+018 00000000 UNDEF  notype ()    External     | list_member
+019 00000000 UNDEF  notype ()    External     | makeTargetEntry
+01A 00000000 UNDEF  notype ()    External     | makeConst
+01B 00000000 UNDEF  notype ()    External     | exprType
+01C 00000000 UNDEF  notype ()    External     | exprCollation
+01D 00000000 UNDEF  notype ()    External     | expression_tree_walker
+01E 00000000 UNDEF  notype ()    External     | contain_mutable_functions
+01F 00000000 UNDEF  notype ()    External     | set_pathtarget_cost_width
+020 00000000 UNDEF  notype ()    External     | add_path
+021 00000000 UNDEF  notype ()    External     | apply_projection_to_path
+022 00000000 UNDEF  notype ()    External     | create_minmaxagg_path
+023 00000000 UNDEF  notype ()    External     | fetch_upper_rel
+024 00000000 UNDEF  notype ()    External     | get_cheapest_fractional_path_for_pathkeys
+025 00000000 UNDEF  notype ()    External     | make_pathkeys_for_sortclauses
+026 00000000 UNDEF  notype ()    External     | query_planner
+027 00000000 SECT4  notype ()    External     | preprocess_minmax_aggregates
+028 00000000 UNDEF  notype ()    External     | SS_identify_outer_params
+029 00000000 UNDEF  notype ()    External     | SS_charge_for_initplans
+02A 00000000 UNDEF  notype ()    External     | SS_make_initplan_output_param
+02B 00000000 UNDEF  notype ()    External     | make_pathtarget_from_tlist
+02C 00000000 UNDEF  notype ()    External     | assignSortGroupRef
+02D 00000000 UNDEF  notype ()    External     | IncrementVarSublevelsUp
+02E 00000000 UNDEF  notype ()    External     | get_equality_op_for_ordering_op
+02F 00000000 UNDEF  notype ()    External     | type_is_rowtype
+030 00000000 UNDEF  notype ()    External     | SearchSysCache
+031 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+032 00000290 SECT4  notype ()    Static       | find_minmax_aggs_walker
+033 00000000 SECT5  notype ()    Static       | build_minmax_path
+034 00000450 SECT4  notype ()    Static       | minmax_qp_callback
+035 00000000 SECT4  notype       Label        | $LN72
+036 00000000 SECT7  notype       Static       | .xdata
+    Section length   B4, #relocs   15, #linenums    0, checksum 6C2013A4
+038 00000000 SECT7  notype       Static       | $unwind$preprocess_minmax_aggregates
+039 00000000 SECT8  notype       Static       | .pdata
+    Section length   78, #relocs   1E, #linenums    0, checksum 68BC5CB5
+03B 00000000 SECT8  notype       Static       | $pdata$preprocess_minmax_aggregates
+03C 0000000C SECT7  notype       Static       | $chain$2$preprocess_minmax_aggregates
+03D 0000000C SECT8  notype       Static       | $pdata$2$preprocess_minmax_aggregates
+03E 00000028 SECT7  notype       Static       | $chain$3$preprocess_minmax_aggregates
+03F 00000018 SECT8  notype       Static       | $pdata$3$preprocess_minmax_aggregates
+040 00000038 SECT7  notype       Static       | $unwind$find_minmax_aggs_walker
+041 00000024 SECT8  notype       Static       | $pdata$find_minmax_aggs_walker
+042 00000044 SECT7  notype       Static       | $chain$2$find_minmax_aggs_walker
+043 00000030 SECT8  notype       Static       | $pdata$2$find_minmax_aggs_walker
+044 00000060 SECT7  notype       Static       | $chain$3$find_minmax_aggs_walker
+045 0000003C SECT8  notype       Static       | $pdata$3$find_minmax_aggs_walker
+046 00000074 SECT7  notype       Static       | $chain$4$find_minmax_aggs_walker
+047 00000048 SECT8  notype       Static       | $pdata$4$find_minmax_aggs_walker
+048 00000084 SECT7  notype       Static       | $chain$6$find_minmax_aggs_walker
+049 00000054 SECT8  notype       Static       | $pdata$6$find_minmax_aggs_walker
+04A 0000009C SECT7  notype       Static       | $chain$7$find_minmax_aggs_walker
+04B 00000060 SECT8  notype       Static       | $pdata$7$find_minmax_aggs_walker
+04C 00000000 SECT9  notype       Static       | .xdata
+    Section length   20, #relocs    0, #linenums    0, checksum 296A7CE0, selection    5 (pick associative Section 0x5)
+04E 00000000 SECT9  notype       Static       | $unwind$build_minmax_path
+04F 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C0D2975B, selection    5 (pick associative Section 0x5)
+051 00000000 SECTA  notype       Static       | $pdata$build_minmax_path
+052 000000AC SECT7  notype       Static       | $unwind$minmax_qp_callback
+053 0000006C SECT8  notype       Static       | $pdata$minmax_qp_callback
+054 00000000 UNDEF  notype       External     | CurrentMemoryContext
+055 00000000 UNDEF  notype       External     | newNodeMacroHolder
+056 00000000 SECTB  notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 9747D9C2, selection    2 (pick any)
+058 00000000 SECTB  notype       External     | ??_C@_0BN@GDOMODBL@preprocess_minmax_aggregates?$AA@ (`string')
+059 00000000 SECTC  notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum E9CEAE6F, selection    2 (pick any)
+05B 00000000 SECTC  notype       External     | ??_C@_0CF@DCOACOPE@src?1backend?1optimizer?1plan?1plana@ (`string')
+05C 00000000 SECTD  notype       Static       | .rdata
+    Section length   3A, #relocs    0, #linenums    0, checksum 88DB35C9, selection    2 (pick any)
+05E 00000000 SECTD  notype       External     | ??_C@_0DK@LBPKKICK@could?5not?5find?5equality?5operator@ (`string')
+05F 00000000 SECTE  notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum ED46BA1D, selection    2 (pick any)
+061 00000000 SECTE  notype       External     | ??_C@_0L@HJDOPEAO@agg_target?$AA@ (`string')
+062 00000000 SECTF  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+064 00000000 SECTF  notype       External     | __real@3ff0000000000000
+065 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x675 bytes
+
+  Summary
+
+        5028 .debug$S
+          68 .debug$T
+          5D .drectve
+          84 .pdata
+          8F .rdata
+         813 .text$mn
+          D4 .xdata

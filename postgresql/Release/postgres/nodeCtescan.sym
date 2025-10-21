@@ -1,0 +1,78 @@
+
+Dump of file Release\postgres/nodeCtescan.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5338, #relocs   56, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  403, #relocs   29, #linenums    0, checksum 64177C13
+00A 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+00B 00000000 UNDEF  notype ()    External     | list_nth
+00C 00000000 UNDEF  notype ()    External     | ExecClearTuple
+00D 00000000 UNDEF  notype ()    External     | ExecCopySlot
+00E 00000000 UNDEF  notype ()    External     | tuplestore_begin_heap
+00F 00000000 UNDEF  notype ()    External     | tuplestore_set_eflags
+010 00000000 UNDEF  notype ()    External     | tuplestore_puttupleslot
+011 00000000 UNDEF  notype ()    External     | tuplestore_alloc_read_pointer
+012 00000000 UNDEF  notype ()    External     | tuplestore_select_read_pointer
+013 00000000 UNDEF  notype ()    External     | tuplestore_gettupleslot
+014 00000000 UNDEF  notype ()    External     | tuplestore_advance
+015 00000000 UNDEF  notype ()    External     | tuplestore_ateof
+016 00000000 UNDEF  notype ()    External     | tuplestore_rescan
+017 00000000 UNDEF  notype ()    External     | tuplestore_clear
+018 00000000 UNDEF  notype ()    External     | tuplestore_end
+019 00000000 UNDEF  notype ()    External     | ExecReScan
+01A 00000000 UNDEF  notype ()    External     | ExecInitQual
+01B 00000000 UNDEF  notype ()    External     | ExecScan
+01C 00000000 UNDEF  notype ()    External     | ExecAssignScanProjectionInfo
+01D 00000000 UNDEF  notype ()    External     | ExecScanReScan
+01E 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+01F 00000000 UNDEF  notype ()    External     | ExecInitScanTupleSlot
+020 00000000 UNDEF  notype ()    External     | ExecAssignExprContext
+021 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+022 00000000 UNDEF  notype ()    External     | ExecGetResultType
+023 00000000 UNDEF  notype ()    External     | ExecFreeExprContext
+024 00000000 UNDEF  notype ()    External     | ExecAssignScanType
+025 00000000 SECT4  notype ()    External     | ExecInitCteScan
+026 000001A0 SECT4  notype ()    External     | ExecEndCteScan
+027 000001F0 SECT4  notype ()    External     | ExecReScanCteScan
+028 00000280 SECT4  notype ()    Static       | CteScanNext
+029 000003E0 SECT4  notype ()    Static       | CteScanRecheck
+02A 000003F0 SECT4  notype ()    Static       | ExecCteScan
+02B 00000000 SECT4  notype       Label        | $LN6
+02C 000001A0 SECT4  notype       Label        | $LN5
+02D 000001F0 SECT4  notype       Label        | $LN6
+02E 00000000 SECT5  notype       Static       | .xdata
+    Section length   40, #relocs    0, #linenums    0, checksum AC943727
+030 00000000 SECT5  notype       Static       | $unwind$ExecInitCteScan
+031 00000000 SECT6  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum AC0347EC
+033 00000000 SECT6  notype       Static       | $pdata$ExecInitCteScan
+034 00000014 SECT5  notype       Static       | $unwind$ExecEndCteScan
+035 0000000C SECT6  notype       Static       | $pdata$ExecEndCteScan
+036 0000001C SECT5  notype       Static       | $unwind$ExecReScanCteScan
+037 00000018 SECT6  notype       Static       | $pdata$ExecReScanCteScan
+038 00000028 SECT5  notype       Static       | $unwind$CteScanNext
+039 00000024 SECT6  notype       Static       | $pdata$CteScanNext
+03A 00000000 UNDEF  notype       External     | CurrentMemoryContext
+03B 00000000 UNDEF  notype       External     | newNodeMacroHolder
+03C 00000000 UNDEF  notype       External     | work_mem
+
+String Table Size = 0x33F bytes
+
+  Summary
+
+        5338 .debug$S
+          68 .debug$T
+          5D .drectve
+          30 .pdata
+         403 .text$mn
+          40 .xdata

@@ -1,0 +1,167 @@
+
+Dump of file Release\postgres/nodeTidscan.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5738, #relocs   64, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  3C3, #relocs   22, #linenums    0, checksum  D1727D8
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  1BB, #relocs   11, #linenums    0, checksum 156133CF, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  340, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  37F, #relocs   11, #linenums    0, checksum A83A1B89, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  808, #relocs   4A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+013 00000000 UNDEF  notype ()    External     | pg_qsort
+014 00000000 UNDEF  notype ()    External     | elog_start
+015 00000000 UNDEF  notype ()    External     | elog_finish
+016 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+017 00000000 UNDEF  notype ()    External     | palloc
+018 00000000 UNDEF  notype ()    External     | palloc0
+019 00000000 UNDEF  notype ()    External     | repalloc
+01A 00000000 UNDEF  notype ()    External     | pfree
+01B 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+01C 00000000 UNDEF  notype ()    External     | ItemPointerEquals
+01D 00000000 UNDEF  notype ()    External     | lappend
+01E 00000000 UNDEF  notype ()    External     | ExecStoreTuple
+01F 00000000 UNDEF  notype ()    External     | ExecClearTuple
+020 00000000 UNDEF  notype ()    External     | heap_fetch
+021 00000000 UNDEF  notype ()    External     | heap_get_latest_tid
+022 00000000 UNDEF  notype ()    External     | deconstruct_array
+023 00000000 UNDEF  notype ()    External     | execCurrentOf
+024 00000000 UNDEF  notype ()    External     | ExecInitExpr
+025 00000000 UNDEF  notype ()    External     | ExecInitQual
+026 00000000 UNDEF  notype ()    External     | ExecScan
+027 00000000 UNDEF  notype ()    External     | ExecAssignScanProjectionInfo
+028 00000000 UNDEF  notype ()    External     | ExecScanReScan
+029 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+02A 00000000 UNDEF  notype ()    External     | ExecInitScanTupleSlot
+02B 00000000 UNDEF  notype ()    External     | ExecAssignExprContext
+02C 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+02D 00000000 UNDEF  notype ()    External     | ExecFreeExprContext
+02E 00000000 UNDEF  notype ()    External     | ExecAssignScanType
+02F 00000000 UNDEF  notype ()    External     | ExecOpenScanRelation
+030 00000000 UNDEF  notype ()    External     | ExecCloseScanRelation
+031 00000000 SECT4  notype ()    External     | ExecInitTidScan
+032 00000110 SECT4  notype ()    External     | ExecEndTidScan
+033 00000150 SECT4  notype ()    External     | ExecReScanTidScan
+034 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+035 00000000 UNDEF  notype ()    External     | get_leftop
+036 00000000 UNDEF  notype ()    External     | get_rightop
+037 00000000 UNDEF  notype ()    External     | ReleaseBuffer
+038 00000000 UNDEF  notype ()    External     | RelationGetNumberOfBlocksInFork
+039 00000000 SECT5  notype ()    Static       | TidExprListCreate
+03A 00000000 SECT7  notype ()    Static       | TidListEval
+03B 000001A0 SECT4  notype ()    Static       | itemptr_comparator
+03C 000001F0 SECT4  notype ()    Static       | TidNext
+03D 000003A0 SECT4  notype ()    Static       | TidRecheck
+03E 000003B0 SECT4  notype ()    Static       | ExecTidScan
+03F 00000000 SECT4  notype       Label        | $LN4
+040 00000110 SECT4  notype       Label        | $LN4
+041 00000150 SECT4  notype       Label        | $LN5
+042 00000000 SECT9  notype       Static       | .xdata
+    Section length   40, #relocs    0, #linenums    0, checksum D32641EA
+044 00000000 SECT9  notype       Static       | $unwind$ExecInitTidScan
+045 00000000 SECTA  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum 1C506D0A
+047 00000000 SECTA  notype       Static       | $pdata$ExecInitTidScan
+048 00000014 SECT9  notype       Static       | $unwind$ExecEndTidScan
+049 0000000C SECTA  notype       Static       | $pdata$ExecEndTidScan
+04A 0000001C SECT9  notype       Static       | $unwind$ExecReScanTidScan
+04B 00000018 SECTA  notype       Static       | $pdata$ExecReScanTidScan
+04C 00000000 SECTB  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum B96BC9FB, selection    5 (pick associative Section 0x5)
+04E 00000000 SECTB  notype       Static       | $unwind$TidExprListCreate
+04F 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum AED97719, selection    5 (pick associative Section 0x5)
+051 00000000 SECTC  notype       Static       | $pdata$TidExprListCreate
+052 00000000 SECTD  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum B8D60800, selection    5 (pick associative Section 0x5)
+054 00000000 SECTD  notype       Static       | $chain$0$TidExprListCreate
+055 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8D7CD736, selection    5 (pick associative Section 0x5)
+057 00000000 SECTE  notype       Static       | $pdata$0$TidExprListCreate
+058 00000000 SECTF  notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 3937B41E, selection    5 (pick associative Section 0x5)
+05A 00000000 SECTF  notype       Static       | $chain$3$TidExprListCreate
+05B 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8D993809, selection    5 (pick associative Section 0x5)
+05D 00000000 SECT10 notype       Static       | $pdata$3$TidExprListCreate
+05E 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 342B3DDA, selection    5 (pick associative Section 0x5)
+060 00000000 SECT11 notype       Static       | $chain$4$TidExprListCreate
+061 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8D015553, selection    5 (pick associative Section 0x5)
+063 00000000 SECT12 notype       Static       | $pdata$4$TidExprListCreate
+064 00000000 SECT13 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 178E9DF5, selection    5 (pick associative Section 0x5)
+066 00000000 SECT13 notype       Static       | $chain$5$TidExprListCreate
+067 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum   283071, selection    5 (pick associative Section 0x5)
+069 00000000 SECT14 notype       Static       | $pdata$5$TidExprListCreate
+06A 00000000 SECT15 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 835E4500, selection    5 (pick associative Section 0x7)
+06C 00000000 SECT15 notype       Static       | $unwind$TidListEval
+06D 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E4B09FF4, selection    5 (pick associative Section 0x7)
+06F 00000000 SECT16 notype       Static       | $pdata$TidListEval
+070 00000000 SECT17 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 69333E9C, selection    5 (pick associative Section 0x7)
+072 00000000 SECT17 notype       Static       | $chain$0$TidListEval
+073 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C5A399E0, selection    5 (pick associative Section 0x7)
+075 00000000 SECT18 notype       Static       | $pdata$0$TidListEval
+076 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 5DE77518, selection    5 (pick associative Section 0x7)
+078 00000000 SECT19 notype       Static       | $chain$1$TidListEval
+079 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum BE566DF3, selection    5 (pick associative Section 0x7)
+07B 00000000 SECT1A notype       Static       | $pdata$1$TidListEval
+07C 00000000 SECT1B notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 2DE06E30, selection    5 (pick associative Section 0x7)
+07E 00000000 SECT1B notype       Static       | $chain$2$TidListEval
+07F 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F3C98580, selection    5 (pick associative Section 0x7)
+081 00000000 SECT1C notype       Static       | $pdata$2$TidListEval
+082 00000024 SECT9  notype       Static       | $unwind$TidNext
+083 00000024 SECTA  notype       Static       | $pdata$TidNext
+084 00000000 UNDEF  notype       External     | pg_signal_queue
+085 00000000 UNDEF  notype       External     | pg_signal_mask
+086 00000000 UNDEF  notype       External     | CurrentMemoryContext
+087 00000000 UNDEF  notype       External     | newNodeMacroHolder
+088 00000000 UNDEF  notype       External     | InterruptPending
+089 00000000 SECT1D notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 88CDD234, selection    2 (pick any)
+08B 00000000 SECT1D notype       External     | ??_C@_0BC@BACJOCIG@TidExprListCreate?$AA@ (`string')
+08C 00000000 SECT1E notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum E4E8D444, selection    2 (pick any)
+08E 00000000 SECT1E notype       External     | ??_C@_0CD@BCOPHMIM@src?1backend?1executor?1nodeTidscan@ (`string')
+08F 00000000 SECT1F notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 79BAA96C, selection    2 (pick any)
+091 00000000 SECT1F notype       External     | ??_C@_0CB@PMDJGMBO@could?5not?5identify?5CTID?5variable@ (`string')
+092 00000000 SECT20 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum A99CCBBC, selection    2 (pick any)
+094 00000000 SECT20 notype       External     | ??_C@_0CD@FPJLGDHE@could?5not?5identify?5CTID?5expressi@ (`string')
+
+String Table Size = 0x62A bytes
+
+  Summary
+
+        6280 .debug$S
+          68 .debug$T
+          5D .drectve
+          9C .pdata
+          79 .rdata
+         8FD .text$mn
+          E4 .xdata

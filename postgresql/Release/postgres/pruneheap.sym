@@ -1,0 +1,109 @@
+
+Dump of file Release\postgres/pruneheap.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5938, #relocs   D2, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  802, #relocs   28, #linenums    0, checksum  DF080A3
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  570, #relocs   16, #linenums    0, checksum A62663A6, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  99C, #relocs   66, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | elog_start
+00F 00000000 UNDEF  notype ()    External     | elog_finish
+010 00000000 UNDEF  notype ()    External     | PageRepairFragmentation
+011 00000000 UNDEF  notype ()    External     | PageGetHeapFreeSpace
+012 00000000 UNDEF  notype ()    External     | HeapTupleGetUpdateXid
+013 00000000 SECT4  notype ()    External     | heap_page_prune_opt
+014 00000190 SECT4  notype ()    External     | heap_page_prune
+015 000004F0 SECT4  notype ()    External     | heap_page_prune_execute
+016 000005D0 SECT4  notype ()    External     | heap_get_root_tuples
+017 00000000 UNDEF  notype ()    External     | HeapTupleHeaderAdvanceLatestRemovedXid
+018 00000000 UNDEF  notype ()    External     | log_heap_clean
+019 00000000 UNDEF  notype ()    External     | TransactionIdPrecedes
+01A 00000000 UNDEF  notype ()    External     | RecoveryInProgress
+01B 00000000 UNDEF  notype ()    External     | IsCatalogRelation
+01C 00000000 UNDEF  notype ()    External     | pgstat_update_heap_dead_tuples
+01D 00000000 UNDEF  notype ()    External     | TransactionIdLimitedForOldSnapshots
+01E 00000000 UNDEF  notype ()    External     | HeapTupleSatisfiesVacuum
+01F 00000000 UNDEF  notype ()    External     | MarkBufferDirty
+020 00000000 UNDEF  notype ()    External     | BufferGetBlockNumber
+021 00000000 UNDEF  notype ()    External     | MarkBufferDirtyHint
+022 00000000 UNDEF  notype ()    External     | LockBuffer
+023 00000000 UNDEF  notype ()    External     | ConditionalLockBufferForCleanup
+024 00000000 SECT5  notype ()    Static       | heap_prune_chain
+025 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+026 00000000 UNDEF  notype ()    External     | __security_check_cookie
+027 00000000 UNDEF  notype ()    External     | memset
+028 00000000 SECT4  notype       Label        | $LN27
+029 00000190 SECT4  notype       Label        | $LN61
+02A 000005D0 SECT4  notype       Label        | $LN57
+02B 00000000 SECT7  notype       Static       | .xdata
+    Section length   DC, #relocs   19, #linenums    0, checksum 56A048D0
+02D 00000000 SECT7  notype       Static       | $unwind$heap_page_prune_opt
+02E 00000000 SECT8  notype       Static       | .pdata
+    Section length   84, #relocs   21, #linenums    0, checksum 63AAA14A
+030 00000000 SECT8  notype       Static       | $pdata$heap_page_prune_opt
+031 0000000C SECT7  notype       Static       | $chain$0$heap_page_prune_opt
+032 0000000C SECT8  notype       Static       | $pdata$0$heap_page_prune_opt
+033 00000020 SECT7  notype       Static       | $chain$1$heap_page_prune_opt
+034 00000018 SECT8  notype       Static       | $pdata$1$heap_page_prune_opt
+035 00000034 SECT7  notype       Static       | $chain$2$heap_page_prune_opt
+036 00000024 SECT8  notype       Static       | $pdata$2$heap_page_prune_opt
+037 00000044 SECT7  notype       Static       | $chain$3$heap_page_prune_opt
+038 00000030 SECT8  notype       Static       | $pdata$3$heap_page_prune_opt
+039 00000054 SECT7  notype       Static       | $unwind$heap_page_prune
+03A 0000003C SECT8  notype       Static       | $pdata$heap_page_prune
+03B 00000078 SECT7  notype       Static       | $unwind$heap_get_root_tuples
+03C 00000048 SECT8  notype       Static       | $pdata$heap_get_root_tuples
+03D 00000084 SECT7  notype       Static       | $chain$1$heap_get_root_tuples
+03E 00000054 SECT8  notype       Static       | $pdata$1$heap_get_root_tuples
+03F 0000009C SECT7  notype       Static       | $chain$5$heap_get_root_tuples
+040 00000060 SECT8  notype       Static       | $pdata$5$heap_get_root_tuples
+041 000000BC SECT7  notype       Static       | $chain$6$heap_get_root_tuples
+042 0000006C SECT8  notype       Static       | $pdata$6$heap_get_root_tuples
+043 000000CC SECT7  notype       Static       | $chain$7$heap_get_root_tuples
+044 00000078 SECT8  notype       Static       | $pdata$7$heap_get_root_tuples
+045 00000000 SECT9  notype       Static       | .xdata
+    Section length   24, #relocs    1, #linenums    0, checksum 3584E211, selection    5 (pick associative Section 0x5)
+047 00000000 SECT9  notype       Static       | $unwind$heap_prune_chain
+048 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FE68BE37, selection    5 (pick associative Section 0x5)
+04A 00000000 SECTA  notype       Static       | $pdata$heap_prune_chain
+04B 00000000 UNDEF  notype       External     | wal_level
+04C 00000000 UNDEF  notype       External     | CritSectionCount
+04D 00000000 UNDEF  notype       External     | RecentGlobalXmin
+04E 00000000 UNDEF  notype       External     | RecentGlobalDataXmin
+04F 00000000 UNDEF  notype       External     | BufferBlocks
+050 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+051 00000000 SECTB  notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum BA2EA93E, selection    2 (pick any)
+053 00000000 SECTB  notype       External     | ??_C@_0BB@IMDOKHHM@heap_prune_chain?$AA@ (`string')
+054 00000000 SECTC  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum B0078A67, selection    2 (pick any)
+056 00000000 SECTC  notype       External     | ??_C@_0CE@CFEOMHEN@src?1backend?1access?1heap?1prunehea@ (`string')
+057 00000000 SECTD  notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum A493093A, selection    2 (pick any)
+059 00000000 SECTD  notype       External     | ??_C@_0CL@KDOFFNPE@unexpected?5HeapTupleSatisfiesVac@ (`string')
+05A 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x5D3 bytes
+
+  Summary
+
+        62D4 .debug$S
+          68 .debug$T
+          5D .drectve
+          90 .pdata
+          60 .rdata
+         D72 .text$mn
+         100 .xdata

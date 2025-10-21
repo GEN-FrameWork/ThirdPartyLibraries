@@ -1,0 +1,103 @@
+
+Dump of file Release\postgres/nodeForeignscan.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6A6C, #relocs   D2, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  5B3, #relocs   2B, #linenums    0, checksum 2DAF5E1E
+00A 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+00B 00000000 UNDEF  notype ()    External     | ExecClearTuple
+00C 00000000 UNDEF  notype ()    External     | ExecMaterializeSlot
+00D 00000000 UNDEF  notype ()    External     | ExecReScan
+00E 00000000 UNDEF  notype ()    External     | ExecInitNode
+00F 00000000 UNDEF  notype ()    External     | ExecEndNode
+010 00000000 UNDEF  notype ()    External     | ExecInitQual
+011 00000000 UNDEF  notype ()    External     | ExecScan
+012 00000000 UNDEF  notype ()    External     | ExecAssignScanProjectionInfoWithVarno
+013 00000000 UNDEF  notype ()    External     | ExecScanReScan
+014 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+015 00000000 UNDEF  notype ()    External     | ExecInitScanTupleSlot
+016 00000000 UNDEF  notype ()    External     | ExecTypeFromTL
+017 00000000 UNDEF  notype ()    External     | ExecAssignExprContext
+018 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+019 00000000 UNDEF  notype ()    External     | ExecFreeExprContext
+01A 00000000 UNDEF  notype ()    External     | ExecAssignScanType
+01B 00000000 UNDEF  notype ()    External     | ExecOpenScanRelation
+01C 00000000 UNDEF  notype ()    External     | ExecCloseScanRelation
+01D 00000000 UNDEF  notype ()    External     | add_size
+01E 00000000 UNDEF  notype ()    External     | shm_toc_allocate
+01F 00000000 UNDEF  notype ()    External     | shm_toc_insert
+020 00000000 UNDEF  notype ()    External     | shm_toc_lookup
+021 00000000 SECT4  notype ()    External     | ExecInitForeignScan
+022 000001A0 SECT4  notype ()    External     | ExecEndForeignScan
+023 00000220 SECT4  notype ()    External     | ExecReScanForeignScan
+024 00000270 SECT4  notype ()    External     | ExecForeignScanEstimate
+025 000002E0 SECT4  notype ()    External     | ExecForeignScanInitializeDSM
+026 00000370 SECT4  notype ()    External     | ExecForeignScanReInitializeDSM
+027 000003D0 SECT4  notype ()    External     | ExecForeignScanInitializeWorker
+028 00000430 SECT4  notype ()    External     | ExecShutdownForeignScan
+029 00000000 UNDEF  notype ()    External     | GetFdwRoutineByServerId
+02A 00000000 UNDEF  notype ()    External     | GetFdwRoutineForRelation
+02B 00000000 UNDEF  notype ()    External     | MemoryContextReset
+02C 00000450 SECT4  notype ()    Static       | ForeignNext
+02D 000004F0 SECT4  notype ()    Static       | ForeignRecheck
+02E 000005A0 SECT4  notype ()    Static       | ExecForeignScan
+02F 00000000 SECT4  notype       Label        | $LN14
+030 000001A0 SECT4  notype       Label        | $LN8
+031 00000220 SECT4  notype       Label        | $LN5
+032 00000270 SECT4  notype       Label        | $LN5
+033 000002E0 SECT4  notype       Label        | $LN5
+034 00000370 SECT4  notype       Label        | $LN5
+035 000003D0 SECT4  notype       Label        | $LN5
+036 00000000 SECT5  notype       Static       | .xdata
+    Section length   DC, #relocs    C, #linenums    0, checksum D5FAD654
+038 00000000 SECT5  notype       Static       | $unwind$ExecInitForeignScan
+039 00000000 SECT6  notype       Static       | .pdata
+    Section length   9C, #relocs   27, #linenums    0, checksum C91FF372
+03B 00000000 SECT6  notype       Static       | $pdata$ExecInitForeignScan
+03C 0000001C SECT5  notype       Static       | $unwind$ExecEndForeignScan
+03D 0000000C SECT6  notype       Static       | $pdata$ExecEndForeignScan
+03E 00000024 SECT5  notype       Static       | $unwind$ExecReScanForeignScan
+03F 00000018 SECT6  notype       Static       | $pdata$ExecReScanForeignScan
+040 00000030 SECT5  notype       Static       | $unwind$ExecForeignScanEstimate
+041 00000024 SECT6  notype       Static       | $pdata$ExecForeignScanEstimate
+042 0000003C SECT5  notype       Static       | $unwind$ExecForeignScanInitializeDSM
+043 00000030 SECT6  notype       Static       | $pdata$ExecForeignScanInitializeDSM
+044 0000004C SECT5  notype       Static       | $chain$1$ExecForeignScanInitializeDSM
+045 0000003C SECT6  notype       Static       | $pdata$1$ExecForeignScanInitializeDSM
+046 00000064 SECT5  notype       Static       | $chain$2$ExecForeignScanInitializeDSM
+047 00000048 SECT6  notype       Static       | $pdata$2$ExecForeignScanInitializeDSM
+048 00000074 SECT5  notype       Static       | $unwind$ExecForeignScanReInitializeDSM
+049 00000054 SECT6  notype       Static       | $pdata$ExecForeignScanReInitializeDSM
+04A 00000084 SECT5  notype       Static       | $unwind$ExecForeignScanInitializeWorker
+04B 00000060 SECT6  notype       Static       | $pdata$ExecForeignScanInitializeWorker
+04C 00000094 SECT5  notype       Static       | $unwind$ForeignNext
+04D 0000006C SECT6  notype       Static       | $pdata$ForeignNext
+04E 000000A0 SECT5  notype       Static       | $chain$1$ForeignNext
+04F 00000078 SECT6  notype       Static       | $pdata$1$ForeignNext
+050 000000B8 SECT5  notype       Static       | $chain$2$ForeignNext
+051 00000084 SECT6  notype       Static       | $pdata$2$ForeignNext
+052 000000C8 SECT5  notype       Static       | $unwind$ForeignRecheck
+053 00000090 SECT6  notype       Static       | $pdata$ForeignRecheck
+054 00000000 UNDEF  notype       External     | CurrentMemoryContext
+055 00000000 UNDEF  notype       External     | newNodeMacroHolder
+
+String Table Size = 0x605 bytes
+
+  Summary
+
+        6A6C .debug$S
+          68 .debug$T
+          5D .drectve
+          9C .pdata
+         5B3 .text$mn
+          DC .xdata

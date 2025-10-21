@@ -1,0 +1,197 @@
+
+Dump of file Release\postgres/nodeIndexonlyscan.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 681C, #relocs   CA, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  A3B, #relocs   64, #linenums    0, checksum 629A514F
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  120, #relocs    3, #linenums    0, checksum  71329D5, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  274, #relocs   20, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+00F 00000000 UNDEF  notype ()    External     | errstart
+010 00000000 UNDEF  notype ()    External     | errfinish
+011 00000000 UNDEF  notype ()    External     | errcode
+012 00000000 UNDEF  notype ()    External     | errmsg
+013 00000000 UNDEF  notype ()    External     | elog_start
+014 00000000 UNDEF  notype ()    External     | elog_finish
+015 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+016 00000000 UNDEF  notype ()    External     | index_open
+017 00000000 UNDEF  notype ()    External     | index_close
+018 00000000 UNDEF  notype ()    External     | index_beginscan
+019 00000000 UNDEF  notype ()    External     | index_rescan
+01A 00000000 UNDEF  notype ()    External     | index_endscan
+01B 00000000 UNDEF  notype ()    External     | index_markpos
+01C 00000000 UNDEF  notype ()    External     | index_restrpos
+01D 00000000 UNDEF  notype ()    External     | index_parallelscan_estimate
+01E 00000000 UNDEF  notype ()    External     | index_parallelscan_initialize
+01F 00000000 UNDEF  notype ()    External     | index_parallelrescan
+020 00000000 UNDEF  notype ()    External     | index_beginscan_parallel
+021 00000000 UNDEF  notype ()    External     | index_getnext_tid
+022 00000000 UNDEF  notype ()    External     | index_fetch_heap
+023 00000000 UNDEF  notype ()    External     | nocache_index_getattr
+024 00000000 UNDEF  notype ()    External     | visibilitymap_get_status
+025 00000000 UNDEF  notype ()    External     | ExecStoreTuple
+026 00000000 UNDEF  notype ()    External     | ExecClearTuple
+027 00000000 UNDEF  notype ()    External     | ExecStoreVirtualTuple
+028 00000000 UNDEF  notype ()    External     | ExecReScan
+029 00000000 UNDEF  notype ()    External     | ExecInitQual
+02A 00000000 UNDEF  notype ()    External     | ExecScan
+02B 00000000 UNDEF  notype ()    External     | ExecAssignScanProjectionInfoWithVarno
+02C 00000000 UNDEF  notype ()    External     | ExecScanReScan
+02D 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+02E 00000000 UNDEF  notype ()    External     | ExecInitScanTupleSlot
+02F 00000000 UNDEF  notype ()    External     | ExecTypeFromTL
+030 00000000 UNDEF  notype ()    External     | ExecAssignExprContext
+031 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+032 00000000 UNDEF  notype ()    External     | ExecAssignScanType
+033 00000000 UNDEF  notype ()    External     | ExecRelationIsTargetRelation
+034 00000000 UNDEF  notype ()    External     | ExecOpenScanRelation
+035 00000000 UNDEF  notype ()    External     | ExecCloseScanRelation
+036 00000000 UNDEF  notype ()    External     | add_size
+037 00000000 UNDEF  notype ()    External     | shm_toc_allocate
+038 00000000 UNDEF  notype ()    External     | shm_toc_insert
+039 00000000 UNDEF  notype ()    External     | shm_toc_lookup
+03A 00000000 SECT4  notype ()    External     | ExecInitIndexOnlyScan
+03B 00000210 SECT4  notype ()    External     | ExecEndIndexOnlyScan
+03C 000002B0 SECT4  notype ()    External     | ExecIndexOnlyMarkPos
+03D 00000330 SECT4  notype ()    External     | ExecIndexOnlyRestrPos
+03E 000003B0 SECT4  notype ()    External     | ExecReScanIndexOnlyScan
+03F 00000440 SECT4  notype ()    External     | ExecIndexOnlyScanEstimate
+040 000004B0 SECT4  notype ()    External     | ExecIndexOnlyScanInitializeDSM
+041 000005B0 SECT4  notype ()    External     | ExecIndexOnlyScanReInitializeDSM
+042 000005D0 SECT4  notype ()    External     | ExecIndexOnlyScanInitializeWorker
+043 00000000 UNDEF  notype ()    External     | ExecIndexBuildScanKeys
+044 00000000 UNDEF  notype ()    External     | ExecIndexEvalRuntimeKeys
+045 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+046 00000000 UNDEF  notype ()    External     | ReleaseBuffer
+047 00000000 UNDEF  notype ()    External     | PredicateLockPage
+048 00000000 UNDEF  notype ()    External     | MemoryContextReset
+049 00000670 SECT4  notype ()    Static       | IndexOnlyNext
+04A 00000000 SECT5  notype ()    Static       | StoreIndexTuple
+04B 000009C0 SECT4  notype ()    Static       | IndexOnlyRecheck
+04C 00000A00 SECT4  notype ()    Static       | ExecIndexOnlyScan
+04D 00000000 SECT4  notype       Label        | $LN7
+04E 00000210 SECT4  notype       Label        | $LN7
+04F 000002B0 SECT4  notype       Label        | $LN11
+050 00000330 SECT4  notype       Label        | $LN11
+051 000003B0 SECT4  notype       Label        | $LN6
+052 00000440 SECT4  notype       Label        | $LN4
+053 000004B0 SECT4  notype       Label        | $LN6
+054 000005D0 SECT4  notype       Label        | $LN6
+055 00000000 SECT7  notype       Static       | .xdata
+    Section length   E0, #relocs    C, #linenums    0, checksum 3F8C026F
+057 00000000 SECT7  notype       Static       | $unwind$ExecInitIndexOnlyScan
+058 00000000 SECT8  notype       Static       | .pdata
+    Section length   B4, #relocs   2D, #linenums    0, checksum E213BE64
+05A 00000000 SECT8  notype       Static       | $pdata$ExecInitIndexOnlyScan
+05B 00000014 SECT7  notype       Static       | $chain$0$ExecInitIndexOnlyScan
+05C 0000000C SECT8  notype       Static       | $pdata$0$ExecInitIndexOnlyScan
+05D 00000028 SECT7  notype       Static       | $chain$1$ExecInitIndexOnlyScan
+05E 00000018 SECT8  notype       Static       | $pdata$1$ExecInitIndexOnlyScan
+05F 00000038 SECT7  notype       Static       | $unwind$ExecEndIndexOnlyScan
+060 00000024 SECT8  notype       Static       | $pdata$ExecEndIndexOnlyScan
+061 0000004C SECT7  notype       Static       | $unwind$ExecIndexOnlyMarkPos
+062 00000030 SECT8  notype       Static       | $pdata$ExecIndexOnlyMarkPos
+063 00000054 SECT7  notype       Static       | $unwind$ExecIndexOnlyRestrPos
+064 0000003C SECT8  notype       Static       | $pdata$ExecIndexOnlyRestrPos
+065 0000005C SECT7  notype       Static       | $unwind$ExecReScanIndexOnlyScan
+066 00000048 SECT8  notype       Static       | $pdata$ExecReScanIndexOnlyScan
+067 00000064 SECT7  notype       Static       | $chain$0$ExecReScanIndexOnlyScan
+068 00000054 SECT8  notype       Static       | $pdata$0$ExecReScanIndexOnlyScan
+069 00000078 SECT7  notype       Static       | $chain$1$ExecReScanIndexOnlyScan
+06A 00000060 SECT8  notype       Static       | $pdata$1$ExecReScanIndexOnlyScan
+06B 00000088 SECT7  notype       Static       | $unwind$ExecIndexOnlyScanEstimate
+06C 0000006C SECT8  notype       Static       | $pdata$ExecIndexOnlyScanEstimate
+06D 00000094 SECT7  notype       Static       | $unwind$ExecIndexOnlyScanInitializeDSM
+06E 00000078 SECT8  notype       Static       | $pdata$ExecIndexOnlyScanInitializeDSM
+06F 000000A8 SECT7  notype       Static       | $unwind$ExecIndexOnlyScanInitializeWorker
+070 00000084 SECT8  notype       Static       | $pdata$ExecIndexOnlyScanInitializeWorker
+071 000000B0 SECT7  notype       Static       | $unwind$IndexOnlyNext
+072 00000090 SECT8  notype       Static       | $pdata$IndexOnlyNext
+073 00000000 SECT9  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum EB2F6C70, selection    5 (pick associative Section 0x5)
+075 00000000 SECT9  notype       Static       | $unwind$StoreIndexTuple
+076 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 140D4FB5, selection    5 (pick associative Section 0x5)
+078 00000000 SECTA  notype       Static       | $pdata$StoreIndexTuple
+079 00000000 SECTB  notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum C29270E6, selection    5 (pick associative Section 0x5)
+07B 00000000 SECTB  notype       Static       | $chain$1$StoreIndexTuple
+07C 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 52ACDCC8, selection    5 (pick associative Section 0x5)
+07E 00000000 SECTC  notype       Static       | $pdata$1$StoreIndexTuple
+07F 00000000 SECTD  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum AD5AA559, selection    5 (pick associative Section 0x5)
+081 00000000 SECTD  notype       Static       | $chain$2$StoreIndexTuple
+082 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum EA175FAD, selection    5 (pick associative Section 0x5)
+084 00000000 SECTE  notype       Static       | $pdata$2$StoreIndexTuple
+085 000000D0 SECT7  notype       Static       | $unwind$IndexOnlyRecheck
+086 0000009C SECT8  notype       Static       | $pdata$IndexOnlyRecheck
+087 000000D8 SECT7  notype       Static       | $unwind$ExecIndexOnlyScan
+088 000000A8 SECT8  notype       Static       | $pdata$ExecIndexOnlyScan
+089 00000000 UNDEF  notype       External     | pg_signal_queue
+08A 00000000 UNDEF  notype       External     | pg_signal_mask
+08B 00000000 UNDEF  notype       External     | CurrentMemoryContext
+08C 00000000 UNDEF  notype       External     | newNodeMacroHolder
+08D 00000000 UNDEF  notype       External     | InterruptPending
+08E 00000000 SECTF  notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum AA4816FA, selection    2 (pick any)
+090 00000000 SECTF  notype       External     | ??_C@_0O@IEAMJAMC@IndexOnlyNext?$AA@ (`string')
+091 00000000 SECT10 notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum 57B9D405, selection    2 (pick any)
+093 00000000 SECT10 notype       External     | ??_C@_0CJ@MGMLKLFA@src?1backend?1executor?1nodeIndexon@ (`string')
+094 00000000 SECT11 notype       Static       | .rdata
+    Section length   39, #relocs    0, #linenums    0, checksum 1FC7D9D2, selection    2 (pick any)
+096 00000000 SECT11 notype       External     | ??_C@_0DJ@DNOJPIDB@non?9MVCC?5snapshots?5are?5not?5suppo@ (`string')
+097 00000000 SECT12 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 14AADAEA, selection    2 (pick any)
+099 00000000 SECT12 notype       External     | ??_C@_0CF@MPIEFKHB@no?5data?5returned?5for?5index?9only?5@ (`string')
+09A 00000000 SECT13 notype       Static       | .rdata
+    Section length   3F, #relocs    0, #linenums    0, checksum C425C6D5, selection    2 (pick any)
+09C 00000000 SECT13 notype       External     | ??_C@_0DP@NDHAODMO@lossy?5distance?5functions?5are?5not@ (`string')
+09D 00000000 SECT14 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum FBB9E642, selection    2 (pick any)
+09F 00000000 SECT14 notype       External     | ??_C@_0BB@MNKJOIAA@IndexOnlyRecheck?$AA@ (`string')
+0A0 00000000 SECT15 notype       Static       | .rdata
+    Section length   3A, #relocs    0, #linenums    0, checksum 6659B0EA, selection    2 (pick any)
+0A2 00000000 SECT15 notype       External     | ??_C@_0DK@FPHICNAJ@EvalPlanQual?5recheck?5is?5not?5supp@ (`string')
+0A3 00000000 SECT16 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 1A23667C, selection    2 (pick any)
+0A5 00000000 SECT16 notype       External     | ??_C@_0BF@KENIFMAI@ExecIndexOnlyMarkPos?$AA@ (`string')
+0A6 00000000 SECT17 notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum 76B4A872, selection    2 (pick any)
+0A8 00000000 SECT17 notype       External     | ??_C@_0DE@EFGAFIDN@unexpected?5ExecIndexOnlyMarkPos?5@ (`string')
+0A9 00000000 SECT18 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum F80AC263, selection    2 (pick any)
+0AB 00000000 SECT18 notype       External     | ??_C@_0BG@KPNMIMHM@ExecIndexOnlyRestrPos?$AA@ (`string')
+0AC 00000000 SECT19 notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum 43761A4B, selection    2 (pick any)
+0AE 00000000 SECT19 notype       External     | ??_C@_0DF@KFCGJCLK@unexpected?5ExecIndexOnlyRestrPos@ (`string')
+0AF 00000000 SECT1A notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+0B1 00000000 SECT1A notype       External     | __real@3ff0000000000000
+0B2 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0xB66 bytes
+
+  Summary
+
+        6A90 .debug$S
+          68 .debug$T
+          5D .drectve
+          D8 .pdata
+         1BB .rdata
+         B5B .text$mn
+         11C .xdata

@@ -1,0 +1,198 @@
+
+Dump of file Release\postgres/ginentrypage.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6A98, #relocs  162, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  D6D, #relocs   51, #linenums    0, checksum 264FE1EA
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   CE, #relocs    4, #linenums    0, checksum C053EAD4, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  218, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   97, #relocs    3, #linenums    0, checksum 96F988F6, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  240, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  355, #relocs   15, #linenums    0, checksum B858B030, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  7A8, #relocs   5E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 UNDEF  notype ()    External     | errstart
+017 00000000 UNDEF  notype ()    External     | errfinish
+018 00000000 UNDEF  notype ()    External     | errcode
+019 00000000 UNDEF  notype ()    External     | errmsg
+01A 00000000 UNDEF  notype ()    External     | elog_start
+01B 00000000 UNDEF  notype ()    External     | elog_finish
+01C 00000000 UNDEF  notype ()    External     | palloc
+01D 00000000 UNDEF  notype ()    External     | repalloc
+01E 00000000 UNDEF  notype ()    External     | pfree
+01F 00000000 UNDEF  notype ()    External     | PageAddItemExtended
+020 00000000 UNDEF  notype ()    External     | PageGetTempPageCopy
+021 00000000 UNDEF  notype ()    External     | PageGetFreeSpace
+022 00000000 UNDEF  notype ()    External     | PageIndexTupleDelete
+023 00000000 UNDEF  notype ()    External     | index_form_tuple
+024 00000000 UNDEF  notype ()    External     | BufferGetBlockNumber
+025 00000000 UNDEF  notype ()    External     | GinInitPage
+026 00000000 UNDEF  notype ()    External     | ginCompareAttEntries
+027 00000000 UNDEF  notype ()    External     | gintuple_get_attrnum
+028 00000000 UNDEF  notype ()    External     | gintuple_get_key
+029 00000000 SECT4  notype ()    External     | GinFormTuple
+02A 00000230 SECT4  notype ()    External     | ginPrepareEntryScan
+02B 00000310 SECT4  notype ()    External     | ginEntryFillRoot
+02C 00000460 SECT4  notype ()    External     | ginReadTuple
+02D 00000000 UNDEF  notype ()    External     | ginPostingListDecode
+02E 00000000 UNDEF  notype ()    External     | XLogRegisterBufData
+02F 00000000 SECT9  notype ()    Static       | entrySplitPage
+030 00000000 SECT5  notype ()    Static       | GinFormInteriorTuple
+031 00000560 SECT4  notype ()    Static       | entryIsMoveRight
+032 00000620 SECT4  notype ()    Static       | entryLocateEntry
+033 00000810 SECT4  notype ()    Static       | entryLocateLeafEntry
+034 000009A0 SECT4  notype ()    Static       | entryFindChildPtr
+035 00000AC0 SECT4  notype ()    Static       | entryGetLeftMostPage
+036 00000000 SECT7  notype ()    Static       | entryIsEnoughSpace
+037 00000AE0 SECT4  notype ()    Static       | entryBeginPlaceToPage
+038 00000B70 SECT4  notype ()    Static       | entryExecPlaceToPage
+039 00000CC0 SECT4  notype ()    Static       | entryPrepareDownlink
+03A 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+03B 00000000 UNDEF  notype ()    External     | __chkstk
+03C 00000000 UNDEF  notype ()    External     | __security_check_cookie
+03D 00000000 UNDEF  notype ()    External     | memcpy
+03E 00000000 UNDEF  notype ()    External     | memset
+03F 00000000 SECT4  notype       Label        | $LN19
+040 00000230 SECT4  notype       Label        | $LN4
+041 00000310 SECT4  notype       Label        | $LN22
+042 00000460 SECT4  notype       Label        | $LN15
+043 00000000 SECTB  notype       Static       | .xdata
+    Section length  1AC, #relocs   1E, #linenums    0, checksum 5D00C311
+045 00000000 SECTB  notype       Static       | $unwind$GinFormTuple
+046 00000000 SECTC  notype       Static       | .pdata
+    Section length   FC, #relocs   3F, #linenums    0, checksum 8F567A42
+048 00000000 SECTC  notype       Static       | $pdata$GinFormTuple
+049 0000001C SECTB  notype       Static       | $unwind$ginPrepareEntryScan
+04A 0000000C SECTC  notype       Static       | $pdata$ginPrepareEntryScan
+04B 00000030 SECTB  notype       Static       | $unwind$ginEntryFillRoot
+04C 00000018 SECTC  notype       Static       | $pdata$ginEntryFillRoot
+04D 00000040 SECTB  notype       Static       | $unwind$ginReadTuple
+04E 00000024 SECTC  notype       Static       | $pdata$ginReadTuple
+04F 00000050 SECTB  notype       Static       | $chain$0$ginReadTuple
+050 00000030 SECTC  notype       Static       | $pdata$0$ginReadTuple
+051 00000064 SECTB  notype       Static       | $chain$1$ginReadTuple
+052 0000003C SECTC  notype       Static       | $pdata$1$ginReadTuple
+053 00000000 SECTD  notype       Static       | .xdata
+    Section length   20, #relocs    1, #linenums    0, checksum 9701F65E, selection    5 (pick associative Section 0x9)
+055 00000000 SECTD  notype       Static       | $unwind$entrySplitPage
+056 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2C2EE73F, selection    5 (pick associative Section 0x9)
+058 00000000 SECTE  notype       Static       | $pdata$entrySplitPage
+059 00000000 SECTF  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 3EF3D313, selection    5 (pick associative Section 0x5)
+05B 00000000 SECTF  notype       Static       | $unwind$GinFormInteriorTuple
+05C 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 85CD537D, selection    5 (pick associative Section 0x5)
+05E 00000000 SECT10 notype       Static       | $pdata$GinFormInteriorTuple
+05F 00000000 SECT11 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum A86D9F73, selection    5 (pick associative Section 0x5)
+061 00000000 SECT11 notype       Static       | $chain$1$GinFormInteriorTuple
+062 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 237CB245, selection    5 (pick associative Section 0x5)
+064 00000000 SECT12 notype       Static       | $pdata$1$GinFormInteriorTuple
+065 00000000 SECT13 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 3C9AB991, selection    5 (pick associative Section 0x5)
+067 00000000 SECT13 notype       Static       | $chain$2$GinFormInteriorTuple
+068 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D5C9D51F, selection    5 (pick associative Section 0x5)
+06A 00000000 SECT14 notype       Static       | $pdata$2$GinFormInteriorTuple
+06B 00000074 SECTB  notype       Static       | $unwind$entryIsMoveRight
+06C 00000048 SECTC  notype       Static       | $pdata$entryIsMoveRight
+06D 00000084 SECTB  notype       Static       | $unwind$entryLocateEntry
+06E 00000054 SECTC  notype       Static       | $pdata$entryLocateEntry
+06F 00000098 SECTB  notype       Static       | $chain$4$entryLocateEntry
+070 00000060 SECTC  notype       Static       | $pdata$4$entryLocateEntry
+071 000000B4 SECTB  notype       Static       | $chain$5$entryLocateEntry
+072 0000006C SECTC  notype       Static       | $pdata$5$entryLocateEntry
+073 000000C4 SECTB  notype       Static       | $chain$6$entryLocateEntry
+074 00000078 SECTC  notype       Static       | $pdata$6$entryLocateEntry
+075 000000E0 SECTB  notype       Static       | $unwind$entryLocateLeafEntry
+076 00000084 SECTC  notype       Static       | $pdata$entryLocateLeafEntry
+077 000000F0 SECTB  notype       Static       | $chain$1$entryLocateLeafEntry
+078 00000090 SECTC  notype       Static       | $pdata$1$entryLocateLeafEntry
+079 00000104 SECTB  notype       Static       | $chain$4$entryLocateLeafEntry
+07A 0000009C SECTC  notype       Static       | $pdata$4$entryLocateLeafEntry
+07B 00000120 SECTB  notype       Static       | $chain$5$entryLocateLeafEntry
+07C 000000A8 SECTC  notype       Static       | $pdata$5$entryLocateLeafEntry
+07D 00000130 SECTB  notype       Static       | $chain$7$entryLocateLeafEntry
+07E 000000B4 SECTC  notype       Static       | $pdata$7$entryLocateLeafEntry
+07F 00000150 SECTB  notype       Static       | $chain$8$entryLocateLeafEntry
+080 000000C0 SECTC  notype       Static       | $pdata$8$entryLocateLeafEntry
+081 00000164 SECTB  notype       Static       | $unwind$entryFindChildPtr
+082 000000CC SECTC  notype       Static       | $pdata$entryFindChildPtr
+083 00000000 SECT15 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0x7)
+085 00000000 SECT15 notype       Static       | $unwind$entryIsEnoughSpace
+086 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2545BDE8, selection    5 (pick associative Section 0x7)
+088 00000000 SECT16 notype       Static       | $pdata$entryIsEnoughSpace
+089 00000170 SECTB  notype       Static       | $unwind$entryBeginPlaceToPage
+08A 000000D8 SECTC  notype       Static       | $pdata$entryBeginPlaceToPage
+08B 00000184 SECTB  notype       Static       | $unwind$entryExecPlaceToPage
+08C 000000E4 SECTC  notype       Static       | $pdata$entryExecPlaceToPage
+08D 00000198 SECTB  notype       Static       | $unwind$entryPrepareDownlink
+08E 000000F0 SECTC  notype       Static       | $pdata$entryPrepareDownlink
+08F 00000000 UNDEF  notype       External     | BufferBlocks
+090 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+091 00000000 SECT17 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum F798D66A, selection    2 (pick any)
+093 00000000 SECT17 notype       External     | ??_C@_0N@HBDGPBH@GinFormTuple?$AA@ (`string')
+094 00000000 SECT18 notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum C88BA46E, selection    2 (pick any)
+096 00000000 SECT18 notype       External     | ??_C@_0CG@KPINMACC@src?1backend?1access?1gin?1ginentryp@ (`string')
+097 00000000 SECT19 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum 711ECBC8, selection    2 (pick any)
+099 00000000 SECT19 notype       External     | ??_C@_0DG@LLECFJMK@index?5row?5size?5?$CFzu?5exceeds?5maxim@ (`string')
+09A 00000000 SECT1A notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 98214588, selection    2 (pick any)
+09C 00000000 SECT1A notype       External     | ??_C@_0N@GIKKPMPF@ginReadTuple?$AA@ (`string')
+09D 00000000 SECT1B notype       Static       | .rdata
+    Section length   4C, #relocs    0, #linenums    0, checksum 4280ADC4, selection    2 (pick any)
+09F 00000000 SECT1B notype       External     | ??_C@_0EM@FNEHPDKC@number?5of?5items?5mismatch?5in?5GIN?5@ (`string')
+0A0 00000000 SECT1C notype       Static       | .bss
+    Section length    C, #relocs    0, #linenums    0, checksum        0
+0A2 00000000 SECT1C notype       Static       | ?data@?4??entryExecPlaceToPage@@9@9 (`entryExecPlaceToPage'::`5'::data)
+0A3 00000000 SECT1D notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum C38D6816, selection    2 (pick any)
+0A5 00000000 SECT1D notype       External     | ??_C@_0BF@HNHGFCGC@entryExecPlaceToPage?$AA@ (`string')
+0A6 00000000 SECT1E notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum 8E8B6C2B, selection    2 (pick any)
+0A8 00000000 SECT1E notype       External     | ??_C@_0CJ@BPPJBDHO@failed?5to?5add?5item?5to?5index?5page@ (`string')
+0A9 00000000 SECT1F notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 446E54AF, selection    2 (pick any)
+0AB 00000000 SECT1F notype       External     | ??_C@_0P@GMECKILH@entrySplitPage?$AA@ (`string')
+0AC 00000000 SECT20 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum DA1326AF, selection    2 (pick any)
+0AE 00000000 SECT20 notype       External     | ??_C@_0BB@OMADCION@ginEntryFillRoot?$AA@ (`string')
+0AF 00000000 SECT21 notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 132C08DC, selection    2 (pick any)
+0B1 00000000 SECT21 notype       External     | ??_C@_0CG@HECKGMJA@failed?5to?5add?5item?5to?5index?5root@ (`string')
+0B2 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x9F4 bytes
+
+  Summary
+
+           C .bss
+        7698 .debug$S
+          68 .debug$T
+          5D .drectve
+         138 .pdata
+         146 .rdata
+        1227 .text$mn
+         210 .xdata

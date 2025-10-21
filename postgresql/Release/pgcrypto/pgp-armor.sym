@@ -1,0 +1,211 @@
+
+Dump of file Release\pgcrypto/pgp-armor.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 43B8, #relocs   B0, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  59C, #relocs   37, #linenums    0, checksum 34EF224D
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   E6, #relocs    0, #linenums    0, checksum A198855D, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  174, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  143, #relocs    4, #linenums    0, checksum 49573BEE, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  2C4, #relocs   1A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length   A9, #relocs    2, #linenums    0, checksum 8F002182, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  254, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  13A, #relocs    0, #linenums    0, checksum  D25DCF6, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  39C, #relocs   20, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 SECTD  notype       Static       | .text$mn
+    Section length  115, #relocs    1, #linenums    0, checksum DEC86E6A, selection    1 (pick no duplicates)
+01C 00000000 SECTE  notype       Static       | .debug$S
+    Section length  298, #relocs   1A, #linenums    0, checksum        0, selection    5 (pick associative Section 0xD)
+01E 00000000 UNDEF  notype       External     | __imp_memchr
+01F 00000000 UNDEF  notype       External     | __imp_strchr
+020 00000000 UNDEF  notype       External     | __imp_strstr
+021 00000000 UNDEF  notype ()    External     | elog_start
+022 00000000 UNDEF  notype ()    External     | elog_finish
+023 00000000 UNDEF  notype ()    External     | palloc
+024 00000000 UNDEF  notype ()    External     | appendStringInfo
+025 00000000 UNDEF  notype ()    External     | appendStringInfoString
+026 00000000 UNDEF  notype ()    External     | appendStringInfoChar
+027 00000000 UNDEF  notype ()    External     | enlargeStringInfo
+028 00000000 SECT4  notype ()    External     | pgp_armor_encode
+029 000001A0 SECT4  notype ()    External     | pgp_armor_decode
+02A 00000350 SECT4  notype ()    External     | pgp_extract_armor_headers
+02B 00000000 SECTD  notype ()    Static       | pg_base64_encode
+02C 00000000 SECTB  notype ()    Static       | pg_base64_decode
+02D 00000000 SECT5  notype ()    Static       | crc24
+02E 00000000 SECT9  notype ()    Static       | find_str
+02F 00000000 SECT7  notype ()    Static       | find_header
+030 00000000 UNDEF  notype ()    External     | memcmp
+031 00000000 UNDEF  notype ()    External     | memcpy
+032 00000000 SECT4  notype       Label        | $LN19
+033 00000338 SECT4  notype       Label        | $out$40
+034 000001A0 SECT4  notype       Label        | $LN39
+035 00000350 SECT4  notype       Label        | $LN44
+036 00000000 SECTF  notype       Static       | .xdata
+    Section length  18C, #relocs   30, #linenums    0, checksum AB38FAD6
+038 00000000 SECTF  notype       Static       | $unwind$pgp_armor_encode
+039 00000000 SECT10 notype       Static       | .pdata
+    Section length   E4, #relocs   39, #linenums    0, checksum 7C61063A
+03B 00000000 SECT10 notype       Static       | $pdata$pgp_armor_encode
+03C 00000010 SECTF  notype       Static       | $chain$1$pgp_armor_encode
+03D 0000000C SECT10 notype       Static       | $pdata$1$pgp_armor_encode
+03E 00000028 SECTF  notype       Static       | $chain$2$pgp_armor_encode
+03F 00000018 SECT10 notype       Static       | $pdata$2$pgp_armor_encode
+040 0000003C SECTF  notype       Static       | $chain$3$pgp_armor_encode
+041 00000024 SECT10 notype       Static       | $pdata$3$pgp_armor_encode
+042 0000004C SECTF  notype       Static       | $chain$4$pgp_armor_encode
+043 00000030 SECT10 notype       Static       | $pdata$4$pgp_armor_encode
+044 0000005C SECTF  notype       Static       | $unwind$pgp_armor_decode
+045 0000003C SECT10 notype       Static       | $pdata$pgp_armor_decode
+046 0000006C SECTF  notype       Static       | $chain$0$pgp_armor_decode
+047 00000048 SECT10 notype       Static       | $pdata$0$pgp_armor_decode
+048 00000080 SECTF  notype       Static       | $chain$3$pgp_armor_decode
+049 00000054 SECT10 notype       Static       | $pdata$3$pgp_armor_decode
+04A 00000094 SECTF  notype       Static       | $chain$4$pgp_armor_decode
+04B 00000060 SECT10 notype       Static       | $pdata$4$pgp_armor_decode
+04C 000000A8 SECTF  notype       Static       | $chain$5$pgp_armor_decode
+04D 0000006C SECT10 notype       Static       | $pdata$5$pgp_armor_decode
+04E 000000B8 SECTF  notype       Static       | $chain$2$pgp_armor_decode
+04F 00000078 SECT10 notype       Static       | $pdata$2$pgp_armor_decode
+050 000000CC SECTF  notype       Static       | $chain$6$pgp_armor_decode
+051 00000084 SECT10 notype       Static       | $pdata$6$pgp_armor_decode
+052 000000DC SECTF  notype       Static       | $unwind$pgp_extract_armor_headers
+053 00000090 SECT10 notype       Static       | $pdata$pgp_extract_armor_headers
+054 000000E8 SECTF  notype       Static       | $chain$0$pgp_extract_armor_headers
+055 0000009C SECT10 notype       Static       | $pdata$0$pgp_extract_armor_headers
+056 000000FC SECTF  notype       Static       | $chain$5$pgp_extract_armor_headers
+057 000000A8 SECT10 notype       Static       | $pdata$5$pgp_extract_armor_headers
+058 0000011C SECTF  notype       Static       | $chain$7$pgp_extract_armor_headers
+059 000000B4 SECT10 notype       Static       | $pdata$7$pgp_extract_armor_headers
+05A 00000134 SECTF  notype       Static       | $chain$8$pgp_extract_armor_headers
+05B 000000C0 SECT10 notype       Static       | $pdata$8$pgp_extract_armor_headers
+05C 00000144 SECTF  notype       Static       | $chain$10$pgp_extract_armor_headers
+05D 000000CC SECT10 notype       Static       | $pdata$10$pgp_extract_armor_headers
+05E 00000164 SECTF  notype       Static       | $chain$11$pgp_extract_armor_headers
+05F 000000D8 SECT10 notype       Static       | $pdata$11$pgp_extract_armor_headers
+060 00000000 SECT11 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum F56AF0CB, selection    5 (pick associative Section 0xD)
+062 00000000 SECT11 notype       Static       | $unwind$pg_base64_encode
+063 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F3B36B4F, selection    5 (pick associative Section 0xD)
+065 00000000 SECT12 notype       Static       | $pdata$pg_base64_encode
+066 00000000 SECT13 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum E403DF00, selection    5 (pick associative Section 0xD)
+068 00000000 SECT13 notype       Static       | $chain$0$pg_base64_encode
+069 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 97B42595, selection    5 (pick associative Section 0xD)
+06B 00000000 SECT14 notype       Static       | $pdata$0$pg_base64_encode
+06C 00000000 SECT15 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 4AE481A3, selection    5 (pick associative Section 0xD)
+06E 00000000 SECT15 notype       Static       | $chain$1$pg_base64_encode
+06F 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 22304F35, selection    5 (pick associative Section 0xD)
+071 00000000 SECT16 notype       Static       | $pdata$1$pg_base64_encode
+072 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 7B2C45B3, selection    5 (pick associative Section 0xB)
+074 00000000 SECT17 notype       Static       | $unwind$pg_base64_decode
+075 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B27A4401, selection    5 (pick associative Section 0xB)
+077 00000000 SECT18 notype       Static       | $pdata$pg_base64_decode
+078 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum FF724293, selection    5 (pick associative Section 0x9)
+07A 00000000 SECT19 notype       Static       | $unwind$find_str
+07B 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C7E85400, selection    5 (pick associative Section 0x9)
+07D 00000000 SECT1A notype       Static       | $pdata$find_str
+07E 00000000 SECT1B notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum C9F46F54, selection    5 (pick associative Section 0x9)
+080 00000000 SECT1B notype       Static       | $chain$0$find_str
+081 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D61541ED, selection    5 (pick associative Section 0x9)
+083 00000000 SECT1C notype       Static       | $pdata$0$find_str
+084 00000000 SECT1D notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 8D273FF8, selection    5 (pick associative Section 0x9)
+086 00000000 SECT1D notype       Static       | $chain$2$find_str
+087 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum CEF273C0, selection    5 (pick associative Section 0x9)
+089 00000000 SECT1E notype       Static       | $pdata$2$find_str
+08A 00000000 SECT1F notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum C2D1B755, selection    5 (pick associative Section 0x7)
+08C 00000000 SECT1F notype       Static       | $unwind$find_header
+08D 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  165CEBA, selection    5 (pick associative Section 0x7)
+08F 00000000 SECT20 notype       Static       | $pdata$find_header
+090 00000000 SECT21 notype       Static       | .rdata
+    Section length   41, #relocs    0, #linenums    0, checksum 37CBA9BE
+092 00000000 SECT21 notype       Static       | _base64
+093 00000000 SECT22 notype       Static       | .data
+    Section length   20, #relocs    4, #linenums    0, checksum        0
+095 00000000 SECT22 notype       Static       | armor_header
+096 00000000 SECT23 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 15DC2D01, selection    2 (pick any)
+098 00000000 SECT23 notype       External     | ??_C@_0BN@OBHHBHNI@?9?9?9?9?9BEGIN?5PGP?5MESSAGE?9?9?9?9?9?6?$AA@ (`string')
+099 00000008 SECT22 notype       Static       | armor_footer
+09A 00000000 SECT24 notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 4714A980, selection    2 (pick any)
+09C 00000000 SECT24 notype       External     | ??_C@_0BM@DIJLCBJG@?6?9?9?9?9?9END?5PGP?5MESSAGE?9?9?9?9?9?6?$AA@ (`string')
+09D 00000000 SECT25 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 3382CCC4, selection    2 (pick any)
+09F 00000000 SECT25 notype       External     | ??_C@_07KJFPOMFC@?$CFs?3?5?$CFs?6?$AA@ (`string')
+0A0 00000000 SECT26 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 24D797B3, selection    2 (pick any)
+0A2 00000000 SECT26 notype       External     | ??_C@_0BB@BCMHJJPB@pgp_armor_encode?$AA@ (`string')
+0A3 00000000 SECT27 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 5DBA7718, selection    2 (pick any)
+0A5 00000000 SECT27 notype       External     | ??_C@_0BN@KJBBENMB@contrib?1pgcrypto?1pgp?9armor?4c?$AA@ (`string')
+0A6 00000000 SECT28 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum F5295ABE, selection    2 (pick any)
+0A8 00000000 SECT28 notype       External     | ??_C@_0CF@COAHNKCF@overflow?5?9?5encode?5estimate?5too?5s@ (`string')
+0A9 00000010 SECT22 notype       Static       | ?start_sep@?1??find_header@@9@9 (`find_header'::`2'::start_sep)
+0AA 00000018 SECT22 notype       Static       | ?end_sep@?1??find_header@@9@9 (`find_header'::`2'::end_sep)
+0AB 00000000 SECT29 notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum 8DFDC881, selection    2 (pick any)
+0AD 00000000 SECT29 notype       External     | ??_C@_0L@BJIFIGJC@?9?9?9?9?9BEGIN?$AA@ (`string')
+0AE 00000000 SECT2A notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 7F1F35B6, selection    2 (pick any)
+0B0 00000000 SECT2A notype       External     | ??_C@_08GGOJNOOH@?9?9?9?9?9END?$AA@ (`string')
+0B1 00000000 SECT2B notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum E8676CC4, selection    2 (pick any)
+0B3 00000000 SECT2B notype       External     | ??_C@_0BB@NOHHGCIG@pgp_armor_decode?$AA@ (`string')
+0B4 00000000 SECT2C notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum  BD2D9CD, selection    2 (pick any)
+0B6 00000000 SECT2C notype       External     | ??_C@_0CF@NAPMFJFG@overflow?5?9?5decode?5estimate?5too?5s@ (`string')
+0B7 00000000 SECT2D notype       Static       | .rdata
+    Section length    3, #relocs    0, #linenums    0, checksum BC7844E4, selection    2 (pick any)
+0B9 00000000 SECT2D notype       External     | ??_C@_02LMMGGCAJ@?3?5?$AA@ (`string')
+0BA 00000000 SECT2E notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 4ABC2534, selection    2 (pick any)
+0BC 00000000 SECT2E notype       External     | ??_C@_0BK@BKKPGEPJ@pgp_extract_armor_headers?$AA@ (`string')
+0BD 00000000 SECT2F notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 4DC135AE, selection    2 (pick any)
+0BF 00000000 SECT2F notype       External     | ??_C@_0CI@FLNCPHOA@unexpected?5number?5of?5armor?5heade@ (`string')
+
+String Table Size = 0x97F bytes
+
+  Summary
+
+          20 .data
+        5078 .debug$S
+          68 .debug$T
+          5D .drectve
+         144 .pdata
+         164 .rdata
+         ABD .text$mn
+         21C .xdata

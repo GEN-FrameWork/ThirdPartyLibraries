@@ -1,0 +1,150 @@
+
+Dump of file Release\postgres/nodeSetOp.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 538C, #relocs   38, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  396, #relocs   24, #linenums    0, checksum A2F9291A
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   64, #relocs    1, #linenums    0, checksum 158CD27A, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  118, #relocs    A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   BC, #relocs    5, #linenums    0, checksum A8164AED, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  1E4, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  119, #relocs    8, #linenums    0, checksum 708E074F, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  3CC, #relocs   22, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  187, #relocs    9, #linenums    0, checksum 1F1FC655, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  454, #relocs   22, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 SECTD  notype       Static       | .text$mn
+    Section length  182, #relocs    D, #linenums    0, checksum CC63F4EC, selection    1 (pick no duplicates)
+01C 00000000 SECTE  notype       Static       | .debug$S
+    Section length  2A4, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0xD)
+01E 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+01F 00000000 UNDEF  notype ()    External     | elog_start
+020 00000000 UNDEF  notype ()    External     | elog_finish
+021 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+022 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+023 00000000 UNDEF  notype ()    External     | palloc0
+024 00000000 UNDEF  notype ()    External     | heap_freetuple
+025 00000000 UNDEF  notype ()    External     | ExecStoreTuple
+026 00000000 UNDEF  notype ()    External     | ExecStoreMinimalTuple
+027 00000000 UNDEF  notype ()    External     | ExecClearTuple
+028 00000000 UNDEF  notype ()    External     | ExecCopySlotTuple
+029 00000000 UNDEF  notype ()    External     | slot_getattr
+02A 00000000 UNDEF  notype ()    External     | tuplehash_start_iterate
+02B 00000000 UNDEF  notype ()    External     | tuplehash_iterate
+02C 00000000 UNDEF  notype ()    External     | ExecReScan
+02D 00000000 UNDEF  notype ()    External     | execTuplesMatch
+02E 00000000 UNDEF  notype ()    External     | execTuplesMatchPrepare
+02F 00000000 UNDEF  notype ()    External     | execTuplesHashPrepare
+030 00000000 UNDEF  notype ()    External     | BuildTupleHashTable
+031 00000000 UNDEF  notype ()    External     | LookupTupleHashEntry
+032 00000000 UNDEF  notype ()    External     | ExecInitNode
+033 00000000 UNDEF  notype ()    External     | ExecEndNode
+034 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+035 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+036 00000000 SECT4  notype ()    External     | ExecInitSetOp
+037 000001B0 SECT4  notype ()    External     | ExecEndSetOp
+038 00000200 SECT4  notype ()    External     | ExecReScanSetOp
+039 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+03A 00000000 UNDEF  notype ()    External     | MemoryContextReset
+03B 00000000 UNDEF  notype ()    External     | MemoryContextDelete
+03C 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+03D 00000000 SECTB  notype ()    Static       | setop_retrieve_direct
+03E 00000000 SECT9  notype ()    Static       | setop_fill_hash_table
+03F 00000000 SECTD  notype ()    Static       | setop_retrieve_hash_table
+040 00000000 SECT5  notype ()    Static       | build_hash_table
+041 00000000 SECT7  notype ()    Static       | set_output_count
+042 000002D0 SECT4  notype ()    Static       | ExecSetOp
+043 00000000 SECT4  notype       Label        | $LN11
+044 000001B0 SECT4  notype       Label        | $LN5
+045 00000200 SECT4  notype       Label        | $LN11
+046 00000000 SECTF  notype       Static       | .xdata
+    Section length   3C, #relocs    0, #linenums    0, checksum C567DBB4
+048 00000000 SECTF  notype       Static       | $unwind$ExecInitSetOp
+049 00000000 SECT10 notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum AF626131
+04B 00000000 SECT10 notype       Static       | $pdata$ExecInitSetOp
+04C 0000001C SECTF  notype       Static       | $unwind$ExecEndSetOp
+04D 0000000C SECT10 notype       Static       | $pdata$ExecEndSetOp
+04E 00000024 SECTF  notype       Static       | $unwind$ExecReScanSetOp
+04F 00000018 SECT10 notype       Static       | $pdata$ExecReScanSetOp
+050 00000000 SECT11 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 8DFF3FDB, selection    5 (pick associative Section 0xB)
+052 00000000 SECT11 notype       Static       | $unwind$setop_retrieve_direct
+053 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FF898777, selection    5 (pick associative Section 0xB)
+055 00000000 SECT12 notype       Static       | $pdata$setop_retrieve_direct
+056 00000000 SECT13 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 7D1A76CD, selection    5 (pick associative Section 0x9)
+058 00000000 SECT13 notype       Static       | $unwind$setop_fill_hash_table
+059 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C58321B4, selection    5 (pick associative Section 0x9)
+05B 00000000 SECT14 notype       Static       | $pdata$setop_fill_hash_table
+05C 00000000 SECT15 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 4D92FE4F, selection    5 (pick associative Section 0xD)
+05E 00000000 SECT15 notype       Static       | $unwind$setop_retrieve_hash_table
+05F 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B7698913, selection    5 (pick associative Section 0xD)
+061 00000000 SECT16 notype       Static       | $pdata$setop_retrieve_hash_table
+062 00000000 SECT17 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 2DA1F5C3, selection    5 (pick associative Section 0x5)
+064 00000000 SECT17 notype       Static       | $unwind$build_hash_table
+065 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 54A1AE41, selection    5 (pick associative Section 0x5)
+067 00000000 SECT18 notype       Static       | $pdata$build_hash_table
+068 00000000 SECT19 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum F4D9A8A3, selection    5 (pick associative Section 0x7)
+06A 00000000 SECT19 notype       Static       | $unwind$set_output_count
+06B 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8159C3E8, selection    5 (pick associative Section 0x7)
+06D 00000000 SECT1A notype       Static       | $pdata$set_output_count
+06E 0000002C SECTF  notype       Static       | $unwind$ExecSetOp
+06F 00000024 SECT10 notype       Static       | $pdata$ExecSetOp
+070 00000000 UNDEF  notype       External     | pg_signal_queue
+071 00000000 UNDEF  notype       External     | pg_signal_mask
+072 00000000 UNDEF  notype       External     | CurrentMemoryContext
+073 00000000 UNDEF  notype       External     | newNodeMacroHolder
+074 00000000 UNDEF  notype       External     | InterruptPending
+075 00000000 SECT1B notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 231B4F14, selection    2 (pick any)
+077 00000000 SECT1B notype       External     | ??_C@_0BB@BFALEBFG@set_output_count?$AA@ (`string')
+078 00000000 SECT1C notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 8263F853, selection    2 (pick any)
+07A 00000000 SECT1C notype       External     | ??_C@_0CB@HOADNCB@src?1backend?1executor?1nodeSetOp?4c@ (`string')
+07B 00000000 SECT1D notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 4FCB149C, selection    2 (pick any)
+07D 00000000 SECT1D notype       External     | ??_C@_0BI@BDPFCBED@unrecognized?5set?5op?3?5?$CFd?$AA@ (`string')
+07E 00000000 SECT1E notype       Static       | .rdata
+    Section length    6, #relocs    0, #linenums    0, checksum 6B6C06A4, selection    2 (pick any)
+080 00000000 SECT1E notype       External     | ??_C@_05CFFBFIPI@SetOp?$AA@ (`string')
+081 00000000 SECT1F notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 4E7B4A9D, selection    2 (pick any)
+083 00000000 SECT1F notype       External     | ??_C@_0BB@HIGLEENP@SetOp?5hash?5table?$AA@ (`string')
+
+String Table Size = 0x599 bytes
+
+  Summary
+
+        614C .debug$S
+          68 .debug$T
+          5D .drectve
+          6C .pdata
+          61 .rdata
+         8D8 .text$mn
+          90 .xdata

@@ -1,0 +1,142 @@
+
+Dump of file Release\postgres/rangetypes_spgist.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5C8C, #relocs  16A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  E51, #relocs   9E, #linenums    0, checksum FE325469
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   D3, #relocs    7, #linenums    0, checksum 1A0E1D06, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  310, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | qsort_arg
+00F 00000000 UNDEF  notype ()    External     | elog_start
+010 00000000 UNDEF  notype ()    External     | elog_finish
+011 00000000 UNDEF  notype ()    External     | palloc
+012 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+013 00000000 SECT4  notype ()    External     | spg_range_quad_config
+014 00000020 SECT4  notype ()    External     | spg_range_quad_choose
+015 000000E0 SECT4  notype ()    External     | spg_range_quad_picksplit
+016 00000380 SECT4  notype ()    External     | spg_range_quad_inner_consistent
+017 00000BE0 SECT4  notype ()    External     | spg_range_quad_leaf_consistent
+018 00000000 UNDEF  notype ()    External     | datumCopy
+019 00000000 UNDEF  notype ()    External     | range_contains_elem_internal
+01A 00000000 UNDEF  notype ()    External     | range_eq_internal
+01B 00000000 UNDEF  notype ()    External     | range_contains_internal
+01C 00000000 UNDEF  notype ()    External     | range_contained_by_internal
+01D 00000000 UNDEF  notype ()    External     | range_before_internal
+01E 00000000 UNDEF  notype ()    External     | range_after_internal
+01F 00000000 UNDEF  notype ()    External     | range_adjacent_internal
+020 00000000 UNDEF  notype ()    External     | range_overlaps_internal
+021 00000000 UNDEF  notype ()    External     | range_overleft_internal
+022 00000000 UNDEF  notype ()    External     | range_overright_internal
+023 00000000 UNDEF  notype ()    External     | range_get_typcache
+024 00000000 UNDEF  notype ()    External     | range_serialize
+025 00000000 UNDEF  notype ()    External     | range_deserialize
+026 00000000 UNDEF  notype ()    External     | range_get_flags
+027 00000000 UNDEF  notype ()    External     | range_cmp_bounds
+028 00000000 UNDEF  notype ()    External     | bounds_adjacent
+029 00000000 SECT5  notype ()    Static       | getQuadrant
+02A 00000E40 SECT4  notype ()    Static       | bound_cmp
+02B 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+02C 00000000 UNDEF  notype ()    External     | __security_check_cookie
+02D 00000020 SECT4  notype       Label        | $LN10
+02E 000000E0 SECT4  notype       Label        | $LN28
+02F 00000B40 SECT4  notype       Static       | $LN164
+030 000004A6 SECT4  notype       Label        | $LN29
+031 000004B4 SECT4  notype       Label        | $LN32
+032 000004C2 SECT4  notype       Label        | $LN34
+033 000004D0 SECT4  notype       Label        | $LN36
+034 000004D5 SECT4  notype       Label        | $LN37
+035 00000B88 SECT4  notype       Static       | $LN163
+036 00000723 SECT4  notype       Label        | $LN45
+037 00000736 SECT4  notype       Label        | $LN46
+038 00000744 SECT4  notype       Label        | $LN47
+039 00000756 SECT4  notype       Label        | $LN48
+03A 00000762 SECT4  notype       Label        | $LN49
+03B 00000773 SECT4  notype       Label        | $LN50
+03C 000009C0 SECT4  notype       Label        | $LN61
+03D 000009E2 SECT4  notype       Label        | $LN63
+03E 00000A05 SECT4  notype       Label        | $LN66
+03F 000004E4 SECT4  notype       Label        | $LN12
+040 00000A26 SECT4  notype       Label        | $LN20
+041 00000380 SECT4  notype       Label        | $LN181
+042 00000DE4 SECT4  notype       Static       | $LN30
+043 00000C77 SECT4  notype       Label        | $LN10
+044 00000C92 SECT4  notype       Label        | $LN11
+045 00000CAD SECT4  notype       Label        | $LN12
+046 00000CC8 SECT4  notype       Label        | $LN13
+047 00000CE3 SECT4  notype       Label        | $LN14
+048 00000CFE SECT4  notype       Label        | $LN15
+049 00000D19 SECT4  notype       Label        | $LN16
+04A 00000D31 SECT4  notype       Label        | $LN17
+04B 00000D49 SECT4  notype       Label        | $LN18
+04C 00000D5C SECT4  notype       Label        | $LN19
+04D 00000D74 SECT4  notype       Label        | $LN9
+04E 00000BE0 SECT4  notype       Label        | $LN34
+04F 00000000 SECT7  notype       Static       | .xdata
+    Section length   E4, #relocs   13, #linenums    0, checksum 14EF0EFF
+051 00000000 SECT7  notype       Static       | $unwind$spg_range_quad_choose
+052 00000000 SECT8  notype       Static       | .pdata
+    Section length   78, #relocs   1E, #linenums    0, checksum 37D2CE31
+054 00000000 SECT8  notype       Static       | $pdata$spg_range_quad_choose
+055 00000014 SECT7  notype       Static       | $unwind$spg_range_quad_picksplit
+056 0000000C SECT8  notype       Static       | $pdata$spg_range_quad_picksplit
+057 0000002C SECT7  notype       Static       | $unwind$spg_range_quad_inner_consistent
+058 00000018 SECT8  notype       Static       | $pdata$spg_range_quad_inner_consistent
+059 00000048 SECT7  notype       Static       | $chain$2$spg_range_quad_inner_consistent
+05A 00000024 SECT8  notype       Static       | $pdata$2$spg_range_quad_inner_consistent
+05B 00000064 SECT7  notype       Static       | $chain$3$spg_range_quad_inner_consistent
+05C 00000030 SECT8  notype       Static       | $pdata$3$spg_range_quad_inner_consistent
+05D 0000007C SECT7  notype       Static       | $chain$4$spg_range_quad_inner_consistent
+05E 0000003C SECT8  notype       Static       | $pdata$4$spg_range_quad_inner_consistent
+05F 0000008C SECT7  notype       Static       | $chain$5$spg_range_quad_inner_consistent
+060 00000048 SECT8  notype       Static       | $pdata$5$spg_range_quad_inner_consistent
+061 000000A8 SECT7  notype       Static       | $unwind$spg_range_quad_leaf_consistent
+062 00000054 SECT8  notype       Static       | $pdata$spg_range_quad_leaf_consistent
+063 000000C0 SECT7  notype       Static       | $chain$0$spg_range_quad_leaf_consistent
+064 00000060 SECT8  notype       Static       | $pdata$0$spg_range_quad_leaf_consistent
+065 000000D4 SECT7  notype       Static       | $chain$1$spg_range_quad_leaf_consistent
+066 0000006C SECT8  notype       Static       | $pdata$1$spg_range_quad_leaf_consistent
+067 00000000 SECT9  notype       Static       | .xdata
+    Section length   14, #relocs    1, #linenums    0, checksum 51EF8AF2, selection    5 (pick associative Section 0x5)
+069 00000000 SECT9  notype       Static       | $unwind$getQuadrant
+06A 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 889271FF, selection    5 (pick associative Section 0x5)
+06C 00000000 SECTA  notype       Static       | $pdata$getQuadrant
+06D 00000000 UNDEF  notype       External     | CurrentMemoryContext
+06E 00000000 SECTB  notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum  6D5CDDF, selection    2 (pick any)
+070 00000000 SECTB  notype       External     | ??_C@_0CA@OACAGHIN@spg_range_quad_inner_consistent?$AA@ (`string')
+071 00000000 SECTC  notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum D6B11270, selection    2 (pick any)
+073 00000000 SECTC  notype       External     | ??_C@_0CK@MNCBMFHE@src?1backend?1utils?1adt?1rangetypes@ (`string')
+074 00000000 SECTD  notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum B1835FF4, selection    2 (pick any)
+076 00000000 SECTD  notype       External     | ??_C@_0CA@FHHGPFKG@unrecognized?5range?5strategy?3?5?$CFd?$AA@ (`string')
+077 00000000 SECTE  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum B2EA1EE7, selection    2 (pick any)
+079 00000000 SECTE  notype       External     | ??_C@_0BP@CEBMENKI@spg_range_quad_leaf_consistent?$AA@ (`string')
+07A 00000000 UNDEF  notype       External     | __ImageBase
+07B 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x699 bytes
+
+  Summary
+
+        5F9C .debug$S
+          68 .debug$T
+          5D .drectve
+          84 .pdata
+          89 .rdata
+         F24 .text$mn
+          F8 .xdata

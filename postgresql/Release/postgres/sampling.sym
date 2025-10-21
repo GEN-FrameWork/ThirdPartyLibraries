@@ -1,0 +1,95 @@
+
+Dump of file Release\postgres/sampling.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 46F4, #relocs   B8, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  66A, #relocs   2E, #linenums    0, checksum EC37CCCB
+00A 00000000 UNDEF  notype ()    External     | pg_erand48
+00B 00000000 UNDEF  notype ()    External     | random
+00C 00000000 SECT4  notype ()    External     | sampler_random_init_state
+00D 00000020 SECT4  notype ()    External     | sampler_random_fract
+00E 00000060 SECT4  notype ()    External     | BlockSampler_Init
+00F 00000090 SECT4  notype ()    External     | BlockSampler_HasMore
+010 000000B0 SECT4  notype ()    External     | BlockSampler_Next
+011 00000190 SECT4  notype ()    External     | reservoir_init_selection_state
+012 00000220 SECT4  notype ()    External     | reservoir_get_next_S
+013 00000530 SECT4  notype ()    External     | anl_random_fract
+014 000005A0 SECT4  notype ()    External     | anl_init_selection_state
+015 00000630 SECT4  notype ()    External     | anl_get_next_S
+016 00000000 UNDEF  notype ()    External     | exp
+017 00000000 UNDEF  notype ()    External     | floor
+018 00000000 UNDEF  notype ()    External     | log
+019 00000020 SECT4  notype       Label        | $LN12
+01A 000000B0 SECT4  notype       Label        | $LN27
+01B 00000190 SECT4  notype       Label        | $LN15
+01C 00000220 SECT4  notype       Label        | $LN68
+01D 00000530 SECT4  notype       Label        | $LN22
+01E 000005A0 SECT4  notype       Label        | $LN21
+01F 00000630 SECT4  notype       Label        | $LN4
+020 00000000 SECT5  notype       Static       | .xdata
+    Section length   E4, #relocs    F, #linenums    0, checksum 4005E21E
+022 00000000 SECT5  notype       Static       | $unwind$sampler_random_fract
+023 00000000 SECT6  notype       Static       | .pdata
+    Section length   90, #relocs   24, #linenums    0, checksum 86B4A2A7
+025 00000000 SECT6  notype       Static       | $pdata$sampler_random_fract
+026 0000000C SECT5  notype       Static       | $unwind$BlockSampler_Next
+027 0000000C SECT6  notype       Static       | $pdata$BlockSampler_Next
+028 0000001C SECT5  notype       Static       | $chain$1$BlockSampler_Next
+029 00000018 SECT6  notype       Static       | $pdata$1$BlockSampler_Next
+02A 00000034 SECT5  notype       Static       | $chain$2$BlockSampler_Next
+02B 00000024 SECT6  notype       Static       | $pdata$2$BlockSampler_Next
+02C 00000048 SECT5  notype       Static       | $chain$3$BlockSampler_Next
+02D 00000030 SECT6  notype       Static       | $pdata$3$BlockSampler_Next
+02E 00000058 SECT5  notype       Static       | $unwind$reservoir_init_selection_state
+02F 0000003C SECT6  notype       Static       | $pdata$reservoir_init_selection_state
+030 0000006C SECT5  notype       Static       | $unwind$reservoir_get_next_S
+031 00000048 SECT6  notype       Static       | $pdata$reservoir_get_next_S
+032 00000088 SECT5  notype       Static       | $chain$6$reservoir_get_next_S
+033 00000054 SECT6  notype       Static       | $pdata$6$reservoir_get_next_S
+034 000000B4 SECT5  notype       Static       | $chain$7$reservoir_get_next_S
+035 00000060 SECT6  notype       Static       | $pdata$7$reservoir_get_next_S
+036 000000C4 SECT5  notype       Static       | $unwind$anl_random_fract
+037 0000006C SECT6  notype       Static       | $pdata$anl_random_fract
+038 000000D0 SECT5  notype       Static       | $unwind$anl_init_selection_state
+039 00000078 SECT6  notype       Static       | $pdata$anl_init_selection_state
+03A 000000DC SECT5  notype       Static       | $unwind$anl_get_next_S
+03B 00000084 SECT6  notype       Static       | $pdata$anl_get_next_S
+03C 00000000 SECT7  notype       Static       | .bss
+    Section length   10, #relocs    0, #linenums    0, checksum        0
+03E 00000000 SECT7  notype       Static       | oldrs
+03F 00000000 SECT8  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+041 00000000 SECT8  notype       External     | __real@3ff0000000000000
+042 00000000 SECT9  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum FFC0D0E5, selection    2 (pick any)
+044 00000000 SECT9  notype       External     | __real@4036000000000000
+045 00000000 SECTA  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 4F624FA0, selection    2 (pick any)
+047 00000000 SECTA  notype       External     | __real@bff0000000000000
+048 00000000 SECTB  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 8BED836F, selection    2 (pick any)
+04A 00000000 SECTB  notype       External     | __xmm@80000000000000008000000000000000
+04B 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x3FE bytes
+
+  Summary
+
+          10 .bss
+        46F4 .debug$S
+          68 .debug$T
+          5D .drectve
+          90 .pdata
+          28 .rdata
+         66A .text$mn
+          E4 .xdata

@@ -1,0 +1,95 @@
+
+Dump of file Release\pgcrypto/internal-sha2.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5148, #relocs   E8, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  4CB, #relocs   3C, #linenums    0, checksum 12A7C317
+00A 00000000 UNDEF  notype ()    External     | palloc
+00B 00000000 UNDEF  notype ()    External     | pfree
+00C 00000000 UNDEF  notype ()    External     | pg_sha224_init
+00D 00000000 UNDEF  notype ()    External     | pg_sha224_update
+00E 00000000 UNDEF  notype ()    External     | pg_sha224_final
+00F 00000000 UNDEF  notype ()    External     | pg_sha256_init
+010 00000000 UNDEF  notype ()    External     | pg_sha256_update
+011 00000000 UNDEF  notype ()    External     | pg_sha256_final
+012 00000000 UNDEF  notype ()    External     | pg_sha384_init
+013 00000000 UNDEF  notype ()    External     | pg_sha384_update
+014 00000000 UNDEF  notype ()    External     | pg_sha384_final
+015 00000000 UNDEF  notype ()    External     | pg_sha512_init
+016 00000000 UNDEF  notype ()    External     | pg_sha512_update
+017 00000000 UNDEF  notype ()    External     | pg_sha512_final
+018 00000000 UNDEF  notype ()    External     | px_memset
+019 00000000 SECT4  notype ()    External     | init_sha224
+01A 00000090 SECT4  notype ()    External     | init_sha256
+01B 00000120 SECT4  notype ()    External     | init_sha384
+01C 000001B0 SECT4  notype ()    External     | init_sha512
+01D 00000240 SECT4  notype ()    Static       | int_sha224_len
+01E 00000250 SECT4  notype ()    Static       | int_sha224_block_len
+01F 00000260 SECT4  notype ()    Static       | int_sha224_update
+020 00000280 SECT4  notype ()    Static       | int_sha224_reset
+021 00000290 SECT4  notype ()    Static       | int_sha224_finish
+022 000002A0 SECT4  notype ()    Static       | int_sha224_free
+023 000002E0 SECT4  notype ()    Static       | int_sha256_len
+024 000002F0 SECT4  notype ()    Static       | int_sha256_block_len
+025 00000300 SECT4  notype ()    Static       | int_sha256_update
+026 00000320 SECT4  notype ()    Static       | int_sha256_reset
+027 00000330 SECT4  notype ()    Static       | int_sha256_finish
+028 00000340 SECT4  notype ()    Static       | int_sha256_free
+029 00000380 SECT4  notype ()    Static       | int_sha384_len
+02A 00000390 SECT4  notype ()    Static       | int_sha384_block_len
+02B 000003A0 SECT4  notype ()    Static       | int_sha384_update
+02C 000003C0 SECT4  notype ()    Static       | int_sha384_reset
+02D 000003D0 SECT4  notype ()    Static       | int_sha384_finish
+02E 000003E0 SECT4  notype ()    Static       | int_sha384_free
+02F 00000430 SECT4  notype ()    Static       | int_sha512_len
+030 00000440 SECT4  notype ()    Static       | int_sha512_block_len
+031 00000450 SECT4  notype ()    Static       | int_sha512_update
+032 00000470 SECT4  notype ()    Static       | int_sha512_reset
+033 00000480 SECT4  notype ()    Static       | int_sha512_finish
+034 00000490 SECT4  notype ()    Static       | int_sha512_free
+035 00000000 UNDEF  notype ()    External     | memset
+036 00000000 SECT4  notype       Label        | $LN4
+037 00000090 SECT4  notype       Label        | $LN4
+038 00000120 SECT4  notype       Label        | $LN4
+039 000001B0 SECT4  notype       Label        | $LN4
+03A 00000000 SECT5  notype       Static       | .xdata
+    Section length   60, #relocs    0, #linenums    0, checksum BAB76510
+03C 00000000 SECT5  notype       Static       | $unwind$init_sha224
+03D 00000000 SECT6  notype       Static       | .pdata
+    Section length   60, #relocs   18, #linenums    0, checksum 43578E61
+03F 00000000 SECT6  notype       Static       | $pdata$init_sha224
+040 0000000C SECT5  notype       Static       | $unwind$init_sha256
+041 0000000C SECT6  notype       Static       | $pdata$init_sha256
+042 00000018 SECT5  notype       Static       | $unwind$init_sha384
+043 00000018 SECT6  notype       Static       | $pdata$init_sha384
+044 00000024 SECT5  notype       Static       | $unwind$init_sha512
+045 00000024 SECT6  notype       Static       | $pdata$init_sha512
+046 00000030 SECT5  notype       Static       | $unwind$int_sha224_free
+047 00000030 SECT6  notype       Static       | $pdata$int_sha224_free
+048 0000003C SECT5  notype       Static       | $unwind$int_sha256_free
+049 0000003C SECT6  notype       Static       | $pdata$int_sha256_free
+04A 00000048 SECT5  notype       Static       | $unwind$int_sha384_free
+04B 00000048 SECT6  notype       Static       | $pdata$int_sha384_free
+04C 00000054 SECT5  notype       Static       | $unwind$int_sha512_free
+04D 00000054 SECT6  notype       Static       | $pdata$int_sha512_free
+
+String Table Size = 0x3FA bytes
+
+  Summary
+
+        5148 .debug$S
+          68 .debug$T
+          5D .drectve
+          60 .pdata
+         4CB .text$mn
+          60 .xdata

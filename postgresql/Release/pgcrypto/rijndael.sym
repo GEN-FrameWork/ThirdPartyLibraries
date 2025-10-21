@@ -1,0 +1,96 @@
+
+Dump of file Release\pgcrypto/rijndael.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4B10, #relocs  128, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 256F, #relocs  1D2, #linenums    0, checksum  E6A1669
+00A 00000000 SECT4  notype ()    External     | rijndael_set_key
+00B 000003C0 SECT4  notype ()    External     | rijndael_encrypt
+00C 000013C0 SECT4  notype ()    External     | rijndael_decrypt
+00D 00002390 SECT4  notype ()    External     | aes_set_key
+00E 000023A0 SECT4  notype ()    External     | aes_ecb_encrypt
+00F 000023F0 SECT4  notype ()    External     | aes_ecb_decrypt
+010 00002440 SECT4  notype ()    External     | aes_cbc_encrypt
+011 000024B0 SECT4  notype ()    External     | aes_cbc_decrypt
+012 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+013 00000000 UNDEF  notype ()    External     | __security_check_cookie
+014 00000000 SECT4  notype       Label        | $LN86
+015 000003C0 SECT4  notype       Label        | $LN64
+016 000013C0 SECT4  notype       Label        | $LN64
+017 000023A0 SECT4  notype       Label        | $LN11
+018 000023F0 SECT4  notype       Label        | $LN11
+019 00002440 SECT4  notype       Label        | $LN21
+01A 000024B0 SECT4  notype       Label        | $LN33
+01B 00000000 SECT5  notype       Static       | .xdata
+    Section length  15C, #relocs   25, #linenums    0, checksum B974C772
+01D 00000000 SECT5  notype       Static       | $unwind$rijndael_set_key
+01E 00000000 SECT6  notype       Static       | .pdata
+    Section length   E4, #relocs   39, #linenums    0, checksum 55C00C1B
+020 00000000 SECT6  notype       Static       | $pdata$rijndael_set_key
+021 0000000C SECT5  notype       Static       | $chain$0$rijndael_set_key
+022 0000000C SECT6  notype       Static       | $pdata$0$rijndael_set_key
+023 00000020 SECT5  notype       Static       | $chain$2$rijndael_set_key
+024 00000018 SECT6  notype       Static       | $pdata$2$rijndael_set_key
+025 00000038 SECT5  notype       Static       | $chain$3$rijndael_set_key
+026 00000024 SECT6  notype       Static       | $pdata$3$rijndael_set_key
+027 00000048 SECT5  notype       Static       | $chain$4$rijndael_set_key
+028 00000030 SECT6  notype       Static       | $pdata$4$rijndael_set_key
+029 00000058 SECT5  notype       Static       | $unwind$rijndael_encrypt
+02A 0000003C SECT6  notype       Static       | $pdata$rijndael_encrypt
+02B 00000074 SECT5  notype       Static       | $unwind$rijndael_decrypt
+02C 00000048 SECT6  notype       Static       | $pdata$rijndael_decrypt
+02D 00000090 SECT5  notype       Static       | $unwind$aes_ecb_encrypt
+02E 00000054 SECT6  notype       Static       | $pdata$aes_ecb_encrypt
+02F 0000009C SECT5  notype       Static       | $chain$0$aes_ecb_encrypt
+030 00000060 SECT6  notype       Static       | $pdata$0$aes_ecb_encrypt
+031 000000B0 SECT5  notype       Static       | $chain$1$aes_ecb_encrypt
+032 0000006C SECT6  notype       Static       | $pdata$1$aes_ecb_encrypt
+033 000000C0 SECT5  notype       Static       | $unwind$aes_ecb_decrypt
+034 00000078 SECT6  notype       Static       | $pdata$aes_ecb_decrypt
+035 000000CC SECT5  notype       Static       | $chain$0$aes_ecb_decrypt
+036 00000084 SECT6  notype       Static       | $pdata$0$aes_ecb_decrypt
+037 000000E0 SECT5  notype       Static       | $chain$1$aes_ecb_decrypt
+038 00000090 SECT6  notype       Static       | $pdata$1$aes_ecb_decrypt
+039 000000F0 SECT5  notype       Static       | $unwind$aes_cbc_encrypt
+03A 0000009C SECT6  notype       Static       | $pdata$aes_cbc_encrypt
+03B 000000FC SECT5  notype       Static       | $chain$0$aes_cbc_encrypt
+03C 000000A8 SECT6  notype       Static       | $pdata$0$aes_cbc_encrypt
+03D 00000110 SECT5  notype       Static       | $chain$1$aes_cbc_encrypt
+03E 000000B4 SECT6  notype       Static       | $pdata$1$aes_cbc_encrypt
+03F 00000120 SECT5  notype       Static       | $unwind$aes_cbc_decrypt
+040 000000C0 SECT6  notype       Static       | $pdata$aes_cbc_decrypt
+041 00000130 SECT5  notype       Static       | $chain$2$aes_cbc_decrypt
+042 000000CC SECT6  notype       Static       | $pdata$2$aes_cbc_decrypt
+043 0000014C SECT5  notype       Static       | $chain$3$aes_cbc_decrypt
+044 000000D8 SECT6  notype       Static       | $pdata$3$aes_cbc_decrypt
+045 00000000 SECT7  notype       Static       | .rdata
+    Section length 4028, #relocs    0, #linenums    0, checksum 7865D920
+047 00000000 SECT7  notype       Static       | ft_tab
+048 00001000 SECT7  notype       Static       | it_tab
+049 00002000 SECT7  notype       Static       | fl_tab
+04A 00003000 SECT7  notype       Static       | il_tab
+04B 00004000 SECT7  notype       Static       | rco_tab
+04C 00000000 UNDEF  notype       External     | __ImageBase
+04D 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x479 bytes
+
+  Summary
+
+        4B10 .debug$S
+          68 .debug$T
+          5D .drectve
+          E4 .pdata
+        4028 .rdata
+        256F .text$mn
+         15C .xdata

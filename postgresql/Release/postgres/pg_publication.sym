@@ -1,0 +1,219 @@
+
+Dump of file Release\postgres/pg_publication.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6C30, #relocs   EC, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  A21, #relocs   65, #linenums    0, checksum 2E0D4C60
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  1E4, #relocs   27, #linenums    0, checksum E3E38C69, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  190, #relocs    8, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | errstart
+00F 00000000 UNDEF  notype ()    External     | errfinish
+010 00000000 UNDEF  notype ()    External     | errcode
+011 00000000 UNDEF  notype ()    External     | errmsg
+012 00000000 UNDEF  notype ()    External     | errdetail
+013 00000000 UNDEF  notype ()    External     | errhint
+014 00000000 UNDEF  notype ()    External     | elog_start
+015 00000000 UNDEF  notype ()    External     | elog_finish
+016 00000000 UNDEF  notype ()    External     | palloc
+017 00000000 UNDEF  notype ()    External     | pstrdup
+018 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+019 00000000 UNDEF  notype ()    External     | lappend_oid
+01A 00000000 UNDEF  notype ()    External     | ScanKeyInit
+01B 00000000 UNDEF  notype ()    External     | systable_beginscan
+01C 00000000 UNDEF  notype ()    External     | systable_getnext
+01D 00000000 UNDEF  notype ()    External     | systable_endscan
+01E 00000000 UNDEF  notype ()    External     | relation_close
+01F 00000000 UNDEF  notype ()    External     | heap_open
+020 00000000 UNDEF  notype ()    External     | heap_beginscan_catalog
+021 00000000 UNDEF  notype ()    External     | heap_endscan
+022 00000000 UNDEF  notype ()    External     | heap_getnext
+023 00000000 SECT4  notype ()    External     | GetPublication
+024 000000D0 SECT4  notype ()    External     | GetPublicationByName
+025 00000190 SECT4  notype ()    External     | GetRelationPublications
+026 00000220 SECT4  notype ()    External     | GetPublicationRelations
+027 00000300 SECT4  notype ()    External     | GetAllTablesPublications
+028 000003F0 SECT4  notype ()    External     | GetAllTablesPublicationRelations
+029 00000510 SECT4  notype ()    External     | is_publishable_relation
+02A 00000570 SECT4  notype ()    External     | publication_add_relation
+02B 00000750 SECT4  notype ()    External     | get_publication_oid
+02C 000007F0 SECT4  notype ()    External     | get_publication_name
+02D 00000880 SECT4  notype ()    External     | pg_get_publication_tables
+02E 00000000 UNDEF  notype ()    External     | init_MultiFuncCall
+02F 00000000 UNDEF  notype ()    External     | per_MultiFuncCall
+030 00000000 UNDEF  notype ()    External     | end_MultiFuncCall
+031 00000000 UNDEF  notype ()    External     | heap_form_tuple
+032 00000000 UNDEF  notype ()    External     | heap_freetuple
+033 00000000 UNDEF  notype ()    External     | IsCatalogRelation
+034 00000000 UNDEF  notype ()    External     | IsCatalogClass
+035 00000000 UNDEF  notype ()    External     | recordDependencyOn
+036 00000000 UNDEF  notype ()    External     | CatalogTupleInsert
+037 00000990 SECT4  notype ()    External     | pg_relation_is_publishable
+038 00000000 UNDEF  notype ()    External     | text_to_cstring
+039 00000000 UNDEF  notype ()    External     | ReleaseCatCacheList
+03A 00000000 UNDEF  notype ()    External     | CacheInvalidateRelcache
+03B 00000000 UNDEF  notype ()    External     | SearchSysCache
+03C 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+03D 00000000 UNDEF  notype ()    External     | SearchSysCacheExists
+03E 00000000 UNDEF  notype ()    External     | GetSysCacheOid
+03F 00000000 UNDEF  notype ()    External     | SearchSysCacheList
+040 00000000 SECT5  notype ()    Static       | check_publication_add_relation
+041 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+042 00000000 UNDEF  notype ()    External     | __security_check_cookie
+043 00000000 SECT4  notype       Label        | $LN9
+044 000000D0 SECT4  notype       Label        | $LN11
+045 00000190 SECT4  notype       Label        | $LN11
+046 00000220 SECT4  notype       Label        | $LN10
+047 00000300 SECT4  notype       Label        | $LN12
+048 000003F0 SECT4  notype       Label        | $LN17
+049 00000510 SECT4  notype       Label        | $LN8
+04A 00000570 SECT4  notype       Label        | $LN21
+04B 00000750 SECT4  notype       Label        | $LN13
+04C 000007F0 SECT4  notype       Label        | $LN9
+04D 00000880 SECT4  notype       Label        | $LN27
+04E 00000990 SECT4  notype       Label        | $LN12
+04F 00000000 SECT7  notype       Static       | .xdata
+    Section length  160, #relocs   19, #linenums    0, checksum CAF5CC9E
+051 00000000 SECT7  notype       Static       | $unwind$GetPublication
+052 00000000 SECT8  notype       Static       | .pdata
+    Section length   F0, #relocs   3C, #linenums    0, checksum 39A9FA95
+054 00000000 SECT8  notype       Static       | $pdata$GetPublication
+055 00000014 SECT7  notype       Static       | $unwind$GetPublicationByName
+056 0000000C SECT8  notype       Static       | $pdata$GetPublicationByName
+057 00000024 SECT7  notype       Static       | $unwind$GetRelationPublications
+058 00000018 SECT8  notype       Static       | $pdata$GetRelationPublications
+059 00000034 SECT7  notype       Static       | $chain$0$GetRelationPublications
+05A 00000024 SECT8  notype       Static       | $pdata$0$GetRelationPublications
+05B 00000048 SECT7  notype       Static       | $chain$1$GetRelationPublications
+05C 00000030 SECT8  notype       Static       | $pdata$1$GetRelationPublications
+05D 00000058 SECT7  notype       Static       | $unwind$GetPublicationRelations
+05E 0000003C SECT8  notype       Static       | $pdata$GetPublicationRelations
+05F 00000068 SECT7  notype       Static       | $unwind$GetAllTablesPublications
+060 00000048 SECT8  notype       Static       | $pdata$GetAllTablesPublications
+061 00000078 SECT7  notype       Static       | $unwind$GetAllTablesPublicationRelations
+062 00000054 SECT8  notype       Static       | $pdata$GetAllTablesPublicationRelations
+063 00000088 SECT7  notype       Static       | $chain$1$GetAllTablesPublicationRelations
+064 00000060 SECT8  notype       Static       | $pdata$1$GetAllTablesPublicationRelations
+065 000000A0 SECT7  notype       Static       | $chain$2$GetAllTablesPublicationRelations
+066 0000006C SECT8  notype       Static       | $pdata$2$GetAllTablesPublicationRelations
+067 000000B0 SECT7  notype       Static       | $unwind$is_publishable_relation
+068 00000078 SECT8  notype       Static       | $pdata$is_publishable_relation
+069 000000BC SECT7  notype       Static       | $unwind$publication_add_relation
+06A 00000084 SECT8  notype       Static       | $pdata$publication_add_relation
+06B 000000DC SECT7  notype       Static       | $unwind$get_publication_oid
+06C 00000090 SECT8  notype       Static       | $pdata$get_publication_oid
+06D 000000EC SECT7  notype       Static       | $unwind$get_publication_name
+06E 0000009C SECT8  notype       Static       | $pdata$get_publication_name
+06F 000000F8 SECT7  notype       Static       | $unwind$pg_get_publication_tables
+070 000000A8 SECT8  notype       Static       | $pdata$pg_get_publication_tables
+071 00000100 SECT7  notype       Static       | $chain$0$pg_get_publication_tables
+072 000000B4 SECT8  notype       Static       | $pdata$0$pg_get_publication_tables
+073 00000114 SECT7  notype       Static       | $chain$2$pg_get_publication_tables
+074 000000C0 SECT8  notype       Static       | $pdata$2$pg_get_publication_tables
+075 0000012C SECT7  notype       Static       | $chain$3$pg_get_publication_tables
+076 000000CC SECT8  notype       Static       | $pdata$3$pg_get_publication_tables
+077 0000013C SECT7  notype       Static       | $chain$4$pg_get_publication_tables
+078 000000D8 SECT8  notype       Static       | $pdata$4$pg_get_publication_tables
+079 0000014C SECT7  notype       Static       | $unwind$pg_relation_is_publishable
+07A 000000E4 SECT8  notype       Static       | $pdata$pg_relation_is_publishable
+07B 00000000 SECT9  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum FF32930E, selection    5 (pick associative Section 0x5)
+07D 00000000 SECT9  notype       Static       | $unwind$check_publication_add_relation
+07E 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5526F3C6, selection    5 (pick associative Section 0x5)
+080 00000000 SECTA  notype       Static       | $pdata$check_publication_add_relation
+081 00000000 SECTB  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 90A19D12, selection    5 (pick associative Section 0x5)
+083 00000000 SECTB  notype       Static       | $chain$0$check_publication_add_relation
+084 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 823BF235, selection    5 (pick associative Section 0x5)
+086 00000000 SECTC  notype       Static       | $pdata$0$check_publication_add_relation
+087 00000000 SECTD  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum EC71192A, selection    5 (pick associative Section 0x5)
+089 00000000 SECTD  notype       Static       | $chain$1$check_publication_add_relation
+08A 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 27054A52, selection    5 (pick associative Section 0x5)
+08C 00000000 SECTE  notype       Static       | $pdata$1$check_publication_add_relation
+08D 00000000 UNDEF  notype       External     | CurrentMemoryContext
+08E 00000000 UNDEF  notype       External     | InvalidObjectAddress
+08F 00000000 SECTF  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum FD75D1AD, selection    2 (pick any)
+091 00000000 SECTF  notype       External     | ??_C@_0BP@GLIDICOC@check_publication_add_relation?$AA@ (`string')
+092 00000000 SECT10 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum AF2F3CEE, selection    2 (pick any)
+094 00000000 SECT10 notype       External     | ??_C@_0CF@HEABLMHF@src?1backend?1catalog?1pg_publicati@ (`string')
+095 00000000 SECT11 notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum 93236ABC, selection    2 (pick any)
+097 00000000 SECT11 notype       External     | ??_C@_0CP@IJAFDODG@You?5can?5add?5the?5table?5partitions@ (`string')
+098 00000000 SECT12 notype       Static       | .rdata
+    Section length   3C, #relocs    0, #linenums    0, checksum 1C3DD937, selection    2 (pick any)
+09A 00000000 SECT12 notype       External     | ??_C@_0DM@OHNAKPMA@Adding?5partitioned?5tables?5to?5pub@ (`string')
+09B 00000000 SECT13 notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 87636D48, selection    2 (pick any)
+09D 00000000 SECT13 notype       External     | ??_C@_0BM@PIOMOFFO@?$CC?$CFs?$CC?5is?5a?5partitioned?5table?$AA@ (`string')
+09E 00000000 SECT14 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum  B7CA600, selection    2 (pick any)
+0A0 00000000 SECT14 notype       External     | ??_C@_0CK@BAOMHBAE@Only?5tables?5can?5be?5added?5to?5publ@ (`string')
+0A1 00000000 SECT15 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 4727A2B0, selection    2 (pick any)
+0A3 00000000 SECT15 notype       External     | ??_C@_0BE@LHANMGMC@?$CC?$CFs?$CC?5is?5not?5a?5table?$AA@ (`string')
+0A4 00000000 SECT16 notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum 9DCE828B, selection    2 (pick any)
+0A6 00000000 SECT16 notype       External     | ??_C@_0CP@IHOINGAB@System?5tables?5cannot?5be?5added?5to@ (`string')
+0A7 00000000 SECT17 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum C8E9BB05, selection    2 (pick any)
+0A9 00000000 SECT17 notype       External     | ??_C@_0BH@EFLGGALO@?$CC?$CFs?$CC?5is?5a?5system?5table?$AA@ (`string')
+0AA 00000000 SECT18 notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum 63FDA94D, selection    2 (pick any)
+0AC 00000000 SECT18 notype       External     | ??_C@_0DH@INDJJEPD@Temporary?5and?5unlogged?5relations@ (`string')
+0AD 00000000 SECT19 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 8B509B7A, selection    2 (pick any)
+0AF 00000000 SECT19 notype       External     | ??_C@_0CA@GNKFDBCI@table?5?$CC?$CFs?$CC?5cannot?5be?5replicated?$AA@ (`string')
+0B0 00000000 SECT1A notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 66BE4AA8, selection    2 (pick any)
+0B2 00000000 SECT1A notype       External     | ??_C@_0BJ@HAIOLLNI@publication_add_relation?$AA@ (`string')
+0B3 00000000 SECT1B notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum 93F976DA, selection    2 (pick any)
+0B5 00000000 SECT1B notype       External     | ??_C@_0DE@KACNIGJF@relation?5?$CC?$CFs?$CC?5is?5already?5member?5@ (`string')
+0B6 00000000 SECT1C notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum BB5984D4, selection    2 (pick any)
+0B8 00000000 SECT1C notype       External     | ??_C@_0P@JDHFHIMM@GetPublication?$AA@ (`string')
+0B9 00000000 SECT1D notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 1A0DBB27, selection    2 (pick any)
+0BB 00000000 SECT1D notype       External     | ??_C@_0CH@GFAALAPI@cache?5lookup?5failed?5for?5publicat@ (`string')
+0BC 00000000 SECT1E notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 71A29034, selection    2 (pick any)
+0BE 00000000 SECT1E notype       External     | ??_C@_0BF@MPFJKKEA@GetPublicationByName?$AA@ (`string')
+0BF 00000000 SECT1F notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum F0D16CAA, selection    2 (pick any)
+0C1 00000000 SECT1F notype       External     | ??_C@_0CA@BGCEMGPI@publication?5?$CC?$CFs?$CC?5does?5not?5exist?$AA@ (`string')
+0C2 00000000 SECT20 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 36C661C7, selection    2 (pick any)
+0C4 00000000 SECT20 notype       External     | ??_C@_0BE@MGOMAFLF@get_publication_oid?$AA@ (`string')
+0C5 00000000 SECT21 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum EAB93440, selection    2 (pick any)
+0C7 00000000 SECT21 notype       External     | ??_C@_0BF@FEECAODE@get_publication_name?$AA@ (`string')
+0C8 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0xDF5 bytes
+
+  Summary
+
+        6DC0 .debug$S
+          68 .debug$T
+          5D .drectve
+         114 .pdata
+         287 .rdata
+         C05 .text$mn
+         198 .xdata

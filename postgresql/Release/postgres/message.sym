@@ -1,0 +1,60 @@
+
+Dump of file Release\postgres/message.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4138, #relocs   1E, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length   FB, #relocs    F, #linenums    0, checksum 5CBF8741
+00A 00000000 UNDEF  notype ()    External     | elog_start
+00B 00000000 UNDEF  notype ()    External     | elog_finish
+00C 00000000 UNDEF  notype ()    External     | GetCurrentTransactionId
+00D 00000000 UNDEF  notype ()    External     | XLogBeginInsert
+00E 00000000 UNDEF  notype ()    External     | XLogSetRecordFlags
+00F 00000000 UNDEF  notype ()    External     | XLogInsert
+010 00000000 UNDEF  notype ()    External     | XLogRegisterData
+011 00000000 SECT4  notype ()    External     | LogLogicalMessage
+012 000000B0 SECT4  notype ()    External     | logicalmsg_redo
+013 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+014 00000000 UNDEF  notype ()    External     | __security_check_cookie
+015 00000000 SECT4  notype       Label        | $LN6
+016 000000B0 SECT4  notype       Label        | $LN9
+017 00000000 SECT5  notype       Static       | .xdata
+    Section length   20, #relocs    1, #linenums    0, checksum 7B3CE0D8
+019 00000000 SECT5  notype       Static       | $unwind$LogLogicalMessage
+01A 00000000 SECT6  notype       Static       | .pdata
+    Section length   18, #relocs    6, #linenums    0, checksum 9821182E
+01C 00000000 SECT6  notype       Static       | $pdata$LogLogicalMessage
+01D 00000018 SECT5  notype       Static       | $unwind$logicalmsg_redo
+01E 0000000C SECT6  notype       Static       | $pdata$logicalmsg_redo
+01F 00000000 UNDEF  notype       External     | MyDatabaseId
+020 00000000 SECT7  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum F385A653, selection    2 (pick any)
+022 00000000 SECT7  notype       External     | ??_C@_0BA@OAMBBCPJ@logicalmsg_redo?$AA@ (`string')
+023 00000000 SECT8  notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum 82DD3DEC, selection    2 (pick any)
+025 00000000 SECT8  notype       External     | ??_C@_0CK@JJENOKOI@src?1backend?1replication?1logical?1@ (`string')
+026 00000000 SECT9  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 1370E405, selection    2 (pick any)
+028 00000000 SECT9  notype       External     | ??_C@_0CE@IGDJKJCP@logicalmsg_redo?3?5unknown?5op?5code@ (`string')
+029 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x1D8 bytes
+
+  Summary
+
+        4138 .debug$S
+          68 .debug$T
+          5D .drectve
+          18 .pdata
+          5E .rdata
+          FB .text$mn
+          20 .xdata

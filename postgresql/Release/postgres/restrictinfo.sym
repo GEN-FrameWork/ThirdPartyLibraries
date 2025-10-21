@@ -1,0 +1,113 @@
+
+Dump of file Release\postgres/restrictinfo.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4964, #relocs   84, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  339, #relocs   10, #linenums    0, checksum  9657EEB
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  1C3, #relocs    E, #linenums    0, checksum ACC3DDCA, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  4C8, #relocs   28, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  1E3, #relocs    9, #linenums    0, checksum D36BBC42, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  5F4, #relocs   46, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+013 00000000 UNDEF  notype ()    External     | bms_union
+014 00000000 UNDEF  notype ()    External     | bms_is_subset
+015 00000000 UNDEF  notype ()    External     | bms_is_member
+016 00000000 UNDEF  notype ()    External     | bms_overlap
+017 00000000 UNDEF  notype ()    External     | bms_is_empty
+018 00000000 UNDEF  notype ()    External     | lappend
+019 00000000 UNDEF  notype ()    External     | get_leftop
+01A 00000000 UNDEF  notype ()    External     | get_rightop
+01B 00000000 UNDEF  notype ()    External     | or_clause
+01C 00000000 UNDEF  notype ()    External     | make_orclause
+01D 00000000 UNDEF  notype ()    External     | and_clause
+01E 00000000 UNDEF  notype ()    External     | make_andclause
+01F 00000000 UNDEF  notype ()    External     | contain_leaked_vars
+020 00000000 SECT4  notype ()    External     | make_restrictinfo
+021 000000D0 SECT4  notype ()    External     | restriction_is_or_clause
+022 000000E0 SECT4  notype ()    External     | restriction_is_securely_promotable
+023 00000100 SECT4  notype ()    External     | get_actual_clauses
+024 00000150 SECT4  notype ()    External     | extract_actual_clauses
+025 000001A0 SECT4  notype ()    External     | extract_actual_join_clauses
+026 00000250 SECT4  notype ()    External     | join_clause_is_movable_to
+027 000002D0 SECT4  notype ()    External     | join_clause_is_movable_into
+028 00000000 UNDEF  notype ()    External     | pull_varnos
+029 00000000 SECT5  notype ()    Static       | make_restrictinfo_internal
+02A 00000000 SECT7  notype ()    Static       | make_sub_restrictinfos
+02B 00000000 SECT4  notype       Label        | $LN5
+02C 00000100 SECT4  notype       Label        | $LN18
+02D 00000150 SECT4  notype       Label        | $LN19
+02E 000001A0 SECT4  notype       Label        | $LN20
+02F 00000250 SECT4  notype       Label        | $LN9
+030 000002D0 SECT4  notype       Label        | $LN9
+031 00000000 SECT9  notype       Static       | .xdata
+    Section length   DC, #relocs   18, #linenums    0, checksum E3C274C2
+033 00000000 SECT9  notype       Static       | $unwind$make_restrictinfo
+034 00000000 SECTA  notype       Static       | .pdata
+    Section length   A8, #relocs   2A, #linenums    0, checksum 53ED0F96
+036 00000000 SECTA  notype       Static       | $pdata$make_restrictinfo
+037 00000014 SECT9  notype       Static       | $unwind$get_actual_clauses
+038 0000000C SECTA  notype       Static       | $pdata$get_actual_clauses
+039 0000001C SECT9  notype       Static       | $chain$0$get_actual_clauses
+03A 00000018 SECTA  notype       Static       | $pdata$0$get_actual_clauses
+03B 00000030 SECT9  notype       Static       | $chain$1$get_actual_clauses
+03C 00000024 SECTA  notype       Static       | $pdata$1$get_actual_clauses
+03D 00000040 SECT9  notype       Static       | $unwind$extract_actual_clauses
+03E 00000030 SECTA  notype       Static       | $pdata$extract_actual_clauses
+03F 00000048 SECT9  notype       Static       | $chain$0$extract_actual_clauses
+040 0000003C SECTA  notype       Static       | $pdata$0$extract_actual_clauses
+041 0000005C SECT9  notype       Static       | $chain$1$extract_actual_clauses
+042 00000048 SECTA  notype       Static       | $pdata$1$extract_actual_clauses
+043 0000006C SECT9  notype       Static       | $unwind$extract_actual_join_clauses
+044 00000054 SECTA  notype       Static       | $pdata$extract_actual_join_clauses
+045 0000007C SECT9  notype       Static       | $chain$0$extract_actual_join_clauses
+046 00000060 SECTA  notype       Static       | $pdata$0$extract_actual_join_clauses
+047 00000090 SECT9  notype       Static       | $chain$1$extract_actual_join_clauses
+048 0000006C SECTA  notype       Static       | $pdata$1$extract_actual_join_clauses
+049 000000A4 SECT9  notype       Static       | $chain$2$extract_actual_join_clauses
+04A 00000078 SECTA  notype       Static       | $pdata$2$extract_actual_join_clauses
+04B 000000B4 SECT9  notype       Static       | $chain$3$extract_actual_join_clauses
+04C 00000084 SECTA  notype       Static       | $pdata$3$extract_actual_join_clauses
+04D 000000C4 SECT9  notype       Static       | $unwind$join_clause_is_movable_to
+04E 00000090 SECTA  notype       Static       | $pdata$join_clause_is_movable_to
+04F 000000D0 SECT9  notype       Static       | $unwind$join_clause_is_movable_into
+050 0000009C SECTA  notype       Static       | $pdata$join_clause_is_movable_into
+051 00000000 SECTB  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum C2D1B755, selection    5 (pick associative Section 0x5)
+053 00000000 SECTB  notype       Static       | $unwind$make_restrictinfo_internal
+054 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 525E4B60, selection    5 (pick associative Section 0x5)
+056 00000000 SECTC  notype       Static       | $pdata$make_restrictinfo_internal
+057 00000000 SECTD  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum DBDBA799, selection    5 (pick associative Section 0x7)
+059 00000000 SECTD  notype       Static       | $unwind$make_sub_restrictinfos
+05A 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum AB282936, selection    5 (pick associative Section 0x7)
+05C 00000000 SECTE  notype       Static       | $pdata$make_sub_restrictinfos
+05D 00000000 UNDEF  notype       External     | CurrentMemoryContext
+05E 00000000 UNDEF  notype       External     | newNodeMacroHolder
+05F 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x5FE bytes
+
+  Summary
+
+        5420 .debug$S
+          68 .debug$T
+          5D .drectve
+          C0 .pdata
+         6DF .text$mn
+         104 .xdata

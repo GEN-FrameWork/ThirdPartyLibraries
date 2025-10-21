@@ -1,0 +1,177 @@
+
+Dump of file Release\postgres/proclang.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4C58, #relocs   56, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  8C9, #relocs   6A, #linenums    0, checksum 5500CF1D
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  302, #relocs   1C, #linenums    0, checksum 2A375F33, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  640, #relocs   32, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  416, #relocs    F, #linenums    0, checksum C7FD3537, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  378, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | errstart
+013 00000000 UNDEF  notype ()    External     | errfinish
+014 00000000 UNDEF  notype ()    External     | errcode
+015 00000000 UNDEF  notype ()    External     | errmsg
+016 00000000 UNDEF  notype ()    External     | errhint
+017 00000000 UNDEF  notype ()    External     | elog_start
+018 00000000 UNDEF  notype ()    External     | elog_finish
+019 00000000 UNDEF  notype ()    External     | palloc0
+01A 00000000 UNDEF  notype ()    External     | ScanKeyInit
+01B 00000000 UNDEF  notype ()    External     | systable_beginscan
+01C 00000000 UNDEF  notype ()    External     | systable_getnext
+01D 00000000 UNDEF  notype ()    External     | systable_endscan
+01E 00000000 UNDEF  notype ()    External     | relation_close
+01F 00000000 UNDEF  notype ()    External     | heap_open
+020 00000000 UNDEF  notype ()    External     | nocachegetattr
+021 00000000 UNDEF  notype ()    External     | heap_form_tuple
+022 00000000 UNDEF  notype ()    External     | heap_modify_tuple
+023 00000000 UNDEF  notype ()    External     | aclcheck_error
+024 00000000 UNDEF  notype ()    External     | pg_language_ownercheck
+025 00000000 UNDEF  notype ()    External     | pg_database_ownercheck
+026 00000000 UNDEF  notype ()    External     | recordDependencyOn
+027 00000000 UNDEF  notype ()    External     | recordDependencyOnCurrentExtension
+028 00000000 UNDEF  notype ()    External     | deleteDependencyRecordsFor
+029 00000000 UNDEF  notype ()    External     | recordDependencyOnOwner
+02A 00000000 UNDEF  notype ()    External     | CatalogTupleInsert
+02B 00000000 UNDEF  notype ()    External     | CatalogTupleUpdate
+02C 00000000 UNDEF  notype ()    External     | CatalogTupleDelete
+02D 00000000 UNDEF  notype ()    External     | RunObjectPostCreateHook
+02E 00000000 UNDEF  notype ()    External     | ProcedureCreate
+02F 00000000 UNDEF  notype ()    External     | get_database_name
+030 00000000 UNDEF  notype ()    External     | SetFunctionReturnType
+031 00000000 SECT4  notype ()    External     | CreateProceduralLanguage
+032 00000760 SECT4  notype ()    External     | DropProceduralLanguageById
+033 00000810 SECT4  notype ()    External     | PLTemplateExists
+034 00000830 SECT4  notype ()    External     | get_language_oid
+035 00000000 UNDEF  notype ()    External     | GetUserId
+036 00000000 UNDEF  notype ()    External     | superuser
+037 00000000 UNDEF  notype ()    External     | NameListToString
+038 00000000 UNDEF  notype ()    External     | LookupFuncName
+039 00000000 UNDEF  notype ()    External     | SystemFuncName
+03A 00000000 UNDEF  notype ()    External     | namestrcpy
+03B 00000000 UNDEF  notype ()    External     | buildoidvector
+03C 00000000 UNDEF  notype ()    External     | text_to_cstring
+03D 00000000 UNDEF  notype ()    External     | get_func_rettype
+03E 00000000 UNDEF  notype ()    External     | SearchSysCache
+03F 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+040 00000000 UNDEF  notype ()    External     | GetSysCacheOid
+041 00000000 SECT5  notype ()    Static       | create_proc_lang
+042 00000000 SECT7  notype ()    Static       | find_language_template
+043 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+044 00000000 UNDEF  notype ()    External     | __security_check_cookie
+045 00000000 SECT4  notype       Label        | $LN64
+046 00000760 SECT4  notype       Label        | $LN9
+047 00000810 SECT4  notype       Label        | $LN4
+048 00000830 SECT4  notype       Label        | $LN13
+049 00000000 SECT9  notype       Static       | .xdata
+    Section length   70, #relocs    6, #linenums    0, checksum 7F5878C2
+04B 00000000 SECT9  notype       Static       | $unwind$CreateProceduralLanguage
+04C 00000000 SECTA  notype       Static       | .pdata
+    Section length   48, #relocs   12, #linenums    0, checksum 83083C7A
+04E 00000000 SECTA  notype       Static       | $pdata$CreateProceduralLanguage
+04F 00000018 SECT9  notype       Static       | $chain$3$CreateProceduralLanguage
+050 0000000C SECTA  notype       Static       | $pdata$3$CreateProceduralLanguage
+051 00000038 SECT9  notype       Static       | $chain$4$CreateProceduralLanguage
+052 00000018 SECTA  notype       Static       | $pdata$4$CreateProceduralLanguage
+053 00000048 SECT9  notype       Static       | $unwind$DropProceduralLanguageById
+054 00000024 SECTA  notype       Static       | $pdata$DropProceduralLanguageById
+055 00000058 SECT9  notype       Static       | $unwind$PLTemplateExists
+056 00000030 SECTA  notype       Static       | $pdata$PLTemplateExists
+057 00000060 SECT9  notype       Static       | $unwind$get_language_oid
+058 0000003C SECTA  notype       Static       | $pdata$get_language_oid
+059 00000000 SECTB  notype       Static       | .xdata
+    Section length   24, #relocs    1, #linenums    0, checksum 9C276C37, selection    5 (pick associative Section 0x5)
+05B 00000000 SECTB  notype       Static       | $unwind$create_proc_lang
+05C 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 73CD1DE0, selection    5 (pick associative Section 0x5)
+05E 00000000 SECTC  notype       Static       | $pdata$create_proc_lang
+05F 00000000 SECTD  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 12EFD63E, selection    5 (pick associative Section 0x7)
+061 00000000 SECTD  notype       Static       | $unwind$find_language_template
+062 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4E9B1CBF, selection    5 (pick associative Section 0x7)
+064 00000000 SECTE  notype       Static       | $pdata$find_language_template
+065 00000000 UNDEF  notype       External     | object_access_hook
+066 00000000 UNDEF  notype       External     | MyDatabaseId
+067 00000000 SECTF  notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum EC075915, selection    2 (pick any)
+069 00000000 SECTF  notype       External     | ??_C@_0BJ@PKDHKIGF@CreateProceduralLanguage?$AA@ (`string')
+06A 00000000 SECT10 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 743B74F0, selection    2 (pick any)
+06C 00000000 SECT10 notype       External     | ??_C@_0CA@JCMONOKC@src?1backend?1commands?1proclang?4c?$AA@ (`string')
+06D 00000000 SECT11 notype       Static       | .rdata
+    Section length   46, #relocs    0, #linenums    0, checksum DEAFFC11, selection    2 (pick any)
+06F 00000000 SECT11 notype       External     | ??_C@_0EG@NBCKIPDN@using?5pg_pltemplate?5information?5@ (`string')
+070 00000000 SECT12 notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum 1284D598, selection    2 (pick any)
+072 00000000 SECT12 notype       External     | ??_C@_0DF@PENEFNGJ@must?5be?5superuser?5to?5create?5proc@ (`string')
+073 00000000 SECT13 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 92096F12, selection    2 (pick any)
+075 00000000 SECT13 notype       External     | ??_C@_0BB@KEBJGBFA@language_handler?$AA@ (`string')
+076 00000000 SECT14 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 229F58F3, selection    2 (pick any)
+078 00000000 SECT14 notype       External     | ??_C@_0CA@MEGKPCKB@function?5?$CFs?5must?5return?5type?5?$CFs?$AA@ (`string')
+079 00000000 SECT15 notype       Static       | .rdata
+    Section length   48, #relocs    0, #linenums    0, checksum  40C482B, selection    2 (pick any)
+07B 00000000 SECT15 notype       External     | ??_C@_0EI@PEDBAMIG@The?5supported?5languages?5are?5list@ (`string')
+07C 00000000 SECT16 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum F163BB19, selection    2 (pick any)
+07E 00000000 SECT16 notype       External     | ??_C@_0BK@KBHAPKNE@unsupported?5language?5?$CC?$CFs?$CC?$AA@ (`string')
+07F 00000000 SECT17 notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum 59DCF829, selection    2 (pick any)
+081 00000000 SECT17 notype       External     | ??_C@_0DH@LHBIMFJH@must?5be?5superuser?5to?5create?5cust@ (`string')
+082 00000000 SECT18 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 4BBD9D90, selection    2 (pick any)
+084 00000000 SECT18 notype       External     | ??_C@_06CJCOLNBB@opaque?$AA@ (`string')
+085 00000000 SECT19 notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum 7E5DC095, selection    2 (pick any)
+087 00000000 SECT19 notype       External     | ??_C@_0DC@JOCFEDHE@changing?5return?5type?5of?5function@ (`string')
+088 00000000 SECT1A notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum E8D40AC9, selection    2 (pick any)
+08A 00000000 SECT1A notype       External     | ??_C@_0BB@NOMEAEIL@create_proc_lang?$AA@ (`string')
+08B 00000000 SECT1B notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 129B18B0, selection    2 (pick any)
+08D 00000000 SECT1B notype       External     | ??_C@_0BN@OGDACCGJ@language?5?$CC?$CFs?$CC?5already?5exists?$AA@ (`string')
+08E 00000000 SECT1C notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 641D91C0, selection    2 (pick any)
+090 00000000 SECT1C notype       External     | ??_C@_0BL@IBJIDMIM@DropProceduralLanguageById?$AA@ (`string')
+091 00000000 SECT1D notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum E4A8BE8F, selection    2 (pick any)
+093 00000000 SECT1D notype       External     | ??_C@_0CE@HBOBPDKF@cache?5lookup?5failed?5for?5language@ (`string')
+094 00000000 SECT1E notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum D43B71FB, selection    2 (pick any)
+096 00000000 SECT1E notype       External     | ??_C@_0BB@OCCLHPLJ@get_language_oid?$AA@ (`string')
+097 00000000 SECT1F notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum F82F394F, selection    2 (pick any)
+099 00000000 SECT1F notype       External     | ??_C@_0BN@MIEADJG@language?5?$CC?$CFs?$CC?5does?5not?5exist?$AA@ (`string')
+09A 00000000 SECT20 notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum 8DE5B576, selection    2 (pick any)
+09C 00000000 SECT20 notype       External     | __real@3f800000
+09D 00000000 UNDEF  notype       External     | __security_cookie
+09E 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x8E3 bytes
+
+  Summary
+
+        5610 .debug$S
+          68 .debug$T
+          5D .drectve
+          60 .pdata
+         256 .rdata
+         FE1 .text$mn
+          AC .xdata

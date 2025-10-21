@@ -1,0 +1,67 @@
+
+Dump of file Release\postgres/nodeWorktablescan.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5114, #relocs   3C, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  1E9, #relocs   17, #linenums    0, checksum 28B5A613
+00A 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+00B 00000000 UNDEF  notype ()    External     | ExecClearTuple
+00C 00000000 UNDEF  notype ()    External     | tuplestore_gettupleslot
+00D 00000000 UNDEF  notype ()    External     | tuplestore_rescan
+00E 00000000 UNDEF  notype ()    External     | ExecInitQual
+00F 00000000 UNDEF  notype ()    External     | ExecScan
+010 00000000 UNDEF  notype ()    External     | ExecAssignScanProjectionInfo
+011 00000000 UNDEF  notype ()    External     | ExecScanReScan
+012 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+013 00000000 UNDEF  notype ()    External     | ExecInitScanTupleSlot
+014 00000000 UNDEF  notype ()    External     | ExecAssignExprContext
+015 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+016 00000000 UNDEF  notype ()    External     | ExecGetResultType
+017 00000000 UNDEF  notype ()    External     | ExecFreeExprContext
+018 00000000 UNDEF  notype ()    External     | ExecAssignScanType
+019 00000000 SECT4  notype ()    External     | ExecInitWorkTableScan
+01A 000000B0 SECT4  notype ()    External     | ExecEndWorkTableScan
+01B 000000E0 SECT4  notype ()    External     | ExecReScanWorkTableScan
+01C 00000130 SECT4  notype ()    Static       | WorkTableScanNext
+01D 00000170 SECT4  notype ()    Static       | WorkTableScanRecheck
+01E 00000180 SECT4  notype ()    Static       | ExecWorkTableScan
+01F 00000000 SECT4  notype       Label        | $LN4
+020 000000B0 SECT4  notype       Label        | $LN4
+021 000000E0 SECT4  notype       Label        | $LN5
+022 00000000 SECT5  notype       Static       | .xdata
+    Section length   30, #relocs    0, #linenums    0, checksum C53BB1A1
+024 00000000 SECT5  notype       Static       | $unwind$ExecInitWorkTableScan
+025 00000000 SECT6  notype       Static       | .pdata
+    Section length   3C, #relocs    F, #linenums    0, checksum B823D977
+027 00000000 SECT6  notype       Static       | $pdata$ExecInitWorkTableScan
+028 00000010 SECT5  notype       Static       | $unwind$ExecEndWorkTableScan
+029 0000000C SECT6  notype       Static       | $pdata$ExecEndWorkTableScan
+02A 00000018 SECT5  notype       Static       | $unwind$ExecReScanWorkTableScan
+02B 00000018 SECT6  notype       Static       | $pdata$ExecReScanWorkTableScan
+02C 00000020 SECT5  notype       Static       | $unwind$WorkTableScanNext
+02D 00000024 SECT6  notype       Static       | $pdata$WorkTableScanNext
+02E 00000028 SECT5  notype       Static       | $unwind$ExecWorkTableScan
+02F 00000030 SECT6  notype       Static       | $pdata$ExecWorkTableScan
+030 00000000 UNDEF  notype       External     | CurrentMemoryContext
+031 00000000 UNDEF  notype       External     | newNodeMacroHolder
+
+String Table Size = 0x2E9 bytes
+
+  Summary
+
+        5114 .debug$S
+          68 .debug$T
+          5D .drectve
+          3C .pdata
+         1E9 .text$mn
+          30 .xdata

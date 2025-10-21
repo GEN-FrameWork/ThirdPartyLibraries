@@ -1,0 +1,126 @@
+
+Dump of file Release\postgres/read.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 40C0, #relocs   68, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  5F1, #relocs   52, #linenums    0, checksum CC4DE48C
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  104, #relocs    5, #linenums    0, checksum 191AE5FA, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  2BC, #relocs   20, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype       External     | __imp__errno
+00F 00000000 UNDEF  notype       External     | __imp_atol
+010 00000000 UNDEF  notype       External     | __imp_strtol
+011 00000000 UNDEF  notype       External     | __imp_strtoul
+012 00000000 UNDEF  notype       External     | __imp_isdigit
+013 00000000 UNDEF  notype ()    External     | elog_start
+014 00000000 UNDEF  notype ()    External     | elog_finish
+015 00000000 UNDEF  notype ()    External     | palloc
+016 00000000 SECT4  notype ()    External     | stringToNode
+017 00000000 UNDEF  notype ()    External     | lappend
+018 00000000 UNDEF  notype ()    External     | lappend_int
+019 00000000 UNDEF  notype ()    External     | lappend_oid
+01A 00000030 SECT4  notype ()    External     | pg_strtok
+01B 00000100 SECT4  notype ()    External     | debackslash
+01C 00000170 SECT4  notype ()    External     | nodeRead
+01D 00000000 UNDEF  notype ()    External     | parseNodeString
+01E 00000000 UNDEF  notype ()    External     | makeInteger
+01F 00000000 UNDEF  notype ()    External     | makeFloat
+020 00000000 UNDEF  notype ()    External     | makeString
+021 00000000 UNDEF  notype ()    External     | makeBitString
+022 00000000 SECT5  notype ()    Static       | nodeTokenType
+023 00000000 UNDEF  notype ()    External     | memcpy
+024 00000000 SECT4  notype       Label        | $LN4
+025 00000100 SECT4  notype       Label        | $LN12
+026 00000170 SECT4  notype       Label        | $LN109
+027 00000000 SECT7  notype       Static       | .xdata
+    Section length   F8, #relocs   21, #linenums    0, checksum A55E1683
+029 00000000 SECT7  notype       Static       | $unwind$stringToNode
+02A 00000000 SECT8  notype       Static       | .pdata
+    Section length   A8, #relocs   2A, #linenums    0, checksum 8AF7E194
+02C 00000000 SECT8  notype       Static       | $pdata$stringToNode
+02D 00000008 SECT7  notype       Static       | $unwind$debackslash
+02E 0000000C SECT8  notype       Static       | $pdata$debackslash
+02F 00000014 SECT7  notype       Static       | $unwind$nodeRead
+030 00000018 SECT8  notype       Static       | $pdata$nodeRead
+031 00000020 SECT7  notype       Static       | $chain$0$nodeRead
+032 00000024 SECT8  notype       Static       | $pdata$0$nodeRead
+033 00000034 SECT7  notype       Static       | $chain$2$nodeRead
+034 00000030 SECT8  notype       Static       | $pdata$2$nodeRead
+035 00000048 SECT7  notype       Static       | $chain$4$nodeRead
+036 0000003C SECT8  notype       Static       | $pdata$4$nodeRead
+037 0000005C SECT7  notype       Static       | $chain$6$nodeRead
+038 00000048 SECT8  notype       Static       | $pdata$6$nodeRead
+039 00000070 SECT7  notype       Static       | $chain$8$nodeRead
+03A 00000054 SECT8  notype       Static       | $pdata$8$nodeRead
+03B 00000084 SECT7  notype       Static       | $chain$10$nodeRead
+03C 00000060 SECT8  notype       Static       | $pdata$10$nodeRead
+03D 00000098 SECT7  notype       Static       | $chain$12$nodeRead
+03E 0000006C SECT8  notype       Static       | $pdata$12$nodeRead
+03F 000000AC SECT7  notype       Static       | $chain$14$nodeRead
+040 00000078 SECT8  notype       Static       | $pdata$14$nodeRead
+041 000000C0 SECT7  notype       Static       | $chain$16$nodeRead
+042 00000084 SECT8  notype       Static       | $pdata$16$nodeRead
+043 000000D4 SECT7  notype       Static       | $chain$17$nodeRead
+044 00000090 SECT8  notype       Static       | $pdata$17$nodeRead
+045 000000E8 SECT7  notype       Static       | $chain$18$nodeRead
+046 0000009C SECT8  notype       Static       | $pdata$18$nodeRead
+047 00000000 SECT9  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 533B2AD9, selection    5 (pick associative Section 0x5)
+049 00000000 SECT9  notype       Static       | $unwind$nodeTokenType
+04A 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 223D054E, selection    5 (pick associative Section 0x5)
+04C 00000000 SECTA  notype       Static       | $pdata$nodeTokenType
+04D 00000000 SECTB  notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+04F 00000000 SECTB  notype       Static       | pg_strtok_ptr
+050 00000000 SECTC  notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum BC058A10, selection    2 (pick any)
+052 00000000 SECTC  notype       External     | ??_C@_08KFPDGBEB@nodeRead?$AA@ (`string')
+053 00000000 SECTD  notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 30ADCE68, selection    2 (pick any)
+055 00000000 SECTD  notype       External     | ??_C@_0BJ@CGJNDPBI@src?1backend?1nodes?1read?4c?$AA@ (`string')
+056 00000000 SECTE  notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum A1C07C09, selection    2 (pick any)
+058 00000000 SECTE  notype       External     | ??_C@_0CG@MGMGBIEF@did?5not?5find?5?8?$HN?8?5at?5end?5of?5input@ (`string')
+059 00000000 SECTF  notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum B25AADEE, selection    2 (pick any)
+05B 00000000 SECTF  notype       External     | ??_C@_0BM@MNNFCFPI@unterminated?5List?5structure?$AA@ (`string')
+05C 00000000 SECT10 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 585B253E, selection    2 (pick any)
+05E 00000000 SECT10 notype       External     | ??_C@_0BN@KMPABPOH@unrecognized?5integer?3?5?$CC?$CF?4?$CKs?$CC?$AA@ (`string')
+05F 00000000 SECT11 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum DAB1FD4A, selection    2 (pick any)
+061 00000000 SECT11 notype       External     | ??_C@_0BJ@MMIBAMDK@unrecognized?5OID?3?5?$CC?$CF?4?$CKs?$CC?$AA@ (`string')
+062 00000000 SECT12 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 3C6FE983, selection    2 (pick any)
+064 00000000 SECT12 notype       External     | ??_C@_0BN@MIMENDFK@unexpected?5right?5parenthesis?$AA@ (`string')
+065 00000000 SECT13 notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum A243C786, selection    2 (pick any)
+067 00000000 SECT13 notype       External     | ??_C@_0BL@EHMGGKMK@unrecognized?5token?3?5?$CC?$CF?4?$CKs?$CC?$AA@ (`string')
+068 00000000 SECT14 notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 37C5203E, selection    2 (pick any)
+06A 00000000 SECT14 notype       External     | ??_C@_0BL@NCEAINHC@unrecognized?5node?5type?3?5?$CFd?$AA@ (`string')
+
+String Table Size = 0x52B bytes
+
+  Summary
+
+           8 .bss
+        437C .debug$S
+          68 .debug$T
+          5D .drectve
+          B4 .pdata
+          ED .rdata
+         6F5 .text$mn
+         10C .xdata

@@ -1,0 +1,76 @@
+
+Dump of file Release\postgres/timer.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 3B00, #relocs   48, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  246, #relocs   2D, #linenums    0, checksum 1983E49C
+00A 00000000 UNDEF  notype       External     | __imp_GetLastError
+00B 00000000 UNDEF  notype       External     | __imp_InitializeCriticalSection
+00C 00000000 UNDEF  notype       External     | __imp_EnterCriticalSection
+00D 00000000 UNDEF  notype       External     | __imp_LeaveCriticalSection
+00E 00000000 UNDEF  notype       External     | __imp_SetEvent
+00F 00000000 UNDEF  notype       External     | __imp_ResetEvent
+010 00000000 UNDEF  notype       External     | __imp_WaitForSingleObjectEx
+011 00000000 UNDEF  notype       External     | __imp_CreateEventA
+012 00000000 UNDEF  notype       External     | __imp_CreateThread
+013 00000000 SECT4  notype ()    External     | setitimer
+014 00000000 UNDEF  notype ()    External     | pg_queue_signal
+015 00000000 UNDEF  notype ()    External     | errstart
+016 00000000 UNDEF  notype ()    External     | errfinish
+017 00000000 UNDEF  notype ()    External     | errmsg_internal
+018 000001A0 SECT4  notype ()    Static       | pg_timer_thread
+019 00000000 SECT4  notype       Label        | $LN32
+01A 00000000 SECT5  notype       Static       | .xdata
+    Section length   38, #relocs    6, #linenums    0, checksum 22952CAA
+01C 00000000 SECT5  notype       Static       | $unwind$setitimer
+01D 00000000 SECT6  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum 248298A4
+01F 00000000 SECT6  notype       Static       | $pdata$setitimer
+020 0000000C SECT5  notype       Static       | $chain$0$setitimer
+021 0000000C SECT6  notype       Static       | $pdata$0$setitimer
+022 00000020 SECT5  notype       Static       | $chain$1$setitimer
+023 00000018 SECT6  notype       Static       | $pdata$1$setitimer
+024 00000030 SECT5  notype       Static       | $unwind$pg_timer_thread
+025 00000024 SECT6  notype       Static       | $pdata$pg_timer_thread
+026 00000000 SECT7  notype       Static       | .bss
+    Section length   40, #relocs    0, #linenums    0, checksum        0
+028 00000000 SECT7  notype       Static       | timerCommArea
+029 00000000 SECT8  notype       Static       | .data
+    Section length    8, #relocs    0, #linenums    0, checksum 44660075
+02B 00000000 SECT8  notype       Static       | timerThreadHandle
+02C 00000000 SECT9  notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum A3760BA6, selection    2 (pick any)
+02E 00000000 SECT9  notype       External     | ??_C@_09LPADJMCP@setitimer?$AA@ (`string')
+02F 00000000 SECTA  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 18E11EA4, selection    2 (pick any)
+031 00000000 SECTA  notype       External     | ??_C@_0BP@IOBHENOL@src?1backend?1port?1win32?1timer?4c?$AA@ (`string')
+032 00000000 SECTB  notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 6251A129, selection    2 (pick any)
+034 00000000 SECTB  notype       External     | ??_C@_0CN@FLCOMJHC@could?5not?5create?5timer?5event?3?5er@ (`string')
+035 00000000 SECTC  notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum BD2BE9D6, selection    2 (pick any)
+037 00000000 SECTC  notype       External     | ??_C@_0CO@EBKLBOMC@could?5not?5create?5timer?5thread?3?5e@ (`string')
+
+String Table Size = 0x2A3 bytes
+
+  Summary
+
+          40 .bss
+           8 .data
+        3B00 .debug$S
+          68 .debug$T
+          5D .drectve
+          30 .pdata
+          84 .rdata
+         246 .text$mn
+          38 .xdata

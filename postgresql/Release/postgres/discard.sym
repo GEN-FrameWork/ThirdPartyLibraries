@@ -1,0 +1,63 @@
+
+Dump of file Release\postgres/discard.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4A48, #relocs    E, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length   C7, #relocs   13, #linenums    0, checksum 4DEC59DF
+00A 00000000 UNDEF  notype ()    External     | elog_start
+00B 00000000 UNDEF  notype ()    External     | elog_finish
+00C 00000000 UNDEF  notype ()    External     | PreventTransactionChain
+00D 00000000 UNDEF  notype ()    External     | LockReleaseAll
+00E 00000000 UNDEF  notype ()    External     | ResetTempTableNamespace
+00F 00000000 UNDEF  notype ()    External     | Async_UnlistenAll
+010 00000000 SECT4  notype ()    External     | DiscardCommand
+011 00000000 UNDEF  notype ()    External     | ResetPlanCache
+012 00000000 UNDEF  notype ()    External     | DropAllPreparedStatements
+013 00000000 UNDEF  notype ()    External     | ResetSequenceCaches
+014 00000000 UNDEF  notype ()    External     | ResetAllOptions
+015 00000000 UNDEF  notype ()    External     | SetPGVariable
+016 00000000 UNDEF  notype ()    External     | PortalHashTableDeleteAll
+017 00000000 SECT4  notype       Label        | $LN17
+018 00000000 SECT5  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum F4D9A8A3
+01A 00000000 SECT5  notype       Static       | $unwind$DiscardCommand
+01B 00000000 SECT6  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 70634E2E
+01D 00000000 SECT6  notype       Static       | $pdata$DiscardCommand
+01E 00000000 SECT7  notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 97F182A5, selection    2 (pick any)
+020 00000000 SECT7  notype       External     | ??_C@_0P@LPNNHOLN@DiscardCommand?$AA@ (`string')
+021 00000000 SECT8  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum BB261AD4, selection    2 (pick any)
+023 00000000 SECT8  notype       External     | ??_C@_0BP@CNNAEJJL@src?1backend?1commands?1discard?4c?$AA@ (`string')
+024 00000000 SECT9  notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum  58820F8, selection    2 (pick any)
+026 00000000 SECT9  notype       External     | ??_C@_0CA@ODHNIKKK@unrecognized?5DISCARD?5target?3?5?$CFd?$AA@ (`string')
+027 00000000 SECTA  notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 29CDBF0A, selection    2 (pick any)
+029 00000000 SECTA  notype       External     | ??_C@_0M@KNOHIGJK@DISCARD?5ALL?$AA@ (`string')
+02A 00000000 SECTB  notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum DDAC64A9, selection    2 (pick any)
+02C 00000000 SECTB  notype       External     | ??_C@_0BG@IKHKCKLG@session_authorization?$AA@ (`string')
+
+String Table Size = 0x20E bytes
+
+  Summary
+
+        4A48 .debug$S
+          68 .debug$T
+          5D .drectve
+           C .pdata
+          70 .rdata
+          C7 .text$mn
+           8 .xdata

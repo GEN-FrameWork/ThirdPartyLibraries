@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\bpf\net\bpf_filter.c" />
+    <ClCompile Include="..\..\bpf_dump.c" />
+    <ClCompile Include="..\..\bpf_image.c" />
+    <ClCompile Include="..\..\etherent.c" />
+    <ClCompile Include="..\..\gencode.c" />
+    <ClCompile Include="..\..\grammar.c" />
+    <ClCompile Include="..\..\inet.c" />
+    <ClCompile Include="..\..\missing\win_snprintf.c" />
+    <ClCompile Include="..\..\nametoaddr.c" />
+    <ClCompile Include="..\..\optimize.c" />
+    <ClCompile Include="..\..\pcap-common.c" />
+    <ClCompile Include="..\..\pcap-new.c" />
+    <ClCompile Include="..\..\pcap-rpcap.c" />
+    <ClCompile Include="..\..\pcap-win32.c" />
+    <ClCompile Include="..\..\pcap.c" />
+    <ClCompile Include="..\..\savefile.c" />
+    <ClCompile Include="..\..\scanner.c" />
+    <ClCompile Include="..\..\sf-pcapng.c" />
+    <ClCompile Include="..\..\sf-pcap.c" />
+    <ClCompile Include="..\..\sockutils.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\pcap-common.h" />
+    <ClInclude Include="..\..\pcap-int.h" />
+    <ClInclude Include="..\..\pcap-rpcap.h" />
+    <ClInclude Include="..\..\pcap-stdinc.h" />
+    <ClInclude Include="..\..\pcap.h" />
+    <ClInclude Include="..\..\remote-ext.h" />
+    <ClInclude Include="..\..\sockutils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\Win32-Extensions\version.rc" />
+  </ItemGroup>
+</Project>

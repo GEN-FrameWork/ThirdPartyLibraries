@@ -1,0 +1,208 @@
+
+Dump of file Release\postgres/freespace.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 589C, #relocs   CC, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  6CC, #relocs   38, #linenums    0, checksum 7CCC403B
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  13A, #relocs    D, #linenums    0, checksum B553A7CD, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  20C, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   53, #relocs    0, #linenums    0, checksum C517984D, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  158, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  1E4, #relocs    D, #linenums    0, checksum 90184A73, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  3B8, #relocs   24, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  1BC, #relocs    F, #linenums    0, checksum 84CB69E0, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  468, #relocs   2A, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 SECTD  notype       Static       | .text$mn
+    Section length   B6, #relocs    8, #linenums    0, checksum EFB18BEF, selection    1 (pick no duplicates)
+01C 00000000 SECTE  notype       Static       | .debug$S
+    Section length  2C8, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0xD)
+01E 00000000 SECTF  notype       Static       | .text$mn
+    Section length   DC, #relocs    8, #linenums    0, checksum  2E99384, selection    1 (pick no duplicates)
+020 00000000 SECT10 notype       Static       | .debug$S
+    Section length  2E0, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0xF)
+022 00000000 SECT11 notype       Static       | .text$mn
+    Section length  1AF, #relocs   14, #linenums    0, checksum A4E1FB98, selection    1 (pick no duplicates)
+024 00000000 SECT12 notype       Static       | .debug$S
+    Section length  410, #relocs   26, #linenums    0, checksum        0, selection    5 (pick associative Section 0x11)
+026 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+027 00000000 UNDEF  notype ()    External     | elog_start
+028 00000000 UNDEF  notype ()    External     | elog_finish
+029 00000000 UNDEF  notype ()    External     | PageInit
+02A 00000000 UNDEF  notype ()    External     | PageSetChecksumInplace
+02B 00000000 UNDEF  notype ()    External     | ReadBufferExtended
+02C 00000000 UNDEF  notype ()    External     | ReleaseBuffer
+02D 00000000 UNDEF  notype ()    External     | UnlockReleaseBuffer
+02E 00000000 UNDEF  notype ()    External     | MarkBufferDirty
+02F 00000000 UNDEF  notype ()    External     | MarkBufferDirtyHint
+030 00000000 UNDEF  notype ()    External     | LockBuffer
+031 00000000 UNDEF  notype ()    External     | XLogReadBufferExtended
+032 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+033 00000000 SECT4  notype ()    External     | GetRecordedFreeSpace
+034 000000C0 SECT4  notype ()    External     | GetPageWithFreeSpace
+035 00000140 SECT4  notype ()    External     | RecordAndGetPageWithFreeSpace
+036 00000250 SECT4  notype ()    External     | RecordPageWithFreeSpace
+037 00000330 SECT4  notype ()    External     | XLogRecordPageWithFreeSpace
+038 00000470 SECT4  notype ()    External     | FreeSpaceMapTruncateRel
+039 00000610 SECT4  notype ()    External     | FreeSpaceMapVacuum
+03A 00000630 SECT4  notype ()    External     | UpdateFreeSpaceMap
+03B 00000000 UNDEF  notype ()    External     | fsm_search_avail
+03C 00000000 UNDEF  notype ()    External     | fsm_get_avail
+03D 00000000 UNDEF  notype ()    External     | fsm_get_max_avail
+03E 00000000 UNDEF  notype ()    External     | fsm_set_avail
+03F 00000000 UNDEF  notype ()    External     | fsm_truncate_avail
+040 00000000 UNDEF  notype ()    External     | log_newpage_buffer
+041 00000000 UNDEF  notype ()    External     | DataChecksumsEnabled
+042 00000000 UNDEF  notype ()    External     | LockRelationForExtension
+043 00000000 UNDEF  notype ()    External     | UnlockRelationForExtension
+044 00000000 UNDEF  notype ()    External     | smgropen
+045 00000000 UNDEF  notype ()    External     | smgrexists
+046 00000000 UNDEF  notype ()    External     | smgrsetowner
+047 00000000 UNDEF  notype ()    External     | smgrcreate
+048 00000000 UNDEF  notype ()    External     | smgrextend
+049 00000000 UNDEF  notype ()    External     | smgrnblocks
+04A 00000000 UNDEF  notype ()    External     | smgrtruncate
+04B 00000000 SECT7  notype ()    Static       | fsm_logical_to_physical
+04C 00000000 SECT9  notype ()    Static       | fsm_readbuf
+04D 00000000 SECT5  notype ()    Static       | fsm_extend
+04E 00000000 SECTD  notype ()    Static       | fsm_set_and_search
+04F 00000000 SECTB  notype ()    Static       | fsm_search
+050 00000000 SECT11 notype ()    Static       | fsm_vacuum_page
+051 00000000 SECTF  notype ()    Static       | fsm_update_recursive
+052 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+053 00000000 UNDEF  notype ()    External     | __chkstk
+054 00000000 UNDEF  notype ()    External     | __security_check_cookie
+055 00000000 SECT4  notype       Label        | $LN13
+056 000000C0 SECT4  notype       Label        | $LN14
+057 00000140 SECT4  notype       Label        | $LN24
+058 00000250 SECT4  notype       Label        | $LN16
+059 00000330 SECT4  notype       Label        | $LN35
+05A 00000470 SECT4  notype       Label        | $LN25
+05B 00000610 SECT4  notype       Label        | $LN4
+05C 00000630 SECT4  notype       Label        | $LN25
+05D 00000000 SECT13 notype       Static       | .xdata
+    Section length   C0, #relocs    C, #linenums    0, checksum 83CFEE18
+05F 00000000 SECT13 notype       Static       | $unwind$GetRecordedFreeSpace
+060 00000000 SECT14 notype       Static       | .pdata
+    Section length   90, #relocs   24, #linenums    0, checksum  BECBD2F
+062 00000000 SECT14 notype       Static       | $pdata$GetRecordedFreeSpace
+063 0000000C SECT13 notype       Static       | $unwind$GetPageWithFreeSpace
+064 0000000C SECT14 notype       Static       | $pdata$GetPageWithFreeSpace
+065 00000018 SECT13 notype       Static       | $unwind$RecordAndGetPageWithFreeSpace
+066 00000018 SECT14 notype       Static       | $pdata$RecordAndGetPageWithFreeSpace
+067 0000002C SECT13 notype       Static       | $unwind$RecordPageWithFreeSpace
+068 00000024 SECT14 notype       Static       | $pdata$RecordPageWithFreeSpace
+069 0000003C SECT13 notype       Static       | $unwind$XLogRecordPageWithFreeSpace
+06A 00000030 SECT14 notype       Static       | $pdata$XLogRecordPageWithFreeSpace
+06B 00000050 SECT13 notype       Static       | $unwind$FreeSpaceMapTruncateRel
+06C 0000003C SECT14 notype       Static       | $pdata$FreeSpaceMapTruncateRel
+06D 0000005C SECT13 notype       Static       | $chain$1$FreeSpaceMapTruncateRel
+06E 00000048 SECT14 notype       Static       | $pdata$1$FreeSpaceMapTruncateRel
+06F 00000074 SECT13 notype       Static       | $chain$2$FreeSpaceMapTruncateRel
+070 00000054 SECT14 notype       Static       | $pdata$2$FreeSpaceMapTruncateRel
+071 00000084 SECT13 notype       Static       | $unwind$FreeSpaceMapVacuum
+072 00000060 SECT14 notype       Static       | $pdata$FreeSpaceMapVacuum
+073 0000008C SECT13 notype       Static       | $unwind$UpdateFreeSpaceMap
+074 0000006C SECT14 notype       Static       | $pdata$UpdateFreeSpaceMap
+075 00000098 SECT13 notype       Static       | $chain$1$UpdateFreeSpaceMap
+076 00000078 SECT14 notype       Static       | $pdata$1$UpdateFreeSpaceMap
+077 000000B0 SECT13 notype       Static       | $chain$2$UpdateFreeSpaceMap
+078 00000084 SECT14 notype       Static       | $pdata$2$UpdateFreeSpaceMap
+079 00000000 SECT15 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum CDB1427D, selection    5 (pick associative Section 0x9)
+07B 00000000 SECT15 notype       Static       | $unwind$fsm_readbuf
+07C 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A1ED202F, selection    5 (pick associative Section 0x9)
+07E 00000000 SECT16 notype       Static       | $pdata$fsm_readbuf
+07F 00000000 SECT17 notype       Static       | .xdata
+    Section length   20, #relocs    1, #linenums    0, checksum CC409585, selection    5 (pick associative Section 0x5)
+081 00000000 SECT17 notype       Static       | $unwind$fsm_extend
+082 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B27A4401, selection    5 (pick associative Section 0x5)
+084 00000000 SECT18 notype       Static       | $pdata$fsm_extend
+085 00000000 SECT19 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 2CB113BD, selection    5 (pick associative Section 0xD)
+087 00000000 SECT19 notype       Static       | $unwind$fsm_set_and_search
+088 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 1099DF20, selection    5 (pick associative Section 0xD)
+08A 00000000 SECT1A notype       Static       | $pdata$fsm_set_and_search
+08B 00000000 SECT1B notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 376B68B2, selection    5 (pick associative Section 0xB)
+08D 00000000 SECT1B notype       Static       | $unwind$fsm_search
+08E 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 272EC85C, selection    5 (pick associative Section 0xB)
+090 00000000 SECT1C notype       Static       | $pdata$fsm_search
+091 00000000 SECT1D notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 5734FDB7, selection    5 (pick associative Section 0x11)
+093 00000000 SECT1D notype       Static       | $unwind$fsm_vacuum_page
+094 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D51AFE94, selection    5 (pick associative Section 0x11)
+096 00000000 SECT1E notype       Static       | $pdata$fsm_vacuum_page
+097 00000000 SECT1F notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 40459B43, selection    5 (pick associative Section 0xF)
+099 00000000 SECT1F notype       Static       | $unwind$fsm_update_recursive
+09A 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum BAD438AC, selection    5 (pick associative Section 0xF)
+09C 00000000 SECT20 notype       Static       | $pdata$fsm_update_recursive
+09D 00000000 SECT21 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 3B31C937, selection    5 (pick associative Section 0xF)
+09F 00000000 SECT21 notype       Static       | $chain$0$fsm_update_recursive
+0A0 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B8522256, selection    5 (pick associative Section 0xF)
+0A2 00000000 SECT22 notype       Static       | $pdata$0$fsm_update_recursive
+0A3 00000000 SECT23 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum  383D240, selection    5 (pick associative Section 0xF)
+0A5 00000000 SECT23 notype       Static       | $chain$1$fsm_update_recursive
+0A6 00000000 SECT24 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7C9CF2B1, selection    5 (pick associative Section 0xF)
+0A8 00000000 SECT24 notype       Static       | $pdata$1$fsm_update_recursive
+0A9 00000000 UNDEF  notype       External     | pg_signal_queue
+0AA 00000000 UNDEF  notype       External     | pg_signal_mask
+0AB 00000000 UNDEF  notype       External     | BufferBlocks
+0AC 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+0AD 00000000 UNDEF  notype       External     | InterruptPending
+0AE 00000000 UNDEF  notype       External     | CritSectionCount
+0AF 00000000 UNDEF  notype       External     | InRecovery
+0B0 00000000 UNDEF  notype       External     | wal_log_hints
+0B1 00000000 SECT25 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 4225077D
+0B3 00000000 SECT25 notype       Static       | FSM_ROOT_ADDRESS
+0B4 00000000 SECT26 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 3CFC1965, selection    2 (pick any)
+0B6 00000000 SECT26 notype       External     | ??_C@_0BI@GAMCCMLK@fsm_space_needed_to_cat?$AA@ (`string')
+0B7 00000000 SECT27 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum ED08807E, selection    2 (pick any)
+0B9 00000000 SECT27 notype       External     | ??_C@_0CK@PGJIFHHK@src?1backend?1storage?1freespace?1fr@ (`string')
+0BA 00000000 SECT28 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum C18474CA, selection    2 (pick any)
+0BC 00000000 SECT28 notype       External     | ??_C@_0BN@DFCPEOBD@invalid?5FSM?5request?5size?5?$CFzu?$AA@ (`string')
+0BD 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x8D7 bytes
+
+  Summary
+
+        6DD8 .debug$S
+          68 .debug$T
+          5D .drectve
+          F0 .pdata
+          67 .rdata
+         F3A .text$mn
+         164 .xdata

@@ -1,0 +1,334 @@
+
+Dump of file Release\postgres/nodeHash.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 7BAC, #relocs  1C6, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  FC4, #relocs   66, #linenums    0, checksum DEC25A06
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  306, #relocs    A, #linenums    0, checksum 79E1C270, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  49C, #relocs   2E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  33A, #relocs   15, #linenums    0, checksum D8ED4C48, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  7D4, #relocs   60, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length   E0, #relocs    7, #linenums    0, checksum 20B872F8, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  244, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  1C7, #relocs    D, #linenums    0, checksum 65D7B61A, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  470, #relocs   2C, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 SECTD  notype       Static       | .text$mn
+    Section length  109, #relocs    5, #linenums    0, checksum 1E638A72, selection    1 (pick no duplicates)
+01C 00000000 SECTE  notype       Static       | .debug$S
+    Section length  290, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0xD)
+01E 00000000 SECTF  notype       Static       | .text$mn
+    Section length  110, #relocs    2, #linenums    0, checksum 406CAA27, selection    1 (pick no duplicates)
+020 00000000 SECT10 notype       Static       | .debug$S
+    Section length  258, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0xF)
+022 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+023 00000000 UNDEF  notype ()    External     | elog_start
+024 00000000 UNDEF  notype ()    External     | elog_finish
+025 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+026 00000000 UNDEF  notype ()    External     | MemoryContextAllocZero
+027 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+028 00000000 UNDEF  notype ()    External     | palloc
+029 00000000 UNDEF  notype ()    External     | palloc0
+02A 00000000 UNDEF  notype ()    External     | repalloc
+02B 00000000 UNDEF  notype ()    External     | pfree
+02C 00000000 UNDEF  notype ()    External     | fmgr_info
+02D 00000000 UNDEF  notype ()    External     | FunctionCall1Coll
+02E 00000000 UNDEF  notype ()    External     | PrepareTempTablespaces
+02F 00000000 UNDEF  notype ()    External     | ExecStoreMinimalTuple
+030 00000000 UNDEF  notype ()    External     | ExecFetchSlotMinimalTuple
+031 00000000 UNDEF  notype ()    External     | InstrStartNode
+032 00000000 UNDEF  notype ()    External     | InstrStopNode
+033 00000000 UNDEF  notype ()    External     | ExecReScan
+034 00000000 UNDEF  notype ()    External     | ExecInitNode
+035 00000000 UNDEF  notype ()    External     | ExecEndNode
+036 00000000 UNDEF  notype ()    External     | ExecInitQual
+037 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+038 00000000 UNDEF  notype ()    External     | ExecAssignExprContext
+039 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+03A 00000000 UNDEF  notype ()    External     | ExecFreeExprContext
+03B 00000000 UNDEF  notype ()    External     | BufFileClose
+03C 00000000 SECT4  notype ()    External     | ExecInitHash
+03D 000000E0 SECT4  notype ()    External     | MultiExecHash
+03E 00000370 SECT4  notype ()    External     | ExecEndHash
+03F 000003A0 SECT4  notype ()    External     | ExecReScanHash
+040 000003C0 SECT4  notype ()    External     | ExecHashTableCreate
+041 000006D0 SECT4  notype ()    External     | ExecHashTableDestroy
+042 00000750 SECT4  notype ()    External     | ExecHashTableInsert
+043 000008B0 SECT4  notype ()    External     | ExecHashGetHashValue
+044 000009C0 SECT4  notype ()    External     | ExecHashGetBucketAndBatch
+045 000009F0 SECT4  notype ()    External     | ExecScanHashBucket
+046 00000AF0 SECT4  notype ()    External     | ExecPrepHashTableForUnmatched
+047 00000B10 SECT4  notype ()    External     | ExecScanHashTableForUnmatched
+048 00000C20 SECT4  notype ()    External     | ExecHashTableReset
+049 00000CA0 SECT4  notype ()    External     | ExecHashTableResetMatchFlags
+04A 00000D40 SECT4  notype ()    External     | ExecChooseHashTableSize
+04B 00000F30 SECT4  notype ()    External     | ExecHashGetSkewBucket
+04C 00000000 UNDEF  notype ()    External     | ExecHashJoinSaveTuple
+04D 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+04E 00000000 UNDEF  notype ()    External     | my_log2
+04F 00000000 UNDEF  notype ()    External     | MemoryContextReset
+050 00000000 UNDEF  notype ()    External     | MemoryContextDelete
+051 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+052 00000000 UNDEF  notype ()    External     | get_op_hash_functions
+053 00000000 UNDEF  notype ()    External     | op_strict
+054 00000000 UNDEF  notype ()    External     | get_attstatsslot
+055 00000000 UNDEF  notype ()    External     | free_attstatsslot
+056 00000000 UNDEF  notype ()    External     | SearchSysCache
+057 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+058 00000000 SECT7  notype ()    Static       | ExecHashIncreaseNumBatches
+059 00000000 SECT9  notype ()    Static       | ExecHashIncreaseNumBuckets
+05A 00000000 SECT5  notype ()    Static       | ExecHashBuildSkewHash
+05B 00000000 SECTD  notype ()    Static       | ExecHashSkewTableInsert
+05C 00000000 SECTB  notype ()    Static       | ExecHashRemoveNextSkewBucket
+05D 00000000 SECTF  notype ()    Static       | dense_alloc
+05E 00000F90 SECT4  notype ()    Static       | ExecHash
+05F 00000000 UNDEF  notype ()    External     | ceil
+060 00000000 UNDEF  notype ()    External     | memcpy
+061 00000000 UNDEF  notype ()    External     | memset
+062 00000000 SECT4  notype       Label        | $LN4
+063 000000E0 SECT4  notype       Label        | $LN66
+064 00000370 SECT4  notype       Label        | $LN4
+065 000003C0 SECT4  notype       Label        | $LN34
+066 000006D0 SECT4  notype       Label        | $LN13
+067 00000750 SECT4  notype       Label        | $LN14
+068 000008B0 SECT4  notype       Label        | $LN30
+069 000009F0 SECT4  notype       Label        | $LN28
+06A 00000B10 SECT4  notype       Label        | $LN29
+06B 00000C20 SECT4  notype       Label        | $LN8
+06C 00000D40 SECT4  notype       Label        | $LN24
+06D 00000000 SECT11 notype       Static       | .xdata
+    Section length  150, #relocs    F, #linenums    0, checksum D7965B82
+06F 00000000 SECT11 notype       Static       | $unwind$ExecInitHash
+070 00000000 SECT12 notype       Static       | .pdata
+    Section length   CC, #relocs   33, #linenums    0, checksum  9595B3A
+072 00000000 SECT12 notype       Static       | $pdata$ExecInitHash
+073 00000014 SECT11 notype       Static       | $unwind$MultiExecHash
+074 0000000C SECT12 notype       Static       | $pdata$MultiExecHash
+075 00000030 SECT11 notype       Static       | $unwind$ExecEndHash
+076 00000018 SECT12 notype       Static       | $pdata$ExecEndHash
+077 00000038 SECT11 notype       Static       | $unwind$ExecHashTableCreate
+078 00000024 SECT12 notype       Static       | $pdata$ExecHashTableCreate
+079 00000050 SECT11 notype       Static       | $unwind$ExecHashTableDestroy
+07A 00000030 SECT12 notype       Static       | $pdata$ExecHashTableDestroy
+07B 0000005C SECT11 notype       Static       | $chain$0$ExecHashTableDestroy
+07C 0000003C SECT12 notype       Static       | $pdata$0$ExecHashTableDestroy
+07D 00000070 SECT11 notype       Static       | $chain$1$ExecHashTableDestroy
+07E 00000048 SECT12 notype       Static       | $pdata$1$ExecHashTableDestroy
+07F 00000080 SECT11 notype       Static       | $unwind$ExecHashTableInsert
+080 00000054 SECT12 notype       Static       | $pdata$ExecHashTableInsert
+081 00000090 SECT11 notype       Static       | $chain$2$ExecHashTableInsert
+082 00000060 SECT12 notype       Static       | $pdata$2$ExecHashTableInsert
+083 000000AC SECT11 notype       Static       | $chain$3$ExecHashTableInsert
+084 0000006C SECT12 notype       Static       | $pdata$3$ExecHashTableInsert
+085 000000C4 SECT11 notype       Static       | $chain$4$ExecHashTableInsert
+086 00000078 SECT12 notype       Static       | $pdata$4$ExecHashTableInsert
+087 000000D4 SECT11 notype       Static       | $unwind$ExecHashGetHashValue
+088 00000084 SECT12 notype       Static       | $pdata$ExecHashGetHashValue
+089 000000EC SECT11 notype       Static       | $unwind$ExecScanHashBucket
+08A 00000090 SECT12 notype       Static       | $pdata$ExecScanHashBucket
+08B 00000104 SECT11 notype       Static       | $unwind$ExecScanHashTableForUnmatched
+08C 0000009C SECT12 notype       Static       | $pdata$ExecScanHashTableForUnmatched
+08D 00000118 SECT11 notype       Static       | $unwind$ExecHashTableReset
+08E 000000A8 SECT12 notype       Static       | $pdata$ExecHashTableReset
+08F 00000128 SECT11 notype       Static       | $unwind$ExecChooseHashTableSize
+090 000000B4 SECT12 notype       Static       | $pdata$ExecChooseHashTableSize
+091 00000000 SECT13 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 129C0149, selection    5 (pick associative Section 0x7)
+093 00000000 SECT13 notype       Static       | $unwind$ExecHashIncreaseNumBatches
+094 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum CD2D5D19, selection    5 (pick associative Section 0x7)
+096 00000000 SECT14 notype       Static       | $pdata$ExecHashIncreaseNumBatches
+097 00000000 SECT15 notype       Static       | .xdata
+    Section length   28, #relocs    3, #linenums    0, checksum 4D6DCC76, selection    5 (pick associative Section 0x7)
+099 00000000 SECT15 notype       Static       | $chain$5$ExecHashIncreaseNumBatches
+09A 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B6200F17, selection    5 (pick associative Section 0x7)
+09C 00000000 SECT16 notype       Static       | $pdata$5$ExecHashIncreaseNumBatches
+09D 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 747AB7F5, selection    5 (pick associative Section 0x7)
+09F 00000000 SECT17 notype       Static       | $chain$6$ExecHashIncreaseNumBatches
+0A0 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DFB0D7DD, selection    5 (pick associative Section 0x7)
+0A2 00000000 SECT18 notype       Static       | $pdata$6$ExecHashIncreaseNumBatches
+0A3 00000000 SECT19 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum F4D9A8A3, selection    5 (pick associative Section 0x9)
+0A5 00000000 SECT19 notype       Static       | $unwind$ExecHashIncreaseNumBuckets
+0A6 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B1966C32, selection    5 (pick associative Section 0x9)
+0A8 00000000 SECT1A notype       Static       | $pdata$ExecHashIncreaseNumBuckets
+0A9 00000000 SECT1B notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum FBE8C829, selection    5 (pick associative Section 0x9)
+0AB 00000000 SECT1B notype       Static       | $chain$0$ExecHashIncreaseNumBuckets
+0AC 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 174FC63C, selection    5 (pick associative Section 0x9)
+0AE 00000000 SECT1C notype       Static       | $pdata$0$ExecHashIncreaseNumBuckets
+0AF 00000000 SECT1D notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum  8C186DE, selection    5 (pick associative Section 0x9)
+0B1 00000000 SECT1D notype       Static       | $chain$1$ExecHashIncreaseNumBuckets
+0B2 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 355BF8EC, selection    5 (pick associative Section 0x9)
+0B4 00000000 SECT1E notype       Static       | $pdata$1$ExecHashIncreaseNumBuckets
+0B5 00000000 SECT1F notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 90BF4648, selection    5 (pick associative Section 0x5)
+0B7 00000000 SECT1F notype       Static       | $unwind$ExecHashBuildSkewHash
+0B8 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 9047414F, selection    5 (pick associative Section 0x5)
+0BA 00000000 SECT20 notype       Static       | $pdata$ExecHashBuildSkewHash
+0BB 00000000 SECT21 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum BC6A8ECD, selection    5 (pick associative Section 0x5)
+0BD 00000000 SECT21 notype       Static       | $chain$0$ExecHashBuildSkewHash
+0BE 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 709959F7, selection    5 (pick associative Section 0x5)
+0C0 00000000 SECT22 notype       Static       | $pdata$0$ExecHashBuildSkewHash
+0C1 00000000 SECT23 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 85D9E84C, selection    5 (pick associative Section 0x5)
+0C3 00000000 SECT23 notype       Static       | $chain$1$ExecHashBuildSkewHash
+0C4 00000000 SECT24 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  5CF1AEA, selection    5 (pick associative Section 0x5)
+0C6 00000000 SECT24 notype       Static       | $pdata$1$ExecHashBuildSkewHash
+0C7 00000000 SECT25 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum EB022E45, selection    5 (pick associative Section 0x5)
+0C9 00000000 SECT25 notype       Static       | $chain$2$ExecHashBuildSkewHash
+0CA 00000000 SECT26 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D3C16D9C, selection    5 (pick associative Section 0x5)
+0CC 00000000 SECT26 notype       Static       | $pdata$2$ExecHashBuildSkewHash
+0CD 00000000 SECT27 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 23D88335, selection    5 (pick associative Section 0x5)
+0CF 00000000 SECT27 notype       Static       | $chain$5$ExecHashBuildSkewHash
+0D0 00000000 SECT28 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4756B802, selection    5 (pick associative Section 0x5)
+0D2 00000000 SECT28 notype       Static       | $pdata$5$ExecHashBuildSkewHash
+0D3 00000000 SECT29 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 6A968770, selection    5 (pick associative Section 0x5)
+0D5 00000000 SECT29 notype       Static       | $chain$6$ExecHashBuildSkewHash
+0D6 00000000 SECT2A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  C76C18F, selection    5 (pick associative Section 0x5)
+0D8 00000000 SECT2A notype       Static       | $pdata$6$ExecHashBuildSkewHash
+0D9 00000000 SECT2B notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum BC98F006, selection    5 (pick associative Section 0x5)
+0DB 00000000 SECT2B notype       Static       | $chain$7$ExecHashBuildSkewHash
+0DC 00000000 SECT2C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FF418ACF, selection    5 (pick associative Section 0x5)
+0DE 00000000 SECT2C notype       Static       | $pdata$7$ExecHashBuildSkewHash
+0DF 00000000 SECT2D notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum C9CEB31B, selection    5 (pick associative Section 0x5)
+0E1 00000000 SECT2D notype       Static       | $chain$8$ExecHashBuildSkewHash
+0E2 00000000 SECT2E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 20BC7C86, selection    5 (pick associative Section 0x5)
+0E4 00000000 SECT2E notype       Static       | $pdata$8$ExecHashBuildSkewHash
+0E5 00000000 SECT2F notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 2910ABA3, selection    5 (pick associative Section 0x5)
+0E7 00000000 SECT2F notype       Static       | $chain$9$ExecHashBuildSkewHash
+0E8 00000000 SECT30 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum EE6C094E, selection    5 (pick associative Section 0x5)
+0EA 00000000 SECT30 notype       Static       | $pdata$9$ExecHashBuildSkewHash
+0EB 00000000 SECT31 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 4D92FE4F, selection    5 (pick associative Section 0xD)
+0ED 00000000 SECT31 notype       Static       | $unwind$ExecHashSkewTableInsert
+0EE 00000000 SECT32 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B938109F, selection    5 (pick associative Section 0xD)
+0F0 00000000 SECT32 notype       Static       | $pdata$ExecHashSkewTableInsert
+0F1 00000000 SECT33 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum BDC1AF57, selection    5 (pick associative Section 0xB)
+0F3 00000000 SECT33 notype       Static       | $unwind$ExecHashRemoveNextSkewBucket
+0F4 00000000 SECT34 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D92012AC, selection    5 (pick associative Section 0xB)
+0F6 00000000 SECT34 notype       Static       | $pdata$ExecHashRemoveNextSkewBucket
+0F7 00000000 SECT35 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 28130ECA, selection    5 (pick associative Section 0xB)
+0F9 00000000 SECT35 notype       Static       | $chain$2$ExecHashRemoveNextSkewBucket
+0FA 00000000 SECT36 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C18B15CA, selection    5 (pick associative Section 0xB)
+0FC 00000000 SECT36 notype       Static       | $pdata$2$ExecHashRemoveNextSkewBucket
+0FD 00000000 SECT37 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 301BCB27, selection    5 (pick associative Section 0xB)
+0FF 00000000 SECT37 notype       Static       | $chain$5$ExecHashRemoveNextSkewBucket
+100 00000000 SECT38 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4AB24317, selection    5 (pick associative Section 0xB)
+102 00000000 SECT38 notype       Static       | $pdata$5$ExecHashRemoveNextSkewBucket
+103 00000000 SECT39 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 78DCFF26, selection    5 (pick associative Section 0xB)
+105 00000000 SECT39 notype       Static       | $chain$6$ExecHashRemoveNextSkewBucket
+106 00000000 SECT3A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 93BC1E73, selection    5 (pick associative Section 0xB)
+108 00000000 SECT3A notype       Static       | $pdata$6$ExecHashRemoveNextSkewBucket
+109 00000000 SECT3B notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 6077F840, selection    5 (pick associative Section 0xB)
+10B 00000000 SECT3B notype       Static       | $chain$7$ExecHashRemoveNextSkewBucket
+10C 00000000 SECT3C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E9F2F454, selection    5 (pick associative Section 0xB)
+10E 00000000 SECT3C notype       Static       | $pdata$7$ExecHashRemoveNextSkewBucket
+10F 00000000 SECT3D notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0xF)
+111 00000000 SECT3D notype       Static       | $unwind$dense_alloc
+112 00000000 SECT3E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DACC3A9F, selection    5 (pick associative Section 0xF)
+114 00000000 SECT3E notype       Static       | $pdata$dense_alloc
+115 00000148 SECT11 notype       Static       | $unwind$ExecHash
+116 000000C0 SECT12 notype       Static       | $pdata$ExecHash
+117 00000000 UNDEF  notype       External     | pg_signal_queue
+118 00000000 UNDEF  notype       External     | pg_signal_mask
+119 00000000 UNDEF  notype       External     | CurrentMemoryContext
+11A 00000000 UNDEF  notype       External     | newNodeMacroHolder
+11B 00000000 UNDEF  notype       External     | InterruptPending
+11C 00000000 UNDEF  notype       External     | work_mem
+11D 00000000 SECT3F notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum ACD46693, selection    2 (pick any)
+11F 00000000 SECT3F notype       External     | ??_C@_08LFCCINMC@ExecHash?$AA@ (`string')
+120 00000000 SECT40 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum EDCF51F3, selection    2 (pick any)
+122 00000000 SECT40 notype       External     | ??_C@_0CA@LDKPLKB@src?1backend?1executor?1nodeHash?4c?$AA@ (`string')
+123 00000000 SECT41 notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum 4B606564, selection    2 (pick any)
+125 00000000 SECT41 notype       External     | ??_C@_0DI@GHFHDPNC@Hash?5node?5does?5not?5support?5ExecP@ (`string')
+126 00000000 SECT42 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum D28036D6, selection    2 (pick any)
+128 00000000 SECT42 notype       External     | ??_C@_0BB@OEJADIJE@HashTableContext?$AA@ (`string')
+129 00000000 SECT43 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 8065FD83, selection    2 (pick any)
+12B 00000000 SECT43 notype       External     | ??_C@_0BB@LGHFPDMB@HashBatchContext?$AA@ (`string')
+12C 00000000 SECT44 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum DB5FD526, selection    2 (pick any)
+12E 00000000 SECT44 notype       External     | ??_C@_0BE@CLHFLBFE@ExecHashTableCreate?$AA@ (`string')
+12F 00000000 SECT45 notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum AC4FF968, selection    2 (pick any)
+131 00000000 SECT45 notype       External     | ??_C@_0DC@EMDHHKIJ@could?5not?5find?5hash?5function?5for@ (`string')
+132 00000000 SECT46 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 75427A75, selection    2 (pick any)
+134 00000000 SECT46 notype       External     | __real@3f847ae147ae147b
+135 00000000 SECT47 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+137 00000000 SECT47 notype       External     | __real@3ff0000000000000
+138 00000000 SECT48 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum BA5D48D4, selection    2 (pick any)
+13A 00000000 SECT48 notype       External     | __real@408f400000000000
+13B 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0xF77 bytes
+
+  Summary
+
+        93B8 .debug$S
+          68 .debug$T
+          5D .drectve
+         1D4 .pdata
+          E1 .rdata
+        1AC4 .text$mn
+         2EC .xdata

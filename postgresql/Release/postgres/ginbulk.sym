@@ -1,0 +1,94 @@
+
+Dump of file Release\postgres/ginbulk.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4F2C, #relocs   A0, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  54A, #relocs   1C, #linenums    0, checksum  46FB7F5
+00A 00000000 UNDEF  notype ()    External     | pg_qsort
+00B 00000000 UNDEF  notype ()    External     | errstart
+00C 00000000 UNDEF  notype ()    External     | errfinish
+00D 00000000 UNDEF  notype ()    External     | errcode
+00E 00000000 UNDEF  notype ()    External     | errmsg
+00F 00000000 UNDEF  notype ()    External     | errhint
+010 00000000 UNDEF  notype ()    External     | palloc
+011 00000000 UNDEF  notype ()    External     | repalloc_huge
+012 00000000 UNDEF  notype ()    External     | rb_create
+013 00000000 UNDEF  notype ()    External     | rb_insert
+014 00000000 UNDEF  notype ()    External     | rb_begin_iterate
+015 00000000 UNDEF  notype ()    External     | rb_iterate
+016 00000000 UNDEF  notype ()    External     | ginCompareAttEntries
+017 00000000 SECT4  notype ()    External     | ginInitBA
+018 00000050 SECT4  notype ()    External     | ginInsertBAEntries
+019 00000220 SECT4  notype ()    External     | ginBeginBAScan
+01A 00000240 SECT4  notype ()    External     | ginGetBAEntry
+01B 00000000 UNDEF  notype ()    External     | datumCopy
+01C 00000000 UNDEF  notype ()    External     | GetMemoryChunkSpace
+01D 000002E0 SECT4  notype ()    Static       | ginCombineData
+01E 00000450 SECT4  notype ()    Static       | cmpEntryAccumulator
+01F 000004A0 SECT4  notype ()    Static       | ginAllocEntryAccumulator
+020 00000500 SECT4  notype ()    Static       | qsortCompareItemPointers
+021 00000000 SECT4  notype       Label        | $LN4
+022 00000050 SECT4  notype       Label        | $LN28
+023 00000240 SECT4  notype       Label        | $LN6
+024 00000000 SECT5  notype       Static       | .xdata
+    Section length   C0, #relocs   12, #linenums    0, checksum 535CFDE4
+026 00000000 SECT5  notype       Static       | $unwind$ginInitBA
+027 00000000 SECT6  notype       Static       | .pdata
+    Section length   90, #relocs   24, #linenums    0, checksum CF50F40D
+029 00000000 SECT6  notype       Static       | $pdata$ginInitBA
+02A 00000008 SECT5  notype       Static       | $unwind$ginInsertBAEntries
+02B 0000000C SECT6  notype       Static       | $pdata$ginInsertBAEntries
+02C 00000014 SECT5  notype       Static       | $chain$4$ginInsertBAEntries
+02D 00000018 SECT6  notype       Static       | $pdata$4$ginInsertBAEntries
+02E 00000038 SECT5  notype       Static       | $chain$5$ginInsertBAEntries
+02F 00000024 SECT6  notype       Static       | $pdata$5$ginInsertBAEntries
+030 00000048 SECT5  notype       Static       | $unwind$ginGetBAEntry
+031 00000030 SECT6  notype       Static       | $pdata$ginGetBAEntry
+032 00000058 SECT5  notype       Static       | $unwind$ginCombineData
+033 0000003C SECT6  notype       Static       | $pdata$ginCombineData
+034 00000064 SECT5  notype       Static       | $chain$0$ginCombineData
+035 00000048 SECT6  notype       Static       | $pdata$0$ginCombineData
+036 00000078 SECT5  notype       Static       | $chain$2$ginCombineData
+037 00000054 SECT6  notype       Static       | $pdata$2$ginCombineData
+038 00000090 SECT5  notype       Static       | $chain$3$ginCombineData
+039 00000060 SECT6  notype       Static       | $pdata$3$ginCombineData
+03A 000000A0 SECT5  notype       Static       | $chain$4$ginCombineData
+03B 0000006C SECT6  notype       Static       | $pdata$4$ginCombineData
+03C 000000B0 SECT5  notype       Static       | $unwind$cmpEntryAccumulator
+03D 00000078 SECT6  notype       Static       | $pdata$cmpEntryAccumulator
+03E 000000B8 SECT5  notype       Static       | $unwind$ginAllocEntryAccumulator
+03F 00000084 SECT6  notype       Static       | $pdata$ginAllocEntryAccumulator
+040 00000000 SECT7  notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 901F2B26, selection    2 (pick any)
+042 00000000 SECT7  notype       External     | ??_C@_0P@LIDDNHDO@ginCombineData?$AA@ (`string')
+043 00000000 SECT8  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 74C02C61, selection    2 (pick any)
+045 00000000 SECT8  notype       External     | ??_C@_0CB@PBEDOJBD@src?1backend?1access?1gin?1ginbulk?4c@ (`string')
+046 00000000 SECT9  notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 72CC0EDD, selection    2 (pick any)
+048 00000000 SECT9  notype       External     | ??_C@_0BN@IGGHDEAE@Reduce?5maintenance_work_mem?4?$AA@ (`string')
+049 00000000 SECTA  notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 7DA4AA49, selection    2 (pick any)
+04B 00000000 SECTA  notype       External     | ??_C@_0BJ@GLJEFLDJ@posting?5list?5is?5too?5long?$AA@ (`string')
+
+String Table Size = 0x432 bytes
+
+  Summary
+
+        4F2C .debug$S
+          68 .debug$T
+          5D .drectve
+          90 .pdata
+          66 .rdata
+         54A .text$mn
+          C0 .xdata

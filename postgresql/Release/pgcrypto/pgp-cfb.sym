@@ -1,0 +1,104 @@
+
+Dump of file Release\pgcrypto/pgp-cfb.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4544, #relocs   CC, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  475, #relocs    E, #linenums    0, checksum 1B1673B4
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  121, #relocs    2, #linenums    0, checksum 909F2212, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  33C, #relocs   24, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | palloc
+00F 00000000 UNDEF  notype ()    External     | pfree
+010 00000000 UNDEF  notype ()    External     | px_memset
+011 00000000 UNDEF  notype ()    External     | pgp_load_cipher
+012 00000000 SECT4  notype ()    External     | pgp_cfb_create
+013 000000D0 SECT4  notype ()    External     | pgp_cfb_free
+014 00000110 SECT4  notype ()    External     | pgp_cfb_encrypt
+015 00000140 SECT4  notype ()    External     | pgp_cfb_decrypt
+016 00000170 SECT4  notype ()    Static       | mix_encrypt_normal
+017 000001E0 SECT4  notype ()    Static       | mix_decrypt_normal
+018 00000260 SECT4  notype ()    Static       | mix_encrypt_resync
+019 00000370 SECT4  notype ()    Static       | mix_decrypt_resync
+01A 00000000 SECT5  notype ()    Static       | cfb_process
+01B 00000000 UNDEF  notype ()    External     | memcpy
+01C 00000000 UNDEF  notype ()    External     | memset
+01D 00000000 SECT4  notype       Label        | $LN7
+01E 000000D0 SECT4  notype       Label        | $LN4
+01F 00000110 SECT4  notype       Label        | $LN4
+020 00000140 SECT4  notype       Label        | $LN4
+021 00000000 SECT7  notype       Static       | .xdata
+    Section length   7C, #relocs    6, #linenums    0, checksum B1CCF184
+023 00000000 SECT7  notype       Static       | $unwind$pgp_cfb_create
+024 00000000 SECT8  notype       Static       | .pdata
+    Section length   78, #relocs   1E, #linenums    0, checksum FB37E4AB
+026 00000000 SECT8  notype       Static       | $pdata$pgp_cfb_create
+027 00000010 SECT7  notype       Static       | $unwind$pgp_cfb_free
+028 0000000C SECT8  notype       Static       | $pdata$pgp_cfb_free
+029 00000018 SECT7  notype       Static       | $unwind$pgp_cfb_encrypt
+02A 00000018 SECT8  notype       Static       | $pdata$pgp_cfb_encrypt
+02B 00000020 SECT7  notype       Static       | $unwind$pgp_cfb_decrypt
+02C 00000024 SECT8  notype       Static       | $pdata$pgp_cfb_decrypt
+02D 00000028 SECT7  notype       Static       | $unwind$mix_encrypt_normal
+02E 00000030 SECT8  notype       Static       | $pdata$mix_encrypt_normal
+02F 00000030 SECT7  notype       Static       | $chain$0$mix_encrypt_normal
+030 0000003C SECT8  notype       Static       | $pdata$0$mix_encrypt_normal
+031 00000044 SECT7  notype       Static       | $chain$1$mix_encrypt_normal
+032 00000048 SECT8  notype       Static       | $pdata$1$mix_encrypt_normal
+033 00000054 SECT7  notype       Static       | $unwind$mix_decrypt_normal
+034 00000054 SECT8  notype       Static       | $pdata$mix_decrypt_normal
+035 00000064 SECT7  notype       Static       | $unwind$mix_encrypt_resync
+036 00000060 SECT8  notype       Static       | $pdata$mix_encrypt_resync
+037 00000070 SECT7  notype       Static       | $unwind$mix_decrypt_resync
+038 0000006C SECT8  notype       Static       | $pdata$mix_decrypt_resync
+039 00000000 SECT9  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 66A7A8DC, selection    5 (pick associative Section 0x5)
+03B 00000000 SECT9  notype       Static       | $unwind$cfb_process
+03C 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 69312319, selection    5 (pick associative Section 0x5)
+03E 00000000 SECTA  notype       Static       | $pdata$cfb_process
+03F 00000000 SECTB  notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 3676183B, selection    5 (pick associative Section 0x5)
+041 00000000 SECTB  notype       Static       | $chain$1$cfb_process
+042 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 888C8D6E, selection    5 (pick associative Section 0x5)
+044 00000000 SECTC  notype       Static       | $pdata$1$cfb_process
+045 00000000 SECTD  notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 46B06E84, selection    5 (pick associative Section 0x5)
+047 00000000 SECTD  notype       Static       | $chain$3$cfb_process
+048 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 690BA1F5, selection    5 (pick associative Section 0x5)
+04A 00000000 SECTE  notype       Static       | $pdata$3$cfb_process
+04B 00000000 SECTF  notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 2615A6DB, selection    5 (pick associative Section 0x5)
+04D 00000000 SECTF  notype       Static       | $chain$5$cfb_process
+04E 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 9F4114E4, selection    5 (pick associative Section 0x5)
+050 00000000 SECT10 notype       Static       | $pdata$5$cfb_process
+051 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum D066C9F5, selection    5 (pick associative Section 0x5)
+053 00000000 SECT11 notype       Static       | $chain$7$cfb_process
+054 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B100FEA0, selection    5 (pick associative Section 0x5)
+056 00000000 SECT12 notype       Static       | $pdata$7$cfb_process
+
+String Table Size = 0x379 bytes
+
+  Summary
+
+        4880 .debug$S
+          68 .debug$T
+          5D .drectve
+          B4 .pdata
+         596 .text$mn
+          E4 .xdata

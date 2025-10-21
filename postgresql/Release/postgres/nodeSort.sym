@@ -1,0 +1,79 @@
+
+Dump of file Release\postgres/nodeSort.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5234, #relocs   58, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  391, #relocs   21, #linenums    0, checksum B8B0DBA8
+00A 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+00B 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+00C 00000000 UNDEF  notype ()    External     | ExecClearTuple
+00D 00000000 UNDEF  notype ()    External     | tuplesort_begin_heap
+00E 00000000 UNDEF  notype ()    External     | tuplesort_set_bound
+00F 00000000 UNDEF  notype ()    External     | tuplesort_puttupleslot
+010 00000000 UNDEF  notype ()    External     | tuplesort_performsort
+011 00000000 UNDEF  notype ()    External     | tuplesort_gettupleslot
+012 00000000 UNDEF  notype ()    External     | tuplesort_end
+013 00000000 UNDEF  notype ()    External     | tuplesort_rescan
+014 00000000 UNDEF  notype ()    External     | tuplesort_markpos
+015 00000000 UNDEF  notype ()    External     | tuplesort_restorepos
+016 00000000 UNDEF  notype ()    External     | ExecReScan
+017 00000000 UNDEF  notype ()    External     | ExecInitNode
+018 00000000 UNDEF  notype ()    External     | ExecEndNode
+019 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+01A 00000000 UNDEF  notype ()    External     | ExecInitScanTupleSlot
+01B 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+01C 00000000 UNDEF  notype ()    External     | ExecGetResultType
+01D 00000000 UNDEF  notype ()    External     | ExecAssignScanTypeFromOuterPlan
+01E 00000000 SECT4  notype ()    External     | ExecInitSort
+01F 000000E0 SECT4  notype ()    External     | ExecEndSort
+020 00000130 SECT4  notype ()    External     | ExecSortMarkPos
+021 00000150 SECT4  notype ()    External     | ExecSortRestrPos
+022 00000170 SECT4  notype ()    External     | ExecReScanSort
+023 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+024 00000220 SECT4  notype ()    Static       | ExecSort
+025 00000000 SECT4  notype       Label        | $LN4
+026 000000E0 SECT4  notype       Label        | $LN5
+027 00000170 SECT4  notype       Label        | $LN9
+028 00000000 SECT5  notype       Static       | .xdata
+    Section length   60, #relocs    6, #linenums    0, checksum  754E554
+02A 00000000 SECT5  notype       Static       | $unwind$ExecInitSort
+02B 00000000 SECT6  notype       Static       | .pdata
+    Section length   48, #relocs   12, #linenums    0, checksum 30A27B71
+02D 00000000 SECT6  notype       Static       | $pdata$ExecInitSort
+02E 00000014 SECT5  notype       Static       | $unwind$ExecEndSort
+02F 0000000C SECT6  notype       Static       | $pdata$ExecEndSort
+030 0000001C SECT5  notype       Static       | $unwind$ExecReScanSort
+031 00000018 SECT6  notype       Static       | $pdata$ExecReScanSort
+032 00000028 SECT5  notype       Static       | $unwind$ExecSort
+033 00000024 SECT6  notype       Static       | $pdata$ExecSort
+034 0000003C SECT5  notype       Static       | $chain$0$ExecSort
+035 00000030 SECT6  notype       Static       | $pdata$0$ExecSort
+036 00000050 SECT5  notype       Static       | $chain$1$ExecSort
+037 0000003C SECT6  notype       Static       | $pdata$1$ExecSort
+038 00000000 UNDEF  notype       External     | pg_signal_queue
+039 00000000 UNDEF  notype       External     | pg_signal_mask
+03A 00000000 UNDEF  notype       External     | CurrentMemoryContext
+03B 00000000 UNDEF  notype       External     | newNodeMacroHolder
+03C 00000000 UNDEF  notype       External     | InterruptPending
+03D 00000000 UNDEF  notype       External     | work_mem
+
+String Table Size = 0x33C bytes
+
+  Summary
+
+        5234 .debug$S
+          68 .debug$T
+          5D .drectve
+          48 .pdata
+         391 .text$mn
+          60 .xdata

@@ -1,0 +1,242 @@
+
+Dump of file Release\postgres/rewriteManip.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 7FFC, #relocs  1D6, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 14CD, #relocs   B3, #linenums    0, checksum FAB1FECC
+00A 00000000 UNDEF  notype ()    External     | errstart
+00B 00000000 UNDEF  notype ()    External     | errfinish
+00C 00000000 UNDEF  notype ()    External     | errcode
+00D 00000000 UNDEF  notype ()    External     | errmsg
+00E 00000000 UNDEF  notype ()    External     | elog_start
+00F 00000000 UNDEF  notype ()    External     | elog_finish
+010 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+011 00000000 UNDEF  notype ()    External     | palloc
+012 00000000 UNDEF  notype ()    External     | bms_copy
+013 00000000 UNDEF  notype ()    External     | bms_is_member
+014 00000000 UNDEF  notype ()    External     | bms_add_member
+015 00000000 UNDEF  notype ()    External     | bms_del_member
+016 00000000 UNDEF  notype ()    External     | bms_next_member
+017 00000000 UNDEF  notype ()    External     | copyObjectImpl
+018 00000000 UNDEF  notype ()    External     | list_nth
+019 00000000 UNDEF  notype ()    External     | makeNullConst
+01A 00000000 UNDEF  notype ()    External     | expression_tree_walker
+01B 00000000 UNDEF  notype ()    External     | expression_tree_mutator
+01C 00000000 UNDEF  notype ()    External     | query_tree_walker
+01D 00000000 UNDEF  notype ()    External     | query_tree_mutator
+01E 00000000 UNDEF  notype ()    External     | range_table_walker
+01F 00000000 UNDEF  notype ()    External     | query_or_expression_tree_walker
+020 00000000 UNDEF  notype ()    External     | query_or_expression_tree_mutator
+021 00000000 UNDEF  notype ()    External     | make_and_qual
+022 00000000 UNDEF  notype ()    External     | coerce_to_domain
+023 00000000 UNDEF  notype ()    External     | expandRTE
+024 00000000 UNDEF  notype ()    External     | get_tle_by_resno
+025 00000000 SECT4  notype ()    External     | OffsetVarNodes
+026 000000A0 SECT4  notype ()    External     | ChangeVarNodes
+027 00000170 SECT4  notype ()    External     | IncrementVarSublevelsUp
+028 000001A0 SECT4  notype ()    External     | IncrementVarSublevelsUp_rtable
+029 000001D0 SECT4  notype ()    External     | rangeTableEntry_used
+02A 00000200 SECT4  notype ()    External     | getInsertSelectQuery
+02B 00000440 SECT4  notype ()    External     | AddQual
+02C 00000580 SECT4  notype ()    External     | AddInvertedQual
+02D 000005F0 SECT4  notype ()    External     | contain_aggs_of_level
+02E 00000620 SECT4  notype ()    External     | locate_agg_of_level
+02F 00000660 SECT4  notype ()    External     | contain_windowfuncs
+030 00000680 SECT4  notype ()    External     | locate_windowfunc
+031 000006B0 SECT4  notype ()    External     | checkExprHasSubLink
+032 000006D0 SECT4  notype ()    External     | replace_rte_variables
+033 000007B0 SECT4  notype ()    External     | replace_rte_variables_mutator
+034 00000900 SECT4  notype ()    External     | map_variable_attnos
+035 00000960 SECT4  notype ()    External     | ReplaceVarsFromTargetList
+036 00000A70 SECT4  notype ()    Static       | contain_aggs_of_level_walker
+037 00000AE0 SECT4  notype ()    Static       | locate_agg_of_level_walker
+038 00000B60 SECT4  notype ()    Static       | contain_windowfuncs_walker
+039 00000B90 SECT4  notype ()    Static       | locate_windowfunc_walker
+03A 00000BC0 SECT4  notype ()    Static       | checkExprHasSubLink_walker
+03B 00000BF0 SECT4  notype ()    Static       | contains_multiexpr_param
+03C 00000C20 SECT4  notype ()    Static       | OffsetVarNodes_walker
+03D 00000D60 SECT4  notype ()    Static       | ChangeVarNodes_walker
+03E 00000F00 SECT4  notype ()    Static       | IncrementVarSublevelsUp_walker
+03F 00001020 SECT4  notype ()    Static       | rangeTableEntry_used_walker
+040 000010D0 SECT4  notype ()    Static       | map_variable_attnos_mutator
+041 00001260 SECT4  notype ()    Static       | ReplaceVarsFromTargetList_callback
+042 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+043 00000000 UNDEF  notype ()    External     | __security_check_cookie
+044 00000000 SECT4  notype       Label        | $LN20
+045 000000A0 SECT4  notype       Label        | $LN21
+046 00000170 SECT4  notype       Label        | $LN4
+047 000001A0 SECT4  notype       Label        | $LN4
+048 000001D0 SECT4  notype       Label        | $LN4
+049 00000200 SECT4  notype       Label        | $LN49
+04A 00000440 SECT4  notype       Label        | $LN24
+04B 00000580 SECT4  notype       Label        | $LN6
+04C 000005F0 SECT4  notype       Label        | $LN4
+04D 00000620 SECT4  notype       Label        | $LN4
+04E 00000680 SECT4  notype       Label        | $LN4
+04F 000006D0 SECT4  notype       Label        | $LN18
+050 000007B0 SECT4  notype       Label        | $LN21
+051 00000900 SECT4  notype       Label        | $LN4
+052 00000960 SECT4  notype       Label        | $LN21
+053 00000000 SECT5  notype       Static       | .xdata
+    Section length  214, #relocs   2B, #linenums    0, checksum DDAA6A30
+055 00000000 SECT5  notype       Static       | $unwind$OffsetVarNodes
+056 00000000 SECT6  notype       Static       | .pdata
+    Section length  1BC, #relocs   6F, #linenums    0, checksum 43918EE4
+058 00000000 SECT6  notype       Static       | $pdata$OffsetVarNodes
+059 00000008 SECT5  notype       Static       | $unwind$ChangeVarNodes
+05A 0000000C SECT6  notype       Static       | $pdata$ChangeVarNodes
+05B 00000018 SECT5  notype       Static       | $unwind$IncrementVarSublevelsUp
+05C 00000018 SECT6  notype       Static       | $pdata$IncrementVarSublevelsUp
+05D 00000020 SECT5  notype       Static       | $unwind$IncrementVarSublevelsUp_rtable
+05E 00000024 SECT6  notype       Static       | $pdata$IncrementVarSublevelsUp_rtable
+05F 00000028 SECT5  notype       Static       | $unwind$rangeTableEntry_used
+060 00000030 SECT6  notype       Static       | $pdata$rangeTableEntry_used
+061 00000030 SECT5  notype       Static       | $unwind$getInsertSelectQuery
+062 0000003C SECT6  notype       Static       | $pdata$getInsertSelectQuery
+063 00000044 SECT5  notype       Static       | $chain$2$getInsertSelectQuery
+064 00000048 SECT6  notype       Static       | $pdata$2$getInsertSelectQuery
+065 00000058 SECT5  notype       Static       | $chain$3$getInsertSelectQuery
+066 00000054 SECT6  notype       Static       | $pdata$3$getInsertSelectQuery
+067 00000068 SECT5  notype       Static       | $unwind$AddQual
+068 00000060 SECT6  notype       Static       | $pdata$AddQual
+069 00000074 SECT5  notype       Static       | $chain$0$AddQual
+06A 0000006C SECT6  notype       Static       | $pdata$0$AddQual
+06B 00000088 SECT5  notype       Static       | $chain$1$AddQual
+06C 00000078 SECT6  notype       Static       | $pdata$1$AddQual
+06D 00000098 SECT5  notype       Static       | $unwind$AddInvertedQual
+06E 00000084 SECT6  notype       Static       | $pdata$AddInvertedQual
+06F 000000A4 SECT5  notype       Static       | $unwind$contain_aggs_of_level
+070 00000090 SECT6  notype       Static       | $pdata$contain_aggs_of_level
+071 000000AC SECT5  notype       Static       | $unwind$locate_agg_of_level
+072 0000009C SECT6  notype       Static       | $pdata$locate_agg_of_level
+073 000000B4 SECT5  notype       Static       | $unwind$locate_windowfunc
+074 000000A8 SECT6  notype       Static       | $pdata$locate_windowfunc
+075 000000BC SECT5  notype       Static       | $unwind$replace_rte_variables
+076 000000B4 SECT6  notype       Static       | $pdata$replace_rte_variables
+077 000000C8 SECT5  notype       Static       | $unwind$replace_rte_variables_mutator
+078 000000C0 SECT6  notype       Static       | $pdata$replace_rte_variables_mutator
+079 000000D4 SECT5  notype       Static       | $chain$0$replace_rte_variables_mutator
+07A 000000CC SECT6  notype       Static       | $pdata$0$replace_rte_variables_mutator
+07B 000000E8 SECT5  notype       Static       | $chain$2$replace_rte_variables_mutator
+07C 000000D8 SECT6  notype       Static       | $pdata$2$replace_rte_variables_mutator
+07D 000000FC SECT5  notype       Static       | $chain$4$replace_rte_variables_mutator
+07E 000000E4 SECT6  notype       Static       | $pdata$4$replace_rte_variables_mutator
+07F 00000110 SECT5  notype       Static       | $unwind$map_variable_attnos
+080 000000F0 SECT6  notype       Static       | $pdata$map_variable_attnos
+081 00000118 SECT5  notype       Static       | $unwind$ReplaceVarsFromTargetList
+082 000000FC SECT6  notype       Static       | $pdata$ReplaceVarsFromTargetList
+083 00000124 SECT5  notype       Static       | $unwind$contain_aggs_of_level_walker
+084 00000108 SECT6  notype       Static       | $pdata$contain_aggs_of_level_walker
+085 0000012C SECT5  notype       Static       | $unwind$locate_agg_of_level_walker
+086 00000114 SECT6  notype       Static       | $pdata$locate_agg_of_level_walker
+087 00000134 SECT5  notype       Static       | $unwind$OffsetVarNodes_walker
+088 00000120 SECT6  notype       Static       | $pdata$OffsetVarNodes_walker
+089 00000140 SECT5  notype       Static       | $chain$3$OffsetVarNodes_walker
+08A 0000012C SECT6  notype       Static       | $pdata$3$OffsetVarNodes_walker
+08B 00000160 SECT5  notype       Static       | $chain$4$OffsetVarNodes_walker
+08C 00000138 SECT6  notype       Static       | $pdata$4$OffsetVarNodes_walker
+08D 00000170 SECT5  notype       Static       | $unwind$ChangeVarNodes_walker
+08E 00000144 SECT6  notype       Static       | $pdata$ChangeVarNodes_walker
+08F 0000017C SECT5  notype       Static       | $chain$2$ChangeVarNodes_walker
+090 00000150 SECT6  notype       Static       | $pdata$2$ChangeVarNodes_walker
+091 00000198 SECT5  notype       Static       | $chain$3$ChangeVarNodes_walker
+092 0000015C SECT6  notype       Static       | $pdata$3$ChangeVarNodes_walker
+093 000001A8 SECT5  notype       Static       | $unwind$IncrementVarSublevelsUp_walker
+094 00000168 SECT6  notype       Static       | $pdata$IncrementVarSublevelsUp_walker
+095 000001B0 SECT5  notype       Static       | $unwind$rangeTableEntry_used_walker
+096 00000174 SECT6  notype       Static       | $pdata$rangeTableEntry_used_walker
+097 000001B8 SECT5  notype       Static       | $unwind$map_variable_attnos_mutator
+098 00000180 SECT6  notype       Static       | $pdata$map_variable_attnos_mutator
+099 000001C4 SECT5  notype       Static       | $chain$1$map_variable_attnos_mutator
+09A 0000018C SECT6  notype       Static       | $pdata$1$map_variable_attnos_mutator
+09B 000001DC SECT5  notype       Static       | $chain$3$map_variable_attnos_mutator
+09C 00000198 SECT6  notype       Static       | $pdata$3$map_variable_attnos_mutator
+09D 000001F4 SECT5  notype       Static       | $chain$4$map_variable_attnos_mutator
+09E 000001A4 SECT6  notype       Static       | $pdata$4$map_variable_attnos_mutator
+09F 00000204 SECT5  notype       Static       | $unwind$ReplaceVarsFromTargetList_callback
+0A0 000001B0 SECT6  notype       Static       | $pdata$ReplaceVarsFromTargetList_callback
+0A1 00000000 UNDEF  notype       External     | CurrentMemoryContext
+0A2 00000000 UNDEF  notype       External     | newNodeMacroHolder
+0A3 00000000 SECT7  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 42BAC855, selection    2 (pick any)
+0A5 00000000 SECT7  notype       External     | ??_C@_0BP@NEEMJLBK@IncrementVarSublevelsUp_walker?$AA@ (`string')
+0A6 00000000 SECT8  notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 5B86D28E, selection    2 (pick any)
+0A8 00000000 SECT8  notype       External     | ??_C@_0CD@KNIBHKEG@src?1backend?1rewrite?1rewriteManip@ (`string')
+0A9 00000000 SECT9  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum F1DD9276, selection    2 (pick any)
+0AB 00000000 SECT9  notype       External     | ??_C@_0BP@GHCLMBDJ@cannot?5push?5down?5CurrentOfExpr?$AA@ (`string')
+0AC 00000000 SECTA  notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum 23197BB2, selection    2 (pick any)
+0AE 00000000 SECTA  notype       External     | ??_C@_03PNKCFLFB@old?$AA@ (`string')
+0AF 00000000 SECTB  notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum F59B66CA, selection    2 (pick any)
+0B1 00000000 SECTB  notype       External     | ??_C@_03CLCAEGCJ@new?$AA@ (`string')
+0B2 00000000 SECTC  notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum BB683465, selection    2 (pick any)
+0B4 00000000 SECTC  notype       External     | ??_C@_0BF@FJDAOBB@getInsertSelectQuery?$AA@ (`string')
+0B5 00000000 SECTD  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 8ABD06AD, selection    2 (pick any)
+0B7 00000000 SECTD  notype       External     | ??_C@_0CB@PDOMDNP@expected?5to?5find?5SELECT?5subquery@ (`string')
+0B8 00000000 SECTE  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum B368A4B7, selection    2 (pick any)
+0BA 00000000 SECTE  notype       External     | ??_C@_0CB@DGOLGBMF@could?5not?5find?5rule?5placeholders@ (`string')
+0BB 00000000 SECTF  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum D064D4A0, selection    2 (pick any)
+0BD 00000000 SECTF  notype       External     | ??_C@_07EKLJPEDG@AddQual?$AA@ (`string')
+0BE 00000000 SECT10 notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum A806E859, selection    2 (pick any)
+0C0 00000000 SECT10 notype       External     | ??_C@_0DD@HPOLECDE@conditional?5utility?5statements?5a@ (`string')
+0C1 00000000 SECT11 notype       Static       | .rdata
+    Section length   42, #relocs    0, #linenums    0, checksum 5EC2335D, selection    2 (pick any)
+0C3 00000000 SECT11 notype       External     | ??_C@_0EC@LNEDAKEH@conditional?5UNION?1INTERSECT?1EXCE@ (`string')
+0C4 00000000 SECT12 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum AF5F36DB, selection    2 (pick any)
+0C6 00000000 SECT12 notype       External     | ??_C@_0BG@PIIJHIME@replace_rte_variables?$AA@ (`string')
+0C7 00000000 SECT13 notype       Static       | .rdata
+    Section length   47, #relocs    0, #linenums    0, checksum 6EE38E21, selection    2 (pick any)
+0C9 00000000 SECT13 notype       External     | ??_C@_0EH@FMDEGHLB@replace_rte_variables?5inserted?5a@ (`string')
+0CA 00000000 SECT14 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 49003D8E, selection    2 (pick any)
+0CC 00000000 SECT14 notype       External     | ??_C@_0BO@LGPLPMME@replace_rte_variables_mutator?$AA@ (`string')
+0CD 00000000 SECT15 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum B1AEC180, selection    2 (pick any)
+0CF 00000000 SECT15 notype       External     | ??_C@_0CO@ENCODGJE@WHERE?5CURRENT?5OF?5on?5a?5view?5is?5no@ (`string')
+0D0 00000000 SECT16 notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 82006ACA, selection    2 (pick any)
+0D2 00000000 SECT16 notype       External     | ??_C@_0BM@PNIPOCNM@map_variable_attnos_mutator?$AA@ (`string')
+0D3 00000000 SECT17 notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum 5FBBD396, selection    2 (pick any)
+0D5 00000000 SECT17 notype       External     | ??_C@_0DC@LPMDFAHH@unexpected?5varattno?5?$CFd?5in?5expres@ (`string')
+0D6 00000000 SECT18 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 894E898D, selection    2 (pick any)
+0D8 00000000 SECT18 notype       External     | ??_C@_0CD@HPEJCBEF@ReplaceVarsFromTargetList_callba@ (`string')
+0D9 00000000 SECT19 notype       Static       | .rdata
+    Section length   39, #relocs    0, #linenums    0, checksum D87AAA35, selection    2 (pick any)
+0DB 00000000 SECT19 notype       External     | ??_C@_0DJ@PKFEILNG@could?5not?5find?5replacement?5targe@ (`string')
+0DC 00000000 SECT1A notype       Static       | .rdata
+    Section length   7F, #relocs    0, #linenums    0, checksum B8E61C23, selection    2 (pick any)
+0DE 00000000 SECT1A notype       External     | ??_C@_0HP@DHHGKJEG@NEW?5variables?5in?5ON?5UPDATE?5rules@ (`string')
+0DF 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x116E bytes
+
+  Summary
+
+        7FFC .debug$S
+          68 .debug$T
+          5D .drectve
+         1BC .pdata
+         30F .rdata
+        14CD .text$mn
+         214 .xdata

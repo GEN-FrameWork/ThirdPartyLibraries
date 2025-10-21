@@ -1,0 +1,127 @@
+
+Dump of file Release\postgres/ts_selfuncs.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 45A0, #relocs   34, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  1BB, #relocs    7, #linenums    0, checksum 17967984
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  18F, #relocs    4, #linenums    0, checksum DFCA4AD4, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  300, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  3BC, #relocs   15, #linenums    0, checksum 8293C4EB, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  620, #relocs   4C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  11E, #relocs    6, #linenums    0, checksum  E3DEA45, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  210, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 UNDEF  notype       External     | __imp_bsearch
+017 00000000 UNDEF  notype       External     | __imp_strncmp
+018 00000000 UNDEF  notype ()    External     | elog_start
+019 00000000 UNDEF  notype ()    External     | elog_finish
+01A 00000000 UNDEF  notype ()    External     | palloc
+01B 00000000 UNDEF  notype ()    External     | pfree
+01C 00000000 UNDEF  notype ()    External     | check_stack_depth
+01D 00000000 SECT4  notype ()    External     | tsmatchsel
+01E 00000110 SECT4  notype ()    External     | tsmatchjoinsel
+01F 00000000 UNDEF  notype ()    External     | get_attstatsslot
+020 00000000 UNDEF  notype ()    External     | free_attstatsslot
+021 00000000 UNDEF  notype ()    External     | get_restriction_variable
+022 00000000 SECT9  notype ()    Static       | tsquerysel
+023 00000000 SECT5  notype ()    Static       | mcelem_tsquery_selec
+024 00000000 SECT7  notype ()    Static       | tsquery_opr_selec
+025 00000130 SECT4  notype ()    Static       | compare_lexeme_textfreq
+026 00000000 SECT4  notype       Label        | $LN36
+027 00000000 SECTB  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 685AC9FC
+029 00000000 SECTB  notype       Static       | $unwind$tsmatchsel
+02A 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 646E019B
+02C 00000000 SECTC  notype       Static       | $pdata$tsmatchsel
+02D 00000000 SECTD  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum CB5D5E5C, selection    5 (pick associative Section 0x9)
+02F 00000000 SECTD  notype       Static       | $unwind$tsquerysel
+030 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F3B36B4F, selection    5 (pick associative Section 0x9)
+032 00000000 SECTE  notype       Static       | $pdata$tsquerysel
+033 00000000 SECTF  notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum ED2C51BD, selection    5 (pick associative Section 0x9)
+035 00000000 SECTF  notype       Static       | $chain$1$tsquerysel
+036 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B8D60259, selection    5 (pick associative Section 0x9)
+038 00000000 SECT10 notype       Static       | $pdata$1$tsquerysel
+039 00000000 SECT11 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 61864825, selection    5 (pick associative Section 0x9)
+03B 00000000 SECT11 notype       Static       | $chain$3$tsquerysel
+03C 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 82D966C4, selection    5 (pick associative Section 0x9)
+03E 00000000 SECT12 notype       Static       | $pdata$3$tsquerysel
+03F 00000000 SECT13 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum C280C7B2, selection    5 (pick associative Section 0x5)
+041 00000000 SECT13 notype       Static       | $unwind$mcelem_tsquery_selec
+042 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 54A1AE41, selection    5 (pick associative Section 0x5)
+044 00000000 SECT14 notype       Static       | $pdata$mcelem_tsquery_selec
+045 00000000 SECT15 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum EFA0DE29, selection    5 (pick associative Section 0x5)
+047 00000000 SECT15 notype       Static       | $chain$2$mcelem_tsquery_selec
+048 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7C19D105, selection    5 (pick associative Section 0x5)
+04A 00000000 SECT16 notype       Static       | $pdata$2$mcelem_tsquery_selec
+04B 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum EDF644AD, selection    5 (pick associative Section 0x5)
+04D 00000000 SECT17 notype       Static       | $chain$3$mcelem_tsquery_selec
+04E 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B83A66F8, selection    5 (pick associative Section 0x5)
+050 00000000 SECT18 notype       Static       | $pdata$3$mcelem_tsquery_selec
+051 00000000 SECT19 notype       Static       | .xdata
+    Section length   24, #relocs    0, #linenums    0, checksum 33A9D671, selection    5 (pick associative Section 0x7)
+053 00000000 SECT19 notype       Static       | $unwind$tsquery_opr_selec
+054 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B0B1D975, selection    5 (pick associative Section 0x7)
+056 00000000 SECT1A notype       Static       | $pdata$tsquery_opr_selec
+057 00000000 SECT1B notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 77B747C7, selection    2 (pick any)
+059 00000000 SECT1B notype       External     | ??_C@_0BC@OPFDHHHF@tsquery_opr_selec?$AA@ (`string')
+05A 00000000 SECT1C notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum  A2D59CF, selection    2 (pick any)
+05C 00000000 SECT1C notype       External     | ??_C@_0CC@LEKDMKBK@src?1backend?1tsearch?1ts_selfuncs?4@ (`string')
+05D 00000000 SECT1D notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 1A43C906, selection    2 (pick any)
+05F 00000000 SECT1D notype       External     | ??_C@_0BK@EKFAIIML@unrecognized?5operator?3?5?$CFd?$AA@ (`string')
+060 00000000 SECT1E notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum B6662D3D, selection    2 (pick any)
+062 00000000 SECT1E notype       External     | __real@3f000000
+063 00000000 SECT1F notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 61FE9BC8, selection    2 (pick any)
+065 00000000 SECT1F notype       External     | __real@3f747ae147ae147b
+066 00000000 SECT20 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 3F806824, selection    2 (pick any)
+068 00000000 SECT20 notype       External     | __real@3f947ae147ae147b
+069 00000000 SECT21 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+06B 00000000 SECT21 notype       External     | __real@3ff0000000000000
+06C 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x35A bytes
+
+  Summary
+
+        50D0 .debug$S
+          68 .debug$T
+          5D .drectve
+          60 .pdata
+          6A .rdata
+         824 .text$mn
+          A4 .xdata

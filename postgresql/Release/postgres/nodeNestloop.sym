@@ -1,0 +1,96 @@
+
+Dump of file Release\postgres/nodeNestloop.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5A1C, #relocs   AA, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  577, #relocs   35, #linenums    0, checksum 921C31A0
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   74, #relocs    4, #linenums    0, checksum 4D3F8A20, selection    2 (pick any)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  230, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+00F 00000000 UNDEF  notype ()    External     | elog_start
+010 00000000 UNDEF  notype ()    External     | elog_finish
+011 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+012 00000000 UNDEF  notype ()    External     | ExecClearTuple
+013 00000000 UNDEF  notype ()    External     | slot_getattr
+014 00000000 UNDEF  notype ()    External     | bms_add_member
+015 00000000 UNDEF  notype ()    External     | ExecReScan
+016 00000000 UNDEF  notype ()    External     | ExecInitNode
+017 00000000 UNDEF  notype ()    External     | ExecEndNode
+018 00000000 UNDEF  notype ()    External     | ExecInitQual
+019 00000000 SECT5  notype ()    Static       | ExecProject
+01A 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+01B 00000000 UNDEF  notype ()    External     | ExecInitNullTupleSlot
+01C 00000000 UNDEF  notype ()    External     | ExecAssignExprContext
+01D 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+01E 00000000 UNDEF  notype ()    External     | ExecGetResultType
+01F 00000000 UNDEF  notype ()    External     | ExecAssignProjectionInfo
+020 00000000 UNDEF  notype ()    External     | ExecFreeExprContext
+021 00000000 SECT4  notype ()    External     | ExecInitNestLoop
+022 00000190 SECT4  notype ()    External     | ExecEndNestLoop
+023 000001D0 SECT4  notype ()    External     | ExecReScanNestLoop
+024 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+025 00000000 UNDEF  notype ()    External     | MemoryContextReset
+026 00000200 SECT4  notype ()    Static       | ExecNestLoop
+027 00000000 SECT4  notype       Label        | $LN17
+028 00000190 SECT4  notype       Label        | $LN4
+029 000001D0 SECT4  notype       Label        | $LN6
+02A 00000000 SECT7  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 533B2AD9, selection    5 (pick associative Section 0x5)
+02C 00000000 SECT7  notype       Static       | $unwind$ExecProject
+02D 00000000 SECT8  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 281A9F6A, selection    5 (pick associative Section 0x5)
+02F 00000000 SECT8  notype       Static       | $pdata$ExecProject
+030 00000000 SECT9  notype       Static       | .xdata
+    Section length   40, #relocs    0, #linenums    0, checksum A151D544
+032 00000000 SECT9  notype       Static       | $unwind$ExecInitNestLoop
+033 00000000 SECTA  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum 33082D72
+035 00000000 SECTA  notype       Static       | $pdata$ExecInitNestLoop
+036 00000014 SECT9  notype       Static       | $unwind$ExecEndNestLoop
+037 0000000C SECTA  notype       Static       | $pdata$ExecEndNestLoop
+038 0000001C SECT9  notype       Static       | $unwind$ExecReScanNestLoop
+039 00000018 SECTA  notype       Static       | $pdata$ExecReScanNestLoop
+03A 00000024 SECT9  notype       Static       | $unwind$ExecNestLoop
+03B 00000024 SECTA  notype       Static       | $pdata$ExecNestLoop
+03C 00000000 UNDEF  notype       External     | pg_signal_queue
+03D 00000000 UNDEF  notype       External     | pg_signal_mask
+03E 00000000 UNDEF  notype       External     | CurrentMemoryContext
+03F 00000000 UNDEF  notype       External     | newNodeMacroHolder
+040 00000000 UNDEF  notype       External     | InterruptPending
+041 00000000 SECTB  notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum FA420963, selection    2 (pick any)
+043 00000000 SECTB  notype       External     | ??_C@_0BB@MMFCAHCB@ExecInitNestLoop?$AA@ (`string')
+044 00000000 SECTC  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum  9365172, selection    2 (pick any)
+046 00000000 SECTC  notype       External     | ??_C@_0CE@JMHPBMFI@src?1backend?1executor?1nodeNestloo@ (`string')
+047 00000000 SECTD  notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 93E7298F, selection    2 (pick any)
+049 00000000 SECTD  notype       External     | ??_C@_0BL@HGGCIEMD@unrecognized?5join?5type?3?5?$CFd?$AA@ (`string')
+04A 00000000 SECTE  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+04C 00000000 SECTE  notype       External     | __real@3ff0000000000000
+04D 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x3B5 bytes
+
+  Summary
+
+        5C4C .debug$S
+          68 .debug$T
+          5D .drectve
+          3C .pdata
+          58 .rdata
+         5EB .text$mn
+          54 .xdata

@@ -1,0 +1,80 @@
+
+Dump of file Release\bloom/blscan.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5DBC, #relocs   78, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   64, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  3A4, #relocs   1B, #linenums    0, checksum 7FA268FC
+00A 00000000 UNDEF  notype       External     | __imp_memmove
+00B 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+00C 00000000 UNDEF  notype ()    External     | palloc
+00D 00000000 UNDEF  notype ()    External     | palloc0
+00E 00000000 UNDEF  notype ()    External     | pfree
+00F 00000000 UNDEF  notype ()    External     | tbm_add_tuples
+010 00000000 UNDEF  notype ()    External     | RelationGetIndexScan
+011 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+012 00000000 UNDEF  notype ()    External     | HeapTupleSatisfiesMVCC
+013 00000000 UNDEF  notype ()    External     | HeapTupleSatisfiesToast
+014 00000000 UNDEF  notype ()    External     | ReadBufferExtended
+015 00000000 UNDEF  notype ()    External     | UnlockReleaseBuffer
+016 00000000 UNDEF  notype ()    External     | RelationGetNumberOfBlocksInFork
+017 00000000 UNDEF  notype ()    External     | LockBuffer
+018 00000000 UNDEF  notype ()    External     | TestForOldSnapshot_impl
+019 00000000 UNDEF  notype ()    External     | GetAccessStrategy
+01A 00000000 UNDEF  notype ()    External     | FreeAccessStrategy
+01B 00000000 UNDEF  notype ()    External     | initBloomState
+01C 00000000 UNDEF  notype ()    External     | signValue
+01D 00000000 SECT4  notype ()    External     | blbeginscan
+01E 00000050 SECT4  notype ()    External     | blgetbitmap
+01F 00000310 SECT4  notype ()    External     | blrescan
+020 00000380 SECT4  notype ()    External     | blendscan
+021 00000000 SECT4  notype       Label        | $LN4
+022 00000050 SECT4  notype       Label        | $LN52
+023 00000310 SECT4  notype       Label        | $LN6
+024 00000380 SECT4  notype       Label        | $LN6
+025 00000000 SECT5  notype       Static       | .xdata
+    Section length   94, #relocs    C, #linenums    0, checksum D74ADA46
+027 00000000 SECT5  notype       Static       | $unwind$blbeginscan
+028 00000000 SECT6  notype       Static       | .pdata
+    Section length   60, #relocs   18, #linenums    0, checksum ACF4EEDE
+02A 00000000 SECT6  notype       Static       | $pdata$blbeginscan
+02B 0000000C SECT5  notype       Static       | $unwind$blgetbitmap
+02C 0000000C SECT6  notype       Static       | $pdata$blgetbitmap
+02D 0000001C SECT5  notype       Static       | $chain$2$blgetbitmap
+02E 00000018 SECT6  notype       Static       | $pdata$2$blgetbitmap
+02F 00000038 SECT5  notype       Static       | $chain$3$blgetbitmap
+030 00000024 SECT6  notype       Static       | $pdata$3$blgetbitmap
+031 00000048 SECT5  notype       Static       | $chain$4$blgetbitmap
+032 00000030 SECT6  notype       Static       | $pdata$4$blgetbitmap
+033 00000064 SECT5  notype       Static       | $chain$5$blgetbitmap
+034 0000003C SECT6  notype       Static       | $pdata$5$blgetbitmap
+035 0000007C SECT5  notype       Static       | $unwind$blrescan
+036 00000048 SECT6  notype       Static       | $pdata$blrescan
+037 0000008C SECT5  notype       Static       | $unwind$blendscan
+038 00000054 SECT6  notype       Static       | $pdata$blendscan
+039 00000000 UNDEF  notype       External     | __imp_pg_signal_queue
+03A 00000000 UNDEF  notype       External     | __imp_pg_signal_mask
+03B 00000000 UNDEF  notype       External     | __imp_InterruptPending
+03C 00000000 UNDEF  notype       External     | __imp_old_snapshot_threshold
+03D 00000000 UNDEF  notype       External     | __imp_BufferBlocks
+03E 00000000 UNDEF  notype       External     | __imp_LocalBufferBlockPointers
+
+String Table Size = 0x32C bytes
+
+  Summary
+
+        5DBC .debug$S
+          64 .debug$T
+          5D .drectve
+          60 .pdata
+         3A4 .text$mn
+          94 .xdata

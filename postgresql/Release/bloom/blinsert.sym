@@ -1,0 +1,128 @@
+
+Dump of file Release\bloom/blinsert.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   73, #relocs    0, #linenums    0, checksum 2C345B63
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 63D8, #relocs   AA, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   64, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 13DF8958
+00A 00000000 SECT4  notype       Static       | ?Pg_magic_data@?1??Pg_magic_func@@9@9 (`Pg_magic_func'::`2'::Pg_magic_data)
+00B 00000000 SECT5  notype       Static       | .text$mn
+    Section length  6F2, #relocs   65, #linenums    0, checksum 78E04C6F
+00D 00000000 SECT6  notype       Static       | .text$mn
+    Section length   B4, #relocs    5, #linenums    0, checksum 4AA2DFB3, selection    1 (pick no duplicates)
+00F 00000000 SECT7  notype       Static       | .debug$S
+    Section length  1EC, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+011 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+012 00000000 UNDEF  notype ()    External     | elog_start
+013 00000000 UNDEF  notype ()    External     | elog_finish
+014 00000000 UNDEF  notype ()    External     | palloc
+015 00000000 UNDEF  notype ()    External     | log_newpage
+016 00000000 UNDEF  notype ()    External     | PageSetChecksumInplace
+017 00000000 UNDEF  notype ()    External     | GenericXLogStart
+018 00000000 UNDEF  notype ()    External     | GenericXLogRegisterBuffer
+019 00000000 UNDEF  notype ()    External     | GenericXLogFinish
+01A 00000000 UNDEF  notype ()    External     | GenericXLogAbort
+01B 00000000 UNDEF  notype ()    External     | IndexBuildHeapScan
+01C 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+01D 00000000 UNDEF  notype ()    External     | ReadBuffer
+01E 00000000 UNDEF  notype ()    External     | ReleaseBuffer
+01F 00000000 UNDEF  notype ()    External     | UnlockReleaseBuffer
+020 00000000 UNDEF  notype ()    External     | BufferGetBlockNumber
+021 00000000 UNDEF  notype ()    External     | RelationGetNumberOfBlocksInFork
+022 00000000 UNDEF  notype ()    External     | LockBuffer
+023 00000000 UNDEF  notype ()    External     | smgrwrite
+024 00000000 UNDEF  notype ()    External     | smgrimmedsync
+025 00000000 UNDEF  notype ()    External     | MemoryContextReset
+026 00000000 UNDEF  notype ()    External     | MemoryContextDelete
+027 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+028 00000000 UNDEF  notype ()    External     | initBloomState
+029 00000000 UNDEF  notype ()    External     | BloomFillMetapage
+02A 00000000 UNDEF  notype ()    External     | BloomInitMetapage
+02B 00000000 UNDEF  notype ()    External     | BloomInitPage
+02C 00000000 UNDEF  notype ()    External     | BloomNewBuffer
+02D 00000000 UNDEF  notype ()    External     | BloomFormTuple
+02E 00000000 UNDEF  notype ()    External     | BloomPageAddItem
+02F 00000000 SECT5  notype ()    External     | blinsert
+030 00000390 SECT5  notype ()    External     | blbuild
+031 00000520 SECT5  notype ()    External     | blbuildempty
+032 000005A0 SECT5  notype ()    External     | Pg_magic_func
+033 00000000 SECT6  notype ()    Static       | flushCachedPage
+034 000005B0 SECT5  notype ()    Static       | bloomBuildCallback
+035 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+036 00000000 UNDEF  notype ()    External     | __chkstk
+037 00000000 UNDEF  notype ()    External     | __security_check_cookie
+038 00000000 UNDEF  notype ()    External     | memset
+039 00000000 SECT5  notype       Label        | $LN41
+03A 00000390 SECT5  notype       Label        | $LN12
+03B 00000520 SECT5  notype       Label        | $LN4
+03C 00000000 SECT8  notype       Static       | .xdata
+    Section length   64, #relocs    2, #linenums    0, checksum E7C43931
+03E 00000000 SECT8  notype       Static       | $unwind$blinsert
+03F 00000000 SECT9  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum 375790DF
+041 00000000 SECT9  notype       Static       | $pdata$blinsert
+042 00000024 SECT8  notype       Static       | $unwind$blbuild
+043 0000000C SECT9  notype       Static       | $pdata$blbuild
+044 00000040 SECT8  notype       Static       | $unwind$blbuildempty
+045 00000018 SECT9  notype       Static       | $pdata$blbuildempty
+046 00000000 SECTA  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum ED4F81A7, selection    5 (pick associative Section 0x6)
+048 00000000 SECTA  notype       Static       | $unwind$flushCachedPage
+049 00000000 SECTB  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 52BCD85D, selection    5 (pick associative Section 0x6)
+04B 00000000 SECTB  notype       Static       | $pdata$flushCachedPage
+04C 0000004C SECT8  notype       Static       | $unwind$bloomBuildCallback
+04D 00000024 SECT9  notype       Static       | $pdata$bloomBuildCallback
+04E 00000000 UNDEF  notype       External     | __imp_pg_signal_queue
+04F 00000000 UNDEF  notype       External     | __imp_pg_signal_mask
+050 00000000 UNDEF  notype       External     | __imp_CurrentMemoryContext
+051 00000000 UNDEF  notype       External     | __imp_InterruptPending
+052 00000000 UNDEF  notype       External     | __imp_BufferBlocks
+053 00000000 UNDEF  notype       External     | __imp_LocalBufferBlockPointers
+054 00000000 SECTC  notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum  C4D9BB0, selection    2 (pick any)
+056 00000000 SECTC  notype       External     | ??_C@_0BD@CJLKKNCA@bloomBuildCallback?$AA@ (`string')
+057 00000000 SECTD  notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 4992D14F, selection    2 (pick any)
+059 00000000 SECTD  notype       External     | ??_C@_0BJ@FPKCCADP@contrib?1bloom?1blinsert?4c?$AA@ (`string')
+05A 00000000 SECTE  notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum 7F20E393, selection    2 (pick any)
+05C 00000000 SECTE  notype       External     | ??_C@_0CM@DPLHKHA@could?5not?5add?5new?5bloom?5tuple?5to@ (`string')
+05D 00000000 SECTF  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum ACA464D7, selection    2 (pick any)
+05F 00000000 SECTF  notype       External     | ??_C@_07DGHJEEEB@blbuild?$AA@ (`string')
+060 00000000 SECT10 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 4BA1A098, selection    2 (pick any)
+062 00000000 SECT10 notype       External     | ??_C@_0CB@MOCCGFOK@index?5?$CC?$CFs?$CC?5already?5contains?5data@ (`string')
+063 00000000 SECT11 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 8BF981A6, selection    2 (pick any)
+065 00000000 SECT11 notype       External     | ??_C@_0BO@HEACEAOM@Bloom?5build?5temporary?5context?$AA@ (`string')
+066 00000000 SECT12 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 14CB2B69, selection    2 (pick any)
+068 00000000 SECT12 notype       External     | ??_C@_0BP@ICDNHICG@Bloom?5insert?5temporary?5context?$AA@ (`string')
+069 00000000 SECT13 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 77ADE628, selection    2 (pick any)
+06B 00000000 SECT13 notype       External     | ??_C@_08GOFLANHJ@blinsert?$AA@ (`string')
+06C 00000000 UNDEF  notype       External     | __security_cookie
+06D 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x589 bytes
+
+  Summary
+
+        65C4 .debug$S
+          64 .debug$T
+          73 .drectve
+          3C .pdata
+          E3 .rdata
+         7A6 .text$mn
+          74 .xdata

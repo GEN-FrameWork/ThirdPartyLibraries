@@ -1,0 +1,110 @@
+
+Dump of file Release\postgres/binaryheap.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 40C8, #relocs   78, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  331, #relocs    F, #linenums    0, checksum ABB6215A
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   DA, #relocs    0, #linenums    0, checksum 2C1378DF, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  2F4, #relocs   24, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   7C, #relocs    0, #linenums    0, checksum 4074E480, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  29C, #relocs   20, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | elog_start
+013 00000000 UNDEF  notype ()    External     | elog_finish
+014 00000000 UNDEF  notype ()    External     | palloc
+015 00000000 UNDEF  notype ()    External     | pfree
+016 00000000 SECT4  notype ()    External     | binaryheap_allocate
+017 00000060 SECT4  notype ()    External     | binaryheap_reset
+018 00000080 SECT4  notype ()    External     | binaryheap_free
+019 00000090 SECT4  notype ()    External     | binaryheap_add_unordered
+01A 000000F0 SECT4  notype ()    External     | binaryheap_build
+01B 00000240 SECT4  notype ()    External     | binaryheap_add
+01C 000002B0 SECT4  notype ()    External     | binaryheap_first
+01D 000002C0 SECT4  notype ()    External     | binaryheap_remove_first
+01E 00000320 SECT4  notype ()    External     | binaryheap_replace_first
+01F 00000000 SECT5  notype ()    Static       | sift_down
+020 00000000 SECT7  notype ()    Static       | sift_up
+021 00000000 SECT4  notype       Label        | $LN4
+022 00000090 SECT4  notype       Label        | $LN9
+023 000000F0 SECT4  notype       Label        | $LN33
+024 00000240 SECT4  notype       Label        | $LN9
+025 000002C0 SECT4  notype       Label        | $LN7
+026 00000000 SECT9  notype       Static       | .xdata
+    Section length   74, #relocs    6, #linenums    0, checksum A819BC40
+028 00000000 SECT9  notype       Static       | $unwind$binaryheap_allocate
+029 00000000 SECTA  notype       Static       | .pdata
+    Section length   54, #relocs   15, #linenums    0, checksum 73AF2EBE
+02B 00000000 SECTA  notype       Static       | $pdata$binaryheap_allocate
+02C 00000010 SECT9  notype       Static       | $unwind$binaryheap_add_unordered
+02D 0000000C SECTA  notype       Static       | $pdata$binaryheap_add_unordered
+02E 0000001C SECT9  notype       Static       | $unwind$binaryheap_build
+02F 00000018 SECTA  notype       Static       | $pdata$binaryheap_build
+030 00000024 SECT9  notype       Static       | $chain$6$binaryheap_build
+031 00000024 SECTA  notype       Static       | $pdata$6$binaryheap_build
+032 00000050 SECT9  notype       Static       | $chain$7$binaryheap_build
+033 00000030 SECTA  notype       Static       | $pdata$7$binaryheap_build
+034 00000060 SECT9  notype       Static       | $unwind$binaryheap_add
+035 0000003C SECTA  notype       Static       | $pdata$binaryheap_add
+036 0000006C SECT9  notype       Static       | $unwind$binaryheap_remove_first
+037 00000048 SECTA  notype       Static       | $pdata$binaryheap_remove_first
+038 00000000 SECTB  notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum  B87DB6D, selection    5 (pick associative Section 0x5)
+03A 00000000 SECTB  notype       Static       | $unwind$sift_down
+03B 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 97DD6AD4, selection    5 (pick associative Section 0x5)
+03D 00000000 SECTC  notype       Static       | $pdata$sift_down
+03E 00000000 SECTD  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 58013F83, selection    5 (pick associative Section 0x7)
+040 00000000 SECTD  notype       Static       | $unwind$sift_up
+041 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 1F4F1B2B, selection    5 (pick associative Section 0x7)
+043 00000000 SECTE  notype       Static       | $pdata$sift_up
+044 00000000 SECTF  notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 7FF31A41, selection    5 (pick associative Section 0x7)
+046 00000000 SECTF  notype       Static       | $chain$2$sift_up
+047 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6C93B757, selection    5 (pick associative Section 0x7)
+049 00000000 SECT10 notype       Static       | $pdata$2$sift_up
+04A 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum A618F1C7, selection    5 (pick associative Section 0x7)
+04C 00000000 SECT11 notype       Static       | $chain$3$sift_up
+04D 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum AE27A125, selection    5 (pick associative Section 0x7)
+04F 00000000 SECT12 notype       Static       | $pdata$3$sift_up
+050 00000000 SECT13 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 61C6096C, selection    2 (pick any)
+052 00000000 SECT13 notype       External     | ??_C@_0BJ@HHPGPIBM@binaryheap_add_unordered?$AA@ (`string')
+053 00000000 SECT14 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 45DD59D3, selection    2 (pick any)
+055 00000000 SECT14 notype       External     | ??_C@_0BN@LBHGGDAK@src?1backend?1lib?1binaryheap?4c?$AA@ (`string')
+056 00000000 SECT15 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum A6F744E9, selection    2 (pick any)
+058 00000000 SECT15 notype       External     | ??_C@_0BJ@LAMHLFJJ@out?5of?5binary?5heap?5slots?$AA@ (`string')
+059 00000000 SECT16 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum  D06F522, selection    2 (pick any)
+05B 00000000 SECT16 notype       External     | ??_C@_0P@CFCKAJDK@binaryheap_add?$AA@ (`string')
+
+String Table Size = 0x39D bytes
+
+  Summary
+
+        4658 .debug$S
+          68 .debug$T
+          5D .drectve
+          84 .pdata
+          5E .rdata
+         487 .text$mn
+          C4 .xdata

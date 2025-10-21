@@ -1,0 +1,85 @@
+
+Dump of file Release\postgres/sinval.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 408C, #relocs   30, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000008 UNDEF  notype       External     | SharedInvalidMessageCounter
+009 00000000 SECT4  notype       Static       | .bss
+    Section length  210, #relocs    0, #linenums    0, checksum        0
+00B 00000000 SECT4  notype       External     | catchupInterruptPending
+00C 00000000 SECT5  notype       Static       | .text$mn
+    Section length  24D, #relocs   38, #linenums    0, checksum 48D1634C
+00E 00000000 UNDEF  notype ()    External     | elog_start
+00F 00000000 UNDEF  notype ()    External     | elog_finish
+010 00000000 SECT5  notype ()    External     | SendSharedInvalidMessages
+011 00000010 SECT5  notype ()    External     | ReceiveSharedInvalidMessages
+012 000001B0 SECT5  notype ()    External     | HandleCatchupInterrupt
+013 000001D0 SECT5  notype ()    External     | ProcessCatchupInterrupt
+014 00000000 UNDEF  notype ()    External     | StartTransactionCommand
+015 00000000 UNDEF  notype ()    External     | CommitTransactionCommand
+016 00000000 UNDEF  notype ()    External     | IsTransactionOrTransactionBlock
+017 00000000 UNDEF  notype ()    External     | SetLatch
+018 00000000 UNDEF  notype ()    External     | SIInsertDataEntries
+019 00000000 UNDEF  notype ()    External     | SIGetDataEntries
+01A 00000000 UNDEF  notype ()    External     | SICleanupQueue
+01B 00000000 UNDEF  notype ()    External     | AcceptInvalidationMessages
+01C 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+01D 00000000 UNDEF  notype ()    External     | __security_check_cookie
+01E 00000010 SECT5  notype       Label        | $LN45
+01F 000001D0 SECT5  notype       Label        | $LN21
+020 00000000 SECT6  notype       Static       | .xdata
+    Section length   20, #relocs    1, #linenums    0, checksum 12BA5DF1
+022 00000000 SECT6  notype       Static       | $unwind$ReceiveSharedInvalidMessages
+023 00000000 SECT7  notype       Static       | .pdata
+    Section length   18, #relocs    6, #linenums    0, checksum 933C02E4
+025 00000000 SECT7  notype       Static       | $pdata$ReceiveSharedInvalidMessages
+026 00000018 SECT6  notype       Static       | $unwind$ProcessCatchupInterrupt
+027 0000000C SECT7  notype       Static       | $pdata$ProcessCatchupInterrupt
+028 00000000 UNDEF  notype       External     | MyLatch
+029 00000010 SECT4  notype       Static       | ?messages@?1??ReceiveSharedInvalidMessages@@9@9 (`ReceiveSharedInvalidMessages'::`2'::messages)
+02A 00000004 SECT4  notype       Static       | ?nextmsg@?1??ReceiveSharedInvalidMessages@@9@9 (`ReceiveSharedInvalidMessages'::`2'::nextmsg)
+02B 00000008 SECT4  notype       Static       | ?nummsgs@?1??ReceiveSharedInvalidMessages@@9@9 (`ReceiveSharedInvalidMessages'::`2'::nummsgs)
+02C 00000000 SECT8  notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum FD8C545D, selection    2 (pick any)
+02E 00000000 SECT8  notype       External     | ??_C@_0BN@JCHGOIE@ReceiveSharedInvalidMessages?$AA@ (`string')
+02F 00000000 SECT9  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 780737E8, selection    2 (pick any)
+031 00000000 SECT9  notype       External     | ??_C@_0CB@PNIEPCJK@src?1backend?1storage?1ipc?1sinval?4c@ (`string')
+032 00000000 SECTA  notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 6D3E65C2, selection    2 (pick any)
+034 00000000 SECTA  notype       External     | ??_C@_0BC@PFNKFFHA@cache?5state?5reset?$AA@ (`string')
+035 00000000 SECTB  notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 36ADF579, selection    2 (pick any)
+037 00000000 SECTB  notype       External     | ??_C@_0CI@CALODHDH@sinval?5catchup?5complete?0?5cleanin@ (`string')
+038 00000000 SECTC  notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum BA8B43DE, selection    2 (pick any)
+03A 00000000 SECTC  notype       External     | ??_C@_0BI@OGLFHGAB@ProcessCatchupInterrupt?$AA@ (`string')
+03B 00000000 SECTD  notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 6B761CF3, selection    2 (pick any)
+03D 00000000 SECTD  notype       External     | ??_C@_0CH@BEHLBHCM@ProcessCatchupEvent?5inside?5trans@ (`string')
+03E 00000000 SECTE  notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum E55A35EF, selection    2 (pick any)
+040 00000000 SECTE  notype       External     | ??_C@_0CI@PDEJPHKB@ProcessCatchupEvent?5outside?5tran@ (`string')
+041 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x417 bytes
+
+  Summary
+
+         210 .bss
+        408C .debug$S
+          68 .debug$T
+          5D .drectve
+          18 .pdata
+          DF .rdata
+         24D .text$mn
+          20 .xdata

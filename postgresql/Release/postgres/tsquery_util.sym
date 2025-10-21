@@ -1,0 +1,195 @@
+
+Dump of file Release\postgres/tsquery_util.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4B44, #relocs   B2, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  9DB, #relocs   39, #linenums    0, checksum 699D0CAC
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   90, #relocs    2, #linenums    0, checksum BE70D8BA, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  1E4, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  11D, #relocs    4, #linenums    0, checksum  735D111, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  1C0, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype       External     | __imp_memmove
+013 00000000 UNDEF  notype ()    External     | pg_qsort
+014 00000000 UNDEF  notype ()    External     | errstart
+015 00000000 UNDEF  notype ()    External     | errfinish
+016 00000000 UNDEF  notype ()    External     | errcode
+017 00000000 UNDEF  notype ()    External     | errmsg
+018 00000000 UNDEF  notype ()    External     | elog_start
+019 00000000 UNDEF  notype ()    External     | elog_finish
+01A 00000000 UNDEF  notype ()    External     | palloc
+01B 00000000 UNDEF  notype ()    External     | palloc0
+01C 00000000 UNDEF  notype ()    External     | repalloc
+01D 00000000 UNDEF  notype ()    External     | pfree
+01E 00000000 UNDEF  notype ()    External     | tsCompareString
+01F 00000000 SECT4  notype ()    External     | QT2QTN
+020 00000110 SECT4  notype ()    External     | QTN2QT
+021 00000280 SECT4  notype ()    External     | QTNFree
+022 00000330 SECT4  notype ()    External     | QTNSort
+023 000003C0 SECT4  notype ()    External     | QTNTernary
+024 00000520 SECT4  notype ()    External     | QTNBinary
+025 00000640 SECT4  notype ()    External     | QTNodeCompare
+026 000007F0 SECT4  notype ()    External     | QTNCopy
+027 00000910 SECT4  notype ()    External     | QTNClearFlags
+028 00000990 SECT4  notype ()    External     | QTNEq
+029 00000000 UNDEF  notype ()    External     | check_stack_depth
+02A 000009D0 SECT4  notype ()    Static       | cmpQTN
+02B 00000000 SECT5  notype ()    Static       | cntsize
+02C 00000000 SECT7  notype ()    Static       | fillQT
+02D 00000000 UNDEF  notype ()    External     | memcpy
+02E 00000000 SECT4  notype       Label        | $LN10
+02F 00000110 SECT4  notype       Label        | $LN23
+030 00000280 SECT4  notype       Label        | $LN18
+031 00000330 SECT4  notype       Label        | $LN13
+032 000003C0 SECT4  notype       Label        | $LN28
+033 00000520 SECT4  notype       Label        | $LN35
+034 00000640 SECT4  notype       Label        | $LN29
+035 000007F0 SECT4  notype       Label        | $LN16
+036 00000910 SECT4  notype       Label        | $LN13
+037 00000990 SECT4  notype       Label        | $LN6
+038 00000000 SECT9  notype       Static       | .xdata
+    Section length  220, #relocs   45, #linenums    0, checksum 3883F8FF
+03A 00000000 SECT9  notype       Static       | $unwind$QT2QTN
+03B 00000000 SECTA  notype       Static       | .pdata
+    Section length  18C, #relocs   63, #linenums    0, checksum A7B16698
+03D 00000000 SECTA  notype       Static       | $pdata$QT2QTN
+03E 00000010 SECT9  notype       Static       | $unwind$QTN2QT
+03F 0000000C SECTA  notype       Static       | $pdata$QTN2QT
+040 00000020 SECT9  notype       Static       | $unwind$QTNFree
+041 00000018 SECTA  notype       Static       | $pdata$QTNFree
+042 00000028 SECT9  notype       Static       | $chain$0$QTNFree
+043 00000024 SECTA  notype       Static       | $pdata$0$QTNFree
+044 0000003C SECT9  notype       Static       | $chain$1$QTNFree
+045 00000030 SECTA  notype       Static       | $pdata$1$QTNFree
+046 00000050 SECT9  notype       Static       | $chain$2$QTNFree
+047 0000003C SECTA  notype       Static       | $pdata$2$QTNFree
+048 00000060 SECT9  notype       Static       | $chain$3$QTNFree
+049 00000048 SECTA  notype       Static       | $pdata$3$QTNFree
+04A 00000070 SECT9  notype       Static       | $unwind$QTNSort
+04B 00000054 SECTA  notype       Static       | $pdata$QTNSort
+04C 00000078 SECT9  notype       Static       | $chain$0$QTNSort
+04D 00000060 SECTA  notype       Static       | $pdata$0$QTNSort
+04E 0000008C SECT9  notype       Static       | $chain$1$QTNSort
+04F 0000006C SECTA  notype       Static       | $pdata$1$QTNSort
+050 000000A0 SECT9  notype       Static       | $chain$2$QTNSort
+051 00000078 SECTA  notype       Static       | $pdata$2$QTNSort
+052 000000B0 SECT9  notype       Static       | $chain$3$QTNSort
+053 00000084 SECTA  notype       Static       | $pdata$3$QTNSort
+054 000000C0 SECT9  notype       Static       | $unwind$QTNTernary
+055 00000090 SECTA  notype       Static       | $pdata$QTNTernary
+056 000000C8 SECT9  notype       Static       | $chain$2$QTNTernary
+057 0000009C SECTA  notype       Static       | $pdata$2$QTNTernary
+058 000000E4 SECT9  notype       Static       | $chain$3$QTNTernary
+059 000000A8 SECTA  notype       Static       | $pdata$3$QTNTernary
+05A 000000F4 SECT9  notype       Static       | $unwind$QTNBinary
+05B 000000B4 SECTA  notype       Static       | $pdata$QTNBinary
+05C 000000FC SECT9  notype       Static       | $chain$0$QTNBinary
+05D 000000C0 SECTA  notype       Static       | $pdata$0$QTNBinary
+05E 00000110 SECT9  notype       Static       | $chain$1$QTNBinary
+05F 000000CC SECTA  notype       Static       | $pdata$1$QTNBinary
+060 00000124 SECT9  notype       Static       | $chain$2$QTNBinary
+061 000000D8 SECTA  notype       Static       | $pdata$2$QTNBinary
+062 00000134 SECT9  notype       Static       | $chain$3$QTNBinary
+063 000000E4 SECTA  notype       Static       | $pdata$3$QTNBinary
+064 00000144 SECT9  notype       Static       | $unwind$QTNodeCompare
+065 000000F0 SECTA  notype       Static       | $pdata$QTNodeCompare
+066 00000150 SECT9  notype       Static       | $chain$1$QTNodeCompare
+067 000000FC SECTA  notype       Static       | $pdata$1$QTNodeCompare
+068 00000168 SECT9  notype       Static       | $chain$3$QTNodeCompare
+069 00000108 SECTA  notype       Static       | $pdata$3$QTNodeCompare
+06A 00000180 SECT9  notype       Static       | $chain$4$QTNodeCompare
+06B 00000114 SECTA  notype       Static       | $pdata$4$QTNodeCompare
+06C 00000190 SECT9  notype       Static       | $unwind$QTNCopy
+06D 00000120 SECTA  notype       Static       | $pdata$QTNCopy
+06E 000001A0 SECT9  notype       Static       | $chain$1$QTNCopy
+06F 0000012C SECTA  notype       Static       | $pdata$1$QTNCopy
+070 000001B4 SECT9  notype       Static       | $chain$2$QTNCopy
+071 00000138 SECTA  notype       Static       | $pdata$2$QTNCopy
+072 000001C4 SECT9  notype       Static       | $unwind$QTNClearFlags
+073 00000144 SECTA  notype       Static       | $pdata$QTNClearFlags
+074 000001D0 SECT9  notype       Static       | $chain$0$QTNClearFlags
+075 00000150 SECTA  notype       Static       | $pdata$0$QTNClearFlags
+076 000001E4 SECT9  notype       Static       | $chain$1$QTNClearFlags
+077 0000015C SECTA  notype       Static       | $pdata$1$QTNClearFlags
+078 000001F8 SECT9  notype       Static       | $chain$2$QTNClearFlags
+079 00000168 SECTA  notype       Static       | $pdata$2$QTNClearFlags
+07A 00000208 SECT9  notype       Static       | $chain$3$QTNClearFlags
+07B 00000174 SECTA  notype       Static       | $pdata$3$QTNClearFlags
+07C 00000218 SECT9  notype       Static       | $unwind$QTNEq
+07D 00000180 SECTA  notype       Static       | $pdata$QTNEq
+07E 00000000 SECTB  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum F9C90F28, selection    5 (pick associative Section 0x5)
+080 00000000 SECTB  notype       Static       | $unwind$cntsize
+081 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E639797D, selection    5 (pick associative Section 0x5)
+083 00000000 SECTC  notype       Static       | $pdata$cntsize
+084 00000000 SECTD  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 66BCA61B, selection    5 (pick associative Section 0x5)
+086 00000000 SECTD  notype       Static       | $chain$0$cntsize
+087 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 48B5BC70, selection    5 (pick associative Section 0x5)
+089 00000000 SECTE  notype       Static       | $pdata$0$cntsize
+08A 00000000 SECTF  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 9FC4F91D, selection    5 (pick associative Section 0x5)
+08C 00000000 SECTF  notype       Static       | $chain$1$cntsize
+08D 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8F84FA1A, selection    5 (pick associative Section 0x5)
+08F 00000000 SECT10 notype       Static       | $pdata$1$cntsize
+090 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum F1E2569C, selection    5 (pick associative Section 0x5)
+092 00000000 SECT11 notype       Static       | $chain$2$cntsize
+093 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 51EB90D3, selection    5 (pick associative Section 0x5)
+095 00000000 SECT12 notype       Static       | $pdata$2$cntsize
+096 00000000 SECT13 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 5F6E9391, selection    5 (pick associative Section 0x5)
+098 00000000 SECT13 notype       Static       | $chain$3$cntsize
+099 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  DC643FB, selection    5 (pick associative Section 0x5)
+09B 00000000 SECT14 notype       Static       | $pdata$3$cntsize
+09C 00000000 SECT15 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum F4634387, selection    5 (pick associative Section 0x7)
+09E 00000000 SECT15 notype       Static       | $unwind$fillQT
+09F 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 41C92F4E, selection    5 (pick associative Section 0x7)
+0A1 00000000 SECT16 notype       Static       | $pdata$fillQT
+0A2 00000000 SECT17 notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum FC80A70E, selection    2 (pick any)
+0A4 00000000 SECT17 notype       External     | ??_C@_0O@NCMECBDG@QTNodeCompare?$AA@ (`string')
+0A5 00000000 SECT18 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum  6DAEE83, selection    2 (pick any)
+0A7 00000000 SECT18 notype       External     | ??_C@_0CF@NNPEGOBI@src?1backend?1utils?1adt?1tsquery_ut@ (`string')
+0A8 00000000 SECT19 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 40732A9B, selection    2 (pick any)
+0AA 00000000 SECT19 notype       External     | ??_C@_0CA@KGIGIAMJ@unrecognized?5QueryItem?5type?3?5?$CFd?$AA@ (`string')
+0AB 00000000 SECT1A notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 1CF5A237, selection    2 (pick any)
+0AD 00000000 SECT1A notype       External     | ??_C@_06HOGGICLG@QTN2QT?$AA@ (`string')
+0AE 00000000 SECT1B notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 1346735B, selection    2 (pick any)
+0B0 00000000 SECT1B notype       External     | ??_C@_0BF@KNLNEJCP@tsquery?5is?5too?5large?$AA@ (`string')
+
+String Table Size = 0x702 bytes
+
+  Summary
+
+        4EE8 .debug$S
+          68 .debug$T
+          5D .drectve
+         1D4 .pdata
+          6F .rdata
+         B88 .text$mn
+         288 .xdata

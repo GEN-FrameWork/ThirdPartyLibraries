@@ -1,0 +1,68 @@
+
+Dump of file Release\postgres/pg_largeobject.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 45C8, #relocs   38, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  310, #relocs   22, #linenums    0, checksum BA0E9FBE
+00A 00000000 UNDEF  notype ()    External     | errstart
+00B 00000000 UNDEF  notype ()    External     | errfinish
+00C 00000000 UNDEF  notype ()    External     | errcode
+00D 00000000 UNDEF  notype ()    External     | errmsg
+00E 00000000 UNDEF  notype ()    External     | ScanKeyInit
+00F 00000000 UNDEF  notype ()    External     | systable_beginscan
+010 00000000 UNDEF  notype ()    External     | systable_getnext
+011 00000000 UNDEF  notype ()    External     | systable_endscan
+012 00000000 UNDEF  notype ()    External     | relation_close
+013 00000000 UNDEF  notype ()    External     | heap_open
+014 00000000 UNDEF  notype ()    External     | heap_form_tuple
+015 00000000 UNDEF  notype ()    External     | heap_freetuple
+016 00000000 UNDEF  notype ()    External     | CatalogTupleInsert
+017 00000000 UNDEF  notype ()    External     | CatalogTupleDelete
+018 00000000 SECT4  notype ()    External     | LargeObjectCreate
+019 000000B0 SECT4  notype ()    External     | LargeObjectDrop
+01A 00000260 SECT4  notype ()    External     | LargeObjectExists
+01B 00000000 UNDEF  notype ()    External     | GetUserId
+01C 00000000 SECT4  notype       Label        | $LN8
+01D 000000B0 SECT4  notype       Label        | $LN16
+01E 00000260 SECT4  notype       Label        | $LN5
+01F 00000000 SECT5  notype       Static       | .xdata
+    Section length   3C, #relocs    0, #linenums    0, checksum 7DB49DBD
+021 00000000 SECT5  notype       Static       | $unwind$LargeObjectCreate
+022 00000000 SECT6  notype       Static       | .pdata
+    Section length   24, #relocs    9, #linenums    0, checksum CC613F5A
+024 00000000 SECT6  notype       Static       | $pdata$LargeObjectCreate
+025 00000010 SECT5  notype       Static       | $unwind$LargeObjectDrop
+026 0000000C SECT6  notype       Static       | $pdata$LargeObjectDrop
+027 00000028 SECT5  notype       Static       | $unwind$LargeObjectExists
+028 00000018 SECT6  notype       Static       | $pdata$LargeObjectExists
+029 00000000 SECT7  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 5111ED94, selection    2 (pick any)
+02B 00000000 SECT7  notype       External     | ??_C@_0BA@ECFFFJDO@LargeObjectDrop?$AA@ (`string')
+02C 00000000 SECT8  notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 701F5E30, selection    2 (pick any)
+02E 00000000 SECT8  notype       External     | ??_C@_0CF@KLDBNOKL@src?1backend?1catalog?1pg_largeobje@ (`string')
+02F 00000000 SECT9  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 9FE913E5, selection    2 (pick any)
+031 00000000 SECT9  notype       External     | ??_C@_0BP@JBPEAKK@large?5object?5?$CFu?5does?5not?5exist?$AA@ (`string')
+
+String Table Size = 0x21E bytes
+
+  Summary
+
+        45C8 .debug$S
+          68 .debug$T
+          5D .drectve
+          24 .pdata
+          54 .rdata
+         310 .text$mn
+          3C .xdata

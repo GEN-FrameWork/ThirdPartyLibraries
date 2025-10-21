@@ -1,0 +1,153 @@
+
+Dump of file Release\btree_gist/btree_time.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length  1D4, #relocs    0, #linenums    0, checksum ABCA2172
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 65D4, #relocs  118, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length   78, #relocs    7, #linenums    0, checksum 36F3B76F
+00A 00000000 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gbt_time_compress@@9@9 (`pg_finfo_gbt_time_compress'::`2'::my_finfo)
+00B 00000004 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gbt_timetz_compress@@9@9 (`pg_finfo_gbt_timetz_compress'::`2'::my_finfo)
+00C 00000008 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gbt_time_fetch@@9@9 (`pg_finfo_gbt_time_fetch'::`2'::my_finfo)
+00D 0000000C SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gbt_time_union@@9@9 (`pg_finfo_gbt_time_union'::`2'::my_finfo)
+00E 00000010 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gbt_time_picksplit@@9@9 (`pg_finfo_gbt_time_picksplit'::`2'::my_finfo)
+00F 00000014 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gbt_time_consistent@@9@9 (`pg_finfo_gbt_time_consistent'::`2'::my_finfo)
+010 00000018 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gbt_time_distance@@9@9 (`pg_finfo_gbt_time_distance'::`2'::my_finfo)
+011 0000001C SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gbt_timetz_consistent@@9@9 (`pg_finfo_gbt_timetz_consistent'::`2'::my_finfo)
+012 00000020 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gbt_time_penalty@@9@9 (`pg_finfo_gbt_time_penalty'::`2'::my_finfo)
+013 00000024 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gbt_time_same@@9@9 (`pg_finfo_gbt_time_same'::`2'::my_finfo)
+014 00000000 SECT5  notype       Static       | .text$mn
+    Section length  768, #relocs   46, #linenums    0, checksum D987F568
+016 00000570 SECT5  notype ()    Static       | gbt_timegt
+017 000005A0 SECT5  notype ()    Static       | gbt_timege
+018 000005D0 SECT5  notype ()    Static       | gbt_timeeq
+019 00000600 SECT5  notype ()    Static       | gbt_timele
+01A 00000630 SECT5  notype ()    Static       | gbt_timelt
+01B 00000660 SECT5  notype ()    Static       | gbt_timekey_cmp
+01C 000006C0 SECT5  notype ()    Static       | gbt_time_dist
+01D 00000030 SECT4  notype       Static       | tinfo
+01E 00000028 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_time_dist@@9@9 (`pg_finfo_time_dist'::`2'::my_finfo)
+01F 00000000 UNDEF  notype ()    External     | palloc
+020 00000000 UNDEF  notype ()    External     | DirectFunctionCall2Coll
+021 00000000 UNDEF  notype ()    External     | abs_interval
+022 00000000 UNDEF  notype ()    External     | gbt_num_consistent
+023 00000000 UNDEF  notype ()    External     | gbt_num_distance
+024 00000000 UNDEF  notype ()    External     | gbt_num_picksplit
+025 00000000 UNDEF  notype ()    External     | gbt_num_compress
+026 00000000 UNDEF  notype ()    External     | gbt_num_fetch
+027 00000000 UNDEF  notype ()    External     | gbt_num_union
+028 00000000 UNDEF  notype ()    External     | gbt_num_same
+029 00000000 UNDEF  notype ()    External     | time_lt
+02A 00000000 UNDEF  notype ()    External     | time_le
+02B 00000000 UNDEF  notype ()    External     | time_gt
+02C 00000000 UNDEF  notype ()    External     | time_ge
+02D 00000000 UNDEF  notype ()    External     | time_cmp
+02E 00000000 UNDEF  notype ()    External     | time_eq
+02F 00000000 UNDEF  notype ()    External     | time_mi_time
+030 00000000 SECT5  notype ()    External     | gbt_time_compress
+031 00000020 SECT5  notype ()    External     | pg_finfo_gbt_time_compress
+032 00000030 SECT5  notype ()    External     | gbt_timetz_compress
+033 000000C0 SECT5  notype ()    External     | pg_finfo_gbt_timetz_compress
+034 000000D0 SECT5  notype ()    External     | gbt_time_fetch
+035 000000F0 SECT5  notype ()    External     | pg_finfo_gbt_time_fetch
+036 00000100 SECT5  notype ()    External     | gbt_time_union
+037 00000150 SECT5  notype ()    External     | pg_finfo_gbt_time_union
+038 00000160 SECT5  notype ()    External     | gbt_time_picksplit
+039 00000180 SECT5  notype ()    External     | pg_finfo_gbt_time_picksplit
+03A 00000190 SECT5  notype ()    External     | gbt_time_consistent
+03B 00000210 SECT5  notype ()    External     | pg_finfo_gbt_time_consistent
+03C 00000220 SECT5  notype ()    External     | gbt_time_distance
+03D 00000290 SECT5  notype ()    External     | pg_finfo_gbt_time_distance
+03E 000002A0 SECT5  notype ()    External     | gbt_timetz_consistent
+03F 00000330 SECT5  notype ()    External     | pg_finfo_gbt_timetz_consistent
+040 00000340 SECT5  notype ()    External     | gbt_time_penalty
+041 00000510 SECT5  notype ()    External     | pg_finfo_gbt_time_penalty
+042 00000520 SECT5  notype ()    External     | gbt_time_same
+043 00000560 SECT5  notype ()    External     | pg_finfo_gbt_time_same
+044 00000730 SECT5  notype ()    External     | time_dist
+045 00000760 SECT5  notype ()    External     | pg_finfo_time_dist
+046 00000030 SECT5  notype       Label        | $LN9
+047 00000100 SECT5  notype       Label        | $LN4
+048 00000190 SECT5  notype       Label        | $LN4
+049 00000220 SECT5  notype       Label        | $LN6
+04A 000002A0 SECT5  notype       Label        | $LN4
+04B 00000340 SECT5  notype       Label        | $LN10
+04C 00000520 SECT5  notype       Label        | $LN4
+04D 00000730 SECT5  notype       Label        | $LN4
+04E 00000000 SECT6  notype       Static       | .xdata
+    Section length   BC, #relocs    6, #linenums    0, checksum 31277BA1
+050 00000000 SECT6  notype       Static       | $unwind$gbt_timetz_compress
+051 00000000 SECT7  notype       Static       | .pdata
+    Section length   CC, #relocs   33, #linenums    0, checksum F74A21F3
+053 00000000 SECT7  notype       Static       | $pdata$gbt_timetz_compress
+054 00000008 SECT6  notype       Static       | $chain$1$gbt_timetz_compress
+055 0000000C SECT7  notype       Static       | $pdata$1$gbt_timetz_compress
+056 00000020 SECT6  notype       Static       | $chain$2$gbt_timetz_compress
+057 00000018 SECT7  notype       Static       | $pdata$2$gbt_timetz_compress
+058 00000030 SECT6  notype       Static       | $unwind$gbt_time_union
+059 00000024 SECT7  notype       Static       | $pdata$gbt_time_union
+05A 0000003C SECT6  notype       Static       | $unwind$gbt_time_consistent
+05B 00000030 SECT7  notype       Static       | $pdata$gbt_time_consistent
+05C 00000044 SECT6  notype       Static       | $unwind$gbt_time_distance
+05D 0000003C SECT7  notype       Static       | $pdata$gbt_time_distance
+05E 0000004C SECT6  notype       Static       | $unwind$gbt_timetz_consistent
+05F 00000048 SECT7  notype       Static       | $pdata$gbt_timetz_consistent
+060 00000054 SECT6  notype       Static       | $unwind$gbt_time_penalty
+061 00000054 SECT7  notype       Static       | $pdata$gbt_time_penalty
+062 00000070 SECT6  notype       Static       | $unwind$gbt_time_same
+063 00000060 SECT7  notype       Static       | $pdata$gbt_time_same
+064 00000078 SECT6  notype       Static       | $unwind$gbt_timegt
+065 0000006C SECT7  notype       Static       | $pdata$gbt_timegt
+066 00000080 SECT6  notype       Static       | $unwind$gbt_timege
+067 00000078 SECT7  notype       Static       | $pdata$gbt_timege
+068 00000088 SECT6  notype       Static       | $unwind$gbt_timeeq
+069 00000084 SECT7  notype       Static       | $pdata$gbt_timeeq
+06A 00000090 SECT6  notype       Static       | $unwind$gbt_timele
+06B 00000090 SECT7  notype       Static       | $pdata$gbt_timele
+06C 00000098 SECT6  notype       Static       | $unwind$gbt_timelt
+06D 0000009C SECT7  notype       Static       | $pdata$gbt_timelt
+06E 000000A0 SECT6  notype       Static       | $unwind$gbt_timekey_cmp
+06F 000000A8 SECT7  notype       Static       | $pdata$gbt_timekey_cmp
+070 000000AC SECT6  notype       Static       | $unwind$gbt_time_dist
+071 000000B4 SECT7  notype       Static       | $pdata$gbt_time_dist
+072 000000B4 SECT6  notype       Static       | $unwind$time_dist
+073 000000C0 SECT7  notype       Static       | $pdata$time_dist
+074 00000000 SECT8  notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum 3B83984B, selection    2 (pick any)
+076 00000000 SECT8  notype       External     | __real@00800000
+077 00000000 SECT9  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum  D22A6A0, selection    2 (pick any)
+079 00000000 SECT9  notype       External     | __real@40f5180000000000
+07A 00000000 SECTA  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum  1B97D4D, selection    2 (pick any)
+07C 00000000 SECTA  notype       External     | __real@412e848000000000
+07D 00000000 SECTB  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2F43109, selection    2 (pick any)
+07F 00000000 SECTB  notype       External     | __real@4143c68000000000
+080 00000000 SECTC  notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum  8803B88, selection    2 (pick any)
+082 00000000 SECTC  notype       External     | __real@7f7fffff
+083 00000000 SECTD  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 8BED836F, selection    2 (pick any)
+085 00000000 SECTD  notype       External     | __xmm@80000000000000008000000000000000
+086 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x864 bytes
+
+  Summary
+
+        65D4 .debug$S
+          68 .debug$T
+         1D4 .drectve
+          CC .pdata
+          A8 .rdata
+         768 .text$mn
+          BC .xdata

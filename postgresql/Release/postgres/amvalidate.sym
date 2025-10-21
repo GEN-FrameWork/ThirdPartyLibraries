@@ -1,0 +1,78 @@
+
+Dump of file Release\postgres/amvalidate.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 482C, #relocs   72, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  489, #relocs   18, #linenums    0, checksum 83F30847
+00A 00000000 UNDEF  notype ()    External     | elog_start
+00B 00000000 UNDEF  notype ()    External     | elog_finish
+00C 00000000 UNDEF  notype ()    External     | palloc
+00D 00000000 UNDEF  notype ()    External     | lappend
+00E 00000000 UNDEF  notype ()    External     | ReleaseCatCacheList
+00F 00000000 SECT4  notype ()    External     | identify_opfamily_groups
+010 00000200 SECT4  notype ()    External     | check_amproc_signature
+011 00000330 SECT4  notype ()    External     | check_amop_signature
+012 000003F0 SECT4  notype ()    External     | opfamily_can_sort_type
+013 00000000 UNDEF  notype ()    External     | IsBinaryCoercible
+014 00000000 UNDEF  notype ()    External     | SearchSysCache
+015 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+016 00000000 UNDEF  notype ()    External     | SearchSysCacheList
+017 00000000 SECT4  notype       Label        | $LN47
+018 00000200 SECT4  notype       Label        | $LN22
+019 00000330 SECT4  notype       Label        | $LN11
+01A 000003F0 SECT4  notype       Label        | $LN14
+01B 00000000 SECT5  notype       Static       | .xdata
+    Section length   5C, #relocs    0, #linenums    0, checksum B6F4720C
+01D 00000000 SECT5  notype       Static       | $unwind$identify_opfamily_groups
+01E 00000000 SECT6  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum A2B1AFD9
+020 00000000 SECT6  notype       Static       | $pdata$identify_opfamily_groups
+021 00000018 SECT5  notype       Static       | $unwind$check_amproc_signature
+022 0000000C SECT6  notype       Static       | $pdata$check_amproc_signature
+023 00000030 SECT5  notype       Static       | $unwind$check_amop_signature
+024 00000018 SECT6  notype       Static       | $pdata$check_amop_signature
+025 00000048 SECT5  notype       Static       | $unwind$opfamily_can_sort_type
+026 00000024 SECT6  notype       Static       | $pdata$opfamily_can_sort_type
+027 00000000 SECT7  notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum  F6100C4, selection    2 (pick any)
+029 00000000 SECT7  notype       External     | ??_C@_0BJ@BJFBPBLE@identify_opfamily_groups?$AA@ (`string')
+02A 00000000 SECT8  notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum A40EFA28, selection    2 (pick any)
+02C 00000000 SECT8  notype       External     | ??_C@_0CG@MDAIJOGE@src?1backend?1access?1index?1amvalid@ (`string')
+02D 00000000 SECT9  notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum 5A0951FD, selection    2 (pick any)
+02F 00000000 SECT9  notype       External     | ??_C@_0DF@LMFJNJAM@cannot?5validate?5operator?5family?5@ (`string')
+030 00000000 SECTA  notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 23347810, selection    2 (pick any)
+032 00000000 SECTA  notype       External     | ??_C@_0BH@KOGLKDKL@check_amproc_signature?$AA@ (`string')
+033 00000000 SECTB  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 299A4D2E, selection    2 (pick any)
+035 00000000 SECTB  notype       External     | ??_C@_0CE@LMNDAAAE@cache?5lookup?5failed?5for?5function@ (`string')
+036 00000000 SECTC  notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 64EF9A63, selection    2 (pick any)
+038 00000000 SECTC  notype       External     | ??_C@_0BF@NKBEKABH@check_amop_signature?$AA@ (`string')
+039 00000000 SECTD  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 117DCEFA, selection    2 (pick any)
+03B 00000000 SECTD  notype       External     | ??_C@_0CE@IEDEIDNA@cache?5lookup?5failed?5for?5operator@ (`string')
+
+String Table Size = 0x334 bytes
+
+  Summary
+
+        482C .debug$S
+          68 .debug$T
+          5D .drectve
+          30 .pdata
+          E8 .rdata
+         489 .text$mn
+          5C .xdata

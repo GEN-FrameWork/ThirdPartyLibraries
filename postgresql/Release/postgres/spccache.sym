@@ -1,0 +1,127 @@
+
+Dump of file Release\postgres/spccache.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 44F4, #relocs   34, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  148, #relocs   11, #linenums    0, checksum 6F258934
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   BA, #relocs    8, #linenums    0, checksum  B183CA8, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  148, #relocs    A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   F9, #relocs    E, #linenums    0, checksum 510B0F6B, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  2C8, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | elog_start
+013 00000000 UNDEF  notype ()    External     | elog_finish
+014 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+015 00000000 UNDEF  notype ()    External     | pfree
+016 00000000 UNDEF  notype ()    External     | hash_create
+017 00000000 UNDEF  notype ()    External     | hash_search
+018 00000000 UNDEF  notype ()    External     | hash_seq_init
+019 00000000 UNDEF  notype ()    External     | hash_seq_search
+01A 00000000 UNDEF  notype ()    External     | tablespace_reloptions
+01B 00000000 UNDEF  notype ()    External     | CreateCacheMemoryContext
+01C 00000000 UNDEF  notype ()    External     | CacheRegisterSyscacheCallback
+01D 00000000 SECT4  notype ()    External     | get_tablespace_page_costs
+01E 00000080 SECT4  notype ()    External     | get_tablespace_io_concurrency
+01F 00000000 UNDEF  notype ()    External     | SearchSysCache
+020 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+021 00000000 UNDEF  notype ()    External     | SysCacheGetAttr
+022 000000B0 SECT4  notype ()    Static       | InvalidateTableSpaceCacheCallback
+023 00000000 SECT5  notype ()    Static       | InitializeTableSpaceCache
+024 00000000 SECT7  notype ()    Static       | get_tablespace
+025 00000000 UNDEF  notype ()    External     | memcpy
+026 00000000 UNDEF  notype ()    External     | memset
+027 00000000 SECT4  notype       Label        | $LN14
+028 00000080 SECT4  notype       Label        | $LN7
+029 00000000 SECT9  notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 8262382C
+02B 00000000 SECT9  notype       Static       | $unwind$get_tablespace_page_costs
+02C 00000000 SECTA  notype       Static       | .pdata
+    Section length   24, #relocs    9, #linenums    0, checksum 84E759B4
+02E 00000000 SECTA  notype       Static       | $pdata$get_tablespace_page_costs
+02F 0000000C SECT9  notype       Static       | $unwind$get_tablespace_io_concurrency
+030 0000000C SECTA  notype       Static       | $pdata$get_tablespace_io_concurrency
+031 00000014 SECT9  notype       Static       | $unwind$InvalidateTableSpaceCacheCallback
+032 00000018 SECTA  notype       Static       | $pdata$InvalidateTableSpaceCacheCallback
+033 00000000 SECTB  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 8B09EE85, selection    5 (pick associative Section 0x5)
+035 00000000 SECTB  notype       Static       | $unwind$InitializeTableSpaceCache
+036 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4736CA6F, selection    5 (pick associative Section 0x5)
+038 00000000 SECTC  notype       Static       | $pdata$InitializeTableSpaceCache
+039 00000000 SECTD  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 37887F31, selection    5 (pick associative Section 0x7)
+03B 00000000 SECTD  notype       Static       | $unwind$get_tablespace
+03C 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 36D2D9C6, selection    5 (pick associative Section 0x7)
+03E 00000000 SECTE  notype       Static       | $pdata$get_tablespace
+03F 00000000 SECTF  notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 5ABE097D, selection    5 (pick associative Section 0x7)
+041 00000000 SECTF  notype       Static       | $chain$1$get_tablespace
+042 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6F311473, selection    5 (pick associative Section 0x7)
+044 00000000 SECT10 notype       Static       | $pdata$1$get_tablespace
+045 00000000 SECT11 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum C5415A38, selection    5 (pick associative Section 0x7)
+047 00000000 SECT11 notype       Static       | $chain$2$get_tablespace
+048 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3639C931, selection    5 (pick associative Section 0x7)
+04A 00000000 SECT12 notype       Static       | $pdata$2$get_tablespace
+04B 00000000 SECT13 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum D666FE9F, selection    5 (pick associative Section 0x7)
+04D 00000000 SECT13 notype       Static       | $chain$3$get_tablespace
+04E 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C4B86740, selection    5 (pick associative Section 0x7)
+050 00000000 SECT14 notype       Static       | $pdata$3$get_tablespace
+051 00000000 SECT15 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 8F85332A, selection    5 (pick associative Section 0x7)
+053 00000000 SECT15 notype       Static       | $chain$4$get_tablespace
+054 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A7AFDA0A, selection    5 (pick associative Section 0x7)
+056 00000000 SECT16 notype       Static       | $pdata$4$get_tablespace
+057 00000000 UNDEF  notype       External     | MyDatabaseTableSpace
+058 00000000 UNDEF  notype       External     | seq_page_cost
+059 00000000 UNDEF  notype       External     | random_page_cost
+05A 00000000 UNDEF  notype       External     | effective_io_concurrency
+05B 00000000 UNDEF  notype       External     | CacheMemoryContext
+05C 00000000 SECT17 notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+05E 00000000 SECT17 notype       Static       | TableSpaceCacheHash
+05F 00000000 SECT18 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum E4C2DAEE, selection    2 (pick any)
+061 00000000 SECT18 notype       External     | ??_C@_0CC@FKEMEJDL@InvalidateTableSpaceCacheCallbac@ (`string')
+062 00000000 SECT19 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 5C128619, selection    2 (pick any)
+064 00000000 SECT19 notype       External     | ??_C@_0CD@KKBFCONB@src?1backend?1utils?1cache?1spccache@ (`string')
+065 00000000 SECT1A notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 13794EB1, selection    2 (pick any)
+067 00000000 SECT1A notype       External     | ??_C@_0BF@KNICHEMF@hash?5table?5corrupted?$AA@ (`string')
+068 00000000 SECT1B notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 152FA596, selection    2 (pick any)
+06A 00000000 SECT1B notype       External     | ??_C@_0BB@CDDPKLNE@TableSpace?5cache?$AA@ (`string')
+06B 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x4AF bytes
+
+  Summary
+
+           8 .bss
+        4904 .debug$S
+          68 .debug$T
+          5D .drectve
+          6C .pdata
+          6B .rdata
+         2FB .text$mn
+          78 .xdata

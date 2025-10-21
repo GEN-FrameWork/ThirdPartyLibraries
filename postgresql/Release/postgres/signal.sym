@@ -1,0 +1,146 @@
+
+Dump of file Release\postgres/signal.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   96, #relocs    0, #linenums    0, checksum A506B137
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4744, #relocs   C2, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000004 UNDEF  notype       External     | pg_signal_queue
+009 00000004 UNDEF  notype       External     | pg_signal_mask
+00A 00000008 UNDEF  notype       External     | pgwin32_signal_event
+00B 00000000 SECT4  notype       Static       | .data
+    Section length    8, #relocs    0, #linenums    0, checksum 44660075
+00D 00000000 SECT4  notype       External     | pgwin32_initial_signal_pipe
+00E 00000000 SECT5  notype       Static       | .text$mn
+    Section length  770, #relocs   73, #linenums    0, checksum 7D121CB3
+010 00000000 UNDEF  notype       External     | __imp__errno
+011 00000000 UNDEF  notype       External     | __imp_FlushFileBuffers
+012 00000000 UNDEF  notype       External     | __imp_ReadFile
+013 00000000 UNDEF  notype       External     | __imp_WriteFile
+014 00000000 UNDEF  notype       External     | __imp_CloseHandle
+015 00000000 UNDEF  notype       External     | __imp_GetLastError
+016 00000000 UNDEF  notype       External     | __imp_ConnectNamedPipe
+017 00000000 UNDEF  notype       External     | __imp_DisconnectNamedPipe
+018 00000000 UNDEF  notype       External     | __imp_InitializeCriticalSection
+019 00000000 UNDEF  notype       External     | __imp_EnterCriticalSection
+01A 00000000 UNDEF  notype       External     | __imp_LeaveCriticalSection
+01B 00000000 UNDEF  notype       External     | __imp_SetEvent
+01C 00000000 UNDEF  notype       External     | __imp_ResetEvent
+01D 00000000 UNDEF  notype       External     | __imp_WaitForSingleObject
+01E 00000000 UNDEF  notype       External     | __imp_SleepEx
+01F 00000000 UNDEF  notype       External     | __imp_CreateEventA
+020 00000000 UNDEF  notype       External     | __imp_GetCurrentProcessId
+021 00000000 UNDEF  notype       External     | __imp_CreateThread
+022 00000000 UNDEF  notype       External     | __imp_CreateNamedPipeA
+023 00000000 UNDEF  notype       External     | __imp_SetConsoleCtrlHandler
+024 00000000 SECT5  notype ()    External     | pgwin32_signal_initialize
+025 000001D0 SECT5  notype ()    External     | pgwin32_create_signal_listener
+026 000002C0 SECT5  notype ()    External     | pgwin32_dispatch_queued_signals
+027 000003C0 SECT5  notype ()    External     | pg_queue_signal
+028 00000420 SECT5  notype ()    External     | pg_usleep
+029 00000000 UNDEF  notype ()    External     | pg_snprintf
+02A 00000480 SECT5  notype ()    External     | pqsignal
+02B 00000000 UNDEF  notype ()    External     | errstart
+02C 00000000 UNDEF  notype ()    External     | errfinish
+02D 00000000 UNDEF  notype ()    External     | errmsg
+02E 00000000 UNDEF  notype ()    External     | errmsg_internal
+02F 00000000 UNDEF  notype ()    External     | write_stderr
+030 000004B0 SECT5  notype ()    External     | pqsigsetmask
+031 000004E0 SECT5  notype ()    Static       | pg_signal_thread
+032 00000680 SECT5  notype ()    Static       | pg_console_handler
+033 000006E0 SECT5  notype ()    Static       | pg_signal_dispatch_thread
+034 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+035 00000000 UNDEF  notype ()    External     | __security_check_cookie
+036 00000000 SECT5  notype       Label        | $LN31
+037 000001D0 SECT5  notype       Label        | $LN12
+038 000002C0 SECT5  notype       Label        | $LN22
+039 000003C0 SECT5  notype       Label        | $LN6
+03A 00000420 SECT5  notype       Label        | $LN7
+03B 000004B0 SECT5  notype       Label        | $LN4
+03C 00000000 SECT6  notype       Static       | .xdata
+    Section length   98, #relocs    8, #linenums    0, checksum A76B47FB
+03E 00000000 SECT6  notype       Static       | $unwind$pgwin32_signal_initialize
+03F 00000000 SECT7  notype       Static       | .pdata
+    Section length   84, #relocs   21, #linenums    0, checksum FED93CD9
+041 00000000 SECT7  notype       Static       | $pdata$pgwin32_signal_initialize
+042 00000008 SECT6  notype       Static       | $unwind$pgwin32_create_signal_listener
+043 0000000C SECT7  notype       Static       | $pdata$pgwin32_create_signal_listener
+044 00000020 SECT6  notype       Static       | $unwind$pgwin32_dispatch_queued_signals
+045 00000018 SECT7  notype       Static       | $pdata$pgwin32_dispatch_queued_signals
+046 00000028 SECT6  notype       Static       | $chain$2$pgwin32_dispatch_queued_signals
+047 00000024 SECT7  notype       Static       | $pdata$2$pgwin32_dispatch_queued_signals
+048 00000044 SECT6  notype       Static       | $chain$3$pgwin32_dispatch_queued_signals
+049 00000030 SECT7  notype       Static       | $pdata$3$pgwin32_dispatch_queued_signals
+04A 00000054 SECT6  notype       Static       | $unwind$pg_queue_signal
+04B 0000003C SECT7  notype       Static       | $pdata$pg_queue_signal
+04C 0000005C SECT6  notype       Static       | $unwind$pg_usleep
+04D 00000048 SECT7  notype       Static       | $pdata$pg_usleep
+04E 00000064 SECT6  notype       Static       | $unwind$pqsigsetmask
+04F 00000054 SECT7  notype       Static       | $pdata$pqsigsetmask
+050 0000006C SECT6  notype       Static       | $unwind$pg_signal_thread
+051 00000060 SECT7  notype       Static       | $pdata$pg_signal_thread
+052 00000088 SECT6  notype       Static       | $unwind$pg_console_handler
+053 0000006C SECT7  notype       Static       | $pdata$pg_console_handler
+054 00000090 SECT6  notype       Static       | $unwind$pg_signal_dispatch_thread
+055 00000078 SECT7  notype       Static       | $pdata$pg_signal_dispatch_thread
+056 00000000 SECT8  notype       Static       | .bss
+    Section length  230, #relocs    0, #linenums    0, checksum        0
+058 00000000 SECT8  notype       Static       | pg_signal_crit_sec
+059 00000030 SECT8  notype       Static       | pg_signal_array
+05A 00000130 SECT8  notype       Static       | pg_signal_defaults
+05B 00000000 SECT9  notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum  6352A3C, selection    2 (pick any)
+05D 00000000 SECT9  notype       External     | ??_C@_0BK@FGCGGLPB@pgwin32_signal_initialize?$AA@ (`string')
+05E 00000000 SECTA  notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 5BBA1FB8, selection    2 (pick any)
+060 00000000 SECTA  notype       External     | ??_C@_0CA@LNEPLFOK@src?1backend?1port?1win32?1signal?4c?$AA@ (`string')
+061 00000000 SECTB  notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum 8E6F280C, selection    2 (pick any)
+063 00000000 SECTB  notype       External     | ??_C@_0CO@HCOPNPBI@could?5not?5create?5signal?5event?3?5e@ (`string')
+064 00000000 SECTC  notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum CA590E9F, selection    2 (pick any)
+066 00000000 SECTC  notype       External     | ??_C@_0CH@LFFEAFEA@could?5not?5create?5signal?5handler?5@ (`string')
+067 00000000 SECTD  notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 80913871, selection    2 (pick any)
+069 00000000 SECTD  notype       External     | ??_C@_0CG@OHJHFMDN@could?5not?5set?5console?5control?5ha@ (`string')
+06A 00000000 SECTE  notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 78C26C7E, selection    2 (pick any)
+06C 00000000 SECTE  notype       External     | ??_C@_0BF@MGDJFGAK@?2?2?4?2pipe?2pgsignal_?$CFu?$AA@ (`string')
+06D 00000000 SECTF  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum CDA0E16C, selection    2 (pick any)
+06F 00000000 SECTF  notype       External     | ??_C@_0BP@FLFGLCCD@pgwin32_create_signal_listener?$AA@ (`string')
+070 00000000 SECT10 notype       Static       | .rdata
+    Section length   41, #relocs    0, #linenums    0, checksum 6F4D39AF, selection    2 (pick any)
+072 00000000 SECT10 notype       External     | ??_C@_0EB@INHPDBCH@could?5not?5create?5signal?5listener@ (`string')
+073 00000000 SECT11 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum F67A8B1B, selection    2 (pick any)
+075 00000000 SECT11 notype       External     | ??_C@_0BG@KBKMMFAE@?2?2?4?2pipe?2pgsignal_?$CFlu?$AA@ (`string')
+076 00000000 SECT12 notype       Static       | .rdata
+    Section length   41, #relocs    0, #linenums    0, checksum   348FEE, selection    2 (pick any)
+078 00000000 SECT12 notype       External     | ??_C@_0EB@OCAGIHGG@could?5not?5create?5signal?5listener@ (`string')
+079 00000000 SECT13 notype       Static       | .rdata
+    Section length   39, #relocs    0, #linenums    0, checksum F31BE139, selection    2 (pick any)
+07B 00000000 SECT13 notype       External     | ??_C@_0DJ@NBDFMANK@could?5not?5create?5signal?5dispatch@ (`string')
+07C 00000000 UNDEF  notype       External     | __ImageBase
+07D 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x87E bytes
+
+  Summary
+
+         230 .bss
+           8 .data
+        4744 .debug$S
+          68 .debug$T
+          96 .drectve
+          84 .pdata
+         1BA .rdata
+         770 .text$mn
+          98 .xdata

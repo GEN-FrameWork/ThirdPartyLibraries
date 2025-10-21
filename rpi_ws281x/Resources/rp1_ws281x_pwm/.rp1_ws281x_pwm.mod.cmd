@@ -1,0 +1,1 @@
+cmd_/mnt/pendrive/homeserver/rp1_ws281x_pwm/rp1_ws281x_pwm.mod := printf '%s\n'   rp1_ws281x_pwm.o | awk '!x[$$0]++ { print("/mnt/pendrive/homeserver/rp1_ws281x_pwm/"$$0) }' > /mnt/pendrive/homeserver/rp1_ws281x_pwm/rp1_ws281x_pwm.mod

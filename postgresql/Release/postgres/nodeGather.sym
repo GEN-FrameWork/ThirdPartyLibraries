@@ -1,0 +1,133 @@
+
+Dump of file Release\postgres/nodeGather.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5AB0, #relocs   56, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  41E, #relocs   2A, #linenums    0, checksum  F9FB652
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   74, #relocs    4, #linenums    0, checksum 4D3F8A20, selection    2 (pick any)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  230, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  12B, #relocs    C, #linenums    0, checksum 3182A71E, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  374, #relocs   20, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  16A, #relocs    D, #linenums    0, checksum 2C26D844, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  29C, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 UNDEF  notype       External     | __imp_memmove
+017 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+018 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+019 00000000 UNDEF  notype ()    External     | palloc
+01A 00000000 UNDEF  notype ()    External     | pfree
+01B 00000000 UNDEF  notype ()    External     | bms_add_member
+01C 00000000 UNDEF  notype ()    External     | ExecSetSlotDescriptor
+01D 00000000 UNDEF  notype ()    External     | ExecStoreTuple
+01E 00000000 UNDEF  notype ()    External     | ExecClearTuple
+01F 00000000 UNDEF  notype ()    External     | ExecReScan
+020 00000000 UNDEF  notype ()    External     | ExecContextForcesOids
+021 00000000 UNDEF  notype ()    External     | ExecInitNode
+022 00000000 UNDEF  notype ()    External     | ExecEndNode
+023 00000000 SECT5  notype ()    Static       | ExecProject
+024 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+025 00000000 UNDEF  notype ()    External     | ExecInitExtraTupleSlot
+026 00000000 UNDEF  notype ()    External     | ExecTypeFromTL
+027 00000000 UNDEF  notype ()    External     | ExecAssignExprContext
+028 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+029 00000000 UNDEF  notype ()    External     | ExecAssignProjectionInfo
+02A 00000000 UNDEF  notype ()    External     | ExecFreeExprContext
+02B 00000000 UNDEF  notype ()    External     | ResetLatch
+02C 00000000 UNDEF  notype ()    External     | WaitLatch
+02D 00000000 UNDEF  notype ()    External     | LaunchParallelWorkers
+02E 00000000 UNDEF  notype ()    External     | ExecInitParallelPlan
+02F 00000000 UNDEF  notype ()    External     | ExecParallelCreateReaders
+030 00000000 UNDEF  notype ()    External     | ExecParallelFinish
+031 00000000 UNDEF  notype ()    External     | ExecParallelCleanup
+032 00000000 UNDEF  notype ()    External     | ExecParallelReinitialize
+033 00000000 SECT4  notype ()    External     | ExecInitGather
+034 00000110 SECT4  notype ()    External     | ExecEndGather
+035 00000190 SECT4  notype ()    External     | ExecShutdownGather
+036 000001F0 SECT4  notype ()    External     | ExecReScanGather
+037 00000000 UNDEF  notype ()    External     | TupleQueueReaderNext
+038 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+039 00000000 UNDEF  notype ()    External     | MemoryContextReset
+03A 00000280 SECT4  notype ()    Static       | ExecGather
+03B 00000000 SECT7  notype ()    Static       | gather_getnext
+03C 00000000 SECT9  notype ()    Static       | gather_readnext
+03D 00000000 UNDEF  notype ()    External     | memcpy
+03E 00000000 SECT4  notype       Label        | $LN5
+03F 00000110 SECT4  notype       Label        | $LN11
+040 00000190 SECT4  notype       Label        | $LN9
+041 000001F0 SECT4  notype       Label        | $LN10
+042 00000000 SECTB  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 533B2AD9, selection    5 (pick associative Section 0x5)
+044 00000000 SECTB  notype       Static       | $unwind$ExecProject
+045 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 281A9F6A, selection    5 (pick associative Section 0x5)
+047 00000000 SECTC  notype       Static       | $pdata$ExecProject
+048 00000000 SECTD  notype       Static       | .xdata
+    Section length   AC, #relocs   12, #linenums    0, checksum 9FA47EAC
+04A 00000000 SECTD  notype       Static       | $unwind$ExecInitGather
+04B 00000000 SECTE  notype       Static       | .pdata
+    Section length   84, #relocs   21, #linenums    0, checksum 583A0A0E
+04D 00000000 SECTE  notype       Static       | $pdata$ExecInitGather
+04E 00000014 SECTD  notype       Static       | $unwind$ExecEndGather
+04F 0000000C SECTE  notype       Static       | $pdata$ExecEndGather
+050 0000001C SECTD  notype       Static       | $unwind$ExecShutdownGather
+051 00000018 SECTE  notype       Static       | $pdata$ExecShutdownGather
+052 00000024 SECTD  notype       Static       | $unwind$ExecReScanGather
+053 00000024 SECTE  notype       Static       | $pdata$ExecReScanGather
+054 00000034 SECTD  notype       Static       | $unwind$ExecGather
+055 00000030 SECTE  notype       Static       | $pdata$ExecGather
+056 00000040 SECTD  notype       Static       | $chain$0$ExecGather
+057 0000003C SECTE  notype       Static       | $pdata$0$ExecGather
+058 00000054 SECTD  notype       Static       | $chain$1$ExecGather
+059 00000048 SECTE  notype       Static       | $pdata$1$ExecGather
+05A 00000068 SECTD  notype       Static       | $chain$2$ExecGather
+05B 00000054 SECTE  notype       Static       | $pdata$2$ExecGather
+05C 0000007C SECTD  notype       Static       | $chain$3$ExecGather
+05D 00000060 SECTE  notype       Static       | $pdata$3$ExecGather
+05E 0000008C SECTD  notype       Static       | $chain$4$ExecGather
+05F 0000006C SECTE  notype       Static       | $pdata$4$ExecGather
+060 0000009C SECTD  notype       Static       | $chain$5$ExecGather
+061 00000078 SECTE  notype       Static       | $pdata$5$ExecGather
+062 00000000 SECTF  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum EEAA3CAE, selection    5 (pick associative Section 0x7)
+064 00000000 SECTF  notype       Static       | $unwind$gather_getnext
+065 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  26B75B4, selection    5 (pick associative Section 0x7)
+067 00000000 SECT10 notype       Static       | $pdata$gather_getnext
+068 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum D718098F, selection    5 (pick associative Section 0x9)
+06A 00000000 SECT11 notype       Static       | $unwind$gather_readnext
+06B 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E75CB7C7, selection    5 (pick associative Section 0x9)
+06D 00000000 SECT12 notype       Static       | $pdata$gather_readnext
+06E 00000000 UNDEF  notype       External     | pg_signal_queue
+06F 00000000 UNDEF  notype       External     | pg_signal_mask
+070 00000000 UNDEF  notype       External     | CurrentMemoryContext
+071 00000000 UNDEF  notype       External     | newNodeMacroHolder
+072 00000000 UNDEF  notype       External     | InterruptPending
+073 00000000 UNDEF  notype       External     | MyLatch
+
+String Table Size = 0x562 bytes
+
+  Summary
+
+        62F0 .debug$S
+          68 .debug$T
+          5D .drectve
+          A8 .pdata
+         727 .text$mn
+          E8 .xdata

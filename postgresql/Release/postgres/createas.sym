@@ -1,0 +1,220 @@
+
+Dump of file Release\postgres/createas.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6448, #relocs   B2, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .data
+    Section length   10, #relocs    1, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       Static       | ?validnsps@?1??create_ctas_internal@@9@9 (`create_ctas_internal'::`2'::validnsps)
+00B 00000000 SECT5  notype       Static       | .rdata
+    Section length    6, #relocs    0, #linenums    0, checksum 15AF55D6, selection    2 (pick any)
+00D 00000000 SECT5  notype       External     | ??_C@_05FLJCALIK@toast?$AA@ (`string')
+00E 00000000 SECT6  notype       Static       | .text$mn
+    Section length  835, #relocs   64, #linenums    0, checksum C3B2639E
+010 00000000 SECT7  notype       Static       | .text$mn
+    Section length  13D, #relocs    E, #linenums    0, checksum 53133EE9, selection    1 (pick no duplicates)
+012 00000000 SECT8  notype       Static       | .debug$S
+    Section length  23C, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+014 00000000 SECT9  notype       Static       | .text$mn
+    Section length  1FD, #relocs   18, #linenums    0, checksum EDF69030, selection    1 (pick no duplicates)
+016 00000000 SECTA  notype       Static       | .debug$S
+    Section length  398, #relocs   26, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+018 00000000 UNDEF  notype ()    External     | pg_snprintf
+019 00000000 UNDEF  notype ()    External     | errstart
+01A 00000000 UNDEF  notype ()    External     | errfinish
+01B 00000000 UNDEF  notype ()    External     | errcode
+01C 00000000 UNDEF  notype ()    External     | errmsg
+01D 00000000 UNDEF  notype ()    External     | errhint
+01E 00000000 UNDEF  notype ()    External     | elog_start
+01F 00000000 UNDEF  notype ()    External     | elog_finish
+020 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+021 00000000 UNDEF  notype ()    External     | palloc0
+022 00000000 UNDEF  notype ()    External     | pfree
+023 00000000 UNDEF  notype ()    External     | copyObjectImpl
+024 00000000 UNDEF  notype ()    External     | lappend
+025 00000000 UNDEF  notype ()    External     | lcons
+026 00000000 UNDEF  notype ()    External     | bms_add_member
+027 00000000 UNDEF  notype ()    External     | transformRelOptions
+028 00000000 UNDEF  notype ()    External     | heap_reloptions
+029 00000000 UNDEF  notype ()    External     | GetCurrentCommandId
+02A 00000000 UNDEF  notype ()    External     | CommandCounterIncrement
+02B 00000000 UNDEF  notype ()    External     | RangeVarGetCreationNamespace
+02C 00000000 UNDEF  notype ()    External     | NewRelationCreateToastTable
+02D 00000000 UNDEF  notype ()    External     | ExecMaterializeSlot
+02E 00000000 SECT6  notype ()    External     | ExecCreateTableAs
+02F 00000380 SECT6  notype ()    External     | GetIntoRelEFlags
+030 000003D0 SECT6  notype ()    External     | CreateIntoRelDestReceiver
+031 00000000 UNDEF  notype ()    External     | SetMatViewPopulatedState
+032 00000000 UNDEF  notype ()    External     | relation_close
+033 00000000 UNDEF  notype ()    External     | heap_open
+034 00000000 UNDEF  notype ()    External     | GetBulkInsertState
+035 00000000 UNDEF  notype ()    External     | FreeBulkInsertState
+036 00000000 UNDEF  notype ()    External     | heap_insert
+037 00000000 UNDEF  notype ()    External     | heap_sync
+038 00000000 UNDEF  notype ()    External     | CreateQueryDesc
+039 00000000 UNDEF  notype ()    External     | FreeQueryDesc
+03A 00000000 UNDEF  notype ()    External     | ExecutorStart
+03B 00000000 UNDEF  notype ()    External     | ExecutorRun
+03C 00000000 UNDEF  notype ()    External     | ExecutorFinish
+03D 00000000 UNDEF  notype ()    External     | ExecutorEnd
+03E 00000000 UNDEF  notype ()    External     | ExecCheckRTPerms
+03F 00000000 UNDEF  notype ()    External     | ExecuteQuery
+040 00000000 UNDEF  notype ()    External     | DefineRelation
+041 00000000 UNDEF  notype ()    External     | StoreViewQuery
+042 00000000 UNDEF  notype ()    External     | GetUserIdAndSecContext
+043 00000000 UNDEF  notype ()    External     | SetUserIdAndSecContext
+044 00000000 UNDEF  notype ()    External     | makeColumnDef
+045 00000000 UNDEF  notype ()    External     | exprType
+046 00000000 UNDEF  notype ()    External     | exprTypmod
+047 00000000 UNDEF  notype ()    External     | exprCollation
+048 00000000 UNDEF  notype ()    External     | interpretOidsOption
+049 00000000 UNDEF  notype ()    External     | QueryRewrite
+04A 00000000 UNDEF  notype ()    External     | NewGUCNestLevel
+04B 00000000 UNDEF  notype ()    External     | AtEOXact_GUC
+04C 00000000 UNDEF  notype ()    External     | pg_plan_query
+04D 00000000 UNDEF  notype ()    External     | format_type_be
+04E 00000000 UNDEF  notype ()    External     | get_relname_relid
+04F 00000000 UNDEF  notype ()    External     | type_is_collatable
+050 00000000 UNDEF  notype ()    External     | check_enable_rls
+051 00000000 UNDEF  notype ()    External     | PushCopiedSnapshot
+052 00000000 UNDEF  notype ()    External     | UpdateActiveSnapshotCommandId
+053 00000000 UNDEF  notype ()    External     | PopActiveSnapshot
+054 00000000 UNDEF  notype ()    External     | GetActiveSnapshot
+055 00000000 SECT7  notype ()    Static       | create_ctas_internal
+056 00000000 SECT9  notype ()    Static       | create_ctas_nodata
+057 00000430 SECT6  notype ()    Static       | intorel_startup
+058 00000790 SECT6  notype ()    Static       | intorel_receive
+059 000007F0 SECT6  notype ()    Static       | intorel_shutdown
+05A 00000830 SECT6  notype ()    Static       | intorel_destroy
+05B 00000000 SECT6  notype       Label        | $LN39
+05C 00000380 SECT6  notype       Label        | $LN7
+05D 000003D0 SECT6  notype       Label        | $LN4
+05E 00000000 SECTB  notype       Static       | .xdata
+    Section length   50, #relocs    0, #linenums    0, checksum 50E9CAFA
+060 00000000 SECTB  notype       Static       | $unwind$ExecCreateTableAs
+061 00000000 SECTC  notype       Static       | .pdata
+    Section length   48, #relocs   12, #linenums    0, checksum FCEFFBCC
+063 00000000 SECTC  notype       Static       | $pdata$ExecCreateTableAs
+064 00000018 SECTB  notype       Static       | $unwind$GetIntoRelEFlags
+065 0000000C SECTC  notype       Static       | $pdata$GetIntoRelEFlags
+066 00000020 SECTB  notype       Static       | $unwind$CreateIntoRelDestReceiver
+067 00000018 SECTC  notype       Static       | $pdata$CreateIntoRelDestReceiver
+068 00000000 SECTD  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum CDB1427D, selection    5 (pick associative Section 0x7)
+06A 00000000 SECTD  notype       Static       | $unwind$create_ctas_internal
+06B 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B8BF4D18, selection    5 (pick associative Section 0x7)
+06D 00000000 SECTE  notype       Static       | $pdata$create_ctas_internal
+06E 00000000 SECTF  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum D7CF861E, selection    5 (pick associative Section 0x9)
+070 00000000 SECTF  notype       Static       | $unwind$create_ctas_nodata
+071 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 158A1232, selection    5 (pick associative Section 0x9)
+073 00000000 SECT10 notype       Static       | $pdata$create_ctas_nodata
+074 00000000 SECT11 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum B988E6E4, selection    5 (pick associative Section 0x9)
+076 00000000 SECT11 notype       Static       | $chain$1$create_ctas_nodata
+077 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6639897A, selection    5 (pick associative Section 0x9)
+079 00000000 SECT12 notype       Static       | $pdata$1$create_ctas_nodata
+07A 00000000 SECT13 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 553BF6E4, selection    5 (pick associative Section 0x9)
+07C 00000000 SECT13 notype       Static       | $chain$2$create_ctas_nodata
+07D 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 1E830829, selection    5 (pick associative Section 0x9)
+07F 00000000 SECT14 notype       Static       | $pdata$2$create_ctas_nodata
+080 00000000 SECT15 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum B32502BC, selection    5 (pick associative Section 0x9)
+082 00000000 SECT15 notype       Static       | $chain$4$create_ctas_nodata
+083 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 145A4431, selection    5 (pick associative Section 0x9)
+085 00000000 SECT16 notype       Static       | $pdata$4$create_ctas_nodata
+086 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum A7D4E2C5, selection    5 (pick associative Section 0x9)
+088 00000000 SECT17 notype       Static       | $chain$5$create_ctas_nodata
+089 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 62BB6A97, selection    5 (pick associative Section 0x9)
+08B 00000000 SECT18 notype       Static       | $pdata$5$create_ctas_nodata
+08C 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum DF6E6396, selection    5 (pick associative Section 0x9)
+08E 00000000 SECT19 notype       Static       | $chain$6$create_ctas_nodata
+08F 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F96FED5D, selection    5 (pick associative Section 0x9)
+091 00000000 SECT1A notype       Static       | $pdata$6$create_ctas_nodata
+092 00000000 SECT1B notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum E28583CE, selection    5 (pick associative Section 0x9)
+094 00000000 SECT1B notype       Static       | $chain$7$create_ctas_nodata
+095 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum CEEC8705, selection    5 (pick associative Section 0x9)
+097 00000000 SECT1C notype       Static       | $pdata$7$create_ctas_nodata
+098 00000028 SECTB  notype       Static       | $unwind$intorel_startup
+099 00000024 SECTC  notype       Static       | $pdata$intorel_startup
+09A 00000040 SECTB  notype       Static       | $unwind$intorel_receive
+09B 00000030 SECTC  notype       Static       | $pdata$intorel_receive
+09C 00000048 SECTB  notype       Static       | $unwind$intorel_shutdown
+09D 0000003C SECTC  notype       Static       | $pdata$intorel_shutdown
+09E 00000000 UNDEF  notype       External     | CurrentMemoryContext
+09F 00000000 UNDEF  notype       External     | newNodeMacroHolder
+0A0 00000000 UNDEF  notype       External     | wal_level
+0A1 00000000 UNDEF  notype       External     | InvalidObjectAddress
+0A2 00000000 SECT1D notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 3687470E, selection    2 (pick any)
+0A4 00000000 SECT1D notype       External     | ??_C@_0BD@BDHAHBJO@create_ctas_nodata?$AA@ (`string')
+0A5 00000000 SECT1E notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum  6AF9C7F, selection    2 (pick any)
+0A7 00000000 SECT1E notype       External     | ??_C@_0CA@OAFKDGCN@src?1backend?1commands?1createas?4c?$AA@ (`string')
+0A8 00000000 SECT1F notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum 40D29AA1, selection    2 (pick any)
+0AA 00000000 SECT1F notype       External     | ??_C@_0DI@GMOFMABH@Use?5the?5COLLATE?5clause?5to?5set?5th@ (`string')
+0AB 00000000 SECT20 notype       Static       | .rdata
+    Section length   41, #relocs    0, #linenums    0, checksum EA972DD9, selection    2 (pick any)
+0AD 00000000 SECT20 notype       External     | ??_C@_0EB@IKFCFFB@no?5collation?5was?5derived?5for?5col@ (`string')
+0AE 00000000 SECT21 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum  DACF16A, selection    2 (pick any)
+0B0 00000000 SECT21 notype       External     | ??_C@_0CF@NGICHBPB@too?5many?5column?5names?5were?5speci@ (`string')
+0B1 00000000 SECT22 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 7FE403EE, selection    2 (pick any)
+0B3 00000000 SECT22 notype       External     | ??_C@_0BC@OHAADDFM@ExecCreateTableAs?$AA@ (`string')
+0B4 00000000 SECT23 notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 36EC943F, selection    2 (pick any)
+0B6 00000000 SECT23 notype       External     | ??_C@_0CH@EJOBJPOA@relation?5?$CC?$CFs?$CC?5already?5exists?0?5sk@ (`string')
+0B7 00000000 SECT24 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum A45C4E38, selection    2 (pick any)
+0B9 00000000 SECT24 notype       External     | ??_C@_0BJ@LCGMLPEI@CREATE?5MATERIALIZED?5VIEW?$AA@ (`string')
+0BA 00000000 SECT25 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum  502F57F, selection    2 (pick any)
+0BC 00000000 SECT25 notype       External     | ??_C@_0BH@IIFNCOME@CREATE?5TABLE?5AS?5SELECT?$AA@ (`string')
+0BD 00000000 SECT26 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 870E4532, selection    2 (pick any)
+0BF 00000000 SECT26 notype       External     | ??_C@_0CB@CINIAEA@unexpected?5rewrite?5result?5for?5?$CFs@ (`string')
+0C0 00000000 SECT27 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum E009C693, selection    2 (pick any)
+0C2 00000000 SECT27 notype       External     | ??_C@_0M@GECDPPAD@SELECT?5?$CFllu?$AA@ (`string')
+0C3 00000000 SECT28 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum FDEF4B2F, selection    2 (pick any)
+0C5 00000000 SECT28 notype       External     | ??_C@_0BA@OOKLPPIF@intorel_startup?$AA@ (`string')
+0C6 00000000 SECT29 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum F85ED03D, selection    2 (pick any)
+0C8 00000000 SECT29 notype       External     | ??_C@_0CO@ENOCHCJ@policies?5not?5yet?5implemented?5for@ (`string')
+
+String Table Size = 0xA12 bytes
+
+  Summary
+
+          10 .data
+        6A1C .debug$S
+          68 .debug$T
+          5D .drectve
+          A8 .pdata
+         1AB .rdata
+         B6F .text$mn
+          EC .xdata

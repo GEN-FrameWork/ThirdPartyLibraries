@@ -1,0 +1,137 @@
+
+Dump of file Release\postgres/tqual.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   98, #relocs    0, #linenums    0, checksum 90D74A1B
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6A50, #relocs  132, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .data
+    Section length   D8, #relocs    2, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       External     | SnapshotSelfData
+00B 00000070 SECT4  notype       External     | SnapshotAnyData
+00C 00000000 SECT5  notype       Static       | .text$mn
+    Section length 15F8, #relocs   BD, #linenums    0, checksum 9584AD49
+00E 000002E0 SECT5  notype ()    External     | HeapTupleSatisfiesSelf
+00F 000005A0 SECT5  notype ()    External     | HeapTupleSatisfiesAny
+010 00000000 SECT6  notype       Static       | .text$mn
+    Section length   72, #relocs    5, #linenums    0, checksum E2253183, selection    2 (pick any)
+012 00000000 SECT7  notype       Static       | .debug$S
+    Section length  220, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+014 00000000 UNDEF  notype       External     | __imp_bsearch
+015 00000000 UNDEF  notype ()    External     | elog_start
+016 00000000 UNDEF  notype ()    External     | elog_finish
+017 00000000 UNDEF  notype ()    External     | HeapTupleHeaderGetCmin
+018 00000000 UNDEF  notype ()    External     | HeapTupleHeaderGetCmax
+019 00000000 UNDEF  notype ()    External     | HeapTupleGetUpdateXid
+01A 00000000 UNDEF  notype ()    External     | TransactionIdDidCommit
+01B 00000000 UNDEF  notype ()    External     | TransactionIdPrecedes
+01C 00000000 UNDEF  notype ()    External     | TransactionIdFollowsOrEquals
+01D 00000000 UNDEF  notype ()    External     | TransactionIdGetCommitLSN
+01E 00000000 UNDEF  notype ()    External     | MultiXactIdIsRunning
+01F 00000000 UNDEF  notype ()    External     | SubTransGetTopmostTransaction
+020 00000000 UNDEF  notype ()    External     | TransactionIdIsCurrentTransactionId
+021 00000000 UNDEF  notype ()    External     | XLogNeedsFlush
+022 00000000 UNDEF  notype ()    External     | HistoricSnapshotGetTupleCids
+023 00000000 SECT5  notype ()    External     | HeapTupleSatisfiesMVCC
+024 000005B0 SECT5  notype ()    External     | HeapTupleSatisfiesToast
+025 000006C0 SECT5  notype ()    External     | HeapTupleSatisfiesDirty
+026 000009E0 SECT5  notype ()    External     | HeapTupleSatisfiesHistoricMVCC
+027 00000CA0 SECT5  notype ()    External     | HeapTupleSatisfiesUpdate
+028 00001040 SECT5  notype ()    External     | HeapTupleSatisfiesVacuum
+029 00001360 SECT5  notype ()    External     | HeapTupleIsSurelyDead
+02A 000013D0 SECT5  notype ()    External     | XidInMVCCSnapshot
+02B 00001500 SECT5  notype ()    External     | HeapTupleSetHintBits
+02C 00001580 SECT5  notype ()    External     | HeapTupleHeaderIsOnlyLocked
+02D 00000000 UNDEF  notype ()    External     | ResolveCminCmaxDuringDecoding
+02E 00000000 UNDEF  notype ()    External     | BufferIsPermanent
+02F 00000000 UNDEF  notype ()    External     | BufferGetLSNAtomic
+030 00000000 UNDEF  notype ()    External     | MarkBufferDirtyHint
+031 00000000 UNDEF  notype ()    External     | TransactionIdIsInProgress
+032 00000000 UNDEF  notype ()    External     | xidComparator
+033 00000000 SECT6  notype ()    Static       | SetHintBits
+034 00000000 SECT5  notype       Label        | $LN90
+035 000002E0 SECT5  notype       Label        | $LN88
+036 000005B0 SECT5  notype       Label        | $LN41
+037 000006C0 SECT5  notype       Label        | $LN90
+038 000009E0 SECT5  notype       Label        | $LN54
+039 00000CA0 SECT5  notype       Label        | $LN117
+03A 00001040 SECT5  notype       Label        | $LN100
+03B 000013D0 SECT5  notype       Label        | $LN41
+03C 00001500 SECT5  notype       Label        | $LN8
+03D 00001580 SECT5  notype       Label        | $LN14
+03E 00000000 SECT8  notype       Static       | .xdata
+    Section length  15C, #relocs   15, #linenums    0, checksum 886231C3
+040 00000000 SECT8  notype       Static       | $unwind$HeapTupleSatisfiesMVCC
+041 00000000 SECT9  notype       Static       | .pdata
+    Section length   CC, #relocs   33, #linenums    0, checksum 35B5888A
+043 00000000 SECT9  notype       Static       | $pdata$HeapTupleSatisfiesMVCC
+044 00000018 SECT8  notype       Static       | $unwind$HeapTupleSatisfiesSelf
+045 0000000C SECT9  notype       Static       | $pdata$HeapTupleSatisfiesSelf
+046 00000030 SECT8  notype       Static       | $unwind$HeapTupleSatisfiesToast
+047 00000018 SECT9  notype       Static       | $pdata$HeapTupleSatisfiesToast
+048 00000048 SECT8  notype       Static       | $unwind$HeapTupleSatisfiesDirty
+049 00000024 SECT9  notype       Static       | $pdata$HeapTupleSatisfiesDirty
+04A 00000060 SECT8  notype       Static       | $unwind$HeapTupleSatisfiesHistoricMVCC
+04B 00000030 SECT9  notype       Static       | $pdata$HeapTupleSatisfiesHistoricMVCC
+04C 00000074 SECT8  notype       Static       | $chain$0$HeapTupleSatisfiesHistoricMVCC
+04D 0000003C SECT9  notype       Static       | $pdata$0$HeapTupleSatisfiesHistoricMVCC
+04E 00000088 SECT8  notype       Static       | $chain$2$HeapTupleSatisfiesHistoricMVCC
+04F 00000048 SECT9  notype       Static       | $pdata$2$HeapTupleSatisfiesHistoricMVCC
+050 0000009C SECT8  notype       Static       | $unwind$HeapTupleSatisfiesUpdate
+051 00000054 SECT9  notype       Static       | $pdata$HeapTupleSatisfiesUpdate
+052 000000B4 SECT8  notype       Static       | $unwind$HeapTupleSatisfiesVacuum
+053 00000060 SECT9  notype       Static       | $pdata$HeapTupleSatisfiesVacuum
+054 000000D0 SECT8  notype       Static       | $unwind$XidInMVCCSnapshot
+055 0000006C SECT9  notype       Static       | $pdata$XidInMVCCSnapshot
+056 000000DC SECT8  notype       Static       | $chain$0$XidInMVCCSnapshot
+057 00000078 SECT9  notype       Static       | $pdata$0$XidInMVCCSnapshot
+058 000000F0 SECT8  notype       Static       | $chain$2$XidInMVCCSnapshot
+059 00000084 SECT9  notype       Static       | $pdata$2$XidInMVCCSnapshot
+05A 00000104 SECT8  notype       Static       | $chain$4$XidInMVCCSnapshot
+05B 00000090 SECT9  notype       Static       | $pdata$4$XidInMVCCSnapshot
+05C 00000118 SECT8  notype       Static       | $unwind$HeapTupleSetHintBits
+05D 0000009C SECT9  notype       Static       | $pdata$HeapTupleSetHintBits
+05E 0000012C SECT8  notype       Static       | $unwind$HeapTupleHeaderIsOnlyLocked
+05F 000000A8 SECT9  notype       Static       | $pdata$HeapTupleHeaderIsOnlyLocked
+060 00000134 SECT8  notype       Static       | $chain$0$HeapTupleHeaderIsOnlyLocked
+061 000000B4 SECT9  notype       Static       | $pdata$0$HeapTupleHeaderIsOnlyLocked
+062 00000148 SECT8  notype       Static       | $chain$2$HeapTupleHeaderIsOnlyLocked
+063 000000C0 SECT9  notype       Static       | $pdata$2$HeapTupleHeaderIsOnlyLocked
+064 00000000 SECTA  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum F4634387, selection    5 (pick associative Section 0x6)
+066 00000000 SECTA  notype       Static       | $unwind$SetHintBits
+067 00000000 SECTB  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum EE7596ED, selection    5 (pick associative Section 0x6)
+069 00000000 SECTB  notype       Static       | $pdata$SetHintBits
+06A 00000000 SECTC  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 64581935, selection    2 (pick any)
+06C 00000000 SECTC  notype       External     | ??_C@_0BP@PCKOEKHK@HeapTupleSatisfiesHistoricMVCC?$AA@ (`string')
+06D 00000000 SECTD  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 158F98A8, selection    2 (pick any)
+06F 00000000 SECTD  notype       External     | ??_C@_0BP@IDHJMLOH@src?1backend?1utils?1time?1tqual?4c?$AA@ (`string')
+070 00000000 SECTE  notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 2D6F6391, selection    2 (pick any)
+072 00000000 SECTE  notype       External     | ??_C@_0CN@BEBAALMK@could?5not?5resolve?5cmin?1cmax?5of?5c@ (`string')
+073 00000000 SECTF  notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 6EB5BA12, selection    2 (pick any)
+075 00000000 SECTF  notype       External     | ??_C@_0CD@JILCBCNK@could?5not?5resolve?5combocid?5to?5cm@ (`string')
+
+String Table Size = 0x87D bytes
+
+  Summary
+
+          D8 .data
+        6C70 .debug$S
+          68 .debug$T
+          98 .drectve
+          D8 .pdata
+          8E .rdata
+        166A .text$mn
+         170 .xdata

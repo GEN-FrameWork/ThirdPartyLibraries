@@ -1,0 +1,307 @@
+
+Dump of file Release\postgres/pathkeys.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 8718, #relocs  318, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 14FA, #relocs   4D, #linenums    0, checksum B496E3F0
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length    D, #relocs    0, #linenums    0, checksum 7F648353, selection    2 (pick any)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length   D4, #relocs    6, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  151, #relocs    E, #linenums    0, checksum  18B9E3E, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  4B4, #relocs   2C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length   DC, #relocs    8, #linenums    0, checksum 248F5118, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  39C, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  191, #relocs    1, #linenums    0, checksum 87280559, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  490, #relocs   30, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 UNDEF  notype ()    External     | elog_start
+01B 00000000 UNDEF  notype ()    External     | elog_finish
+01C 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+01D 00000000 UNDEF  notype ()    External     | palloc
+01E 00000000 UNDEF  notype ()    External     | pfree
+01F 00000000 UNDEF  notype ()    External     | bms_is_subset
+020 00000000 UNDEF  notype ()    External     | bms_overlap
+021 00000000 UNDEF  notype ()    External     | bms_is_empty
+022 00000000 UNDEF  notype ()    External     | equal
+023 00000000 SECT5  notype ()    Static       | list_head
+024 00000000 UNDEF  notype ()    External     | lappend
+025 00000000 UNDEF  notype ()    External     | lcons
+026 00000000 UNDEF  notype ()    External     | list_concat
+027 00000000 UNDEF  notype ()    External     | list_truncate
+028 00000000 UNDEF  notype ()    External     | list_nth
+029 00000000 UNDEF  notype ()    External     | list_copy
+02A 00000000 UNDEF  notype ()    External     | makeVarFromTargetEntry
+02B 00000000 UNDEF  notype ()    External     | exprCollation
+02C 00000000 UNDEF  notype ()    External     | get_leftop
+02D 00000000 UNDEF  notype ()    External     | get_rightop
+02E 00000000 UNDEF  notype ()    External     | compare_path_costs
+02F 00000000 UNDEF  notype ()    External     | compare_fractional_path_costs
+030 00000000 UNDEF  notype ()    External     | indexcol_is_bool_constant_for_query
+031 00000000 UNDEF  notype ()    External     | canonicalize_ec_expression
+032 00000000 UNDEF  notype ()    External     | get_eclass_for_sort_expr
+033 00000000 UNDEF  notype ()    External     | eclass_useful_for_merging
+034 00000000 SECT4  notype ()    External     | compare_pathkeys
+035 00000070 SECT4  notype ()    External     | pathkeys_contained_in
+036 000000C0 SECT4  notype ()    External     | get_cheapest_path_for_pathkeys
+037 000001E0 SECT4  notype ()    External     | get_cheapest_fractional_path_for_pathkeys
+038 000002E0 SECT4  notype ()    External     | get_cheapest_parallel_safe_total_inner
+039 00000350 SECT4  notype ()    External     | build_index_pathkeys
+03A 000004E0 SECT4  notype ()    External     | build_expression_pathkey
+03B 000005D0 SECT4  notype ()    External     | convert_subquery_pathkeys
+03C 000009B0 SECT4  notype ()    External     | build_join_pathkeys
+03D 000009D0 SECT4  notype ()    External     | make_pathkeys_for_sortclauses
+03E 00000AE0 SECT4  notype ()    External     | initialize_mergeclause_eclasses
+03F 00000BB0 SECT4  notype ()    External     | update_mergeclause_eclasses
+040 00000C00 SECT4  notype ()    External     | find_mergeclauses_for_outer_pathkeys
+041 00000D50 SECT4  notype ()    External     | select_outer_pathkeys_for_merge
+042 00001030 SECT4  notype ()    External     | make_inner_pathkeys_for_merge
+043 00001230 SECT4  notype ()    External     | trim_mergeclauses_for_inner_pathkeys
+044 000012E0 SECT4  notype ()    External     | truncate_useless_pathkeys
+045 000013C0 SECT4  notype ()    External     | has_useful_pathkeys
+046 000013F0 SECT4  notype ()    External     | make_canonical_pathkey
+047 00000000 UNDEF  notype ()    External     | get_sortgroupref_tle
+048 00000000 UNDEF  notype ()    External     | get_sortgroupclause_expr
+049 00000000 UNDEF  notype ()    External     | get_opfamily_member
+04A 00000000 UNDEF  notype ()    External     | get_ordering_op_properties
+04B 00000000 UNDEF  notype ()    External     | get_mergejoin_opfamilies
+04C 00000000 UNDEF  notype ()    External     | op_input_types
+04D 00000000 SECT7  notype ()    Static       | make_pathkey_from_sortinfo
+04E 00000000 SECT9  notype ()    Static       | make_pathkey_from_sortop
+04F 00000000 SECTB  notype ()    Static       | pathkeys_useful_for_merging
+050 000000C0 SECT4  notype       Label        | $LN54
+051 000001E0 SECT4  notype       Label        | $LN53
+052 000002E0 SECT4  notype       Label        | $LN20
+053 00000350 SECT4  notype       Label        | $LN42
+054 000004E0 SECT4  notype       Label        | $LN11
+055 000005D0 SECT4  notype       Label        | $LN101
+056 000009D0 SECT4  notype       Label        | $LN36
+057 00000AE0 SECT4  notype       Label        | $LN4
+058 00000C00 SECT4  notype       Label        | $LN59
+059 00000D50 SECT4  notype       Label        | $LN150
+05A 00001030 SECT4  notype       Label        | $LN71
+05B 00001230 SECT4  notype       Label        | $LN32
+05C 000012E0 SECT4  notype       Label        | $LN53
+05D 000013F0 SECT4  notype       Label        | $LN28
+05E 00000000 SECTD  notype       Static       | .xdata
+    Section length  3D4, #relocs   72, #linenums    0, checksum AEF91DF5
+060 00000000 SECTD  notype       Static       | $unwind$get_cheapest_path_for_pathkeys
+061 00000000 SECTE  notype       Static       | .pdata
+    Section length  270, #relocs   9C, #linenums    0, checksum 27AEF87E
+063 00000000 SECTE  notype       Static       | $pdata$get_cheapest_path_for_pathkeys
+064 00000010 SECTD  notype       Static       | $chain$0$get_cheapest_path_for_pathkeys
+065 0000000C SECTE  notype       Static       | $pdata$0$get_cheapest_path_for_pathkeys
+066 00000024 SECTD  notype       Static       | $chain$2$get_cheapest_path_for_pathkeys
+067 00000018 SECTE  notype       Static       | $pdata$2$get_cheapest_path_for_pathkeys
+068 0000003C SECTD  notype       Static       | $chain$3$get_cheapest_path_for_pathkeys
+069 00000024 SECTE  notype       Static       | $pdata$3$get_cheapest_path_for_pathkeys
+06A 0000004C SECTD  notype       Static       | $chain$5$get_cheapest_path_for_pathkeys
+06B 00000030 SECTE  notype       Static       | $pdata$5$get_cheapest_path_for_pathkeys
+06C 00000060 SECTD  notype       Static       | $chain$6$get_cheapest_path_for_pathkeys
+06D 0000003C SECTE  notype       Static       | $pdata$6$get_cheapest_path_for_pathkeys
+06E 00000070 SECTD  notype       Static       | $unwind$get_cheapest_fractional_path_for_pathkeys
+06F 00000048 SECTE  notype       Static       | $pdata$get_cheapest_fractional_path_for_pathkeys
+070 00000084 SECTD  notype       Static       | $chain$0$get_cheapest_fractional_path_for_pathkeys
+071 00000054 SECTE  notype       Static       | $pdata$0$get_cheapest_fractional_path_for_pathkeys
+072 00000098 SECTD  notype       Static       | $chain$1$get_cheapest_fractional_path_for_pathkeys
+073 00000060 SECTE  notype       Static       | $pdata$1$get_cheapest_fractional_path_for_pathkeys
+074 000000AC SECTD  notype       Static       | $chain$2$get_cheapest_fractional_path_for_pathkeys
+075 0000006C SECTE  notype       Static       | $pdata$2$get_cheapest_fractional_path_for_pathkeys
+076 000000BC SECTD  notype       Static       | $chain$3$get_cheapest_fractional_path_for_pathkeys
+077 00000078 SECTE  notype       Static       | $pdata$3$get_cheapest_fractional_path_for_pathkeys
+078 000000CC SECTD  notype       Static       | $chain$4$get_cheapest_fractional_path_for_pathkeys
+079 00000084 SECTE  notype       Static       | $pdata$4$get_cheapest_fractional_path_for_pathkeys
+07A 000000E0 SECTD  notype       Static       | $chain$5$get_cheapest_fractional_path_for_pathkeys
+07B 00000090 SECTE  notype       Static       | $pdata$5$get_cheapest_fractional_path_for_pathkeys
+07C 000000F0 SECTD  notype       Static       | $unwind$get_cheapest_parallel_safe_total_inner
+07D 0000009C SECTE  notype       Static       | $pdata$get_cheapest_parallel_safe_total_inner
+07E 000000FC SECTD  notype       Static       | $unwind$build_index_pathkeys
+07F 000000A8 SECTE  notype       Static       | $pdata$build_index_pathkeys
+080 00000114 SECTD  notype       Static       | $chain$2$build_index_pathkeys
+081 000000B4 SECTE  notype       Static       | $pdata$2$build_index_pathkeys
+082 00000128 SECTD  notype       Static       | $chain$3$build_index_pathkeys
+083 000000C0 SECTE  notype       Static       | $pdata$3$build_index_pathkeys
+084 00000138 SECTD  notype       Static       | $unwind$build_expression_pathkey
+085 000000CC SECTE  notype       Static       | $pdata$build_expression_pathkey
+086 0000014C SECTD  notype       Static       | $unwind$convert_subquery_pathkeys
+087 000000D8 SECTE  notype       Static       | $pdata$convert_subquery_pathkeys
+088 0000015C SECTD  notype       Static       | $chain$0$convert_subquery_pathkeys
+089 000000E4 SECTE  notype       Static       | $pdata$0$convert_subquery_pathkeys
+08A 00000170 SECTD  notype       Static       | $chain$3$convert_subquery_pathkeys
+08B 000000F0 SECTE  notype       Static       | $pdata$3$convert_subquery_pathkeys
+08C 0000018C SECTD  notype       Static       | $chain$4$convert_subquery_pathkeys
+08D 000000FC SECTE  notype       Static       | $pdata$4$convert_subquery_pathkeys
+08E 0000019C SECTD  notype       Static       | $chain$6$convert_subquery_pathkeys
+08F 00000108 SECTE  notype       Static       | $pdata$6$convert_subquery_pathkeys
+090 000001B0 SECTD  notype       Static       | $chain$7$convert_subquery_pathkeys
+091 00000114 SECTE  notype       Static       | $pdata$7$convert_subquery_pathkeys
+092 000001C0 SECTD  notype       Static       | $unwind$make_pathkeys_for_sortclauses
+093 00000120 SECTE  notype       Static       | $pdata$make_pathkeys_for_sortclauses
+094 000001D0 SECTD  notype       Static       | $chain$0$make_pathkeys_for_sortclauses
+095 0000012C SECTE  notype       Static       | $pdata$0$make_pathkeys_for_sortclauses
+096 000001E4 SECTD  notype       Static       | $chain$1$make_pathkeys_for_sortclauses
+097 00000138 SECTE  notype       Static       | $pdata$1$make_pathkeys_for_sortclauses
+098 000001F8 SECTD  notype       Static       | $chain$2$make_pathkeys_for_sortclauses
+099 00000144 SECTE  notype       Static       | $pdata$2$make_pathkeys_for_sortclauses
+09A 00000208 SECTD  notype       Static       | $chain$4$make_pathkeys_for_sortclauses
+09B 00000150 SECTE  notype       Static       | $pdata$4$make_pathkeys_for_sortclauses
+09C 0000021C SECTD  notype       Static       | $chain$5$make_pathkeys_for_sortclauses
+09D 0000015C SECTE  notype       Static       | $pdata$5$make_pathkeys_for_sortclauses
+09E 0000022C SECTD  notype       Static       | $unwind$initialize_mergeclause_eclasses
+09F 00000168 SECTE  notype       Static       | $pdata$initialize_mergeclause_eclasses
+0A0 0000023C SECTD  notype       Static       | $unwind$find_mergeclauses_for_outer_pathkeys
+0A1 00000174 SECTE  notype       Static       | $pdata$find_mergeclauses_for_outer_pathkeys
+0A2 00000248 SECTD  notype       Static       | $chain$2$find_mergeclauses_for_outer_pathkeys
+0A3 00000180 SECTE  notype       Static       | $pdata$2$find_mergeclauses_for_outer_pathkeys
+0A4 00000264 SECTD  notype       Static       | $chain$4$find_mergeclauses_for_outer_pathkeys
+0A5 0000018C SECTE  notype       Static       | $pdata$4$find_mergeclauses_for_outer_pathkeys
+0A6 00000280 SECTD  notype       Static       | $chain$5$find_mergeclauses_for_outer_pathkeys
+0A7 00000198 SECTE  notype       Static       | $pdata$5$find_mergeclauses_for_outer_pathkeys
+0A8 00000294 SECTD  notype       Static       | $chain$6$find_mergeclauses_for_outer_pathkeys
+0A9 000001A4 SECTE  notype       Static       | $pdata$6$find_mergeclauses_for_outer_pathkeys
+0AA 000002A4 SECTD  notype       Static       | $unwind$select_outer_pathkeys_for_merge
+0AB 000001B0 SECTE  notype       Static       | $pdata$select_outer_pathkeys_for_merge
+0AC 000002B4 SECTD  notype       Static       | $chain$2$select_outer_pathkeys_for_merge
+0AD 000001BC SECTE  notype       Static       | $pdata$2$select_outer_pathkeys_for_merge
+0AE 000002D0 SECTD  notype       Static       | $chain$3$select_outer_pathkeys_for_merge
+0AF 000001C8 SECTE  notype       Static       | $pdata$3$select_outer_pathkeys_for_merge
+0B0 000002E4 SECTD  notype       Static       | $chain$4$select_outer_pathkeys_for_merge
+0B1 000001D4 SECTE  notype       Static       | $pdata$4$select_outer_pathkeys_for_merge
+0B2 000002F4 SECTD  notype       Static       | $chain$5$select_outer_pathkeys_for_merge
+0B3 000001E0 SECTE  notype       Static       | $pdata$5$select_outer_pathkeys_for_merge
+0B4 00000304 SECTD  notype       Static       | $unwind$make_inner_pathkeys_for_merge
+0B5 000001EC SECTE  notype       Static       | $pdata$make_inner_pathkeys_for_merge
+0B6 00000314 SECTD  notype       Static       | $chain$2$make_inner_pathkeys_for_merge
+0B7 000001F8 SECTE  notype       Static       | $pdata$2$make_inner_pathkeys_for_merge
+0B8 00000330 SECTD  notype       Static       | $chain$4$make_inner_pathkeys_for_merge
+0B9 00000204 SECTE  notype       Static       | $pdata$4$make_inner_pathkeys_for_merge
+0BA 00000344 SECTD  notype       Static       | $chain$5$make_inner_pathkeys_for_merge
+0BB 00000210 SECTE  notype       Static       | $pdata$5$make_inner_pathkeys_for_merge
+0BC 00000354 SECTD  notype       Static       | $unwind$trim_mergeclauses_for_inner_pathkeys
+0BD 0000021C SECTE  notype       Static       | $pdata$trim_mergeclauses_for_inner_pathkeys
+0BE 00000364 SECTD  notype       Static       | $chain$2$trim_mergeclauses_for_inner_pathkeys
+0BF 00000228 SECTE  notype       Static       | $pdata$2$trim_mergeclauses_for_inner_pathkeys
+0C0 00000378 SECTD  notype       Static       | $chain$3$trim_mergeclauses_for_inner_pathkeys
+0C1 00000234 SECTE  notype       Static       | $pdata$3$trim_mergeclauses_for_inner_pathkeys
+0C2 00000388 SECTD  notype       Static       | $unwind$truncate_useless_pathkeys
+0C3 00000240 SECTE  notype       Static       | $pdata$truncate_useless_pathkeys
+0C4 00000398 SECTD  notype       Static       | $unwind$make_canonical_pathkey
+0C5 0000024C SECTE  notype       Static       | $pdata$make_canonical_pathkey
+0C6 000003AC SECTD  notype       Static       | $chain$1$make_canonical_pathkey
+0C7 00000258 SECTE  notype       Static       | $pdata$1$make_canonical_pathkey
+0C8 000003C4 SECTD  notype       Static       | $chain$2$make_canonical_pathkey
+0C9 00000264 SECTE  notype       Static       | $pdata$2$make_canonical_pathkey
+0CA 00000000 SECTF  notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 19706680, selection    5 (pick associative Section 0x7)
+0CC 00000000 SECTF  notype       Static       | $unwind$make_pathkey_from_sortinfo
+0CD 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3FFBF8EC, selection    5 (pick associative Section 0x7)
+0CF 00000000 SECT10 notype       Static       | $pdata$make_pathkey_from_sortinfo
+0D0 00000000 SECT11 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 163B65F9, selection    5 (pick associative Section 0x9)
+0D2 00000000 SECT11 notype       Static       | $unwind$make_pathkey_from_sortop
+0D3 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 51B26353, selection    5 (pick associative Section 0x9)
+0D5 00000000 SECT12 notype       Static       | $pdata$make_pathkey_from_sortop
+0D6 00000000 SECT13 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 900517D8, selection    5 (pick associative Section 0xB)
+0D8 00000000 SECT13 notype       Static       | $unwind$pathkeys_useful_for_merging
+0D9 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 35DC62C8, selection    5 (pick associative Section 0xB)
+0DB 00000000 SECT14 notype       Static       | $pdata$pathkeys_useful_for_merging
+0DC 00000000 SECT15 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum A6CFB8EA, selection    5 (pick associative Section 0xB)
+0DE 00000000 SECT15 notype       Static       | $chain$0$pathkeys_useful_for_merging
+0DF 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 88D6C309, selection    5 (pick associative Section 0xB)
+0E1 00000000 SECT16 notype       Static       | $pdata$0$pathkeys_useful_for_merging
+0E2 00000000 SECT17 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum  8531C6F, selection    5 (pick associative Section 0xB)
+0E4 00000000 SECT17 notype       Static       | $chain$1$pathkeys_useful_for_merging
+0E5 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 91614101, selection    5 (pick associative Section 0xB)
+0E7 00000000 SECT18 notype       Static       | $pdata$1$pathkeys_useful_for_merging
+0E8 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 318129E5, selection    5 (pick associative Section 0xB)
+0EA 00000000 SECT19 notype       Static       | $chain$2$pathkeys_useful_for_merging
+0EB 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 713D0E5B, selection    5 (pick associative Section 0xB)
+0ED 00000000 SECT1A notype       Static       | $pdata$2$pathkeys_useful_for_merging
+0EE 00000000 SECT1B notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum E21CE846, selection    5 (pick associative Section 0xB)
+0F0 00000000 SECT1B notype       Static       | $chain$4$pathkeys_useful_for_merging
+0F1 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 105E3E43, selection    5 (pick associative Section 0xB)
+0F3 00000000 SECT1C notype       Static       | $pdata$4$pathkeys_useful_for_merging
+0F4 00000000 SECT1D notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 8C8B8824, selection    5 (pick associative Section 0xB)
+0F6 00000000 SECT1D notype       Static       | $chain$5$pathkeys_useful_for_merging
+0F7 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 49A832F1, selection    5 (pick associative Section 0xB)
+0F9 00000000 SECT1E notype       Static       | $pdata$5$pathkeys_useful_for_merging
+0FA 00000000 UNDEF  notype       External     | CurrentMemoryContext
+0FB 00000000 UNDEF  notype       External     | newNodeMacroHolder
+0FC 00000000 SECT1F notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 7384B2BF, selection    2 (pick any)
+0FE 00000000 SECT1F notype       External     | ??_C@_0BL@JGABBPPD@make_pathkey_from_sortinfo?$AA@ (`string')
+0FF 00000000 SECT20 notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 8F45EE90, selection    2 (pick any)
+101 00000000 SECT20 notype       External     | ??_C@_0CG@OIEDIKNM@src?1backend?1optimizer?1path?1pathk@ (`string')
+102 00000000 SECT21 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum  F453653, selection    2 (pick any)
+104 00000000 SECT21 notype       External     | ??_C@_0CK@BENFOBFH@missing?5operator?5?$CFd?$CI?$CFu?0?$CFu?$CJ?5in?5op@ (`string')
+105 00000000 SECT22 notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum D1DD0992, selection    2 (pick any)
+107 00000000 SECT22 notype       External     | ??_C@_0DD@GDAKDPP@could?5not?5find?5opfamilies?5for?5eq@ (`string')
+108 00000000 SECT23 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum B86D1152, selection    2 (pick any)
+10A 00000000 SECT23 notype       External     | ??_C@_0BJ@KOFNOACC@make_pathkey_from_sortop?$AA@ (`string')
+10B 00000000 SECT24 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 2D3DCF24, selection    2 (pick any)
+10D 00000000 SECT24 notype       External     | ??_C@_0CN@BEECKHHP@operator?5?$CFu?5is?5not?5a?5valid?5order@ (`string')
+10E 00000000 SECT25 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 90F044B4, selection    2 (pick any)
+110 00000000 SECT25 notype       External     | ??_C@_0BJ@IGMALFME@build_expression_pathkey?$AA@ (`string')
+111 00000000 SECT26 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 3FEF3DAE, selection    2 (pick any)
+113 00000000 SECT26 notype       External     | ??_C@_0BK@GPPMHMGD@convert_subquery_pathkeys?$AA@ (`string')
+114 00000000 SECT27 notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum C8FD9F32, selection    2 (pick any)
+116 00000000 SECT27 notype       External     | ??_C@_0CJ@FJIPOAGH@volatile?5EquivalenceClass?5has?5no@ (`string')
+117 00000000 SECT28 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum FE32E796, selection    2 (pick any)
+119 00000000 SECT28 notype       External     | ??_C@_0BO@BMJCGNM@make_inner_pathkeys_for_merge?$AA@ (`string')
+11A 00000000 SECT29 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 82BFF9AF, selection    2 (pick any)
+11C 00000000 SECT29 notype       External     | ??_C@_0CC@DMDBGKHK@too?5few?5pathkeys?5for?5mergeclause@ (`string')
+11D 00000000 SECT2A notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 1B5CAE81, selection    2 (pick any)
+11F 00000000 SECT2A notype       External     | ??_C@_0CI@NEPGMMP@outer?5pathkeys?5do?5not?5match?5merg@ (`string')
+120 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x19BC bytes
+
+  Summary
+
+        94CC .debug$S
+          68 .debug$T
+          5D .drectve
+         2D0 .pdata
+         1A8 .rdata
+        18C5 .text$mn
+         470 .xdata

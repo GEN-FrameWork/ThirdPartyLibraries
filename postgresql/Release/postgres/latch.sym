@@ -1,0 +1,212 @@
+
+Dump of file Release\postgres/latch.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 57B0, #relocs   F6, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  813, #relocs   55, #linenums    0, checksum EA82211C
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  11C, #relocs    F, #linenums    0, checksum 5C033A43, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  214, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  302, #relocs   1C, #linenums    0, checksum 65DE3917, selection    2 (pick any)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  610, #relocs   3A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype       External     | __imp_GetLastError
+013 00000000 UNDEF  notype       External     | __imp_QueryPerformanceCounter
+014 00000000 UNDEF  notype       External     | __imp_QueryPerformanceFrequency
+015 00000000 UNDEF  notype       External     | __imp_SetEvent
+016 00000000 UNDEF  notype       External     | __imp_ResetEvent
+017 00000000 UNDEF  notype       External     | __imp_CreateEventA
+018 00000000 UNDEF  notype       External     | __imp_WaitForMultipleObjects
+019 00000000 UNDEF  notype       External     | __imp_WSAGetLastError
+01A 00000000 UNDEF  notype       External     | __imp_WSACloseEvent
+01B 00000000 UNDEF  notype       External     | __imp_WSACreateEvent
+01C 00000000 UNDEF  notype       External     | __imp_WSAEnumNetworkEvents
+01D 00000000 UNDEF  notype       External     | __imp_WSAEventSelect
+01E 00000000 UNDEF  notype       External     | __imp_WSASend
+01F 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+020 00000000 UNDEF  notype ()    External     | elog_start
+021 00000000 UNDEF  notype ()    External     | elog_finish
+022 00000000 UNDEF  notype ()    External     | MemoryContextAllocZero
+023 00000000 UNDEF  notype ()    External     | pfree
+024 00000000 SECT4  notype ()    External     | InitializeLatchSupport
+025 00000010 SECT4  notype ()    External     | InitLatch
+026 00000090 SECT4  notype ()    External     | InitSharedLatch
+027 00000130 SECT4  notype ()    External     | OwnLatch
+028 00000190 SECT4  notype ()    External     | DisownLatch
+029 000001A0 SECT4  notype ()    External     | SetLatch
+02A 000001E0 SECT4  notype ()    External     | ResetLatch
+02B 00000200 SECT4  notype ()    External     | CreateWaitEventSet
+02C 00000280 SECT4  notype ()    External     | FreeWaitEventSet
+02D 00000300 SECT4  notype ()    External     | AddWaitEventToSet
+02E 00000480 SECT4  notype ()    External     | ModifyWaitEvent
+02F 00000550 SECT4  notype ()    External     | WaitEventSetWait
+030 000006B0 SECT4  notype ()    External     | WaitLatch
+031 000006D0 SECT4  notype ()    External     | WaitLatchOrSocket
+032 00000000 UNDEF  notype ()    External     | PostmasterIsAlive
+033 00000000 SECT5  notype ()    Static       | WaitEventAdjustWin32
+034 00000000 SECT7  notype ()    Static       | WaitEventSetWaitBlock
+035 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+036 00000000 UNDEF  notype ()    External     | __security_check_cookie
+037 00000010 SECT4  notype       Label        | $LN9
+038 00000090 SECT4  notype       Label        | $LN9
+039 00000130 SECT4  notype       Label        | $LN10
+03A 000001A0 SECT4  notype       Label        | $LN6
+03B 00000200 SECT4  notype       Label        | $LN4
+03C 00000280 SECT4  notype       Label        | $LN15
+03D 00000300 SECT4  notype       Label        | $LN35
+03E 00000480 SECT4  notype       Label        | $LN17
+03F 00000550 SECT4  notype       Label        | $LN31
+040 000006B0 SECT4  notype       Label        | $LN4
+041 000006D0 SECT4  notype       Label        | $LN46
+042 00000000 SECT9  notype       Static       | .xdata
+    Section length   A4, #relocs    0, #linenums    0, checksum F7FF88CC
+044 00000000 SECT9  notype       Static       | $unwind$InitLatch
+045 00000000 SECTA  notype       Static       | .pdata
+    Section length   84, #relocs   21, #linenums    0, checksum 50D7B987
+047 00000000 SECTA  notype       Static       | $pdata$InitLatch
+048 00000008 SECT9  notype       Static       | $unwind$InitSharedLatch
+049 0000000C SECTA  notype       Static       | $pdata$InitSharedLatch
+04A 00000010 SECT9  notype       Static       | $unwind$OwnLatch
+04B 00000018 SECTA  notype       Static       | $pdata$OwnLatch
+04C 00000018 SECT9  notype       Static       | $unwind$SetLatch
+04D 00000024 SECTA  notype       Static       | $pdata$SetLatch
+04E 00000020 SECT9  notype       Static       | $unwind$CreateWaitEventSet
+04F 00000030 SECTA  notype       Static       | $pdata$CreateWaitEventSet
+050 0000002C SECT9  notype       Static       | $unwind$FreeWaitEventSet
+051 0000003C SECTA  notype       Static       | $pdata$FreeWaitEventSet
+052 00000038 SECT9  notype       Static       | $unwind$AddWaitEventToSet
+053 00000048 SECTA  notype       Static       | $pdata$AddWaitEventToSet
+054 00000050 SECT9  notype       Static       | $unwind$ModifyWaitEvent
+055 00000054 SECTA  notype       Static       | $pdata$ModifyWaitEvent
+056 00000064 SECT9  notype       Static       | $unwind$WaitEventSetWait
+057 00000060 SECTA  notype       Static       | $pdata$WaitEventSetWait
+058 00000080 SECT9  notype       Static       | $unwind$WaitLatch
+059 0000006C SECTA  notype       Static       | $pdata$WaitLatch
+05A 00000088 SECT9  notype       Static       | $unwind$WaitLatchOrSocket
+05B 00000078 SECTA  notype       Static       | $pdata$WaitLatchOrSocket
+05C 00000000 SECTB  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum EE051E80, selection    5 (pick associative Section 0x5)
+05E 00000000 SECTB  notype       Static       | $unwind$WaitEventAdjustWin32
+05F 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5FE3FADF, selection    5 (pick associative Section 0x5)
+061 00000000 SECTC  notype       Static       | $pdata$WaitEventAdjustWin32
+062 00000000 SECTD  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 51FFC18B, selection    5 (pick associative Section 0x5)
+064 00000000 SECTD  notype       Static       | $chain$0$WaitEventAdjustWin32
+065 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 97DED733, selection    5 (pick associative Section 0x5)
+067 00000000 SECTE  notype       Static       | $pdata$0$WaitEventAdjustWin32
+068 00000000 SECTF  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum E6B41033, selection    5 (pick associative Section 0x5)
+06A 00000000 SECTF  notype       Static       | $chain$1$WaitEventAdjustWin32
+06B 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A34B854D, selection    5 (pick associative Section 0x5)
+06D 00000000 SECT10 notype       Static       | $pdata$1$WaitEventAdjustWin32
+06E 00000000 SECT11 notype       Static       | .xdata
+    Section length   20, #relocs    1, #linenums    0, checksum DEBF5F12, selection    5 (pick associative Section 0x7)
+070 00000000 SECT11 notype       Static       | $unwind$WaitEventSetWaitBlock
+071 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 73CD1DE0, selection    5 (pick associative Section 0x7)
+073 00000000 SECT12 notype       Static       | $pdata$WaitEventSetWaitBlock
+074 00000000 UNDEF  notype       External     | pgwin32_signal_event
+075 00000000 UNDEF  notype       External     | CurrentMemoryContext
+076 00000000 UNDEF  notype       External     | IsUnderPostmaster
+077 00000000 UNDEF  notype       External     | MyProcPid
+078 00000000 UNDEF  notype       External     | MyProc
+079 00000000 UNDEF  notype       External     | pgstat_track_activities
+07A 00000000 UNDEF  notype       External     | PostmasterHandle
+07B 00000000 SECT13 notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum FEAD0E03, selection    2 (pick any)
+07D 00000000 SECT13 notype       External     | ??_C@_09OCNIJJIK@InitLatch?$AA@ (`string')
+07E 00000000 SECT14 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum  3BD0929, selection    2 (pick any)
+080 00000000 SECT14 notype       External     | ??_C@_0CA@OFEIKDHL@src?1backend?1storage?1ipc?1latch?4c?$AA@ (`string')
+081 00000000 SECT15 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 9E063FCD, selection    2 (pick any)
+083 00000000 SECT15 notype       External     | ??_C@_0CD@GIABJHAF@CreateEvent?5failed?3?5error?5code?5?$CF@ (`string')
+084 00000000 SECT16 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 7DDE498B, selection    2 (pick any)
+086 00000000 SECT16 notype       External     | ??_C@_0BA@GOJKPNCB@InitSharedLatch?$AA@ (`string')
+087 00000000 SECT17 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum A3175410, selection    2 (pick any)
+089 00000000 SECT17 notype       External     | ??_C@_08LKOBLPEB@OwnLatch?$AA@ (`string')
+08A 00000000 SECT18 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 69313622, selection    2 (pick any)
+08C 00000000 SECT18 notype       External     | ??_C@_0BE@JJBLFCFA@latch?5already?5owned?$AA@ (`string')
+08D 00000000 SECT19 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum D552E52A, selection    2 (pick any)
+08F 00000000 SECT19 notype       External     | ??_C@_0BC@ENLGNFJI@AddWaitEventToSet?$AA@ (`string')
+090 00000000 SECT1A notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum 35F552FA, selection    2 (pick any)
+092 00000000 SECT1A notype       External     | ??_C@_0DA@DIICBOJA@cannot?5wait?5on?5a?5latch?5owned?5by?5@ (`string')
+093 00000000 SECT1B notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum F33BBEC0, selection    2 (pick any)
+095 00000000 SECT1B notype       External     | ??_C@_0CD@FDMBGAI@cannot?5wait?5on?5more?5than?5one?5lat@ (`string')
+096 00000000 SECT1C notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 10EE22D6, selection    2 (pick any)
+098 00000000 SECT1C notype       External     | ??_C@_0CE@IFKHGPPM@latch?5events?5only?5support?5being?5@ (`string')
+099 00000000 SECT1D notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum 3DB7C86B, selection    2 (pick any)
+09B 00000000 SECT1D notype       External     | ??_C@_0CP@CHJBJMOB@cannot?5wait?5on?5latch?5without?5a?5s@ (`string')
+09C 00000000 SECT1E notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 924DC79D, selection    2 (pick any)
+09E 00000000 SECT1E notype       External     | ??_C@_0CN@KLDCKPMG@cannot?5wait?5on?5socket?5event?5with@ (`string')
+09F 00000000 SECT1F notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 8423D3E0, selection    2 (pick any)
+0A1 00000000 SECT1F notype       External     | ??_C@_0BA@JHGHGHEK@ModifyWaitEvent?$AA@ (`string')
+0A2 00000000 SECT20 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum  6C611E8, selection    2 (pick any)
+0A4 00000000 SECT20 notype       External     | ??_C@_0BK@FGNFFACF@cannot?5modify?5latch?5event?$AA@ (`string')
+0A5 00000000 SECT21 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 5DCB3C0A, selection    2 (pick any)
+0A7 00000000 SECT21 notype       External     | ??_C@_0CF@IGOFLMJB@cannot?5modify?5postmaster?5death?5e@ (`string')
+0A8 00000000 SECT22 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 1AECFE51, selection    2 (pick any)
+0AA 00000000 SECT22 notype       External     | ??_C@_0BF@KEBHMECF@WaitEventAdjustWin32?$AA@ (`string')
+0AB 00000000 SECT23 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum 35117915, selection    2 (pick any)
+0AD 00000000 SECT23 notype       External     | ??_C@_0DB@JIHLIGBP@failed?5to?5create?5event?5for?5socke@ (`string')
+0AE 00000000 SECT24 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum BDB5D902, selection    2 (pick any)
+0B0 00000000 SECT24 notype       External     | ??_C@_0DB@BANPCGAI@failed?5to?5set?5up?5event?5for?5socke@ (`string')
+0B1 00000000 SECT25 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum  27A632A, selection    2 (pick any)
+0B3 00000000 SECT25 notype       External     | ??_C@_0BG@FFKMCNDF@WaitEventSetWaitBlock?$AA@ (`string')
+0B4 00000000 SECT26 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum FBAAF1D6, selection    2 (pick any)
+0B6 00000000 SECT26 notype       External     | ??_C@_0DA@PGNNLNLM@WaitForMultipleObjects?$CI?$CJ?5failed?3@ (`string')
+0B7 00000000 SECT27 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 33A8FCC8, selection    2 (pick any)
+0B9 00000000 SECT27 notype       External     | ??_C@_0CC@INCGGPBN@ResetEvent?5failed?3?5error?5code?5?$CFl@ (`string')
+0BA 00000000 SECT28 notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum 9821AB94, selection    2 (pick any)
+0BC 00000000 SECT28 notype       External     | ??_C@_0DC@HIFJCIHF@failed?5to?5enumerate?5network?5even@ (`string')
+0BD 00000000 SECT29 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum BA5D48D4, selection    2 (pick any)
+0BF 00000000 SECT29 notype       External     | __real@408f400000000000
+0C0 00000000 UNDEF  notype       External     | __security_cookie
+0C1 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0xA70 bytes
+
+  Summary
+
+        5FD4 .debug$S
+          68 .debug$T
+          5D .drectve
+          B4 .pdata
+         2C7 .rdata
+         C31 .text$mn
+          F4 .xdata

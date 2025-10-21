@@ -1,0 +1,1 @@
+cmd_/mnt/pendrive/homeserver/rp1_ws281x_pwm/Module.symvers :=  sed 's/ko$$/o/'  /mnt/pendrive/homeserver/rp1_ws281x_pwm/modules.order | scripts/mod/modpost -m -a    -o /mnt/pendrive/homeserver/rp1_ws281x_pwm/Module.symvers -e -i Module.symvers -T - 

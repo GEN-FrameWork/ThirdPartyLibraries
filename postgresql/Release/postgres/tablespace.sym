@@ -1,0 +1,406 @@
+
+Dump of file Release\postgres/tablespace.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 7928, #relocs  19A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .bss
+    Section length   10, #relocs    0, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       External     | default_tablespace
+00B 00000008 SECT4  notype       External     | temp_tablespaces
+00C 00000000 SECT5  notype       Static       | .text$mn
+    Section length 1A47, #relocs  197, #linenums    0, checksum D38DF967
+00E 00000000 SECT6  notype       Static       | .text$mn
+    Section length  2B2, #relocs   3A, #linenums    0, checksum 3C826D45, selection    1 (pick no duplicates)
+010 00000000 SECT7  notype       Static       | .debug$S
+    Section length  320, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+012 00000000 SECT8  notype       Static       | .text$mn
+    Section length  40C, #relocs   4D, #linenums    0, checksum E722AAD0, selection    1 (pick no duplicates)
+014 00000000 SECT9  notype       Static       | .debug$S
+    Section length  528, #relocs   30, #linenums    0, checksum        0, selection    5 (pick associative Section 0x8)
+016 00000000 UNDEF  notype       External     | __imp_malloc
+017 00000000 UNDEF  notype       External     | __imp__errno
+018 00000000 UNDEF  notype       External     | __imp_strchr
+019 00000000 UNDEF  notype       External     | __imp_isalpha
+01A 00000000 UNDEF  notype       External     | __imp_mkdir
+01B 00000000 UNDEF  notype       External     | __imp_rmdir
+01C 00000000 UNDEF  notype ()    External     | canonicalize_path
+01D 00000000 UNDEF  notype ()    External     | path_is_prefix_of_path
+01E 00000000 UNDEF  notype ()    External     | get_parent_directory
+01F 00000000 UNDEF  notype       External     | __imp_chmod
+020 00000000 UNDEF  notype ()    External     | pgsymlink
+021 00000000 UNDEF  notype ()    External     | rmtree
+022 00000000 UNDEF  notype ()    External     | pgwin32_safestat
+023 00000000 UNDEF  notype ()    External     | errstart
+024 00000000 UNDEF  notype ()    External     | errfinish
+025 00000000 UNDEF  notype ()    External     | errcode
+026 00000000 UNDEF  notype ()    External     | errcode_for_file_access
+027 00000000 UNDEF  notype ()    External     | errmsg
+028 00000000 UNDEF  notype ()    External     | errdetail
+029 00000000 UNDEF  notype ()    External     | errhint
+02A 00000000 UNDEF  notype ()    External     | elog_start
+02B 00000000 UNDEF  notype ()    External     | elog_finish
+02C 00000000 UNDEF  notype ()    External     | pre_format_elog_string
+02D 00000000 UNDEF  notype ()    External     | format_elog_string
+02E 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+02F 00000000 UNDEF  notype ()    External     | palloc
+030 00000000 UNDEF  notype ()    External     | pfree
+031 00000000 UNDEF  notype ()    External     | pstrdup
+032 00000000 UNDEF  notype ()    External     | psprintf
+033 00000000 UNDEF  notype ()    External     | DirectFunctionCall1Coll
+034 00000000 UNDEF  notype ()    External     | ScanKeyInit
+035 00000000 UNDEF  notype ()    External     | list_free
+036 00000000 UNDEF  notype ()    External     | relation_close
+037 00000000 UNDEF  notype ()    External     | heap_open
+038 00000000 UNDEF  notype ()    External     | heap_beginscan_catalog
+039 00000000 UNDEF  notype ()    External     | heap_endscan
+03A 00000000 UNDEF  notype ()    External     | heap_getnext
+03B 00000000 UNDEF  notype ()    External     | LWLockAcquire
+03C 00000000 UNDEF  notype ()    External     | LWLockRelease
+03D 00000000 UNDEF  notype ()    External     | transformRelOptions
+03E 00000000 UNDEF  notype ()    External     | tablespace_reloptions
+03F 00000000 UNDEF  notype ()    External     | nocachegetattr
+040 00000000 UNDEF  notype ()    External     | heap_copytuple
+041 00000000 UNDEF  notype ()    External     | heap_form_tuple
+042 00000000 UNDEF  notype ()    External     | heap_modify_tuple
+043 00000000 UNDEF  notype ()    External     | heap_freetuple
+044 00000000 UNDEF  notype ()    External     | GetDatabasePath
+045 00000000 UNDEF  notype ()    External     | IsTransactionState
+046 00000000 UNDEF  notype ()    External     | ForceSyncCommit
+047 00000000 UNDEF  notype ()    External     | XLogBeginInsert
+048 00000000 UNDEF  notype ()    External     | XLogInsert
+049 00000000 UNDEF  notype ()    External     | XLogRegisterData
+04A 00000000 UNDEF  notype ()    External     | AllocateDir
+04B 00000000 UNDEF  notype ()    External     | ReadDir
+04C 00000000 UNDEF  notype ()    External     | FreeDir
+04D 00000000 UNDEF  notype ()    External     | SetTempTablespaces
+04E 00000000 UNDEF  notype ()    External     | TempTablespacesAreSet
+04F 00000000 UNDEF  notype ()    External     | GetNextTempTableSpace
+050 00000000 UNDEF  notype ()    External     | IsReservedName
+051 00000000 UNDEF  notype ()    External     | get_rolespec_oid
+052 00000000 UNDEF  notype ()    External     | pg_tablespace_aclcheck
+053 00000000 UNDEF  notype ()    External     | aclcheck_error
+054 00000000 UNDEF  notype ()    External     | pg_tablespace_ownercheck
+055 00000000 UNDEF  notype ()    External     | deleteSharedDependencyRecordsFor
+056 00000000 UNDEF  notype ()    External     | recordDependencyOnOwner
+057 00000000 UNDEF  notype ()    External     | CatalogTupleInsert
+058 00000000 UNDEF  notype ()    External     | CatalogTupleUpdate
+059 00000000 UNDEF  notype ()    External     | CatalogTupleDelete
+05A 00000000 UNDEF  notype ()    External     | RunObjectPostCreateHook
+05B 00000000 UNDEF  notype ()    External     | RunObjectDropHook
+05C 00000000 UNDEF  notype ()    External     | RunObjectPostAlterHook
+05D 00000000 UNDEF  notype ()    External     | DeleteSharedComments
+05E 00000000 UNDEF  notype ()    External     | DeleteSharedSecurityLabel
+05F 00000000 SECT5  notype ()    External     | CreateTableSpace
+060 00000490 SECT5  notype ()    External     | DropTableSpace
+061 00000730 SECT5  notype ()    External     | RenameTableSpace
+062 00000A00 SECT5  notype ()    External     | AlterTableSpaceOptions
+063 00000D00 SECT5  notype ()    External     | TablespaceCreateDbspace
+064 00001050 SECT5  notype ()    External     | GetDefaultTablespace
+065 000010A0 SECT5  notype ()    External     | PrepareTempTablespaces
+066 00001210 SECT5  notype ()    External     | get_tablespace_oid
+067 00001330 SECT5  notype ()    External     | get_tablespace_name
+068 000013F0 SECT5  notype ()    External     | directory_is_empty
+069 000014A0 SECT5  notype ()    External     | remove_tablespace_symlink
+06A 00001610 SECT5  notype ()    External     | tblspc_redo
+06B 00000000 UNDEF  notype ()    External     | GetUserId
+06C 00000000 UNDEF  notype ()    External     | superuser
+06D 00000000 UNDEF  notype ()    External     | RequestCheckpoint
+06E 00000000 UNDEF  notype ()    External     | ResolveRecoveryConflictWithTablespace
+06F 00000000 UNDEF  notype ()    External     | namein
+070 00000000 UNDEF  notype ()    External     | namestrcpy
+071 00001720 SECT5  notype ()    External     | check_default_tablespace
+072 000017F0 SECT5  notype ()    External     | check_temp_tablespaces
+073 00001A30 SECT5  notype ()    External     | assign_temp_tablespaces
+074 00000000 UNDEF  notype ()    External     | SplitIdentifierString
+075 00000000 SECT6  notype ()    Static       | create_tablespace_directories
+076 00000000 SECT8  notype ()    Static       | destroy_tablespace_directories
+077 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+078 00000000 UNDEF  notype ()    External     | __security_check_cookie
+079 00000000 UNDEF  notype ()    External     | memcpy
+07A 00000000 SECT5  notype       Label        | $LN71
+07B 00000490 SECT5  notype       Label        | $LN35
+07C 00000730 SECT5  notype       Label        | $LN34
+07D 00000A00 SECT5  notype       Label        | $LN40
+07E 00000D00 SECT5  notype       Label        | $LN50
+07F 00001050 SECT5  notype       Label        | $LN8
+080 000010A0 SECT5  notype       Label        | $LN28
+081 00001210 SECT5  notype       Label        | $LN17
+082 00001330 SECT5  notype       Label        | $LN6
+083 000013F0 SECT5  notype       Label        | $LN13
+084 000014A0 SECT5  notype       Label        | $LN25
+085 00001610 SECT5  notype       Label        | $LN19
+086 00001720 SECT5  notype       Label        | $LN13
+087 000017F0 SECT5  notype       Label        | $LN39
+088 000000B7 SECT8  notype       Label        | $remove_symlink$72
+089 00000000 SECTA  notype       Static       | .xdata
+    Section length  210, #relocs   2B, #linenums    0, checksum 998E7912
+08B 00000000 SECTA  notype       Static       | $unwind$CreateTableSpace
+08C 00000000 SECTB  notype       Static       | .pdata
+    Section length  144, #relocs   51, #linenums    0, checksum D173AD64
+08E 00000000 SECTB  notype       Static       | $pdata$CreateTableSpace
+08F 00000024 SECTA  notype       Static       | $unwind$DropTableSpace
+090 0000000C SECTB  notype       Static       | $pdata$DropTableSpace
+091 00000038 SECTA  notype       Static       | $unwind$RenameTableSpace
+092 00000018 SECTB  notype       Static       | $pdata$RenameTableSpace
+093 00000050 SECTA  notype       Static       | $unwind$AlterTableSpaceOptions
+094 00000024 SECTB  notype       Static       | $pdata$AlterTableSpaceOptions
+095 00000074 SECTA  notype       Static       | $unwind$TablespaceCreateDbspace
+096 00000030 SECTB  notype       Static       | $pdata$TablespaceCreateDbspace
+097 00000084 SECTA  notype       Static       | $chain$1$TablespaceCreateDbspace
+098 0000003C SECTB  notype       Static       | $pdata$1$TablespaceCreateDbspace
+099 0000009C SECTA  notype       Static       | $chain$2$TablespaceCreateDbspace
+09A 00000048 SECTB  notype       Static       | $pdata$2$TablespaceCreateDbspace
+09B 000000B0 SECTA  notype       Static       | $chain$3$TablespaceCreateDbspace
+09C 00000054 SECTB  notype       Static       | $pdata$3$TablespaceCreateDbspace
+09D 000000C0 SECTA  notype       Static       | $chain$4$TablespaceCreateDbspace
+09E 00000060 SECTB  notype       Static       | $pdata$4$TablespaceCreateDbspace
+09F 000000D0 SECTA  notype       Static       | $unwind$GetDefaultTablespace
+0A0 0000006C SECTB  notype       Static       | $pdata$GetDefaultTablespace
+0A1 000000D8 SECTA  notype       Static       | $unwind$PrepareTempTablespaces
+0A2 00000078 SECTB  notype       Static       | $pdata$PrepareTempTablespaces
+0A3 000000E0 SECTA  notype       Static       | $chain$0$PrepareTempTablespaces
+0A4 00000084 SECTB  notype       Static       | $pdata$0$PrepareTempTablespaces
+0A5 000000F4 SECTA  notype       Static       | $chain$6$PrepareTempTablespaces
+0A6 00000090 SECTB  notype       Static       | $pdata$6$PrepareTempTablespaces
+0A7 00000118 SECTA  notype       Static       | $chain$8$PrepareTempTablespaces
+0A8 0000009C SECTB  notype       Static       | $pdata$8$PrepareTempTablespaces
+0A9 00000130 SECTA  notype       Static       | $chain$9$PrepareTempTablespaces
+0AA 000000A8 SECTB  notype       Static       | $pdata$9$PrepareTempTablespaces
+0AB 00000140 SECTA  notype       Static       | $chain$10$PrepareTempTablespaces
+0AC 000000B4 SECTB  notype       Static       | $pdata$10$PrepareTempTablespaces
+0AD 00000150 SECTA  notype       Static       | $unwind$get_tablespace_oid
+0AE 000000C0 SECTB  notype       Static       | $pdata$get_tablespace_oid
+0AF 00000168 SECTA  notype       Static       | $unwind$get_tablespace_name
+0B0 000000CC SECTB  notype       Static       | $pdata$get_tablespace_name
+0B1 00000178 SECTA  notype       Static       | $unwind$directory_is_empty
+0B2 000000D8 SECTB  notype       Static       | $pdata$directory_is_empty
+0B3 00000184 SECTA  notype       Static       | $unwind$remove_tablespace_symlink
+0B4 000000E4 SECTB  notype       Static       | $pdata$remove_tablespace_symlink
+0B5 00000198 SECTA  notype       Static       | $unwind$tblspc_redo
+0B6 000000F0 SECTB  notype       Static       | $pdata$tblspc_redo
+0B7 000001A0 SECTA  notype       Static       | $chain$0$tblspc_redo
+0B8 000000FC SECTB  notype       Static       | $pdata$0$tblspc_redo
+0B9 000001B4 SECTA  notype       Static       | $chain$1$tblspc_redo
+0BA 00000108 SECTB  notype       Static       | $pdata$1$tblspc_redo
+0BB 000001C4 SECTA  notype       Static       | $unwind$check_default_tablespace
+0BC 00000114 SECTB  notype       Static       | $pdata$check_default_tablespace
+0BD 000001D0 SECTA  notype       Static       | $unwind$check_temp_tablespaces
+0BE 00000120 SECTB  notype       Static       | $pdata$check_temp_tablespaces
+0BF 000001EC SECTA  notype       Static       | $chain$4$check_temp_tablespaces
+0C0 0000012C SECTB  notype       Static       | $pdata$4$check_temp_tablespaces
+0C1 00000200 SECTA  notype       Static       | $chain$5$check_temp_tablespaces
+0C2 00000138 SECTB  notype       Static       | $pdata$5$check_temp_tablespaces
+0C3 00000000 SECTC  notype       Static       | .xdata
+    Section length   18, #relocs    1, #linenums    0, checksum A082E849, selection    5 (pick associative Section 0x6)
+0C5 00000000 SECTC  notype       Static       | $unwind$create_tablespace_directories
+0C6 00000000 SECTD  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 63F42A00, selection    5 (pick associative Section 0x6)
+0C8 00000000 SECTD  notype       Static       | $pdata$create_tablespace_directories
+0C9 00000000 SECTE  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 1036FFD9, selection    5 (pick associative Section 0x6)
+0CB 00000000 SECTE  notype       Static       | $chain$0$create_tablespace_directories
+0CC 00000000 SECTF  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum ABBB71AE, selection    5 (pick associative Section 0x6)
+0CE 00000000 SECTF  notype       Static       | $pdata$0$create_tablespace_directories
+0CF 00000000 SECT10 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 31D30521, selection    5 (pick associative Section 0x6)
+0D1 00000000 SECT10 notype       Static       | $chain$1$create_tablespace_directories
+0D2 00000000 SECT11 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5191612C, selection    5 (pick associative Section 0x6)
+0D4 00000000 SECT11 notype       Static       | $pdata$1$create_tablespace_directories
+0D5 00000000 SECT12 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 12EC9B42, selection    5 (pick associative Section 0x6)
+0D7 00000000 SECT12 notype       Static       | $chain$2$create_tablespace_directories
+0D8 00000000 SECT13 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum BB7D93C9, selection    5 (pick associative Section 0x6)
+0DA 00000000 SECT13 notype       Static       | $pdata$2$create_tablespace_directories
+0DB 00000000 SECT14 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum DAA3C0EC, selection    5 (pick associative Section 0x6)
+0DD 00000000 SECT14 notype       Static       | $chain$3$create_tablespace_directories
+0DE 00000000 SECT15 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F3E0B9D2, selection    5 (pick associative Section 0x6)
+0E0 00000000 SECT15 notype       Static       | $pdata$3$create_tablespace_directories
+0E1 00000000 SECT16 notype       Static       | .xdata
+    Section length   20, #relocs    1, #linenums    0, checksum E0B6F8C3, selection    5 (pick associative Section 0x8)
+0E3 00000000 SECT16 notype       Static       | $unwind$destroy_tablespace_directories
+0E4 00000000 SECT17 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A3E0315C, selection    5 (pick associative Section 0x8)
+0E6 00000000 SECT17 notype       Static       | $pdata$destroy_tablespace_directories
+0E7 00000000 UNDEF  notype       External     | MainLWLockArray
+0E8 00000000 UNDEF  notype       External     | InRecovery
+0E9 00000000 UNDEF  notype       External     | object_access_hook
+0EA 00000000 UNDEF  notype       External     | DataDir
+0EB 00000000 UNDEF  notype       External     | MyDatabaseTableSpace
+0EC 00000000 UNDEF  notype       External     | allowSystemTableMods
+0ED 00000000 UNDEF  notype       External     | GUC_check_errdetail_string
+0EE 00000000 UNDEF  notype       External     | TopTransactionContext
+0EF 00000000 SECT18 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 2CD5E8C4, selection    2 (pick any)
+0F1 00000000 SECT18 notype       External     | ??_C@_0BI@HAOLNNBL@TablespaceCreateDbspace?$AA@ (`string')
+0F2 00000000 SECT19 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 48FA779A, selection    2 (pick any)
+0F4 00000000 SECT19 notype       External     | ??_C@_0CC@PGHEOEEP@src?1backend?1commands?1tablespace?4@ (`string')
+0F5 00000000 SECT1A notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 947C1ED4, selection    2 (pick any)
+0F7 00000000 SECT1A notype       External     | ??_C@_0CE@BDFFDPO@could?5not?5create?5directory?5?$CC?$CFs?$CC?3@ (`string')
+0F8 00000000 SECT1B notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum CD2A2DE8, selection    2 (pick any)
+0FA 00000000 SECT1B notype       External     | ??_C@_0CC@HDKELODN@could?5not?5stat?5directory?5?$CC?$CFs?$CC?3?5?$CF@ (`string')
+0FB 00000000 SECT1C notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum AC4E2209, selection    2 (pick any)
+0FD 00000000 SECT1C notype       External     | ??_C@_0CD@FKEJIKMB@?$CC?$CFs?$CC?5exists?5but?5is?5not?5a?5directo@ (`string')
+0FE 00000000 SECT1D notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 84996E20, selection    2 (pick any)
+100 00000000 SECT1D notype       External     | ??_C@_0BB@LCIJGAGC@CreateTableSpace?$AA@ (`string')
+101 00000000 SECT1E notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum 6EE93CC7, selection    2 (pick any)
+103 00000000 SECT1E notype       External     | ??_C@_0CK@HFHJOLMD@Must?5be?5superuser?5to?5create?5a?5ta@ (`string')
+104 00000000 SECT1F notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum  D69C123, selection    2 (pick any)
+106 00000000 SECT1F notype       External     | ??_C@_0CM@HBLCFIMA@permission?5denied?5to?5create?5tabl@ (`string')
+107 00000000 SECT20 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum  573BDA8, selection    2 (pick any)
+109 00000000 SECT20 notype       External     | ??_C@_0DB@KIBJECKC@tablespace?5location?5cannot?5conta@ (`string')
+10A 00000000 SECT21 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 916F27AA, selection    2 (pick any)
+10C 00000000 SECT21 notype       External     | ??_C@_0CN@KIBAEPPB@tablespace?5location?5must?5be?5an?5a@ (`string')
+10D 00000000 SECT22 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum F76B7DA3, selection    2 (pick any)
+10F 00000000 SECT22 notype       External     | ??_C@_0CF@CMEFPNDI@tablespace?5location?5?$CC?$CFs?$CC?5is?5too?5@ (`string')
+110 00000000 SECT23 notype       Static       | .rdata
+    Section length   3C, #relocs    0, #linenums    0, checksum E90A8921, selection    2 (pick any)
+112 00000000 SECT23 notype       External     | ??_C@_0DM@BCOHPPNG@tablespace?5location?5should?5not?5b@ (`string')
+113 00000000 SECT24 notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum F1A07703, selection    2 (pick any)
+115 00000000 SECT24 notype       External     | ??_C@_0DF@BHPAPPPC@The?5prefix?5?$CCpg_?$CC?5is?5reserved?5for@ (`string')
+116 00000000 SECT25 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 3B2266C7, selection    2 (pick any)
+118 00000000 SECT25 notype       External     | ??_C@_0CC@IFKMPFBC@unacceptable?5tablespace?5name?5?$CC?$CFs@ (`string')
+119 00000000 SECT26 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 905DC631, selection    2 (pick any)
+11B 00000000 SECT26 notype       External     | ??_C@_0BP@GKLJFHO@tablespace?5?$CC?$CFs?$CC?5already?5exists?$AA@ (`string')
+11C 00000000 SECT27 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 3E1BB97E, selection    2 (pick any)
+11E 00000000 SECT27 notype       External     | ??_C@_0P@BGDHEFGG@DropTableSpace?$AA@ (`string')
+11F 00000000 SECT28 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 7AE9E7CE, selection    2 (pick any)
+121 00000000 SECT28 notype       External     | ??_C@_0BP@OMBPLEIB@tablespace?5?$CC?$CFs?$CC?5does?5not?5exist?$AA@ (`string')
+122 00000000 SECT29 notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum A9D779D9, selection    2 (pick any)
+124 00000000 SECT29 notype       External     | ??_C@_0CJ@DIKFAGIM@tablespace?5?$CC?$CFs?$CC?5does?5not?5exist?0?5@ (`string')
+125 00000000 SECT2A notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 8E7BF6E8, selection    2 (pick any)
+127 00000000 SECT2A notype       External     | ??_C@_0BN@HKNAMMDB@tablespace?5?$CC?$CFs?$CC?5is?5not?5empty?$AA@ (`string')
+128 00000000 SECT2B notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 9BA495EF, selection    2 (pick any)
+12A 00000000 SECT2B notype       External     | ??_C@_0N@GLCPCMJC@pg_tblspc?1?$CFu?$AA@ (`string')
+12B 00000000 SECT2C notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum  58569C8, selection    2 (pick any)
+12D 00000000 SECT2C notype       External     | ??_C@_0BA@BGMBNNGC@PG_10_201707211?$AA@ (`string')
+12E 00000000 SECT2D notype       Static       | .rdata
+    Section length    6, #relocs    0, #linenums    0, checksum 2BD61FCC, selection    2 (pick any)
+130 00000000 SECT2D notype       External     | ??_C@_05GFOLEBJA@?$CFs?1?$CFs?$AA@ (`string')
+131 00000000 SECT2E notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 59D76DA7, selection    2 (pick any)
+133 00000000 SECT2E notype       External     | ??_C@_0BO@KGCMKMON@create_tablespace_directories?$AA@ (`string')
+134 00000000 SECT2F notype       Static       | .rdata
+    Section length   47, #relocs    0, #linenums    0, checksum 9BF260E5, selection    2 (pick any)
+136 00000000 SECT2F notype       External     | ??_C@_0EH@KJCFIJHF@Create?5this?5directory?5for?5the?5ta@ (`string')
+137 00000000 SECT30 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 972CF71D, selection    2 (pick any)
+139 00000000 SECT30 notype       External     | ??_C@_0BO@GINHDGFH@directory?5?$CC?$CFs?$CC?5does?5not?5exist?$AA@ (`string')
+13A 00000000 SECT31 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum 20DE57E5, selection    2 (pick any)
+13C 00000000 SECT31 notype       External     | ??_C@_0DA@CNKJBLIP@could?5not?5set?5permissions?5on?5dir@ (`string')
+13D 00000000 SECT32 notype       Static       | .rdata
+    Section length   45, #relocs    0, #linenums    0, checksum CC76A8F9, selection    2 (pick any)
+13F 00000000 SECT32 notype       External     | ??_C@_0EF@EJPMLALA@some?5useless?5files?5may?5be?5left?5b@ (`string')
+140 00000000 SECT33 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum  1AF7D73, selection    2 (pick any)
+142 00000000 SECT33 notype       External     | ??_C@_0CO@PNCPIKGH@directory?5?$CC?$CFs?$CC?5already?5in?5use?5as@ (`string')
+143 00000000 SECT34 notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 19F81D90, selection    2 (pick any)
+145 00000000 SECT34 notype       External     | ??_C@_0CI@POLNPNO@could?5not?5create?5symbolic?5link?5?$CC@ (`string')
+146 00000000 SECT35 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum BDF69FFE, selection    2 (pick any)
+148 00000000 SECT35 notype       External     | ??_C@_0BA@KOLCCLFE@pg_tblspc?1?$CFu?1?$CFs?$AA@ (`string')
+149 00000000 SECT36 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum F51EB611, selection    2 (pick any)
+14B 00000000 SECT36 notype       External     | ??_C@_0BP@GDOIOFFO@destroy_tablespace_directories?$AA@ (`string')
+14C 00000000 SECT37 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum DF65D840, selection    2 (pick any)
+14E 00000000 SECT37 notype       External     | ??_C@_0CC@GBOLELJF@could?5not?5open?5directory?5?$CC?$CFs?$CC?3?5?$CF@ (`string')
+14F 00000000 SECT38 notype       Static       | .rdata
+    Section length    2, #relocs    0, #linenums    0, checksum  B07092C, selection    2 (pick any)
+151 00000000 SECT38 notype       External     | ??_C@_01LFCBOECM@?4?$AA@ (`string')
+152 00000000 SECT39 notype       Static       | .rdata
+    Section length    3, #relocs    0, #linenums    0, checksum 39D462C6, selection    2 (pick any)
+154 00000000 SECT39 notype       External     | ??_C@_02DJGKEECL@?4?4?$AA@ (`string')
+155 00000000 SECT3A notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 5E5AFC9F, selection    2 (pick any)
+157 00000000 SECT3A notype       External     | ??_C@_0CE@MLBDLBLF@could?5not?5remove?5directory?5?$CC?$CFs?$CC?3@ (`string')
+158 00000000 SECT3B notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 89BC3D26, selection    2 (pick any)
+15A 00000000 SECT3B notype       External     | ??_C@_0BN@HNBHAHPP@could?5not?5stat?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+15B 00000000 SECT3C notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum AF9E3AEC, selection    2 (pick any)
+15D 00000000 SECT3C notype       External     | ??_C@_0CJ@DOOMEFLJ@?$CC?$CFs?$CC?5is?5not?5a?5directory?5or?5symbo@ (`string')
+15E 00000000 SECT3D notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum C09E5277, selection    2 (pick any)
+160 00000000 SECT3D notype       External     | ??_C@_0BK@JAINBDLK@remove_tablespace_symlink?$AA@ (`string')
+161 00000000 SECT3E notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum E2D6F039, selection    2 (pick any)
+163 00000000 SECT3E notype       External     | ??_C@_0BB@NEMGPOHL@RenameTableSpace?$AA@ (`string')
+164 00000000 SECT3F notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum C1F5552F, selection    2 (pick any)
+166 00000000 SECT3F notype       External     | ??_C@_0BH@EMKKIOJE@AlterTableSpaceOptions?$AA@ (`string')
+167 00000000 SECT40 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum DB3C3EC1, selection    2 (pick any)
+169 00000000 SECT40 notype       External     | ??_C@_0BJ@MNAMMPLB@check_default_tablespace?$AA@ (`string')
+16A 00000000 SECT41 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 4D13D2AE, selection    2 (pick any)
+16C 00000000 SECT41 notype       External     | ??_C@_0CA@KLOGHIPM@Tablespace?5?$CC?$CFs?$CC?5does?5not?5exist?4?$AA@ (`string')
+16D 00000000 SECT42 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum  BAE8AF9, selection    2 (pick any)
+16F 00000000 SECT42 notype       External     | ??_C@_0BI@FHJALPCG@List?5syntax?5is?5invalid?4?$AA@ (`string')
+170 00000000 SECT43 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 39E1A641, selection    2 (pick any)
+172 00000000 SECT43 notype       External     | ??_C@_0BH@LELOHNPK@check_temp_tablespaces?$AA@ (`string')
+173 00000000 SECT44 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum   602FED, selection    2 (pick any)
+175 00000000 SECT44 notype       External     | ??_C@_0BD@CFJHBJHN@get_tablespace_oid?$AA@ (`string')
+176 00000000 SECT45 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum E486535C, selection    2 (pick any)
+178 00000000 SECT45 notype       External     | ??_C@_0M@GAKMGKMM@tblspc_redo?$AA@ (`string')
+179 00000000 SECT46 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum 4768C977, selection    2 (pick any)
+17B 00000000 SECT46 notype       External     | ??_C@_0DG@INDEFLHF@You?5can?5remove?5the?5directories?5m@ (`string')
+17C 00000000 SECT47 notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum 92B29EE6, selection    2 (pick any)
+17E 00000000 SECT47 notype       External     | ??_C@_0DD@EFFPDEIL@directories?5for?5tablespace?5?$CFu?5co@ (`string')
+17F 00000000 SECT48 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 6EFF58AC, selection    2 (pick any)
+181 00000000 SECT48 notype       External     | ??_C@_0CA@IIAKPCPO@tblspc_redo?3?5unknown?5op?5code?5?$CFu?$AA@ (`string')
+182 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x19A2 bytes
+
+  Summary
+
+          10 .bss
+        8170 .debug$S
+          68 .debug$T
+          5D .drectve
+         18C .pdata
+         636 .rdata
+        2105 .text$mn
+         290 .xdata

@@ -1,0 +1,106 @@
+
+Dump of file Release\test_shm_mq/worker.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 42DC, #relocs   3E, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   6C, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  30B, #relocs   40, #linenums    0, checksum  4BDCAA2
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   81, #relocs    7, #linenums    0, checksum B342194D, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  1EC, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype       External     | __imp__errno
+00F 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+010 00000000 UNDEF  notype ()    External     | pqsignal
+011 00000000 UNDEF  notype ()    External     | errstart
+012 00000000 UNDEF  notype ()    External     | errfinish
+013 00000000 UNDEF  notype ()    External     | errcode
+014 00000000 UNDEF  notype ()    External     | errmsg
+015 00000000 UNDEF  notype ()    External     | elog_start
+016 00000000 UNDEF  notype ()    External     | elog_finish
+017 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+018 00000000 UNDEF  notype ()    External     | proc_exit
+019 00000000 UNDEF  notype ()    External     | s_lock
+01A 00000000 UNDEF  notype ()    External     | BackendPidGetProc
+01B 00000000 UNDEF  notype ()    External     | BackgroundWorkerUnblockSignals
+01C 00000000 UNDEF  notype ()    External     | dsm_attach
+01D 00000000 UNDEF  notype ()    External     | dsm_detach
+01E 00000000 UNDEF  notype ()    External     | dsm_segment_address
+01F 00000000 UNDEF  notype ()    External     | SetLatch
+020 00000000 UNDEF  notype ()    External     | shm_mq_set_receiver
+021 00000000 UNDEF  notype ()    External     | shm_mq_set_sender
+022 00000000 UNDEF  notype ()    External     | shm_mq_attach
+023 00000000 UNDEF  notype ()    External     | shm_mq_send
+024 00000000 UNDEF  notype ()    External     | shm_mq_receive
+025 00000000 UNDEF  notype ()    External     | shm_toc_attach
+026 00000000 UNDEF  notype ()    External     | shm_toc_lookup
+027 00000000 UNDEF  notype ()    External     | ResourceOwnerCreate
+028 00000000 SECT4  notype ()    External     | test_shm_mq_main
+029 000002C0 SECT4  notype ()    Static       | handle_sigterm
+02A 00000000 SECT5  notype ()    Static       | copy_messages
+02B 00000000 SECT4  notype       Label        | $LN39
+02C 00000000 SECT7  notype       Static       | .xdata
+    Section length   24, #relocs    0, #linenums    0, checksum 3CF4841A
+02E 00000000 SECT7  notype       Static       | $unwind$test_shm_mq_main
+02F 00000000 SECT8  notype       Static       | .pdata
+    Section length   18, #relocs    6, #linenums    0, checksum 70CCC5DB
+031 00000000 SECT8  notype       Static       | $pdata$test_shm_mq_main
+032 0000001C SECT7  notype       Static       | $unwind$handle_sigterm
+033 0000000C SECT8  notype       Static       | $pdata$handle_sigterm
+034 00000000 SECT9  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0x5)
+036 00000000 SECT9  notype       Static       | $unwind$copy_messages
+037 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 9F918544, selection    5 (pick associative Section 0x5)
+039 00000000 SECTA  notype       Static       | $pdata$copy_messages
+03A 00000000 UNDEF  notype       External     | __imp_pg_signal_queue
+03B 00000000 UNDEF  notype       External     | __imp_pg_signal_mask
+03C 00000000 UNDEF  notype       External     | __imp_InterruptPending
+03D 00000000 UNDEF  notype       External     | __imp_ProcDiePending
+03E 00000000 UNDEF  notype       External     | __imp_MyLatch
+03F 00000000 UNDEF  notype       External     | __imp_proc_exit_inprogress
+040 00000000 UNDEF  notype       External     | __imp_MyBgworkerEntry
+041 00000000 UNDEF  notype       External     | __imp_MyProc
+042 00000000 UNDEF  notype       External     | __imp_CurrentResourceOwner
+043 00000000 SECTB  notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 3D402B34, selection    2 (pick any)
+045 00000000 SECTB  notype       External     | ??_C@_0BD@BILHBNKE@test_shm_mq?5worker?$AA@ (`string')
+046 00000000 SECTC  notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum  CE4B337, selection    2 (pick any)
+048 00000000 SECTC  notype       External     | ??_C@_0BB@DKPELNHF@test_shm_mq_main?$AA@ (`string')
+049 00000000 SECTD  notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum B9DF6D84, selection    2 (pick any)
+04B 00000000 SECTD  notype       External     | ??_C@_0CG@NONJAJMI@src?1test?1modules?1test_shm_mq?1wor@ (`string')
+04C 00000000 SECTE  notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum C2D8F4FE, selection    2 (pick any)
+04E 00000000 SECTE  notype       External     | ??_C@_0CM@LOADGNBN@unable?5to?5map?5dynamic?5shared?5mem@ (`string')
+04F 00000000 SECTF  notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum  E15D863, selection    2 (pick any)
+051 00000000 SECTF  notype       External     | ??_C@_0DC@OOGNFLIC@bad?5magic?5number?5in?5dynamic?5shar@ (`string')
+052 00000000 SECT10 notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum DC48796D, selection    2 (pick any)
+054 00000000 SECT10 notype       External     | ??_C@_0CP@MGGOCNOH@too?5many?5message?5queue?5testing?5w@ (`string')
+055 00000000 SECT11 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum C03761D8, selection    2 (pick any)
+057 00000000 SECT11 notype       External     | ??_C@_0CK@NLKHLGNM@registrant?5backend?5has?5exited?5pr@ (`string')
+
+String Table Size = 0x434 bytes
+
+  Summary
+
+        44C8 .debug$S
+          6C .debug$T
+          5D .drectve
+          24 .pdata
+         101 .rdata
+         38C .text$mn
+          30 .xdata

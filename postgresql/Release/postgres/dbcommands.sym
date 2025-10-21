@@ -1,0 +1,525 @@
+
+Dump of file Release\postgres/dbcommands.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 9FD8, #relocs  236, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 338C, #relocs  2F5, #linenums    0, checksum 1AF955DD
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   FC, #relocs    C, #linenums    0, checksum 9E940FA1, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  300, #relocs   20, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   5B, #relocs    4, #linenums    0, checksum BEB64EFA, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  168, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  96B, #relocs   8F, #linenums    0, checksum 67013E25, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  EC0, #relocs   74, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  1B3, #relocs   15, #linenums    0, checksum C6771140, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  334, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 UNDEF  notype       External     | __imp_rmdir
+01B 00000000 UNDEF  notype ()    External     | rmtree
+01C 00000000 UNDEF  notype ()    External     | pgwin32_safestat
+01D 00000000 UNDEF  notype ()    External     | pg_get_encoding_from_locale
+01E 00000000 UNDEF  notype ()    External     | errstart
+01F 00000000 UNDEF  notype ()    External     | errfinish
+020 00000000 UNDEF  notype ()    External     | errcode
+021 00000000 UNDEF  notype ()    External     | errmsg
+022 00000000 UNDEF  notype ()    External     | errdetail
+023 00000000 UNDEF  notype ()    External     | errdetail_plural
+024 00000000 UNDEF  notype ()    External     | errhint
+025 00000000 UNDEF  notype ()    External     | elog_start
+026 00000000 UNDEF  notype ()    External     | elog_finish
+027 00000000 UNDEF  notype ()    External     | pg_re_throw
+028 00000000 UNDEF  notype ()    External     | pfree
+029 00000000 UNDEF  notype ()    External     | pstrdup
+02A 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+02B 00000000 UNDEF  notype ()    External     | DirectFunctionCall1Coll
+02C 00000000 UNDEF  notype ()    External     | ScanKeyInit
+02D 00000000 UNDEF  notype ()    External     | systable_beginscan
+02E 00000000 UNDEF  notype ()    External     | systable_getnext
+02F 00000000 UNDEF  notype ()    External     | systable_endscan
+030 00000000 UNDEF  notype ()    External     | relation_close
+031 00000000 UNDEF  notype ()    External     | heap_open
+032 00000000 UNDEF  notype ()    External     | heap_beginscan_catalog
+033 00000000 UNDEF  notype ()    External     | heap_endscan
+034 00000000 UNDEF  notype ()    External     | heap_getnext
+035 00000000 UNDEF  notype ()    External     | nocachegetattr
+036 00000000 UNDEF  notype ()    External     | heap_form_tuple
+037 00000000 UNDEF  notype ()    External     | heap_modify_tuple
+038 00000000 UNDEF  notype ()    External     | heap_freetuple
+039 00000000 UNDEF  notype ()    External     | GetDatabasePath
+03A 00000000 UNDEF  notype ()    External     | ForceSyncCommit
+03B 00000000 UNDEF  notype ()    External     | StartTransactionCommand
+03C 00000000 UNDEF  notype ()    External     | CommitTransactionCommand
+03D 00000000 UNDEF  notype ()    External     | PreventTransactionChain
+03E 00000000 UNDEF  notype ()    External     | XLogBeginInsert
+03F 00000000 UNDEF  notype ()    External     | XLogInsert
+040 00000000 UNDEF  notype ()    External     | XLogRegisterData
+041 00000000 UNDEF  notype ()    External     | PopActiveSnapshot
+042 00000000 UNDEF  notype ()    External     | FlushDatabaseBuffers
+043 00000000 UNDEF  notype ()    External     | DropDatabaseBuffers
+044 00000000 UNDEF  notype ()    External     | XLogDropDatabase
+045 00000000 UNDEF  notype ()    External     | GetNewOid
+046 00000000 UNDEF  notype ()    External     | parser_errposition
+047 00000000 UNDEF  notype ()    External     | aclnewowner
+048 00000000 UNDEF  notype ()    External     | check_is_member_of_role
+049 00000000 UNDEF  notype ()    External     | get_role_oid
+04A 00000000 UNDEF  notype ()    External     | pg_tablespace_aclcheck
+04B 00000000 UNDEF  notype ()    External     | aclcheck_error
+04C 00000000 UNDEF  notype ()    External     | pg_database_ownercheck
+04D 00000000 UNDEF  notype ()    External     | recordDependencyOnOwner
+04E 00000000 UNDEF  notype ()    External     | changeDependencyOnOwner
+04F 00000000 UNDEF  notype ()    External     | shdepLockAndCheckObject
+050 00000000 UNDEF  notype ()    External     | copyTemplateDependencies
+051 00000000 UNDEF  notype ()    External     | dropDatabaseDependencies
+052 00000000 UNDEF  notype ()    External     | CatalogTupleInsert
+053 00000000 UNDEF  notype ()    External     | CatalogTupleUpdate
+054 00000000 UNDEF  notype ()    External     | CatalogTupleDelete
+055 00000000 UNDEF  notype ()    External     | RunObjectPostCreateHook
+056 00000000 UNDEF  notype ()    External     | RunObjectDropHook
+057 00000000 UNDEF  notype ()    External     | RunObjectPostAlterHook
+058 00000000 UNDEF  notype ()    External     | AlterSetting
+059 00000000 UNDEF  notype ()    External     | DropSetting
+05A 00000000 UNDEF  notype ()    External     | CountDBSubscriptions
+05B 00000000 UNDEF  notype ()    External     | DeleteSharedComments
+05C 00000000 SECT4  notype ()    External     | createdb
+05D 00001770 SECT4  notype ()    External     | dropdb
+05E 00001D70 SECT4  notype ()    External     | RenameDatabase
+05F 00002270 SECT4  notype ()    External     | AlterDatabase
+060 000029A0 SECT4  notype ()    External     | AlterDatabaseSet
+061 00002A20 SECT4  notype ()    External     | AlterDatabaseOwner
+062 00002E00 SECT4  notype ()    External     | get_database_oid
+063 00002F30 SECT4  notype ()    External     | get_database_name
+064 00002FA0 SECT4  notype ()    External     | check_encoding_locale_matches
+065 00003140 SECT4  notype ()    External     | dbase_redo
+066 00000000 UNDEF  notype ()    External     | defGetString
+067 00000000 UNDEF  notype ()    External     | defGetBoolean
+068 00000000 UNDEF  notype ()    External     | defGetInt32
+069 00000000 UNDEF  notype ()    External     | DeleteSharedSecurityLabel
+06A 00000000 UNDEF  notype ()    External     | get_tablespace_oid
+06B 00000000 UNDEF  notype ()    External     | directory_is_empty
+06C 00000000 UNDEF  notype ()    External     | pg_encoding_to_char
+06D 00000000 UNDEF  notype ()    External     | pg_valid_server_encoding
+06E 00000000 UNDEF  notype ()    External     | GetUserId
+06F 00000000 UNDEF  notype ()    External     | superuser
+070 00000000 UNDEF  notype ()    External     | pgstat_drop_database
+071 00000000 UNDEF  notype ()    External     | RequestCheckpoint
+072 00000000 UNDEF  notype ()    External     | AllocateDir
+073 00000000 UNDEF  notype ()    External     | ReadDir
+074 00000000 UNDEF  notype ()    External     | FreeDir
+075 00000000 UNDEF  notype ()    External     | ReplicationSlotsCountDBSlots
+076 00000000 UNDEF  notype ()    External     | ReplicationSlotsDropDBSlots
+077 00000000 UNDEF  notype ()    External     | copydir
+078 00000000 UNDEF  notype ()    External     | LockSharedObject
+079 00000000 UNDEF  notype ()    External     | UnlockSharedObject
+07A 00000000 UNDEF  notype ()    External     | LockSharedObjectForSession
+07B 00000000 UNDEF  notype ()    External     | UnlockSharedObjectForSession
+07C 00000000 UNDEF  notype ()    External     | before_shmem_exit
+07D 00000000 UNDEF  notype ()    External     | cancel_before_shmem_exit
+07E 00000000 UNDEF  notype ()    External     | ResolveRecoveryConflictWithDatabase
+07F 00000000 UNDEF  notype ()    External     | CountOtherDBBackends
+080 00000000 UNDEF  notype ()    External     | ForgetDatabaseFsyncRequests
+081 00000000 UNDEF  notype ()    External     | namein
+082 00000000 UNDEF  notype ()    External     | namestrcpy
+083 00000000 UNDEF  notype ()    External     | check_locale
+084 00000000 UNDEF  notype ()    External     | SearchSysCache
+085 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+086 00000000 UNDEF  notype ()    External     | SearchSysCacheCopy
+087 00003340 SECT4  notype ()    Static       | createdb_failure_callback
+088 00000000 SECT9  notype ()    Static       | movedb
+089 00003370 SECT4  notype ()    Static       | movedb_failure_callback
+08A 00000000 SECT7  notype ()    Static       | have_createdb_privilege
+08B 00000000 SECTB  notype ()    Static       | remove_dbtablespaces
+08C 00000000 SECT5  notype ()    Static       | check_db_file_conflict
+08D 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+08E 00000000 UNDEF  notype ()    External     | __security_check_cookie
+08F 00000000 UNDEF  notype ()    External     | _setjmp
+090 00000000 UNDEF  notype ()    External     | memset
+091 00000000 UNDEF  notype ()    External     | strcmp
+092 00001763 SECT4  notype       Label        | $LN358
+093 00000000 SECT4  notype       Label        | $LN359
+094 00001770 SECT4  notype       Label        | $LN97
+095 00001D70 SECT4  notype       Label        | $LN92
+096 00002270 SECT4  notype       Label        | $LN143
+097 000029A0 SECT4  notype       Label        | $LN5
+098 00002A20 SECT4  notype       Label        | $LN52
+099 00002E00 SECT4  notype       Label        | $LN17
+09A 00002F30 SECT4  notype       Label        | $LN6
+09B 00002FA0 SECT4  notype       Label        | $LN20
+09C 00003140 SECT4  notype       Label        | $LN27
+09D 0000096B SECT9  notype       Label        | $LN164
+09E 00000000 SECTD  notype       Static       | .xdata
+    Section length  1D8, #relocs   28, #linenums    0, checksum 445FFC14
+0A0 00000000 SECTD  notype       Static       | $unwind$createdb
+0A1 00000000 SECTE  notype       Static       | .pdata
+    Section length  120, #relocs   48, #linenums    0, checksum CC59E231
+0A3 00000000 SECTE  notype       Static       | $pdata$createdb
+0A4 00000024 SECTD  notype       Static       | $unwind$dropdb
+0A5 0000000C SECTE  notype       Static       | $pdata$dropdb
+0A6 0000003C SECTD  notype       Static       | $chain$0$dropdb
+0A7 00000018 SECTE  notype       Static       | $pdata$0$dropdb
+0A8 00000050 SECTD  notype       Static       | $chain$1$dropdb
+0A9 00000024 SECTE  notype       Static       | $pdata$1$dropdb
+0AA 00000060 SECTD  notype       Static       | $chain$2$dropdb
+0AB 00000030 SECTE  notype       Static       | $pdata$2$dropdb
+0AC 00000074 SECTD  notype       Static       | $chain$3$dropdb
+0AD 0000003C SECTE  notype       Static       | $pdata$3$dropdb
+0AE 00000084 SECTD  notype       Static       | $unwind$RenameDatabase
+0AF 00000048 SECTE  notype       Static       | $pdata$RenameDatabase
+0B0 0000009C SECTD  notype       Static       | $unwind$AlterDatabase
+0B1 00000054 SECTE  notype       Static       | $pdata$AlterDatabase
+0B2 000000C0 SECTD  notype       Static       | $unwind$AlterDatabaseSet
+0B3 00000060 SECTE  notype       Static       | $pdata$AlterDatabaseSet
+0B4 000000CC SECTD  notype       Static       | $unwind$AlterDatabaseOwner
+0B5 0000006C SECTE  notype       Static       | $pdata$AlterDatabaseOwner
+0B6 000000E4 SECTD  notype       Static       | $chain$3$AlterDatabaseOwner
+0B7 00000078 SECTE  notype       Static       | $pdata$3$AlterDatabaseOwner
+0B8 00000104 SECTD  notype       Static       | $chain$4$AlterDatabaseOwner
+0B9 00000084 SECTE  notype       Static       | $pdata$4$AlterDatabaseOwner
+0BA 00000114 SECTD  notype       Static       | $unwind$get_database_oid
+0BB 00000090 SECTE  notype       Static       | $pdata$get_database_oid
+0BC 0000012C SECTD  notype       Static       | $unwind$get_database_name
+0BD 0000009C SECTE  notype       Static       | $pdata$get_database_name
+0BE 00000134 SECTD  notype       Static       | $chain$0$get_database_name
+0BF 000000A8 SECTE  notype       Static       | $pdata$0$get_database_name
+0C0 00000148 SECTD  notype       Static       | $chain$1$get_database_name
+0C1 000000B4 SECTE  notype       Static       | $pdata$1$get_database_name
+0C2 00000158 SECTD  notype       Static       | $unwind$check_encoding_locale_matches
+0C3 000000C0 SECTE  notype       Static       | $pdata$check_encoding_locale_matches
+0C4 0000016C SECTD  notype       Static       | $chain$0$check_encoding_locale_matches
+0C5 000000CC SECTE  notype       Static       | $pdata$0$check_encoding_locale_matches
+0C6 00000180 SECTD  notype       Static       | $chain$1$check_encoding_locale_matches
+0C7 000000D8 SECTE  notype       Static       | $pdata$1$check_encoding_locale_matches
+0C8 00000190 SECTD  notype       Static       | $unwind$dbase_redo
+0C9 000000E4 SECTE  notype       Static       | $pdata$dbase_redo
+0CA 000001A4 SECTD  notype       Static       | $chain$0$dbase_redo
+0CB 000000F0 SECTE  notype       Static       | $pdata$0$dbase_redo
+0CC 000001B8 SECTD  notype       Static       | $chain$1$dbase_redo
+0CD 000000FC SECTE  notype       Static       | $pdata$1$dbase_redo
+0CE 000001C8 SECTD  notype       Static       | $unwind$createdb_failure_callback
+0CF 00000108 SECTE  notype       Static       | $pdata$createdb_failure_callback
+0D0 00000000 SECTF  notype       Static       | .xdata
+    Section length   24, #relocs    1, #linenums    0, checksum 695E7115, selection    5 (pick associative Section 0x9)
+0D2 00000000 SECTF  notype       Static       | $unwind$movedb
+0D3 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 1819F93E, selection    5 (pick associative Section 0x9)
+0D5 00000000 SECT10 notype       Static       | $pdata$movedb
+0D6 000001D0 SECTD  notype       Static       | $unwind$movedb_failure_callback
+0D7 00000114 SECTE  notype       Static       | $pdata$movedb_failure_callback
+0D8 00000000 SECT11 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum BC0E6383, selection    5 (pick associative Section 0x7)
+0DA 00000000 SECT11 notype       Static       | $unwind$have_createdb_privilege
+0DB 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  84CEF90, selection    5 (pick associative Section 0x7)
+0DD 00000000 SECT12 notype       Static       | $pdata$have_createdb_privilege
+0DE 00000000 SECT13 notype       Static       | .xdata
+    Section length   14, #relocs    1, #linenums    0, checksum 685DE2F4, selection    5 (pick associative Section 0xB)
+0E0 00000000 SECT13 notype       Static       | $unwind$remove_dbtablespaces
+0E1 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 1DC6FDA2, selection    5 (pick associative Section 0xB)
+0E3 00000000 SECT14 notype       Static       | $pdata$remove_dbtablespaces
+0E4 00000000 SECT15 notype       Static       | .xdata
+    Section length   24, #relocs    3, #linenums    0, checksum 25C956D9, selection    5 (pick associative Section 0xB)
+0E6 00000000 SECT15 notype       Static       | $chain$4$remove_dbtablespaces
+0E7 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 1974AD16, selection    5 (pick associative Section 0xB)
+0E9 00000000 SECT16 notype       Static       | $pdata$4$remove_dbtablespaces
+0EA 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum A491174E, selection    5 (pick associative Section 0xB)
+0EC 00000000 SECT17 notype       Static       | $chain$5$remove_dbtablespaces
+0ED 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C7E41DC0, selection    5 (pick associative Section 0xB)
+0EF 00000000 SECT18 notype       Static       | $pdata$5$remove_dbtablespaces
+0F0 00000000 SECT19 notype       Static       | .xdata
+    Section length   18, #relocs    1, #linenums    0, checksum 46C814BD, selection    5 (pick associative Section 0x5)
+0F2 00000000 SECT19 notype       Static       | $unwind$check_db_file_conflict
+0F3 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 1DC6FDA2, selection    5 (pick associative Section 0x5)
+0F5 00000000 SECT1A notype       Static       | $pdata$check_db_file_conflict
+0F6 00000000 SECT1B notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum A05D660E, selection    5 (pick associative Section 0x5)
+0F8 00000000 SECT1B notype       Static       | $chain$0$check_db_file_conflict
+0F9 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 969E644F, selection    5 (pick associative Section 0x5)
+0FB 00000000 SECT1C notype       Static       | $pdata$0$check_db_file_conflict
+0FC 00000000 SECT1D notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum A491174E, selection    5 (pick associative Section 0x5)
+0FE 00000000 SECT1D notype       Static       | $chain$1$check_db_file_conflict
+0FF 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 60C3AE05, selection    5 (pick associative Section 0x5)
+101 00000000 SECT1E notype       Static       | $pdata$1$check_db_file_conflict
+102 00000000 UNDEF  notype       External     | error_context_stack
+103 00000000 UNDEF  notype       External     | PG_exception_stack
+104 00000000 UNDEF  notype       External     | object_access_hook
+105 00000000 UNDEF  notype       External     | MyDatabaseId
+106 00000000 UNDEF  notype       External     | standbyState
+107 00000000 SECT1F notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum F964D4F6, selection    2 (pick any)
+109 00000000 SECT1F notype       External     | ??_C@_0L@GNBMJKOF@tablespace?$AA@ (`string')
+10A 00000000 SECT20 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 8902BFD6, selection    2 (pick any)
+10C 00000000 SECT20 notype       External     | ??_C@_08JAPEFEIH@createdb?$AA@ (`string')
+10D 00000000 SECT21 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 849E178E, selection    2 (pick any)
+10F 00000000 SECT21 notype       External     | ??_C@_0CC@DKBAIEFL@src?1backend?1commands?1dbcommands?4@ (`string')
+110 00000000 SECT22 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 6898259A, selection    2 (pick any)
+112 00000000 SECT22 notype       External     | ??_C@_0CB@ONBLOAOI@conflicting?5or?5redundant?5options@ (`string')
+113 00000000 SECT23 notype       Static       | .rdata
+    Section length    6, #relocs    0, #linenums    0, checksum 3ABC13DF, selection    2 (pick any)
+115 00000000 SECT23 notype       External     | ??_C@_05HEIBENID@owner?$AA@ (`string')
+116 00000000 SECT24 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 402D49A6, selection    2 (pick any)
+118 00000000 SECT24 notype       External     | ??_C@_08FJNLKCPH@template?$AA@ (`string')
+119 00000000 SECT25 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum D200EFDB, selection    2 (pick any)
+11B 00000000 SECT25 notype       External     | ??_C@_08MLPGAEIK@encoding?$AA@ (`string')
+11C 00000000 SECT26 notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum  573341A, selection    2 (pick any)
+11E 00000000 SECT26 notype       External     | ??_C@_0L@JBALHKAJ@lc_collate?$AA@ (`string')
+11F 00000000 SECT27 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum E9D06FE9, selection    2 (pick any)
+121 00000000 SECT27 notype       External     | ??_C@_08PACGIELI@lc_ctype?$AA@ (`string')
+122 00000000 SECT28 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum DA09F608, selection    2 (pick any)
+124 00000000 SECT28 notype       External     | ??_C@_0M@FOCDMPJI@is_template?$AA@ (`string')
+125 00000000 SECT29 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum  35C59EB, selection    2 (pick any)
+127 00000000 SECT29 notype       External     | ??_C@_0BC@JLLIGJFJ@allow_connections?$AA@ (`string')
+128 00000000 SECT2A notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum EDED644A, selection    2 (pick any)
+12A 00000000 SECT2A notype       External     | ??_C@_0BB@NLPNGKAI@connection_limit?$AA@ (`string')
+12B 00000000 SECT2B notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 38E37E92, selection    2 (pick any)
+12D 00000000 SECT2B notype       External     | ??_C@_08CBBFJFMD@location?$AA@ (`string')
+12E 00000000 SECT2C notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum  1A043EF, selection    2 (pick any)
+130 00000000 SECT2C notype       External     | ??_C@_0CE@JEOJAOMF@Consider?5using?5tablespaces?5inste@ (`string')
+131 00000000 SECT2D notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 807C192E, selection    2 (pick any)
+133 00000000 SECT2D notype       External     | ??_C@_0CC@DOPCIKPL@LOCATION?5is?5not?5supported?5anymor@ (`string')
+134 00000000 SECT2E notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum EC2201BE, selection    2 (pick any)
+136 00000000 SECT2E notype       External     | ??_C@_0BL@JKHKMPC@option?5?$CC?$CFs?$CC?5not?5recognized?$AA@ (`string')
+137 00000000 SECT2F notype       Static       | .rdata
+    Section length    1, #relocs    0, #linenums    0, checksum        0, selection    2 (pick any)
+139 00000000 SECT2F notype       External     | ??_C@_00CNPNBAHC@?$AA@ (`string')
+13A 00000000 SECT30 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 6843095F, selection    2 (pick any)
+13C 00000000 SECT30 notype       External     | ??_C@_0CA@IOLGKDAN@?$CFd?5is?5not?5a?5valid?5encoding?5code?$AA@ (`string')
+13D 00000000 SECT31 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum B9149675, selection    2 (pick any)
+13F 00000000 SECT31 notype       External     | ??_C@_0CA@FPOBDMCH@?$CFs?5is?5not?5a?5valid?5encoding?5name?$AA@ (`string')
+140 00000000 SECT32 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 21257AF6, selection    2 (pick any)
+142 00000000 SECT32 notype       External     | ??_C@_0BN@NFIOEACP@invalid?5connection?5limit?3?5?$CFd?$AA@ (`string')
+143 00000000 SECT33 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum EFBEAAF1, selection    2 (pick any)
+145 00000000 SECT33 notype       External     | ??_C@_0CF@DEJACKGK@permission?5denied?5to?5create?5data@ (`string')
+146 00000000 SECT34 notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum F9A82C26, selection    2 (pick any)
+148 00000000 SECT34 notype       External     | ??_C@_09OFNNLLKP@template1?$AA@ (`string')
+149 00000000 SECT35 notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 20889AD2, selection    2 (pick any)
+14B 00000000 SECT35 notype       External     | ??_C@_0CG@EHIOPOJO@template?5database?5?$CC?$CFs?$CC?5does?5not?5@ (`string')
+14C 00000000 SECT36 notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum FAD384EA, selection    2 (pick any)
+14E 00000000 SECT36 notype       External     | ??_C@_0CI@OMMAEGKE@permission?5denied?5to?5copy?5databa@ (`string')
+14F 00000000 SECT37 notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 980FAD0C, selection    2 (pick any)
+151 00000000 SECT37 notype       External     | ??_C@_0BL@HNIKAAEA@invalid?5server?5encoding?5?$CFd?$AA@ (`string')
+152 00000000 SECT38 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum D09CA3BF, selection    2 (pick any)
+154 00000000 SECT38 notype       External     | ??_C@_0BK@IAIPOCHC@invalid?5locale?5name?3?5?$CC?$CFs?$CC?$AA@ (`string')
+155 00000000 SECT39 notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum E0B31D67, selection    2 (pick any)
+157 00000000 SECT39 notype       External     | ??_C@_09PMMGIKOO@template0?$AA@ (`string')
+158 00000000 SECT3A notype       Static       | .rdata
+    Section length   51, #relocs    0, #linenums    0, checksum F090E512, selection    2 (pick any)
+15A 00000000 SECT3A notype       External     | ??_C@_0FB@JEIKJBDF@Use?5the?5same?5encoding?5as?5in?5the?5@ (`string')
+15B 00000000 SECT3B notype       Static       | .rdata
+    Section length   52, #relocs    0, #linenums    0, checksum B65E2912, selection    2 (pick any)
+15D 00000000 SECT3B notype       External     | ??_C@_0FC@BDDAIGAN@new?5encoding?5?$CI?$CFs?$CJ?5is?5incompatibl@ (`string')
+15E 00000000 SECT3C notype       Static       | .rdata
+    Section length   52, #relocs    0, #linenums    0, checksum 32096598, selection    2 (pick any)
+160 00000000 SECT3C notype       External     | ??_C@_0FC@JHGHMKIH@Use?5the?5same?5collation?5as?5in?5the@ (`string')
+161 00000000 SECT3D notype       Static       | .rdata
+    Section length   54, #relocs    0, #linenums    0, checksum 2D579870, selection    2 (pick any)
+163 00000000 SECT3D notype       External     | ??_C@_0FE@KGGEINPJ@new?5collation?5?$CI?$CFs?$CJ?5is?5incompatib@ (`string')
+164 00000000 SECT3E notype       Static       | .rdata
+    Section length   51, #relocs    0, #linenums    0, checksum 323BAB29, selection    2 (pick any)
+166 00000000 SECT3E notype       External     | ??_C@_0FB@FGCBNPAO@Use?5the?5same?5LC_CTYPE?5as?5in?5the?5@ (`string')
+167 00000000 SECT3F notype       Static       | .rdata
+    Section length   52, #relocs    0, #linenums    0, checksum EF3D0747, selection    2 (pick any)
+169 00000000 SECT3F notype       External     | ??_C@_0FC@EKFDKIFI@new?5LC_CTYPE?5?$CI?$CFs?$CJ?5is?5incompatibl@ (`string')
+16A 00000000 SECT40 notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum 20869E26, selection    2 (pick any)
+16C 00000000 SECT40 notype       External     | ??_C@_0CP@DKKAMKKM@pg_global?5cannot?5be?5used?5as?5defa@ (`string')
+16D 00000000 SECT41 notype       Static       | .rdata
+    Section length   56, #relocs    0, #linenums    0, checksum 749EF65E, selection    2 (pick any)
+16F 00000000 SECT41 notype       External     | ??_C@_0FG@PDACLKIE@There?5is?5a?5conflict?5because?5data@ (`string')
+170 00000000 SECT42 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum 4DB89863, selection    2 (pick any)
+172 00000000 SECT42 notype       External     | ??_C@_0CK@FGCIEPGH@cannot?5assign?5new?5default?5tables@ (`string')
+173 00000000 SECT43 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 551EB7E7, selection    2 (pick any)
+175 00000000 SECT43 notype       External     | ??_C@_0BN@KBLFINDO@database?5?$CC?$CFs?$CC?5already?5exists?$AA@ (`string')
+176 00000000 SECT44 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum A9D8A230, selection    2 (pick any)
+178 00000000 SECT44 notype       External     | ??_C@_0DG@GDIEDADC@source?5database?5?$CC?$CFs?$CC?5is?5being?5ac@ (`string')
+179 00000000 SECT45 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 9F889F87, selection    2 (pick any)
+17B 00000000 SECT45 notype       External     | ??_C@_0BO@GAHDFOMN@check_encoding_locale_matches?$AA@ (`string')
+17C 00000000 SECT46 notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum C5144C11, selection    2 (pick any)
+17E 00000000 SECT46 notype       External     | ??_C@_0DE@PGMALMFO@The?5chosen?5LC_CTYPE?5setting?5requ@ (`string')
+17F 00000000 SECT47 notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum 36EEC50C, selection    2 (pick any)
+181 00000000 SECT47 notype       External     | ??_C@_0CJ@KHJMLKFJ@encoding?5?$CC?$CFs?$CC?5does?5not?5match?5loc@ (`string')
+182 00000000 SECT48 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum 422873D1, selection    2 (pick any)
+184 00000000 SECT48 notype       External     | ??_C@_0DG@IIHEOBND@The?5chosen?5LC_COLLATE?5setting?5re@ (`string')
+185 00000000 SECT49 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 515BEEE5, selection    2 (pick any)
+187 00000000 SECT49 notype       External     | ??_C@_06DDMIMOGE@dropdb?$AA@ (`string')
+188 00000000 SECT4A notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum BFAA9618, selection    2 (pick any)
+18A 00000000 SECT4A notype       External     | ??_C@_0BN@ELABKMMB@database?5?$CC?$CFs?$CC?5does?5not?5exist?$AA@ (`string')
+18B 00000000 SECT4B notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 25372463, selection    2 (pick any)
+18D 00000000 SECT4B notype       External     | ??_C@_0CH@FKDKCPLM@database?5?$CC?$CFs?$CC?5does?5not?5exist?0?5sk@ (`string')
+18E 00000000 SECT4C notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum E3636E5E, selection    2 (pick any)
+190 00000000 SECT4C notype       External     | ??_C@_0CA@FJGMEAM@cannot?5drop?5a?5template?5database?$AA@ (`string')
+191 00000000 SECT4D notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 2BEB8E96, selection    2 (pick any)
+193 00000000 SECT4D notype       External     | ??_C@_0CI@DNPIEMNI@cannot?5drop?5the?5currently?5open?5d@ (`string')
+194 00000000 SECT4E notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum FBD94F68, selection    2 (pick any)
+196 00000000 SECT4E notype       External     | ??_C@_0BK@KLMKAOKF@There?5are?5?$CFd?5active?5slots?$AA@ (`string')
+197 00000000 SECT4F notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 740C0DBD, selection    2 (pick any)
+199 00000000 SECT4F notype       External     | ??_C@_0BI@CIDCDIGC@There?5is?5?$CFd?5active?5slot?$AA@ (`string')
+19A 00000000 SECT50 notype       Static       | .rdata
+    Section length   3C, #relocs    0, #linenums    0, checksum 6D7A4AA7, selection    2 (pick any)
+19C 00000000 SECT50 notype       External     | ??_C@_0DM@JGJHDMFA@database?5?$CC?$CFs?$CC?5is?5used?5by?5an?5acti@ (`string')
+19D 00000000 SECT51 notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum  E7DEC21, selection    2 (pick any)
+19F 00000000 SECT51 notype       External     | ??_C@_0CP@BEFLLIKL@database?5?$CC?$CFs?$CC?5is?5being?5accessed?5@ (`string')
+1A0 00000000 SECT52 notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 47E8E40E, selection    2 (pick any)
+1A2 00000000 SECT52 notype       External     | ??_C@_0BM@DIGHGMBI@There?5are?5?$CFd?5subscriptions?4?$AA@ (`string')
+1A3 00000000 SECT53 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum B3176150, selection    2 (pick any)
+1A5 00000000 SECT53 notype       External     | ??_C@_0BK@ODAECAJN@There?5is?5?$CFd?5subscription?4?$AA@ (`string')
+1A6 00000000 SECT54 notype       Static       | .rdata
+    Section length   40, #relocs    0, #linenums    0, checksum 1C2E246B, selection    2 (pick any)
+1A8 00000000 SECT54 notype       External     | ??_C@_0EA@JGFMLIKC@database?5?$CC?$CFs?$CC?5is?5being?5used?5by?5l@ (`string')
+1A9 00000000 SECT55 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 4F0BD865, selection    2 (pick any)
+1AB 00000000 SECT55 notype       External     | ??_C@_0CE@NKECJFEP@cache?5lookup?5failed?5for?5database@ (`string')
+1AC 00000000 SECT56 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum AFE8712C, selection    2 (pick any)
+1AE 00000000 SECT56 notype       External     | ??_C@_0P@IHMEINDE@RenameDatabase?$AA@ (`string')
+1AF 00000000 SECT57 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum A61B792B, selection    2 (pick any)
+1B1 00000000 SECT57 notype       External     | ??_C@_0CF@HNDFPJLA@permission?5denied?5to?5rename?5data@ (`string')
+1B2 00000000 SECT58 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 6A51F234, selection    2 (pick any)
+1B4 00000000 SECT58 notype       External     | ??_C@_0CD@JMFGFKPM@current?5database?5cannot?5be?5renam@ (`string')
+1B5 00000000 SECT59 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 71BCE82D, selection    2 (pick any)
+1B7 00000000 SECT59 notype       External     | ??_C@_06BDCPMIKM@movedb?$AA@ (`string')
+1B8 00000000 SECT5A notype       Static       | .rdata
+    Section length   3C, #relocs    0, #linenums    0, checksum CE23574E, selection    2 (pick any)
+1BA 00000000 SECT5A notype       External     | ??_C@_0DM@DFMOCBLJ@cannot?5change?5the?5tablespace?5of?5@ (`string')
+1BB 00000000 SECT5B notype       Static       | .rdata
+    Section length    2, #relocs    0, #linenums    0, checksum  B07092C, selection    2 (pick any)
+1BD 00000000 SECT5B notype       External     | ??_C@_01LFCBOECM@?4?$AA@ (`string')
+1BE 00000000 SECT5C notype       Static       | .rdata
+    Section length    3, #relocs    0, #linenums    0, checksum 39D462C6, selection    2 (pick any)
+1C0 00000000 SECT5C notype       External     | ??_C@_02DJGKEECL@?4?4?$AA@ (`string')
+1C1 00000000 SECT5D notype       Static       | .rdata
+    Section length   58, #relocs    0, #linenums    0, checksum E89532F7, selection    2 (pick any)
+1C3 00000000 SECT5D notype       External     | ??_C@_0FI@OMCIJFEF@You?5must?5move?5them?5back?5to?5the?5d@ (`string')
+1C4 00000000 SECT5E notype       Static       | .rdata
+    Section length   3F, #relocs    0, #linenums    0, checksum 5650B5AB, selection    2 (pick any)
+1C6 00000000 SECT5E notype       External     | ??_C@_0DP@EBAFJALA@some?5relations?5of?5database?5?$CC?$CFs?$CC?5@ (`string')
+1C7 00000000 SECT5F notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 5E5AFC9F, selection    2 (pick any)
+1C9 00000000 SECT5F notype       External     | ??_C@_0CE@MLBDLBLF@could?5not?5remove?5directory?5?$CC?$CFs?$CC?3@ (`string')
+1CA 00000000 SECT60 notype       Static       | .rdata
+    Section length   45, #relocs    0, #linenums    0, checksum CC76A8F9, selection    2 (pick any)
+1CC 00000000 SECT60 notype       External     | ??_C@_0EF@EJPMLALA@some?5useless?5files?5may?5be?5left?5b@ (`string')
+1CD 00000000 SECT61 notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum D669873F, selection    2 (pick any)
+1CF 00000000 SECT61 notype       External     | ??_C@_0O@PICNABAH@AlterDatabase?$AA@ (`string')
+1D0 00000000 SECT62 notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum D099E61F, selection    2 (pick any)
+1D2 00000000 SECT62 notype       External     | ??_C@_0DD@HHEEMHC@option?5?$CC?$CFs?$CC?5cannot?5be?5specified?5@ (`string')
+1D3 00000000 SECT63 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 59C1E1F4, selection    2 (pick any)
+1D5 00000000 SECT63 notype       External     | ??_C@_0BO@KGDKCALO@ALTER?5DATABASE?5SET?5TABLESPACE?$AA@ (`string')
+1D6 00000000 SECT64 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum C36D0CD3, selection    2 (pick any)
+1D8 00000000 SECT64 notype       External     | ??_C@_0DB@GOAHPDNJ@cannot?5disallow?5connections?5for?5@ (`string')
+1D9 00000000 SECT65 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum FE8B250A, selection    2 (pick any)
+1DB 00000000 SECT65 notype       External     | ??_C@_0BD@NLHMBDJK@AlterDatabaseOwner?$AA@ (`string')
+1DC 00000000 SECT66 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum 5173BFA9, selection    2 (pick any)
+1DE 00000000 SECT66 notype       External     | ??_C@_0CO@KNPDEILN@permission?5denied?5to?5change?5owne@ (`string')
+1DF 00000000 SECT67 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 74F6452B, selection    2 (pick any)
+1E1 00000000 SECT67 notype       External     | ??_C@_0BF@MKANHPFP@remove_dbtablespaces?$AA@ (`string')
+1E2 00000000 SECT68 notype       Static       | .rdata
+    Section length   51, #relocs    0, #linenums    0, checksum DDD68427, selection    2 (pick any)
+1E4 00000000 SECT68 notype       External     | ??_C@_0FB@LJMMPAAA@There?5are?5?$CFd?5other?5session?$CIs?$CJ?5an@ (`string')
+1E5 00000000 SECT69 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum 9645A6D7, selection    2 (pick any)
+1E7 00000000 SECT69 notype       External     | ??_C@_0DA@JLDCOKLN@There?5are?5?$CFd?5other?5sessions?5usin@ (`string')
+1E8 00000000 SECT6A notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum EB8B4648, selection    2 (pick any)
+1EA 00000000 SECT6A notype       External     | ??_C@_0CO@BHALLBFM@There?5is?5?$CFd?5other?5session?5using?5@ (`string')
+1EB 00000000 SECT6B notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum 6254277E, selection    2 (pick any)
+1ED 00000000 SECT6B notype       External     | ??_C@_0DH@IMJABKMA@There?5are?5?$CFd?5prepared?5transactio@ (`string')
+1EE 00000000 SECT6C notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum A22F8CE6, selection    2 (pick any)
+1F0 00000000 SECT6C notype       External     | ??_C@_0DF@EEHPAEBH@There?5is?5?$CFd?5prepared?5transaction@ (`string')
+1F1 00000000 SECT6D notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 944FD9FB, selection    2 (pick any)
+1F3 00000000 SECT6D notype       External     | ??_C@_0BB@KCFPNHLJ@get_database_oid?$AA@ (`string')
+1F4 00000000 SECT6E notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum 5ADF4B09, selection    2 (pick any)
+1F6 00000000 SECT6E notype       External     | ??_C@_0L@MOKHAFBK@dbase_redo?$AA@ (`string')
+1F7 00000000 SECT6F notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 24DF0963, selection    2 (pick any)
+1F9 00000000 SECT6F notype       External     | ??_C@_0BP@LCCJFKCM@dbase_redo?3?5unknown?5op?5code?5?$CFu?$AA@ (`string')
+1FA 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x1EFE bytes
+
+  Summary
+
+        B634 .debug$S
+          68 .debug$T
+          5D .drectve
+         180 .pdata
+         B7A .rdata
+        4001 .text$mn
+         288 .xdata

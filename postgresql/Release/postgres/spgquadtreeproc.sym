@@ -1,0 +1,132 @@
+
+Dump of file Release\postgres/spgquadtreeproc.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 46FC, #relocs   8A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  6E0, #relocs   49, #linenums    0, checksum 45C5795B
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  1AE, #relocs   1D, #linenums    0, checksum 21511514, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  1EC, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | elog_start
+00F 00000000 UNDEF  notype ()    External     | elog_finish
+010 00000000 UNDEF  notype ()    External     | palloc
+011 00000000 UNDEF  notype ()    External     | palloc0
+012 00000000 UNDEF  notype ()    External     | DirectFunctionCall2Coll
+013 00000000 UNDEF  notype ()    External     | point_above
+014 00000000 UNDEF  notype ()    External     | point_left
+015 00000000 UNDEF  notype ()    External     | point_right
+016 00000000 UNDEF  notype ()    External     | point_below
+017 00000000 UNDEF  notype ()    External     | point_eq
+018 00000000 UNDEF  notype ()    External     | box_contain_pt
+019 00000000 UNDEF  notype ()    External     | point_vert
+01A 00000000 UNDEF  notype ()    External     | point_horiz
+01B 00000000 SECT4  notype ()    External     | spg_quad_config
+01C 00000020 SECT4  notype ()    External     | spg_quad_choose
+01D 00000080 SECT4  notype ()    External     | spg_quad_picksplit
+01E 000001D0 SECT4  notype ()    External     | spg_quad_inner_consistent
+01F 00000520 SECT4  notype ()    External     | spg_quad_leaf_consistent
+020 00000000 SECT5  notype ()    Static       | getQuadrant
+021 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+022 00000000 UNDEF  notype ()    External     | __security_check_cookie
+023 00000020 SECT4  notype       Label        | $LN6
+024 00000080 SECT4  notype       Label        | $LN19
+025 000004EC SECT4  notype       Static       | $LN56
+026 000002B7 SECT4  notype       Label        | $LN17
+027 000002DC SECT4  notype       Label        | $LN19
+028 00000301 SECT4  notype       Label        | $LN21
+029 0000031D SECT4  notype       Label        | $LN22
+02A 00000342 SECT4  notype       Label        | $LN24
+02B 00000367 SECT4  notype       Label        | $LN26
+02C 00000401 SECT4  notype       Label        | $LN12
+02D 000001D0 SECT4  notype       Label        | $LN59
+02E 000006B4 SECT4  notype       Static       | $LN26
+02F 00000598 SECT4  notype       Label        | $LN10
+030 000005B7 SECT4  notype       Label        | $LN11
+031 000005D6 SECT4  notype       Label        | $LN12
+032 000005F5 SECT4  notype       Label        | $LN13
+033 00000611 SECT4  notype       Label        | $LN14
+034 0000062D SECT4  notype       Label        | $LN15
+035 00000646 SECT4  notype       Label        | $LN9
+036 00000520 SECT4  notype       Label        | $LN31
+037 00000000 SECT7  notype       Static       | .xdata
+    Section length  10C, #relocs   1F, #linenums    0, checksum 29D21F45
+039 00000000 SECT7  notype       Static       | $unwind$spg_quad_choose
+03A 00000000 SECT8  notype       Static       | .pdata
+    Section length   A8, #relocs   2A, #linenums    0, checksum 25CCF013
+03C 00000000 SECT8  notype       Static       | $pdata$spg_quad_choose
+03D 0000000C SECT7  notype       Static       | $unwind$spg_quad_picksplit
+03E 0000000C SECT8  notype       Static       | $pdata$spg_quad_picksplit
+03F 0000001C SECT7  notype       Static       | $chain$2$spg_quad_picksplit
+040 00000018 SECT8  notype       Static       | $pdata$2$spg_quad_picksplit
+041 00000038 SECT7  notype       Static       | $chain$3$spg_quad_picksplit
+042 00000024 SECT8  notype       Static       | $pdata$3$spg_quad_picksplit
+043 00000048 SECT7  notype       Static       | $unwind$spg_quad_inner_consistent
+044 00000030 SECT8  notype       Static       | $pdata$spg_quad_inner_consistent
+045 0000005C SECT7  notype       Static       | $chain$0$spg_quad_inner_consistent
+046 0000003C SECT8  notype       Static       | $pdata$0$spg_quad_inner_consistent
+047 00000070 SECT7  notype       Static       | $chain$1$spg_quad_inner_consistent
+048 00000048 SECT8  notype       Static       | $pdata$1$spg_quad_inner_consistent
+049 00000084 SECT7  notype       Static       | $chain$4$spg_quad_inner_consistent
+04A 00000054 SECT8  notype       Static       | $pdata$4$spg_quad_inner_consistent
+04B 000000A0 SECT7  notype       Static       | $chain$5$spg_quad_inner_consistent
+04C 00000060 SECT8  notype       Static       | $pdata$5$spg_quad_inner_consistent
+04D 000000B0 SECT7  notype       Static       | $chain$6$spg_quad_inner_consistent
+04E 0000006C SECT8  notype       Static       | $pdata$6$spg_quad_inner_consistent
+04F 000000C0 SECT7  notype       Static       | $chain$7$spg_quad_inner_consistent
+050 00000078 SECT8  notype       Static       | $pdata$7$spg_quad_inner_consistent
+051 000000D0 SECT7  notype       Static       | $unwind$spg_quad_leaf_consistent
+052 00000084 SECT8  notype       Static       | $pdata$spg_quad_leaf_consistent
+053 000000E4 SECT7  notype       Static       | $chain$1$spg_quad_leaf_consistent
+054 00000090 SECT8  notype       Static       | $pdata$1$spg_quad_leaf_consistent
+055 000000FC SECT7  notype       Static       | $chain$2$spg_quad_leaf_consistent
+056 0000009C SECT8  notype       Static       | $pdata$2$spg_quad_leaf_consistent
+057 00000000 SECT9  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0x5)
+059 00000000 SECT9  notype       Static       | $unwind$getQuadrant
+05A 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 19B0FE0A, selection    5 (pick associative Section 0x5)
+05C 00000000 SECTA  notype       Static       | $pdata$getQuadrant
+05D 00000000 SECTB  notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum B44423D2, selection    2 (pick any)
+05F 00000000 SECTB  notype       External     | ??_C@_0M@DAGOBKEC@getQuadrant?$AA@ (`string')
+060 00000000 SECTC  notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum D4002E8C, selection    2 (pick any)
+062 00000000 SECTC  notype       External     | ??_C@_0CM@KINLLHGP@src?1backend?1access?1spgist?1spgqua@ (`string')
+063 00000000 SECTD  notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 9CDBAF41, selection    2 (pick any)
+065 00000000 SECTD  notype       External     | ??_C@_0BN@GIHAJFJI@getQuadrant?3?5impossible?5case?$AA@ (`string')
+066 00000000 SECTE  notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum D5EA4444, selection    2 (pick any)
+068 00000000 SECTE  notype       External     | ??_C@_0BK@IFPJAFIJ@spg_quad_inner_consistent?$AA@ (`string')
+069 00000000 SECTF  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 9FD1ACAF, selection    2 (pick any)
+06B 00000000 SECTF  notype       External     | ??_C@_0CB@BKFCGJNN@unrecognized?5strategy?5number?3?5?$CFd@ (`string')
+06C 00000000 SECT10 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 5B977E80, selection    2 (pick any)
+06E 00000000 SECT10 notype       External     | ??_C@_0BJ@ENKHIPPA@spg_quad_leaf_consistent?$AA@ (`string')
+06F 00000000 UNDEF  notype       External     | __ImageBase
+070 00000000 UNDEF  notype       External     | __security_cookie
+071 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x61F bytes
+
+  Summary
+
+        48E8 .debug$S
+          68 .debug$T
+          5D .drectve
+          B4 .pdata
+          A9 .rdata
+         88E .text$mn
+         118 .xdata

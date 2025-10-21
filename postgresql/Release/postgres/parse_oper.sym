@@ -1,0 +1,282 @@
+
+Dump of file Release\postgres/parse_oper.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 7504, #relocs  1CE, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 12A8, #relocs   C7, #linenums    0, checksum  DA7536B
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   7A, #relocs    3, #linenums    0, checksum 2C3E87A5, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  26C, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   FE, #relocs    B, #linenums    0, checksum 34E5EA10, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  204, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length   FF, #relocs    7, #linenums    0, checksum 207C61A8, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  3CC, #relocs   24, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  18C, #relocs   1A, #linenums    0, checksum D36A2067, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  344, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 SECTD  notype       Static       | .text$mn
+    Section length   99, #relocs    9, #linenums    0, checksum 8844C20E, selection    1 (pick no duplicates)
+01C 00000000 SECTE  notype       Static       | .debug$S
+    Section length  230, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0xD)
+01E 00000000 UNDEF  notype ()    External     | strlcpy
+01F 00000000 UNDEF  notype ()    External     | errstart
+020 00000000 UNDEF  notype ()    External     | errfinish
+021 00000000 UNDEF  notype ()    External     | errcode
+022 00000000 UNDEF  notype ()    External     | errmsg
+023 00000000 UNDEF  notype ()    External     | errhint
+024 00000000 UNDEF  notype ()    External     | elog_start
+025 00000000 UNDEF  notype ()    External     | elog_finish
+026 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+027 00000000 UNDEF  notype ()    External     | lcons
+028 00000000 UNDEF  notype ()    External     | initStringInfo
+029 00000000 UNDEF  notype ()    External     | appendStringInfo
+02A 00000000 UNDEF  notype ()    External     | appendStringInfoString
+02B 00000000 UNDEF  notype ()    External     | exprType
+02C 00000000 UNDEF  notype ()    External     | parser_errposition
+02D 00000000 UNDEF  notype ()    External     | setup_parser_errposition_callback
+02E 00000000 UNDEF  notype ()    External     | cancel_parser_errposition_callback
+02F 00000000 UNDEF  notype ()    External     | IsBinaryCoercible
+030 00000000 UNDEF  notype ()    External     | enforce_generic_type_consistency
+031 00000000 UNDEF  notype ()    External     | hash_create
+032 00000000 UNDEF  notype ()    External     | hash_search
+033 00000000 UNDEF  notype ()    External     | hash_seq_init
+034 00000000 UNDEF  notype ()    External     | hash_seq_search
+035 00000000 UNDEF  notype ()    External     | OpernameGetOprid
+036 00000000 UNDEF  notype ()    External     | OpernameGetCandidates
+037 00000000 UNDEF  notype ()    External     | DeconstructQualifiedName
+038 00000000 UNDEF  notype ()    External     | LookupExplicitNamespace
+039 00000000 UNDEF  notype ()    External     | NameListToString
+03A 00000000 UNDEF  notype ()    External     | fetch_search_path_array
+03B 00000000 UNDEF  notype ()    External     | func_match_argtypes
+03C 00000000 UNDEF  notype ()    External     | func_select_candidate
+03D 00000000 UNDEF  notype ()    External     | make_fn_arguments
+03E 00000000 UNDEF  notype ()    External     | check_srf_call_placement
+03F 00000000 SECT4  notype ()    External     | LookupOperName
+040 00000150 SECT4  notype ()    External     | LookupOperWithArgs
+041 00000210 SECT4  notype ()    External     | oper
+042 00000400 SECT4  notype ()    External     | right_oper
+043 000005C0 SECT4  notype ()    External     | left_oper
+044 000007B0 SECT4  notype ()    External     | compatible_oper
+045 00000930 SECT4  notype ()    External     | get_sort_group_operators
+046 00000AD0 SECT4  notype ()    External     | compatible_oper_opid
+047 00000B50 SECT4  notype ()    External     | oprid
+048 00000B70 SECT4  notype ()    External     | oprfuncid
+049 00000B90 SECT4  notype ()    External     | make_op
+04A 00000E40 SECT4  notype ()    External     | make_scalar_array_op
+04B 00000000 UNDEF  notype ()    External     | LookupTypeNameOid
+04C 00000000 UNDEF  notype ()    External     | format_type_be
+04D 00000000 UNDEF  notype ()    External     | CacheRegisterSyscacheCallback
+04E 00000000 UNDEF  notype ()    External     | get_func_retset
+04F 00000000 UNDEF  notype ()    External     | get_array_type
+050 00000000 UNDEF  notype ()    External     | get_base_element_type
+051 00000000 UNDEF  notype ()    External     | getBaseType
+052 00000000 UNDEF  notype ()    External     | SearchSysCache
+053 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+054 00000000 UNDEF  notype ()    External     | lookup_type_cache
+055 00000000 SECT5  notype ()    Static       | binary_oper_exact
+056 00000000 SECTD  notype ()    Static       | op_signature_string
+057 00000000 SECTB  notype ()    Static       | op_error
+058 00000000 SECT9  notype ()    Static       | make_oper_cache_key
+059 00000000 SECT7  notype ()    Static       | find_oper_cache_entry
+05A 00001220 SECT4  notype ()    Static       | InvalidateOprCacheCallBack
+05B 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+05C 00000000 UNDEF  notype ()    External     | __security_check_cookie
+05D 00000000 UNDEF  notype ()    External     | memset
+05E 00000000 SECT4  notype       Label        | $LN20
+05F 00000150 SECT4  notype       Label        | $LN16
+060 00000210 SECT4  notype       Label        | $LN26
+061 00000400 SECT4  notype       Label        | $LN23
+062 000005C0 SECT4  notype       Label        | $LN30
+063 000007B0 SECT4  notype       Label        | $LN17
+064 00000930 SECT4  notype       Label        | $LN24
+065 00000AD0 SECT4  notype       Label        | $LN9
+066 00000B90 SECT4  notype       Label        | $LN24
+067 00000E40 SECT4  notype       Label        | $LN43
+068 00000000 SECTF  notype       Static       | .xdata
+    Section length  1CC, #relocs   24, #linenums    0, checksum A3A3133D
+06A 00000000 SECTF  notype       Static       | $unwind$LookupOperName
+06B 00000000 SECT10 notype       Static       | .pdata
+    Section length  108, #relocs   42, #linenums    0, checksum 682D7861
+06D 00000000 SECT10 notype       Static       | $pdata$LookupOperName
+06E 00000014 SECTF  notype       Static       | $chain$0$LookupOperName
+06F 0000000C SECT10 notype       Static       | $pdata$0$LookupOperName
+070 00000028 SECTF  notype       Static       | $chain$1$LookupOperName
+071 00000018 SECT10 notype       Static       | $pdata$1$LookupOperName
+072 00000038 SECTF  notype       Static       | $unwind$LookupOperWithArgs
+073 00000024 SECT10 notype       Static       | $pdata$LookupOperWithArgs
+074 00000050 SECTF  notype       Static       | $unwind$oper
+075 00000030 SECT10 notype       Static       | $pdata$oper
+076 00000070 SECTF  notype       Static       | $chain$0$oper
+077 0000003C SECT10 notype       Static       | $pdata$0$oper
+078 00000084 SECTF  notype       Static       | $chain$1$oper
+079 00000048 SECT10 notype       Static       | $pdata$1$oper
+07A 00000094 SECTF  notype       Static       | $unwind$right_oper
+07B 00000054 SECT10 notype       Static       | $pdata$right_oper
+07C 000000B8 SECTF  notype       Static       | $unwind$left_oper
+07D 00000060 SECT10 notype       Static       | $pdata$left_oper
+07E 000000D8 SECTF  notype       Static       | $chain$0$left_oper
+07F 0000006C SECT10 notype       Static       | $pdata$0$left_oper
+080 000000EC SECTF  notype       Static       | $chain$1$left_oper
+081 00000078 SECT10 notype       Static       | $pdata$1$left_oper
+082 000000FC SECTF  notype       Static       | $unwind$compatible_oper
+083 00000084 SECT10 notype       Static       | $pdata$compatible_oper
+084 00000114 SECTF  notype       Static       | $chain$0$compatible_oper
+085 00000090 SECT10 notype       Static       | $pdata$0$compatible_oper
+086 00000128 SECTF  notype       Static       | $chain$1$compatible_oper
+087 0000009C SECT10 notype       Static       | $pdata$1$compatible_oper
+088 00000138 SECTF  notype       Static       | $unwind$get_sort_group_operators
+089 000000A8 SECT10 notype       Static       | $pdata$get_sort_group_operators
+08A 00000154 SECTF  notype       Static       | $unwind$compatible_oper_opid
+08B 000000B4 SECT10 notype       Static       | $pdata$compatible_oper_opid
+08C 0000015C SECTF  notype       Static       | $chain$0$compatible_oper_opid
+08D 000000C0 SECT10 notype       Static       | $pdata$0$compatible_oper_opid
+08E 00000170 SECTF  notype       Static       | $chain$2$compatible_oper_opid
+08F 000000CC SECT10 notype       Static       | $pdata$2$compatible_oper_opid
+090 00000184 SECTF  notype       Static       | $chain$3$compatible_oper_opid
+091 000000D8 SECT10 notype       Static       | $pdata$3$compatible_oper_opid
+092 00000194 SECTF  notype       Static       | $unwind$make_op
+093 000000E4 SECT10 notype       Static       | $pdata$make_op
+094 000001AC SECTF  notype       Static       | $unwind$make_scalar_array_op
+095 000000F0 SECT10 notype       Static       | $pdata$make_scalar_array_op
+096 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum ED4F81A7, selection    5 (pick associative Section 0x5)
+098 00000000 SECT11 notype       Static       | $unwind$binary_oper_exact
+099 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3D908D58, selection    5 (pick associative Section 0x5)
+09B 00000000 SECT12 notype       Static       | $pdata$binary_oper_exact
+09C 00000000 SECT13 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum F0AB61A9, selection    5 (pick associative Section 0xD)
+09E 00000000 SECT13 notype       Static       | $unwind$op_signature_string
+09F 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 30CFAFDA, selection    5 (pick associative Section 0xD)
+0A1 00000000 SECT14 notype       Static       | $pdata$op_signature_string
+0A2 00000000 SECT15 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 5BAEAEA9, selection    5 (pick associative Section 0xB)
+0A4 00000000 SECT15 notype       Static       | $unwind$op_error
+0A5 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A2E39B21, selection    5 (pick associative Section 0xB)
+0A7 00000000 SECT16 notype       Static       | $pdata$op_error
+0A8 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 69B9D46B, selection    5 (pick associative Section 0x9)
+0AA 00000000 SECT17 notype       Static       | $unwind$make_oper_cache_key
+0AB 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 264B06E6, selection    5 (pick associative Section 0x9)
+0AD 00000000 SECT18 notype       Static       | $pdata$make_oper_cache_key
+0AE 00000000 SECT19 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum CB5D5E5C, selection    5 (pick associative Section 0x7)
+0B0 00000000 SECT19 notype       Static       | $unwind$find_oper_cache_entry
+0B1 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum EAE10678, selection    5 (pick associative Section 0x7)
+0B3 00000000 SECT1A notype       Static       | $pdata$find_oper_cache_entry
+0B4 000001C4 SECTF  notype       Static       | $unwind$InvalidateOprCacheCallBack
+0B5 000000FC SECT10 notype       Static       | $pdata$InvalidateOprCacheCallBack
+0B6 00000000 UNDEF  notype       External     | CurrentMemoryContext
+0B7 00000000 UNDEF  notype       External     | newNodeMacroHolder
+0B8 00000000 SECT1B notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 52FB7613, selection    2 (pick any)
+0BA 00000000 SECT1B notype       External     | ??_C@_0P@HKNHIKAL@LookupOperName?$AA@ (`string')
+0BB 00000000 SECT1C notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 87A8E04E, selection    2 (pick any)
+0BD 00000000 SECT1C notype       External     | ??_C@_0CA@GBFNEKBM@src?1backend?1parser?1parse_oper?4c?$AA@ (`string')
+0BE 00000000 SECT1D notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 6A4CE3B4, selection    2 (pick any)
+0C0 00000000 SECT1D notype       External     | ??_C@_0BM@BFMDGLKC@operator?5does?5not?5exist?3?5?$CFs?$AA@ (`string')
+0C1 00000000 SECT1E notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 1AA89C8E, selection    2 (pick any)
+0C3 00000000 SECT1E notype       External     | ??_C@_0BJ@MJIGNPO@get_sort_group_operators?$AA@ (`string')
+0C4 00000000 SECT1F notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum 39826D55, selection    2 (pick any)
+0C6 00000000 SECT1F notype       External     | ??_C@_0DH@NHEGFAOL@Use?5an?5explicit?5ordering?5operato@ (`string')
+0C7 00000000 SECT20 notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum 1DEBDA64, selection    2 (pick any)
+0C9 00000000 SECT20 notype       External     | ??_C@_0DE@CODPCKCL@could?5not?5identify?5an?5ordering?5o@ (`string')
+0CA 00000000 SECT21 notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum DB06BD78, selection    2 (pick any)
+0CC 00000000 SECT21 notype       External     | ??_C@_0DE@OINCENDH@could?5not?5identify?5an?5equality?5o@ (`string')
+0CD 00000000 SECT22 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum A5DD8558, selection    2 (pick any)
+0CF 00000000 SECT22 notype       External     | ??_C@_0BA@LGJJDBPC@compatible_oper?$AA@ (`string')
+0D0 00000000 SECT23 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 985CF29B, selection    2 (pick any)
+0D2 00000000 SECT23 notype       External     | ??_C@_0CN@KBCDJKMA@operator?5requires?5run?9time?5type?5@ (`string')
+0D3 00000000 SECT24 notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum 54DFADA7, selection    2 (pick any)
+0D5 00000000 SECT24 notype       External     | ??_C@_03IKGEINEE@?$CFs?5?$AA@ (`string')
+0D6 00000000 SECT25 notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum 9AA60100, selection    2 (pick any)
+0D8 00000000 SECT25 notype       External     | ??_C@_03EEBNCBOD@?5?$CFs?$AA@ (`string')
+0D9 00000000 SECT26 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum BE889483, selection    2 (pick any)
+0DB 00000000 SECT26 notype       External     | ??_C@_08KHHOHPNC@op_error?$AA@ (`string')
+0DC 00000000 SECT27 notype       Static       | .rdata
+    Section length   57, #relocs    0, #linenums    0, checksum 99479B8C, selection    2 (pick any)
+0DE 00000000 SECT27 notype       External     | ??_C@_0FH@PPMGDMAK@Could?5not?5choose?5a?5best?5candidat@ (`string')
+0DF 00000000 SECT28 notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 8CDE4BBF, selection    2 (pick any)
+0E1 00000000 SECT28 notype       External     | ??_C@_0BL@GJFLOGPD@operator?5is?5not?5unique?3?5?$CFs?$AA@ (`string')
+0E2 00000000 SECT29 notype       Static       | .rdata
+    Section length   64, #relocs    0, #linenums    0, checksum A33B30CD, selection    2 (pick any)
+0E4 00000000 SECT29 notype       External     | ??_C@_0GE@MFEMAJPI@No?5operator?5matches?5the?5given?5na@ (`string')
+0E5 00000000 SECT2A notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum AA141F80, selection    2 (pick any)
+0E7 00000000 SECT2A notype       External     | ??_C@_07DAMJDPBG@make_op?$AA@ (`string')
+0E8 00000000 SECT2B notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum  266CAAF, selection    2 (pick any)
+0EA 00000000 SECT2B notype       External     | ??_C@_0BN@PGMNPAHG@operator?5is?5only?5a?5shell?3?5?$CFs?$AA@ (`string')
+0EB 00000000 SECT2C notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum A4BE0F97, selection    2 (pick any)
+0ED 00000000 SECT2C notype       External     | ??_C@_0BF@BKEFDFOD@make_scalar_array_op?$AA@ (`string')
+0EE 00000000 SECT2D notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum 6A4C335F, selection    2 (pick any)
+0F0 00000000 SECT2D notype       External     | ??_C@_0DA@GHDLHPDF@op?5ANY?1ALL?5?$CIarray?$CJ?5requires?5arra@ (`string')
+0F1 00000000 SECT2E notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum 2022865C, selection    2 (pick any)
+0F3 00000000 SECT2E notype       External     | ??_C@_0DG@OKHOBEFO@op?5ANY?1ALL?5?$CIarray?$CJ?5requires?5oper@ (`string')
+0F4 00000000 SECT2F notype       Static       | .rdata
+    Section length   39, #relocs    0, #linenums    0, checksum 65B74449, selection    2 (pick any)
+0F6 00000000 SECT2F notype       External     | ??_C@_0DJ@EHJJGFKK@op?5ANY?1ALL?5?$CIarray?$CJ?5requires?5oper@ (`string')
+0F7 00000000 SECT30 notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum D9250AC1, selection    2 (pick any)
+0F9 00000000 SECT30 notype       External     | ??_C@_0CL@NOFDFOAP@could?5not?5find?5array?5type?5for?5da@ (`string')
+0FA 00000000 SECT31 notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+0FC 00000000 SECT31 notype       Static       | OprCacheHash
+0FD 00000000 SECT32 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 5D4FF57F, selection    2 (pick any)
+0FF 00000000 SECT32 notype       External     | ??_C@_0BG@KJJLLGA@Operator?5lookup?5cache?$AA@ (`string')
+100 00000000 SECT33 notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 2F7E6B7F, selection    2 (pick any)
+102 00000000 SECT33 notype       External     | ??_C@_0BL@MKPLMGDD@InvalidateOprCacheCallBack?$AA@ (`string')
+103 00000000 SECT34 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 13794EB1, selection    2 (pick any)
+105 00000000 SECT34 notype       External     | ??_C@_0BF@KNICHEMF@hash?5table?5corrupted?$AA@ (`string')
+106 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0xE2F bytes
+
+  Summary
+
+           8 .bss
+        82B4 .debug$S
+          68 .debug$T
+          5D .drectve
+         144 .pdata
+         371 .rdata
+        1744 .text$mn
+         220 .xdata

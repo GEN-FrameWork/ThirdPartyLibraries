@@ -1,0 +1,57 @@
+
+Dump of file Release\postgres/hashsort.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4050, #relocs   36, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  159, #relocs    B, #linenums    0, checksum AA501728
+00A 00000000 UNDEF  notype ()    External     | palloc0
+00B 00000000 UNDEF  notype ()    External     | pfree
+00C 00000000 UNDEF  notype ()    External     | _hash_doinsert
+00D 00000000 SECT4  notype ()    External     | _h_spoolinit
+00E 000000A0 SECT4  notype ()    External     | _h_spooldestroy
+00F 000000D0 SECT4  notype ()    External     | _h_spool
+010 00000100 SECT4  notype ()    External     | _h_indexbuild
+011 00000000 UNDEF  notype ()    External     | _hash_log2
+012 00000000 UNDEF  notype ()    External     | tuplesort_begin_index_hash
+013 00000000 UNDEF  notype ()    External     | tuplesort_putindextuplevalues
+014 00000000 UNDEF  notype ()    External     | tuplesort_performsort
+015 00000000 UNDEF  notype ()    External     | tuplesort_getindextuple
+016 00000000 UNDEF  notype ()    External     | tuplesort_end
+017 00000000 SECT4  notype       Label        | $LN4
+018 000000A0 SECT4  notype       Label        | $LN4
+019 000000D0 SECT4  notype       Label        | $LN4
+01A 00000100 SECT4  notype       Label        | $LN10
+01B 00000000 SECT5  notype       Static       | .xdata
+    Section length   30, #relocs    0, #linenums    0, checksum 4911A608
+01D 00000000 SECT5  notype       Static       | $unwind$_h_spoolinit
+01E 00000000 SECT6  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum 4E16E052
+020 00000000 SECT6  notype       Static       | $pdata$_h_spoolinit
+021 00000014 SECT5  notype       Static       | $unwind$_h_spooldestroy
+022 0000000C SECT6  notype       Static       | $pdata$_h_spooldestroy
+023 0000001C SECT5  notype       Static       | $unwind$_h_spool
+024 00000018 SECT6  notype       Static       | $pdata$_h_spool
+025 00000024 SECT5  notype       Static       | $unwind$_h_indexbuild
+026 00000024 SECT6  notype       Static       | $pdata$_h_indexbuild
+027 00000000 UNDEF  notype       External     | maintenance_work_mem
+
+String Table Size = 0x177 bytes
+
+  Summary
+
+        4050 .debug$S
+          68 .debug$T
+          5D .drectve
+          30 .pdata
+         159 .text$mn
+          30 .xdata

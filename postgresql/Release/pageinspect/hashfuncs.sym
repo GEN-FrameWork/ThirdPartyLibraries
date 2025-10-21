@@ -1,0 +1,242 @@
+
+Dump of file Release\pageinspect/hashfuncs.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length  105, #relocs    0, #linenums    0, checksum  2EFDB78
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6844, #relocs   BE, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   6C, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 24BC8143
+00A 00000000 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_hash_page_type@@9@9 (`pg_finfo_hash_page_type'::`2'::my_finfo)
+00B 00000004 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_hash_page_stats@@9@9 (`pg_finfo_hash_page_stats'::`2'::my_finfo)
+00C 00000008 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_hash_page_items@@9@9 (`pg_finfo_hash_page_items'::`2'::my_finfo)
+00D 0000000C SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_hash_bitmap_info@@9@9 (`pg_finfo_hash_bitmap_info'::`2'::my_finfo)
+00E 00000010 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_hash_metapage_info@@9@9 (`pg_finfo_hash_metapage_info'::`2'::my_finfo)
+00F 00000000 SECT5  notype       Static       | .text$mn
+    Section length  CF8, #relocs   B2, #linenums    0, checksum BA29DBAD
+011 00000000 SECT6  notype       Static       | .text$mn
+    Section length  37D, #relocs   44, #linenums    0, checksum EB9BDE37, selection    1 (pick no duplicates)
+013 00000000 SECT7  notype       Static       | .debug$S
+    Section length  2C4, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+015 00000000 UNDEF  notype ()    External     | errstart
+016 00000000 UNDEF  notype ()    External     | errfinish
+017 00000000 UNDEF  notype ()    External     | errcode
+018 00000000 UNDEF  notype ()    External     | errmsg
+019 00000000 UNDEF  notype ()    External     | errdetail
+01A 00000000 UNDEF  notype ()    External     | elog_start
+01B 00000000 UNDEF  notype ()    External     | elog_finish
+01C 00000000 UNDEF  notype ()    External     | palloc
+01D 00000000 UNDEF  notype ()    External     | pfree
+01E 00000000 UNDEF  notype ()    External     | PageGetFreeSpace
+01F 00000000 UNDEF  notype ()    External     | get_page_from_raw
+020 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+021 00000000 UNDEF  notype ()    External     | index_open
+022 00000000 UNDEF  notype ()    External     | index_close
+023 00000000 UNDEF  notype ()    External     | RelationGetNumberOfBlocksInFork
+024 00000000 UNDEF  notype ()    External     | _hash_ovflblkno_to_bitno
+025 00000000 UNDEF  notype ()    External     | _hash_getbuf
+026 00000000 UNDEF  notype ()    External     | _hash_relbuf
+027 00000000 UNDEF  notype ()    External     | _hash_get_indextuple_hashkey
+028 00000000 UNDEF  notype ()    External     | heap_form_tuple
+029 00000000 UNDEF  notype ()    External     | construct_array
+02A 00000000 UNDEF  notype ()    External     | get_call_result_type
+02B 00000000 UNDEF  notype ()    External     | BlessTupleDesc
+02C 00000000 UNDEF  notype ()    External     | TupleDescGetAttInMetadata
+02D 00000000 UNDEF  notype ()    External     | HeapTupleHeaderGetDatum
+02E 00000000 UNDEF  notype ()    External     | init_MultiFuncCall
+02F 00000000 UNDEF  notype ()    External     | per_MultiFuncCall
+030 00000000 UNDEF  notype ()    External     | end_MultiFuncCall
+031 00000000 UNDEF  notype ()    External     | superuser
+032 00000000 UNDEF  notype ()    External     | cstring_to_text
+033 00000000 SECT5  notype ()    External     | hash_page_type
+034 00000110 SECT5  notype ()    External     | pg_finfo_hash_page_type
+035 00000120 SECT5  notype ()    External     | hash_page_stats
+036 00000330 SECT5  notype ()    External     | pg_finfo_hash_page_stats
+037 00000340 SECT5  notype ()    External     | hash_page_items
+038 000005B0 SECT5  notype ()    External     | pg_finfo_hash_page_items
+039 000005C0 SECT5  notype ()    External     | hash_bitmap_info
+03A 00000A20 SECT5  notype ()    External     | pg_finfo_hash_bitmap_info
+03B 00000A30 SECT5  notype ()    External     | hash_metapage_info
+03C 00000CF0 SECT5  notype ()    External     | pg_finfo_hash_metapage_info
+03D 00000000 SECT6  notype ()    Static       | verify_hash_page
+03E 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+03F 00000000 UNDEF  notype ()    External     | __chkstk
+040 00000000 UNDEF  notype ()    External     | __security_check_cookie
+041 00000000 SECT5  notype       Label        | $LN20
+042 00000120 SECT5  notype       Label        | $LN52
+043 00000340 SECT5  notype       Label        | $LN51
+044 000005C0 SECT5  notype       Label        | $LN75
+045 00000A30 SECT5  notype       Label        | $LN58
+046 00000000 SECT8  notype       Static       | .xdata
+    Section length   FC, #relocs   16, #linenums    0, checksum 95A66390
+048 00000000 SECT8  notype       Static       | $unwind$hash_page_type
+049 00000000 SECT9  notype       Static       | .pdata
+    Section length   84, #relocs   21, #linenums    0, checksum 4FAA5A03
+04B 00000000 SECT9  notype       Static       | $pdata$hash_page_type
+04C 00000008 SECT8  notype       Static       | $chain$0$hash_page_type
+04D 0000000C SECT9  notype       Static       | $pdata$0$hash_page_type
+04E 0000001C SECT8  notype       Static       | $chain$1$hash_page_type
+04F 00000018 SECT9  notype       Static       | $pdata$1$hash_page_type
+050 00000030 SECT8  notype       Static       | $chain$2$hash_page_type
+051 00000024 SECT9  notype       Static       | $pdata$2$hash_page_type
+052 00000040 SECT8  notype       Static       | $chain$3$hash_page_type
+053 00000030 SECT9  notype       Static       | $pdata$3$hash_page_type
+054 00000050 SECT8  notype       Static       | $unwind$hash_page_stats
+055 0000003C SECT9  notype       Static       | $pdata$hash_page_stats
+056 00000078 SECT8  notype       Static       | $unwind$hash_page_items
+057 00000048 SECT9  notype       Static       | $pdata$hash_page_items
+058 00000090 SECT8  notype       Static       | $chain$1$hash_page_items
+059 00000054 SECT9  notype       Static       | $pdata$1$hash_page_items
+05A 000000A8 SECT8  notype       Static       | $chain$2$hash_page_items
+05B 00000060 SECT9  notype       Static       | $pdata$2$hash_page_items
+05C 000000B8 SECT8  notype       Static       | $unwind$hash_bitmap_info
+05D 0000006C SECT9  notype       Static       | $pdata$hash_bitmap_info
+05E 000000DC SECT8  notype       Static       | $unwind$hash_metapage_info
+05F 00000078 SECT9  notype       Static       | $pdata$hash_metapage_info
+060 00000000 SECTA  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 243E0B38, selection    5 (pick associative Section 0x6)
+062 00000000 SECTA  notype       Static       | $unwind$verify_hash_page
+063 00000000 SECTB  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 9B0515D1, selection    5 (pick associative Section 0x6)
+065 00000000 SECTB  notype       Static       | $pdata$verify_hash_page
+066 00000000 SECTC  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 6C64AE65, selection    5 (pick associative Section 0x6)
+068 00000000 SECTC  notype       Static       | $chain$0$verify_hash_page
+069 00000000 SECTD  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  42D49B8, selection    5 (pick associative Section 0x6)
+06B 00000000 SECTD  notype       Static       | $pdata$0$verify_hash_page
+06C 00000000 SECTE  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum EC634210, selection    5 (pick associative Section 0x6)
+06E 00000000 SECTE  notype       Static       | $chain$1$verify_hash_page
+06F 00000000 SECTF  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F6D7158D, selection    5 (pick associative Section 0x6)
+071 00000000 SECTF  notype       Static       | $pdata$1$verify_hash_page
+072 00000000 SECT10 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum BD7AA354, selection    5 (pick associative Section 0x6)
+074 00000000 SECT10 notype       Static       | $chain$2$verify_hash_page
+075 00000000 SECT11 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 1E8FF75B, selection    5 (pick associative Section 0x6)
+077 00000000 SECT11 notype       Static       | $pdata$2$verify_hash_page
+078 00000000 SECT12 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 2252FF3D, selection    5 (pick associative Section 0x6)
+07A 00000000 SECT12 notype       Static       | $chain$3$verify_hash_page
+07B 00000000 SECT13 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DB3F761F, selection    5 (pick associative Section 0x6)
+07D 00000000 SECT13 notype       Static       | $pdata$3$verify_hash_page
+07E 00000000 UNDEF  notype       External     | __imp_CurrentMemoryContext
+07F 00000000 UNDEF  notype       External     | __imp_BufferBlocks
+080 00000000 UNDEF  notype       External     | __imp_LocalBufferBlockPointers
+081 00000000 SECT14 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 315668E4, selection    2 (pick any)
+083 00000000 SECT14 notype       External     | ??_C@_0BB@HEGGGKG@verify_hash_page?$AA@ (`string')
+084 00000000 SECT15 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum FBC4CB3A, selection    2 (pick any)
+086 00000000 SECT15 notype       External     | ??_C@_0CA@BNDBGBGI@contrib?1pageinspect?1hashfuncs?4c?$AA@ (`string')
+087 00000000 SECT16 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 94B9479B, selection    2 (pick any)
+089 00000000 SECT16 notype       External     | ??_C@_0CE@BPAAKLB@index?5table?5contains?5corrupted?5p@ (`string')
+08A 00000000 SECT17 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 16CE639D, selection    2 (pick any)
+08C 00000000 SECT17 notype       External     | ??_C@_0BJ@POJCON@Expected?5?$CF08x?0?5got?5?$CF08x?4?$AA@ (`string')
+08D 00000000 SECT18 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 11BA9FFF, selection    2 (pick any)
+08F 00000000 SECT18 notype       External     | ??_C@_0BI@ENIEKKCA@page?5is?5not?5a?5hash?5page?$AA@ (`string')
+090 00000000 SECT19 notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 29AEDC82, selection    2 (pick any)
+092 00000000 SECT19 notype       External     | ??_C@_0BM@FGCBFEJE@invalid?5hash?5page?5type?5?$CF08x?$AA@ (`string')
+093 00000000 SECT1A notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 156610FF, selection    2 (pick any)
+095 00000000 SECT1A notype       External     | ??_C@_0BN@OBMNCKCG@page?5is?5not?5a?5hash?5meta?5page?$AA@ (`string')
+096 00000000 SECT1B notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum 134B17A5, selection    2 (pick any)
+098 00000000 SECT1B notype       External     | ??_C@_0CL@BEDNEDGL@page?5is?5not?5a?5hash?5bucket?5or?5ove@ (`string')
+099 00000000 SECT1C notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum  F9861E4, selection    2 (pick any)
+09B 00000000 SECT1C notype       External     | ??_C@_0CB@IKBLKEJG@page?5is?5not?5a?5hash?5overflow?5page@ (`string')
+09C 00000000 SECT1D notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 9E7693EE, selection    2 (pick any)
+09E 00000000 SECT1D notype       External     | ??_C@_0CI@IIGFFBKA@hash?5page?5of?5type?5?$CF08x?5not?5in?5ma@ (`string')
+09F 00000000 SECT1E notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 128E2CE9, selection    2 (pick any)
+0A1 00000000 SECT1E notype       External     | ??_C@_0BN@OGCFBGDA@Expected?50x?$CF08x?0?5got?50x?$CF08x?4?$AA@ (`string')
+0A2 00000000 SECT1F notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum F0D7D4BB, selection    2 (pick any)
+0A4 00000000 SECT1F notype       External     | ??_C@_0CC@EOFJEHGO@invalid?5magic?5number?5for?5metadat@ (`string')
+0A5 00000000 SECT20 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum F52277BD, selection    2 (pick any)
+0A7 00000000 SECT20 notype       External     | ??_C@_0BE@FAIBDMP@Expected?5?$CFd?0?5got?5?$CFd?$AA@ (`string')
+0A8 00000000 SECT21 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum B731B90D, selection    2 (pick any)
+0AA 00000000 SECT21 notype       External     | ??_C@_0BN@EDJKIDNE@invalid?5version?5for?5metadata?$AA@ (`string')
+0AB 00000000 SECT22 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 4B74FA73, selection    2 (pick any)
+0AD 00000000 SECT22 notype       External     | ??_C@_0P@GDFIAGGL@hash_page_type?$AA@ (`string')
+0AE 00000000 SECT23 notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum 8598ABEF, selection    2 (pick any)
+0B0 00000000 SECT23 notype       External     | ??_C@_0CM@PJEDDCAM@must?5be?5superuser?5to?5use?5raw?5pag@ (`string')
+0B1 00000000 SECT24 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 8B9B5603, selection    2 (pick any)
+0B3 00000000 SECT24 notype       External     | ??_C@_06OJAIHGIC@unused?$AA@ (`string')
+0B4 00000000 SECT25 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum C1F2D205, selection    2 (pick any)
+0B6 00000000 SECT25 notype       External     | ??_C@_08NIAEDJFE@metapage?$AA@ (`string')
+0B7 00000000 SECT26 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 32F6B090, selection    2 (pick any)
+0B9 00000000 SECT26 notype       External     | ??_C@_08CLAAFLMB@overflow?$AA@ (`string')
+0BA 00000000 SECT27 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 703C0918, selection    2 (pick any)
+0BC 00000000 SECT27 notype       External     | ??_C@_06BCKPCJJJ@bucket?$AA@ (`string')
+0BD 00000000 SECT28 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 90E6B26E, selection    2 (pick any)
+0BF 00000000 SECT28 notype       External     | ??_C@_06PCHFJCOP@bitmap?$AA@ (`string')
+0C0 00000000 SECT29 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum DD8173FD, selection    2 (pick any)
+0C2 00000000 SECT29 notype       External     | ??_C@_0BA@MOMFMHFH@hash_page_stats?$AA@ (`string')
+0C3 00000000 SECT2A notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 6B360E89, selection    2 (pick any)
+0C5 00000000 SECT2A notype       External     | ??_C@_0BP@PNMAFNMG@return?5type?5must?5be?5a?5row?5type?$AA@ (`string')
+0C6 00000000 SECT2B notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum E3595DA8, selection    2 (pick any)
+0C8 00000000 SECT2B notype       External     | ??_C@_0BA@PABNOJAC@hash_page_items?$AA@ (`string')
+0C9 00000000 SECT2C notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum F24D22D2, selection    2 (pick any)
+0CB 00000000 SECT2C notype       External     | ??_C@_0P@NKGBNOMK@invalid?5ItemId?$AA@ (`string')
+0CC 00000000 SECT2D notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum D5E841E9, selection    2 (pick any)
+0CE 00000000 SECT2D notype       External     | ??_C@_0BB@ODPIEPKL@hash_bitmap_info?$AA@ (`string')
+0CF 00000000 SECT2E notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 7A058ABA, selection    2 (pick any)
+0D1 00000000 SECT2E notype       External     | ??_C@_0CC@MEILBJGP@relation?5?$CC?$CFs?$CC?5is?5not?5a?5hash?5inde@ (`string')
+0D2 00000000 SECT2F notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum F6B312BC, selection    2 (pick any)
+0D4 00000000 SECT2F notype       External     | ??_C@_0DB@FLNJONLG@cannot?5access?5temporary?5tables?5o@ (`string')
+0D5 00000000 SECT30 notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum DBF36805, selection    2 (pick any)
+0D7 00000000 SECT30 notype       External     | ??_C@_0DE@OICHJIEK@block?5number?5?$CFllu?5is?5out?5of?5rang@ (`string')
+0D8 00000000 SECT31 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 27381334, selection    2 (pick any)
+0DA 00000000 SECT31 notype       External     | ??_C@_0CB@KCLLNGEG@invalid?5overflow?5block?5number?5?$CFu@ (`string')
+0DB 00000000 SECT32 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum F1F9099F, selection    2 (pick any)
+0DD 00000000 SECT32 notype       External     | ??_C@_0BD@NEAODPAP@hash_metapage_info?$AA@ (`string')
+0DE 00000000 UNDEF  notype       External     | __security_cookie
+0DF 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0xD23 bytes
+
+  Summary
+
+        6B08 .debug$S
+          6C .debug$T
+         105 .drectve
+          C0 .pdata
+         333 .rdata
+        1075 .text$mn
+         154 .xdata

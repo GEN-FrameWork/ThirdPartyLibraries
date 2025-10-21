@@ -1,0 +1,179 @@
+
+Dump of file Release\postgres/printtup.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 613C, #relocs   FC, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  A15, #relocs   5A, #linenums    0, checksum 697EA1B7
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  16E, #relocs    D, #linenums    0, checksum 6D9FD7B7, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  2D0, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | pg_printf
+00F 00000000 UNDEF  notype ()    External     | errstart
+010 00000000 UNDEF  notype ()    External     | errfinish
+011 00000000 UNDEF  notype ()    External     | errcode
+012 00000000 UNDEF  notype ()    External     | errmsg
+013 00000000 UNDEF  notype ()    External     | palloc0
+014 00000000 UNDEF  notype ()    External     | pfree
+015 00000000 UNDEF  notype ()    External     | fmgr_info
+016 00000000 UNDEF  notype ()    External     | OutputFunctionCall
+017 00000000 UNDEF  notype ()    External     | OidOutputFunctionCall
+018 00000000 UNDEF  notype ()    External     | SendFunctionCall
+019 00000000 UNDEF  notype ()    External     | slot_getattr
+01A 00000000 UNDEF  notype ()    External     | slot_getallattrs
+01B 00000000 SECT4  notype ()    External     | printtup_create_DR
+01C 00000070 SECT4  notype ()    External     | SetRemoteDestReceiverParams
+01D 000000B0 SECT4  notype ()    External     | SendRowDescriptionMessage
+01E 00000270 SECT4  notype ()    External     | debugStartup
+01F 00000330 SECT4  notype ()    External     | debugtup
+020 00000000 UNDEF  notype ()    External     | pq_beginmessage
+021 00000000 UNDEF  notype ()    External     | pq_sendbytes
+022 00000000 UNDEF  notype ()    External     | pq_sendcountedtext
+023 00000000 UNDEF  notype ()    External     | pq_sendstring
+024 00000000 UNDEF  notype ()    External     | pq_sendint
+025 00000000 UNDEF  notype ()    External     | pq_endmessage
+026 00000000 UNDEF  notype ()    External     | pq_puttextmessage
+027 00000000 UNDEF  notype ()    External     | FetchPortalTargetList
+028 00000000 UNDEF  notype ()    External     | getTypeOutputInfo
+029 00000000 UNDEF  notype ()    External     | getTypeBinaryOutputInfo
+02A 00000000 UNDEF  notype ()    External     | getBaseTypeAndTypmod
+02B 00000000 UNDEF  notype ()    External     | MemoryContextReset
+02C 00000000 UNDEF  notype ()    External     | MemoryContextDelete
+02D 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+02E 00000490 SECT4  notype ()    Static       | printtup_startup
+02F 00000540 SECT4  notype ()    Static       | printtup
+030 000006C0 SECT4  notype ()    Static       | printtup_20
+031 00000830 SECT4  notype ()    Static       | printtup_internal_20
+032 000009C0 SECT4  notype ()    Static       | printtup_shutdown
+033 00000A10 SECT4  notype ()    Static       | printtup_destroy
+034 00000000 SECT5  notype ()    Static       | printtup_prepare_info
+035 00000000 SECT4  notype       Label        | $LN4
+036 000000B0 SECT4  notype       Label        | $LN28
+037 00000270 SECT4  notype       Label        | $LN13
+038 00000330 SECT4  notype       Label        | $LN14
+039 00000000 SECT7  notype       Static       | .xdata
+    Section length  168, #relocs   1E, #linenums    0, checksum CFD99E01
+03B 00000000 SECT7  notype       Static       | $unwind$printtup_create_DR
+03C 00000000 SECT8  notype       Static       | .pdata
+    Section length   E4, #relocs   39, #linenums    0, checksum 85ABAD35
+03E 00000000 SECT8  notype       Static       | $pdata$printtup_create_DR
+03F 00000008 SECT7  notype       Static       | $unwind$SendRowDescriptionMessage
+040 0000000C SECT8  notype       Static       | $pdata$SendRowDescriptionMessage
+041 00000020 SECT7  notype       Static       | $chain$0$SendRowDescriptionMessage
+042 00000018 SECT8  notype       Static       | $pdata$0$SendRowDescriptionMessage
+043 00000034 SECT7  notype       Static       | $chain$1$SendRowDescriptionMessage
+044 00000024 SECT8  notype       Static       | $pdata$1$SendRowDescriptionMessage
+045 00000044 SECT7  notype       Static       | $unwind$debugStartup
+046 00000030 SECT8  notype       Static       | $pdata$debugStartup
+047 00000050 SECT7  notype       Static       | $chain$2$debugStartup
+048 0000003C SECT8  notype       Static       | $pdata$2$debugStartup
+049 0000006C SECT7  notype       Static       | $chain$3$debugStartup
+04A 00000048 SECT8  notype       Static       | $pdata$3$debugStartup
+04B 0000007C SECT7  notype       Static       | $unwind$debugtup
+04C 00000054 SECT8  notype       Static       | $pdata$debugtup
+04D 0000008C SECT7  notype       Static       | $chain$3$debugtup
+04E 00000060 SECT8  notype       Static       | $pdata$3$debugtup
+04F 000000AC SECT7  notype       Static       | $chain$4$debugtup
+050 0000006C SECT8  notype       Static       | $pdata$4$debugtup
+051 000000BC SECT7  notype       Static       | $unwind$printtup_startup
+052 00000078 SECT8  notype       Static       | $pdata$printtup_startup
+053 000000CC SECT7  notype       Static       | $unwind$printtup
+054 00000084 SECT8  notype       Static       | $pdata$printtup
+055 000000E4 SECT7  notype       Static       | $chain$0$printtup
+056 00000090 SECT8  notype       Static       | $pdata$0$printtup
+057 000000F8 SECT7  notype       Static       | $chain$1$printtup
+058 0000009C SECT8  notype       Static       | $pdata$1$printtup
+059 00000108 SECT7  notype       Static       | $unwind$printtup_20
+05A 000000A8 SECT8  notype       Static       | $pdata$printtup_20
+05B 00000120 SECT7  notype       Static       | $unwind$printtup_internal_20
+05C 000000B4 SECT8  notype       Static       | $pdata$printtup_internal_20
+05D 00000138 SECT7  notype       Static       | $chain$0$printtup_internal_20
+05E 000000C0 SECT8  notype       Static       | $pdata$0$printtup_internal_20
+05F 0000014C SECT7  notype       Static       | $chain$1$printtup_internal_20
+060 000000CC SECT8  notype       Static       | $pdata$1$printtup_internal_20
+061 0000015C SECT7  notype       Static       | $unwind$printtup_shutdown
+062 000000D8 SECT8  notype       Static       | $pdata$printtup_shutdown
+063 00000000 SECT9  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 2AF99749, selection    5 (pick associative Section 0x5)
+065 00000000 SECT9  notype       Static       | $unwind$printtup_prepare_info
+066 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2358CBF4, selection    5 (pick associative Section 0x5)
+068 00000000 SECTA  notype       Static       | $pdata$printtup_prepare_info
+069 00000000 SECTB  notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 925E8003, selection    5 (pick associative Section 0x5)
+06B 00000000 SECTB  notype       Static       | $chain$1$printtup_prepare_info
+06C 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C97AE292, selection    5 (pick associative Section 0x5)
+06E 00000000 SECTC  notype       Static       | $pdata$1$printtup_prepare_info
+06F 00000000 SECTD  notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum DE75458E, selection    5 (pick associative Section 0x5)
+071 00000000 SECTD  notype       Static       | $chain$3$printtup_prepare_info
+072 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B5DE2B5F, selection    5 (pick associative Section 0x5)
+074 00000000 SECTE  notype       Static       | $pdata$3$printtup_prepare_info
+075 00000000 SECTF  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 702D087E, selection    5 (pick associative Section 0x5)
+077 00000000 SECTF  notype       Static       | $chain$4$printtup_prepare_info
+078 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 984F13B1, selection    5 (pick associative Section 0x5)
+07A 00000000 SECT10 notype       Static       | $pdata$4$printtup_prepare_info
+07B 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 9A0F2118, selection    5 (pick associative Section 0x5)
+07D 00000000 SECT11 notype       Static       | $chain$5$printtup_prepare_info
+07E 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FD54D805, selection    5 (pick associative Section 0x5)
+080 00000000 SECT12 notype       Static       | $pdata$5$printtup_prepare_info
+081 00000000 UNDEF  notype       External     | CurrentMemoryContext
+082 00000000 UNDEF  notype       External     | FrontendProtocol
+083 00000000 SECT13 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum A70C90AD, selection    2 (pick any)
+085 00000000 SECT13 notype       External     | ??_C@_08LOPKHLPM@printtup?$AA@ (`string')
+086 00000000 SECT14 notype       Static       | .rdata
+    Section length    6, #relocs    0, #linenums    0, checksum 5E24F03D, selection    2 (pick any)
+088 00000000 SECT14 notype       External     | ??_C@_05BABJKOGB@blank?$AA@ (`string')
+089 00000000 SECT15 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum CD762315, selection    2 (pick any)
+08B 00000000 SECT15 notype       External     | ??_C@_0BG@JKKAGNAK@printtup_prepare_info?$AA@ (`string')
+08C 00000000 SECT16 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 85D38547, selection    2 (pick any)
+08E 00000000 SECT16 notype       External     | ??_C@_0CF@FOPNAFNM@src?1backend?1access?1common?1printt@ (`string')
+08F 00000000 SECT17 notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 6F6BC26D, selection    2 (pick any)
+091 00000000 SECT17 notype       External     | ??_C@_0BM@BAOEEKHL@unsupported?5format?5code?3?5?$CFd?$AA@ (`string')
+092 00000000 SECT18 notype       Static       | .rdata
+    Section length    2, #relocs    0, #linenums    0, checksum A7B24620, selection    2 (pick any)
+094 00000000 SECT18 notype       External     | ??_C@_01BJJEKLCA@?$CC?$AA@ (`string')
+095 00000000 SECT19 notype       Static       | .rdata
+    Section length    1, #relocs    0, #linenums    0, checksum        0, selection    2 (pick any)
+097 00000000 SECT19 notype       External     | ??_C@_00CNPNBAHC@?$AA@ (`string')
+098 00000000 SECT1A notype       Static       | .rdata
+    Section length    5, #relocs    0, #linenums    0, checksum 5C7F0FB8, selection    2 (pick any)
+09A 00000000 SECT1A notype       External     | ??_C@_04GFKCAHFK@?5?$DN?5?$CC?$AA@ (`string')
+09B 00000000 SECT1B notype       Static       | .rdata
+    Section length   41, #relocs    0, #linenums    0, checksum A23669F1, selection    2 (pick any)
+09D 00000000 SECT1B notype       External     | ??_C@_0EB@EAAEGBHJ@?7?$CF2d?3?5?$CFs?$CFs?$CFs?$CFs?7?$CItypeid?5?$DN?5?$CFu?0?5len@ (`string')
+09E 00000000 SECT1C notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 8FD9F254, selection    2 (pick any)
+0A0 00000000 SECT1C notype       External     | ??_C@_06ONEKNCNF@?7?9?9?9?9?6?$AA@ (`string')
+
+String Table Size = 0x8CC bytes
+
+  Summary
+
+        640C .debug$S
+          68 .debug$T
+          5D .drectve
+         120 .pdata
+          B6 .rdata
+         B83 .text$mn
+         1C8 .xdata

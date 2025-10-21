@@ -1,0 +1,255 @@
+
+Dump of file Release\postgres/nbtree.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 8450, #relocs  18A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  FF6, #relocs   8F, #linenums    0, checksum C240D5A6
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  3BD, #relocs   19, #linenums    0, checksum 5724F891, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  7EC, #relocs   58, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  174, #relocs    E, #linenums    0, checksum FE96EC78, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  430, #relocs   2E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype       External     | __imp_memmove
+013 00000000 UNDEF  notype ()    External     | elog_start
+014 00000000 UNDEF  notype ()    External     | elog_finish
+015 00000000 UNDEF  notype ()    External     | pg_re_throw
+016 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+017 00000000 UNDEF  notype ()    External     | palloc
+018 00000000 UNDEF  notype ()    External     | palloc0
+019 00000000 UNDEF  notype ()    External     | pfree
+01A 00000000 UNDEF  notype ()    External     | tbm_add_tuples
+01B 00000000 UNDEF  notype ()    External     | RelationGetIndexScan
+01C 00000000 UNDEF  notype ()    External     | PageSetChecksumInplace
+01D 00000000 UNDEF  notype ()    External     | index_form_tuple
+01E 00000000 UNDEF  notype ()    External     | ReadBufferExtended
+01F 00000000 UNDEF  notype ()    External     | ReleaseBuffer
+020 00000000 UNDEF  notype ()    External     | IncrBufferRefCount
+021 00000000 UNDEF  notype ()    External     | RelationGetNumberOfBlocksInFork
+022 00000000 UNDEF  notype ()    External     | MarkBufferDirtyHint
+023 00000000 UNDEF  notype ()    External     | LockBuffer
+024 00000000 UNDEF  notype ()    External     | LockBufferForCleanup
+025 00000000 SECT4  notype ()    External     | btbuild
+026 00000160 SECT4  notype ()    External     | btbuildempty
+027 000001E0 SECT4  notype ()    External     | btinsert
+028 00000250 SECT4  notype ()    External     | btbeginscan
+029 00000320 SECT4  notype ()    External     | btestimateparallelscan
+02A 00000330 SECT4  notype ()    External     | btinitparallelscan
+02B 00000350 SECT4  notype ()    External     | btgettuple
+02C 00000430 SECT4  notype ()    External     | btgetbitmap
+02D 00000510 SECT4  notype ()    External     | btrescan
+02E 00000610 SECT4  notype ()    External     | btparallelrescan
+02F 00000680 SECT4  notype ()    External     | btendscan
+030 00000720 SECT4  notype ()    External     | btmarkpos
+031 000007B0 SECT4  notype ()    External     | btrestrpos
+032 000008A0 SECT4  notype ()    External     | btbulkdelete
+033 00000B30 SECT4  notype ()    External     | btvacuumcleanup
+034 00000BB0 SECT4  notype ()    External     | btcanreturn
+035 00000BC0 SECT4  notype ()    External     | _bt_parallel_seize
+036 00000CB0 SECT4  notype ()    External     | _bt_parallel_release
+037 00000D30 SECT4  notype ()    External     | _bt_parallel_done
+038 00000DE0 SECT4  notype ()    External     | _bt_parallel_advance_array_keys
+039 00000000 UNDEF  notype ()    External     | _bt_doinsert
+03A 00000000 UNDEF  notype ()    External     | _bt_initmetapage
+03B 00000000 UNDEF  notype ()    External     | _bt_checkpage
+03C 00000000 UNDEF  notype ()    External     | _bt_relbuf
+03D 00000000 UNDEF  notype ()    External     | _bt_page_recyclable
+03E 00000000 UNDEF  notype ()    External     | _bt_delitems_vacuum
+03F 00000000 UNDEF  notype ()    External     | _bt_pagedel
+040 00000000 UNDEF  notype ()    External     | _bt_first
+041 00000000 UNDEF  notype ()    External     | _bt_next
+042 00000000 UNDEF  notype ()    External     | _bt_preprocess_array_keys
+043 00000000 UNDEF  notype ()    External     | _bt_start_array_keys
+044 00000000 UNDEF  notype ()    External     | _bt_advance_array_keys
+045 00000000 UNDEF  notype ()    External     | _bt_mark_array_keys
+046 00000000 UNDEF  notype ()    External     | _bt_restore_array_keys
+047 00000000 UNDEF  notype ()    External     | _bt_killitems
+048 00000000 UNDEF  notype ()    External     | _bt_start_vacuum
+049 00000000 UNDEF  notype ()    External     | _bt_end_vacuum
+04A 00000000 UNDEF  notype ()    External     | _bt_end_vacuum_callback
+04B 00000000 UNDEF  notype ()    External     | btoptions
+04C 00000000 UNDEF  notype ()    External     | btproperty
+04D 00000000 UNDEF  notype ()    External     | btvalidate
+04E 00000000 UNDEF  notype ()    External     | _bt_spoolinit
+04F 00000000 UNDEF  notype ()    External     | _bt_spooldestroy
+050 00000000 UNDEF  notype ()    External     | _bt_spool
+051 00000000 UNDEF  notype ()    External     | _bt_leafbuild
+052 00000000 UNDEF  notype ()    External     | s_lock
+053 00000000 UNDEF  notype ()    External     | log_newpage
+054 00000000 UNDEF  notype ()    External     | ConditionVariableInit
+055 00000000 UNDEF  notype ()    External     | ConditionVariableSleep
+056 00000000 UNDEF  notype ()    External     | ConditionVariableCancelSleep
+057 00000000 UNDEF  notype ()    External     | ConditionVariableSignal
+058 00000000 UNDEF  notype ()    External     | ConditionVariableBroadcast
+059 00000000 UNDEF  notype ()    External     | IndexBuildHeapScan
+05A 00000000 UNDEF  notype ()    External     | vacuum_delay_point
+05B 00000000 UNDEF  notype ()    External     | RecordFreeIndexPage
+05C 00000000 UNDEF  notype ()    External     | IndexFreeSpaceMapVacuum
+05D 00000000 UNDEF  notype ()    External     | before_shmem_exit
+05E 00000000 UNDEF  notype ()    External     | cancel_before_shmem_exit
+05F 00000000 UNDEF  notype ()    External     | LockRelationForExtension
+060 00000000 UNDEF  notype ()    External     | UnlockRelationForExtension
+061 00000000 UNDEF  notype ()    External     | smgrwrite
+062 00000000 UNDEF  notype ()    External     | smgrimmedsync
+063 00000E60 SECT4  notype ()    External     | bthandler
+064 00000000 UNDEF  notype ()    External     | btcostestimate
+065 00000000 UNDEF  notype ()    External     | MemoryContextReset
+066 00000000 UNDEF  notype ()    External     | MemoryContextDelete
+067 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+068 00000FB0 SECT4  notype ()    Static       | btbuildCallback
+069 00000000 SECT7  notype ()    Static       | btvacuumscan
+06A 00000000 SECT5  notype ()    Static       | btvacuumpage
+06B 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+06C 00000000 UNDEF  notype ()    External     | __chkstk
+06D 00000000 UNDEF  notype ()    External     | __security_check_cookie
+06E 00000000 UNDEF  notype ()    External     | _setjmp
+06F 00000000 UNDEF  notype ()    External     | memcpy
+070 00000000 SECT4  notype       Label        | $LN12
+071 00000160 SECT4  notype       Label        | $LN4
+072 000001E0 SECT4  notype       Label        | $LN4
+073 00000250 SECT4  notype       Label        | $LN12
+074 00000350 SECT4  notype       Label        | $LN24
+075 00000430 SECT4  notype       Label        | $LN41
+076 00000510 SECT4  notype       Label        | $LN28
+077 00000610 SECT4  notype       Label        | $LN9
+078 00000680 SECT4  notype       Label        | $LN24
+079 00000720 SECT4  notype       Label        | $LN17
+07A 000007B0 SECT4  notype       Label        | $LN24
+07B 00000B2A SECT4  notype       Label        | $LN35
+07C 000008A0 SECT4  notype       Label        | $LN36
+07D 00000B30 SECT4  notype       Label        | $LN8
+07E 00000BC0 SECT4  notype       Label        | $LN22
+07F 00000CB0 SECT4  notype       Label        | $LN9
+080 00000D30 SECT4  notype       Label        | $LN13
+081 00000DE0 SECT4  notype       Label        | $LN12
+082 00000E60 SECT4  notype       Label        | $LN4
+083 00000072 SECT5  notype       Label        | $restart$56
+084 00000000 SECT9  notype       Static       | .xdata
+    Section length  1A0, #relocs   13, #linenums    0, checksum CED136F5
+086 00000000 SECT9  notype       Static       | $unwind$btbuild
+087 00000000 SECTA  notype       Static       | .pdata
+    Section length  12C, #relocs   4B, #linenums    0, checksum  EF53FE9
+089 00000000 SECTA  notype       Static       | $pdata$btbuild
+08A 00000014 SECT9  notype       Static       | $unwind$btbuildempty
+08B 0000000C SECTA  notype       Static       | $pdata$btbuildempty
+08C 00000020 SECT9  notype       Static       | $unwind$btinsert
+08D 00000018 SECTA  notype       Static       | $pdata$btinsert
+08E 00000030 SECT9  notype       Static       | $unwind$btbeginscan
+08F 00000024 SECTA  notype       Static       | $pdata$btbeginscan
+090 00000044 SECT9  notype       Static       | $unwind$btgettuple
+091 00000030 SECTA  notype       Static       | $pdata$btgettuple
+092 00000058 SECT9  notype       Static       | $unwind$btgetbitmap
+093 0000003C SECTA  notype       Static       | $pdata$btgetbitmap
+094 0000006C SECT9  notype       Static       | $unwind$btrescan
+095 00000048 SECTA  notype       Static       | $pdata$btrescan
+096 00000080 SECT9  notype       Static       | $unwind$btparallelrescan
+097 00000054 SECTA  notype       Static       | $pdata$btparallelrescan
+098 0000008C SECT9  notype       Static       | $unwind$btendscan
+099 00000060 SECTA  notype       Static       | $pdata$btendscan
+09A 00000094 SECT9  notype       Static       | $unwind$btmarkpos
+09B 0000006C SECTA  notype       Static       | $pdata$btmarkpos
+09C 000000A4 SECT9  notype       Static       | $unwind$btrestrpos
+09D 00000078 SECTA  notype       Static       | $pdata$btrestrpos
+09E 000000B0 SECT9  notype       Static       | $chain$0$btrestrpos
+09F 00000084 SECTA  notype       Static       | $pdata$0$btrestrpos
+0A0 000000C4 SECT9  notype       Static       | $chain$2$btrestrpos
+0A1 00000090 SECTA  notype       Static       | $pdata$2$btrestrpos
+0A2 000000D8 SECT9  notype       Static       | $unwind$btbulkdelete
+0A3 0000009C SECTA  notype       Static       | $pdata$btbulkdelete
+0A4 000000F8 SECT9  notype       Static       | $unwind$btvacuumcleanup
+0A5 000000A8 SECTA  notype       Static       | $pdata$btvacuumcleanup
+0A6 00000104 SECT9  notype       Static       | $unwind$_bt_parallel_seize
+0A7 000000B4 SECTA  notype       Static       | $pdata$_bt_parallel_seize
+0A8 00000120 SECT9  notype       Static       | $unwind$_bt_parallel_release
+0A9 000000C0 SECTA  notype       Static       | $pdata$_bt_parallel_release
+0AA 00000130 SECT9  notype       Static       | $unwind$_bt_parallel_done
+0AB 000000CC SECTA  notype       Static       | $pdata$_bt_parallel_done
+0AC 0000013C SECT9  notype       Static       | $chain$0$_bt_parallel_done
+0AD 000000D8 SECTA  notype       Static       | $pdata$0$_bt_parallel_done
+0AE 00000150 SECT9  notype       Static       | $chain$1$_bt_parallel_done
+0AF 000000E4 SECTA  notype       Static       | $pdata$1$_bt_parallel_done
+0B0 00000164 SECT9  notype       Static       | $chain$2$_bt_parallel_done
+0B1 000000F0 SECTA  notype       Static       | $pdata$2$_bt_parallel_done
+0B2 00000174 SECT9  notype       Static       | $chain$3$_bt_parallel_done
+0B3 000000FC SECTA  notype       Static       | $pdata$3$_bt_parallel_done
+0B4 00000184 SECT9  notype       Static       | $unwind$_bt_parallel_advance_array_keys
+0B5 00000108 SECTA  notype       Static       | $pdata$_bt_parallel_advance_array_keys
+0B6 00000190 SECT9  notype       Static       | $unwind$bthandler
+0B7 00000114 SECTA  notype       Static       | $pdata$bthandler
+0B8 00000198 SECT9  notype       Static       | $unwind$btbuildCallback
+0B9 00000120 SECTA  notype       Static       | $pdata$btbuildCallback
+0BA 00000000 SECTB  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum FDB5E11F, selection    5 (pick associative Section 0x7)
+0BC 00000000 SECTB  notype       Static       | $unwind$btvacuumscan
+0BD 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8E6D94DE, selection    5 (pick associative Section 0x7)
+0BF 00000000 SECTC  notype       Static       | $pdata$btvacuumscan
+0C0 00000000 SECTD  notype       Static       | .xdata
+    Section length   24, #relocs    1, #linenums    0, checksum 31AF1F16, selection    5 (pick associative Section 0x5)
+0C2 00000000 SECTD  notype       Static       | $unwind$btvacuumpage
+0C3 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7C1BD9EB, selection    5 (pick associative Section 0x5)
+0C5 00000000 SECTE  notype       Static       | $pdata$btvacuumpage
+0C6 00000000 UNDEF  notype       External     | error_context_stack
+0C7 00000000 UNDEF  notype       External     | PG_exception_stack
+0C8 00000000 UNDEF  notype       External     | CurrentMemoryContext
+0C9 00000000 UNDEF  notype       External     | newNodeMacroHolder
+0CA 00000000 UNDEF  notype       External     | BufferBlocks
+0CB 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+0CC 00000000 UNDEF  notype       External     | wal_level
+0CD 00000000 SECTF  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum F895B67E, selection    2 (pick any)
+0CF 00000000 SECTF  notype       External     | ??_C@_07GCEIJGOI@btbuild?$AA@ (`string')
+0D0 00000000 SECT10 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum B622140D, selection    2 (pick any)
+0D2 00000000 SECT10 notype       External     | ??_C@_0CD@EACFLMMF@src?1backend?1access?1nbtree?1nbtree@ (`string')
+0D3 00000000 SECT11 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 4BA1A098, selection    2 (pick any)
+0D5 00000000 SECT11 notype       External     | ??_C@_0CB@MOCCGFOK@index?5?$CC?$CFs?$CC?5already?5contains?5data@ (`string')
+0D6 00000000 SECT12 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum D4BE8E35, selection    2 (pick any)
+0D8 00000000 SECT12 notype       External     | ??_C@_0BB@OCKOIAHH@btparallelrescan?$AA@ (`string')
+0D9 00000000 SECT13 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum DE8ABC79, selection    2 (pick any)
+0DB 00000000 SECT13 notype       External     | ??_C@_0BD@PLHNIKOJ@_bt_parallel_seize?$AA@ (`string')
+0DC 00000000 SECT14 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 83A2AC50, selection    2 (pick any)
+0DE 00000000 SECT14 notype       External     | ??_C@_0BF@DNFJJGCE@_bt_parallel_release?$AA@ (`string')
+0DF 00000000 SECT15 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 79929AD7, selection    2 (pick any)
+0E1 00000000 SECT15 notype       External     | ??_C@_0BC@OBHGKKGF@_bt_parallel_done?$AA@ (`string')
+0E2 00000000 SECT16 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 96116433, selection    2 (pick any)
+0E4 00000000 SECT16 notype       External     | ??_C@_0CA@HAOEMOGB@_bt_parallel_advance_array_keys?$AA@ (`string')
+0E5 00000000 SECT17 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum E2BC1DEB, selection    2 (pick any)
+0E7 00000000 SECT17 notype       External     | ??_C@_0M@GGJGCEHL@_bt_pagedel?$AA@ (`string')
+0E8 00000000 SECT18 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+0EA 00000000 SECT18 notype       External     | __real@3ff0000000000000
+0EB 00000000 UNDEF  notype       External     | __security_cookie
+0EC 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0xCB3 bytes
+
+  Summary
+
+        906C .debug$S
+          68 .debug$T
+          5D .drectve
+         144 .pdata
+          CB .rdata
+        1527 .text$mn
+         1DC .xdata

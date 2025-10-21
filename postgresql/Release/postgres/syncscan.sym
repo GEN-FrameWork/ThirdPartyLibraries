@@ -1,0 +1,58 @@
+
+Dump of file Release\postgres/syncscan.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 45EC, #relocs   38, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  2B6, #relocs    E, #linenums    0, checksum BC4B7E23
+00A 00000000 SECT4  notype ()    External     | ss_report_location
+00B 000000F0 SECT4  notype ()    External     | ss_get_location
+00C 000001F0 SECT4  notype ()    External     | SyncScanShmemInit
+00D 000002B0 SECT4  notype ()    External     | SyncScanShmemSize
+00E 00000000 UNDEF  notype ()    External     | LWLockAcquire
+00F 00000000 UNDEF  notype ()    External     | LWLockConditionalAcquire
+010 00000000 UNDEF  notype ()    External     | LWLockRelease
+011 00000000 UNDEF  notype ()    External     | ShmemInitStruct
+012 00000000 SECT4  notype       Label        | $LN28
+013 000000F0 SECT4  notype       Label        | $LN26
+014 000001F0 SECT4  notype       Label        | $LN17
+015 00000000 SECT5  notype       Static       | .xdata
+    Section length   24, #relocs    0, #linenums    0, checksum 36B9B87D
+017 00000000 SECT5  notype       Static       | $unwind$ss_report_location
+018 00000000 SECT6  notype       Static       | .pdata
+    Section length   24, #relocs    9, #linenums    0, checksum B84DF664
+01A 00000000 SECT6  notype       Static       | $pdata$ss_report_location
+01B 0000000C SECT5  notype       Static       | $unwind$ss_get_location
+01C 0000000C SECT6  notype       Static       | $pdata$ss_get_location
+01D 0000001C SECT5  notype       Static       | $unwind$SyncScanShmemInit
+01E 00000018 SECT6  notype       Static       | $pdata$SyncScanShmemInit
+01F 00000000 UNDEF  notype       External     | IsUnderPostmaster
+020 00000000 UNDEF  notype       External     | MainLWLockArray
+021 00000000 SECT7  notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+023 00000000 SECT7  notype       Static       | scan_locations
+024 00000000 SECT8  notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum D757E0C3, selection    2 (pick any)
+026 00000000 SECT8  notype       External     | ??_C@_0BJ@MBGHBBLD@Sync?5Scan?5Locations?5List?$AA@ (`string')
+
+String Table Size = 0x18C bytes
+
+  Summary
+
+           8 .bss
+        45EC .debug$S
+          68 .debug$T
+          5D .drectve
+          24 .pdata
+          19 .rdata
+         2B6 .text$mn
+          24 .xdata

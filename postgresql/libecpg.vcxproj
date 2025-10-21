@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DB3D67B8-2F2F-4352-959F-8BC743DFB0F2}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\Debug\libecpg\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\Debug\libecpg\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\Release\libecpg\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\Release\libecpg\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>src/include;src/include/port/win32;src/include/port/win32_msvc;src/interfaces/ecpg/include;src/interfaces/libpq;src/port;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;__WINDOWS__;__WIN32__;EXEC_BACKEND;WIN32_STACK_RLIMIT=4194304;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;FRONTEND;_DEBUG;DEBUG=1%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DisableSpecificWarnings>4018;4244;4273;4102;4090;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerOutput>
+      </AssemblerOutput>
+      <AssemblerListingLocation>.\Debug\libecpg\</AssemblerListingLocation>
+      <ObjectFileName>.\Debug\libecpg\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\libecpg\</ProgramDataBaseFileName>
+      <BrowseInformation>false</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <OutputFile>.\Debug\libecpg\libecpg.dll</OutputFile>
+      <AdditionalDependencies>ws2_32.lib;Debug/libpq/libpq.lib;Debug/libpgtypes/libpgtypes.lib;Debug/libpgport/libpgport.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <StackReserveSize>4194304</StackReserveSize>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug\libecpg\libecpg.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>false</GenerateMapFile>
+      <MapFileName>.\Debug\libecpg\libecpg.map</MapFileName>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <!-- Permit links to MinGW-built, 32-bit DLLs (default before VS2012). -->
+      <ImageHasSafeExceptionHandlers/>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalOptions>/ignore:4197 %(AdditionalOptions)</AdditionalOptions>
+      <ModuleDefinitionFile>src/interfaces/ecpg/ecpglib/ecpglib.def</ModuleDefinitionFile>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>src/include;src/include/port/win32;src/include/port/win32_msvc;src/interfaces/ecpg/include;src/interfaces/libpq;src/port;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;__WINDOWS__;__WIN32__;EXEC_BACKEND;WIN32_STACK_RLIMIT=4194304;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;FRONTEND;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DisableSpecificWarnings>4018;4244;4273;4102;4090;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerOutput>
+      </AssemblerOutput>
+      <AssemblerListingLocation>.\Release\libecpg\</AssemblerListingLocation>
+      <ObjectFileName>.\Release\libecpg\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\libecpg\</ProgramDataBaseFileName>
+      <BrowseInformation>false</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <OutputFile>.\Release\libecpg\libecpg.dll</OutputFile>
+      <AdditionalDependencies>ws2_32.lib;Release/libpq/libpq.lib;Release/libpgtypes/libpgtypes.lib;Release/libpgport/libpgport.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <StackReserveSize>4194304</StackReserveSize>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Release\libecpg\libecpg.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>false</GenerateMapFile>
+      <MapFileName>.\Release\libecpg\libecpg.map</MapFileName>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <!-- Permit links to MinGW-built, 32-bit DLLs (default before VS2012). -->
+      <ImageHasSafeExceptionHandlers/>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalOptions>/ignore:4197 %(AdditionalOptions)</AdditionalOptions>
+      <ModuleDefinitionFile>src/interfaces/ecpg/ecpglib/ecpglib.def</ModuleDefinitionFile>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src/interfaces/ecpg/ecpglib/connect.c" />
+    <ClCompile Include="src/interfaces/ecpg/ecpglib/data.c" />
+    <ClCompile Include="src/interfaces/ecpg/ecpglib/descriptor.c" />
+    <ClCompile Include="src/interfaces/ecpg/ecpglib/error.c" />
+    <ClCompile Include="src/interfaces/ecpg/ecpglib/execute.c" />
+    <ClCompile Include="src/interfaces/ecpg/ecpglib/memory.c" />
+    <ClCompile Include="src/interfaces/ecpg/ecpglib/misc.c" />
+    <ClCompile Include="src/interfaces/ecpg/ecpglib/prepare.c" />
+    <ClCompile Include="src/interfaces/ecpg/ecpglib/sqlda.c" />
+    <ClCompile Include="src/interfaces/ecpg/ecpglib/typename.c" />
+    <ClCompile Include="src/port/path.c" />
+    <ClCompile Include="src/port/pgstrcasecmp.c" />
+    <ClCompile Include="src/port/thread.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src/interfaces/ecpg/ecpglib/win32ver.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="libpq.vcxproj">
+      <Project>{F41E6579-BBDE-4061-AAA4-2B3E3E616182}</Project>
+    </ProjectReference>
+    <ProjectReference Include="libpgtypes.vcxproj">
+      <Project>{D4D72E6B-3844-495C-9409-A88F2ED7554F}</Project>
+    </ProjectReference>
+    <ProjectReference Include="libpgport.vcxproj">
+      <Project>{22098EE5-2F81-41E2-B5A6-F2E8B09E6F16}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

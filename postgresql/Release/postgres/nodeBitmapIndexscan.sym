@@ -1,0 +1,103 @@
+
+Dump of file Release\postgres/nodeBitmapIndexscan.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 55C8, #relocs   5A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  444, #relocs   23, #linenums    0, checksum E0659701
+00A 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+00B 00000000 UNDEF  notype ()    External     | elog_start
+00C 00000000 UNDEF  notype ()    External     | elog_finish
+00D 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+00E 00000000 UNDEF  notype ()    External     | tbm_create
+00F 00000000 UNDEF  notype ()    External     | index_open
+010 00000000 UNDEF  notype ()    External     | index_close
+011 00000000 UNDEF  notype ()    External     | index_beginscan_bitmap
+012 00000000 UNDEF  notype ()    External     | index_rescan
+013 00000000 UNDEF  notype ()    External     | index_endscan
+014 00000000 UNDEF  notype ()    External     | index_getbitmap
+015 00000000 UNDEF  notype ()    External     | InstrStartNode
+016 00000000 UNDEF  notype ()    External     | InstrStopNode
+017 00000000 UNDEF  notype ()    External     | ExecReScan
+018 00000000 UNDEF  notype ()    External     | ExecAssignExprContext
+019 00000000 UNDEF  notype ()    External     | ExecRelationIsTargetRelation
+01A 00000000 SECT4  notype ()    External     | ExecInitBitmapIndexScan
+01B 000001C0 SECT4  notype ()    External     | MultiExecBitmapIndexScan
+01C 00000320 SECT4  notype ()    External     | ExecEndBitmapIndexScan
+01D 00000360 SECT4  notype ()    External     | ExecReScanBitmapIndexScan
+01E 00000000 UNDEF  notype ()    External     | ExecIndexBuildScanKeys
+01F 00000000 UNDEF  notype ()    External     | ExecIndexEvalRuntimeKeys
+020 00000000 UNDEF  notype ()    External     | ExecIndexEvalArrayKeys
+021 00000000 UNDEF  notype ()    External     | ExecIndexAdvanceArrayKeys
+022 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+023 00000000 UNDEF  notype ()    External     | MemoryContextReset
+024 00000410 SECT4  notype ()    Static       | ExecBitmapIndexScan
+025 00000000 SECT4  notype       Label        | $LN10
+026 000001C0 SECT4  notype       Label        | $LN27
+027 00000320 SECT4  notype       Label        | $LN6
+028 00000360 SECT4  notype       Label        | $LN9
+029 00000000 SECT5  notype       Static       | .xdata
+    Section length   D4, #relocs   15, #linenums    0, checksum 95000C20
+02B 00000000 SECT5  notype       Static       | $unwind$ExecInitBitmapIndexScan
+02C 00000000 SECT6  notype       Static       | .pdata
+    Section length   90, #relocs   24, #linenums    0, checksum  272F5AE
+02E 00000000 SECT6  notype       Static       | $pdata$ExecInitBitmapIndexScan
+02F 00000010 SECT5  notype       Static       | $chain$2$ExecInitBitmapIndexScan
+030 0000000C SECT6  notype       Static       | $pdata$2$ExecInitBitmapIndexScan
+031 0000002C SECT5  notype       Static       | $chain$3$ExecInitBitmapIndexScan
+032 00000018 SECT6  notype       Static       | $pdata$3$ExecInitBitmapIndexScan
+033 00000044 SECT5  notype       Static       | $chain$4$ExecInitBitmapIndexScan
+034 00000024 SECT6  notype       Static       | $pdata$4$ExecInitBitmapIndexScan
+035 00000054 SECT5  notype       Static       | $unwind$MultiExecBitmapIndexScan
+036 00000030 SECT6  notype       Static       | $pdata$MultiExecBitmapIndexScan
+037 00000060 SECT5  notype       Static       | $chain$0$MultiExecBitmapIndexScan
+038 0000003C SECT6  notype       Static       | $pdata$0$MultiExecBitmapIndexScan
+039 00000074 SECT5  notype       Static       | $chain$3$MultiExecBitmapIndexScan
+03A 00000048 SECT6  notype       Static       | $pdata$3$MultiExecBitmapIndexScan
+03B 00000090 SECT5  notype       Static       | $chain$4$MultiExecBitmapIndexScan
+03C 00000054 SECT6  notype       Static       | $pdata$4$MultiExecBitmapIndexScan
+03D 000000A8 SECT5  notype       Static       | $chain$5$MultiExecBitmapIndexScan
+03E 00000060 SECT6  notype       Static       | $pdata$5$MultiExecBitmapIndexScan
+03F 000000B8 SECT5  notype       Static       | $unwind$ExecEndBitmapIndexScan
+040 0000006C SECT6  notype       Static       | $pdata$ExecEndBitmapIndexScan
+041 000000C0 SECT5  notype       Static       | $unwind$ExecReScanBitmapIndexScan
+042 00000078 SECT6  notype       Static       | $pdata$ExecReScanBitmapIndexScan
+043 000000CC SECT5  notype       Static       | $unwind$ExecBitmapIndexScan
+044 00000084 SECT6  notype       Static       | $pdata$ExecBitmapIndexScan
+045 00000000 UNDEF  notype       External     | pg_signal_queue
+046 00000000 UNDEF  notype       External     | pg_signal_mask
+047 00000000 UNDEF  notype       External     | CurrentMemoryContext
+048 00000000 UNDEF  notype       External     | newNodeMacroHolder
+049 00000000 UNDEF  notype       External     | InterruptPending
+04A 00000000 UNDEF  notype       External     | work_mem
+04B 00000000 SECT7  notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 5E132243, selection    2 (pick any)
+04D 00000000 SECT7  notype       External     | ??_C@_0BE@KODJEGDB@ExecBitmapIndexScan?$AA@ (`string')
+04E 00000000 SECT8  notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum 533AB554, selection    2 (pick any)
+050 00000000 SECT8  notype       External     | ??_C@_0CL@FEEMOBJK@src?1backend?1executor?1nodeBitmapI@ (`string')
+051 00000000 SECT9  notype       Static       | .rdata
+    Section length   43, #relocs    0, #linenums    0, checksum 23625A56, selection    2 (pick any)
+053 00000000 SECT9  notype       External     | ??_C@_0ED@NOODCCBF@BitmapIndexScan?5node?5does?5not?5su@ (`string')
+054 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x616 bytes
+
+  Summary
+
+        55C8 .debug$S
+          68 .debug$T
+          5D .drectve
+          90 .pdata
+          82 .rdata
+         444 .text$mn
+          D4 .xdata

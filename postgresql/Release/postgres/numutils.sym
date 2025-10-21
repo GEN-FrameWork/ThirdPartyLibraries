@@ -1,0 +1,106 @@
+
+Dump of file Release\postgres/numutils.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4348, #relocs   A6, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  697, #relocs   40, #linenums    0, checksum C24F4123
+00A 00000000 UNDEF  notype       External     | __imp__errno
+00B 00000000 UNDEF  notype       External     | __imp_strtol
+00C 00000000 UNDEF  notype       External     | __imp__strtoui64
+00D 00000000 UNDEF  notype       External     | __imp_isspace
+00E 00000000 UNDEF  notype ()    External     | errstart
+00F 00000000 UNDEF  notype ()    External     | errfinish
+010 00000000 UNDEF  notype ()    External     | errcode
+011 00000000 UNDEF  notype ()    External     | errmsg
+012 00000000 UNDEF  notype ()    External     | elog_start
+013 00000000 UNDEF  notype ()    External     | elog_finish
+014 00000000 SECT4  notype ()    External     | pg_atoi
+015 00000320 SECT4  notype ()    External     | pg_itoa
+016 00000330 SECT4  notype ()    External     | pg_ltoa
+017 000003F0 SECT4  notype ()    External     | pg_lltoa
+018 000004E0 SECT4  notype ()    External     | pg_ltostr_zeropad
+019 000005D0 SECT4  notype ()    External     | pg_ltostr
+01A 00000690 SECT4  notype ()    External     | pg_strtouint64
+01B 00000000 SECT4  notype       Label        | $LN71
+01C 00000330 SECT4  notype       Label        | $LN34
+01D 000003F0 SECT4  notype       Label        | $LN32
+01E 000004E0 SECT4  notype       Label        | $LN21
+01F 00000000 SECT5  notype       Static       | .xdata
+    Section length   A0, #relocs   12, #linenums    0, checksum 48124890
+021 00000000 SECT5  notype       Static       | $unwind$pg_atoi
+022 00000000 SECT6  notype       Static       | .pdata
+    Section length   78, #relocs   1E, #linenums    0, checksum 61894863
+024 00000000 SECT6  notype       Static       | $pdata$pg_atoi
+025 00000010 SECT5  notype       Static       | $chain$1$pg_atoi
+026 0000000C SECT6  notype       Static       | $pdata$1$pg_atoi
+027 00000028 SECT5  notype       Static       | $chain$2$pg_atoi
+028 00000018 SECT6  notype       Static       | $pdata$2$pg_atoi
+029 0000003C SECT5  notype       Static       | $unwind$pg_ltoa
+02A 00000024 SECT6  notype       Static       | $pdata$pg_ltoa
+02B 00000044 SECT5  notype       Static       | $unwind$pg_lltoa
+02C 00000030 SECT6  notype       Static       | $pdata$pg_lltoa
+02D 0000004C SECT5  notype       Static       | $chain$0$pg_lltoa
+02E 0000003C SECT6  notype       Static       | $pdata$0$pg_lltoa
+02F 00000060 SECT5  notype       Static       | $chain$1$pg_lltoa
+030 00000048 SECT6  notype       Static       | $pdata$1$pg_lltoa
+031 00000070 SECT5  notype       Static       | $unwind$pg_ltostr_zeropad
+032 00000054 SECT6  notype       Static       | $pdata$pg_ltostr_zeropad
+033 0000007C SECT5  notype       Static       | $chain$0$pg_ltostr_zeropad
+034 00000060 SECT6  notype       Static       | $pdata$0$pg_ltostr_zeropad
+035 00000090 SECT5  notype       Static       | $chain$1$pg_ltostr_zeropad
+036 0000006C SECT6  notype       Static       | $pdata$1$pg_ltostr_zeropad
+037 00000000 SECT7  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A8226C1C, selection    2 (pick any)
+039 00000000 SECT7  notype       External     | ??_C@_07DCPPEMIK@pg_atoi?$AA@ (`string')
+03A 00000000 SECT8  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 6821ABB2, selection    2 (pick any)
+03C 00000000 SECT8  notype       External     | ??_C@_0CB@ONKCGOMA@src?1backend?1utils?1adt?1numutils?4c@ (`string')
+03D 00000000 SECT9  notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 568941F4, selection    2 (pick any)
+03F 00000000 SECT9  notype       External     | ??_C@_0N@KGACPIIJ@NULL?5pointer?$AA@ (`string')
+040 00000000 SECTA  notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum B0088FA5, selection    2 (pick any)
+042 00000000 SECTA  notype       External     | ??_C@_0CH@MPAFIEHK@invalid?5input?5syntax?5for?5integer@ (`string')
+043 00000000 SECTB  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 20A8E6C7, selection    2 (pick any)
+045 00000000 SECTB  notype       External     | ??_C@_07LKHFMGFB@integer?$AA@ (`string')
+046 00000000 SECTC  notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 562A2997, selection    2 (pick any)
+048 00000000 SECTC  notype       External     | ??_C@_0CH@CJCHCCEI@value?5?$CC?$CFs?$CC?5is?5out?5of?5range?5for?5t@ (`string')
+049 00000000 SECTD  notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum C3C1BA17, selection    2 (pick any)
+04B 00000000 SECTD  notype       External     | ??_C@_08NKDHFBEG@smallint?$AA@ (`string')
+04C 00000000 SECTE  notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum DB55BF80, selection    2 (pick any)
+04E 00000000 SECTE  notype       External     | ??_C@_0CN@OCCKNHNL@value?5?$CC?$CFs?$CC?5is?5out?5of?5range?5for?58@ (`string')
+04F 00000000 SECTF  notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 8A98F428, selection    2 (pick any)
+051 00000000 SECTF  notype       External     | ??_C@_0BM@PFBHHMDO@unsupported?5result?5size?3?5?$CFd?$AA@ (`string')
+052 00000000 SECT10 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 3E459A6A, selection    2 (pick any)
+054 00000000 SECT10 notype       External     | ??_C@_0M@LKGPKDPK@?92147483648?$AA@ (`string')
+055 00000000 SECT11 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum  47FD69D, selection    2 (pick any)
+057 00000000 SECT11 notype       External     | ??_C@_0BF@LKIEOMOJ@?99223372036854775808?$AA@ (`string')
+
+String Table Size = 0x41D bytes
+
+  Summary
+
+        4348 .debug$S
+          68 .debug$T
+          5D .drectve
+          78 .pdata
+          FF .rdata
+         697 .text$mn
+          A0 .xdata

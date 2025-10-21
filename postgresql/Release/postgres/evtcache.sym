@@ -1,0 +1,136 @@
+
+Dump of file Release\postgres/evtcache.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4B34, #relocs   1E, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length   8A, #relocs    A, #linenums    0, checksum DC3E85EF
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  401, #relocs   2D, #linenums    0, checksum B8B002A5, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  5CC, #relocs   34, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   DD, #relocs    A, #linenums    0, checksum 269F0282, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  274, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | pg_qsort
+013 00000000 UNDEF  notype ()    External     | pg_qsort_strcmp
+014 00000000 UNDEF  notype ()    External     | elog_start
+015 00000000 UNDEF  notype ()    External     | elog_finish
+016 00000000 UNDEF  notype ()    External     | palloc
+017 00000000 UNDEF  notype ()    External     | palloc0
+018 00000000 UNDEF  notype ()    External     | pfree
+019 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+01A 00000000 UNDEF  notype ()    External     | lappend
+01B 00000000 UNDEF  notype ()    External     | lcons
+01C 00000000 UNDEF  notype ()    External     | index_open
+01D 00000000 UNDEF  notype ()    External     | index_close
+01E 00000000 UNDEF  notype ()    External     | systable_beginscan_ordered
+01F 00000000 UNDEF  notype ()    External     | systable_getnext_ordered
+020 00000000 UNDEF  notype ()    External     | systable_endscan_ordered
+021 00000000 UNDEF  notype ()    External     | relation_open
+022 00000000 UNDEF  notype ()    External     | relation_close
+023 00000000 UNDEF  notype ()    External     | nocachegetattr
+024 00000000 UNDEF  notype ()    External     | deconstruct_array
+025 00000000 UNDEF  notype ()    External     | hash_create
+026 00000000 UNDEF  notype ()    External     | hash_search
+027 00000000 UNDEF  notype ()    External     | text_to_cstring
+028 00000000 UNDEF  notype ()    External     | CreateCacheMemoryContext
+029 00000000 SECT4  notype ()    External     | EventCacheLookup
+02A 00000000 UNDEF  notype ()    External     | CacheRegisterSyscacheCallback
+02B 00000000 UNDEF  notype ()    External     | MemoryContextReset
+02C 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+02D 00000000 SECT5  notype ()    Static       | BuildEventTriggerCache
+02E 00000050 SECT4  notype ()    Static       | InvalidateEventCacheCallback
+02F 00000000 SECT7  notype ()    Static       | DecodeTextArrayToCString
+030 00000000 UNDEF  notype ()    External     | memset
+031 00000000 UNDEF  notype ()    External     | strcmp
+032 00000000 SECT4  notype       Label        | $LN7
+033 00000000 SECT9  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 7B035361
+035 00000000 SECT9  notype       Static       | $unwind$EventCacheLookup
+036 00000000 SECTA  notype       Static       | .pdata
+    Section length   18, #relocs    6, #linenums    0, checksum 21F5EFA3
+038 00000000 SECTA  notype       Static       | $pdata$EventCacheLookup
+039 00000000 SECTB  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum F59B9619, selection    5 (pick associative Section 0x5)
+03B 00000000 SECTB  notype       Static       | $unwind$BuildEventTriggerCache
+03C 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FF898777, selection    5 (pick associative Section 0x5)
+03E 00000000 SECTC  notype       Static       | $pdata$BuildEventTriggerCache
+03F 00000000 SECTD  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 6987A30B, selection    5 (pick associative Section 0x5)
+041 00000000 SECTD  notype       Static       | $chain$0$BuildEventTriggerCache
+042 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 44B1ADA7, selection    5 (pick associative Section 0x5)
+044 00000000 SECTE  notype       Static       | $pdata$0$BuildEventTriggerCache
+045 00000000 SECTF  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 46DE6D9B, selection    5 (pick associative Section 0x5)
+047 00000000 SECTF  notype       Static       | $chain$1$BuildEventTriggerCache
+048 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum AD691F1B, selection    5 (pick associative Section 0x5)
+04A 00000000 SECT10 notype       Static       | $pdata$1$BuildEventTriggerCache
+04B 00000008 SECT9  notype       Static       | $unwind$InvalidateEventCacheCallback
+04C 0000000C SECTA  notype       Static       | $pdata$InvalidateEventCacheCallback
+04D 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 8B63A526, selection    5 (pick associative Section 0x7)
+04F 00000000 SECT11 notype       Static       | $unwind$DecodeTextArrayToCString
+050 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 9D1863CD, selection    5 (pick associative Section 0x7)
+052 00000000 SECT12 notype       Static       | $pdata$DecodeTextArrayToCString
+053 00000000 UNDEF  notype       External     | CurrentMemoryContext
+054 00000000 UNDEF  notype       External     | CacheMemoryContext
+055 00000000 SECT13 notype       Static       | .bss
+    Section length   14, #relocs    0, #linenums    0, checksum        0
+057 00000000 SECT13 notype       Static       | EventTriggerCache
+058 00000008 SECT13 notype       Static       | EventTriggerCacheContext
+059 00000010 SECT13 notype       Static       | EventTriggerCacheState
+05A 00000000 SECT14 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 1A3C5485, selection    2 (pick any)
+05C 00000000 SECT14 notype       External     | ??_C@_0BC@ICNIGEDH@EventTriggerCache?$AA@ (`string')
+05D 00000000 SECT15 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 3F5D4A53, selection    2 (pick any)
+05F 00000000 SECT15 notype       External     | ??_C@_0BE@MPHHCOCB@Event?5Trigger?5Cache?$AA@ (`string')
+060 00000000 SECT16 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 699EAE9A, selection    2 (pick any)
+062 00000000 SECT16 notype       External     | ??_C@_0BC@PBHKJOCI@ddl_command_start?$AA@ (`string')
+063 00000000 SECT17 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 19FBE586, selection    2 (pick any)
+065 00000000 SECT17 notype       External     | ??_C@_0BA@KLPFBCM@ddl_command_end?$AA@ (`string')
+066 00000000 SECT18 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum D92ABEDC, selection    2 (pick any)
+068 00000000 SECT18 notype       External     | ??_C@_08MANMFFIN@sql_drop?$AA@ (`string')
+069 00000000 SECT19 notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 8BB614E0, selection    2 (pick any)
+06B 00000000 SECT19 notype       External     | ??_C@_0O@KFPCJCNI@table_rewrite?$AA@ (`string')
+06C 00000000 SECT1A notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum F8C7B98B, selection    2 (pick any)
+06E 00000000 SECT1A notype       External     | ??_C@_0BJ@OOPHEIPL@DecodeTextArrayToCString?$AA@ (`string')
+06F 00000000 SECT1B notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum DFEED76E, selection    2 (pick any)
+071 00000000 SECT1B notype       External     | ??_C@_0CD@CJOJHPKG@src?1backend?1utils?1cache?1evtcache@ (`string')
+072 00000000 SECT1C notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum BF4397DA, selection    2 (pick any)
+074 00000000 SECT1C notype       External     | ??_C@_0BI@ODHNKCAF@expected?51?9D?5text?5array?$AA@ (`string')
+
+String Table Size = 0x531 bytes
+
+  Summary
+
+          14 .bss
+        5374 .debug$S
+          68 .debug$T
+          5D .drectve
+          48 .pdata
+          B3 .rdata
+         568 .text$mn
+          5C .xdata

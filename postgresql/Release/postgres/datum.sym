@@ -1,0 +1,90 @@
+
+Dump of file Release\postgres/datum.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4814, #relocs   B0, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  57A, #relocs   2F, #linenums    0, checksum A2088B3B
+00A 00000000 UNDEF  notype ()    External     | errstart
+00B 00000000 UNDEF  notype ()    External     | errfinish
+00C 00000000 UNDEF  notype ()    External     | errcode
+00D 00000000 UNDEF  notype ()    External     | errmsg
+00E 00000000 UNDEF  notype ()    External     | elog_start
+00F 00000000 UNDEF  notype ()    External     | elog_finish
+010 00000000 UNDEF  notype ()    External     | palloc
+011 00000000 UNDEF  notype ()    External     | pfree
+012 00000000 SECT4  notype ()    External     | datumGetSize
+013 000001A0 SECT4  notype ()    External     | datumCopy
+014 000002D0 SECT4  notype ()    External     | datumTransfer
+015 00000300 SECT4  notype ()    External     | datumIsEqual
+016 00000380 SECT4  notype ()    External     | datumEstimateSpace
+017 000003F0 SECT4  notype ()    External     | datumSerialize
+018 00000500 SECT4  notype ()    External     | datumRestore
+019 00000000 UNDEF  notype ()    External     | DatumGetEOHP
+01A 00000000 UNDEF  notype ()    External     | EOH_get_flat_size
+01B 00000000 UNDEF  notype ()    External     | EOH_flatten_into
+01C 00000000 UNDEF  notype ()    External     | TransferExpandedObject
+01D 00000000 UNDEF  notype ()    External     | memcmp
+01E 00000000 UNDEF  notype ()    External     | memcpy
+01F 00000000 SECT4  notype       Label        | $LN39
+020 000001A0 SECT4  notype       Label        | $LN22
+021 00000300 SECT4  notype       Label        | $LN8
+022 00000380 SECT4  notype       Label        | $LN10
+023 000003F0 SECT4  notype       Label        | $LN15
+024 00000500 SECT4  notype       Label        | $LN6
+025 00000000 SECT5  notype       Static       | .xdata
+    Section length   A0, #relocs    9, #linenums    0, checksum AC97B5C1
+027 00000000 SECT5  notype       Static       | $unwind$datumGetSize
+028 00000000 SECT6  notype       Static       | .pdata
+    Section length   6C, #relocs   1B, #linenums    0, checksum 42B4AB76
+02A 00000000 SECT6  notype       Static       | $pdata$datumGetSize
+02B 0000000C SECT5  notype       Static       | $unwind$datumCopy
+02C 0000000C SECT6  notype       Static       | $pdata$datumCopy
+02D 00000014 SECT5  notype       Static       | $chain$1$datumCopy
+02E 00000018 SECT6  notype       Static       | $pdata$1$datumCopy
+02F 0000002C SECT5  notype       Static       | $chain$3$datumCopy
+030 00000024 SECT6  notype       Static       | $pdata$3$datumCopy
+031 00000044 SECT5  notype       Static       | $chain$5$datumCopy
+032 00000030 SECT6  notype       Static       | $pdata$5$datumCopy
+033 0000005C SECT5  notype       Static       | $unwind$datumIsEqual
+034 0000003C SECT6  notype       Static       | $pdata$datumIsEqual
+035 00000070 SECT5  notype       Static       | $unwind$datumEstimateSpace
+036 00000048 SECT6  notype       Static       | $pdata$datumEstimateSpace
+037 00000078 SECT5  notype       Static       | $unwind$datumSerialize
+038 00000054 SECT6  notype       Static       | $pdata$datumSerialize
+039 00000090 SECT5  notype       Static       | $unwind$datumRestore
+03A 00000060 SECT6  notype       Static       | $pdata$datumRestore
+03B 00000000 UNDEF  notype       External     | CurrentMemoryContext
+03C 00000000 SECT7  notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 9C1E0166, selection    2 (pick any)
+03E 00000000 SECT7  notype       External     | ??_C@_0N@GMJFLIBL@datumGetSize?$AA@ (`string')
+03F 00000000 SECT8  notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 23E50ED0, selection    2 (pick any)
+041 00000000 SECT8  notype       External     | ??_C@_0BO@NMBOMPJK@src?1backend?1utils?1adt?1datum?4c?$AA@ (`string')
+042 00000000 SECT9  notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum CDB9FBFD, selection    2 (pick any)
+044 00000000 SECT9  notype       External     | ??_C@_0BG@JKGPLFOC@invalid?5Datum?5pointer?$AA@ (`string')
+045 00000000 SECTA  notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum B949FC86, selection    2 (pick any)
+047 00000000 SECTA  notype       External     | ??_C@_0BD@JMLOMKBG@invalid?5typLen?3?5?$CFd?$AA@ (`string')
+
+String Table Size = 0x314 bytes
+
+  Summary
+
+        4814 .debug$S
+          68 .debug$T
+          5D .drectve
+          6C .pdata
+          54 .rdata
+         57A .text$mn
+          A0 .xdata

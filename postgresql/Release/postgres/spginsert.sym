@@ -1,0 +1,95 @@
+
+Dump of file Release\postgres/spginsert.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5BD8, #relocs   6A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  5F7, #relocs   56, #linenums    0, checksum 834FF2DF
+00A 00000000 UNDEF  notype ()    External     | elog_start
+00B 00000000 UNDEF  notype ()    External     | elog_finish
+00C 00000000 UNDEF  notype ()    External     | palloc
+00D 00000000 UNDEF  notype ()    External     | palloc0
+00E 00000000 UNDEF  notype ()    External     | PageSetChecksumInplace
+00F 00000000 SECT4  notype ()    External     | spgbuild
+010 00000330 SECT4  notype ()    External     | spgbuildempty
+011 00000450 SECT4  notype ()    External     | spginsert
+012 00000000 UNDEF  notype ()    External     | initSpGistState
+013 00000000 UNDEF  notype ()    External     | SpGistNewBuffer
+014 00000000 UNDEF  notype ()    External     | SpGistUpdateMetaPage
+015 00000000 UNDEF  notype ()    External     | SpGistInitPage
+016 00000000 UNDEF  notype ()    External     | SpGistInitBuffer
+017 00000000 UNDEF  notype ()    External     | SpGistInitMetapage
+018 00000000 UNDEF  notype ()    External     | spgdoinsert
+019 00000000 UNDEF  notype ()    External     | XLogBeginInsert
+01A 00000000 UNDEF  notype ()    External     | XLogInsert
+01B 00000000 UNDEF  notype ()    External     | XLogRegisterBuffer
+01C 00000000 UNDEF  notype ()    External     | log_newpage
+01D 00000000 UNDEF  notype ()    External     | IndexBuildHeapScan
+01E 00000000 UNDEF  notype ()    External     | UnlockReleaseBuffer
+01F 00000000 UNDEF  notype ()    External     | MarkBufferDirty
+020 00000000 UNDEF  notype ()    External     | RelationGetNumberOfBlocksInFork
+021 00000000 UNDEF  notype ()    External     | smgrwrite
+022 00000000 UNDEF  notype ()    External     | smgrimmedsync
+023 00000000 UNDEF  notype ()    External     | MemoryContextReset
+024 00000000 UNDEF  notype ()    External     | MemoryContextDelete
+025 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+026 00000550 SECT4  notype ()    Static       | spgistBuildCallback
+027 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+028 00000000 UNDEF  notype ()    External     | __security_check_cookie
+029 00000000 SECT4  notype       Label        | $LN27
+02A 00000330 SECT4  notype       Label        | $LN4
+02B 00000450 SECT4  notype       Label        | $LN14
+02C 00000000 SECT5  notype       Static       | .xdata
+    Section length   64, #relocs    2, #linenums    0, checksum A45A40FA
+02E 00000000 SECT5  notype       Static       | $unwind$spgbuild
+02F 00000000 SECT6  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum F01514F1
+031 00000000 SECT6  notype       Static       | $pdata$spgbuild
+032 00000024 SECT5  notype       Static       | $unwind$spgbuildempty
+033 0000000C SECT6  notype       Static       | $pdata$spgbuildempty
+034 00000030 SECT5  notype       Static       | $unwind$spginsert
+035 00000018 SECT6  notype       Static       | $pdata$spginsert
+036 0000004C SECT5  notype       Static       | $unwind$spgistBuildCallback
+037 00000024 SECT6  notype       Static       | $pdata$spgistBuildCallback
+038 00000000 UNDEF  notype       External     | CurrentMemoryContext
+039 00000000 UNDEF  notype       External     | CritSectionCount
+03A 00000000 UNDEF  notype       External     | BufferBlocks
+03B 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+03C 00000000 SECT7  notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 5913F96B, selection    2 (pick any)
+03E 00000000 SECT7  notype       External     | ??_C@_08EAOFBCDK@spgbuild?$AA@ (`string')
+03F 00000000 SECT8  notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum E61E3AA2, selection    2 (pick any)
+041 00000000 SECT8  notype       External     | ??_C@_0CG@IBBIFOOO@src?1backend?1access?1spgist?1spgins@ (`string')
+042 00000000 SECT9  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 4BA1A098, selection    2 (pick any)
+044 00000000 SECT9  notype       External     | ??_C@_0CB@MOCCGFOK@index?5?$CC?$CFs?$CC?5already?5contains?5data@ (`string')
+045 00000000 SECTA  notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum B1944CEB, selection    2 (pick any)
+047 00000000 SECTA  notype       External     | ??_C@_0CA@FHGBOGLJ@SP?9GiST?5build?5temporary?5context?$AA@ (`string')
+048 00000000 SECTB  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 1C9C7B89, selection    2 (pick any)
+04A 00000000 SECTB  notype       External     | ??_C@_0CB@JJBPLOPL@SP?9GiST?5insert?5temporary?5context@ (`string')
+04B 00000000 UNDEF  notype       External     | __security_cookie
+04C 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x3F4 bytes
+
+  Summary
+
+        5BD8 .debug$S
+          68 .debug$T
+          5D .drectve
+          30 .pdata
+          91 .rdata
+         5F7 .text$mn
+          64 .xdata

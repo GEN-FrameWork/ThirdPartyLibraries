@@ -1,0 +1,224 @@
+
+Dump of file Release\postgres/spgutils.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 70D0, #relocs  168, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 107A, #relocs   89, #linenums    0, checksum 83E31855
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  156, #relocs    A, #linenums    0, checksum F78679D2, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  2A4, #relocs   1A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   A7, #relocs    5, #linenums    0, checksum 99F28C66, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  1C4, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | errstart
+013 00000000 UNDEF  notype ()    External     | errfinish
+014 00000000 UNDEF  notype ()    External     | errcode
+015 00000000 UNDEF  notype ()    External     | errmsg
+016 00000000 UNDEF  notype ()    External     | errhint
+017 00000000 UNDEF  notype ()    External     | elog_start
+018 00000000 UNDEF  notype ()    External     | elog_finish
+019 00000000 UNDEF  notype ()    External     | MemoryContextAllocZero
+01A 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+01B 00000000 UNDEF  notype ()    External     | palloc
+01C 00000000 UNDEF  notype ()    External     | palloc0
+01D 00000000 UNDEF  notype ()    External     | FunctionCall2Coll
+01E 00000000 UNDEF  notype ()    External     | index_getprocinfo
+01F 00000000 UNDEF  notype ()    External     | default_reloptions
+020 00000000 UNDEF  notype ()    External     | PageInit
+021 00000000 UNDEF  notype ()    External     | PageAddItemExtended
+022 00000000 UNDEF  notype ()    External     | PageGetExactFreeSpace
+023 00000000 UNDEF  notype ()    External     | PageIndexTupleDelete
+024 00000000 SECT4  notype ()    External     | spgoptions
+025 00000000 UNDEF  notype ()    External     | spgbuild
+026 00000000 UNDEF  notype ()    External     | spgbuildempty
+027 00000000 UNDEF  notype ()    External     | spginsert
+028 00000000 UNDEF  notype ()    External     | spgbeginscan
+029 00000000 UNDEF  notype ()    External     | spgendscan
+02A 00000000 UNDEF  notype ()    External     | spgrescan
+02B 00000000 UNDEF  notype ()    External     | spggetbitmap
+02C 00000000 UNDEF  notype ()    External     | spggettuple
+02D 00000000 UNDEF  notype ()    External     | spgcanreturn
+02E 00000000 UNDEF  notype ()    External     | spgbulkdelete
+02F 00000000 UNDEF  notype ()    External     | spgvacuumcleanup
+030 00000000 UNDEF  notype ()    External     | spgvalidate
+031 00000020 SECT4  notype ()    External     | spgGetCache
+032 00000190 SECT4  notype ()    External     | initSpGistState
+033 000001F0 SECT4  notype ()    External     | SpGistNewBuffer
+034 00000300 SECT4  notype ()    External     | SpGistUpdateMetaPage
+035 000003B0 SECT4  notype ()    External     | SpGistGetBuffer
+036 000005B0 SECT4  notype ()    External     | SpGistSetLastUsedPage
+037 00000670 SECT4  notype ()    External     | SpGistInitPage
+038 000006C0 SECT4  notype ()    External     | SpGistInitBuffer
+039 00000730 SECT4  notype ()    External     | SpGistInitMetapage
+03A 000007D0 SECT4  notype ()    External     | SpGistGetTypeSize
+03B 00000860 SECT4  notype ()    External     | spgFormLeafTuple
+03C 00000910 SECT4  notype ()    External     | spgFormNodeTuple
+03D 00000A10 SECT4  notype ()    External     | spgFormInnerTuple
+03E 00000C00 SECT4  notype ()    External     | spgFormDeadTuple
+03F 00000C60 SECT4  notype ()    External     | spgExtractNodeLabels
+040 00000DB0 SECT4  notype ()    External     | SpGistPageAddNewItem
+041 00000000 UNDEF  notype ()    External     | GetTopTransactionIdIfAny
+042 00000000 UNDEF  notype ()    External     | ReadBuffer
+043 00000000 UNDEF  notype ()    External     | ReleaseBuffer
+044 00000000 UNDEF  notype ()    External     | UnlockReleaseBuffer
+045 00000000 UNDEF  notype ()    External     | MarkBufferDirty
+046 00000000 UNDEF  notype ()    External     | BufferGetBlockNumber
+047 00000000 UNDEF  notype ()    External     | LockBuffer
+048 00000000 UNDEF  notype ()    External     | ConditionalLockBuffer
+049 00000000 UNDEF  notype ()    External     | GetFreeIndexPage
+04A 00000000 UNDEF  notype ()    External     | LockRelationForExtension
+04B 00000000 UNDEF  notype ()    External     | UnlockRelationForExtension
+04C 00000F70 SECT4  notype ()    External     | spghandler
+04D 00000000 UNDEF  notype ()    External     | spgcostestimate
+04E 00000000 UNDEF  notype ()    External     | get_typlenbyval
+04F 00000000 SECT5  notype ()    Static       | allocNewBuffer
+050 00000000 SECT7  notype ()    Static       | memcpyDatum
+051 00000000 UNDEF  notype ()    External     | memcpy
+052 00000020 SECT4  notype       Label        | $LN19
+053 00000190 SECT4  notype       Label        | $LN4
+054 000001F0 SECT4  notype       Label        | $LN28
+055 00000300 SECT4  notype       Label        | $LN10
+056 000003B0 SECT4  notype       Label        | $LN28
+057 000005B0 SECT4  notype       Label        | $LN12
+058 00000670 SECT4  notype       Label        | $LN4
+059 000006C0 SECT4  notype       Label        | $LN8
+05A 00000730 SECT4  notype       Label        | $LN21
+05B 00000860 SECT4  notype       Label        | $LN8
+05C 00000910 SECT4  notype       Label        | $LN14
+05D 00000A10 SECT4  notype       Label        | $LN38
+05E 00000C60 SECT4  notype       Label        | $LN34
+05F 00000DB0 SECT4  notype       Label        | $LN51
+060 00000F70 SECT4  notype       Label        | $LN4
+061 00000000 SECT9  notype       Static       | .xdata
+    Section length  1B0, #relocs   1E, #linenums    0, checksum C7A6CD15
+063 00000000 SECT9  notype       Static       | $unwind$spgGetCache
+064 00000000 SECTA  notype       Static       | .pdata
+    Section length  12C, #relocs   4B, #linenums    0, checksum 4836D912
+066 00000000 SECTA  notype       Static       | $pdata$spgGetCache
+067 00000008 SECT9  notype       Static       | $chain$2$spgGetCache
+068 0000000C SECTA  notype       Static       | $pdata$2$spgGetCache
+069 00000024 SECT9  notype       Static       | $chain$3$spgGetCache
+06A 00000018 SECTA  notype       Static       | $pdata$3$spgGetCache
+06B 00000034 SECT9  notype       Static       | $unwind$initSpGistState
+06C 00000024 SECTA  notype       Static       | $pdata$initSpGistState
+06D 0000003C SECT9  notype       Static       | $unwind$SpGistNewBuffer
+06E 00000030 SECTA  notype       Static       | $pdata$SpGistNewBuffer
+06F 00000048 SECT9  notype       Static       | $chain$0$SpGistNewBuffer
+070 0000003C SECTA  notype       Static       | $pdata$0$SpGistNewBuffer
+071 0000005C SECT9  notype       Static       | $chain$1$SpGistNewBuffer
+072 00000048 SECTA  notype       Static       | $pdata$1$SpGistNewBuffer
+073 0000006C SECT9  notype       Static       | $chain$2$SpGistNewBuffer
+074 00000054 SECTA  notype       Static       | $pdata$2$SpGistNewBuffer
+075 00000080 SECT9  notype       Static       | $unwind$SpGistUpdateMetaPage
+076 00000060 SECTA  notype       Static       | $pdata$SpGistUpdateMetaPage
+077 00000088 SECT9  notype       Static       | $chain$0$SpGistUpdateMetaPage
+078 0000006C SECTA  notype       Static       | $pdata$0$SpGistUpdateMetaPage
+079 0000009C SECT9  notype       Static       | $chain$2$SpGistUpdateMetaPage
+07A 00000078 SECTA  notype       Static       | $pdata$2$SpGistUpdateMetaPage
+07B 000000B0 SECT9  notype       Static       | $chain$3$SpGistUpdateMetaPage
+07C 00000084 SECTA  notype       Static       | $pdata$3$SpGistUpdateMetaPage
+07D 000000C0 SECT9  notype       Static       | $unwind$SpGistGetBuffer
+07E 00000090 SECTA  notype       Static       | $pdata$SpGistGetBuffer
+07F 000000DC SECT9  notype       Static       | $unwind$SpGistSetLastUsedPage
+080 0000009C SECTA  notype       Static       | $pdata$SpGistSetLastUsedPage
+081 000000EC SECT9  notype       Static       | $unwind$SpGistInitPage
+082 000000A8 SECTA  notype       Static       | $pdata$SpGistInitPage
+083 000000F8 SECT9  notype       Static       | $unwind$SpGistInitBuffer
+084 000000B4 SECTA  notype       Static       | $pdata$SpGistInitBuffer
+085 00000104 SECT9  notype       Static       | $unwind$SpGistInitMetapage
+086 000000C0 SECTA  notype       Static       | $pdata$SpGistInitMetapage
+087 0000010C SECT9  notype       Static       | $unwind$spgFormLeafTuple
+088 000000CC SECTA  notype       Static       | $pdata$spgFormLeafTuple
+089 00000124 SECT9  notype       Static       | $unwind$spgFormNodeTuple
+08A 000000D8 SECTA  notype       Static       | $pdata$spgFormNodeTuple
+08B 0000013C SECT9  notype       Static       | $unwind$spgFormInnerTuple
+08C 000000E4 SECTA  notype       Static       | $pdata$spgFormInnerTuple
+08D 00000154 SECT9  notype       Static       | $unwind$spgExtractNodeLabels
+08E 000000F0 SECTA  notype       Static       | $pdata$spgExtractNodeLabels
+08F 00000168 SECT9  notype       Static       | $chain$1$spgExtractNodeLabels
+090 000000FC SECTA  notype       Static       | $pdata$1$spgExtractNodeLabels
+091 0000017C SECT9  notype       Static       | $chain$2$spgExtractNodeLabels
+092 00000108 SECTA  notype       Static       | $pdata$2$spgExtractNodeLabels
+093 0000018C SECT9  notype       Static       | $unwind$SpGistPageAddNewItem
+094 00000114 SECTA  notype       Static       | $pdata$SpGistPageAddNewItem
+095 000001A8 SECT9  notype       Static       | $unwind$spghandler
+096 00000120 SECTA  notype       Static       | $pdata$spghandler
+097 00000000 SECTB  notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum  B87DB6D, selection    5 (pick associative Section 0x5)
+099 00000000 SECTB  notype       Static       | $unwind$allocNewBuffer
+09A 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 353EF1F5, selection    5 (pick associative Section 0x5)
+09C 00000000 SECTC  notype       Static       | $pdata$allocNewBuffer
+09D 00000000 UNDEF  notype       External     | CurrentMemoryContext
+09E 00000000 UNDEF  notype       External     | newNodeMacroHolder
+09F 00000000 UNDEF  notype       External     | BufferBlocks
+0A0 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+0A1 00000000 SECTD  notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum FE51517F, selection    2 (pick any)
+0A3 00000000 SECTD  notype       External     | ??_C@_0M@HKHLGIOP@spgGetCache?$AA@ (`string')
+0A4 00000000 SECTE  notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 727ACA8E, selection    2 (pick any)
+0A6 00000000 SECTE  notype       External     | ??_C@_0CF@KJFEEKBF@src?1backend?1access?1spgist?1spguti@ (`string')
+0A7 00000000 SECTF  notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum DC46A9FB, selection    2 (pick any)
+0A9 00000000 SECTF  notype       External     | ??_C@_0CD@CKEBABDD@index?5?$CC?$CFs?$CC?5is?5not?5an?5SP?9GiST?5ind@ (`string')
+0AA 00000000 SECT10 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum C629DE3F, selection    2 (pick any)
+0AC 00000000 SECT10 notype       External     | ??_C@_0BA@NFGNGKJF@SpGistGetBuffer?$AA@ (`string')
+0AD 00000000 SECT11 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 366C3DD4, selection    2 (pick any)
+0AF 00000000 SECT11 notype       External     | ??_C@_0CF@ONECLNEP@desired?5SPGiST?5tuple?5size?5is?5too@ (`string')
+0B0 00000000 SECT12 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum E86D876E, selection    2 (pick any)
+0B2 00000000 SECT12 notype       External     | ??_C@_0BB@NOHNIJCM@spgFormNodeTuple?$AA@ (`string')
+0B3 00000000 SECT13 notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum A44C0762, selection    2 (pick any)
+0B5 00000000 SECT13 notype       External     | ??_C@_0DC@EEDEIEID@index?5row?5requires?5?$CFzu?5bytes?0?5ma@ (`string')
+0B6 00000000 SECT14 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 5CDCCCF4, selection    2 (pick any)
+0B8 00000000 SECT14 notype       External     | ??_C@_0BC@MEDIPMEG@spgFormInnerTuple?$AA@ (`string')
+0B9 00000000 SECT15 notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum F6113C90, selection    2 (pick any)
+0BB 00000000 SECT15 notype       External     | ??_C@_0DE@MFMFMMNP@Values?5larger?5than?5a?5buffer?5page@ (`string')
+0BC 00000000 SECT16 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum 62AB8D31, selection    2 (pick any)
+0BE 00000000 SECT16 notype       External     | ??_C@_0DB@MPMBHCDL@SP?9GiST?5inner?5tuple?5size?5?$CFzu?5exc@ (`string')
+0BF 00000000 SECT17 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum C44614CB, selection    2 (pick any)
+0C1 00000000 SECT17 notype       External     | ??_C@_0CN@PNDJHMJA@SPGiST?5inner?5tuple?5header?5field?5@ (`string')
+0C2 00000000 SECT18 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 96DA3F18, selection    2 (pick any)
+0C4 00000000 SECT18 notype       External     | ??_C@_0BF@CICBAFGM@spgExtractNodeLabels?$AA@ (`string')
+0C5 00000000 SECT19 notype       Static       | .rdata
+    Section length   3C, #relocs    0, #linenums    0, checksum 5EC8E30B, selection    2 (pick any)
+0C7 00000000 SECT19 notype       External     | ??_C@_0DM@KFCFJFPM@some?5but?5not?5all?5node?5labels?5are@ (`string')
+0C8 00000000 SECT1A notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 616E3BB9, selection    2 (pick any)
+0CA 00000000 SECT1A notype       External     | ??_C@_0BF@NPJFABMN@SpGistPageAddNewItem?$AA@ (`string')
+0CB 00000000 SECT1B notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum 2AC905F9, selection    2 (pick any)
+0CD 00000000 SECT1B notype       External     | ??_C@_0DD@PNCEKPJE@failed?5to?5add?5item?5of?5size?5?$CFu?5to@ (`string')
+
+String Table Size = 0xC2A bytes
+
+  Summary
+
+        7538 .debug$S
+          68 .debug$T
+          5D .drectve
+         138 .pdata
+         209 .rdata
+        1277 .text$mn
+         1CC .xdata

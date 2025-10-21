@@ -1,0 +1,316 @@
+
+Dump of file Release\postgres/resowner.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   D1, #relocs    0, #linenums    0, checksum F6676C92
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 7CB0, #relocs  16C, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .bss
+    Section length   20, #relocs    0, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       External     | CurrentResourceOwner
+00B 00000008 SECT4  notype       External     | CurTransactionResourceOwner
+00C 00000010 SECT4  notype       External     | TopTransactionResourceOwner
+00D 00000000 SECT5  notype       Static       | .text$mn
+    Section length  A23, #relocs   72, #linenums    0, checksum 74B667CB
+00F 00000000 SECT6  notype       Static       | .text$mn
+    Section length   6C, #relocs    1, #linenums    0, checksum D138D7CD, selection    1 (pick no duplicates)
+011 00000000 SECT7  notype       Static       | .debug$S
+    Section length  1D4, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+013 00000000 SECT8  notype       Static       | .text$mn
+    Section length  182, #relocs    4, #linenums    0, checksum 4086749E, selection    1 (pick no duplicates)
+015 00000000 SECT9  notype       Static       | .debug$S
+    Section length  330, #relocs   22, #linenums    0, checksum        0, selection    5 (pick associative Section 0x8)
+017 00000000 SECTA  notype       Static       | .text$mn
+    Section length  128, #relocs    1, #linenums    0, checksum 9D02FEA0, selection    1 (pick no duplicates)
+019 00000000 SECTB  notype       Static       | .debug$S
+    Section length  338, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0xA)
+01B 00000000 SECTC  notype       Static       | .text$mn
+    Section length  682, #relocs   35, #linenums    0, checksum 4B08A055, selection    1 (pick no duplicates)
+01D 00000000 SECTD  notype       Static       | .debug$S
+    Section length  A3C, #relocs   4A, #linenums    0, checksum        0, selection    5 (pick associative Section 0xC)
+01F 00000000 UNDEF  notype ()    External     | elog_start
+020 00000000 UNDEF  notype ()    External     | elog_finish
+021 00000000 UNDEF  notype ()    External     | pg_re_throw
+022 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+023 00000000 UNDEF  notype ()    External     | MemoryContextAllocZero
+024 00000000 UNDEF  notype ()    External     | pfree
+025 00000000 UNDEF  notype ()    External     | dsm_detach
+026 00000000 UNDEF  notype ()    External     | dsm_segment_handle
+027 00000000 UNDEF  notype ()    External     | DecrTupleDescRefCount
+028 00000000 UNDEF  notype ()    External     | RelationClose
+029 00000000 SECT5  notype ()    External     | ResourceOwnerCreate
+02A 00000090 SECT5  notype ()    External     | ResourceOwnerRelease
+02B 00000190 SECT5  notype ()    External     | ResourceOwnerDelete
+02C 000002A0 SECT5  notype ()    External     | ResourceOwnerGetParent
+02D 000002B0 SECT5  notype ()    External     | ResourceOwnerNewParent
+02E 00000310 SECT5  notype ()    External     | RegisterResourceReleaseCallback
+02F 00000360 SECT5  notype ()    External     | UnregisterResourceReleaseCallback
+030 00000000 UNDEF  notype ()    External     | UnregisterSnapshot
+031 00000000 UNDEF  notype ()    External     | ReleaseBuffer
+032 00000000 UNDEF  notype ()    External     | PrintBufferLeakWarning
+033 00000000 UNDEF  notype ()    External     | hash_any
+034 00000000 UNDEF  notype ()    External     | LockReleaseCurrentOwner
+035 00000000 UNDEF  notype ()    External     | LockReassignCurrentOwner
+036 00000000 UNDEF  notype ()    External     | ReleasePredicateLocks
+037 00000000 UNDEF  notype ()    External     | ProcReleaseLocks
+038 00000000 UNDEF  notype ()    External     | FileClose
+039 00000000 UNDEF  notype ()    External     | ReleaseCatCache
+03A 00000000 UNDEF  notype ()    External     | ReleaseCatCacheList
+03B 00000000 UNDEF  notype ()    External     | PrintCatCacheLeakWarning
+03C 00000000 UNDEF  notype ()    External     | PrintCatCacheListLeakWarning
+03D 00000000 UNDEF  notype ()    External     | ReleaseCachedPlan
+03E 000003B0 SECT5  notype ()    External     | ResourceOwnerEnlargeBuffers
+03F 000003D0 SECT5  notype ()    External     | ResourceOwnerRememberBuffer
+040 000003F0 SECT5  notype ()    External     | ResourceOwnerForgetBuffer
+041 00000460 SECT5  notype ()    External     | ResourceOwnerRememberLock
+042 00000490 SECT5  notype ()    External     | ResourceOwnerForgetLock
+043 00000540 SECT5  notype ()    External     | ResourceOwnerEnlargeCatCacheRefs
+044 00000550 SECT5  notype ()    External     | ResourceOwnerRememberCatCacheRef
+045 00000560 SECT5  notype ()    External     | ResourceOwnerForgetCatCacheRef
+046 000005C0 SECT5  notype ()    External     | ResourceOwnerEnlargeCatCacheListRefs
+047 000005D0 SECT5  notype ()    External     | ResourceOwnerRememberCatCacheListRef
+048 000005E0 SECT5  notype ()    External     | ResourceOwnerForgetCatCacheListRef
+049 00000640 SECT5  notype ()    External     | ResourceOwnerEnlargeRelationRefs
+04A 00000650 SECT5  notype ()    External     | ResourceOwnerRememberRelationRef
+04B 00000660 SECT5  notype ()    External     | ResourceOwnerForgetRelationRef
+04C 000006C0 SECT5  notype ()    External     | ResourceOwnerEnlargePlanCacheRefs
+04D 000006E0 SECT5  notype ()    External     | ResourceOwnerRememberPlanCacheRef
+04E 00000700 SECT5  notype ()    External     | ResourceOwnerForgetPlanCacheRef
+04F 00000770 SECT5  notype ()    External     | ResourceOwnerEnlargeTupleDescs
+050 00000790 SECT5  notype ()    External     | ResourceOwnerRememberTupleDesc
+051 000007B0 SECT5  notype ()    External     | ResourceOwnerForgetTupleDesc
+052 00000820 SECT5  notype ()    External     | ResourceOwnerEnlargeSnapshots
+053 00000840 SECT5  notype ()    External     | ResourceOwnerRememberSnapshot
+054 00000860 SECT5  notype ()    External     | ResourceOwnerForgetSnapshot
+055 000008D0 SECT5  notype ()    External     | ResourceOwnerEnlargeFiles
+056 000008F0 SECT5  notype ()    External     | ResourceOwnerRememberFile
+057 00000910 SECT5  notype ()    External     | ResourceOwnerForgetFile
+058 00000980 SECT5  notype ()    External     | ResourceOwnerEnlargeDSMs
+059 000009A0 SECT5  notype ()    External     | ResourceOwnerRememberDSM
+05A 000009C0 SECT5  notype ()    External     | ResourceOwnerForgetDSM
+05B 00000000 SECT8  notype ()    Static       | ResourceArrayEnlarge
+05C 00000000 SECT6  notype ()    Static       | ResourceArrayAdd
+05D 00000000 SECTA  notype ()    Static       | ResourceArrayRemove
+05E 00000000 SECTC  notype ()    Static       | ResourceOwnerReleaseInternal
+05F 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+060 00000000 UNDEF  notype ()    External     | __security_check_cookie
+061 00000000 UNDEF  notype ()    External     | _setjmp
+062 00000000 SECT5  notype       Label        | $LN23
+063 0000017D SECT5  notype       Label        | $LN9
+064 00000090 SECT5  notype       Label        | $LN10
+065 00000190 SECT5  notype       Label        | $LN53
+066 00000310 SECT5  notype       Label        | $LN4
+067 000003F0 SECT5  notype       Label        | $LN11
+068 00000490 SECT5  notype       Label        | $LN18
+069 00000560 SECT5  notype       Label        | $LN9
+06A 000005E0 SECT5  notype       Label        | $LN9
+06B 00000660 SECT5  notype       Label        | $LN9
+06C 00000700 SECT5  notype       Label        | $LN9
+06D 000007B0 SECT5  notype       Label        | $LN9
+06E 00000860 SECT5  notype       Label        | $LN9
+06F 00000910 SECT5  notype       Label        | $LN9
+070 000009C0 SECT5  notype       Label        | $LN9
+071 00000000 SECTE  notype       Static       | .xdata
+    Section length   A8, #relocs    1, #linenums    0, checksum  E46240F
+073 00000000 SECTE  notype       Static       | $unwind$ResourceOwnerCreate
+074 00000000 SECTF  notype       Static       | .pdata
+    Section length   A8, #relocs   2A, #linenums    0, checksum 484F79C3
+076 00000000 SECTF  notype       Static       | $pdata$ResourceOwnerCreate
+077 0000000C SECTE  notype       Static       | $unwind$ResourceOwnerRelease
+078 0000000C SECTF  notype       Static       | $pdata$ResourceOwnerRelease
+079 0000001C SECTE  notype       Static       | $unwind$ResourceOwnerDelete
+07A 00000018 SECTF  notype       Static       | $pdata$ResourceOwnerDelete
+07B 00000024 SECTE  notype       Static       | $unwind$RegisterResourceReleaseCallback
+07C 00000024 SECTF  notype       Static       | $pdata$RegisterResourceReleaseCallback
+07D 00000030 SECTE  notype       Static       | $unwind$ResourceOwnerForgetBuffer
+07E 00000030 SECTF  notype       Static       | $pdata$ResourceOwnerForgetBuffer
+07F 0000003C SECTE  notype       Static       | $unwind$ResourceOwnerForgetLock
+080 0000003C SECTF  notype       Static       | $pdata$ResourceOwnerForgetLock
+081 00000048 SECTE  notype       Static       | $unwind$ResourceOwnerForgetCatCacheRef
+082 00000048 SECTF  notype       Static       | $pdata$ResourceOwnerForgetCatCacheRef
+083 00000054 SECTE  notype       Static       | $unwind$ResourceOwnerForgetCatCacheListRef
+084 00000054 SECTF  notype       Static       | $pdata$ResourceOwnerForgetCatCacheListRef
+085 00000060 SECTE  notype       Static       | $unwind$ResourceOwnerForgetRelationRef
+086 00000060 SECTF  notype       Static       | $pdata$ResourceOwnerForgetRelationRef
+087 0000006C SECTE  notype       Static       | $unwind$ResourceOwnerForgetPlanCacheRef
+088 0000006C SECTF  notype       Static       | $pdata$ResourceOwnerForgetPlanCacheRef
+089 00000078 SECTE  notype       Static       | $unwind$ResourceOwnerForgetTupleDesc
+08A 00000078 SECTF  notype       Static       | $pdata$ResourceOwnerForgetTupleDesc
+08B 00000084 SECTE  notype       Static       | $unwind$ResourceOwnerForgetSnapshot
+08C 00000084 SECTF  notype       Static       | $pdata$ResourceOwnerForgetSnapshot
+08D 00000090 SECTE  notype       Static       | $unwind$ResourceOwnerForgetFile
+08E 00000090 SECTF  notype       Static       | $pdata$ResourceOwnerForgetFile
+08F 0000009C SECTE  notype       Static       | $unwind$ResourceOwnerForgetDSM
+090 0000009C SECTF  notype       Static       | $pdata$ResourceOwnerForgetDSM
+091 00000000 SECT10 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum BC0E6383, selection    5 (pick associative Section 0x8)
+093 00000000 SECT10 notype       Static       | $unwind$ResourceArrayEnlarge
+094 00000000 SECT11 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 345B3F4F, selection    5 (pick associative Section 0x8)
+096 00000000 SECT11 notype       Static       | $pdata$ResourceArrayEnlarge
+097 00000000 SECT12 notype       Static       | .xdata
+    Section length   20, #relocs    3, #linenums    0, checksum 1BCD772C, selection    5 (pick associative Section 0x8)
+099 00000000 SECT12 notype       Static       | $chain$3$ResourceArrayEnlarge
+09A 00000000 SECT13 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 86ABA345, selection    5 (pick associative Section 0x8)
+09C 00000000 SECT13 notype       Static       | $pdata$3$ResourceArrayEnlarge
+09D 00000000 SECT14 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 12848D36, selection    5 (pick associative Section 0x8)
+09F 00000000 SECT14 notype       Static       | $chain$4$ResourceArrayEnlarge
+0A0 00000000 SECT15 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D43E4086, selection    5 (pick associative Section 0x8)
+0A2 00000000 SECT15 notype       Static       | $pdata$4$ResourceArrayEnlarge
+0A3 00000000 SECT16 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 3FFC49A9, selection    5 (pick associative Section 0x8)
+0A5 00000000 SECT16 notype       Static       | $chain$5$ResourceArrayEnlarge
+0A6 00000000 SECT17 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B4543CA3, selection    5 (pick associative Section 0x8)
+0A8 00000000 SECT17 notype       Static       | $pdata$5$ResourceArrayEnlarge
+0A9 00000000 SECT18 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 8D0CD5A3, selection    5 (pick associative Section 0x8)
+0AB 00000000 SECT18 notype       Static       | $chain$6$ResourceArrayEnlarge
+0AC 00000000 SECT19 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 57A79AA6, selection    5 (pick associative Section 0x8)
+0AE 00000000 SECT19 notype       Static       | $pdata$6$ResourceArrayEnlarge
+0AF 00000000 SECT1A notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 9E9EE17C, selection    5 (pick associative Section 0x6)
+0B1 00000000 SECT1A notype       Static       | $unwind$ResourceArrayAdd
+0B2 00000000 SECT1B notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8744B5F4, selection    5 (pick associative Section 0x6)
+0B4 00000000 SECT1B notype       Static       | $pdata$ResourceArrayAdd
+0B5 00000000 SECT1C notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 9E9EE17C, selection    5 (pick associative Section 0xA)
+0B7 00000000 SECT1C notype       Static       | $unwind$ResourceArrayRemove
+0B8 00000000 SECT1D notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8CE47257, selection    5 (pick associative Section 0xA)
+0BA 00000000 SECT1D notype       Static       | $pdata$ResourceArrayRemove
+0BB 00000000 SECT1E notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum  EDEDBEB, selection    5 (pick associative Section 0xC)
+0BD 00000000 SECT1E notype       Static       | $unwind$ResourceOwnerReleaseInternal
+0BE 00000000 SECT1F notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 72CEB79D, selection    5 (pick associative Section 0xC)
+0C0 00000000 SECT1F notype       Static       | $pdata$ResourceOwnerReleaseInternal
+0C1 00000000 UNDEF  notype       External     | error_context_stack
+0C2 00000000 UNDEF  notype       External     | PG_exception_stack
+0C3 00000000 UNDEF  notype       External     | TopMemoryContext
+0C4 00000018 SECT4  notype       Static       | ResourceRelease_callbacks
+0C5 00000000 SECT20 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 4D61FAF4, selection    2 (pick any)
+0C7 00000000 SECT20 notype       External     | ??_C@_0BK@BNHCLLDJ@ResourceOwnerForgetBuffer?$AA@ (`string')
+0C8 00000000 SECT21 notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 3B5751D7, selection    2 (pick any)
+0CA 00000000 SECT21 notype       External     | ??_C@_0CG@FMFBDFJL@src?1backend?1utils?1resowner?1resow@ (`string')
+0CB 00000000 SECT22 notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum 6F82720C, selection    2 (pick any)
+0CD 00000000 SECT22 notype       External     | ??_C@_0CM@BDFJOLOP@buffer?5?$CFd?5is?5not?5owned?5by?5resour@ (`string')
+0CE 00000000 SECT23 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 4371BBFE, selection    2 (pick any)
+0D0 00000000 SECT23 notype       External     | ??_C@_0BI@BPEPIOCB@ResourceOwnerForgetLock?$AA@ (`string')
+0D1 00000000 SECT24 notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum E421DA47, selection    2 (pick any)
+0D3 00000000 SECT24 notype       External     | ??_C@_0DE@NHPFCKAI@lock?5reference?5?$CFp?5is?5not?5owned?5b@ (`string')
+0D4 00000000 SECT25 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum DA331357, selection    2 (pick any)
+0D6 00000000 SECT25 notype       External     | ??_C@_0BP@EMMFEABI@ResourceOwnerForgetCatCacheRef?$AA@ (`string')
+0D7 00000000 SECT26 notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum E2EF7FA9, selection    2 (pick any)
+0D9 00000000 SECT26 notype       External     | ??_C@_0DI@MONICFBP@catcache?5reference?5?$CFp?5is?5not?5own@ (`string')
+0DA 00000000 SECT27 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 37B0EA41, selection    2 (pick any)
+0DC 00000000 SECT27 notype       External     | ??_C@_0CD@MBLHECIJ@ResourceOwnerForgetCatCacheListR@ (`string')
+0DD 00000000 SECT28 notype       Static       | .rdata
+    Section length   3D, #relocs    0, #linenums    0, checksum A9A14F1A, selection    2 (pick any)
+0DF 00000000 SECT28 notype       External     | ??_C@_0DN@IKIDMFND@catcache?5list?5reference?5?$CFp?5is?5no@ (`string')
+0E0 00000000 SECT29 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 9FD7CBD7, selection    2 (pick any)
+0E2 00000000 SECT29 notype       External     | ??_C@_0BP@JCBJIJI@ResourceOwnerForgetRelationRef?$AA@ (`string')
+0E3 00000000 SECT2A notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum  6C33621, selection    2 (pick any)
+0E5 00000000 SECT2A notype       External     | ??_C@_0DI@CKPEGMJH@relcache?5reference?5?$CFs?5is?5not?5own@ (`string')
+0E6 00000000 SECT2B notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum AD10E190, selection    2 (pick any)
+0E8 00000000 SECT2B notype       External     | ??_C@_0BJ@LLCABAOA@PrintRelCacheLeakWarning?$AA@ (`string')
+0E9 00000000 SECT2C notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum 333E41FC, selection    2 (pick any)
+0EB 00000000 SECT2C notype       External     | ??_C@_0DC@NDEGMCBN@relcache?5reference?5leak?3?5relatio@ (`string')
+0EC 00000000 SECT2D notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 1812E0DD, selection    2 (pick any)
+0EE 00000000 SECT2D notype       External     | ??_C@_0CA@POOHEKIP@ResourceOwnerForgetPlanCacheRef?$AA@ (`string')
+0EF 00000000 SECT2E notype       Static       | .rdata
+    Section length   39, #relocs    0, #linenums    0, checksum 24F5F9CE, selection    2 (pick any)
+0F1 00000000 SECT2E notype       External     | ??_C@_0DJ@GNLNICN@plancache?5reference?5?$CFp?5is?5not?5ow@ (`string')
+0F2 00000000 SECT2F notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum D4BA95C5, selection    2 (pick any)
+0F4 00000000 SECT2F notype       External     | ??_C@_0BK@IEKJNEAI@PrintPlanCacheLeakWarning?$AA@ (`string')
+0F5 00000000 SECT30 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 8CDD3BE1, selection    2 (pick any)
+0F7 00000000 SECT30 notype       External     | ??_C@_0CN@LFKCFDLK@plancache?5reference?5leak?3?5plan?5?$CF@ (`string')
+0F8 00000000 SECT31 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 68C1B18F, selection    2 (pick any)
+0FA 00000000 SECT31 notype       External     | ??_C@_0BN@JMGKILFG@ResourceOwnerForgetTupleDesc?$AA@ (`string')
+0FB 00000000 SECT32 notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum FFBF72BC, selection    2 (pick any)
+0FD 00000000 SECT32 notype       External     | ??_C@_0DH@BBHLEPAC@tupdesc?5reference?5?$CFp?5is?5not?5owne@ (`string')
+0FE 00000000 SECT33 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 50292849, selection    2 (pick any)
+100 00000000 SECT33 notype       External     | ??_C@_0BK@DKGJIE@PrintTupleDescLeakWarning?$AA@ (`string')
+101 00000000 SECT34 notype       Static       | .rdata
+    Section length   40, #relocs    0, #linenums    0, checksum 3DBE9AF6, selection    2 (pick any)
+103 00000000 SECT34 notype       External     | ??_C@_0EA@LHMMAGDP@TupleDesc?5reference?5leak?3?5TupleD@ (`string')
+104 00000000 SECT35 notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 7F2633AB, selection    2 (pick any)
+106 00000000 SECT35 notype       External     | ??_C@_0BM@KJLLLN@ResourceOwnerForgetSnapshot?$AA@ (`string')
+107 00000000 SECT36 notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum 7DE79E6D, selection    2 (pick any)
+109 00000000 SECT36 notype       External     | ??_C@_0DI@FBNAMENL@snapshot?5reference?5?$CFp?5is?5not?5own@ (`string')
+10A 00000000 SECT37 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 486C168E, selection    2 (pick any)
+10C 00000000 SECT37 notype       External     | ??_C@_0BJ@FOFMOHPO@PrintSnapshotLeakWarning?$AA@ (`string')
+10D 00000000 SECT38 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum E6D3EC6A, selection    2 (pick any)
+10F 00000000 SECT38 notype       External     | ??_C@_0DG@CMIPHOGI@Snapshot?5reference?5leak?3?5Snapsho@ (`string')
+110 00000000 SECT39 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum B9759630, selection    2 (pick any)
+112 00000000 SECT39 notype       External     | ??_C@_0BI@OFELKDOP@ResourceOwnerForgetFile?$AA@ (`string')
+113 00000000 SECT3A notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum 355BAD26, selection    2 (pick any)
+115 00000000 SECT3A notype       External     | ??_C@_0DE@GIPFNGJ@temporary?5file?5?$CFd?5is?5not?5owned?5b@ (`string')
+116 00000000 SECT3B notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum D2233761, selection    2 (pick any)
+118 00000000 SECT3B notype       External     | ??_C@_0BF@GMNIANBF@PrintFileLeakWarning?$AA@ (`string')
+119 00000000 SECT3C notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum 53AC8144, selection    2 (pick any)
+11B 00000000 SECT3C notype       External     | ??_C@_0CO@KPCMHGFA@temporary?5file?5leak?3?5File?5?$CFd?5sti@ (`string')
+11C 00000000 SECT3D notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 21F0118F, selection    2 (pick any)
+11E 00000000 SECT3D notype       External     | ??_C@_0BH@KMKPMKDE@ResourceOwnerForgetDSM?$AA@ (`string')
+11F 00000000 SECT3E notype       Static       | .rdata
+    Section length   43, #relocs    0, #linenums    0, checksum E7CFDCA2, selection    2 (pick any)
+121 00000000 SECT3E notype       External     | ??_C@_0ED@BKEOKEOB@dynamic?5shared?5memory?5segment?5?$CFu@ (`string')
+122 00000000 SECT3F notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum D6BEE655, selection    2 (pick any)
+124 00000000 SECT3F notype       External     | ??_C@_0BE@CGJEICCH@PrintDSMLeakWarning?$AA@ (`string')
+125 00000000 SECT40 notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum 186EC5DE, selection    2 (pick any)
+127 00000000 SECT40 notype       External     | ??_C@_0DI@DEFJJPGI@dynamic?5shared?5memory?5leak?3?5segm@ (`string')
+128 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x138C bytes
+
+  Summary
+
+          20 .bss
+        8F28 .debug$S
+          68 .debug$T
+          D1 .drectve
+         108 .pdata
+         537 .rdata
+        13BB .text$mn
+         12C .xdata

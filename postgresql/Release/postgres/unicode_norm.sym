@@ -1,0 +1,117 @@
+
+Dump of file Release\postgres/unicode_norm.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 3D78, #relocs   66, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length 11B98, #relocs    0, #linenums    0, checksum 807D9B3B
+00A 00000000 SECT4  notype       Static       | UnicodeDecompMain
+00B 0000CC20 SECT4  notype       Static       | UnicodeDecomp_codepoints
+00C 00000000 SECT5  notype       Static       | .text$mn
+    Section length  2F5, #relocs    F, #linenums    0, checksum C56F7447
+00E 00000000 SECT6  notype       Static       | .text$mn
+    Section length  17C, #relocs    7, #linenums    0, checksum DD3F93BB, selection    1 (pick no duplicates)
+010 00000000 SECT7  notype       Static       | .debug$S
+    Section length  420, #relocs   32, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+012 00000000 SECT8  notype       Static       | .text$mn
+    Section length   FB, #relocs    7, #linenums    0, checksum 5D8B0C02, selection    1 (pick no duplicates)
+014 00000000 SECT9  notype       Static       | .debug$S
+    Section length  25C, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x8)
+016 00000000 SECTA  notype       Static       | .text$mn
+    Section length   EE, #relocs    2, #linenums    0, checksum 2F334CDC, selection    1 (pick no duplicates)
+018 00000000 SECTB  notype       Static       | .debug$S
+    Section length  204, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0xA)
+01A 00000000 UNDEF  notype       External     | __imp_bsearch
+01B 00000000 UNDEF  notype ()    External     | palloc
+01C 00000000 UNDEF  notype ()    External     | pfree
+01D 00000000 SECT5  notype ()    External     | unicode_normalize_kc
+01E 000002E0 SECT5  notype ()    Static       | conv_compare
+01F 00000000 SECT8  notype ()    Static       | get_decomposed_size
+020 00000000 SECTA  notype ()    Static       | recompose_code
+021 00000000 SECT6  notype ()    Static       | decompose_code
+022 00000000 SECT5  notype       Label        | $LN57
+023 00000000 SECTC  notype       Static       | .xdata
+    Section length   20, #relocs    0, #linenums    0, checksum D2ABEE59
+025 00000000 SECTC  notype       Static       | $unwind$unicode_normalize_kc
+026 00000000 SECTD  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 91826735
+028 00000000 SECTD  notype       Static       | $pdata$unicode_normalize_kc
+029 00000000 SECTE  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum CAD22213, selection    5 (pick associative Section 0x8)
+02B 00000000 SECTE  notype       Static       | $unwind$get_decomposed_size
+02C 00000000 SECTF  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C4E6EF0E, selection    5 (pick associative Section 0x8)
+02E 00000000 SECTF  notype       Static       | $pdata$get_decomposed_size
+02F 00000000 SECT10 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 266F1027, selection    5 (pick associative Section 0x8)
+031 00000000 SECT10 notype       Static       | $chain$2$get_decomposed_size
+032 00000000 SECT11 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  8F68B5A, selection    5 (pick associative Section 0x8)
+034 00000000 SECT11 notype       Static       | $pdata$2$get_decomposed_size
+035 00000000 SECT12 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 39D3F4AD, selection    5 (pick associative Section 0x8)
+037 00000000 SECT12 notype       Static       | $chain$4$get_decomposed_size
+038 00000000 SECT13 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 9B06AFFA, selection    5 (pick associative Section 0x8)
+03A 00000000 SECT13 notype       Static       | $pdata$4$get_decomposed_size
+03B 00000000 SECT14 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 7F5FB411, selection    5 (pick associative Section 0xA)
+03D 00000000 SECT14 notype       Static       | $unwind$recompose_code
+03E 00000000 SECT15 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DDB48239, selection    5 (pick associative Section 0xA)
+040 00000000 SECT15 notype       Static       | $pdata$recompose_code
+041 00000000 SECT16 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum DC790720, selection    5 (pick associative Section 0xA)
+043 00000000 SECT16 notype       Static       | $chain$0$recompose_code
+044 00000000 SECT17 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8A41DEDD, selection    5 (pick associative Section 0xA)
+046 00000000 SECT17 notype       Static       | $pdata$0$recompose_code
+047 00000000 SECT18 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum E1204645, selection    5 (pick associative Section 0xA)
+049 00000000 SECT18 notype       Static       | $chain$2$recompose_code
+04A 00000000 SECT19 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 54490351, selection    5 (pick associative Section 0xA)
+04C 00000000 SECT19 notype       Static       | $pdata$2$recompose_code
+04D 00000000 SECT1A notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 47879FD2, selection    5 (pick associative Section 0x6)
+04F 00000000 SECT1A notype       Static       | $unwind$decompose_code
+050 00000000 SECT1B notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 965A3753, selection    5 (pick associative Section 0x6)
+052 00000000 SECT1B notype       Static       | $pdata$decompose_code
+053 00000000 SECT1C notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 2FBC7C5C, selection    5 (pick associative Section 0x6)
+055 00000000 SECT1C notype       Static       | $chain$0$decompose_code
+056 00000000 SECT1D notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D7387BF9, selection    5 (pick associative Section 0x6)
+058 00000000 SECT1D notype       Static       | $pdata$0$decompose_code
+059 00000000 SECT1E notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 2F0DDDBF, selection    5 (pick associative Section 0x6)
+05B 00000000 SECT1E notype       Static       | $chain$1$decompose_code
+05C 00000000 SECT1F notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B4543CA3, selection    5 (pick associative Section 0x6)
+05E 00000000 SECT1F notype       Static       | $pdata$1$decompose_code
+05F 00000000 SECT20 notype       Static       | .bss
+    Section length    4, #relocs    0, #linenums    0, checksum        0
+061 00000000 SECT20 notype       Static       | ?x@?1??get_code_decomposition@@9@9 (`get_code_decomposition'::`2'::x)
+
+String Table Size = 0x2B2 bytes
+
+  Summary
+
+           4 .bss
+        45F8 .debug$S
+          68 .debug$T
+          5D .drectve
+          78 .pdata
+       11B98 .rdata
+         65A .text$mn
+          B8 .xdata

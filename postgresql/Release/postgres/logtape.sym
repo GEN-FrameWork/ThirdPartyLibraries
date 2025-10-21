@@ -1,0 +1,178 @@
+
+Dump of file Release\postgres/logtape.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4F10, #relocs   DA, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  98B, #relocs   38, #linenums    0, checksum 558A4479
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   95, #relocs    9, #linenums    0, checksum 393B59DD, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  1A4, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  170, #relocs    A, #linenums    0, checksum E4673ACC, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  2BC, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length   EE, #relocs    E, #linenums    0, checksum 95F941EF, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  20C, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 UNDEF  notype ()    External     | pg_qsort
+017 00000000 UNDEF  notype ()    External     | errstart
+018 00000000 UNDEF  notype ()    External     | errfinish
+019 00000000 UNDEF  notype ()    External     | errcode_for_file_access
+01A 00000000 UNDEF  notype ()    External     | errmsg
+01B 00000000 UNDEF  notype ()    External     | elog_start
+01C 00000000 UNDEF  notype ()    External     | elog_finish
+01D 00000000 UNDEF  notype ()    External     | palloc
+01E 00000000 UNDEF  notype ()    External     | repalloc
+01F 00000000 UNDEF  notype ()    External     | pfree
+020 00000000 UNDEF  notype ()    External     | BufFileCreateTemp
+021 00000000 UNDEF  notype ()    External     | BufFileClose
+022 00000000 UNDEF  notype ()    External     | BufFileRead
+023 00000000 UNDEF  notype ()    External     | BufFileWrite
+024 00000000 UNDEF  notype ()    External     | BufFileSeekBlock
+025 00000000 SECT4  notype ()    External     | LogicalTapeSetCreate
+026 000000B0 SECT4  notype ()    External     | LogicalTapeSetClose
+027 00000120 SECT4  notype ()    External     | LogicalTapeSetForgetFreeSpace
+028 00000130 SECT4  notype ()    External     | LogicalTapeRead
+029 00000340 SECT4  notype ()    External     | LogicalTapeWrite
+02A 00000520 SECT4  notype ()    External     | LogicalTapeRewindForRead
+02B 00000600 SECT4  notype ()    External     | LogicalTapeRewindForWrite
+02C 00000660 SECT4  notype ()    External     | LogicalTapeFreeze
+02D 00000750 SECT4  notype ()    External     | LogicalTapeBackspace
+02E 000008B0 SECT4  notype ()    External     | LogicalTapeSeek
+02F 00000940 SECT4  notype ()    External     | LogicalTapeTell
+030 00000960 SECT4  notype ()    External     | LogicalTapeSetBlocks
+031 00000000 SECT9  notype ()    Static       | ltsWriteBlock
+032 00000000 SECT5  notype ()    Static       | ltsReadBlock
+033 00000000 SECT7  notype ()    Static       | ltsReadFillBuffer
+034 00000970 SECT4  notype ()    Static       | freeBlocks_cmp
+035 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+036 00000000 UNDEF  notype ()    External     | __chkstk
+037 00000000 UNDEF  notype ()    External     | __security_check_cookie
+038 00000000 UNDEF  notype ()    External     | memcpy
+039 00000000 UNDEF  notype ()    External     | memset
+03A 00000000 SECT4  notype       Label        | $LN12
+03B 000000B0 SECT4  notype       Label        | $LN12
+03C 00000130 SECT4  notype       Label        | $LN52
+03D 00000340 SECT4  notype       Label        | $LN31
+03E 00000520 SECT4  notype       Label        | $LN13
+03F 00000600 SECT4  notype       Label        | $LN6
+040 00000660 SECT4  notype       Label        | $LN14
+041 00000750 SECT4  notype       Label        | $LN26
+042 000008B0 SECT4  notype       Label        | $LN11
+043 00000000 SECTB  notype       Static       | .xdata
+    Section length  130, #relocs   18, #linenums    0, checksum D5DC5BBD
+045 00000000 SECTB  notype       Static       | $unwind$LogicalTapeSetCreate
+046 00000000 SECTC  notype       Static       | .pdata
+    Section length   CC, #relocs   33, #linenums    0, checksum D6CEDB6A
+048 00000000 SECTC  notype       Static       | $pdata$LogicalTapeSetCreate
+049 00000014 SECTB  notype       Static       | $unwind$LogicalTapeSetClose
+04A 0000000C SECTC  notype       Static       | $pdata$LogicalTapeSetClose
+04B 00000020 SECTB  notype       Static       | $chain$0$LogicalTapeSetClose
+04C 00000018 SECTC  notype       Static       | $pdata$0$LogicalTapeSetClose
+04D 00000034 SECTB  notype       Static       | $chain$1$LogicalTapeSetClose
+04E 00000024 SECTC  notype       Static       | $pdata$1$LogicalTapeSetClose
+04F 00000044 SECTB  notype       Static       | $unwind$LogicalTapeRead
+050 00000030 SECTC  notype       Static       | $pdata$LogicalTapeRead
+051 00000058 SECTB  notype       Static       | $chain$1$LogicalTapeRead
+052 0000003C SECTC  notype       Static       | $pdata$1$LogicalTapeRead
+053 00000070 SECTB  notype       Static       | $chain$2$LogicalTapeRead
+054 00000048 SECTC  notype       Static       | $pdata$2$LogicalTapeRead
+055 00000080 SECTB  notype       Static       | $unwind$LogicalTapeWrite
+056 00000054 SECTC  notype       Static       | $pdata$LogicalTapeWrite
+057 00000090 SECTB  notype       Static       | $chain$1$LogicalTapeWrite
+058 00000060 SECTC  notype       Static       | $pdata$1$LogicalTapeWrite
+059 000000A8 SECTB  notype       Static       | $chain$2$LogicalTapeWrite
+05A 0000006C SECTC  notype       Static       | $pdata$2$LogicalTapeWrite
+05B 000000B8 SECTB  notype       Static       | $unwind$LogicalTapeRewindForRead
+05C 00000078 SECTC  notype       Static       | $pdata$LogicalTapeRewindForRead
+05D 000000CC SECTB  notype       Static       | $unwind$LogicalTapeRewindForWrite
+05E 00000084 SECTC  notype       Static       | $pdata$LogicalTapeRewindForWrite
+05F 000000D8 SECTB  notype       Static       | $unwind$LogicalTapeFreeze
+060 00000090 SECTC  notype       Static       | $pdata$LogicalTapeFreeze
+061 000000E8 SECTB  notype       Static       | $unwind$LogicalTapeBackspace
+062 0000009C SECTC  notype       Static       | $pdata$LogicalTapeBackspace
+063 000000FC SECTB  notype       Static       | $chain$0$LogicalTapeBackspace
+064 000000A8 SECTC  notype       Static       | $pdata$0$LogicalTapeBackspace
+065 00000110 SECTB  notype       Static       | $chain$1$LogicalTapeBackspace
+066 000000B4 SECTC  notype       Static       | $pdata$1$LogicalTapeBackspace
+067 00000120 SECTB  notype       Static       | $unwind$LogicalTapeSeek
+068 000000C0 SECTC  notype       Static       | $pdata$LogicalTapeSeek
+069 00000000 SECTD  notype       Static       | .xdata
+    Section length   18, #relocs    1, #linenums    0, checksum 89187F55, selection    5 (pick associative Section 0x9)
+06B 00000000 SECTD  notype       Static       | $unwind$ltsWriteBlock
+06C 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 965A3753, selection    5 (pick associative Section 0x9)
+06E 00000000 SECTE  notype       Static       | $pdata$ltsWriteBlock
+06F 00000000 SECTF  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 815B1B44, selection    5 (pick associative Section 0x5)
+071 00000000 SECTF  notype       Static       | $unwind$ltsReadBlock
+072 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6760BA95, selection    5 (pick associative Section 0x5)
+074 00000000 SECT10 notype       Static       | $pdata$ltsReadBlock
+075 00000000 SECT11 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 4A7F8298, selection    5 (pick associative Section 0x7)
+077 00000000 SECT11 notype       Static       | $unwind$ltsReadFillBuffer
+078 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  A279A24, selection    5 (pick associative Section 0x7)
+07A 00000000 SECT12 notype       Static       | $pdata$ltsReadFillBuffer
+07B 00000000 SECT13 notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 9C531CAC, selection    2 (pick any)
+07D 00000000 SECT13 notype       External     | ??_C@_0O@LCBHJKJE@ltsWriteBlock?$AA@ (`string')
+07E 00000000 SECT14 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum C6D51D2E, selection    2 (pick any)
+080 00000000 SECT14 notype       External     | ??_C@_0CB@EDFGNIFM@src?1backend?1utils?1sort?1logtape?4c@ (`string')
+081 00000000 SECT15 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum 9DE5D3E2, selection    2 (pick any)
+083 00000000 SECT15 notype       External     | ??_C@_0DA@JAJCJPII@could?5not?5write?5block?5?$CFld?5of?5tem@ (`string')
+084 00000000 SECT16 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum ADE7A6FA, selection    2 (pick any)
+086 00000000 SECT16 notype       External     | ??_C@_0N@FNGMBPIH@ltsReadBlock?$AA@ (`string')
+087 00000000 SECT17 notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum DEDA138C, selection    2 (pick any)
+089 00000000 SECT17 notype       External     | ??_C@_0CP@MEPMEHAG@could?5not?5read?5block?5?$CFld?5of?5temp@ (`string')
+08A 00000000 SECT18 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum CFBD6280, selection    2 (pick any)
+08C 00000000 SECT18 notype       External     | ??_C@_0BB@PJKNGMMC@LogicalTapeWrite?$AA@ (`string')
+08D 00000000 SECT19 notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 3441C1AE, selection    2 (pick any)
+08F 00000000 SECT19 notype       External     | ??_C@_0CH@ELEMMKHB@invalid?5logtape?5state?3?5should?5be@ (`string')
+090 00000000 SECT1A notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 55FA19E2, selection    2 (pick any)
+092 00000000 SECT1A notype       External     | ??_C@_0BF@OLABCDJG@LogicalTapeBackspace?$AA@ (`string')
+093 00000000 SECT1B notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 627F5331, selection    2 (pick any)
+095 00000000 SECT1B notype       External     | ??_C@_0BH@OPCAIIIK@unexpected?5end?5of?5tape?$AA@ (`string')
+096 00000000 SECT1C notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum EF099219, selection    2 (pick any)
+098 00000000 SECT1C notype       External     | ??_C@_0DE@NMNNGCFG@broken?5tape?0?5next?5of?5block?5?$CFld?5i@ (`string')
+099 00000000 SECT1D notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum C621B2FD, selection    2 (pick any)
+09B 00000000 SECT1D notype       External     | ??_C@_0BA@NFGFAGFH@LogicalTapeSeek?$AA@ (`string')
+09C 00000000 SECT1E notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum B4478584, selection    2 (pick any)
+09E 00000000 SECT1E notype       External     | ??_C@_0BL@FBMCCIMI@invalid?5tape?5seek?5position?$AA@ (`string')
+09F 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x880 bytes
+
+  Summary
+
+        557C .debug$S
+          68 .debug$T
+          5D .drectve
+          F0 .pdata
+         15E .rdata
+         C7E .text$mn
+         170 .xdata

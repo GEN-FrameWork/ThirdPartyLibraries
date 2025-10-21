@@ -1,0 +1,87 @@
+
+Dump of file Release\postgres/char.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4328, #relocs   68, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  2D0, #relocs    E, #linenums    0, checksum 9C6B64CB
+00A 00000000 UNDEF  notype ()    External     | errstart
+00B 00000000 UNDEF  notype ()    External     | errfinish
+00C 00000000 UNDEF  notype ()    External     | errcode
+00D 00000000 UNDEF  notype ()    External     | errmsg
+00E 00000000 UNDEF  notype ()    External     | palloc
+00F 00000000 UNDEF  notype ()    External     | pq_sendbyte
+010 00000000 UNDEF  notype ()    External     | pq_begintypsend
+011 00000000 UNDEF  notype ()    External     | pq_endtypsend
+012 00000000 UNDEF  notype ()    External     | pq_getmsgbyte
+013 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+014 00000000 SECT4  notype ()    External     | charout
+015 00000030 SECT4  notype ()    External     | chareq
+016 00000050 SECT4  notype ()    External     | charne
+017 00000070 SECT4  notype ()    External     | charle
+018 00000090 SECT4  notype ()    External     | chargt
+019 000000B0 SECT4  notype ()    External     | charge
+01A 000000D0 SECT4  notype ()    External     | chartoi4
+01B 000000E0 SECT4  notype ()    External     | i4tochar
+01C 00000160 SECT4  notype ()    External     | text_char
+01D 00000200 SECT4  notype ()    External     | char_text
+01E 00000240 SECT4  notype ()    External     | charin
+01F 00000260 SECT4  notype ()    External     | charlt
+020 00000280 SECT4  notype ()    External     | charrecv
+021 000002A0 SECT4  notype ()    External     | charsend
+022 00000000 SECT4  notype       Label        | $LN4
+023 000000E0 SECT4  notype       Label        | $LN12
+024 00000160 SECT4  notype       Label        | $LN17
+025 00000200 SECT4  notype       Label        | $LN6
+026 00000280 SECT4  notype       Label        | $LN4
+027 000002A0 SECT4  notype       Label        | $LN4
+028 00000000 SECT5  notype       Static       | .xdata
+    Section length   54, #relocs    6, #linenums    0, checksum  5917B4E
+02A 00000000 SECT5  notype       Static       | $unwind$charout
+02B 00000000 SECT6  notype       Static       | .pdata
+    Section length   60, #relocs   18, #linenums    0, checksum E00211E7
+02D 00000000 SECT6  notype       Static       | $pdata$charout
+02E 00000008 SECT5  notype       Static       | $unwind$i4tochar
+02F 0000000C SECT6  notype       Static       | $pdata$i4tochar
+030 00000010 SECT5  notype       Static       | $chain$0$i4tochar
+031 00000018 SECT6  notype       Static       | $pdata$0$i4tochar
+032 00000024 SECT5  notype       Static       | $chain$1$i4tochar
+033 00000024 SECT6  notype       Static       | $pdata$1$i4tochar
+034 00000034 SECT5  notype       Static       | $unwind$text_char
+035 00000030 SECT6  notype       Static       | $pdata$text_char
+036 0000003C SECT5  notype       Static       | $unwind$char_text
+037 0000003C SECT6  notype       Static       | $pdata$char_text
+038 00000044 SECT5  notype       Static       | $unwind$charrecv
+039 00000048 SECT6  notype       Static       | $pdata$charrecv
+03A 0000004C SECT5  notype       Static       | $unwind$charsend
+03B 00000054 SECT6  notype       Static       | $pdata$charsend
+03C 00000000 SECT7  notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 64DE4BDD, selection    2 (pick any)
+03E 00000000 SECT7  notype       External     | ??_C@_08HNCIKAIM@i4tochar?$AA@ (`string')
+03F 00000000 SECT8  notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum  8A612C9, selection    2 (pick any)
+041 00000000 SECT8  notype       External     | ??_C@_0BN@PMANCIBA@src?1backend?1utils?1adt?1char?4c?$AA@ (`string')
+042 00000000 SECT9  notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum  BAC9415, selection    2 (pick any)
+044 00000000 SECT9  notype       External     | ??_C@_0BE@PLIGPAGH@?$CCchar?$CC?5out?5of?5range?$AA@ (`string')
+
+String Table Size = 0x210 bytes
+
+  Summary
+
+        4328 .debug$S
+          68 .debug$T
+          5D .drectve
+          60 .pdata
+          3A .rdata
+         2D0 .text$mn
+          54 .xdata

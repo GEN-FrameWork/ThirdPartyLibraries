@@ -1,0 +1,115 @@
+
+Dump of file Release\postgres/walreceiverfuncs.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4F80, #relocs   A0, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       External     | WalRcv
+00B 00000000 SECT5  notype       Static       | .text$mn
+    Section length  78B, #relocs   43, #linenums    0, checksum 3C084BB2
+00D 00000000 UNDEF  notype ()    External     | pg_usleep
+00E 00000000 UNDEF  notype ()    External     | pgkill
+00F 00000000 UNDEF  notype ()    External     | strlcpy
+010 00000000 UNDEF  notype       External     | __imp__time64
+011 00000000 UNDEF  notype ()    External     | HandleStartupProcInterrupts
+012 00000000 UNDEF  notype ()    External     | GetXLogReplayRecPtr
+013 00000000 UNDEF  notype ()    External     | GetCurrentChunkReplayStartTime
+014 00000000 UNDEF  notype ()    External     | GetCurrentTimestamp
+015 00000000 UNDEF  notype ()    External     | TimestampDifference
+016 00000000 UNDEF  notype ()    External     | SetLatch
+017 00000000 UNDEF  notype ()    External     | s_lock
+018 00000000 SECT5  notype ()    External     | WalRcvShmemSize
+019 00000020 SECT5  notype ()    External     | WalRcvShmemInit
+01A 00000100 SECT5  notype ()    External     | ShutdownWalRcv
+01B 00000260 SECT5  notype ()    External     | WalRcvStreaming
+01C 00000350 SECT5  notype ()    External     | WalRcvRunning
+01D 00000430 SECT5  notype ()    External     | RequestXLogStreaming
+01E 00000580 SECT5  notype ()    External     | GetWalRcvWriteRecPtr
+01F 00000620 SECT5  notype ()    External     | GetReplicationApplyDelay
+020 000006F0 SECT5  notype ()    External     | GetReplicationTransferLatency
+021 00000000 UNDEF  notype ()    External     | SendPostmasterSignal
+022 00000000 UNDEF  notype ()    External     | ShmemInitStruct
+023 00000000 UNDEF  notype ()    External     | add_size
+024 00000000 UNDEF  notype ()    External     | memset
+025 00000020 SECT5  notype       Label        | $LN25
+026 00000100 SECT5  notype       Label        | $LN50
+027 00000260 SECT5  notype       Label        | $LN25
+028 00000350 SECT5  notype       Label        | $LN22
+029 00000430 SECT5  notype       Label        | $LN23
+02A 00000580 SECT5  notype       Label        | $LN13
+02B 00000620 SECT5  notype       Label        | $LN11
+02C 000006F0 SECT5  notype       Label        | $LN9
+02D 00000000 SECT6  notype       Static       | .xdata
+    Section length   BC, #relocs    6, #linenums    0, checksum 44353A68
+02F 00000000 SECT6  notype       Static       | $unwind$WalRcvShmemInit
+030 00000000 SECT7  notype       Static       | .pdata
+    Section length   78, #relocs   1E, #linenums    0, checksum CCF7A14C
+032 00000000 SECT7  notype       Static       | $pdata$WalRcvShmemInit
+033 00000008 SECT6  notype       Static       | $chain$0$WalRcvShmemInit
+034 0000000C SECT7  notype       Static       | $pdata$0$WalRcvShmemInit
+035 0000001C SECT6  notype       Static       | $chain$1$WalRcvShmemInit
+036 00000018 SECT7  notype       Static       | $pdata$1$WalRcvShmemInit
+037 0000002C SECT6  notype       Static       | $unwind$ShutdownWalRcv
+038 00000024 SECT7  notype       Static       | $pdata$ShutdownWalRcv
+039 00000044 SECT6  notype       Static       | $unwind$WalRcvStreaming
+03A 00000030 SECT7  notype       Static       | $pdata$WalRcvStreaming
+03B 0000005C SECT6  notype       Static       | $unwind$WalRcvRunning
+03C 0000003C SECT7  notype       Static       | $pdata$WalRcvRunning
+03D 00000074 SECT6  notype       Static       | $unwind$RequestXLogStreaming
+03E 00000048 SECT7  notype       Static       | $pdata$RequestXLogStreaming
+03F 00000090 SECT6  notype       Static       | $unwind$GetWalRcvWriteRecPtr
+040 00000054 SECT7  notype       Static       | $pdata$GetWalRcvWriteRecPtr
+041 000000A4 SECT6  notype       Static       | $unwind$GetReplicationApplyDelay
+042 00000060 SECT7  notype       Static       | $pdata$GetReplicationApplyDelay
+043 000000B0 SECT6  notype       Static       | $unwind$GetReplicationTransferLatency
+044 0000006C SECT7  notype       Static       | $pdata$GetReplicationTransferLatency
+045 00000000 SECT8  notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum C797F2B4, selection    2 (pick any)
+047 00000000 SECT8  notype       External     | ??_C@_0BB@PBIHPMPG@Wal?5Receiver?5Ctl?$AA@ (`string')
+048 00000000 SECT9  notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum B6342D34, selection    2 (pick any)
+04A 00000000 SECT9  notype       External     | ??_C@_0O@JIHAKLAM@WalRcvRunning?$AA@ (`string')
+04B 00000000 SECTA  notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum  1534DE1, selection    2 (pick any)
+04D 00000000 SECTA  notype       External     | ??_C@_0CL@GCFBJCP@src?1backend?1replication?1walrecei@ (`string')
+04E 00000000 SECTB  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum  C868291, selection    2 (pick any)
+050 00000000 SECTB  notype       External     | ??_C@_0BA@BPMCDGDL@WalRcvStreaming?$AA@ (`string')
+051 00000000 SECTC  notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 1A5D3130, selection    2 (pick any)
+053 00000000 SECTC  notype       External     | ??_C@_0P@DCHBMNCI@ShutdownWalRcv?$AA@ (`string')
+054 00000000 SECTD  notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 743EB2C1, selection    2 (pick any)
+056 00000000 SECTD  notype       External     | ??_C@_0BF@MKMFIILF@RequestXLogStreaming?$AA@ (`string')
+057 00000000 SECTE  notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 9ABA0BD4, selection    2 (pick any)
+059 00000000 SECTE  notype       External     | ??_C@_0BF@CEEBDBKA@GetWalRcvWriteRecPtr?$AA@ (`string')
+05A 00000000 SECTF  notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum A67FB038, selection    2 (pick any)
+05C 00000000 SECTF  notype       External     | ??_C@_0BJ@LAEPEBEI@GetReplicationApplyDelay?$AA@ (`string')
+05D 00000000 SECT10 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 4CB9D131, selection    2 (pick any)
+05F 00000000 SECT10 notype       External     | ??_C@_0BO@LDECBAHL@GetReplicationTransferLatency?$AA@ (`string')
+
+String Table Size = 0x514 bytes
+
+  Summary
+
+           8 .bss
+        4F80 .debug$S
+          68 .debug$T
+          5D .drectve
+          78 .pdata
+          CA .rdata
+         78B .text$mn
+          BC .xdata

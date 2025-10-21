@@ -1,0 +1,315 @@
+
+Dump of file Release\postgres/relnode.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 691C, #relocs  1CC, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 117C, #relocs   89, #linenums    0, checksum F9441915
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  12B, #relocs    7, #linenums    0, checksum 68147136, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  2C4, #relocs   22, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   85, #relocs    4, #linenums    0, checksum B6FDA2BD, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  22C, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  14F, #relocs    C, #linenums    0, checksum 9BD9DC6B, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  378, #relocs   28, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  107, #relocs    2, #linenums    0, checksum C2B309A4, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  228, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 SECTD  notype       Static       | .text$mn
+    Section length   94, #relocs    2, #linenums    0, checksum B1471174, selection    1 (pick no duplicates)
+01C 00000000 SECTE  notype       Static       | .debug$S
+    Section length  26C, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0xD)
+01E 00000000 SECTF  notype       Static       | .text$mn
+    Section length   94, #relocs    2, #linenums    0, checksum 7826F031, selection    1 (pick no duplicates)
+020 00000000 SECT10 notype       Static       | .debug$S
+    Section length  278, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0xF)
+022 00000000 UNDEF  notype ()    External     | elog_start
+023 00000000 UNDEF  notype ()    External     | elog_finish
+024 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+025 00000000 UNDEF  notype ()    External     | palloc0
+026 00000000 UNDEF  notype ()    External     | GetUserId
+027 00000000 UNDEF  notype ()    External     | bms_copy
+028 00000000 UNDEF  notype ()    External     | bms_equal
+029 00000000 UNDEF  notype ()    External     | bms_make_singleton
+02A 00000000 UNDEF  notype ()    External     | bms_union
+02B 00000000 UNDEF  notype ()    External     | bms_is_subset
+02C 00000000 UNDEF  notype ()    External     | bms_nonempty_difference
+02D 00000000 UNDEF  notype ()    External     | bms_is_empty
+02E 00000000 UNDEF  notype ()    External     | bms_add_member
+02F 00000000 UNDEF  notype ()    External     | bms_del_members
+030 00000000 UNDEF  notype ()    External     | lappend
+031 00000000 UNDEF  notype ()    External     | list_concat
+032 00000000 UNDEF  notype ()    External     | list_append_unique_ptr
+033 00000000 UNDEF  notype ()    External     | is_parallel_safe
+034 00000000 UNDEF  notype ()    External     | get_parameterized_baserel_size
+035 00000000 UNDEF  notype ()    External     | get_parameterized_joinrel_size
+036 00000000 UNDEF  notype ()    External     | set_joinrel_size_estimates
+037 00000000 SECT4  notype ()    External     | setup_simple_rel_arrays
+038 00000090 SECT4  notype ()    External     | build_simple_rel
+039 000003B0 SECT4  notype ()    External     | find_base_rel
+03A 00000410 SECT4  notype ()    External     | find_join_rel
+03B 000004E0 SECT4  notype ()    External     | build_join_rel
+03C 00000850 SECT4  notype ()    External     | min_join_parameterization
+03D 000008A0 SECT4  notype ()    External     | build_empty_join_rel
+03E 00000930 SECT4  notype ()    External     | fetch_upper_rel
+03F 00000A50 SECT4  notype ()    External     | find_childrel_appendrelinfo
+040 00000AD0 SECT4  notype ()    External     | find_childrel_parents
+041 00000BC0 SECT4  notype ()    External     | get_baserel_parampathinfo
+042 00000D40 SECT4  notype ()    External     | get_joinrel_parampathinfo
+043 000010B0 SECT4  notype ()    External     | get_appendrel_parampathinfo
+044 00000000 UNDEF  notype ()    External     | generate_join_implied_equalities
+045 00000000 UNDEF  notype ()    External     | generate_join_implied_equalities_for_ecs
+046 00000000 UNDEF  notype ()    External     | has_relevant_eclass_joinclause
+047 00000000 UNDEF  notype ()    External     | add_placeholders_to_joinrel
+048 00000000 UNDEF  notype ()    External     | get_relation_info
+049 00000000 UNDEF  notype ()    External     | join_clause_is_movable_into
+04A 00000000 UNDEF  notype ()    External     | create_empty_pathtarget
+04B 00000000 UNDEF  notype ()    External     | hash_create
+04C 00000000 UNDEF  notype ()    External     | hash_search
+04D 00000000 UNDEF  notype ()    External     | bitmap_hash
+04E 00000000 UNDEF  notype ()    External     | bitmap_match
+04F 00000000 SECT9  notype ()    Static       | build_joinrel_tlist
+050 00000000 SECT7  notype ()    Static       | build_joinrel_restrictlist
+051 00000000 SECTF  notype ()    Static       | subbuild_joinrel_restrictlist
+052 00000000 SECTD  notype ()    Static       | subbuild_joinrel_joinlist
+053 00000000 SECTB  notype ()    Static       | set_foreign_rel_properties
+054 00000000 SECT5  notype ()    Static       | build_join_rel_hash
+055 00000000 UNDEF  notype ()    External     | memset
+056 00000000 SECT4  notype       Label        | $LN19
+057 00000090 SECT4  notype       Label        | $LN54
+058 000003B0 SECT4  notype       Label        | $LN10
+059 00000410 SECT4  notype       Label        | $LN25
+05A 000004E0 SECT4  notype       Label        | $LN18
+05B 00000850 SECT4  notype       Label        | $LN5
+05C 000008A0 SECT4  notype       Label        | $LN4
+05D 00000930 SECT4  notype       Label        | $LN17
+05E 00000A50 SECT4  notype       Label        | $LN21
+05F 00000AD0 SECT4  notype       Label        | $LN41
+060 00000BC0 SECT4  notype       Label        | $LN32
+061 00000D40 SECT4  notype       Label        | $LN71
+062 000010B0 SECT4  notype       Label        | $LN20
+063 00000000 SECT11 notype       Static       | .xdata
+    Section length  1C8, #relocs   24, #linenums    0, checksum 251B4612
+065 00000000 SECT11 notype       Static       | $unwind$setup_simple_rel_arrays
+066 00000000 SECT12 notype       Static       | .pdata
+    Section length  12C, #relocs   4B, #linenums    0, checksum 713F182B
+068 00000000 SECT12 notype       Static       | $pdata$setup_simple_rel_arrays
+069 00000008 SECT11 notype       Static       | $unwind$build_simple_rel
+06A 0000000C SECT12 notype       Static       | $pdata$build_simple_rel
+06B 00000018 SECT11 notype       Static       | $unwind$find_base_rel
+06C 00000018 SECT12 notype       Static       | $pdata$find_base_rel
+06D 00000020 SECT11 notype       Static       | $unwind$find_join_rel
+06E 00000024 SECT12 notype       Static       | $pdata$find_join_rel
+06F 00000030 SECT11 notype       Static       | $unwind$build_join_rel
+070 00000030 SECT12 notype       Static       | $pdata$build_join_rel
+071 00000048 SECT11 notype       Static       | $chain$0$build_join_rel
+072 0000003C SECT12 notype       Static       | $pdata$0$build_join_rel
+073 0000005C SECT11 notype       Static       | $chain$1$build_join_rel
+074 00000048 SECT12 notype       Static       | $pdata$1$build_join_rel
+075 0000006C SECT11 notype       Static       | $unwind$min_join_parameterization
+076 00000054 SECT12 notype       Static       | $pdata$min_join_parameterization
+077 00000074 SECT11 notype       Static       | $unwind$build_empty_join_rel
+078 00000060 SECT12 notype       Static       | $pdata$build_empty_join_rel
+079 00000080 SECT11 notype       Static       | $unwind$fetch_upper_rel
+07A 0000006C SECT12 notype       Static       | $pdata$fetch_upper_rel
+07B 00000098 SECT11 notype       Static       | $unwind$find_childrel_appendrelinfo
+07C 00000078 SECT12 notype       Static       | $pdata$find_childrel_appendrelinfo
+07D 000000A0 SECT11 notype       Static       | $unwind$find_childrel_parents
+07E 00000084 SECT12 notype       Static       | $pdata$find_childrel_parents
+07F 000000B0 SECT11 notype       Static       | $unwind$get_baserel_parampathinfo
+080 00000090 SECT12 notype       Static       | $pdata$get_baserel_parampathinfo
+081 000000BC SECT11 notype       Static       | $chain$1$get_baserel_parampathinfo
+082 0000009C SECT12 notype       Static       | $pdata$1$get_baserel_parampathinfo
+083 000000D4 SECT11 notype       Static       | $chain$4$get_baserel_parampathinfo
+084 000000A8 SECT12 notype       Static       | $pdata$4$get_baserel_parampathinfo
+085 000000F0 SECT11 notype       Static       | $chain$5$get_baserel_parampathinfo
+086 000000B4 SECT12 notype       Static       | $pdata$5$get_baserel_parampathinfo
+087 00000100 SECT11 notype       Static       | $chain$7$get_baserel_parampathinfo
+088 000000C0 SECT12 notype       Static       | $pdata$7$get_baserel_parampathinfo
+089 00000118 SECT11 notype       Static       | $unwind$get_joinrel_parampathinfo
+08A 000000CC SECT12 notype       Static       | $pdata$get_joinrel_parampathinfo
+08B 00000128 SECT11 notype       Static       | $chain$3$get_joinrel_parampathinfo
+08C 000000D8 SECT12 notype       Static       | $pdata$3$get_joinrel_parampathinfo
+08D 00000148 SECT11 notype       Static       | $chain$4$get_joinrel_parampathinfo
+08E 000000E4 SECT12 notype       Static       | $pdata$4$get_joinrel_parampathinfo
+08F 0000015C SECT11 notype       Static       | $chain$5$get_joinrel_parampathinfo
+090 000000F0 SECT12 notype       Static       | $pdata$5$get_joinrel_parampathinfo
+091 0000016C SECT11 notype       Static       | $chain$7$get_joinrel_parampathinfo
+092 000000FC SECT12 notype       Static       | $pdata$7$get_joinrel_parampathinfo
+093 0000018C SECT11 notype       Static       | $unwind$get_appendrel_parampathinfo
+094 00000108 SECT12 notype       Static       | $pdata$get_appendrel_parampathinfo
+095 00000198 SECT11 notype       Static       | $chain$1$get_appendrel_parampathinfo
+096 00000114 SECT12 notype       Static       | $pdata$1$get_appendrel_parampathinfo
+097 000001B0 SECT11 notype       Static       | $chain$3$get_appendrel_parampathinfo
+098 00000120 SECT12 notype       Static       | $pdata$3$get_appendrel_parampathinfo
+099 00000000 SECT13 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum D40588B6, selection    5 (pick associative Section 0x9)
+09B 00000000 SECT13 notype       Static       | $unwind$build_joinrel_tlist
+09C 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8F085A64, selection    5 (pick associative Section 0x9)
+09E 00000000 SECT14 notype       Static       | $pdata$build_joinrel_tlist
+09F 00000000 SECT15 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 859BF226, selection    5 (pick associative Section 0x9)
+0A1 00000000 SECT15 notype       Static       | $chain$2$build_joinrel_tlist
+0A2 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 9A2B95EE, selection    5 (pick associative Section 0x9)
+0A4 00000000 SECT16 notype       Static       | $pdata$2$build_joinrel_tlist
+0A5 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 365FB088, selection    5 (pick associative Section 0x9)
+0A7 00000000 SECT17 notype       Static       | $chain$3$build_joinrel_tlist
+0A8 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F1F9AD40, selection    5 (pick associative Section 0x9)
+0AA 00000000 SECT18 notype       Static       | $pdata$3$build_joinrel_tlist
+0AB 00000000 SECT19 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum C2D1B755, selection    5 (pick associative Section 0x7)
+0AD 00000000 SECT19 notype       Static       | $unwind$build_joinrel_restrictlist
+0AE 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 1BDB8BBE, selection    5 (pick associative Section 0x7)
+0B0 00000000 SECT1A notype       Static       | $pdata$build_joinrel_restrictlist
+0B1 00000000 SECT1B notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 94E5E0B0, selection    5 (pick associative Section 0xF)
+0B3 00000000 SECT1B notype       Static       | $unwind$subbuild_joinrel_restrictlist
+0B4 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 345B3F4F, selection    5 (pick associative Section 0xF)
+0B6 00000000 SECT1C notype       Static       | $pdata$subbuild_joinrel_restrictlist
+0B7 00000000 SECT1D notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 887BA124, selection    5 (pick associative Section 0xF)
+0B9 00000000 SECT1D notype       Static       | $chain$1$subbuild_joinrel_restrictlist
+0BA 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B6640C9F, selection    5 (pick associative Section 0xF)
+0BC 00000000 SECT1E notype       Static       | $pdata$1$subbuild_joinrel_restrictlist
+0BD 00000000 SECT1F notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum F00DB085, selection    5 (pick associative Section 0xF)
+0BF 00000000 SECT1F notype       Static       | $chain$3$subbuild_joinrel_restrictlist
+0C0 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C680DF59, selection    5 (pick associative Section 0xF)
+0C2 00000000 SECT20 notype       Static       | $pdata$3$subbuild_joinrel_restrictlist
+0C3 00000000 SECT21 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 8D0CD5A3, selection    5 (pick associative Section 0xF)
+0C5 00000000 SECT21 notype       Static       | $chain$4$subbuild_joinrel_restrictlist
+0C6 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2430700B, selection    5 (pick associative Section 0xF)
+0C8 00000000 SECT22 notype       Static       | $pdata$4$subbuild_joinrel_restrictlist
+0C9 00000000 SECT23 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 94E5E0B0, selection    5 (pick associative Section 0xD)
+0CB 00000000 SECT23 notype       Static       | $unwind$subbuild_joinrel_joinlist
+0CC 00000000 SECT24 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 345B3F4F, selection    5 (pick associative Section 0xD)
+0CE 00000000 SECT24 notype       Static       | $pdata$subbuild_joinrel_joinlist
+0CF 00000000 SECT25 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 887BA124, selection    5 (pick associative Section 0xD)
+0D1 00000000 SECT25 notype       Static       | $chain$1$subbuild_joinrel_joinlist
+0D2 00000000 SECT26 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B6640C9F, selection    5 (pick associative Section 0xD)
+0D4 00000000 SECT26 notype       Static       | $pdata$1$subbuild_joinrel_joinlist
+0D5 00000000 SECT27 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum F00DB085, selection    5 (pick associative Section 0xD)
+0D7 00000000 SECT27 notype       Static       | $chain$3$subbuild_joinrel_joinlist
+0D8 00000000 SECT28 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C680DF59, selection    5 (pick associative Section 0xD)
+0DA 00000000 SECT28 notype       Static       | $pdata$3$subbuild_joinrel_joinlist
+0DB 00000000 SECT29 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 8D0CD5A3, selection    5 (pick associative Section 0xD)
+0DD 00000000 SECT29 notype       Static       | $chain$4$subbuild_joinrel_joinlist
+0DE 00000000 SECT2A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2430700B, selection    5 (pick associative Section 0xD)
+0E0 00000000 SECT2A notype       Static       | $pdata$4$subbuild_joinrel_joinlist
+0E1 00000000 SECT2B notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum D718098F, selection    5 (pick associative Section 0xB)
+0E3 00000000 SECT2B notype       Static       | $unwind$set_foreign_rel_properties
+0E4 00000000 SECT2C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 140D4FB5, selection    5 (pick associative Section 0xB)
+0E6 00000000 SECT2C notype       Static       | $pdata$set_foreign_rel_properties
+0E7 00000000 SECT2D notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum D6B6D530, selection    5 (pick associative Section 0xB)
+0E9 00000000 SECT2D notype       Static       | $chain$0$set_foreign_rel_properties
+0EA 00000000 SECT2E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  BB0C336, selection    5 (pick associative Section 0xB)
+0EC 00000000 SECT2E notype       Static       | $pdata$0$set_foreign_rel_properties
+0ED 00000000 SECT2F notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum AD5AA559, selection    5 (pick associative Section 0xB)
+0EF 00000000 SECT2F notype       Static       | $chain$1$set_foreign_rel_properties
+0F0 00000000 SECT30 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 9CA70536, selection    5 (pick associative Section 0xB)
+0F2 00000000 SECT30 notype       Static       | $pdata$1$set_foreign_rel_properties
+0F3 00000000 SECT31 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum F50503AE, selection    5 (pick associative Section 0x5)
+0F5 00000000 SECT31 notype       Static       | $unwind$build_join_rel_hash
+0F6 00000000 SECT32 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D5F86DA9, selection    5 (pick associative Section 0x5)
+0F8 00000000 SECT32 notype       Static       | $pdata$build_join_rel_hash
+0F9 00000000 SECT33 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 890D32A8, selection    5 (pick associative Section 0x5)
+0FB 00000000 SECT33 notype       Static       | $chain$0$build_join_rel_hash
+0FC 00000000 SECT34 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C2597EF0, selection    5 (pick associative Section 0x5)
+0FE 00000000 SECT34 notype       Static       | $pdata$0$build_join_rel_hash
+0FF 00000000 SECT35 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 6CAF8745, selection    5 (pick associative Section 0x5)
+101 00000000 SECT35 notype       Static       | $chain$1$build_join_rel_hash
+102 00000000 SECT36 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 23C6D917, selection    5 (pick associative Section 0x5)
+104 00000000 SECT36 notype       Static       | $pdata$1$build_join_rel_hash
+105 00000000 UNDEF  notype       External     | CurrentMemoryContext
+106 00000000 UNDEF  notype       External     | newNodeMacroHolder
+107 00000000 SECT37 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum B367D9C5, selection    2 (pick any)
+109 00000000 SECT37 notype       External     | ??_C@_0BB@IFHHNHIH@build_simple_rel?$AA@ (`string')
+10A 00000000 SECT38 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum DD6ADFD0, selection    2 (pick any)
+10C 00000000 SECT38 notype       External     | ??_C@_0CF@GEEFPEL@src?1backend?1optimizer?1util?1relno@ (`string')
+10D 00000000 SECT39 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum   8D00AB, selection    2 (pick any)
+10F 00000000 SECT39 notype       External     | ??_C@_0BG@FHFLEOLE@rel?5?$CFd?5already?5exists?$AA@ (`string')
+110 00000000 SECT3A notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 7B343924, selection    2 (pick any)
+112 00000000 SECT3A notype       External     | ??_C@_0BK@CLCHHIOJ@unrecognized?5RTE?5kind?3?5?$CFd?$AA@ (`string')
+113 00000000 SECT3B notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 8344D375, selection    2 (pick any)
+115 00000000 SECT3B notype       External     | ??_C@_0O@KNAAFFEN@find_base_rel?$AA@ (`string')
+116 00000000 SECT3C notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum C7FBEAB7, selection    2 (pick any)
+118 00000000 SECT3C notype       External     | ??_C@_0BP@FBANLJPI@no?5relation?5entry?5for?5relid?5?$CFd?$AA@ (`string')
+119 00000000 SECT3D notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 8FF48598, selection    2 (pick any)
+11B 00000000 SECT3D notype       External     | ??_C@_0BB@LJOEILNK@JoinRelHashTable?$AA@ (`string')
+11C 00000000 SECT3E notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 8CC0A823, selection    2 (pick any)
+11E 00000000 SECT3E notype       External     | ??_C@_0BE@HMOKMMFB@build_joinrel_tlist?$AA@ (`string')
+11F 00000000 SECT3F notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum  9052AE6, selection    2 (pick any)
+121 00000000 SECT3F notype       External     | ??_C@_0CL@OHDHOCI@unexpected?5node?5type?5in?5rel?5targ@ (`string')
+122 00000000 SECT40 notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 6CB1F04D, selection    2 (pick any)
+124 00000000 SECT40 notype       External     | ??_C@_0BM@BDDOHIFL@find_childrel_appendrelinfo?$AA@ (`string')
+125 00000000 SECT41 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum 5830D5A9, selection    2 (pick any)
+127 00000000 SECT41 notype       External     | ??_C@_0CK@EDKAACKN@child?5rel?5?$CFd?5not?5found?5in?5append@ (`string')
+128 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x1115 bytes
+
+  Summary
+
+        7890 .debug$S
+          68 .debug$T
+          5D .drectve
+         204 .pdata
+         129 .rdata
+        16AA .text$mn
+         314 .xdata

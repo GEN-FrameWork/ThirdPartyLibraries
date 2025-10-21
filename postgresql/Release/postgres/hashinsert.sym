@@ -1,0 +1,120 @@
+
+Dump of file Release\postgres/hashinsert.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5380, #relocs   96, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  6DC, #relocs   51, #linenums    0, checksum 3CA3E0BD
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  2AE, #relocs   1C, #linenums    0, checksum 5C3F0303, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  42C, #relocs   24, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | errstart
+00F 00000000 UNDEF  notype ()    External     | errfinish
+010 00000000 UNDEF  notype ()    External     | errcode
+011 00000000 UNDEF  notype ()    External     | errmsg
+012 00000000 UNDEF  notype ()    External     | errhint
+013 00000000 UNDEF  notype ()    External     | elog_start
+014 00000000 UNDEF  notype ()    External     | elog_finish
+015 00000000 UNDEF  notype ()    External     | PageAddItemExtended
+016 00000000 UNDEF  notype ()    External     | PageGetFreeSpace
+017 00000000 UNDEF  notype ()    External     | PageIndexMultiDelete
+018 00000000 UNDEF  notype ()    External     | MarkBufferDirty
+019 00000000 UNDEF  notype ()    External     | LockBuffer
+01A 00000000 UNDEF  notype ()    External     | IsBufferCleanupOK
+01B 00000000 SECT4  notype ()    External     | _hash_doinsert
+01C 000004F0 SECT4  notype ()    External     | _hash_pgaddtup
+01D 000005D0 SECT4  notype ()    External     | _hash_pgaddmultitup
+01E 00000000 UNDEF  notype ()    External     | _hash_addovflpage
+01F 00000000 UNDEF  notype ()    External     | _hash_getbuf
+020 00000000 UNDEF  notype ()    External     | _hash_getbucketbuf_from_hashkey
+021 00000000 UNDEF  notype ()    External     | _hash_relbuf
+022 00000000 UNDEF  notype ()    External     | _hash_dropbuf
+023 00000000 UNDEF  notype ()    External     | _hash_expandtable
+024 00000000 UNDEF  notype ()    External     | _hash_finish_split
+025 00000000 UNDEF  notype ()    External     | _hash_checkpage
+026 00000000 UNDEF  notype ()    External     | _hash_get_indextuple_hashkey
+027 00000000 UNDEF  notype ()    External     | _hash_binsearch
+028 00000000 UNDEF  notype ()    External     | XLogBeginInsert
+029 00000000 UNDEF  notype ()    External     | XLogInsert
+02A 00000000 UNDEF  notype ()    External     | XLogRegisterData
+02B 00000000 UNDEF  notype ()    External     | XLogRegisterBuffer
+02C 00000000 UNDEF  notype ()    External     | XLogRegisterBufData
+02D 00000000 SECT5  notype ()    Static       | _hash_vacuum_one_page
+02E 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+02F 00000000 UNDEF  notype ()    External     | __chkstk
+030 00000000 UNDEF  notype ()    External     | __security_check_cookie
+031 00000060 SECT4  notype       Label        | $restart_insert$57
+032 00000000 SECT4  notype       Label        | $LN56
+033 000004F0 SECT4  notype       Label        | $LN12
+034 000005D0 SECT4  notype       Label        | $LN19
+035 00000000 SECT7  notype       Static       | .xdata
+    Section length   6C, #relocs    6, #linenums    0, checksum 2A01660C
+037 00000000 SECT7  notype       Static       | $unwind$_hash_doinsert
+038 00000000 SECT8  notype       Static       | .pdata
+    Section length   3C, #relocs    F, #linenums    0, checksum 1D7B3125
+03A 00000000 SECT8  notype       Static       | $pdata$_hash_doinsert
+03B 00000018 SECT7  notype       Static       | $unwind$_hash_pgaddtup
+03C 0000000C SECT8  notype       Static       | $pdata$_hash_pgaddtup
+03D 00000030 SECT7  notype       Static       | $unwind$_hash_pgaddmultitup
+03E 00000018 SECT8  notype       Static       | $pdata$_hash_pgaddmultitup
+03F 00000044 SECT7  notype       Static       | $chain$1$_hash_pgaddmultitup
+040 00000024 SECT8  notype       Static       | $pdata$1$_hash_pgaddmultitup
+041 0000005C SECT7  notype       Static       | $chain$2$_hash_pgaddmultitup
+042 00000030 SECT8  notype       Static       | $pdata$2$_hash_pgaddmultitup
+043 00000000 SECT9  notype       Static       | .xdata
+    Section length   24, #relocs    1, #linenums    0, checksum  E5E6064, selection    5 (pick associative Section 0x5)
+045 00000000 SECT9  notype       Static       | $unwind$_hash_vacuum_one_page
+046 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2858E497, selection    5 (pick associative Section 0x5)
+048 00000000 SECTA  notype       Static       | $pdata$_hash_vacuum_one_page
+049 00000000 UNDEF  notype       External     | BufferBlocks
+04A 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+04B 00000000 UNDEF  notype       External     | CritSectionCount
+04C 00000000 SECTB  notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum CD14D496, selection    2 (pick any)
+04E 00000000 SECTB  notype       External     | ??_C@_0P@OFDICIIO@_hash_doinsert?$AA@ (`string')
+04F 00000000 SECTC  notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 6D0DE714, selection    2 (pick any)
+051 00000000 SECTC  notype       External     | ??_C@_0CF@LGCDGHIP@src?1backend?1access?1hash?1hashinse@ (`string')
+052 00000000 SECTD  notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum F6113C90, selection    2 (pick any)
+054 00000000 SECTD  notype       External     | ??_C@_0DE@MFMFMMNP@Values?5larger?5than?5a?5buffer?5page@ (`string')
+055 00000000 SECTE  notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum DF553C95, selection    2 (pick any)
+057 00000000 SECTE  notype       External     | ??_C@_0CM@KDIOKFHG@index?5row?5size?5?$CFzu?5exceeds?5hash?5@ (`string')
+058 00000000 SECTF  notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 26EF19B6, selection    2 (pick any)
+05A 00000000 SECTF  notype       External     | ??_C@_0P@OMDOFKO@_hash_pgaddtup?$AA@ (`string')
+05B 00000000 SECT10 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 1AA62F63, selection    2 (pick any)
+05D 00000000 SECT10 notype       External     | ??_C@_0CB@JPCFOKBB@failed?5to?5add?5index?5item?5to?5?$CC?$CFs?$CC@ (`string')
+05E 00000000 SECT11 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum EE224DE5, selection    2 (pick any)
+060 00000000 SECT11 notype       External     | ??_C@_0BE@BOAICJJH@_hash_pgaddmultitup?$AA@ (`string')
+061 00000000 SECT12 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+063 00000000 SECT12 notype       External     | __real@3ff0000000000000
+064 00000000 UNDEF  notype       External     | __security_cookie
+065 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x52C bytes
+
+  Summary
+
+        57AC .debug$S
+          68 .debug$T
+          5D .drectve
+          48 .pdata
+          E0 .rdata
+         98A .text$mn
+          90 .xdata

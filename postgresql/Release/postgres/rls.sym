@@ -1,0 +1,77 @@
+
+Dump of file Release\postgres/rls.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 423C, #relocs   38, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  1E3, #relocs   17, #linenums    0, checksum 74A7E866
+00A 00000000 UNDEF  notype ()    External     | errstart
+00B 00000000 UNDEF  notype ()    External     | errfinish
+00C 00000000 UNDEF  notype ()    External     | errcode
+00D 00000000 UNDEF  notype ()    External     | errmsg
+00E 00000000 UNDEF  notype ()    External     | errhint
+00F 00000000 UNDEF  notype ()    External     | RangeVarGetRelidExtended
+010 00000000 UNDEF  notype ()    External     | makeRangeVarFromNameList
+011 00000000 UNDEF  notype ()    External     | GetUserId
+012 00000000 UNDEF  notype ()    External     | InNoForceRLSOperation
+013 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+014 00000000 UNDEF  notype ()    External     | pg_class_ownercheck
+015 00000000 UNDEF  notype ()    External     | has_bypassrls_privilege
+016 00000000 SECT4  notype ()    External     | row_security_active
+017 00000030 SECT4  notype ()    External     | row_security_active_name
+018 00000000 UNDEF  notype ()    External     | get_rel_name
+019 00000090 SECT4  notype ()    External     | check_enable_rls
+01A 00000000 UNDEF  notype ()    External     | SearchSysCache
+01B 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+01C 00000000 UNDEF  notype ()    External     | textToQualifiedNameList
+01D 00000000 SECT4  notype       Label        | $LN4
+01E 00000030 SECT4  notype       Label        | $LN4
+01F 00000090 SECT4  notype       Label        | $LN24
+020 00000000 SECT5  notype       Static       | .xdata
+    Section length   4C, #relocs    6, #linenums    0, checksum 6DC918A2
+022 00000000 SECT5  notype       Static       | $unwind$row_security_active
+023 00000000 SECT6  notype       Static       | .pdata
+    Section length   3C, #relocs    F, #linenums    0, checksum 8018C223
+025 00000000 SECT6  notype       Static       | $pdata$row_security_active
+026 00000008 SECT5  notype       Static       | $unwind$row_security_active_name
+027 0000000C SECT6  notype       Static       | $pdata$row_security_active_name
+028 00000010 SECT5  notype       Static       | $unwind$check_enable_rls
+029 00000018 SECT6  notype       Static       | $pdata$check_enable_rls
+02A 0000001C SECT5  notype       Static       | $chain$0$check_enable_rls
+02B 00000024 SECT6  notype       Static       | $pdata$0$check_enable_rls
+02C 00000030 SECT5  notype       Static       | $chain$4$check_enable_rls
+02D 00000030 SECT6  notype       Static       | $pdata$4$check_enable_rls
+02E 00000000 UNDEF  notype       External     | row_security
+02F 00000000 SECT7  notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 510343C4, selection    2 (pick any)
+031 00000000 SECT7  notype       External     | ??_C@_0BB@GHBDENIG@check_enable_rls?$AA@ (`string')
+032 00000000 SECT8  notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 8CDB2CF1, selection    2 (pick any)
+034 00000000 SECT8  notype       External     | ??_C@_0BN@HIHABGCI@src?1backend?1utils?1misc?1rls?4c?$AA@ (`string')
+035 00000000 SECT9  notype       Static       | .rdata
+    Section length   5A, #relocs    0, #linenums    0, checksum 71BABF3F, selection    2 (pick any)
+037 00000000 SECT9  notype       External     | ??_C@_0FK@OPPLEBPD@To?5disable?5the?5policy?5for?5the?5ta@ (`string')
+038 00000000 SECTA  notype       Static       | .rdata
+    Section length   44, #relocs    0, #linenums    0, checksum 1080267D, selection    2 (pick any)
+03A 00000000 SECTA  notype       External     | ??_C@_0EE@PPKILHCP@query?5would?5be?5affected?5by?5row?9l@ (`string')
+
+String Table Size = 0x31D bytes
+
+  Summary
+
+        423C .debug$S
+          68 .debug$T
+          5D .drectve
+          3C .pdata
+          CC .rdata
+         1E3 .text$mn
+          4C .xdata

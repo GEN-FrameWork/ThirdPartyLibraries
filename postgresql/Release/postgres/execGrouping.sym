@@ -1,0 +1,214 @@
+
+Dump of file Release\postgres/execGrouping.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 8B48, #relocs  248, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  ECB, #relocs   59, #linenums    0, checksum BA1B84EA
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   D7, #relocs    3, #linenums    0, checksum 48171DF0, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  3D4, #relocs   2A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   F9, #relocs    9, #linenums    0, checksum 6DEC3335, selection    2 (pick any)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  27C, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | elog_start
+013 00000000 UNDEF  notype ()    External     | elog_finish
+014 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+015 00000000 UNDEF  notype ()    External     | MemoryContextAllocZero
+016 00000000 UNDEF  notype ()    External     | MemoryContextAllocExtended
+017 00000000 UNDEF  notype ()    External     | palloc
+018 00000000 UNDEF  notype ()    External     | palloc0
+019 00000000 UNDEF  notype ()    External     | pfree
+01A 00000000 UNDEF  notype ()    External     | fmgr_info
+01B 00000000 UNDEF  notype ()    External     | FunctionCall1Coll
+01C 00000000 UNDEF  notype ()    External     | FunctionCall2Coll
+01D 00000000 UNDEF  notype ()    External     | CreateTupleDescCopy
+01E 00000000 UNDEF  notype ()    External     | MakeSingleTupleTableSlot
+01F 00000000 UNDEF  notype ()    External     | ExecStoreMinimalTuple
+020 00000000 UNDEF  notype ()    External     | ExecCopySlotMinimalTuple
+021 00000000 UNDEF  notype ()    External     | slot_getattr
+022 00000000 SECT4  notype ()    External     | tuplehash_create
+023 000000D0 SECT4  notype ()    External     | tuplehash_destroy
+024 00000100 SECT4  notype ()    External     | tuplehash_grow
+025 00000220 SECT4  notype ()    External     | tuplehash_insert
+026 00000490 SECT4  notype ()    External     | tuplehash_lookup
+027 00000560 SECT4  notype ()    External     | tuplehash_delete
+028 00000690 SECT4  notype ()    External     | tuplehash_start_iterate
+029 000006E0 SECT4  notype ()    External     | tuplehash_start_iterate_at
+02A 00000700 SECT4  notype ()    External     | tuplehash_iterate
+02B 00000760 SECT4  notype ()    External     | tuplehash_stat
+02C 00000900 SECT4  notype ()    External     | execTuplesMatch
+02D 00000A10 SECT4  notype ()    External     | execTuplesUnequal
+02E 00000B20 SECT4  notype ()    External     | execTuplesMatchPrepare
+02F 00000B90 SECT4  notype ()    External     | execTuplesHashPrepare
+030 00000C80 SECT4  notype ()    External     | BuildTupleHashTable
+031 00000D90 SECT4  notype ()    External     | LookupTupleHashEntry
+032 00000E90 SECT4  notype ()    External     | FindTupleHashEntry
+033 00000000 UNDEF  notype ()    External     | get_op_hash_functions
+034 00000000 UNDEF  notype ()    External     | get_opcode
+035 00000000 UNDEF  notype ()    External     | MemoryContextReset
+036 00000000 SECT5  notype ()    Static       | TupleHashTableHash
+037 00000000 SECT7  notype ()    Static       | tuplehash_compute_parameters
+038 00000000 SECT4  notype       Label        | $LN9
+039 000000D0 SECT4  notype       Label        | $LN6
+03A 00000100 SECT4  notype       Label        | $LN46
+03B 00000270 SECT4  notype       Label        | $restart$74
+03C 00000220 SECT4  notype       Label        | $LN73
+03D 00000490 SECT4  notype       Label        | $LN24
+03E 00000560 SECT4  notype       Label        | $LN40
+03F 00000700 SECT4  notype       Label        | $LN12
+040 00000760 SECT4  notype       Label        | $LN40
+041 00000900 SECT4  notype       Label        | $LN23
+042 00000A10 SECT4  notype       Label        | $LN23
+043 00000B20 SECT4  notype       Label        | $LN12
+044 00000B90 SECT4  notype       Label        | $LN17
+045 00000C80 SECT4  notype       Label        | $LN10
+046 00000D90 SECT4  notype       Label        | $LN21
+047 00000E90 SECT4  notype       Label        | $LN8
+048 00000000 SECT9  notype       Static       | .xdata
+    Section length  230, #relocs   27, #linenums    0, checksum   59A8A2
+04A 00000000 SECT9  notype       Static       | $unwind$tuplehash_create
+04B 00000000 SECTA  notype       Static       | .pdata
+    Section length  150, #relocs   54, #linenums    0, checksum 3DE0B65C
+04D 00000000 SECTA  notype       Static       | $pdata$tuplehash_create
+04E 00000014 SECT9  notype       Static       | $unwind$tuplehash_destroy
+04F 0000000C SECTA  notype       Static       | $pdata$tuplehash_destroy
+050 0000001C SECT9  notype       Static       | $unwind$tuplehash_grow
+051 00000018 SECTA  notype       Static       | $pdata$tuplehash_grow
+052 00000030 SECT9  notype       Static       | $unwind$tuplehash_insert
+053 00000024 SECTA  notype       Static       | $pdata$tuplehash_insert
+054 00000050 SECT9  notype       Static       | $unwind$tuplehash_lookup
+055 00000030 SECTA  notype       Static       | $pdata$tuplehash_lookup
+056 00000068 SECT9  notype       Static       | $unwind$tuplehash_delete
+057 0000003C SECTA  notype       Static       | $pdata$tuplehash_delete
+058 00000080 SECT9  notype       Static       | $unwind$tuplehash_iterate
+059 00000048 SECTA  notype       Static       | $pdata$tuplehash_iterate
+05A 00000088 SECT9  notype       Static       | $unwind$tuplehash_stat
+05B 00000054 SECTA  notype       Static       | $pdata$tuplehash_stat
+05C 000000B0 SECT9  notype       Static       | $unwind$execTuplesMatch
+05D 00000060 SECTA  notype       Static       | $pdata$execTuplesMatch
+05E 000000C4 SECT9  notype       Static       | $chain$1$execTuplesMatch
+05F 0000006C SECTA  notype       Static       | $pdata$1$execTuplesMatch
+060 000000DC SECT9  notype       Static       | $chain$3$execTuplesMatch
+061 00000078 SECTA  notype       Static       | $pdata$3$execTuplesMatch
+062 000000F4 SECT9  notype       Static       | $chain$4$execTuplesMatch
+063 00000084 SECTA  notype       Static       | $pdata$4$execTuplesMatch
+064 00000104 SECT9  notype       Static       | $unwind$execTuplesUnequal
+065 00000090 SECTA  notype       Static       | $pdata$execTuplesUnequal
+066 00000118 SECT9  notype       Static       | $chain$1$execTuplesUnequal
+067 0000009C SECTA  notype       Static       | $pdata$1$execTuplesUnequal
+068 00000130 SECT9  notype       Static       | $chain$3$execTuplesUnequal
+069 000000A8 SECTA  notype       Static       | $pdata$3$execTuplesUnequal
+06A 00000148 SECT9  notype       Static       | $chain$4$execTuplesUnequal
+06B 000000B4 SECTA  notype       Static       | $pdata$4$execTuplesUnequal
+06C 00000158 SECT9  notype       Static       | $unwind$execTuplesMatchPrepare
+06D 000000C0 SECTA  notype       Static       | $pdata$execTuplesMatchPrepare
+06E 00000168 SECT9  notype       Static       | $chain$0$execTuplesMatchPrepare
+06F 000000CC SECTA  notype       Static       | $pdata$0$execTuplesMatchPrepare
+070 0000017C SECT9  notype       Static       | $chain$1$execTuplesMatchPrepare
+071 000000D8 SECTA  notype       Static       | $pdata$1$execTuplesMatchPrepare
+072 0000018C SECT9  notype       Static       | $unwind$execTuplesHashPrepare
+073 000000E4 SECTA  notype       Static       | $pdata$execTuplesHashPrepare
+074 0000019C SECT9  notype       Static       | $chain$1$execTuplesHashPrepare
+075 000000F0 SECTA  notype       Static       | $pdata$1$execTuplesHashPrepare
+076 000001B4 SECT9  notype       Static       | $chain$2$execTuplesHashPrepare
+077 000000FC SECTA  notype       Static       | $pdata$2$execTuplesHashPrepare
+078 000001C4 SECT9  notype       Static       | $unwind$BuildTupleHashTable
+079 00000108 SECTA  notype       Static       | $pdata$BuildTupleHashTable
+07A 000001E0 SECT9  notype       Static       | $unwind$LookupTupleHashEntry
+07B 00000114 SECTA  notype       Static       | $pdata$LookupTupleHashEntry
+07C 000001F0 SECT9  notype       Static       | $chain$0$LookupTupleHashEntry
+07D 00000120 SECTA  notype       Static       | $pdata$0$LookupTupleHashEntry
+07E 00000204 SECT9  notype       Static       | $chain$2$LookupTupleHashEntry
+07F 0000012C SECTA  notype       Static       | $pdata$2$LookupTupleHashEntry
+080 00000218 SECT9  notype       Static       | $chain$3$LookupTupleHashEntry
+081 00000138 SECTA  notype       Static       | $pdata$3$LookupTupleHashEntry
+082 00000228 SECT9  notype       Static       | $unwind$FindTupleHashEntry
+083 00000144 SECTA  notype       Static       | $pdata$FindTupleHashEntry
+084 00000000 SECTB  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum B30E1AEC, selection    5 (pick associative Section 0x5)
+086 00000000 SECTB  notype       Static       | $unwind$TupleHashTableHash
+087 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  CD87F05, selection    5 (pick associative Section 0x5)
+089 00000000 SECTC  notype       Static       | $pdata$TupleHashTableHash
+08A 00000000 SECTD  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0x7)
+08C 00000000 SECTD  notype       Static       | $unwind$tuplehash_compute_parameters
+08D 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E0240F61, selection    5 (pick associative Section 0x7)
+08F 00000000 SECTE  notype       Static       | $pdata$tuplehash_compute_parameters
+090 00000000 UNDEF  notype       External     | CurrentMemoryContext
+091 00000000 UNDEF  notype       External     | ParallelWorkerNumber
+092 00000000 UNDEF  notype       External     | work_mem
+093 00000000 SECTF  notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum A3329E4D, selection    2 (pick any)
+095 00000000 SECTF  notype       External     | ??_C@_0BN@FHJJKEJE@tuplehash_compute_parameters?$AA@ (`string')
+096 00000000 SECT10 notype       Static       | .rdata
+    Section length   4C, #relocs    0, #linenums    0, checksum 7964A0F4, selection    2 (pick any)
+098 00000000 SECT10 notype       External     | ??_C@_0EM@GGKDPOJC@C?3?2GENFrameWork?2ThirdPartyLibrar@ (`string')
+099 00000000 SECT11 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum C3525FD6, selection    2 (pick any)
+09B 00000000 SECT11 notype       External     | ??_C@_0BF@HNKJGFKC@hash?5table?5too?5large?$AA@ (`string')
+09C 00000000 SECT12 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 4A907FEB, selection    2 (pick any)
+09E 00000000 SECT12 notype       External     | ??_C@_0BB@HMIAHBKJ@tuplehash_insert?$AA@ (`string')
+09F 00000000 SECT13 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum  E4DC8B0, selection    2 (pick any)
+0A1 00000000 SECT13 notype       External     | ??_C@_0BJ@BIHNDJMA@hash?5table?5size?5exceeded?$AA@ (`string')
+0A2 00000000 SECT14 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum E2DC4A11, selection    2 (pick any)
+0A4 00000000 SECT14 notype       External     | ??_C@_0P@MKPALGAJ@tuplehash_stat?$AA@ (`string')
+0A5 00000000 SECT15 notype       Static       | .rdata
+    Section length   91, #relocs    0, #linenums    0, checksum E88C748C, selection    2 (pick any)
+0A7 00000000 SECT15 notype       External     | ??_C@_0JB@DMLILBJE@size?3?5?$CFllu?0?5members?3?5?$CFu?0?5filled?3@ (`string')
+0A8 00000000 SECT16 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum  EED14F8, selection    2 (pick any)
+0AA 00000000 SECT16 notype       External     | ??_C@_0BG@FJDLFKOH@execTuplesHashPrepare?$AA@ (`string')
+0AB 00000000 SECT17 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 58FE5B9B, selection    2 (pick any)
+0AD 00000000 SECT17 notype       External     | ??_C@_0CE@MNLHBGLB@src?1backend?1executor?1execGroupin@ (`string')
+0AE 00000000 SECT18 notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum AC4FF968, selection    2 (pick any)
+0B0 00000000 SECT18 notype       External     | ??_C@_0DC@EMDHHKIJ@could?5not?5find?5hash?5function?5for@ (`string')
+0B1 00000000 SECT19 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 93848CA1, selection    2 (pick any)
+0B3 00000000 SECT19 notype       External     | __real@3fb999999999999a
+0B4 00000000 SECT1A notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 4052D34B, selection    2 (pick any)
+0B6 00000000 SECT1A notype       External     | __real@3feccccccccccccd
+0B7 00000000 SECT1B notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum CF838E1B, selection    2 (pick any)
+0B9 00000000 SECT1B notype       External     | __real@3fef5c28f5c28f5c
+0BA 00000000 SECT1C notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 156790BB, selection    2 (pick any)
+0BC 00000000 SECT1C notype       External     | __real@41f0000000000000
+0BD 00000000 SECT1D notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum B1ABE3C6, selection    2 (pick any)
+0BF 00000000 SECT1D notype       External     | __real@43e0000000000000
+0C0 00000000 SECT1E notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum FB69F197, selection    2 (pick any)
+0C2 00000000 SECT1E notype       External     | __real@43f0000000000000
+0C3 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0xBD2 bytes
+
+  Summary
+
+        9198 .debug$S
+          68 .debug$T
+          5D .drectve
+         168 .pdata
+         1E4 .rdata
+        109B .text$mn
+         254 .xdata

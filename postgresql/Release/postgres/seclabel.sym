@@ -1,0 +1,145 @@
+
+Dump of file Release\postgres/seclabel.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5418, #relocs   A2, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  9FD, #relocs   6B, #linenums    0, checksum DC8C16A1
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  1E3, #relocs    D, #linenums    0, checksum CD8DC55F, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  2E8, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  1CC, #relocs   13, #linenums    0, checksum F7BD87CD, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  404, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | errstart
+013 00000000 UNDEF  notype ()    External     | errfinish
+014 00000000 UNDEF  notype ()    External     | errcode
+015 00000000 UNDEF  notype ()    External     | errmsg
+016 00000000 UNDEF  notype ()    External     | palloc
+017 00000000 UNDEF  notype ()    External     | pstrdup
+018 00000000 UNDEF  notype ()    External     | ScanKeyInit
+019 00000000 UNDEF  notype ()    External     | lappend
+01A 00000000 UNDEF  notype ()    External     | systable_beginscan
+01B 00000000 UNDEF  notype ()    External     | systable_getnext
+01C 00000000 UNDEF  notype ()    External     | systable_endscan
+01D 00000000 UNDEF  notype ()    External     | relation_close
+01E 00000000 UNDEF  notype ()    External     | heap_open
+01F 00000000 UNDEF  notype ()    External     | nocachegetattr
+020 00000000 UNDEF  notype ()    External     | heap_form_tuple
+021 00000000 UNDEF  notype ()    External     | heap_modify_tuple
+022 00000000 UNDEF  notype ()    External     | heap_freetuple
+023 00000000 UNDEF  notype ()    External     | IsSharedRelation
+024 00000000 UNDEF  notype ()    External     | CatalogTupleInsert
+025 00000000 UNDEF  notype ()    External     | CatalogTupleUpdate
+026 00000000 UNDEF  notype ()    External     | CatalogTupleDelete
+027 00000000 UNDEF  notype ()    External     | get_object_address
+028 00000000 UNDEF  notype ()    External     | check_object_ownership
+029 00000000 SECT4  notype ()    External     | GetSecurityLabel
+02A 00000230 SECT4  notype ()    External     | SetSecurityLabel
+02B 00000480 SECT4  notype ()    External     | DeleteSecurityLabel
+02C 000005D0 SECT4  notype ()    External     | DeleteSharedSecurityLabel
+02D 000006B0 SECT4  notype ()    External     | ExecSecLabelStmt
+02E 00000980 SECT4  notype ()    External     | register_label_provider
+02F 00000000 UNDEF  notype ()    External     | GetUserId
+030 00000000 UNDEF  notype ()    External     | cstring_to_text
+031 00000000 UNDEF  notype ()    External     | text_to_cstring
+032 00000000 SECT5  notype ()    Static       | GetSharedSecurityLabel
+033 00000000 SECT7  notype ()    Static       | SetSharedSecurityLabel
+034 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+035 00000000 UNDEF  notype ()    External     | __security_check_cookie
+036 00000000 SECT4  notype       Label        | $LN25
+037 00000230 SECT4  notype       Label        | $LN12
+038 00000480 SECT4  notype       Label        | $LN13
+039 000005D0 SECT4  notype       Label        | $LN10
+03A 000006B0 SECT4  notype       Label        | $LN64
+03B 00000980 SECT4  notype       Label        | $LN8
+03C 00000000 SECT9  notype       Static       | .xdata
+    Section length  10C, #relocs   18, #linenums    0, checksum 2EB93C21
+03E 00000000 SECT9  notype       Static       | $unwind$GetSecurityLabel
+03F 00000000 SECTA  notype       Static       | .pdata
+    Section length   9C, #relocs   27, #linenums    0, checksum 5B08E600
+041 00000000 SECTA  notype       Static       | $pdata$GetSecurityLabel
+042 0000001C SECT9  notype       Static       | $unwind$SetSecurityLabel
+043 0000000C SECTA  notype       Static       | $pdata$SetSecurityLabel
+044 00000034 SECT9  notype       Static       | $chain$0$SetSecurityLabel
+045 00000018 SECTA  notype       Static       | $pdata$0$SetSecurityLabel
+046 00000048 SECT9  notype       Static       | $chain$1$SetSecurityLabel
+047 00000024 SECTA  notype       Static       | $pdata$1$SetSecurityLabel
+048 00000058 SECT9  notype       Static       | $unwind$DeleteSecurityLabel
+049 00000030 SECTA  notype       Static       | $pdata$DeleteSecurityLabel
+04A 0000006C SECT9  notype       Static       | $chain$0$DeleteSecurityLabel
+04B 0000003C SECTA  notype       Static       | $pdata$0$DeleteSecurityLabel
+04C 00000080 SECT9  notype       Static       | $chain$1$DeleteSecurityLabel
+04D 00000048 SECTA  notype       Static       | $pdata$1$DeleteSecurityLabel
+04E 00000090 SECT9  notype       Static       | $unwind$DeleteSharedSecurityLabel
+04F 00000054 SECTA  notype       Static       | $pdata$DeleteSharedSecurityLabel
+050 000000A0 SECT9  notype       Static       | $unwind$ExecSecLabelStmt
+051 00000060 SECTA  notype       Static       | $pdata$ExecSecLabelStmt
+052 000000A8 SECT9  notype       Static       | $chain$3$ExecSecLabelStmt
+053 0000006C SECTA  notype       Static       | $pdata$3$ExecSecLabelStmt
+054 000000C8 SECT9  notype       Static       | $chain$4$ExecSecLabelStmt
+055 00000078 SECTA  notype       Static       | $pdata$4$ExecSecLabelStmt
+056 000000D8 SECT9  notype       Static       | $chain$5$ExecSecLabelStmt
+057 00000084 SECTA  notype       Static       | $pdata$5$ExecSecLabelStmt
+058 000000F8 SECT9  notype       Static       | $unwind$register_label_provider
+059 00000090 SECTA  notype       Static       | $pdata$register_label_provider
+05A 00000000 SECTB  notype       Static       | .xdata
+    Section length   1C, #relocs    1, #linenums    0, checksum FB97220C, selection    5 (pick associative Section 0x5)
+05C 00000000 SECTB  notype       Static       | $unwind$GetSharedSecurityLabel
+05D 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum AB282936, selection    5 (pick associative Section 0x5)
+05F 00000000 SECTC  notype       Static       | $pdata$GetSharedSecurityLabel
+060 00000000 SECTD  notype       Static       | .xdata
+    Section length   1C, #relocs    1, #linenums    0, checksum DEAD25BB, selection    5 (pick associative Section 0x7)
+062 00000000 SECTD  notype       Static       | $unwind$SetSharedSecurityLabel
+063 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8B7E59CC, selection    5 (pick associative Section 0x7)
+065 00000000 SECTE  notype       Static       | $pdata$SetSharedSecurityLabel
+066 00000000 UNDEF  notype       External     | CurrentMemoryContext
+067 00000000 UNDEF  notype       External     | TopMemoryContext
+068 00000000 SECTF  notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+06A 00000000 SECTF  notype       Static       | label_provider_list
+06B 00000000 SECT10 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 22455B17, selection    2 (pick any)
+06D 00000000 SECT10 notype       External     | ??_C@_0BB@BEFFFFFF@ExecSecLabelStmt?$AA@ (`string')
+06E 00000000 SECT11 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 502DCCA6, selection    2 (pick any)
+070 00000000 SECT11 notype       External     | ??_C@_0CA@LGNIGGPE@src?1backend?1commands?1seclabel?4c?$AA@ (`string')
+071 00000000 SECT12 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum B6406931, selection    2 (pick any)
+073 00000000 SECT12 notype       External     | ??_C@_0CN@IPDPABGK@no?5security?5label?5providers?5have@ (`string')
+074 00000000 SECT13 notype       Static       | .rdata
+    Section length   4E, #relocs    0, #linenums    0, checksum 286798A9, selection    2 (pick any)
+076 00000000 SECT13 notype       External     | ??_C@_0EO@JHBDDHLM@must?5specify?5provider?5when?5multi@ (`string')
+077 00000000 SECT14 notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum AB702F56, selection    2 (pick any)
+079 00000000 SECT14 notype       External     | ??_C@_0CL@KMAGHLJI@security?5label?5provider?5?$CC?$CFs?$CC?5is?5@ (`string')
+07A 00000000 SECT15 notype       Static       | .rdata
+    Section length   4F, #relocs    0, #linenums    0, checksum 52902260, selection    2 (pick any)
+07C 00000000 SECT15 notype       External     | ??_C@_0EP@DPPCLCCE@?$CC?$CFs?$CC?5is?5not?5a?5table?0?5view?0?5mater@ (`string')
+07D 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x700 bytes
+
+  Summary
+
+           8 .bss
+        5B04 .debug$S
+          68 .debug$T
+          5D .drectve
+          B4 .pdata
+         126 .rdata
+         DAC .text$mn
+         144 .xdata

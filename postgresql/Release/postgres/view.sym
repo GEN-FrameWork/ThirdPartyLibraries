@@ -1,0 +1,220 @@
+
+Dump of file Release\postgres/view.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4EF0, #relocs   60, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  56D, #relocs   5A, #linenums    0, checksum 1638B7EA
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  4AE, #relocs   43, #linenums    0, checksum 5554A3F1, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  860, #relocs   50, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   E2, #relocs    D, #linenums    0, checksum 9509626D, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  268, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  21C, #relocs   1E, #linenums    0, checksum  38B072B, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  258, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 UNDEF  notype ()    External     | pg_strcasecmp
+017 00000000 UNDEF  notype ()    External     | errstart
+018 00000000 UNDEF  notype ()    External     | errfinish
+019 00000000 UNDEF  notype ()    External     | errcode
+01A 00000000 UNDEF  notype ()    External     | errmsg
+01B 00000000 UNDEF  notype ()    External     | errdetail
+01C 00000000 UNDEF  notype ()    External     | errhint
+01D 00000000 UNDEF  notype ()    External     | elog_start
+01E 00000000 UNDEF  notype ()    External     | elog_finish
+01F 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+020 00000000 UNDEF  notype ()    External     | pstrdup
+021 00000000 UNDEF  notype ()    External     | copyObjectImpl
+022 00000000 UNDEF  notype ()    External     | lappend
+023 00000000 UNDEF  notype ()    External     | lcons
+024 00000000 UNDEF  notype ()    External     | BuildDescForRelation
+025 00000000 UNDEF  notype ()    External     | relation_open
+026 00000000 UNDEF  notype ()    External     | relation_close
+027 00000000 UNDEF  notype ()    External     | CommandCounterIncrement
+028 00000000 UNDEF  notype ()    External     | RangeVarGetAndCheckCreationNamespace
+029 00000000 UNDEF  notype ()    External     | makeString
+02A 00000000 UNDEF  notype ()    External     | make_parsestate
+02B 00000000 UNDEF  notype ()    External     | DefineRelation
+02C 00000000 UNDEF  notype ()    External     | AlterTableInternal
+02D 00000000 UNDEF  notype ()    External     | CheckTableNotInUse
+02E 00000000 SECT4  notype ()    External     | validateWithCheckOption
+02F 000000B0 SECT4  notype ()    External     | DefineView
+030 00000500 SECT4  notype ()    External     | StoreViewQuery
+031 00000000 UNDEF  notype ()    External     | makeAlias
+032 00000000 UNDEF  notype ()    External     | makeColumnDef
+033 00000000 UNDEF  notype ()    External     | makeDefElem
+034 00000000 UNDEF  notype ()    External     | exprType
+035 00000000 UNDEF  notype ()    External     | exprTypmod
+036 00000000 UNDEF  notype ()    External     | exprCollation
+037 00000000 UNDEF  notype ()    External     | parse_analyze
+038 00000000 UNDEF  notype ()    External     | addRangeTableEntryForRelation
+039 00000000 UNDEF  notype ()    External     | isQueryUsingTempRelation
+03A 00000000 UNDEF  notype ()    External     | DefineQueryRewrite
+03B 00000000 UNDEF  notype ()    External     | OffsetVarNodes
+03C 00000000 UNDEF  notype ()    External     | view_query_is_auto_updatable
+03D 00000000 UNDEF  notype ()    External     | format_type_with_typemod
+03E 00000000 UNDEF  notype ()    External     | type_is_collatable
+03F 00000000 SECT9  notype ()    Static       | checkViewTupleDesc
+040 00000000 SECT5  notype ()    Static       | DefineVirtualRelation
+041 00000000 SECT7  notype ()    Static       | UpdateRangeTableOfViewParse
+042 00000000 SECT4  notype       Label        | $LN11
+043 000000B0 SECT4  notype       Label        | $LN86
+044 00000500 SECT4  notype       Label        | $LN6
+045 00000000 SECTB  notype       Static       | .xdata
+    Section length   58, #relocs    6, #linenums    0, checksum C4DA31CD
+047 00000000 SECTB  notype       Static       | $unwind$validateWithCheckOption
+048 00000000 SECTC  notype       Static       | .pdata
+    Section length   3C, #relocs    F, #linenums    0, checksum F59DD8D7
+04A 00000000 SECTC  notype       Static       | $pdata$validateWithCheckOption
+04B 00000008 SECTB  notype       Static       | $chain$0$validateWithCheckOption
+04C 0000000C SECTC  notype       Static       | $pdata$0$validateWithCheckOption
+04D 0000001C SECTB  notype       Static       | $chain$1$validateWithCheckOption
+04E 00000018 SECTC  notype       Static       | $pdata$1$validateWithCheckOption
+04F 0000002C SECTB  notype       Static       | $unwind$DefineView
+050 00000024 SECTC  notype       Static       | $pdata$DefineView
+051 00000048 SECTB  notype       Static       | $unwind$StoreViewQuery
+052 00000030 SECTC  notype       Static       | $pdata$StoreViewQuery
+053 00000000 SECTD  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum CFD68924, selection    5 (pick associative Section 0x9)
+055 00000000 SECTD  notype       Static       | $unwind$checkViewTupleDesc
+056 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  9CBB217, selection    5 (pick associative Section 0x9)
+058 00000000 SECTE  notype       Static       | $pdata$checkViewTupleDesc
+059 00000000 SECTF  notype       Static       | .xdata
+    Section length   20, #relocs    3, #linenums    0, checksum 2A6BAF17, selection    5 (pick associative Section 0x9)
+05B 00000000 SECTF  notype       Static       | $chain$3$checkViewTupleDesc
+05C 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7D48D3E5, selection    5 (pick associative Section 0x9)
+05E 00000000 SECT10 notype       Static       | $pdata$3$checkViewTupleDesc
+05F 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum B09C58FB, selection    5 (pick associative Section 0x9)
+061 00000000 SECT11 notype       Static       | $chain$4$checkViewTupleDesc
+062 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 735A2D1F, selection    5 (pick associative Section 0x9)
+064 00000000 SECT12 notype       Static       | $pdata$4$checkViewTupleDesc
+065 00000000 SECT13 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 184CD8FC, selection    5 (pick associative Section 0x5)
+067 00000000 SECT13 notype       Static       | $unwind$DefineVirtualRelation
+068 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4B88D1AD, selection    5 (pick associative Section 0x5)
+06A 00000000 SECT14 notype       Static       | $pdata$DefineVirtualRelation
+06B 00000000 SECT15 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 79191DC9, selection    5 (pick associative Section 0x7)
+06D 00000000 SECT15 notype       Static       | $unwind$UpdateRangeTableOfViewParse
+06E 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C1F5221C, selection    5 (pick associative Section 0x7)
+070 00000000 SECT16 notype       Static       | $pdata$UpdateRangeTableOfViewParse
+071 00000000 UNDEF  notype       External     | CurrentMemoryContext
+072 00000000 UNDEF  notype       External     | newNodeMacroHolder
+073 00000000 SECT17 notype       Static       | .rdata
+    Section length    6, #relocs    0, #linenums    0, checksum CD9AF2EC, selection    2 (pick any)
+075 00000000 SECT17 notype       External     | ??_C@_05IDKHKMLA@local?$AA@ (`string')
+076 00000000 SECT18 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 75D433C7, selection    2 (pick any)
+078 00000000 SECT18 notype       External     | ??_C@_08GMCCNIJG@cascaded?$AA@ (`string')
+079 00000000 SECT19 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum F2427E21, selection    2 (pick any)
+07B 00000000 SECT19 notype       External     | ??_C@_0BI@KOHMELPO@validateWithCheckOption?$AA@ (`string')
+07C 00000000 SECT1A notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 9FEAF7B6, selection    2 (pick any)
+07E 00000000 SECT1A notype       External     | ??_C@_0BM@OAGFHPKA@src?1backend?1commands?1view?4c?$AA@ (`string')
+07F 00000000 SECT1B notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum 75632333, selection    2 (pick any)
+081 00000000 SECT1B notype       External     | ??_C@_0CJ@OEBBFMGG@Valid?5values?5are?5?$CClocal?$CC?5and?5?$CCca@ (`string')
+082 00000000 SECT1C notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 43D8FECF, selection    2 (pick any)
+084 00000000 SECT1C notype       External     | ??_C@_0CI@FFMLDMIB@invalid?5value?5for?5?$CCcheck_option?$CC@ (`string')
+085 00000000 SECT1D notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 9E98945E, selection    2 (pick any)
+087 00000000 SECT1D notype       External     | ??_C@_0BG@MJEONKEB@DefineVirtualRelation?$AA@ (`string')
+088 00000000 SECT1E notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum 40D29AA1, selection    2 (pick any)
+08A 00000000 SECT1E notype       External     | ??_C@_0DI@GMOFMABH@Use?5the?5COLLATE?5clause?5to?5set?5th@ (`string')
+08B 00000000 SECT1F notype       Static       | .rdata
+    Section length   40, #relocs    0, #linenums    0, checksum 9A69D209, selection    2 (pick any)
+08D 00000000 SECT1F notype       External     | ??_C@_0EA@BABLEOMA@could?5not?5determine?5which?5collat@ (`string')
+08E 00000000 SECT20 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 89DAB7CD, selection    2 (pick any)
+090 00000000 SECT20 notype       External     | ??_C@_0CD@HPNNBPAF@view?5must?5have?5at?5least?5one?5colu@ (`string')
+091 00000000 SECT21 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum BBB8FCA9, selection    2 (pick any)
+093 00000000 SECT21 notype       External     | ??_C@_0BD@JOEPMKDJ@?$CC?$CFs?$CC?5is?5not?5a?5view?$AA@ (`string')
+094 00000000 SECT22 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum  B2CC89F, selection    2 (pick any)
+096 00000000 SECT22 notype       External     | ??_C@_0BH@IGHDBDCE@CREATE?5OR?5REPLACE?5VIEW?$AA@ (`string')
+097 00000000 SECT23 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum  9578943, selection    2 (pick any)
+099 00000000 SECT23 notype       External     | ??_C@_0BD@CMKALPND@checkViewTupleDesc?$AA@ (`string')
+09A 00000000 SECT24 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 28D55FFC, selection    2 (pick any)
+09C 00000000 SECT24 notype       External     | ??_C@_0BO@NHCOJOLG@cannot?5drop?5columns?5from?5view?$AA@ (`string')
+09D 00000000 SECT25 notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum C375D353, selection    2 (pick any)
+09F 00000000 SECT25 notype       External     | ??_C@_0CP@NJFDIHNJ@cannot?5change?5name?5of?5view?5colum@ (`string')
+0A0 00000000 SECT26 notype       Static       | .rdata
+    Section length   3A, #relocs    0, #linenums    0, checksum 4AC05E4F, selection    2 (pick any)
+0A2 00000000 SECT26 notype       External     | ??_C@_0DK@HDOBMDKM@cannot?5change?5data?5type?5of?5view?5@ (`string')
+0A3 00000000 SECT27 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 575B8CE5, selection    2 (pick any)
+0A5 00000000 SECT27 notype       External     | ??_C@_07MNIGKMHD@_RETURN?$AA@ (`string')
+0A6 00000000 SECT28 notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum 23197BB2, selection    2 (pick any)
+0A8 00000000 SECT28 notype       External     | ??_C@_03PNKCFLFB@old?$AA@ (`string')
+0A9 00000000 SECT29 notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum F59B66CA, selection    2 (pick any)
+0AB 00000000 SECT29 notype       External     | ??_C@_03CLCAEGCJ@new?$AA@ (`string')
+0AC 00000000 SECT2A notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum ED2D2BAE, selection    2 (pick any)
+0AE 00000000 SECT2A notype       External     | ??_C@_0L@HJFFGFLN@DefineView?$AA@ (`string')
+0AF 00000000 SECT2B notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 4FAFAF6E, selection    2 (pick any)
+0B1 00000000 SECT2B notype       External     | ??_C@_0CB@MKCMGKBM@unexpected?5parse?5analysis?5result@ (`string')
+0B2 00000000 SECT2C notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum E592A222, selection    2 (pick any)
+0B4 00000000 SECT2C notype       External     | ??_C@_0CD@BDJFAKOK@views?5must?5not?5contain?5SELECT?5IN@ (`string')
+0B5 00000000 SECT2D notype       Static       | .rdata
+    Section length   39, #relocs    0, #linenums    0, checksum EB74B26B, selection    2 (pick any)
+0B7 00000000 SECT2D notype       External     | ??_C@_0DJ@MJFKJDII@views?5must?5not?5contain?5data?9modi@ (`string')
+0B8 00000000 SECT2E notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 5051D203, selection    2 (pick any)
+0BA 00000000 SECT2E notype       External     | ??_C@_0N@KANKGLHO@check_option?$AA@ (`string')
+0BB 00000000 SECT2F notype       Static       | .rdata
+    Section length    3, #relocs    0, #linenums    0, checksum 3A94AE3E, selection    2 (pick any)
+0BD 00000000 SECT2F notype       External     | ??_C@_02DKCKIIND@?$CFs?$AA@ (`string')
+0BE 00000000 SECT30 notype       Static       | .rdata
+    Section length   45, #relocs    0, #linenums    0, checksum  4F485BA, selection    2 (pick any)
+0C0 00000000 SECT30 notype       External     | ??_C@_0EF@IBHOJNPD@WITH?5CHECK?5OPTION?5is?5supported?5o@ (`string')
+0C1 00000000 SECT31 notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum 5B4970F0, selection    2 (pick any)
+0C3 00000000 SECT31 notype       External     | ??_C@_0DF@LNBJPIAB@CREATE?5VIEW?5specifies?5more?5colum@ (`string')
+0C4 00000000 SECT32 notype       Static       | .rdata
+    Section length   3A, #relocs    0, #linenums    0, checksum 208833AD, selection    2 (pick any)
+0C6 00000000 SECT32 notype       External     | ??_C@_0DK@BJKJKOEO@views?5cannot?5be?5unlogged?5because@ (`string')
+0C7 00000000 SECT33 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum A272C66E, selection    2 (pick any)
+0C9 00000000 SECT33 notype       External     | ??_C@_0CD@FEHFGOKG@view?5?$CC?$CFs?$CC?5will?5be?5a?5temporary?5vi@ (`string')
+
+String Table Size = 0xA86 bytes
+
+  Summary
+
+        5C10 .debug$S
+          68 .debug$T
+          5D .drectve
+          78 .pdata
+         388 .rdata
+         D19 .text$mn
+          C4 .xdata

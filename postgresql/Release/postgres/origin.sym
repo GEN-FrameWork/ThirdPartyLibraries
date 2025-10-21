@@ -1,0 +1,487 @@
+
+Dump of file Release\postgres/origin.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   E0, #relocs    0, #linenums    0, checksum CE7A1331
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 979C, #relocs  256, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .bss
+    Section length   31, #relocs    0, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       External     | replorigin_session_origin
+00B 00000008 SECT4  notype       External     | replorigin_session_origin_lsn
+00C 00000010 SECT4  notype       External     | replorigin_session_origin_timestamp
+00D 00000000 SECT5  notype       Static       | .text$mn
+    Section length 2265, #relocs  23E, #linenums    0, checksum DD97E7A4
+00F 00000000 SECT6  notype       Static       | .text$mn
+    Section length  134, #relocs   18, #linenums    0, checksum 5DB691FF, selection    1 (pick no duplicates)
+011 00000000 SECT7  notype       Static       | .debug$S
+    Section length  1C4, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+013 00000000 UNDEF  notype       External     | __imp__errno
+014 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+015 00000000 UNDEF  notype ()    External     | pgunlink
+016 00000000 UNDEF  notype       External     | __imp_read
+017 00000000 UNDEF  notype       External     | __imp_write
+018 00000000 UNDEF  notype ()    External     | errstart
+019 00000000 UNDEF  notype ()    External     | errfinish
+01A 00000000 UNDEF  notype ()    External     | errcode
+01B 00000000 UNDEF  notype ()    External     | errcode_for_file_access
+01C 00000000 UNDEF  notype ()    External     | errmsg
+01D 00000000 UNDEF  notype ()    External     | errhint
+01E 00000000 UNDEF  notype ()    External     | elog_start
+01F 00000000 UNDEF  notype ()    External     | elog_finish
+020 00000000 UNDEF  notype ()    External     | pfree
+021 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+022 00000000 UNDEF  notype ()    External     | ScanKeyInit
+023 00000000 UNDEF  notype ()    External     | systable_beginscan
+024 00000000 UNDEF  notype ()    External     | systable_getnext
+025 00000000 UNDEF  notype ()    External     | systable_endscan
+026 00000000 UNDEF  notype ()    External     | relation_close
+027 00000000 UNDEF  notype ()    External     | heap_open
+028 00000000 UNDEF  notype ()    External     | tuplestore_begin_heap
+029 00000000 UNDEF  notype ()    External     | tuplestore_putvalues
+02A 00000000 UNDEF  notype ()    External     | ConditionVariableInit
+02B 00000000 UNDEF  notype ()    External     | ConditionVariableSleep
+02C 00000000 UNDEF  notype ()    External     | ConditionVariableCancelSleep
+02D 00000000 UNDEF  notype ()    External     | ConditionVariableBroadcast
+02E 00000000 UNDEF  notype ()    External     | XLogBeginInsert
+02F 00000000 UNDEF  notype ()    External     | XLogInsert
+030 00000000 UNDEF  notype ()    External     | XLogRegisterData
+031 00000000 UNDEF  notype ()    External     | OpenTransientFile
+032 00000000 UNDEF  notype ()    External     | CloseTransientFile
+033 00000000 UNDEF  notype ()    External     | durable_rename
+034 00000000 UNDEF  notype ()    External     | XLogFlush
+035 00000000 UNDEF  notype ()    External     | RecoveryInProgress
+036 00000000 UNDEF  notype ()    External     | get_call_result_type
+037 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+038 00000000 UNDEF  notype ()    External     | superuser
+039 00000000 UNDEF  notype ()    External     | heap_form_tuple
+03A 00000000 UNDEF  notype ()    External     | heap_freetuple
+03B 00000000 UNDEF  notype ()    External     | CommandCounterIncrement
+03C 00000000 UNDEF  notype ()    External     | CatalogTupleInsert
+03D 00000000 UNDEF  notype ()    External     | CatalogTupleDelete
+03E 00000000 SECT5  notype ()    External     | replorigin_by_name
+03F 000000D0 SECT5  notype ()    External     | replorigin_create
+040 00000290 SECT5  notype ()    External     | replorigin_drop
+041 00000460 SECT5  notype ()    External     | replorigin_by_oid
+042 00000540 SECT5  notype ()    External     | replorigin_advance
+043 00000750 SECT5  notype ()    External     | replorigin_get_progress
+044 00000820 SECT5  notype ()    External     | replorigin_session_advance
+045 00000880 SECT5  notype ()    External     | replorigin_session_setup
+046 00000AB0 SECT5  notype ()    External     | replorigin_session_reset
+047 00000B70 SECT5  notype ()    External     | replorigin_session_get_progress
+048 00000BE0 SECT5  notype ()    External     | CheckPointReplicationOrigin
+049 00001000 SECT5  notype ()    External     | StartupReplicationOrigin
+04A 00001400 SECT5  notype ()    External     | replorigin_redo
+04B 000014D0 SECT5  notype ()    External     | ReplicationOriginShmemSize
+04C 00001530 SECT5  notype ()    External     | ReplicationOriginShmemInit
+04D 00000000 UNDEF  notype ()    External     | LWLockAcquire
+04E 00000000 UNDEF  notype ()    External     | LWLockRelease
+04F 00000000 UNDEF  notype ()    External     | LWLockRegisterTranche
+050 00000000 UNDEF  notype ()    External     | LWLockInitialize
+051 00000000 UNDEF  notype ()    External     | ShmemInitStruct
+052 00000000 UNDEF  notype ()    External     | add_size
+053 00000000 UNDEF  notype ()    External     | mul_size
+054 00000000 UNDEF  notype ()    External     | on_shmem_exit
+055 00000000 UNDEF  notype ()    External     | LockRelationOid
+056 00000000 UNDEF  notype ()    External     | UnlockRelationOid
+057 000016F0 SECT5  notype ()    External     | pg_replication_origin_create
+058 000017E0 SECT5  notype ()    External     | pg_replication_origin_drop
+059 000018E0 SECT5  notype ()    External     | pg_replication_origin_oid
+05A 00001A20 SECT5  notype ()    External     | pg_replication_origin_session_setup
+05B 00001A80 SECT5  notype ()    External     | pg_replication_origin_session_reset
+05C 00001AC0 SECT5  notype ()    External     | pg_replication_origin_session_is_setup
+05D 00001B90 SECT5  notype ()    External     | pg_replication_origin_session_progress
+05E 00001C40 SECT5  notype ()    External     | pg_replication_origin_xact_setup
+05F 00001CE0 SECT5  notype ()    External     | pg_replication_origin_xact_reset
+060 00001D10 SECT5  notype ()    External     | pg_replication_origin_advance
+061 00001D90 SECT5  notype ()    External     | pg_replication_origin_progress
+062 00001E90 SECT5  notype ()    External     | pg_show_replication_origin_status
+063 00000000 UNDEF  notype ()    External     | cstring_to_text
+064 00000000 UNDEF  notype ()    External     | text_to_cstring
+065 00000000 UNDEF  notype ()    External     | SearchSysCache
+066 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+067 00000000 UNDEF  notype ()    External     | HeapTupleSatisfiesDirty
+068 00000000 SECT6  notype ()    Static       | replorigin_check_prerequisites
+069 000021F0 SECT5  notype ()    Static       | ReplicationOriginExitCleanup
+06A 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+06B 00000000 UNDEF  notype ()    External     | __security_check_cookie
+06C 00000000 UNDEF  notype ()    External     | memset
+06D 00000000 SECT5  notype       Label        | $LN14
+06E 000000D0 SECT5  notype       Label        | $LN24
+06F 000002D0 SECT5  notype       Label        | $restart$30
+070 00000290 SECT5  notype       Label        | $LN29
+071 00000460 SECT5  notype       Label        | $LN12
+072 00000540 SECT5  notype       Label        | $LN35
+073 00000750 SECT5  notype       Label        | $LN17
+074 00000820 SECT5  notype       Label        | $LN6
+075 00000880 SECT5  notype       Label        | $LN40
+076 00000AB0 SECT5  notype       Label        | $LN10
+077 00000B70 SECT5  notype       Label        | $LN7
+078 00000BE0 SECT5  notype       Label        | $LN44
+079 00001000 SECT5  notype       Label        | $LN71
+07A 00001400 SECT5  notype       Label        | $LN22
+07B 000014D0 SECT5  notype       Label        | $LN5
+07C 00001530 SECT5  notype       Label        | $LN37
+07D 000016F0 SECT5  notype       Label        | $LN26
+07E 000017E0 SECT5  notype       Label        | $LN26
+07F 000018E0 SECT5  notype       Label        | $LN40
+080 00001A20 SECT5  notype       Label        | $LN4
+081 00001A80 SECT5  notype       Label        | $LN4
+082 00001AC0 SECT5  notype       Label        | $LN26
+083 00001B90 SECT5  notype       Label        | $LN14
+084 00001C40 SECT5  notype       Label        | $LN10
+085 00001CE0 SECT5  notype       Label        | $LN4
+086 00001D10 SECT5  notype       Label        | $LN4
+087 00001D90 SECT5  notype       Label        | $LN30
+088 00001E90 SECT5  notype       Label        | $LN81
+089 00000000 SECT8  notype       Static       | .xdata
+    Section length  4A4, #relocs   7C, #linenums    0, checksum 80A5AC88
+08B 00000000 SECT8  notype       Static       | $unwind$replorigin_by_name
+08C 00000000 SECT9  notype       Static       | .pdata
+    Section length  330, #relocs   CC, #linenums    0, checksum E8854EFB
+08E 00000000 SECT9  notype       Static       | $pdata$replorigin_by_name
+08F 00000010 SECT8  notype       Static       | $unwind$replorigin_create
+090 0000000C SECT9  notype       Static       | $pdata$replorigin_create
+091 0000002C SECT8  notype       Static       | $unwind$replorigin_drop
+092 00000018 SECT9  notype       Static       | $pdata$replorigin_drop
+093 00000038 SECT8  notype       Static       | $chain$2$replorigin_drop
+094 00000024 SECT9  notype       Static       | $pdata$2$replorigin_drop
+095 00000054 SECT8  notype       Static       | $chain$3$replorigin_drop
+096 00000030 SECT9  notype       Static       | $pdata$3$replorigin_drop
+097 00000064 SECT8  notype       Static       | $unwind$replorigin_by_oid
+098 0000003C SECT9  notype       Static       | $pdata$replorigin_by_oid
+099 00000078 SECT8  notype       Static       | $unwind$replorigin_advance
+09A 00000048 SECT9  notype       Static       | $pdata$replorigin_advance
+09B 00000094 SECT8  notype       Static       | $chain$0$replorigin_advance
+09C 00000054 SECT9  notype       Static       | $pdata$0$replorigin_advance
+09D 000000A8 SECT8  notype       Static       | $chain$1$replorigin_advance
+09E 00000060 SECT9  notype       Static       | $pdata$1$replorigin_advance
+09F 000000B8 SECT8  notype       Static       | $chain$2$replorigin_advance
+0A0 0000006C SECT9  notype       Static       | $pdata$2$replorigin_advance
+0A1 000000CC SECT8  notype       Static       | $unwind$replorigin_get_progress
+0A2 00000078 SECT9  notype       Static       | $pdata$replorigin_get_progress
+0A3 000000D8 SECT8  notype       Static       | $chain$1$replorigin_get_progress
+0A4 00000084 SECT9  notype       Static       | $pdata$1$replorigin_get_progress
+0A5 000000F0 SECT8  notype       Static       | $chain$2$replorigin_get_progress
+0A6 00000090 SECT9  notype       Static       | $pdata$2$replorigin_get_progress
+0A7 00000104 SECT8  notype       Static       | $chain$3$replorigin_get_progress
+0A8 0000009C SECT9  notype       Static       | $pdata$3$replorigin_get_progress
+0A9 00000114 SECT8  notype       Static       | $chain$4$replorigin_get_progress
+0AA 000000A8 SECT9  notype       Static       | $pdata$4$replorigin_get_progress
+0AB 00000124 SECT8  notype       Static       | $unwind$replorigin_session_advance
+0AC 000000B4 SECT9  notype       Static       | $pdata$replorigin_session_advance
+0AD 00000130 SECT8  notype       Static       | $unwind$replorigin_session_setup
+0AE 000000C0 SECT9  notype       Static       | $pdata$replorigin_session_setup
+0AF 0000013C SECT8  notype       Static       | $chain$2$replorigin_session_setup
+0B0 000000CC SECT9  notype       Static       | $pdata$2$replorigin_session_setup
+0B1 00000158 SECT8  notype       Static       | $chain$3$replorigin_session_setup
+0B2 000000D8 SECT9  notype       Static       | $pdata$3$replorigin_session_setup
+0B3 0000016C SECT8  notype       Static       | $chain$4$replorigin_session_setup
+0B4 000000E4 SECT9  notype       Static       | $pdata$4$replorigin_session_setup
+0B5 0000017C SECT8  notype       Static       | $chain$5$replorigin_session_setup
+0B6 000000F0 SECT9  notype       Static       | $pdata$5$replorigin_session_setup
+0B7 00000194 SECT8  notype       Static       | $unwind$replorigin_session_reset
+0B8 000000FC SECT9  notype       Static       | $pdata$replorigin_session_reset
+0B9 0000019C SECT8  notype       Static       | $unwind$replorigin_session_get_progress
+0BA 00000108 SECT9  notype       Static       | $pdata$replorigin_session_get_progress
+0BB 000001AC SECT8  notype       Static       | $unwind$CheckPointReplicationOrigin
+0BC 00000114 SECT9  notype       Static       | $pdata$CheckPointReplicationOrigin
+0BD 000001BC SECT8  notype       Static       | $chain$0$CheckPointReplicationOrigin
+0BE 00000120 SECT9  notype       Static       | $pdata$0$CheckPointReplicationOrigin
+0BF 000001D0 SECT8  notype       Static       | $chain$4$CheckPointReplicationOrigin
+0C0 0000012C SECT9  notype       Static       | $pdata$4$CheckPointReplicationOrigin
+0C1 000001F0 SECT8  notype       Static       | $chain$6$CheckPointReplicationOrigin
+0C2 00000138 SECT9  notype       Static       | $pdata$6$CheckPointReplicationOrigin
+0C3 00000208 SECT8  notype       Static       | $chain$7$CheckPointReplicationOrigin
+0C4 00000144 SECT9  notype       Static       | $pdata$7$CheckPointReplicationOrigin
+0C5 00000218 SECT8  notype       Static       | $chain$8$CheckPointReplicationOrigin
+0C6 00000150 SECT9  notype       Static       | $pdata$8$CheckPointReplicationOrigin
+0C7 00000234 SECT8  notype       Static       | $chain$9$CheckPointReplicationOrigin
+0C8 0000015C SECT9  notype       Static       | $pdata$9$CheckPointReplicationOrigin
+0C9 00000244 SECT8  notype       Static       | $unwind$StartupReplicationOrigin
+0CA 00000168 SECT9  notype       Static       | $pdata$StartupReplicationOrigin
+0CB 00000258 SECT8  notype       Static       | $chain$1$StartupReplicationOrigin
+0CC 00000174 SECT9  notype       Static       | $pdata$1$StartupReplicationOrigin
+0CD 00000270 SECT8  notype       Static       | $chain$2$StartupReplicationOrigin
+0CE 00000180 SECT9  notype       Static       | $pdata$2$StartupReplicationOrigin
+0CF 00000284 SECT8  notype       Static       | $chain$3$StartupReplicationOrigin
+0D0 0000018C SECT9  notype       Static       | $pdata$3$StartupReplicationOrigin
+0D1 00000298 SECT8  notype       Static       | $chain$4$StartupReplicationOrigin
+0D2 00000198 SECT9  notype       Static       | $pdata$4$StartupReplicationOrigin
+0D3 000002AC SECT8  notype       Static       | $chain$5$StartupReplicationOrigin
+0D4 000001A4 SECT9  notype       Static       | $pdata$5$StartupReplicationOrigin
+0D5 000002BC SECT8  notype       Static       | $chain$6$StartupReplicationOrigin
+0D6 000001B0 SECT9  notype       Static       | $pdata$6$StartupReplicationOrigin
+0D7 000002CC SECT8  notype       Static       | $chain$7$StartupReplicationOrigin
+0D8 000001BC SECT9  notype       Static       | $pdata$7$StartupReplicationOrigin
+0D9 000002DC SECT8  notype       Static       | $chain$8$StartupReplicationOrigin
+0DA 000001C8 SECT9  notype       Static       | $pdata$8$StartupReplicationOrigin
+0DB 000002EC SECT8  notype       Static       | $unwind$replorigin_redo
+0DC 000001D4 SECT9  notype       Static       | $pdata$replorigin_redo
+0DD 000002F4 SECT8  notype       Static       | $unwind$ReplicationOriginShmemSize
+0DE 000001E0 SECT9  notype       Static       | $pdata$ReplicationOriginShmemSize
+0DF 00000300 SECT8  notype       Static       | $unwind$ReplicationOriginShmemInit
+0E0 000001EC SECT9  notype       Static       | $pdata$ReplicationOriginShmemInit
+0E1 00000308 SECT8  notype       Static       | $chain$2$ReplicationOriginShmemInit
+0E2 000001F8 SECT9  notype       Static       | $pdata$2$ReplicationOriginShmemInit
+0E3 00000324 SECT8  notype       Static       | $chain$4$ReplicationOriginShmemInit
+0E4 00000204 SECT9  notype       Static       | $pdata$4$ReplicationOriginShmemInit
+0E5 0000033C SECT8  notype       Static       | $chain$5$ReplicationOriginShmemInit
+0E6 00000210 SECT9  notype       Static       | $pdata$5$ReplicationOriginShmemInit
+0E7 00000350 SECT8  notype       Static       | $chain$6$ReplicationOriginShmemInit
+0E8 0000021C SECT9  notype       Static       | $pdata$6$ReplicationOriginShmemInit
+0E9 00000360 SECT8  notype       Static       | $chain$7$ReplicationOriginShmemInit
+0EA 00000228 SECT9  notype       Static       | $pdata$7$ReplicationOriginShmemInit
+0EB 00000370 SECT8  notype       Static       | $unwind$pg_replication_origin_create
+0EC 00000234 SECT9  notype       Static       | $pdata$pg_replication_origin_create
+0ED 0000037C SECT8  notype       Static       | $unwind$pg_replication_origin_drop
+0EE 00000240 SECT9  notype       Static       | $pdata$pg_replication_origin_drop
+0EF 00000388 SECT8  notype       Static       | $unwind$pg_replication_origin_oid
+0F0 0000024C SECT9  notype       Static       | $pdata$pg_replication_origin_oid
+0F1 00000398 SECT8  notype       Static       | $unwind$pg_replication_origin_session_setup
+0F2 00000258 SECT9  notype       Static       | $pdata$pg_replication_origin_session_setup
+0F3 000003A4 SECT8  notype       Static       | $unwind$pg_replication_origin_session_reset
+0F4 00000264 SECT9  notype       Static       | $pdata$pg_replication_origin_session_reset
+0F5 000003AC SECT8  notype       Static       | $unwind$pg_replication_origin_session_is_setup
+0F6 00000270 SECT9  notype       Static       | $pdata$pg_replication_origin_session_is_setup
+0F7 000003B8 SECT8  notype       Static       | $unwind$pg_replication_origin_session_progress
+0F8 0000027C SECT9  notype       Static       | $pdata$pg_replication_origin_session_progress
+0F9 000003C0 SECT8  notype       Static       | $chain$0$pg_replication_origin_session_progress
+0FA 00000288 SECT9  notype       Static       | $pdata$0$pg_replication_origin_session_progress
+0FB 000003D4 SECT8  notype       Static       | $chain$1$pg_replication_origin_session_progress
+0FC 00000294 SECT9  notype       Static       | $pdata$1$pg_replication_origin_session_progress
+0FD 000003E8 SECT8  notype       Static       | $chain$2$pg_replication_origin_session_progress
+0FE 000002A0 SECT9  notype       Static       | $pdata$2$pg_replication_origin_session_progress
+0FF 000003F8 SECT8  notype       Static       | $chain$3$pg_replication_origin_session_progress
+100 000002AC SECT9  notype       Static       | $pdata$3$pg_replication_origin_session_progress
+101 00000408 SECT8  notype       Static       | $unwind$pg_replication_origin_xact_setup
+102 000002B8 SECT9  notype       Static       | $pdata$pg_replication_origin_xact_setup
+103 00000414 SECT8  notype       Static       | $chain$0$pg_replication_origin_xact_setup
+104 000002C4 SECT9  notype       Static       | $pdata$0$pg_replication_origin_xact_setup
+105 00000428 SECT8  notype       Static       | $chain$1$pg_replication_origin_xact_setup
+106 000002D0 SECT9  notype       Static       | $pdata$1$pg_replication_origin_xact_setup
+107 00000438 SECT8  notype       Static       | $unwind$pg_replication_origin_xact_reset
+108 000002DC SECT9  notype       Static       | $pdata$pg_replication_origin_xact_reset
+109 00000440 SECT8  notype       Static       | $unwind$pg_replication_origin_advance
+10A 000002E8 SECT9  notype       Static       | $pdata$pg_replication_origin_advance
+10B 0000044C SECT8  notype       Static       | $unwind$pg_replication_origin_progress
+10C 000002F4 SECT9  notype       Static       | $pdata$pg_replication_origin_progress
+10D 00000458 SECT8  notype       Static       | $unwind$pg_show_replication_origin_status
+10E 00000300 SECT9  notype       Static       | $pdata$pg_show_replication_origin_status
+10F 00000474 SECT8  notype       Static       | $chain$1$pg_show_replication_origin_status
+110 0000030C SECT9  notype       Static       | $pdata$1$pg_show_replication_origin_status
+111 0000048C SECT8  notype       Static       | $chain$2$pg_show_replication_origin_status
+112 00000318 SECT9  notype       Static       | $pdata$2$pg_show_replication_origin_status
+113 00000000 SECTA  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum BC0E6383, selection    5 (pick associative Section 0x6)
+115 00000000 SECTA  notype       Static       | $unwind$replorigin_check_prerequisites
+116 00000000 SECTB  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C66F0987, selection    5 (pick associative Section 0x6)
+118 00000000 SECTB  notype       Static       | $pdata$replorigin_check_prerequisites
+119 00000000 SECTC  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum  3E86753, selection    5 (pick associative Section 0x6)
+11B 00000000 SECTC  notype       Static       | $chain$0$replorigin_check_prerequisites
+11C 00000000 SECTD  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FAB7B7D2, selection    5 (pick associative Section 0x6)
+11E 00000000 SECTD  notype       Static       | $pdata$0$replorigin_check_prerequisites
+11F 00000000 SECTE  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum E65DA73F, selection    5 (pick associative Section 0x6)
+121 00000000 SECTE  notype       Static       | $chain$1$replorigin_check_prerequisites
+122 00000000 SECTF  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  D814CEA, selection    5 (pick associative Section 0x6)
+124 00000000 SECTF  notype       Static       | $pdata$1$replorigin_check_prerequisites
+125 00000000 SECT10 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 43E05D3E, selection    5 (pick associative Section 0x6)
+127 00000000 SECT10 notype       Static       | $chain$2$replorigin_check_prerequisites
+128 00000000 SECT11 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3EBE8E02, selection    5 (pick associative Section 0x6)
+12A 00000000 SECT11 notype       Static       | $pdata$2$replorigin_check_prerequisites
+12B 00000000 SECT12 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 7F38E36B, selection    5 (pick associative Section 0x6)
+12D 00000000 SECT12 notype       Static       | $chain$3$replorigin_check_prerequisites
+12E 00000000 SECT13 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F84A58A0, selection    5 (pick associative Section 0x6)
+130 00000000 SECT13 notype       Static       | $pdata$3$replorigin_check_prerequisites
+131 0000049C SECT8  notype       Static       | $unwind$ReplicationOriginExitCleanup
+132 00000324 SECT9  notype       Static       | $pdata$ReplicationOriginExitCleanup
+133 00000000 UNDEF  notype       External     | pg_signal_queue
+134 00000000 UNDEF  notype       External     | pg_signal_mask
+135 00000000 UNDEF  notype       External     | CurrentMemoryContext
+136 00000000 UNDEF  notype       External     | pg_comp_crc32c
+137 00000000 UNDEF  notype       External     | InterruptPending
+138 00000000 UNDEF  notype       External     | MyProcPid
+139 00000000 UNDEF  notype       External     | work_mem
+13A 00000000 UNDEF  notype       External     | MainLWLockArray
+13B 00000000 UNDEF  notype       External     | max_replication_slots
+13C 00000018 SECT4  notype       Static       | replication_states
+13D 00000020 SECT4  notype       Static       | replication_states_ctl
+13E 00000028 SECT4  notype       Static       | session_replication_state
+13F 00000000 SECT14 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum  D81440E, selection    2 (pick any)
+141 00000000 SECT14 notype       External     | ??_C@_0BP@JLHHBHEB@replorigin_check_prerequisites?$AA@ (`string')
+142 00000000 SECT15 notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum 7673D92F, selection    2 (pick any)
+144 00000000 SECT15 notype       External     | ??_C@_0CJ@OHABKGHK@src?1backend?1replication?1logical?1@ (`string')
+145 00000000 SECT16 notype       Static       | .rdata
+    Section length   3C, #relocs    0, #linenums    0, checksum E2184959, selection    2 (pick any)
+147 00000000 SECT16 notype       External     | ??_C@_0DM@BJPFDPKO@only?5superusers?5can?5query?5or?5man@ (`string')
+148 00000000 SECT17 notype       Static       | .rdata
+    Section length   4D, #relocs    0, #linenums    0, checksum  F704858, selection    2 (pick any)
+14A 00000000 SECT17 notype       External     | ??_C@_0EN@KLLOELGL@cannot?5query?5or?5manipulate?5repli@ (`string')
+14B 00000000 SECT18 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum 79E8E1BA, selection    2 (pick any)
+14D 00000000 SECT18 notype       External     | ??_C@_0DG@LDLEHDLI@cannot?5manipulate?5replication?5or@ (`string')
+14E 00000000 SECT19 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 9F203EF5, selection    2 (pick any)
+150 00000000 SECT19 notype       External     | ??_C@_0BD@LKNHAIGF@replorigin_by_name?$AA@ (`string')
+151 00000000 SECT1A notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 2375A8F0, selection    2 (pick any)
+153 00000000 SECT1A notype       External     | ??_C@_0CH@FMHIKDCP@replication?5origin?5?$CC?$CFs?$CC?5does?5not@ (`string')
+154 00000000 SECT1B notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum  F746504, selection    2 (pick any)
+156 00000000 SECT1B notype       External     | ??_C@_0BC@JHJAFFLG@replorigin_create?$AA@ (`string')
+157 00000000 SECT1C notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum  DEDA5DF, selection    2 (pick any)
+159 00000000 SECT1C notype       External     | ??_C@_0CL@KJLPBBB@could?5not?5find?5free?5replication?5@ (`string')
+15A 00000000 SECT1D notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 96E41C15, selection    2 (pick any)
+15C 00000000 SECT1D notype       External     | ??_C@_0BA@IFKAKILP@replorigin_drop?$AA@ (`string')
+15D 00000000 SECT1E notype       Static       | .rdata
+    Section length   40, #relocs    0, #linenums    0, checksum 8E49B523, selection    2 (pick any)
+15F 00000000 SECT1E notype       External     | ??_C@_0EA@EDLCJOK@could?5not?5drop?5replication?5origi@ (`string')
+160 00000000 SECT1F notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum  D973F44, selection    2 (pick any)
+162 00000000 SECT1F notype       External     | ??_C@_0DH@ODFDACPK@cache?5lookup?5failed?5for?5replicat@ (`string')
+163 00000000 SECT20 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum C56F4805, selection    2 (pick any)
+165 00000000 SECT20 notype       External     | ??_C@_0BC@FNILHILH@replorigin_by_oid?$AA@ (`string')
+166 00000000 SECT21 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum EACB2A3C, selection    2 (pick any)
+168 00000000 SECT21 notype       External     | ??_C@_0CO@BGELNNCI@replication?5origin?5with?5OID?5?$CFu?5d@ (`string')
+169 00000000 SECT22 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum C2CB0CCD, selection    2 (pick any)
+16B 00000000 SECT22 notype       External     | ??_C@_0BH@EPJENHHG@ReplicationOriginState?$AA@ (`string')
+16C 00000000 SECT23 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 63286FB8, selection    2 (pick any)
+16E 00000000 SECT23 notype       External     | ??_C@_0BD@EGNPFJCI@replication_origin?$AA@ (`string')
+16F 00000000 SECT24 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 19EFA9FC, selection    2 (pick any)
+171 00000000 SECT24 notype       External     | ??_C@_0CF@MCMBCJGH@pg_logical?1replorigin_checkpoint@ (`string')
+172 00000000 SECT25 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum F6109265, selection    2 (pick any)
+174 00000000 SECT25 notype       External     | ??_C@_0CB@HDJDFHBH@pg_logical?1replorigin_checkpoint@ (`string')
+175 00000000 SECT26 notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum  E59CF65, selection    2 (pick any)
+177 00000000 SECT26 notype       External     | ??_C@_0BM@HBNGEHHD@CheckPointReplicationOrigin?$AA@ (`string')
+178 00000000 SECT27 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 38007BE2, selection    2 (pick any)
+17A 00000000 SECT27 notype       External     | ??_C@_0BP@KOPGCIKN@could?5not?5remove?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+17B 00000000 SECT28 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 290C78ED, selection    2 (pick any)
+17D 00000000 SECT28 notype       External     | ??_C@_0BP@LPPKCLKC@could?5not?5create?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+17E 00000000 SECT29 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 784F9D32, selection    2 (pick any)
+180 00000000 SECT29 notype       External     | ??_C@_0CB@PNMMFIEA@could?5not?5write?5to?5file?5?$CC?$CFs?$CC?3?5?$CFm@ (`string')
+181 00000000 SECT2A notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 54C1042B, selection    2 (pick any)
+183 00000000 SECT2A notype       External     | ??_C@_0BJ@ECPBPFFL@StartupReplicationOrigin?$AA@ (`string')
+184 00000000 SECT2B notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum 8B9EBEC2, selection    2 (pick any)
+186 00000000 SECT2B notype       External     | ??_C@_0CO@HHBOEJNG@starting?5up?5replication?5origin?5p@ (`string')
+187 00000000 SECT2C notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 10036230, selection    2 (pick any)
+189 00000000 SECT2C notype       External     | ??_C@_0BN@OEKIFIOJ@could?5not?5open?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+18A 00000000 SECT2D notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 79886919, selection    2 (pick any)
+18C 00000000 SECT2D notype       External     | ??_C@_0BN@INCDFDMA@could?5not?5read?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+18D 00000000 SECT2E notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum A5B31E7B, selection    2 (pick any)
+18F 00000000 SECT2E notype       External     | ??_C@_0DI@IJIEEEMN@replication?5checkpoint?5has?5wrong@ (`string')
+190 00000000 SECT2F notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum E44BD7D2, selection    2 (pick any)
+192 00000000 SECT2F notype       External     | ??_C@_0CJ@HFDJKIIH@could?5not?5read?5file?5?$CC?$CFs?$CC?3?5read?5?$CF@ (`string')
+193 00000000 SECT30 notype       Static       | .rdata
+    Section length   46, #relocs    0, #linenums    0, checksum 58475CF7, selection    2 (pick any)
+195 00000000 SECT30 notype       External     | ??_C@_0EG@FHMCCPNL@could?5not?5find?5free?5replication?5@ (`string')
+196 00000000 SECT31 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum 90576F2A, selection    2 (pick any)
+198 00000000 SECT31 notype       External     | ??_C@_0DA@JNCACDEA@recovered?5replication?5state?5of?5n@ (`string')
+199 00000000 SECT32 notype       Static       | .rdata
+    Section length   3F, #relocs    0, #linenums    0, checksum 54781B69, selection    2 (pick any)
+19B 00000000 SECT32 notype       External     | ??_C@_0DP@EDCNDOHC@replication?5slot?5checkpoint?5has?5@ (`string')
+19C 00000000 SECT33 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 7585F06E, selection    2 (pick any)
+19E 00000000 SECT33 notype       External     | ??_C@_0BA@GGMBEEME@replorigin_redo?$AA@ (`string')
+19F 00000000 SECT34 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 8135B957, selection    2 (pick any)
+1A1 00000000 SECT34 notype       External     | ??_C@_0CE@BEHMPEHN@replorigin_redo?3?5unknown?5op?5code@ (`string')
+1A2 00000000 SECT35 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum E7A83A6B, selection    2 (pick any)
+1A4 00000000 SECT35 notype       External     | ??_C@_0BD@MCFPAMPL@replorigin_advance?$AA@ (`string')
+1A5 00000000 SECT36 notype       Static       | .rdata
+    Section length   3C, #relocs    0, #linenums    0, checksum 1A0CA99B, selection    2 (pick any)
+1A7 00000000 SECT36 notype       External     | ??_C@_0DM@OBOBNPGM@replication?5origin?5with?5OID?5?$CFd?5i@ (`string')
+1A8 00000000 SECT37 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum 62D8534B, selection    2 (pick any)
+1AA 00000000 SECT37 notype       External     | ??_C@_0CO@JOFIKEFP@Increase?5max_replication_slots?5a@ (`string')
+1AB 00000000 SECT38 notype       Static       | .rdata
+    Section length   4E, #relocs    0, #linenums    0, checksum 7C7A6D2D, selection    2 (pick any)
+1AD 00000000 SECT38 notype       External     | ??_C@_0EO@MDAOMCDI@could?5not?5find?5free?5replication?5@ (`string')
+1AE 00000030 SECT4  notype       Static       | ?registered_cleanup@?1??replorigin_session_setup@@9@9 (`replorigin_session_setup'::`2'::registered_cleanup)
+1AF 00000000 SECT39 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 50808D9E, selection    2 (pick any)
+1B1 00000000 SECT39 notype       External     | ??_C@_0BJ@EGLAHMOO@replorigin_session_setup?$AA@ (`string')
+1B2 00000000 SECT3A notype       Static       | .rdata
+    Section length   3A, #relocs    0, #linenums    0, checksum 816E7B40, selection    2 (pick any)
+1B4 00000000 SECT3A notype       External     | ??_C@_0DK@LIEPOGKD@cannot?5setup?5replication?5origin?5@ (`string')
+1B5 00000000 SECT3B notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum DD4BD666, selection    2 (pick any)
+1B7 00000000 SECT3B notype       External     | ??_C@_0DH@DDIPOLNI@replication?5identifier?5?$CFd?5is?5alr@ (`string')
+1B8 00000000 SECT3C notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 7E4100F6, selection    2 (pick any)
+1BA 00000000 SECT3C notype       External     | ??_C@_0BJ@GIHBPBIG@replorigin_session_reset?$AA@ (`string')
+1BB 00000000 SECT3D notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum D2582A74, selection    2 (pick any)
+1BD 00000000 SECT3D notype       External     | ??_C@_0CE@EHBBGHFO@no?5replication?5origin?5is?5configu@ (`string')
+1BE 00000000 SECT3E notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 9ECBD0D1, selection    2 (pick any)
+1C0 00000000 SECT3E notype       External     | ??_C@_0CH@OBMGNLAO@pg_replication_origin_session_pr@ (`string')
+1C1 00000000 SECT3F notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 62D99B8F, selection    2 (pick any)
+1C3 00000000 SECT3F notype       External     | ??_C@_0CB@OHFKFOPN@pg_replication_origin_xact_setup@ (`string')
+1C4 00000000 SECT40 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 7713FBA0, selection    2 (pick any)
+1C6 00000000 SECT40 notype       External     | ??_C@_0CC@MJJNGIHF@pg_show_replication_origin_statu@ (`string')
+1C7 00000000 SECT41 notype       Static       | .rdata
+    Section length   3F, #relocs    0, #linenums    0, checksum 67EA171F, selection    2 (pick any)
+1C9 00000000 SECT41 notype       External     | ??_C@_0DP@HALPDCAE@set?9valued?5function?5called?5in?5co@ (`string')
+1CA 00000000 SECT42 notype       Static       | .rdata
+    Section length   41, #relocs    0, #linenums    0, checksum 4F1D249B, selection    2 (pick any)
+1CC 00000000 SECT42 notype       External     | ??_C@_0EB@KNCPCMBD@materialize?5mode?5required?0?5but?5i@ (`string')
+1CD 00000000 SECT43 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 6B360E89, selection    2 (pick any)
+1CF 00000000 SECT43 notype       External     | ??_C@_0BP@PNMAFNMG@return?5type?5must?5be?5a?5row?5type?$AA@ (`string')
+1D0 00000000 SECT44 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 90069AD0, selection    2 (pick any)
+1D2 00000000 SECT44 notype       External     | ??_C@_0BK@MABFNLBN@wrong?5function?5definition?$AA@ (`string')
+1D3 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x2746 bytes
+
+  Summary
+
+          31 .bss
+        9960 .debug$S
+          68 .debug$T
+          E0 .drectve
+         36C .pdata
+         7B0 .rdata
+        2399 .text$mn
+         4F4 .xdata

@@ -1,0 +1,87 @@
+
+Dump of file Release\postgres/geqo_pool.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4728, #relocs   90, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  405, #relocs   15, #linenums    0, checksum F380812A
+00A 00000000 UNDEF  notype ()    External     | pg_qsort
+00B 00000000 UNDEF  notype ()    External     | elog_start
+00C 00000000 UNDEF  notype ()    External     | elog_finish
+00D 00000000 UNDEF  notype ()    External     | palloc
+00E 00000000 UNDEF  notype ()    External     | pfree
+00F 00000000 UNDEF  notype ()    External     | geqo_eval
+010 00000000 UNDEF  notype ()    External     | geqo_copy
+011 00000000 SECT4  notype ()    External     | alloc_pool
+012 00000090 SECT4  notype ()    External     | free_pool
+013 000000F0 SECT4  notype ()    External     | random_init_pool
+014 000001E0 SECT4  notype ()    External     | alloc_chromo
+015 00000220 SECT4  notype ()    External     | free_chromo
+016 00000250 SECT4  notype ()    External     | spread_chromo
+017 000003C0 SECT4  notype ()    External     | sort_pool
+018 00000000 UNDEF  notype ()    External     | init_tour
+019 000003E0 SECT4  notype ()    Static       | compare
+01A 00000000 SECT4  notype       Label        | $LN12
+01B 00000090 SECT4  notype       Label        | $LN11
+01C 000000F0 SECT4  notype       Label        | $LN17
+01D 000001E0 SECT4  notype       Label        | $LN4
+01E 00000220 SECT4  notype       Label        | $LN4
+01F 00000250 SECT4  notype       Label        | $LN28
+020 00000000 SECT5  notype       Static       | .xdata
+    Section length   B0, #relocs    C, #linenums    0, checksum 3A9076D1
+022 00000000 SECT5  notype       Static       | $unwind$alloc_pool
+023 00000000 SECT6  notype       Static       | .pdata
+    Section length   78, #relocs   1E, #linenums    0, checksum 442CA555
+025 00000000 SECT6  notype       Static       | $pdata$alloc_pool
+026 00000014 SECT5  notype       Static       | $unwind$free_pool
+027 0000000C SECT6  notype       Static       | $pdata$free_pool
+028 00000024 SECT5  notype       Static       | $unwind$random_init_pool
+029 00000018 SECT6  notype       Static       | $pdata$random_init_pool
+02A 00000038 SECT5  notype       Static       | $chain$2$random_init_pool
+02B 00000024 SECT6  notype       Static       | $pdata$2$random_init_pool
+02C 00000054 SECT5  notype       Static       | $chain$3$random_init_pool
+02D 00000030 SECT6  notype       Static       | $pdata$3$random_init_pool
+02E 00000064 SECT5  notype       Static       | $unwind$alloc_chromo
+02F 0000003C SECT6  notype       Static       | $pdata$alloc_chromo
+030 00000070 SECT5  notype       Static       | $unwind$free_chromo
+031 00000048 SECT6  notype       Static       | $pdata$free_chromo
+032 00000078 SECT5  notype       Static       | $unwind$spread_chromo
+033 00000054 SECT6  notype       Static       | $pdata$spread_chromo
+034 0000008C SECT5  notype       Static       | $chain$0$spread_chromo
+035 00000060 SECT6  notype       Static       | $pdata$0$spread_chromo
+036 000000A0 SECT5  notype       Static       | $chain$1$spread_chromo
+037 0000006C SECT6  notype       Static       | $pdata$1$spread_chromo
+038 00000000 SECT7  notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum EAF97B43, selection    2 (pick any)
+03A 00000000 SECT7  notype       External     | ??_C@_0BB@NMOJHFAB@random_init_pool?$AA@ (`string')
+03B 00000000 SECT8  notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 4C587986, selection    2 (pick any)
+03D 00000000 SECT8  notype       External     | ??_C@_0CH@DDFFHCFJ@src?1backend?1optimizer?1geqo?1geqo_@ (`string')
+03E 00000000 SECT9  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum AC649B8F, selection    2 (pick any)
+040 00000000 SECT9  notype       External     | ??_C@_0CB@CJOHFOPN@geqo?5failed?5to?5make?5a?5valid?5plan@ (`string')
+041 00000000 SECTA  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum E31C9104, selection    2 (pick any)
+043 00000000 SECTA  notype       External     | __real@7fefffffffffffff
+044 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x2FD bytes
+
+  Summary
+
+        4728 .debug$S
+          68 .debug$T
+          5D .drectve
+          78 .pdata
+          61 .rdata
+         405 .text$mn
+          B0 .xdata

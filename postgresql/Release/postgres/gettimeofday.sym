@@ -1,0 +1,52 @@
+
+Dump of file Release\postgres/gettimeofday.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 36F0, #relocs   22, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length   B3, #relocs    7, #linenums    0, checksum 6986A1F1
+00A 00000000 UNDEF  notype       External     | __imp_GetSystemTimeAsFileTime
+00B 00000000 UNDEF  notype       External     | __imp_GetModuleHandleA
+00C 00000000 UNDEF  notype       External     | __imp_GetProcAddress
+00D 00000000 SECT4  notype ()    External     | gettimeofday
+00E 00000070 SECT4  notype ()    Static       | init_gettimeofday
+00F 00000000 SECT4  notype       Label        | $LN4
+010 00000000 SECT5  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 2CDA6EBF
+012 00000000 SECT5  notype       Static       | $unwind$gettimeofday
+013 00000000 SECT6  notype       Static       | .pdata
+    Section length   18, #relocs    6, #linenums    0, checksum  EB3BE1C
+015 00000000 SECT6  notype       Static       | $pdata$gettimeofday
+016 00000008 SECT5  notype       Static       | $unwind$init_gettimeofday
+017 0000000C SECT6  notype       Static       | $pdata$init_gettimeofday
+018 00000000 SECT7  notype       Static       | .data
+    Section length    8, #relocs    1, #linenums    0, checksum        0
+01A 00000000 SECT7  notype       Static       | pg_get_system_time
+01B 00000000 SECT8  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum C92FA7DD, selection    2 (pick any)
+01D 00000000 SECT8  notype       External     | ??_C@_0BP@FPNJPEJC@GetSystemTimePreciseAsFileTime?$AA@ (`string')
+01E 00000000 SECT9  notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 33122EBC, selection    2 (pick any)
+020 00000000 SECT9  notype       External     | ??_C@_0N@MDJJJHMB@kernel32?4dll?$AA@ (`string')
+
+String Table Size = 0x138 bytes
+
+  Summary
+
+           8 .data
+        36F0 .debug$S
+          68 .debug$T
+          5D .drectve
+          18 .pdata
+          2C .rdata
+          B3 .text$mn
+          10 .xdata

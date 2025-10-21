@@ -1,0 +1,108 @@
+
+Dump of file Release\chkpass/chkpass.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length  102, #relocs    0, #linenums    0, checksum 66D2203B
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 41B4, #relocs   64, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum A0FAB527
+00A 00000000 SECT4  notype       Static       | ?Pg_magic_data@?1??Pg_magic_func@@9@9 (`Pg_magic_func'::`2'::Pg_magic_data)
+00B 0000001C SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_chkpass_in@@9@9 (`pg_finfo_chkpass_in'::`2'::my_finfo)
+00C 00000020 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_chkpass_out@@9@9 (`pg_finfo_chkpass_out'::`2'::my_finfo)
+00D 00000024 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_chkpass_rout@@9@9 (`pg_finfo_chkpass_rout'::`2'::my_finfo)
+00E 00000028 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_chkpass_eq@@9@9 (`pg_finfo_chkpass_eq'::`2'::my_finfo)
+00F 0000002C SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_chkpass_ne@@9@9 (`pg_finfo_chkpass_ne'::`2'::my_finfo)
+010 00000000 SECT5  notype       Static       | .text$mn
+    Section length  3E8, #relocs   35, #linenums    0, checksum 7F31FB7B
+012 00000000 UNDEF  notype ()    External     | crypt
+013 00000000 UNDEF  notype ()    External     | strlcpy
+014 00000000 UNDEF  notype ()    External     | errstart
+015 00000000 UNDEF  notype ()    External     | errfinish
+016 00000000 UNDEF  notype ()    External     | errcode
+017 00000000 UNDEF  notype ()    External     | errmsg
+018 00000000 UNDEF  notype ()    External     | palloc
+019 00000000 UNDEF  notype ()    External     | palloc0
+01A 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+01B 00000000 UNDEF  notype ()    External     | pg_backend_random
+01C 00000000 UNDEF  notype ()    External     | cstring_to_text
+01D 00000000 UNDEF  notype ()    External     | text_to_cstring_buffer
+01E 00000000 SECT5  notype ()    External     | Pg_magic_func
+01F 00000010 SECT5  notype ()    External     | chkpass_in
+020 00000160 SECT5  notype ()    External     | pg_finfo_chkpass_in
+021 00000170 SECT5  notype ()    External     | chkpass_out
+022 000001C0 SECT5  notype ()    External     | pg_finfo_chkpass_out
+023 000001D0 SECT5  notype ()    External     | chkpass_rout
+024 000001E0 SECT5  notype ()    External     | pg_finfo_chkpass_rout
+025 000001F0 SECT5  notype ()    External     | chkpass_eq
+026 000002E0 SECT5  notype ()    External     | pg_finfo_chkpass_eq
+027 000002F0 SECT5  notype ()    External     | chkpass_ne
+028 000003E0 SECT5  notype ()    External     | pg_finfo_chkpass_ne
+029 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+02A 00000000 UNDEF  notype ()    External     | __security_check_cookie
+02B 00000010 SECT5  notype       Label        | $LN27
+02C 00000170 SECT5  notype       Label        | $LN4
+02D 000001F0 SECT5  notype       Label        | $LN12
+02E 000002F0 SECT5  notype       Label        | $LN12
+02F 00000000 SECT6  notype       Static       | .xdata
+    Section length   94, #relocs    E, #linenums    0, checksum B80F6787
+031 00000000 SECT6  notype       Static       | $unwind$chkpass_in
+032 00000000 SECT7  notype       Static       | .pdata
+    Section length   60, #relocs   18, #linenums    0, checksum EEAB2831
+034 00000000 SECT7  notype       Static       | $pdata$chkpass_in
+035 00000010 SECT6  notype       Static       | $unwind$chkpass_out
+036 0000000C SECT7  notype       Static       | $pdata$chkpass_out
+037 0000001C SECT6  notype       Static       | $unwind$chkpass_eq
+038 00000018 SECT7  notype       Static       | $pdata$chkpass_eq
+039 00000034 SECT6  notype       Static       | $chain$0$chkpass_eq
+03A 00000024 SECT7  notype       Static       | $pdata$0$chkpass_eq
+03B 00000048 SECT6  notype       Static       | $chain$1$chkpass_eq
+03C 00000030 SECT7  notype       Static       | $pdata$1$chkpass_eq
+03D 00000058 SECT6  notype       Static       | $unwind$chkpass_ne
+03E 0000003C SECT7  notype       Static       | $pdata$chkpass_ne
+03F 00000070 SECT6  notype       Static       | $chain$0$chkpass_ne
+040 00000048 SECT7  notype       Static       | $pdata$0$chkpass_ne
+041 00000084 SECT6  notype       Static       | $chain$1$chkpass_ne
+042 00000054 SECT7  notype       Static       | $pdata$1$chkpass_ne
+043 00000000 SECT8  notype       Static       | .data
+    Section length   41, #relocs    0, #linenums    0, checksum 4488B7AA
+045 00000000 SECT8  notype       Static       | ?salt_chars@?1??chkpass_in@@9@9 (`chkpass_in'::`2'::salt_chars)
+046 00000000 SECT9  notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum 48733107, selection    2 (pick any)
+048 00000000 SECT9  notype       External     | ??_C@_0L@NMALHPBE@chkpass_in?$AA@ (`string')
+049 00000000 SECTA  notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 196EA368, selection    2 (pick any)
+04B 00000000 SECTA  notype       External     | ??_C@_0BK@EJHNOCKF@contrib?1chkpass?1chkpass?4c?$AA@ (`string')
+04C 00000000 SECTB  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 82CE7BF8, selection    2 (pick any)
+04E 00000000 SECTB  notype       External     | ??_C@_0BP@BEDICILH@could?5not?5generate?5random?5salt?$AA@ (`string')
+04F 00000000 SECTC  notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum  5ADC4DE, selection    2 (pick any)
+051 00000000 SECTC  notype       External     | ??_C@_0P@CNIBDIMG@crypt?$CI?$CJ?5failed?$AA@ (`string')
+052 00000000 SECTD  notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum 8C33C6FD, selection    2 (pick any)
+054 00000000 SECTD  notype       External     | ??_C@_0L@BIELIIOO@chkpass_eq?$AA@ (`string')
+055 00000000 SECTE  notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum AEC8FE49, selection    2 (pick any)
+057 00000000 SECTE  notype       External     | ??_C@_0L@DKLALAFK@chkpass_ne?$AA@ (`string')
+058 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x48E bytes
+
+  Summary
+
+          41 .data
+        41B4 .debug$S
+          68 .debug$T
+         102 .drectve
+          60 .pdata
+          99 .rdata
+         3E8 .text$mn
+          94 .xdata

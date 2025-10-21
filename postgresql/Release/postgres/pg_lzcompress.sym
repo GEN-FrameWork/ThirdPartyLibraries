@@ -1,0 +1,92 @@
+
+Dump of file Release\postgres/pg_lzcompress.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 42DC, #relocs   C0, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length   40, #relocs    2, #linenums    0, checksum 8EF4BB59
+00A 00000000 SECT4  notype       External     | PGLZ_strategy_default
+00B 00000008 SECT4  notype       External     | PGLZ_strategy_always
+00C 00000010 SECT4  notype       Static       | strategy_default_data
+00D 00000028 SECT4  notype       Static       | strategy_always_data
+00E 00000000 SECT5  notype       Static       | .text$mn
+    Section length  5FB, #relocs    9, #linenums    0, checksum 38CE4038
+010 00000000 SECT6  notype       Static       | .text$mn
+    Section length  1B1, #relocs    3, #linenums    0, checksum F1FA423B, selection    2 (pick any)
+012 00000000 SECT7  notype       Static       | .debug$S
+    Section length  538, #relocs   38, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+014 00000000 SECT5  notype ()    External     | pglz_compress
+015 000004F0 SECT5  notype ()    External     | pglz_decompress
+016 00000000 SECT6  notype ()    Static       | pglz_find_match
+017 00000000 UNDEF  notype ()    External     | memcmp
+018 00000000 UNDEF  notype ()    External     | memset
+019 00000000 SECT5  notype       Label        | $LN84
+01A 000004F0 SECT5  notype       Label        | $LN35
+01B 00000000 SECT8  notype       Static       | .xdata
+    Section length   B4, #relocs   18, #linenums    0, checksum 2000E68A
+01D 00000000 SECT8  notype       Static       | $unwind$pglz_compress
+01E 00000000 SECT9  notype       Static       | .pdata
+    Section length   78, #relocs   1E, #linenums    0, checksum D3788B91
+020 00000000 SECT9  notype       Static       | $pdata$pglz_compress
+021 00000018 SECT8  notype       Static       | $chain$0$pglz_compress
+022 0000000C SECT9  notype       Static       | $pdata$0$pglz_compress
+023 0000002C SECT8  notype       Static       | $chain$1$pglz_compress
+024 00000018 SECT9  notype       Static       | $pdata$1$pglz_compress
+025 0000003C SECT8  notype       Static       | $chain$2$pglz_compress
+026 00000024 SECT9  notype       Static       | $pdata$2$pglz_compress
+027 00000050 SECT8  notype       Static       | $chain$3$pglz_compress
+028 00000030 SECT9  notype       Static       | $pdata$3$pglz_compress
+029 00000060 SECT8  notype       Static       | $unwind$pglz_decompress
+02A 0000003C SECT9  notype       Static       | $pdata$pglz_decompress
+02B 0000006C SECT8  notype       Static       | $chain$0$pglz_decompress
+02C 00000048 SECT9  notype       Static       | $pdata$0$pglz_decompress
+02D 00000080 SECT8  notype       Static       | $chain$1$pglz_decompress
+02E 00000054 SECT9  notype       Static       | $pdata$1$pglz_decompress
+02F 00000094 SECT8  notype       Static       | $chain$2$pglz_decompress
+030 00000060 SECT9  notype       Static       | $pdata$2$pglz_decompress
+031 000000A4 SECT8  notype       Static       | $chain$3$pglz_decompress
+032 0000006C SECT9  notype       Static       | $pdata$3$pglz_decompress
+033 00000000 SECTA  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 74CB06BD, selection    5 (pick associative Section 0x6)
+035 00000000 SECTA  notype       Static       | $unwind$pglz_find_match
+036 00000000 SECTB  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F13A8DC6, selection    5 (pick associative Section 0x6)
+038 00000000 SECTB  notype       Static       | $pdata$pglz_find_match
+039 00000000 SECTC  notype       Static       | .xdata
+    Section length   20, #relocs    3, #linenums    0, checksum E5BF3916, selection    5 (pick associative Section 0x6)
+03B 00000000 SECTC  notype       Static       | $chain$3$pglz_find_match
+03C 00000000 SECTD  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 86DFAD72, selection    5 (pick associative Section 0x6)
+03E 00000000 SECTD  notype       Static       | $pdata$3$pglz_find_match
+03F 00000000 SECTE  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 486D672A, selection    5 (pick associative Section 0x6)
+041 00000000 SECTE  notype       Static       | $chain$4$pglz_find_match
+042 00000000 SECTF  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2B7B1CC8, selection    5 (pick associative Section 0x6)
+044 00000000 SECTF  notype       Static       | $pdata$4$pglz_find_match
+045 00000000 SECT10 notype       Static       | .bss
+    Section length 24020, #relocs    0, #linenums    0, checksum        0
+047 00000000 SECT10 notype       Static       | hist_start
+048 00004000 SECT10 notype       Static       | hist_entries
+
+String Table Size = 0x30D bytes
+
+  Summary
+
+       24020 .bss
+        4814 .debug$S
+          68 .debug$T
+          5D .drectve
+          9C .pdata
+          40 .rdata
+         7AC .text$mn
+          F4 .xdata

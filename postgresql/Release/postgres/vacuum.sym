@@ -1,0 +1,374 @@
+
+Dump of file Release\postgres/vacuum.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 7324, #relocs  15A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000004 UNDEF  notype       External     | vacuum_freeze_min_age
+009 00000004 UNDEF  notype       External     | vacuum_freeze_table_age
+00A 00000004 UNDEF  notype       External     | vacuum_multixact_freeze_min_age
+00B 00000004 UNDEF  notype       External     | vacuum_multixact_freeze_table_age
+00C 00000000 SECT4  notype       Static       | .text$mn
+    Section length  E16, #relocs   BA, #linenums    0, checksum 313FA348
+00E 00000000 SECT5  notype       Static       | .text$mn
+    Section length  21F, #relocs   20, #linenums    0, checksum  D11D1D7, selection    1 (pick no duplicates)
+010 00000000 SECT6  notype       Static       | .debug$S
+    Section length  4D0, #relocs   2A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+012 00000000 SECT7  notype       Static       | .text$mn
+    Section length    D, #relocs    0, #linenums    0, checksum 7F648353, selection    2 (pick any)
+014 00000000 SECT8  notype       Static       | .debug$S
+    Section length   D4, #relocs    6, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+016 00000000 SECT9  notype       Static       | .text$mn
+    Section length  235, #relocs   1B, #linenums    0, checksum 5667955B, selection    1 (pick no duplicates)
+018 00000000 SECTA  notype       Static       | .debug$S
+    Section length  4FC, #relocs   2A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+01A 00000000 SECTB  notype       Static       | .text$mn
+    Section length  3C6, #relocs   40, #linenums    0, checksum 97566B77, selection    1 (pick no duplicates)
+01C 00000000 SECTC  notype       Static       | .debug$S
+    Section length  5C4, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01E 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+01F 00000000 UNDEF  notype ()    External     | pg_usleep
+020 00000000 UNDEF  notype ()    External     | errstart
+021 00000000 UNDEF  notype ()    External     | errfinish
+022 00000000 UNDEF  notype ()    External     | errcode
+023 00000000 UNDEF  notype ()    External     | errmsg
+024 00000000 UNDEF  notype ()    External     | errdetail
+025 00000000 UNDEF  notype ()    External     | errhint
+026 00000000 UNDEF  notype ()    External     | elog_start
+027 00000000 UNDEF  notype ()    External     | elog_finish
+028 00000000 UNDEF  notype ()    External     | pg_re_throw
+029 00000000 UNDEF  notype ()    External     | palloc
+02A 00000000 UNDEF  notype ()    External     | pfree
+02B 00000000 UNDEF  notype ()    External     | TruncateCLOG
+02C 00000000 SECT7  notype ()    Static       | list_head
+02D 00000000 UNDEF  notype ()    External     | lappend_oid
+02E 00000000 UNDEF  notype ()    External     | list_concat
+02F 00000000 UNDEF  notype ()    External     | list_free
+030 00000000 UNDEF  notype ()    External     | NewGUCNestLevel
+031 00000000 UNDEF  notype ()    External     | AtEOXact_GUC
+032 00000000 UNDEF  notype ()    External     | TruncateCommitTs
+033 00000000 UNDEF  notype ()    External     | AdvanceOldestCommitTsXid
+034 00000000 UNDEF  notype ()    External     | RelationGetIndexList
+035 00000000 UNDEF  notype ()    External     | index_open
+036 00000000 UNDEF  notype ()    External     | index_close
+037 00000000 UNDEF  notype ()    External     | systable_beginscan
+038 00000000 UNDEF  notype ()    External     | systable_getnext
+039 00000000 UNDEF  notype ()    External     | systable_endscan
+03A 00000000 UNDEF  notype ()    External     | try_relation_open
+03B 00000000 UNDEF  notype ()    External     | relation_close
+03C 00000000 UNDEF  notype ()    External     | heap_open
+03D 00000000 UNDEF  notype ()    External     | heap_beginscan_catalog
+03E 00000000 UNDEF  notype ()    External     | heap_endscan
+03F 00000000 UNDEF  notype ()    External     | heap_getnext
+040 00000000 UNDEF  notype ()    External     | heap_inplace_update
+041 00000000 UNDEF  notype ()    External     | TransactionIdPrecedes
+042 00000000 UNDEF  notype ()    External     | ReadNewTransactionId
+043 00000000 UNDEF  notype ()    External     | SetTransactionIdLimit
+044 00000000 UNDEF  notype ()    External     | ForceTransactionIdLimitUpdate
+045 00000000 UNDEF  notype ()    External     | heap_freetuple
+046 00000000 UNDEF  notype ()    External     | ReadNextMultiXactId
+047 00000000 UNDEF  notype ()    External     | MultiXactIdPrecedes
+048 00000000 UNDEF  notype ()    External     | SetMultiXactIdLimit
+049 00000000 UNDEF  notype ()    External     | GetOldestMultiXactId
+04A 00000000 UNDEF  notype ()    External     | TruncateMultiXact
+04B 00000000 UNDEF  notype ()    External     | MultiXactMemberFreezeThreshold
+04C 00000000 UNDEF  notype ()    External     | StartTransactionCommand
+04D 00000000 UNDEF  notype ()    External     | CommitTransactionCommand
+04E 00000000 UNDEF  notype ()    External     | PreventTransactionChain
+04F 00000000 UNDEF  notype ()    External     | IsInTransactionChain
+050 00000000 UNDEF  notype ()    External     | LWLockAcquire
+051 00000000 UNDEF  notype ()    External     | LWLockRelease
+052 00000000 UNDEF  notype ()    External     | RangeVarGetRelidExtended
+053 00000000 UNDEF  notype ()    External     | find_all_inheritors
+054 00000000 UNDEF  notype ()    External     | cluster_rel
+055 00000000 SECT4  notype ()    External     | ExecVacuum
+056 00000090 SECT4  notype ()    External     | vacuum
+057 000004B0 SECT4  notype ()    External     | vac_open_indexes
+058 00000580 SECT4  notype ()    External     | vac_close_indexes
+059 000005F0 SECT4  notype ()    External     | vac_estimate_reltuples
+05A 00000690 SECT4  notype ()    External     | vac_update_relstats
+05B 00000880 SECT4  notype ()    External     | vacuum_set_xid_limits
+05C 00000AE0 SECT4  notype ()    External     | vac_update_datfrozenxid
+05D 00000D60 SECT4  notype ()    External     | vacuum_delay_point
+05E 00000000 UNDEF  notype ()    External     | lazy_vacuum_rel
+05F 00000000 UNDEF  notype ()    External     | analyze_rel
+060 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+061 00000000 UNDEF  notype ()    External     | GetUserId
+062 00000000 UNDEF  notype ()    External     | GetUserIdAndSecContext
+063 00000000 UNDEF  notype ()    External     | SetUserIdAndSecContext
+064 00000000 UNDEF  notype ()    External     | pgstat_vacuum_stat
+065 00000000 UNDEF  notype ()    External     | IsAutoVacuumWorkerProcess
+066 00000000 UNDEF  notype ()    External     | AutoVacuumUpdateDelay
+067 00000000 UNDEF  notype ()    External     | GetTransactionSnapshot
+068 00000000 UNDEF  notype ()    External     | PushActiveSnapshot
+069 00000000 UNDEF  notype ()    External     | PopActiveSnapshot
+06A 00000000 UNDEF  notype ()    External     | ActiveSnapshotSet
+06B 00000000 UNDEF  notype ()    External     | TransactionIdLimitedForOldSnapshots
+06C 00000000 UNDEF  notype ()    External     | GetAccessStrategy
+06D 00000000 UNDEF  notype ()    External     | pg_class_ownercheck
+06E 00000000 UNDEF  notype ()    External     | pg_database_ownercheck
+06F 00000000 UNDEF  notype ()    External     | ConditionalLockRelationOid
+070 00000000 UNDEF  notype ()    External     | UnlockRelationOid
+071 00000000 UNDEF  notype ()    External     | LockRelationIdForSession
+072 00000000 UNDEF  notype ()    External     | UnlockRelationIdForSession
+073 00000000 UNDEF  notype ()    External     | GetOldestXmin
+074 00000000 UNDEF  notype ()    External     | MemoryContextDelete
+075 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+076 00000000 UNDEF  notype ()    External     | SearchSysCache
+077 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+078 00000000 UNDEF  notype ()    External     | SearchSysCacheCopy
+079 00000000 SECT5  notype ()    Static       | get_rel_oids
+07A 00000000 SECT9  notype ()    Static       | vac_truncate_clog
+07B 00000000 SECTB  notype ()    Static       | vacuum_rel
+07C 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+07D 00000000 UNDEF  notype ()    External     | __security_check_cookie
+07E 00000000 UNDEF  notype ()    External     | _setjmp
+07F 00000000 UNDEF  notype ()    External     | floor
+080 00000000 SECT4  notype       Label        | $LN16
+081 000004A3 SECT4  notype       Label        | $LN58
+082 00000090 SECT4  notype       Label        | $LN59
+083 000004B0 SECT4  notype       Label        | $LN24
+084 00000580 SECT4  notype       Label        | $LN13
+085 00000690 SECT4  notype       Label        | $LN24
+086 00000880 SECT4  notype       Label        | $LN36
+087 00000AE0 SECT4  notype       Label        | $LN36
+088 00000D60 SECT4  notype       Label        | $LN16
+089 00000000 SECTD  notype       Static       | .xdata
+    Section length  164, #relocs   20, #linenums    0, checksum D23C5C9C
+08B 00000000 SECTD  notype       Static       | $unwind$ExecVacuum
+08C 00000000 SECTE  notype       Static       | .pdata
+    Section length   D8, #relocs   36, #linenums    0, checksum FDF39E31
+08E 00000000 SECTE  notype       Static       | $pdata$ExecVacuum
+08F 00000010 SECTD  notype       Static       | $unwind$vacuum
+090 0000000C SECTE  notype       Static       | $pdata$vacuum
+091 00000030 SECTD  notype       Static       | $unwind$vac_open_indexes
+092 00000018 SECTE  notype       Static       | $pdata$vac_open_indexes
+093 00000044 SECTD  notype       Static       | $chain$0$vac_open_indexes
+094 00000024 SECTE  notype       Static       | $pdata$0$vac_open_indexes
+095 00000058 SECTD  notype       Static       | $chain$1$vac_open_indexes
+096 00000030 SECTE  notype       Static       | $pdata$1$vac_open_indexes
+097 0000006C SECTD  notype       Static       | $chain$2$vac_open_indexes
+098 0000003C SECTE  notype       Static       | $pdata$2$vac_open_indexes
+099 0000007C SECTD  notype       Static       | $chain$3$vac_open_indexes
+09A 00000048 SECTE  notype       Static       | $pdata$3$vac_open_indexes
+09B 0000008C SECTD  notype       Static       | $unwind$vac_close_indexes
+09C 00000054 SECTE  notype       Static       | $pdata$vac_close_indexes
+09D 0000009C SECTD  notype       Static       | $chain$0$vac_close_indexes
+09E 00000060 SECTE  notype       Static       | $pdata$0$vac_close_indexes
+09F 000000B0 SECTD  notype       Static       | $chain$1$vac_close_indexes
+0A0 0000006C SECTE  notype       Static       | $pdata$1$vac_close_indexes
+0A1 000000C0 SECTD  notype       Static       | $unwind$vac_update_relstats
+0A2 00000078 SECTE  notype       Static       | $pdata$vac_update_relstats
+0A3 000000E0 SECTD  notype       Static       | $unwind$vacuum_set_xid_limits
+0A4 00000084 SECTE  notype       Static       | $pdata$vacuum_set_xid_limits
+0A5 000000F4 SECTD  notype       Static       | $chain$1$vacuum_set_xid_limits
+0A6 00000090 SECTE  notype       Static       | $pdata$1$vacuum_set_xid_limits
+0A7 0000010C SECTD  notype       Static       | $chain$2$vacuum_set_xid_limits
+0A8 0000009C SECTE  notype       Static       | $pdata$2$vacuum_set_xid_limits
+0A9 0000011C SECTD  notype       Static       | $chain$3$vacuum_set_xid_limits
+0AA 000000A8 SECTE  notype       Static       | $pdata$3$vacuum_set_xid_limits
+0AB 00000130 SECTD  notype       Static       | $chain$4$vacuum_set_xid_limits
+0AC 000000B4 SECTE  notype       Static       | $pdata$4$vacuum_set_xid_limits
+0AD 00000140 SECTD  notype       Static       | $unwind$vac_update_datfrozenxid
+0AE 000000C0 SECTE  notype       Static       | $pdata$vac_update_datfrozenxid
+0AF 0000015C SECTD  notype       Static       | $unwind$vacuum_delay_point
+0B0 000000CC SECTE  notype       Static       | $pdata$vacuum_delay_point
+0B1 00000000 SECTF  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum D11015DB, selection    5 (pick associative Section 0x5)
+0B3 00000000 SECTF  notype       Static       | $unwind$get_rel_oids
+0B4 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A712C50E, selection    5 (pick associative Section 0x5)
+0B6 00000000 SECT10 notype       Static       | $pdata$get_rel_oids
+0B7 00000000 SECT11 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum FF9A4AAC, selection    5 (pick associative Section 0x5)
+0B9 00000000 SECT11 notype       Static       | $chain$0$get_rel_oids
+0BA 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2CA733AD, selection    5 (pick associative Section 0x5)
+0BC 00000000 SECT12 notype       Static       | $pdata$0$get_rel_oids
+0BD 00000000 SECT13 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum F81D56AE, selection    5 (pick associative Section 0x5)
+0BF 00000000 SECT13 notype       Static       | $chain$3$get_rel_oids
+0C0 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 472304F0, selection    5 (pick associative Section 0x5)
+0C2 00000000 SECT14 notype       Static       | $pdata$3$get_rel_oids
+0C3 00000000 SECT15 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 692FC17D, selection    5 (pick associative Section 0x5)
+0C5 00000000 SECT15 notype       Static       | $chain$4$get_rel_oids
+0C6 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FEFD46B7, selection    5 (pick associative Section 0x5)
+0C8 00000000 SECT16 notype       Static       | $pdata$4$get_rel_oids
+0C9 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum FE74EE1C, selection    5 (pick associative Section 0x5)
+0CB 00000000 SECT17 notype       Static       | $chain$5$get_rel_oids
+0CC 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5B3C9DE5, selection    5 (pick associative Section 0x5)
+0CE 00000000 SECT18 notype       Static       | $pdata$5$get_rel_oids
+0CF 00000000 SECT19 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 9149D3A1, selection    5 (pick associative Section 0x9)
+0D1 00000000 SECT19 notype       Static       | $unwind$vac_truncate_clog
+0D2 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum AF5E2A9E, selection    5 (pick associative Section 0x9)
+0D4 00000000 SECT1A notype       Static       | $pdata$vac_truncate_clog
+0D5 00000000 SECT1B notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum CFD51FA8, selection    5 (pick associative Section 0x9)
+0D7 00000000 SECT1B notype       Static       | $chain$0$vac_truncate_clog
+0D8 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 592F1ED8, selection    5 (pick associative Section 0x9)
+0DA 00000000 SECT1C notype       Static       | $pdata$0$vac_truncate_clog
+0DB 00000000 SECT1D notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 164C449D, selection    5 (pick associative Section 0x9)
+0DD 00000000 SECT1D notype       Static       | $chain$1$vac_truncate_clog
+0DE 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5EBBCA8B, selection    5 (pick associative Section 0x9)
+0E0 00000000 SECT1E notype       Static       | $pdata$1$vac_truncate_clog
+0E1 00000000 SECT1F notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum E078F434, selection    5 (pick associative Section 0x9)
+0E3 00000000 SECT1F notype       Static       | $chain$2$vac_truncate_clog
+0E4 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 57D65103, selection    5 (pick associative Section 0x9)
+0E6 00000000 SECT20 notype       Static       | $pdata$2$vac_truncate_clog
+0E7 00000000 SECT21 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 1609C072, selection    5 (pick associative Section 0x9)
+0E9 00000000 SECT21 notype       Static       | $chain$3$vac_truncate_clog
+0EA 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FDF78AEE, selection    5 (pick associative Section 0x9)
+0EC 00000000 SECT22 notype       Static       | $pdata$3$vac_truncate_clog
+0ED 00000000 SECT23 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 5525BA33, selection    5 (pick associative Section 0xB)
+0EF 00000000 SECT23 notype       Static       | $unwind$vacuum_rel
+0F0 00000000 SECT24 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8D21542D, selection    5 (pick associative Section 0xB)
+0F2 00000000 SECT24 notype       Static       | $pdata$vacuum_rel
+0F3 00000000 UNDEF  notype       External     | pg_signal_queue
+0F4 00000000 UNDEF  notype       External     | pg_signal_mask
+0F5 00000000 UNDEF  notype       External     | error_context_stack
+0F6 00000000 UNDEF  notype       External     | PG_exception_stack
+0F7 00000000 UNDEF  notype       External     | CurrentMemoryContext
+0F8 00000000 UNDEF  notype       External     | MainLWLockArray
+0F9 00000000 UNDEF  notype       External     | InterruptPending
+0FA 00000000 UNDEF  notype       External     | MyDatabaseId
+0FB 00000000 UNDEF  notype       External     | VacuumCostLimit
+0FC 00000000 UNDEF  notype       External     | VacuumCostDelay
+0FD 00000000 UNDEF  notype       External     | VacuumPageHit
+0FE 00000000 UNDEF  notype       External     | VacuumPageMiss
+0FF 00000000 UNDEF  notype       External     | VacuumPageDirty
+100 00000000 UNDEF  notype       External     | VacuumCostBalance
+101 00000000 UNDEF  notype       External     | VacuumCostActive
+102 00000000 UNDEF  notype       External     | MyPgXact
+103 00000000 UNDEF  notype       External     | autovacuum_freeze_max_age
+104 00000000 UNDEF  notype       External     | PortalContext
+105 00000000 SECT25 notype       Static       | .bss
+    Section length   11, #relocs    0, #linenums    0, checksum        0
+107 00000000 SECT25 notype       Static       | vac_context
+108 00000008 SECT25 notype       Static       | vac_strategy
+109 00000010 SECT25 notype       Static       | ?in_vacuum@?1??vacuum@@9@9 (`vacuum'::`2'::in_vacuum)
+10A 00000000 SECT26 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 4821055E, selection    2 (pick any)
+10C 00000000 SECT26 notype       External     | ??_C@_06CKLCCFNP@VACUUM?$AA@ (`string')
+10D 00000000 SECT27 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum F224F0D8, selection    2 (pick any)
+10F 00000000 SECT27 notype       External     | ??_C@_07GIPJNAEO@ANALYZE?$AA@ (`string')
+110 00000000 SECT28 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 4C0ADB8C, selection    2 (pick any)
+112 00000000 SECT28 notype       External     | ??_C@_06COJJPLAN@vacuum?$AA@ (`string')
+113 00000000 SECT29 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum BFA4A488, selection    2 (pick any)
+115 00000000 SECT29 notype       External     | ??_C@_0BO@EAFPGFMC@src?1backend?1commands?1vacuum?4c?$AA@ (`string')
+116 00000000 SECT2A notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 195DF42F, selection    2 (pick any)
+118 00000000 SECT2A notype       External     | ??_C@_0CN@CACCJMHE@?$CFs?5cannot?5be?5executed?5from?5VACUU@ (`string')
+119 00000000 SECT2B notype       Static       | .rdata
+    Section length   3D, #relocs    0, #linenums    0, checksum B119ECE6, selection    2 (pick any)
+11B 00000000 SECT2B notype       External     | ??_C@_0DN@JCDLGGCP@VACUUM?5option?5DISABLE_PAGE_SKIPP@ (`string')
+11C 00000000 SECT2C notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 83B7E210, selection    2 (pick any)
+11E 00000000 SECT2C notype       External     | ??_C@_06OBCEMCJB@Vacuum?$AA@ (`string')
+11F 00000000 SECT2D notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 2485F349, selection    2 (pick any)
+121 00000000 SECT2D notype       External     | ??_C@_0N@NEAOEKDE@get_rel_oids?$AA@ (`string')
+122 00000000 SECT2E notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum A271A7DD, selection    2 (pick any)
+124 00000000 SECT2E notype       External     | ??_C@_0CE@DHDIOKPH@cache?5lookup?5failed?5for?5relation@ (`string')
+125 00000000 SECT2F notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 755BC33B, selection    2 (pick any)
+127 00000000 SECT2F notype       External     | ??_C@_0BG@CCININCE@vacuum_set_xid_limits?$AA@ (`string')
+128 00000000 SECT30 notype       Static       | .rdata
+    Section length   3B, #relocs    0, #linenums    0, checksum 37CF322A, selection    2 (pick any)
+12A 00000000 SECT30 notype       External     | ??_C@_0DL@OPFKAHF@Close?5open?5transactions?5soon?5to?5@ (`string')
+12B 00000000 SECT31 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 95767C64, selection    2 (pick any)
+12D 00000000 SECT31 notype       External     | ??_C@_0BP@DIACPCL@oldest?5xmin?5is?5far?5in?5the?5past?$AA@ (`string')
+12E 00000000 SECT32 notype       Static       | .rdata
+    Section length   4B, #relocs    0, #linenums    0, checksum 699A2C83, selection    2 (pick any)
+130 00000000 SECT32 notype       External     | ??_C@_0EL@HEEHCEFA@Close?5open?5transactions?5with?5mul@ (`string')
+131 00000000 SECT33 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum C68FEA08, selection    2 (pick any)
+133 00000000 SECT33 notype       External     | ??_C@_0CE@FDMGKHCC@oldest?5multixact?5is?5far?5in?5the?5p@ (`string')
+134 00000000 SECT34 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 822CCC3B, selection    2 (pick any)
+136 00000000 SECT34 notype       External     | ??_C@_0BE@HCAGKIEJ@vac_update_relstats?$AA@ (`string')
+137 00000000 SECT35 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum B5178349, selection    2 (pick any)
+139 00000000 SECT35 notype       External     | ??_C@_0DG@HPELBBEL@pg_class?5entry?5for?5relid?5?$CFu?5vani@ (`string')
+13A 00000000 SECT36 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 6A705A4C, selection    2 (pick any)
+13C 00000000 SECT36 notype       External     | ??_C@_0BI@DGEOGPJD@vac_update_datfrozenxid?$AA@ (`string')
+13D 00000000 SECT37 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 802A5245, selection    2 (pick any)
+13F 00000000 SECT37 notype       External     | ??_C@_0CF@FLAENCNO@could?5not?5find?5tuple?5for?5databas@ (`string')
+140 00000000 SECT38 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum D53E4CD4, selection    2 (pick any)
+142 00000000 SECT38 notype       External     | ??_C@_0BC@ENNKHMGG@vac_truncate_clog?$AA@ (`string')
+143 00000000 SECT39 notype       Static       | .rdata
+    Section length   42, #relocs    0, #linenums    0, checksum  8F4D7E9, selection    2 (pick any)
+145 00000000 SECT39 notype       External     | ??_C@_0EC@OLHFOOPD@You?5might?5have?5already?5suffered?5@ (`string')
+146 00000000 SECT3A notype       Static       | .rdata
+    Section length   45, #relocs    0, #linenums    0, checksum A6CE7831, selection    2 (pick any)
+148 00000000 SECT3A notype       External     | ??_C@_0EF@CDEEGAHI@some?5databases?5have?5not?5been?5vac@ (`string')
+149 00000000 SECT3B notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum 5FF72B0E, selection    2 (pick any)
+14B 00000000 SECT3B notype       External     | ??_C@_0L@MLIPGFBN@vacuum_rel?$AA@ (`string')
+14C 00000000 SECT3C notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum BEC00C2F, selection    2 (pick any)
+14E 00000000 SECT3C notype       External     | ??_C@_0CP@KEOGFIKF@skipping?5vacuum?5of?5?$CC?$CFs?$CC?5?9?9?9?5lock@ (`string')
+14F 00000000 SECT3D notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum C12AA539, selection    2 (pick any)
+151 00000000 SECT3D notype       External     | ??_C@_0CP@NLAMPBLD@skipping?5?$CC?$CFs?$CC?5?9?9?9?5only?5superuser@ (`string')
+152 00000000 SECT3E notype       Static       | .rdata
+    Section length   41, #relocs    0, #linenums    0, checksum C1938E26, selection    2 (pick any)
+154 00000000 SECT3E notype       External     | ??_C@_0EB@CDKBIGKO@skipping?5?$CC?$CFs?$CC?5?9?9?9?5only?5superuser@ (`string')
+155 00000000 SECT3F notype       Static       | .rdata
+    Section length   3D, #relocs    0, #linenums    0, checksum 51B21FBF, selection    2 (pick any)
+157 00000000 SECT3F notype       External     | ??_C@_0DN@HCJAJFHG@skipping?5?$CC?$CFs?$CC?5?9?9?9?5only?5table?5or?5@ (`string')
+158 00000000 SECT40 notype       Static       | .rdata
+    Section length   44, #relocs    0, #linenums    0, checksum 195757E0, selection    2 (pick any)
+15A 00000000 SECT40 notype       External     | ??_C@_0EE@PGHPMGLC@skipping?5?$CC?$CFs?$CC?5?9?9?9?5cannot?5vacuum?5@ (`string')
+15B 00000000 SECT41 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum E818DED1, selection    2 (pick any)
+15D 00000000 SECT41 notype       External     | __real@3fe0000000000000
+15E 00000000 SECT42 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 12B1525B, selection    2 (pick any)
+160 00000000 SECT42 notype       External     | __real@3fee666666666666
+161 00000000 UNDEF  notype       External     | __security_cookie
+162 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x13C0 bytes
+
+  Summary
+
+          11 .bss
+        8388 .debug$S
+          68 .debug$T
+          5D .drectve
+         15C .pdata
+         410 .rdata
+        163D .text$mn
+         22C .xdata

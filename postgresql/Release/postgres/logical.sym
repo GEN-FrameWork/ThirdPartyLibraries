@@ -1,0 +1,321 @@
+
+Dump of file Release\postgres/logical.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6E40, #relocs  13A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 1112, #relocs   F5, #linenums    0, checksum   437A41
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   F4, #relocs   16, #linenums    0, checksum D157F273, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  1DC, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  1EB, #relocs   1E, #linenums    0, checksum D00168D2, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  4F4, #relocs   26, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length   62, #relocs    5, #linenums    0, checksum 9FDBDA4E, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  1F8, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 UNDEF  notype       External     | __imp_strncpy
+017 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+018 00000000 UNDEF  notype ()    External     | errstart
+019 00000000 UNDEF  notype ()    External     | errfinish
+01A 00000000 UNDEF  notype ()    External     | errcode
+01B 00000000 UNDEF  notype ()    External     | errmsg
+01C 00000000 UNDEF  notype ()    External     | errdetail
+01D 00000000 UNDEF  notype ()    External     | set_errcontext_domain
+01E 00000000 UNDEF  notype ()    External     | errcontext_msg
+01F 00000000 UNDEF  notype ()    External     | elog_start
+020 00000000 UNDEF  notype ()    External     | elog_finish
+021 00000000 UNDEF  notype ()    External     | palloc0
+022 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+023 00000000 UNDEF  notype ()    External     | XLogReaderAllocate
+024 00000000 UNDEF  notype ()    External     | XLogReaderFree
+025 00000000 UNDEF  notype ()    External     | XLogReadRecord
+026 00000000 UNDEF  notype ()    External     | makeStringInfo
+027 00000000 UNDEF  notype ()    External     | load_external_function
+028 00000000 UNDEF  notype ()    External     | IsTransactionState
+029 00000000 UNDEF  notype ()    External     | GetTopTransactionIdIfAny
+02A 00000000 UNDEF  notype ()    External     | IsTransactionOrTransactionBlock
+02B 00000000 UNDEF  notype ()    External     | TransactionIdPrecedesOrEquals
+02C 00000000 UNDEF  notype ()    External     | ReorderBufferAllocate
+02D 00000000 UNDEF  notype ()    External     | ReorderBufferFree
+02E 00000000 UNDEF  notype ()    External     | RecoveryInProgress
+02F 00000000 UNDEF  notype ()    External     | s_lock
+030 00000000 UNDEF  notype ()    External     | LWLockAcquire
+031 00000000 UNDEF  notype ()    External     | LWLockRelease
+032 00000000 UNDEF  notype ()    External     | ReplicationSlotSave
+033 00000000 UNDEF  notype ()    External     | ReplicationSlotMarkDirty
+034 00000000 UNDEF  notype ()    External     | ReplicationSlotReserveWal
+035 00000000 UNDEF  notype ()    External     | ReplicationSlotsComputeRequiredXmin
+036 00000000 UNDEF  notype ()    External     | ReplicationSlotsComputeRequiredLSN
+037 00000000 UNDEF  notype ()    External     | CheckSlotRequirements
+038 00000000 SECT4  notype ()    External     | OutputPluginPrepareWrite
+039 00000080 SECT4  notype ()    External     | OutputPluginWrite
+03A 00000100 SECT4  notype ()    External     | OutputPluginUpdateProgress
+03B 00000130 SECT4  notype ()    External     | CheckLogicalDecodingRequirements
+03C 00000250 SECT4  notype ()    External     | CreateInitDecodingContext
+03D 00000500 SECT4  notype ()    External     | CreateDecodingContext
+03E 00000750 SECT4  notype ()    External     | DecodingContextFindStartpoint
+03F 000008A0 SECT4  notype ()    External     | DecodingContextReady
+040 000008C0 SECT4  notype ()    External     | FreeDecodingContext
+041 00000960 SECT4  notype ()    External     | LogicalIncreaseXminForSlot
+042 00000A10 SECT4  notype ()    External     | LogicalIncreaseRestartDecodingForSlot
+043 00000B90 SECT4  notype ()    External     | LogicalConfirmReceivedLocation
+044 00000DB0 SECT4  notype ()    External     | filter_by_origin_cb_wrapper
+045 00000000 UNDEF  notype ()    External     | LogicalDecodingProcessRecord
+046 00000000 UNDEF  notype ()    External     | AllocateSnapshotBuilder
+047 00000000 UNDEF  notype ()    External     | FreeSnapshotBuilder
+048 00000000 UNDEF  notype ()    External     | SnapBuildCurrentState
+049 00000000 UNDEF  notype ()    External     | GetOldestSafeDecodingTransactionId
+04A 00000000 UNDEF  notype ()    External     | MemoryContextDelete
+04B 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+04C 00000E20 SECT4  notype ()    Static       | output_plugin_error_callback
+04D 00000000 SECT9  notype ()    Static       | startup_cb_wrapper
+04E 00000EB0 SECT4  notype ()    Static       | begin_cb_wrapper
+04F 00000F40 SECT4  notype ()    Static       | commit_cb_wrapper
+050 00000FD0 SECT4  notype ()    Static       | change_cb_wrapper
+051 00001060 SECT4  notype ()    Static       | message_cb_wrapper
+052 00000000 SECT5  notype ()    Static       | LoadOutputPlugin
+053 00000000 SECT7  notype ()    Static       | StartupDecodingContext
+054 00000000 SECT4  notype       Label        | $LN9
+055 00000080 SECT4  notype       Label        | $LN9
+056 00000130 SECT4  notype       Label        | $LN22
+057 00000250 SECT4  notype       Label        | $LN48
+058 00000500 SECT4  notype       Label        | $LN40
+059 00000750 SECT4  notype       Label        | $LN36
+05A 000008A0 SECT4  notype       Label        | $LN4
+05B 000008C0 SECT4  notype       Label        | $LN7
+05C 00000960 SECT4  notype       Label        | $LN16
+05D 00000A10 SECT4  notype       Label        | $LN23
+05E 00000B90 SECT4  notype       Label        | $LN34
+05F 00000DB0 SECT4  notype       Label        | $LN4
+060 00000000 SECTB  notype       Static       | .xdata
+    Section length   E0, #relocs    0, #linenums    0, checksum 33F92DDB
+062 00000000 SECTB  notype       Static       | $unwind$OutputPluginPrepareWrite
+063 00000000 SECTC  notype       Static       | .pdata
+    Section length   CC, #relocs   33, #linenums    0, checksum 439701DA
+065 00000000 SECTC  notype       Static       | $pdata$OutputPluginPrepareWrite
+066 0000000C SECTB  notype       Static       | $unwind$OutputPluginWrite
+067 0000000C SECTC  notype       Static       | $pdata$OutputPluginWrite
+068 00000018 SECTB  notype       Static       | $unwind$CheckLogicalDecodingRequirements
+069 00000018 SECTC  notype       Static       | $pdata$CheckLogicalDecodingRequirements
+06A 00000020 SECTB  notype       Static       | $unwind$CreateInitDecodingContext
+06B 00000024 SECTC  notype       Static       | $pdata$CreateInitDecodingContext
+06C 00000038 SECTB  notype       Static       | $unwind$CreateDecodingContext
+06D 00000030 SECTC  notype       Static       | $pdata$CreateDecodingContext
+06E 00000050 SECTB  notype       Static       | $unwind$DecodingContextFindStartpoint
+06F 0000003C SECTC  notype       Static       | $pdata$DecodingContextFindStartpoint
+070 00000060 SECTB  notype       Static       | $unwind$DecodingContextReady
+071 00000048 SECTC  notype       Static       | $pdata$DecodingContextReady
+072 00000068 SECTB  notype       Static       | $unwind$FreeDecodingContext
+073 00000054 SECTC  notype       Static       | $pdata$FreeDecodingContext
+074 00000070 SECTB  notype       Static       | $unwind$LogicalIncreaseXminForSlot
+075 00000060 SECTC  notype       Static       | $pdata$LogicalIncreaseXminForSlot
+076 00000084 SECTB  notype       Static       | $unwind$LogicalIncreaseRestartDecodingForSlot
+077 0000006C SECTC  notype       Static       | $pdata$LogicalIncreaseRestartDecodingForSlot
+078 00000098 SECTB  notype       Static       | $unwind$LogicalConfirmReceivedLocation
+079 00000078 SECTC  notype       Static       | $pdata$LogicalConfirmReceivedLocation
+07A 000000B0 SECTB  notype       Static       | $unwind$filter_by_origin_cb_wrapper
+07B 00000084 SECTC  notype       Static       | $pdata$filter_by_origin_cb_wrapper
+07C 000000B8 SECTB  notype       Static       | $unwind$output_plugin_error_callback
+07D 00000090 SECTC  notype       Static       | $pdata$output_plugin_error_callback
+07E 00000000 SECTD  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 857A5C02, selection    5 (pick associative Section 0x9)
+080 00000000 SECTD  notype       Static       | $unwind$startup_cb_wrapper
+081 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 92CEA7C6, selection    5 (pick associative Section 0x9)
+083 00000000 SECTE  notype       Static       | $pdata$startup_cb_wrapper
+084 000000C0 SECTB  notype       Static       | $unwind$begin_cb_wrapper
+085 0000009C SECTC  notype       Static       | $pdata$begin_cb_wrapper
+086 000000C8 SECTB  notype       Static       | $unwind$commit_cb_wrapper
+087 000000A8 SECTC  notype       Static       | $pdata$commit_cb_wrapper
+088 000000D0 SECTB  notype       Static       | $unwind$change_cb_wrapper
+089 000000B4 SECTC  notype       Static       | $pdata$change_cb_wrapper
+08A 000000D8 SECTB  notype       Static       | $unwind$message_cb_wrapper
+08B 000000C0 SECTC  notype       Static       | $pdata$message_cb_wrapper
+08C 00000000 SECTF  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0x5)
+08E 00000000 SECTF  notype       Static       | $unwind$LoadOutputPlugin
+08F 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7B211AB0, selection    5 (pick associative Section 0x5)
+091 00000000 SECT10 notype       Static       | $pdata$LoadOutputPlugin
+092 00000000 SECT11 notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 83BD73E6, selection    5 (pick associative Section 0x7)
+094 00000000 SECT11 notype       Static       | $unwind$StartupDecodingContext
+095 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 78CD3283, selection    5 (pick associative Section 0x7)
+097 00000000 SECT12 notype       Static       | $pdata$StartupDecodingContext
+098 00000000 UNDEF  notype       External     | pg_signal_queue
+099 00000000 UNDEF  notype       External     | pg_signal_mask
+09A 00000000 UNDEF  notype       External     | error_context_stack
+09B 00000000 UNDEF  notype       External     | CurrentMemoryContext
+09C 00000000 UNDEF  notype       External     | InterruptPending
+09D 00000000 UNDEF  notype       External     | MyDatabaseId
+09E 00000000 UNDEF  notype       External     | wal_level
+09F 00000000 UNDEF  notype       External     | MainLWLockArray
+0A0 00000000 UNDEF  notype       External     | MyReplicationSlot
+0A1 00000000 UNDEF  notype       External     | MyPgXact
+0A2 00000000 SECT13 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum  EEC373B, selection    2 (pick any)
+0A4 00000000 SECT13 notype       External     | ??_C@_0CB@ILGPPCEJ@CheckLogicalDecodingRequirements@ (`string')
+0A5 00000000 SECT14 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum 7CEE3B3C, selection    2 (pick any)
+0A7 00000000 SECT14 notype       External     | ??_C@_0CK@GHHOOMDI@src?1backend?1replication?1logical?1@ (`string')
+0A8 00000000 SECT15 notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum EAC4FD3E, selection    2 (pick any)
+0AA 00000000 SECT15 notype       External     | ??_C@_0CP@PAOCKJLE@logical?5decoding?5requires?5wal_le@ (`string')
+0AB 00000000 SECT16 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum B586F7F6, selection    2 (pick any)
+0AD 00000000 SECT16 notype       External     | ??_C@_0DA@LIPBLLJM@logical?5decoding?5requires?5a?5data@ (`string')
+0AE 00000000 SECT17 notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum 43BEB95A, selection    2 (pick any)
+0B0 00000000 SECT17 notype       External     | ??_C@_0DC@KDMGDKLL@logical?5decoding?5cannot?5be?5used?5@ (`string')
+0B1 00000000 SECT18 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 4CA6E301, selection    2 (pick any)
+0B3 00000000 SECT18 notype       External     | ??_C@_0BJ@FKJGBCHB@Logical?5decoding?5context?$AA@ (`string')
+0B4 00000000 SECT19 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum B8840FEB, selection    2 (pick any)
+0B6 00000000 SECT19 notype       External     | ??_C@_0BH@DFNLNEFA@StartupDecodingContext?$AA@ (`string')
+0B7 00000000 SECT1A notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 33969D75, selection    2 (pick any)
+0B9 00000000 SECT1A notype       External     | ??_C@_0O@BNNCBLEN@out?5of?5memory?$AA@ (`string')
+0BA 00000000 SECT1B notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 66E7B1E2, selection    2 (pick any)
+0BC 00000000 SECT1B notype       External     | ??_C@_0BK@DGPEPACP@CreateInitDecodingContext?$AA@ (`string')
+0BD 00000000 SECT1C notype       Static       | .rdata
+    Section length   39, #relocs    0, #linenums    0, checksum 50C57F68, selection    2 (pick any)
+0BF 00000000 SECT1C notype       External     | ??_C@_0DJ@HCOLFOIL@cannot?5perform?5logical?5decoding?5@ (`string')
+0C0 00000000 SECT1D notype       Static       | .rdata
+    Section length   3E, #relocs    0, #linenums    0, checksum 335DD33E, selection    2 (pick any)
+0C2 00000000 SECT1D notype       External     | ??_C@_0DO@NBMGILKA@cannot?5initialize?5logical?5decodi@ (`string')
+0C3 00000000 SECT1E notype       Static       | .rdata
+    Section length   3A, #relocs    0, #linenums    0, checksum A3734FDD, selection    2 (pick any)
+0C5 00000000 SECT1E notype       External     | ??_C@_0DK@JKFCNCDO@cannot?5use?5physical?5replication?5@ (`string')
+0C6 00000000 SECT1F notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum  D3F6D0D, selection    2 (pick any)
+0C8 00000000 SECT1F notype       External     | ??_C@_0DH@ODPLFALD@replication?5slot?5?$CC?$CFs?$CC?5was?5not?5cr@ (`string')
+0C9 00000000 SECT20 notype       Static       | .rdata
+    Section length   50, #relocs    0, #linenums    0, checksum 689A24D2, selection    2 (pick any)
+0CB 00000000 SECT20 notype       External     | ??_C@_0FA@BJEGMDML@cannot?5create?5logical?5replicatio@ (`string')
+0CC 00000000 SECT21 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 9E75A771, selection    2 (pick any)
+0CE 00000000 SECT21 notype       External     | ??_C@_0BG@MJKDOJGO@CreateDecodingContext?$AA@ (`string')
+0CF 00000000 SECT22 notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum 99CD7D47, selection    2 (pick any)
+0D1 00000000 SECT22 notype       External     | ??_C@_0DH@HHAJEAPJ@cannot?5stream?5from?5?$CFX?1?$CFX?0?5minimu@ (`string')
+0D2 00000000 SECT23 notype       Static       | .rdata
+    Section length   46, #relocs    0, #linenums    0, checksum AA692D0F, selection    2 (pick any)
+0D4 00000000 SECT23 notype       External     | ??_C@_0EG@KFOMFOCD@streaming?5transactions?5committin@ (`string')
+0D5 00000000 SECT24 notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum E3AD5EC8, selection    2 (pick any)
+0D7 00000000 SECT24 notype       External     | ??_C@_0CI@PFLOJMIG@starting?5logical?5decoding?5for?5sl@ (`string')
+0D8 00000000 SECT25 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 1A548CEF, selection    2 (pick any)
+0DA 00000000 SECT25 notype       External     | ??_C@_0BO@OFKPENKF@DecodingContextFindStartpoint?$AA@ (`string')
+0DB 00000000 SECT26 notype       Static       | .rdata
+    Section length   41, #relocs    0, #linenums    0, checksum 7635C1D7, selection    2 (pick any)
+0DD 00000000 SECT26 notype       External     | ??_C@_0EB@JEAHMJFP@searching?5for?5logical?5decoding?5s@ (`string')
+0DE 00000000 SECT27 notype       Static       | .rdata
+    Section length    3, #relocs    0, #linenums    0, checksum 3A94AE3E, selection    2 (pick any)
+0E0 00000000 SECT27 notype       External     | ??_C@_02DKCKIIND@?$CFs?$AA@ (`string')
+0E1 00000000 SECT28 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum DE2D90EB, selection    2 (pick any)
+0E3 00000000 SECT28 notype       External     | ??_C@_0BA@MNGJCEEB@no?5record?5found?$AA@ (`string')
+0E4 00000000 SECT29 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum A815D238, selection    2 (pick any)
+0E6 00000000 SECT29 notype       External     | ??_C@_0BJ@LOCFCDEI@OutputPluginPrepareWrite?$AA@ (`string')
+0E7 00000000 SECT2A notype       Static       | .rdata
+    Section length   3F, #relocs    0, #linenums    0, checksum 73ECA7B5, selection    2 (pick any)
+0E9 00000000 SECT2A notype       External     | ??_C@_0DP@GELJICKO@writes?5are?5only?5accepted?5in?5comm@ (`string')
+0EA 00000000 SECT2B notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum   5D0492, selection    2 (pick any)
+0EC 00000000 SECT2B notype       External     | ??_C@_0BC@JILJDECA@OutputPluginWrite?$AA@ (`string')
+0ED 00000000 SECT2C notype       Static       | .rdata
+    Section length   45, #relocs    0, #linenums    0, checksum DC56E9A7, selection    2 (pick any)
+0EF 00000000 SECT2C notype       External     | ??_C@_0EF@FJNMPBOO@OutputPluginPrepareWrite?5needs?5t@ (`string')
+0F0 00000000 SECT2D notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum FC824CED, selection    2 (pick any)
+0F2 00000000 SECT2D notype       External     | ??_C@_0BH@HBNNJHFG@_PG_output_plugin_init?$AA@ (`string')
+0F3 00000000 SECT2E notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 6A914657, selection    2 (pick any)
+0F5 00000000 SECT2E notype       External     | ??_C@_0BB@FMIBEIBF@LoadOutputPlugin?$AA@ (`string')
+0F6 00000000 SECT2F notype       Static       | .rdata
+    Section length   41, #relocs    0, #linenums    0, checksum FA79A46B, selection    2 (pick any)
+0F8 00000000 SECT2F notype       External     | ??_C@_0EB@BIELKMOD@output?5plugins?5have?5to?5declare?5t@ (`string')
+0F9 00000000 SECT30 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum 5207BA04, selection    2 (pick any)
+0FB 00000000 SECT30 notype       External     | ??_C@_0DB@PPGNEFAO@output?5plugins?5have?5to?5register?5@ (`string')
+0FC 00000000 SECT31 notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum 759953E7, selection    2 (pick any)
+0FE 00000000 SECT31 notype       External     | ??_C@_0DC@JFOBNAAG@output?5plugins?5have?5to?5register?5@ (`string')
+0FF 00000000 SECT32 notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum FFEE690B, selection    2 (pick any)
+101 00000000 SECT32 notype       External     | ??_C@_0DC@BPJGOKOK@output?5plugins?5have?5to?5register?5@ (`string')
+102 00000000 SECT33 notype       Static       | .rdata
+    Section length   48, #relocs    0, #linenums    0, checksum EA7476AB, selection    2 (pick any)
+104 00000000 SECT33 notype       External     | ??_C@_0EI@BKEJDCAG@slot?5?$CC?$CFs?$CC?0?5output?5plugin?5?$CC?$CFs?$CC?0?5i@ (`string')
+105 00000000 SECT34 notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum E5E543C3, selection    2 (pick any)
+107 00000000 SECT34 notype       External     | ??_C@_0DC@FJNMACC@slot?5?$CC?$CFs?$CC?0?5output?5plugin?5?$CC?$CFs?$CC?0?5i@ (`string')
+108 00000000 SECT35 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum E31AE99D, selection    2 (pick any)
+10A 00000000 SECT35 notype       External     | ??_C@_07HJMHMJAL@startup?$AA@ (`string')
+10B 00000000 SECT36 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 41F4FA61, selection    2 (pick any)
+10D 00000000 SECT36 notype       External     | ??_C@_08FIACBBDA@shutdown?$AA@ (`string')
+10E 00000000 SECT37 notype       Static       | .rdata
+    Section length    6, #relocs    0, #linenums    0, checksum  E672F50, selection    2 (pick any)
+110 00000000 SECT37 notype       External     | ??_C@_05EAFKHBAM@begin?$AA@ (`string')
+111 00000000 SECT38 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum E7473B88, selection    2 (pick any)
+113 00000000 SECT38 notype       External     | ??_C@_06IFNEBLAJ@commit?$AA@ (`string')
+114 00000000 SECT39 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 744047C5, selection    2 (pick any)
+116 00000000 SECT39 notype       External     | ??_C@_06BGNDGHEE@change?$AA@ (`string')
+117 00000000 SECT3A notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 44A350AD, selection    2 (pick any)
+119 00000000 SECT3A notype       External     | ??_C@_0BB@HCLDFOOP@filter_by_origin?$AA@ (`string')
+11A 00000000 SECT3B notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 772CE179, selection    2 (pick any)
+11C 00000000 SECT3B notype       External     | ??_C@_07ONPBMBOP@message?$AA@ (`string')
+11D 00000000 SECT3C notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 8183D099, selection    2 (pick any)
+11F 00000000 SECT3C notype       External     | ??_C@_0BL@GEAGHNNF@LogicalIncreaseXminForSlot?$AA@ (`string')
+120 00000000 SECT3D notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 73E26F96, selection    2 (pick any)
+122 00000000 SECT3D notype       External     | ??_C@_0CG@BEOEALNK@LogicalIncreaseRestartDecodingFo@ (`string')
+123 00000000 SECT3E notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 9D8BB0CE, selection    2 (pick any)
+125 00000000 SECT3E notype       External     | ??_C@_0CD@GLIMBIAG@got?5new?5restart?5lsn?5?$CFX?1?$CFX?5at?5?$CFX?1@ (`string')
+126 00000000 SECT3F notype       Static       | .rdata
+    Section length   7F, #relocs    0, #linenums    0, checksum BF08D665, selection    2 (pick any)
+128 00000000 SECT3F notype       External     | ??_C@_0HP@DAJIGDAA@failed?5to?5increase?5restart?5lsn?3?5@ (`string')
+129 00000000 SECT40 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum B4DB77FF, selection    2 (pick any)
+12B 00000000 SECT40 notype       External     | ??_C@_0BP@CCCNCELA@LogicalConfirmReceivedLocation?$AA@ (`string')
+12C 00000000 SECT41 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum BAE3470E, selection    2 (pick any)
+12E 00000000 SECT41 notype       External     | ??_C@_0BN@EOEIHNNH@updated?5xmin?3?5?$CFu?5restart?3?5?$CFu?$AA@ (`string')
+
+String Table Size = 0x13E1 bytes
+
+  Summary
+
+        7708 .debug$S
+          68 .debug$T
+          5D .drectve
+          F0 .pdata
+         71D .rdata
+        1453 .text$mn
+         110 .xdata

@@ -1,0 +1,212 @@
+
+Dump of file Release\postgres/xloginsert.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 61F8, #relocs  148, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  BFD, #relocs   A9, #linenums    0, checksum 74CE21B9
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   E0, #relocs    7, #linenums    0, checksum F3A494EE, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  350, #relocs   20, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  4E5, #relocs   1A, #linenums    0, checksum 346189AB, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  C80, #relocs   8E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | elog_start
+013 00000000 UNDEF  notype ()    External     | elog_finish
+014 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+015 00000000 UNDEF  notype ()    External     | MemoryContextAllocZero
+016 00000000 UNDEF  notype ()    External     | repalloc
+017 00000000 UNDEF  notype ()    External     | GetCurrentTransactionIdIfAny
+018 00000000 SECT4  notype ()    External     | XLogBeginInsert
+019 00000080 SECT4  notype ()    External     | XLogSetRecordFlags
+01A 00000090 SECT4  notype ()    External     | XLogInsert
+01B 000001B0 SECT4  notype ()    External     | XLogEnsureRecordSpace
+01C 000002E0 SECT4  notype ()    External     | XLogRegisterData
+01D 00000380 SECT4  notype ()    External     | XLogRegisterBuffer
+01E 00000470 SECT4  notype ()    External     | XLogRegisterBlock
+01F 00000540 SECT4  notype ()    External     | XLogRegisterBufData
+020 00000630 SECT4  notype ()    External     | XLogResetInsertion
+021 000006A0 SECT4  notype ()    External     | XLogCheckBufferNeedsBackup
+022 00000710 SECT4  notype ()    External     | log_newpage
+023 000007B0 SECT4  notype ()    External     | log_newpage_buffer
+024 00000910 SECT4  notype ()    External     | XLogSaveBufferForHint
+025 00000B40 SECT4  notype ()    External     | InitXLogInsert
+026 00000000 UNDEF  notype ()    External     | XLogInsertRecord
+027 00000000 UNDEF  notype ()    External     | XLogInsertAllowed
+028 00000000 UNDEF  notype ()    External     | GetFullPageWriteInfo
+029 00000000 UNDEF  notype ()    External     | GetRedoRecPtr
+02A 00000000 UNDEF  notype ()    External     | pglz_compress
+02B 00000000 UNDEF  notype ()    External     | BufferGetLSNAtomic
+02C 00000000 UNDEF  notype ()    External     | BufferGetTag
+02D 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+02E 00000000 SECT7  notype ()    Static       | XLogRecordAssemble
+02F 00000000 SECT5  notype ()    Static       | XLogCompressBackupBlock
+030 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+031 00000000 UNDEF  notype ()    External     | __chkstk
+032 00000000 UNDEF  notype ()    External     | __security_check_cookie
+033 00000000 UNDEF  notype ()    External     | memcpy
+034 00000000 UNDEF  notype ()    External     | memset
+035 00000000 SECT4  notype       Label        | $LN15
+036 00000090 SECT4  notype       Label        | $LN29
+037 000001B0 SECT4  notype       Label        | $LN26
+038 000002E0 SECT4  notype       Label        | $LN9
+039 00000380 SECT4  notype       Label        | $LN12
+03A 00000470 SECT4  notype       Label        | $LN10
+03B 00000540 SECT4  notype       Label        | $LN14
+03C 000006A0 SECT4  notype       Label        | $LN7
+03D 00000710 SECT4  notype       Label        | $LN7
+03E 000007B0 SECT4  notype       Label        | $LN21
+03F 00000910 SECT4  notype       Label        | $LN23
+040 00000B40 SECT4  notype       Label        | $LN8
+041 00000000 SECT9  notype       Static       | .xdata
+    Section length  114, #relocs    E, #linenums    0, checksum 3F01C541
+043 00000000 SECT9  notype       Static       | $unwind$XLogBeginInsert
+044 00000000 SECTA  notype       Static       | .pdata
+    Section length   C0, #relocs   30, #linenums    0, checksum 5DB71665
+046 00000000 SECTA  notype       Static       | $pdata$XLogBeginInsert
+047 00000008 SECT9  notype       Static       | $unwind$XLogInsert
+048 0000000C SECTA  notype       Static       | $pdata$XLogInsert
+049 00000018 SECT9  notype       Static       | $unwind$XLogEnsureRecordSpace
+04A 00000018 SECTA  notype       Static       | $pdata$XLogEnsureRecordSpace
+04B 00000024 SECT9  notype       Static       | $unwind$XLogRegisterData
+04C 00000024 SECTA  notype       Static       | $pdata$XLogRegisterData
+04D 00000030 SECT9  notype       Static       | $unwind$XLogRegisterBuffer
+04E 00000030 SECTA  notype       Static       | $pdata$XLogRegisterBuffer
+04F 00000044 SECT9  notype       Static       | $unwind$XLogRegisterBlock
+050 0000003C SECTA  notype       Static       | $pdata$XLogRegisterBlock
+051 00000058 SECT9  notype       Static       | $unwind$XLogRegisterBufData
+052 00000048 SECTA  notype       Static       | $pdata$XLogRegisterBufData
+053 0000006C SECT9  notype       Static       | $unwind$XLogCheckBufferNeedsBackup
+054 00000054 SECTA  notype       Static       | $pdata$XLogCheckBufferNeedsBackup
+055 00000074 SECT9  notype       Static       | $unwind$log_newpage
+056 00000060 SECTA  notype       Static       | $pdata$log_newpage
+057 0000008C SECT9  notype       Static       | $unwind$log_newpage_buffer
+058 0000006C SECTA  notype       Static       | $pdata$log_newpage_buffer
+059 000000AC SECT9  notype       Static       | $unwind$XLogSaveBufferForHint
+05A 00000078 SECTA  notype       Static       | $pdata$XLogSaveBufferForHint
+05B 000000C4 SECT9  notype       Static       | $chain$0$XLogSaveBufferForHint
+05C 00000084 SECTA  notype       Static       | $pdata$0$XLogSaveBufferForHint
+05D 000000D8 SECT9  notype       Static       | $chain$1$XLogSaveBufferForHint
+05E 00000090 SECTA  notype       Static       | $pdata$1$XLogSaveBufferForHint
+05F 000000EC SECT9  notype       Static       | $chain$2$XLogSaveBufferForHint
+060 0000009C SECTA  notype       Static       | $pdata$2$XLogSaveBufferForHint
+061 000000FC SECT9  notype       Static       | $chain$3$XLogSaveBufferForHint
+062 000000A8 SECTA  notype       Static       | $pdata$3$XLogSaveBufferForHint
+063 0000010C SECT9  notype       Static       | $unwind$InitXLogInsert
+064 000000B4 SECTA  notype       Static       | $pdata$InitXLogInsert
+065 00000000 SECTB  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum F27EF424, selection    5 (pick associative Section 0x7)
+067 00000000 SECTB  notype       Static       | $unwind$XLogRecordAssemble
+068 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3F7F0F16, selection    5 (pick associative Section 0x7)
+06A 00000000 SECTC  notype       Static       | $pdata$XLogRecordAssemble
+06B 00000000 SECTD  notype       Static       | .xdata
+    Section length   20, #relocs    1, #linenums    0, checksum 56E16D59, selection    5 (pick associative Section 0x5)
+06D 00000000 SECTD  notype       Static       | $unwind$XLogCompressBackupBlock
+06E 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 83D02561, selection    5 (pick associative Section 0x5)
+070 00000000 SECTE  notype       Static       | $pdata$XLogCompressBackupBlock
+071 00000000 UNDEF  notype       External     | pg_comp_crc32c
+072 00000000 UNDEF  notype       External     | wal_compression
+073 00000000 UNDEF  notype       External     | wal_consistency_checking
+074 00000000 UNDEF  notype       External     | PGLZ_strategy_default
+075 00000000 UNDEF  notype       External     | Mode
+076 00000000 UNDEF  notype       External     | replorigin_session_origin
+077 00000000 UNDEF  notype       External     | BufferBlocks
+078 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+079 00000000 UNDEF  notype       External     | TopMemoryContext
+07A 00000000 SECTF  notype       Static       | .bss
+    Section length   58, #relocs    0, #linenums    0, checksum        0
+07C 00000000 SECTF  notype       Static       | registered_buffers
+07D 00000008 SECTF  notype       Static       | max_registered_buffers
+07E 0000000C SECTF  notype       Static       | max_registered_block_id
+07F 00000010 SECTF  notype       Static       | mainrdata_head
+080 00000000 SECT10 notype       Static       | .data
+    Section length    8, #relocs    1, #linenums    0, checksum        0
+082 00000000 SECT10 notype       Static       | mainrdata_last
+083 00000018 SECTF  notype       Static       | mainrdata_len
+084 0000001C SECTF  notype       Static       | curinsert_flags
+085 00000020 SECTF  notype       Static       | hdr_rdt
+086 00000038 SECTF  notype       Static       | hdr_scratch
+087 00000040 SECTF  notype       Static       | rdatas
+088 00000048 SECTF  notype       Static       | num_rdatas
+089 0000004C SECTF  notype       Static       | max_rdatas
+08A 0000001D SECTF  notype       Static       | begininsert_called
+08B 00000050 SECTF  notype       Static       | xloginsert_cxt
+08C 00000000 SECT11 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 2B0D2863, selection    2 (pick any)
+08E 00000000 SECT11 notype       External     | ??_C@_0BA@DIEJJMMJ@XLogBeginInsert?$AA@ (`string')
+08F 00000000 SECT12 notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum  F7DE50B, selection    2 (pick any)
+091 00000000 SECT12 notype       External     | ??_C@_0CI@BJGOCHEF@src?1backend?1access?1transam?1xlogi@ (`string')
+092 00000000 SECT13 notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum 77839269, selection    2 (pick any)
+094 00000000 SECT13 notype       External     | ??_C@_0CM@LFIALIK@cannot?5make?5new?5WAL?5entries?5duri@ (`string')
+095 00000000 SECT14 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 1DCE44DC, selection    2 (pick any)
+097 00000000 SECT14 notype       External     | ??_C@_0CD@OLMJOMBE@XLogBeginInsert?5was?5already?5call@ (`string')
+098 00000000 SECT15 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum A72B4C18, selection    2 (pick any)
+09A 00000000 SECT15 notype       External     | ??_C@_0BG@PAPNACAH@XLogEnsureRecordSpace?$AA@ (`string')
+09B 00000000 SECT16 notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum 3B199275, selection    2 (pick any)
+09D 00000000 SECT16 notype       External     | ??_C@_0DH@NFNNKPML@maximum?5number?5of?5WAL?5record?5blo@ (`string')
+09E 00000000 SECT17 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum DBE86F25, selection    2 (pick any)
+0A0 00000000 SECT17 notype       External     | ??_C@_0BD@POBPFJLF@XLogRegisterBuffer?$AA@ (`string')
+0A1 00000000 SECT18 notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum  675D53C, selection    2 (pick any)
+0A3 00000000 SECT18 notype       External     | ??_C@_0BM@HJPKFNCK@too?5many?5registered?5buffers?$AA@ (`string')
+0A4 00000000 SECT19 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 651DB626, selection    2 (pick any)
+0A6 00000000 SECT19 notype       External     | ??_C@_0BC@PNPJIGJE@XLogRegisterBlock?$AA@ (`string')
+0A7 00000000 SECT1A notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 28605BE6, selection    2 (pick any)
+0A9 00000000 SECT1A notype       External     | ??_C@_0BB@BOHAFFKE@XLogRegisterData?$AA@ (`string')
+0AA 00000000 SECT1B notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 99862670, selection    2 (pick any)
+0AC 00000000 SECT1B notype       External     | ??_C@_0BC@BGCBGMC@too?5much?5WAL?5data?$AA@ (`string')
+0AD 00000000 SECT1C notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum  7D7F14F, selection    2 (pick any)
+0AF 00000000 SECT1C notype       External     | ??_C@_0BE@PHPNJFDN@XLogRegisterBufData?$AA@ (`string')
+0B0 00000000 SECT1D notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum 7CD096F5, selection    2 (pick any)
+0B2 00000000 SECT1D notype       External     | ??_C@_0DC@JMKIBFBE@no?5block?5with?5id?5?$CFd?5registered?5w@ (`string')
+0B3 00000000 SECT1E notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum 52CEFFFA, selection    2 (pick any)
+0B5 00000000 SECT1E notype       External     | ??_C@_0L@MGLGLBOJ@XLogInsert?$AA@ (`string')
+0B6 00000000 SECT1F notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 6A70B08E, selection    2 (pick any)
+0B8 00000000 SECT1F notype       External     | ??_C@_0BP@PMIGODMB@XLogBeginInsert?5was?5not?5called?$AA@ (`string')
+0B9 00000000 SECT20 notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum D3BE6BEC, selection    2 (pick any)
+0BB 00000000 SECT20 notype       External     | ??_C@_0BM@KMDBODPK@invalid?5xlog?5info?5mask?5?$CF02X?$AA@ (`string')
+0BC 00000000 SECT21 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 8C12034F, selection    2 (pick any)
+0BE 00000000 SECT21 notype       External     | ??_C@_0BI@NACMDGJA@WAL?5record?5construction?$AA@ (`string')
+0BF 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0xAD5 bytes
+
+  Summary
+
+          58 .bss
+           8 .data
+        71C8 .debug$S
+          68 .debug$T
+          5D .drectve
+          D8 .pdata
+         1DC .rdata
+        11C2 .text$mn
+         14C .xdata

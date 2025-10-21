@@ -1,0 +1,317 @@
+
+Dump of file Release\postgres/syncrep.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5878, #relocs   EE, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       External     | SyncRepConfig
+00B 00000008 UNDEF  notype       External     | SyncRepStandbyNames
+00C 00000000 SECT5  notype       Static       | .text$mn
+    Section length  B68, #relocs   AF, #linenums    0, checksum 764859A5
+00E 00000000 SECT6  notype       Static       | .text$mn
+    Section length   6B, #relocs    9, #linenums    0, checksum F615189D, selection    1 (pick no duplicates)
+010 00000000 SECT7  notype       Static       | .debug$S
+    Section length   E0, #relocs    4, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+012 00000000 SECT8  notype       Static       | .text$mn
+    Section length  1C3, #relocs   10, #linenums    0, checksum 546C1966, selection    1 (pick no duplicates)
+014 00000000 SECT9  notype       Static       | .debug$S
+    Section length  464, #relocs   2A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x8)
+016 00000000 SECTA  notype       Static       | .text$mn
+    Section length   D7, #relocs    9, #linenums    0, checksum 2C973A49, selection    1 (pick no duplicates)
+018 00000000 SECTB  notype       Static       | .debug$S
+    Section length  1AC, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0xA)
+01A 00000000 SECTC  notype       Static       | .text$mn
+    Section length  297, #relocs   15, #linenums    0, checksum 4E6367FA, selection    1 (pick no duplicates)
+01C 00000000 SECTD  notype       Static       | .debug$S
+    Section length  824, #relocs   60, #linenums    0, checksum        0, selection    5 (pick associative Section 0xC)
+01E 00000000 SECTE  notype       Static       | .text$mn
+    Section length   FA, #relocs    8, #linenums    0, checksum FE251382, selection    1 (pick no duplicates)
+020 00000000 SECTF  notype       Static       | .debug$S
+    Section length  294, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0xE)
+022 00000000 SECT10 notype       Static       | .text$mn
+    Section length   A2, #relocs    9, #linenums    0, checksum C29F6F60, selection    1 (pick no duplicates)
+024 00000000 SECT11 notype       Static       | .debug$S
+    Section length  178, #relocs    A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x10)
+026 00000000 SECT12 notype       Static       | .text$mn
+    Section length   CE, #relocs    6, #linenums    0, checksum  9EF1580, selection    1 (pick no duplicates)
+028 00000000 SECT13 notype       Static       | .debug$S
+    Section length  208, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x12)
+02A 00000000 UNDEF  notype       External     | __imp_malloc
+02B 00000000 UNDEF  notype       External     | __imp__errno
+02C 00000000 UNDEF  notype ()    External     | pg_strcasecmp
+02D 00000000 UNDEF  notype ()    External     | pg_sprintf
+02E 00000000 UNDEF  notype ()    External     | pg_qsort
+02F 00000000 UNDEF  notype ()    External     | errstart
+030 00000000 UNDEF  notype ()    External     | errfinish
+031 00000000 UNDEF  notype ()    External     | errcode
+032 00000000 UNDEF  notype ()    External     | errmsg
+033 00000000 UNDEF  notype ()    External     | errdetail
+034 00000000 UNDEF  notype ()    External     | elog_start
+035 00000000 UNDEF  notype ()    External     | elog_finish
+036 00000000 UNDEF  notype ()    External     | pre_format_elog_string
+037 00000000 UNDEF  notype ()    External     | format_elog_string
+038 00000000 UNDEF  notype ()    External     | palloc
+039 00000000 UNDEF  notype ()    External     | pfree
+03A 00000000 UNDEF  notype ()    External     | lappend_int
+03B 00000000 UNDEF  notype ()    External     | list_concat
+03C 00000000 UNDEF  notype ()    External     | list_delete_cell
+03D 00000000 UNDEF  notype ()    External     | list_free
+03E 00000000 UNDEF  notype ()    External     | SetLatch
+03F 00000000 UNDEF  notype ()    External     | ResetLatch
+040 00000000 UNDEF  notype ()    External     | WaitLatch
+041 00000000 UNDEF  notype ()    External     | s_lock
+042 00000000 UNDEF  notype ()    External     | LWLockAcquire
+043 00000000 UNDEF  notype ()    External     | LWLockRelease
+044 00000000 UNDEF  notype ()    External     | SHMQueueDelete
+045 00000000 UNDEF  notype ()    External     | SHMQueueInsertAfter
+046 00000000 UNDEF  notype ()    External     | SHMQueueNext
+047 00000000 UNDEF  notype ()    External     | SHMQueuePrev
+048 00000000 UNDEF  notype ()    External     | SHMQueueIsDetached
+049 00000000 UNDEF  notype ()    External     | GUC_check_errcode
+04A 00000000 SECT5  notype ()    External     | SyncRepWaitForLSN
+04B 000002F0 SECT5  notype ()    External     | SyncRepCleanupAtProcExit
+04C 00000360 SECT5  notype ()    External     | SyncRepInitConfig
+04D 00000410 SECT5  notype ()    External     | SyncRepReleaseWaiters
+04E 00000830 SECT5  notype ()    External     | SyncRepGetSyncStandbys
+04F 00000860 SECT5  notype ()    External     | SyncRepUpdateSyncStandbysDefined
+050 00000990 SECT5  notype ()    External     | check_synchronous_standby_names
+051 00000AF0 SECT5  notype ()    External     | assign_synchronous_standby_names
+052 00000B00 SECT5  notype ()    External     | assign_synchronous_commit
+053 00000000 UNDEF  notype ()    External     | syncrep_yyparse
+054 00000000 UNDEF  notype ()    External     | syncrep_scanner_init
+055 00000000 UNDEF  notype ()    External     | syncrep_scanner_finish
+056 00000000 UNDEF  notype ()    External     | PostmasterIsAlive
+057 00000000 UNDEF  notype ()    External     | set_ps_display
+058 00000000 UNDEF  notype ()    External     | get_ps_display
+059 00000000 SECT10 notype ()    Static       | SyncRepQueueInsert
+05A 00000000 SECT6  notype ()    Static       | SyncRepCancelWait
+05B 00000000 SECT12 notype ()    Static       | SyncRepWakeQueue
+05C 00000000 SECT8  notype ()    Static       | SyncRepGetNthLatestSyncRecPtr
+05D 00000000 SECTA  notype ()    Static       | SyncRepGetStandbyPriority
+05E 00000000 SECTC  notype ()    Static       | SyncRepGetSyncStandbysPriority
+05F 00000000 SECTE  notype ()    Static       | SyncRepGetSyncStandbysQuorum
+060 00000B50 SECT5  notype ()    Static       | cmp_lsn
+061 00000000 UNDEF  notype ()    External     | memcpy
+062 00000000 SECT5  notype       Label        | $LN38
+063 000002F0 SECT5  notype       Label        | $LN5
+064 00000360 SECT5  notype       Label        | $LN10
+065 00000410 SECT5  notype       Label        | $LN73
+066 00000860 SECT5  notype       Label        | $LN25
+067 00000990 SECT5  notype       Label        | $LN14
+068 00000000 SECT14 notype       Static       | .xdata
+    Section length  10C, #relocs   1B, #linenums    0, checksum 3601F627
+06A 00000000 SECT14 notype       Static       | $unwind$SyncRepWaitForLSN
+06B 00000000 SECT15 notype       Static       | .pdata
+    Section length   B4, #relocs   2D, #linenums    0, checksum D9874CC2
+06D 00000000 SECT15 notype       Static       | $pdata$SyncRepWaitForLSN
+06E 00000014 SECT14 notype       Static       | $unwind$SyncRepCleanupAtProcExit
+06F 0000000C SECT15 notype       Static       | $pdata$SyncRepCleanupAtProcExit
+070 0000001C SECT14 notype       Static       | $unwind$SyncRepInitConfig
+071 00000018 SECT15 notype       Static       | $pdata$SyncRepInitConfig
+072 00000024 SECT14 notype       Static       | $unwind$SyncRepReleaseWaiters
+073 00000024 SECT15 notype       Static       | $pdata$SyncRepReleaseWaiters
+074 00000034 SECT14 notype       Static       | $chain$2$SyncRepReleaseWaiters
+075 00000030 SECT15 notype       Static       | $pdata$2$SyncRepReleaseWaiters
+076 00000050 SECT14 notype       Static       | $chain$3$SyncRepReleaseWaiters
+077 0000003C SECT15 notype       Static       | $pdata$3$SyncRepReleaseWaiters
+078 00000064 SECT14 notype       Static       | $chain$4$SyncRepReleaseWaiters
+079 00000048 SECT15 notype       Static       | $pdata$4$SyncRepReleaseWaiters
+07A 00000074 SECT14 notype       Static       | $chain$5$SyncRepReleaseWaiters
+07B 00000054 SECT15 notype       Static       | $pdata$5$SyncRepReleaseWaiters
+07C 00000088 SECT14 notype       Static       | $chain$6$SyncRepReleaseWaiters
+07D 00000060 SECT15 notype       Static       | $pdata$6$SyncRepReleaseWaiters
+07E 00000098 SECT14 notype       Static       | $chain$8$SyncRepReleaseWaiters
+07F 0000006C SECT15 notype       Static       | $pdata$8$SyncRepReleaseWaiters
+080 000000B4 SECT14 notype       Static       | $chain$9$SyncRepReleaseWaiters
+081 00000078 SECT15 notype       Static       | $pdata$9$SyncRepReleaseWaiters
+082 000000C4 SECT14 notype       Static       | $unwind$SyncRepUpdateSyncStandbysDefined
+083 00000084 SECT15 notype       Static       | $pdata$SyncRepUpdateSyncStandbysDefined
+084 000000CC SECT14 notype       Static       | $chain$4$SyncRepUpdateSyncStandbysDefined
+085 00000090 SECT15 notype       Static       | $pdata$4$SyncRepUpdateSyncStandbysDefined
+086 000000F0 SECT14 notype       Static       | $chain$5$SyncRepUpdateSyncStandbysDefined
+087 0000009C SECT15 notype       Static       | $pdata$5$SyncRepUpdateSyncStandbysDefined
+088 00000100 SECT14 notype       Static       | $unwind$check_synchronous_standby_names
+089 000000A8 SECT15 notype       Static       | $pdata$check_synchronous_standby_names
+08A 00000000 SECT16 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum F4D9A8A3, selection    5 (pick associative Section 0x10)
+08C 00000000 SECT16 notype       Static       | $unwind$SyncRepQueueInsert
+08D 00000000 SECT17 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E868E0F1, selection    5 (pick associative Section 0x10)
+08F 00000000 SECT17 notype       Static       | $pdata$SyncRepQueueInsert
+090 00000000 SECT18 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum  FC539D1, selection    5 (pick associative Section 0x6)
+092 00000000 SECT18 notype       Static       | $unwind$SyncRepCancelWait
+093 00000000 SECT19 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8D81BCED, selection    5 (pick associative Section 0x6)
+095 00000000 SECT19 notype       Static       | $pdata$SyncRepCancelWait
+096 00000000 SECT1A notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum  B87DB6D, selection    5 (pick associative Section 0x12)
+098 00000000 SECT1A notype       Static       | $unwind$SyncRepWakeQueue
+099 00000000 SECT1B notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6F2C5505, selection    5 (pick associative Section 0x12)
+09B 00000000 SECT1B notype       Static       | $pdata$SyncRepWakeQueue
+09C 00000000 SECT1C notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 5CFAF1C8, selection    5 (pick associative Section 0x8)
+09E 00000000 SECT1C notype       Static       | $unwind$SyncRepGetNthLatestSyncRecPtr
+09F 00000000 SECT1D notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E4B09FF4, selection    5 (pick associative Section 0x8)
+0A1 00000000 SECT1D notype       Static       | $pdata$SyncRepGetNthLatestSyncRecPtr
+0A2 00000000 SECT1E notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 47BCCA00, selection    5 (pick associative Section 0x8)
+0A4 00000000 SECT1E notype       Static       | $chain$1$SyncRepGetNthLatestSyncRecPtr
+0A5 00000000 SECT1F notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A04AC5FC, selection    5 (pick associative Section 0x8)
+0A7 00000000 SECT1F notype       Static       | $pdata$1$SyncRepGetNthLatestSyncRecPtr
+0A8 00000000 SECT20 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 5DE77518, selection    5 (pick associative Section 0x8)
+0AA 00000000 SECT20 notype       Static       | $chain$2$SyncRepGetNthLatestSyncRecPtr
+0AB 00000000 SECT21 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 70F5DCBC, selection    5 (pick associative Section 0x8)
+0AD 00000000 SECT21 notype       Static       | $pdata$2$SyncRepGetNthLatestSyncRecPtr
+0AE 00000000 SECT22 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum  FC539D1, selection    5 (pick associative Section 0xA)
+0B0 00000000 SECT22 notype       Static       | $unwind$SyncRepGetStandbyPriority
+0B1 00000000 SECT23 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 496753E3, selection    5 (pick associative Section 0xA)
+0B3 00000000 SECT23 notype       Static       | $pdata$SyncRepGetStandbyPriority
+0B4 00000000 SECT24 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 94F1CB0B, selection    5 (pick associative Section 0xA)
+0B6 00000000 SECT24 notype       Static       | $chain$2$SyncRepGetStandbyPriority
+0B7 00000000 SECT25 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D7F5AB2F, selection    5 (pick associative Section 0xA)
+0B9 00000000 SECT25 notype       Static       | $pdata$2$SyncRepGetStandbyPriority
+0BA 00000000 SECT26 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum C6C06326, selection    5 (pick associative Section 0xA)
+0BC 00000000 SECT26 notype       Static       | $chain$4$SyncRepGetStandbyPriority
+0BD 00000000 SECT27 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  FA8F411, selection    5 (pick associative Section 0xA)
+0BF 00000000 SECT27 notype       Static       | $pdata$4$SyncRepGetStandbyPriority
+0C0 00000000 SECT28 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 332DE650, selection    5 (pick associative Section 0xC)
+0C2 00000000 SECT28 notype       Static       | $unwind$SyncRepGetSyncStandbysPriority
+0C3 00000000 SECT29 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B2DAACC1, selection    5 (pick associative Section 0xC)
+0C5 00000000 SECT29 notype       Static       | $pdata$SyncRepGetSyncStandbysPriority
+0C6 00000000 SECT2A notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 28829D5F, selection    5 (pick associative Section 0xE)
+0C8 00000000 SECT2A notype       Static       | $unwind$SyncRepGetSyncStandbysQuorum
+0C9 00000000 SECT2B notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B1966C32, selection    5 (pick associative Section 0xE)
+0CB 00000000 SECT2B notype       Static       | $pdata$SyncRepGetSyncStandbysQuorum
+0CC 00000000 SECT2C notype       Static       | .xdata
+    Section length   20, #relocs    3, #linenums    0, checksum  5B74AF9, selection    5 (pick associative Section 0xE)
+0CE 00000000 SECT2C notype       Static       | $chain$3$SyncRepGetSyncStandbysQuorum
+0CF 00000000 SECT2D notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5E2895DF, selection    5 (pick associative Section 0xE)
+0D1 00000000 SECT2D notype       Static       | $pdata$3$SyncRepGetSyncStandbysQuorum
+0D2 00000000 SECT2E notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum  8C186DE, selection    5 (pick associative Section 0xE)
+0D4 00000000 SECT2E notype       Static       | $chain$4$SyncRepGetSyncStandbysQuorum
+0D5 00000000 SECT2F notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 57ACAF64, selection    5 (pick associative Section 0xE)
+0D7 00000000 SECT2F notype       Static       | $pdata$4$SyncRepGetSyncStandbysQuorum
+0D8 00000000 UNDEF  notype       External     | synchronous_commit
+0D9 00000000 UNDEF  notype       External     | QueryCancelPending
+0DA 00000000 UNDEF  notype       External     | ProcDiePending
+0DB 00000000 UNDEF  notype       External     | MyLatch
+0DC 00000000 UNDEF  notype       External     | MainLWLockArray
+0DD 00000000 UNDEF  notype       External     | MyProc
+0DE 00000000 UNDEF  notype       External     | application_name
+0DF 00000000 UNDEF  notype       External     | GUC_check_errmsg_string
+0E0 00000000 UNDEF  notype       External     | GUC_check_errdetail_string
+0E1 00000000 UNDEF  notype       External     | syncrep_parse_result
+0E2 00000000 UNDEF  notype       External     | syncrep_parse_error_msg
+0E3 00000000 UNDEF  notype       External     | am_cascading_walsender
+0E4 00000000 UNDEF  notype       External     | max_wal_senders
+0E5 00000000 UNDEF  notype       External     | MyWalSnd
+0E6 00000000 UNDEF  notype       External     | WalSndCtl
+0E7 00000000 UNDEF  notype       External     | whereToSendOutput
+0E8 00000000 UNDEF  notype       External     | update_process_title
+0E9 00000000 SECT30 notype       Static       | .data
+    Section length    8, #relocs    0, #linenums    0, checksum 1211207D
+0EB 00000000 SECT30 notype       Static       | announce_next_takeover
+0EC 00000004 SECT30 notype       Static       | SyncRepWaitMode
+0ED 00000000 SECT31 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum  B0F8DB7, selection    2 (pick any)
+0EF 00000000 SECT31 notype       External     | ??_C@_0BD@COPILLCH@?5waiting?5for?5?$CFX?1?$CFX?$AA@ (`string')
+0F0 00000000 SECT32 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum FB0A5C73, selection    2 (pick any)
+0F2 00000000 SECT32 notype       External     | ??_C@_0BC@GDOOGMMB@SyncRepWaitForLSN?$AA@ (`string')
+0F3 00000000 SECT33 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 973026E4, selection    2 (pick any)
+0F5 00000000 SECT33 notype       External     | ??_C@_0CC@CJLOLFDB@src?1backend?1replication?1syncrep?4@ (`string')
+0F6 00000000 SECT34 notype       Static       | .rdata
+    Section length   62, #relocs    0, #linenums    0, checksum 931358F2, selection    2 (pick any)
+0F8 00000000 SECT34 notype       External     | ??_C@_0GC@CAGJALLG@The?5transaction?5has?5already?5comm@ (`string')
+0F9 00000000 SECT35 notype       Static       | .rdata
+    Section length   67, #relocs    0, #linenums    0, checksum D044268B, selection    2 (pick any)
+0FB 00000000 SECT35 notype       External     | ??_C@_0GH@DCABGILD@canceling?5the?5wait?5for?5synchrono@ (`string')
+0FC 00000000 SECT36 notype       Static       | .rdata
+    Section length   3F, #relocs    0, #linenums    0, checksum B3B0D2AE, selection    2 (pick any)
+0FE 00000000 SECT36 notype       External     | ??_C@_0DP@KEOFPHLF@canceling?5wait?5for?5synchronous?5r@ (`string')
+0FF 00000000 SECT37 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum A39C0DE0, selection    2 (pick any)
+101 00000000 SECT37 notype       External     | ??_C@_0BC@DLHIDNFC@SyncRepInitConfig?$AA@ (`string')
+102 00000000 SECT38 notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum C086B93D, selection    2 (pick any)
+104 00000000 SECT38 notype       External     | ??_C@_0DF@CGNGDBMM@standby?5?$CC?$CFs?$CC?5now?5has?5synchronous@ (`string')
+105 00000000 SECT39 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 61C8979F, selection    2 (pick any)
+107 00000000 SECT39 notype       External     | ??_C@_0BG@DGBONJIA@SyncRepReleaseWaiters?$AA@ (`string')
+108 00000000 SECT3A notype       Static       | .rdata
+    Section length   3B, #relocs    0, #linenums    0, checksum EFBA647E, selection    2 (pick any)
+10A 00000000 SECT3A notype       External     | ??_C@_0DL@NGIAPGCB@standby?5?$CC?$CFs?$CC?5is?5now?5a?5synchronou@ (`string')
+10B 00000000 SECT3B notype       Static       | .rdata
+    Section length   3F, #relocs    0, #linenums    0, checksum A11D8C91, selection    2 (pick any)
+10D 00000000 SECT3B notype       External     | ??_C@_0DP@LGEIKJIK@standby?5?$CC?$CFs?$CC?5is?5now?5a?5candidate?5@ (`string')
+10E 00000000 SECT3C notype       Static       | .rdata
+    Section length   5C, #relocs    0, #linenums    0, checksum 9F5FDB52, selection    2 (pick any)
+110 00000000 SECT3C notype       External     | ??_C@_0FM@KCBFACEK@released?5?$CFd?5procs?5up?5to?5write?5?$CFX@ (`string')
+111 00000000 SECT3D notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 281DBB8A, selection    2 (pick any)
+113 00000000 SECT3D notype       External     | ??_C@_0BL@MNJIBGMG@SyncRepGetOldestSyncRecPtr?$AA@ (`string')
+114 00000000 SECT3E notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum D0F5A7ED, selection    2 (pick any)
+116 00000000 SECT3E notype       External     | ??_C@_0BO@CPAOGGKH@SyncRepGetNthLatestSyncRecPtr?$AA@ (`string')
+117 00000000 SECT3F notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 1809DE2A, selection    2 (pick any)
+119 00000000 SECT3F notype       External     | ??_C@_0BN@OMKCOEPD@SyncRepGetSyncStandbysQuorum?$AA@ (`string')
+11A 00000000 SECT40 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 5F615BA3, selection    2 (pick any)
+11C 00000000 SECT40 notype       External     | ??_C@_0BP@MJJHAIOM@SyncRepGetSyncStandbysPriority?$AA@ (`string')
+11D 00000000 SECT41 notype       Static       | .rdata
+    Section length    2, #relocs    0, #linenums    0, checksum 6F6BCC28, selection    2 (pick any)
+11F 00000000 SECT41 notype       External     | ??_C@_01NBENCBCI@?$CK?$AA@ (`string')
+120 00000000 SECT42 notype       Static       | .rdata
+    Section length    3, #relocs    0, #linenums    0, checksum 3A94AE3E, selection    2 (pick any)
+122 00000000 SECT42 notype       External     | ??_C@_02DKCKIIND@?$CFs?$AA@ (`string')
+123 00000000 SECT43 notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 92288BC5, selection    2 (pick any)
+125 00000000 SECT43 notype       External     | ??_C@_0CI@IEDLEJIL@synchronous_standby_names?5parser@ (`string')
+126 00000000 SECT44 notype       Static       | .rdata
+    Section length   3E, #relocs    0, #linenums    0, checksum DC13E339, selection    2 (pick any)
+128 00000000 SECT44 notype       External     | ??_C@_0DO@DOIILLKH@number?5of?5synchronous?5standbys?5?$CI@ (`string')
+
+String Table Size = 0x1021 bytes
+
+  Summary
+
+           8 .bss
+           8 .data
+        6DA0 .debug$S
+          68 .debug$T
+          5D .drectve
+         150 .pdata
+         362 .rdata
+        136E .text$mn
+         20C .xdata

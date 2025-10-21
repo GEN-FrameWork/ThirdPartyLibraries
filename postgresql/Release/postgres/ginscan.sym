@@ -1,0 +1,134 @@
+
+Dump of file Release\postgres/ginscan.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5A50, #relocs   62, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  5B8, #relocs   2C, #linenums    0, checksum  1C7CEBE
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  17D, #relocs    3, #linenums    0, checksum C64656BE, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  4A8, #relocs   32, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  279, #relocs    9, #linenums    0, checksum 5D7139F2, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  61C, #relocs   40, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype       External     | __imp_memmove
+013 00000000 UNDEF  notype ()    External     | errstart
+014 00000000 UNDEF  notype ()    External     | errfinish
+015 00000000 UNDEF  notype ()    External     | errcode
+016 00000000 UNDEF  notype ()    External     | errmsg
+017 00000000 UNDEF  notype ()    External     | errhint
+018 00000000 UNDEF  notype ()    External     | elog_start
+019 00000000 UNDEF  notype ()    External     | elog_finish
+01A 00000000 UNDEF  notype ()    External     | palloc
+01B 00000000 UNDEF  notype ()    External     | palloc0
+01C 00000000 UNDEF  notype ()    External     | repalloc
+01D 00000000 UNDEF  notype ()    External     | pfree
+01E 00000000 UNDEF  notype ()    External     | FunctionCall7Coll
+01F 00000000 UNDEF  notype ()    External     | tbm_free
+020 00000000 UNDEF  notype ()    External     | tbm_end_iterate
+021 00000000 UNDEF  notype ()    External     | RelationGetIndexScan
+022 00000000 UNDEF  notype ()    External     | ginGetStats
+023 00000000 UNDEF  notype ()    External     | ReleaseBuffer
+024 00000000 UNDEF  notype ()    External     | initGinState
+025 00000000 UNDEF  notype ()    External     | ginCompareEntries
+026 00000000 SECT4  notype ()    External     | ginbeginscan
+027 000000B0 SECT4  notype ()    External     | ginendscan
+028 000000F0 SECT4  notype ()    External     | ginrescan
+029 00000140 SECT4  notype ()    External     | ginNewScanKey
+02A 000004F0 SECT4  notype ()    External     | ginFreeScanKeys
+02B 00000000 UNDEF  notype ()    External     | ginInitConsistentFunction
+02C 00000000 UNDEF  notype ()    External     | MemoryContextReset
+02D 00000000 UNDEF  notype ()    External     | MemoryContextDelete
+02E 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+02F 00000000 SECT5  notype ()    Static       | ginFillScanEntry
+030 00000000 SECT7  notype ()    Static       | ginFillScanKey
+031 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+032 00000000 UNDEF  notype ()    External     | __security_check_cookie
+033 00000000 SECT4  notype       Label        | $LN4
+034 000000B0 SECT4  notype       Label        | $LN4
+035 000000F0 SECT4  notype       Label        | $LN5
+036 00000140 SECT4  notype       Label        | $LN80
+037 000004F0 SECT4  notype       Label        | $LN16
+038 00000000 SECT9  notype       Static       | .xdata
+    Section length   9C, #relocs    D, #linenums    0, checksum 42089427
+03A 00000000 SECT9  notype       Static       | $unwind$ginbeginscan
+03B 00000000 SECTA  notype       Static       | .pdata
+    Section length   6C, #relocs   1B, #linenums    0, checksum 3C40556D
+03D 00000000 SECTA  notype       Static       | $pdata$ginbeginscan
+03E 0000000C SECT9  notype       Static       | $unwind$ginendscan
+03F 0000000C SECTA  notype       Static       | $pdata$ginendscan
+040 00000014 SECT9  notype       Static       | $unwind$ginrescan
+041 00000018 SECTA  notype       Static       | $pdata$ginrescan
+042 00000020 SECT9  notype       Static       | $unwind$ginNewScanKey
+043 00000024 SECTA  notype       Static       | $pdata$ginNewScanKey
+044 00000048 SECT9  notype       Static       | $unwind$ginFreeScanKeys
+045 00000030 SECTA  notype       Static       | $pdata$ginFreeScanKeys
+046 00000050 SECT9  notype       Static       | $chain$1$ginFreeScanKeys
+047 0000003C SECTA  notype       Static       | $pdata$1$ginFreeScanKeys
+048 00000068 SECT9  notype       Static       | $chain$2$ginFreeScanKeys
+049 00000048 SECTA  notype       Static       | $pdata$2$ginFreeScanKeys
+04A 0000007C SECT9  notype       Static       | $chain$3$ginFreeScanKeys
+04B 00000054 SECTA  notype       Static       | $pdata$3$ginFreeScanKeys
+04C 0000008C SECT9  notype       Static       | $chain$4$ginFreeScanKeys
+04D 00000060 SECTA  notype       Static       | $pdata$4$ginFreeScanKeys
+04E 00000000 SECTB  notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 83BD73E6, selection    5 (pick associative Section 0x5)
+050 00000000 SECTB  notype       Static       | $unwind$ginFillScanEntry
+051 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 91228FF5, selection    5 (pick associative Section 0x5)
+053 00000000 SECTC  notype       Static       | $pdata$ginFillScanEntry
+054 00000000 SECTD  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 211C6C6A, selection    5 (pick associative Section 0x7)
+056 00000000 SECTD  notype       Static       | $unwind$ginFillScanKey
+057 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 24809B92, selection    5 (pick associative Section 0x7)
+059 00000000 SECTE  notype       Static       | $pdata$ginFillScanKey
+05A 00000000 UNDEF  notype       External     | CurrentMemoryContext
+05B 00000000 SECTF  notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 32843C70, selection    2 (pick any)
+05D 00000000 SECTF  notype       External     | ??_C@_0BL@NHABJBDM@Gin?5scan?5temporary?5context?$AA@ (`string')
+05E 00000000 SECT10 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 30C2AED8, selection    2 (pick any)
+060 00000000 SECT10 notype       External     | ??_C@_0BF@IODJJEKM@Gin?5scan?5key?5context?$AA@ (`string')
+061 00000000 SECT11 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum F243635B, selection    2 (pick any)
+063 00000000 SECT11 notype       External     | ??_C@_0P@NKGPJPED@ginFillScanKey?$AA@ (`string')
+064 00000000 SECT12 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum AFA86E1E, selection    2 (pick any)
+066 00000000 SECT12 notype       External     | ??_C@_0CB@CKCLKLGM@src?1backend?1access?1gin?1ginscan?4c@ (`string')
+067 00000000 SECT13 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 2C2162D6, selection    2 (pick any)
+069 00000000 SECT13 notype       External     | ??_C@_0BK@HMDCCDBL@unexpected?5searchMode?3?5?$CFd?$AA@ (`string')
+06A 00000000 SECT14 notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum FE8EBA4E, selection    2 (pick any)
+06C 00000000 SECT14 notype       External     | ??_C@_0O@NAMKDMHG@ginNewScanKey?$AA@ (`string')
+06D 00000000 SECT15 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum DFDEA8D8, selection    2 (pick any)
+06F 00000000 SECT15 notype       External     | ??_C@_0CE@EKJHOFPC@To?5fix?5this?0?5do?5REINDEX?5INDEX?5?$CC?$CF@ (`string')
+070 00000000 SECT16 notype       Static       | .rdata
+    Section length   48, #relocs    0, #linenums    0, checksum EA672679, selection    2 (pick any)
+072 00000000 SECT16 notype       External     | ??_C@_0EI@BKFKGCNE@old?5GIN?5indexes?5do?5not?5support?5w@ (`string')
+073 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x53B bytes
+
+  Summary
+
+        6514 .debug$S
+          68 .debug$T
+          5D .drectve
+          84 .pdata
+          F4 .rdata
+         9AE .text$mn
+          D0 .xdata

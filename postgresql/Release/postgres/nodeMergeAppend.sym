@@ -1,0 +1,87 @@
+
+Dump of file Release\postgres/nodeMergeAppend.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 56E4, #relocs   9A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  574, #relocs   24, #linenums    0, checksum D5B812BB
+00A 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+00B 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+00C 00000000 UNDEF  notype ()    External     | palloc0
+00D 00000000 UNDEF  notype ()    External     | ExecClearTuple
+00E 00000000 UNDEF  notype ()    External     | slot_getattr
+00F 00000000 UNDEF  notype ()    External     | PrepareSortSupportFromOrderingOp
+010 00000000 UNDEF  notype ()    External     | ExecReScan
+011 00000000 UNDEF  notype ()    External     | ExecInitNode
+012 00000000 UNDEF  notype ()    External     | ExecEndNode
+013 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+014 00000000 UNDEF  notype ()    External     | UpdateChangedParamSet
+015 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+016 00000000 UNDEF  notype ()    External     | ExecLockNonLeafAppendTables
+017 00000000 SECT4  notype ()    External     | ExecInitMergeAppend
+018 000001F0 SECT4  notype ()    External     | ExecEndMergeAppend
+019 00000240 SECT4  notype ()    External     | ExecReScanMergeAppend
+01A 00000000 UNDEF  notype ()    External     | binaryheap_allocate
+01B 00000000 UNDEF  notype ()    External     | binaryheap_reset
+01C 00000000 UNDEF  notype ()    External     | binaryheap_add_unordered
+01D 00000000 UNDEF  notype ()    External     | binaryheap_build
+01E 00000000 UNDEF  notype ()    External     | binaryheap_first
+01F 00000000 UNDEF  notype ()    External     | binaryheap_remove_first
+020 00000000 UNDEF  notype ()    External     | binaryheap_replace_first
+021 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+022 000002E0 SECT4  notype ()    Static       | ExecMergeAppend
+023 00000470 SECT4  notype ()    Static       | heap_compare_slots
+024 00000000 SECT4  notype       Label        | $LN28
+025 000001F0 SECT4  notype       Label        | $LN11
+026 00000240 SECT4  notype       Label        | $LN13
+027 00000000 SECT5  notype       Static       | .xdata
+    Section length   CC, #relocs   12, #linenums    0, checksum 1140F16C
+029 00000000 SECT5  notype       Static       | $unwind$ExecInitMergeAppend
+02A 00000000 SECT6  notype       Static       | .pdata
+    Section length   84, #relocs   21, #linenums    0, checksum A325D3AD
+02C 00000000 SECT6  notype       Static       | $pdata$ExecInitMergeAppend
+02D 0000001C SECT5  notype       Static       | $unwind$ExecEndMergeAppend
+02E 0000000C SECT6  notype       Static       | $pdata$ExecEndMergeAppend
+02F 0000002C SECT5  notype       Static       | $unwind$ExecReScanMergeAppend
+030 00000018 SECT6  notype       Static       | $pdata$ExecReScanMergeAppend
+031 00000038 SECT5  notype       Static       | $chain$1$ExecReScanMergeAppend
+032 00000024 SECT6  notype       Static       | $pdata$1$ExecReScanMergeAppend
+033 00000050 SECT5  notype       Static       | $chain$2$ExecReScanMergeAppend
+034 00000030 SECT6  notype       Static       | $pdata$2$ExecReScanMergeAppend
+035 00000060 SECT5  notype       Static       | $unwind$ExecMergeAppend
+036 0000003C SECT6  notype       Static       | $pdata$ExecMergeAppend
+037 00000068 SECT5  notype       Static       | $chain$1$ExecMergeAppend
+038 00000048 SECT6  notype       Static       | $pdata$1$ExecMergeAppend
+039 00000080 SECT5  notype       Static       | $chain$2$ExecMergeAppend
+03A 00000054 SECT6  notype       Static       | $pdata$2$ExecMergeAppend
+03B 00000094 SECT5  notype       Static       | $chain$3$ExecMergeAppend
+03C 00000060 SECT6  notype       Static       | $pdata$3$ExecMergeAppend
+03D 000000A4 SECT5  notype       Static       | $chain$4$ExecMergeAppend
+03E 0000006C SECT6  notype       Static       | $pdata$4$ExecMergeAppend
+03F 000000B4 SECT5  notype       Static       | $unwind$heap_compare_slots
+040 00000078 SECT6  notype       Static       | $pdata$heap_compare_slots
+041 00000000 UNDEF  notype       External     | pg_signal_queue
+042 00000000 UNDEF  notype       External     | pg_signal_mask
+043 00000000 UNDEF  notype       External     | CurrentMemoryContext
+044 00000000 UNDEF  notype       External     | newNodeMacroHolder
+045 00000000 UNDEF  notype       External     | InterruptPending
+
+String Table Size = 0x4B2 bytes
+
+  Summary
+
+        56E4 .debug$S
+          68 .debug$T
+          5D .drectve
+          84 .pdata
+         574 .text$mn
+          CC .xdata

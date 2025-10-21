@@ -1,0 +1,70 @@
+
+Dump of file Release\postgres/win32.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 38EC, #relocs   2E, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length   EA, #relocs    D, #linenums    0, checksum 6113B659
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   6B, #relocs    5, #linenums    0, checksum 880BE80C, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  104, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype       External     | __imp_GetLastError
+00F 00000000 UNDEF  notype       External     | __imp_SetErrorMode
+010 00000000 UNDEF  notype       External     | __imp_FreeLibrary
+011 00000000 UNDEF  notype       External     | __imp_GetProcAddress
+012 00000000 UNDEF  notype       External     | __imp_FormatMessageA
+013 00000000 UNDEF  notype       External     | __imp_LoadLibraryA
+014 00000000 UNDEF  notype ()    External     | pg_snprintf
+015 00000000 SECT4  notype ()    External     | dlerror
+016 00000020 SECT4  notype ()    External     | dlclose
+017 00000060 SECT4  notype ()    External     | dlsym
+018 00000090 SECT4  notype ()    External     | dlopen
+019 00000000 SECT5  notype ()    Static       | set_dl_error
+01A 00000020 SECT4  notype       Label        | $LN7
+01B 00000060 SECT4  notype       Label        | $LN7
+01C 00000090 SECT4  notype       Label        | $LN7
+01D 00000000 SECT7  notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum F6FBAF42
+01F 00000000 SECT7  notype       Static       | $unwind$dlclose
+020 00000000 SECT8  notype       Static       | .pdata
+    Section length   24, #relocs    9, #linenums    0, checksum 2FE7F8AF
+022 00000000 SECT8  notype       Static       | $pdata$dlclose
+023 00000008 SECT7  notype       Static       | $unwind$dlsym
+024 0000000C SECT8  notype       Static       | $pdata$dlsym
+025 00000010 SECT7  notype       Static       | $unwind$dlopen
+026 00000018 SECT8  notype       Static       | $pdata$dlopen
+027 00000000 SECT9  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2201809E, selection    5 (pick associative Section 0x5)
+029 00000000 SECT9  notype       Static       | $unwind$set_dl_error
+02A 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8D81BCED, selection    5 (pick associative Section 0x5)
+02C 00000000 SECTA  notype       Static       | $pdata$set_dl_error
+02D 00000000 SECTB  notype       Static       | .bss
+    Section length  200, #relocs    0, #linenums    0, checksum        0
+02F 00000000 SECTB  notype       Static       | last_dyn_error
+030 00000000 SECTC  notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum F0E73DEA, selection    2 (pick any)
+032 00000000 SECTC  notype       External     | ??_C@_0BC@GIADANFI@unknown?5error?5?$CFlu?$AA@ (`string')
+
+String Table Size = 0x150 bytes
+
+  Summary
+
+         200 .bss
+        39F0 .debug$S
+          68 .debug$T
+          5D .drectve
+          30 .pdata
+          12 .rdata
+         155 .text$mn
+          28 .xdata

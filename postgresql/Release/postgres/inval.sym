@@ -1,0 +1,403 @@
+
+Dump of file Release\postgres/inval.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 7174, #relocs  186, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 100E, #relocs   F2, #linenums    0, checksum D35BABCC
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   A8, #relocs    4, #linenums    0, checksum 3019AB6B, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  260, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   A8, #relocs    4, #linenums    0, checksum 330E98DB, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  2AC, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length   F3, #relocs    4, #linenums    0, checksum 15ECC42C, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  2C0, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length   E9, #relocs    4, #linenums    0, checksum 1B9A4824, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  2C0, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 SECTD  notype       Static       | .text$mn
+    Section length   54, #relocs    0, #linenums    0, checksum 869B7E1A, selection    1 (pick no duplicates)
+01C 00000000 SECTE  notype       Static       | .debug$S
+    Section length  1C4, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0xD)
+01E 00000000 SECTF  notype       Static       | .text$mn
+    Section length   5B, #relocs    8, #linenums    0, checksum  C51D2C1, selection    1 (pick no duplicates)
+020 00000000 SECT10 notype       Static       | .debug$S
+    Section length   FC, #relocs    6, #linenums    0, checksum        0, selection    5 (pick associative Section 0xF)
+022 00000000 SECT11 notype       Static       | .text$mn
+    Section length   94, #relocs    0, #linenums    0, checksum B579E7F8, selection    1 (pick no duplicates)
+024 00000000 SECT12 notype       Static       | .debug$S
+    Section length  254, #relocs   22, #linenums    0, checksum        0, selection    5 (pick associative Section 0x11)
+026 00000000 SECT13 notype       Static       | .text$mn
+    Section length   44, #relocs    5, #linenums    0, checksum CF1AA50C, selection    1 (pick no duplicates)
+028 00000000 SECT14 notype       Static       | .debug$S
+    Section length  15C, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x13)
+02A 00000000 UNDEF  notype ()    External     | elog_start
+02B 00000000 UNDEF  notype ()    External     | elog_finish
+02C 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+02D 00000000 UNDEF  notype ()    External     | MemoryContextAllocZero
+02E 00000000 UNDEF  notype ()    External     | palloc
+02F 00000000 UNDEF  notype ()    External     | repalloc
+030 00000000 UNDEF  notype ()    External     | pfree
+031 00000000 UNDEF  notype ()    External     | GetDatabasePath
+032 00000000 UNDEF  notype ()    External     | SendSharedInvalidMessages
+033 00000000 UNDEF  notype ()    External     | ReceiveSharedInvalidMessages
+034 00000000 SECT4  notype ()    External     | xactGetCommittedInvalidationMessages
+035 00000120 SECT4  notype ()    External     | ProcessCommittedInvalidationMessages
+036 00000230 SECT4  notype ()    External     | LocalExecuteInvalidationMessage
+037 00000000 UNDEF  notype ()    External     | GetCurrentCommandId
+038 00000000 UNDEF  notype ()    External     | GetCurrentTransactionNestLevel
+039 00000000 UNDEF  notype ()    External     | RelationCacheInvalidateEntry
+03A 00000000 UNDEF  notype ()    External     | RelationCacheInvalidate
+03B 00000000 UNDEF  notype ()    External     | RelationIdIsInInitFile
+03C 00000000 UNDEF  notype ()    External     | RelationCacheInitFilePreInvalidate
+03D 00000000 UNDEF  notype ()    External     | RelationCacheInitFilePostInvalidate
+03E 00000000 UNDEF  notype ()    External     | IsToastRelation
+03F 00000000 UNDEF  notype ()    External     | IsCatalogRelation
+040 00000000 UNDEF  notype ()    External     | IsSharedRelation
+041 00000000 UNDEF  notype ()    External     | trace_recovery
+042 00000000 UNDEF  notype ()    External     | smgrclosenode
+043 00000000 UNDEF  notype ()    External     | ResetCatalogCaches
+044 00000000 UNDEF  notype ()    External     | CatalogCacheFlushCatalog
+045 00000000 UNDEF  notype ()    External     | PrepareToInvalidateCacheTuple
+046 000003D0 SECT4  notype ()    External     | AcceptInvalidationMessages
+047 000003F0 SECT4  notype ()    External     | AtEOXact_Inval
+048 00000530 SECT4  notype ()    External     | AtEOSubXact_Inval
+049 000005E0 SECT4  notype ()    External     | PostPrepare_Inval
+04A 00000630 SECT4  notype ()    External     | CommandEndInvalidationMessages
+04B 000006C0 SECT4  notype ()    External     | CacheInvalidateHeapTuple
+04C 000007F0 SECT4  notype ()    External     | CacheInvalidateCatalog
+04D 00000880 SECT4  notype ()    External     | CacheInvalidateRelcache
+04E 00000940 SECT4  notype ()    External     | CacheInvalidateRelcacheAll
+04F 000009C0 SECT4  notype ()    External     | CacheInvalidateRelcacheByTuple
+050 00000A90 SECT4  notype ()    External     | CacheInvalidateRelcacheByRelid
+051 00000B60 SECT4  notype ()    External     | CacheInvalidateSmgr
+052 00000BE0 SECT4  notype ()    External     | CacheInvalidateRelmap
+053 00000C30 SECT4  notype ()    External     | CacheRegisterSyscacheCallback
+054 00000D80 SECT4  notype ()    External     | CacheRegisterRelcacheCallback
+055 00000E00 SECT4  notype ()    External     | CallSyscacheCallbacks
+056 00000EB0 SECT4  notype ()    External     | InvalidateSystemCaches
+057 00000000 UNDEF  notype ()    External     | RelationMapInvalidate
+058 00000000 UNDEF  notype ()    External     | InvalidateCatalogSnapshot
+059 00000000 UNDEF  notype ()    External     | SearchSysCache
+05A 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+05B 00000000 UNDEF  notype ()    External     | SysCacheInvalidate
+05C 00000000 UNDEF  notype ()    External     | RelationInvalidatesSnapshotsOnly
+05D 00000000 SECT7  notype ()    Static       | AddCatcacheInvalidationMessage
+05E 00000000 SECT5  notype ()    Static       | AddCatalogInvalidationMessage
+05F 00000000 SECT9  notype ()    Static       | AddRelcacheInvalidationMessage
+060 00000000 SECTB  notype ()    Static       | AddSnapshotInvalidationMessage
+061 00000000 SECTD  notype ()    Static       | AppendInvalidationMessages
+062 00000000 SECT11 notype ()    Static       | ProcessInvalidationMessages
+063 00000F40 SECT4  notype ()    Static       | RegisterCatcacheInvalidation
+064 00000000 SECT13 notype ()    Static       | RegisterRelcacheInvalidation
+065 00000000 SECTF  notype ()    Static       | PrepareInvalidationState
+066 00000F60 SECT4  notype ()    Static       | MakeSharedInvalidMessagesArray
+067 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+068 00000000 UNDEF  notype ()    External     | __security_check_cookie
+069 00000000 UNDEF  notype ()    External     | memcpy
+06A 00000000 SECT4  notype       Label        | $LN53
+06B 00000120 SECT4  notype       Label        | $LN18
+06C 00000230 SECT4  notype       Label        | $LN43
+06D 000003F0 SECT4  notype       Label        | $LN51
+06E 00000530 SECT4  notype       Label        | $LN12
+06F 000005E0 SECT4  notype       Label        | $LN53
+070 00000630 SECT4  notype       Label        | $LN25
+071 000006C0 SECT4  notype       Label        | $LN24
+072 000007F0 SECT4  notype       Label        | $LN11
+073 00000880 SECT4  notype       Label        | $LN13
+074 00000940 SECT4  notype       Label        | $LN11
+075 000009C0 SECT4  notype       Label        | $LN15
+076 00000A90 SECT4  notype       Label        | $LN12
+077 00000B60 SECT4  notype       Label        | $LN7
+078 00000BE0 SECT4  notype       Label        | $LN7
+079 00000C30 SECT4  notype       Label        | $LN24
+07A 00000D80 SECT4  notype       Label        | $LN9
+07B 00000E00 SECT4  notype       Label        | $LN17
+07C 00000EB0 SECT4  notype       Label        | $LN18
+07D 00000000 SECT15 notype       Static       | .xdata
+    Section length  2AC, #relocs   47, #linenums    0, checksum 2607C71E
+07F 00000000 SECT15 notype       Static       | $unwind$xactGetCommittedInvalidationMessages
+080 00000000 SECT16 notype       Static       | .pdata
+    Section length  204, #relocs   81, #linenums    0, checksum B334FA35
+082 00000000 SECT16 notype       Static       | $pdata$xactGetCommittedInvalidationMessages
+083 00000014 SECT15 notype       Static       | $chain$2$xactGetCommittedInvalidationMessages
+084 0000000C SECT16 notype       Static       | $pdata$2$xactGetCommittedInvalidationMessages
+085 00000028 SECT15 notype       Static       | $chain$3$xactGetCommittedInvalidationMessages
+086 00000018 SECT16 notype       Static       | $pdata$3$xactGetCommittedInvalidationMessages
+087 00000038 SECT15 notype       Static       | $unwind$ProcessCommittedInvalidationMessages
+088 00000024 SECT16 notype       Static       | $pdata$ProcessCommittedInvalidationMessages
+089 0000004C SECT15 notype       Static       | $unwind$LocalExecuteInvalidationMessage
+08A 00000030 SECT16 notype       Static       | $pdata$LocalExecuteInvalidationMessage
+08B 00000054 SECT15 notype       Static       | $chain$0$LocalExecuteInvalidationMessage
+08C 0000003C SECT16 notype       Static       | $pdata$0$LocalExecuteInvalidationMessage
+08D 00000068 SECT15 notype       Static       | $chain$1$LocalExecuteInvalidationMessage
+08E 00000048 SECT16 notype       Static       | $pdata$1$LocalExecuteInvalidationMessage
+08F 0000007C SECT15 notype       Static       | $chain$2$LocalExecuteInvalidationMessage
+090 00000054 SECT16 notype       Static       | $pdata$2$LocalExecuteInvalidationMessage
+091 0000008C SECT15 notype       Static       | $chain$3$LocalExecuteInvalidationMessage
+092 00000060 SECT16 notype       Static       | $pdata$3$LocalExecuteInvalidationMessage
+093 0000009C SECT15 notype       Static       | $unwind$AtEOXact_Inval
+094 0000006C SECT16 notype       Static       | $pdata$AtEOXact_Inval
+095 000000A4 SECT15 notype       Static       | $chain$0$AtEOXact_Inval
+096 00000078 SECT16 notype       Static       | $pdata$0$AtEOXact_Inval
+097 000000B8 SECT15 notype       Static       | $chain$1$AtEOXact_Inval
+098 00000084 SECT16 notype       Static       | $pdata$1$AtEOXact_Inval
+099 000000CC SECT15 notype       Static       | $chain$2$AtEOXact_Inval
+09A 00000090 SECT16 notype       Static       | $pdata$2$AtEOXact_Inval
+09B 000000E0 SECT15 notype       Static       | $chain$3$AtEOXact_Inval
+09C 0000009C SECT16 notype       Static       | $pdata$3$AtEOXact_Inval
+09D 000000F0 SECT15 notype       Static       | $chain$4$AtEOXact_Inval
+09E 000000A8 SECT16 notype       Static       | $pdata$4$AtEOXact_Inval
+09F 00000100 SECT15 notype       Static       | $chain$5$AtEOXact_Inval
+0A0 000000B4 SECT16 notype       Static       | $pdata$5$AtEOXact_Inval
+0A1 00000110 SECT15 notype       Static       | $unwind$AtEOSubXact_Inval
+0A2 000000C0 SECT16 notype       Static       | $pdata$AtEOSubXact_Inval
+0A3 0000011C SECT15 notype       Static       | $chain$0$AtEOSubXact_Inval
+0A4 000000CC SECT16 notype       Static       | $pdata$0$AtEOSubXact_Inval
+0A5 00000130 SECT15 notype       Static       | $chain$2$AtEOSubXact_Inval
+0A6 000000D8 SECT16 notype       Static       | $pdata$2$AtEOSubXact_Inval
+0A7 00000144 SECT15 notype       Static       | $chain$3$AtEOSubXact_Inval
+0A8 000000E4 SECT16 notype       Static       | $pdata$3$AtEOSubXact_Inval
+0A9 00000154 SECT15 notype       Static       | $unwind$PostPrepare_Inval
+0AA 000000F0 SECT16 notype       Static       | $pdata$PostPrepare_Inval
+0AB 0000015C SECT15 notype       Static       | $unwind$CommandEndInvalidationMessages
+0AC 000000FC SECT16 notype       Static       | $pdata$CommandEndInvalidationMessages
+0AD 00000164 SECT15 notype       Static       | $unwind$CacheInvalidateHeapTuple
+0AE 00000108 SECT16 notype       Static       | $pdata$CacheInvalidateHeapTuple
+0AF 00000174 SECT15 notype       Static       | $chain$1$CacheInvalidateHeapTuple
+0B0 00000114 SECT16 notype       Static       | $pdata$1$CacheInvalidateHeapTuple
+0B1 0000018C SECT15 notype       Static       | $chain$2$CacheInvalidateHeapTuple
+0B2 00000120 SECT16 notype       Static       | $pdata$2$CacheInvalidateHeapTuple
+0B3 0000019C SECT15 notype       Static       | $unwind$CacheInvalidateCatalog
+0B4 0000012C SECT16 notype       Static       | $pdata$CacheInvalidateCatalog
+0B5 000001A4 SECT15 notype       Static       | $chain$0$CacheInvalidateCatalog
+0B6 00000138 SECT16 notype       Static       | $pdata$0$CacheInvalidateCatalog
+0B7 000001B8 SECT15 notype       Static       | $chain$1$CacheInvalidateCatalog
+0B8 00000144 SECT16 notype       Static       | $pdata$1$CacheInvalidateCatalog
+0B9 000001C8 SECT15 notype       Static       | $unwind$CacheInvalidateRelcache
+0BA 00000150 SECT16 notype       Static       | $pdata$CacheInvalidateRelcache
+0BB 000001D8 SECT15 notype       Static       | $unwind$CacheInvalidateRelcacheAll
+0BC 0000015C SECT16 notype       Static       | $pdata$CacheInvalidateRelcacheAll
+0BD 000001E0 SECT15 notype       Static       | $unwind$CacheInvalidateRelcacheByTuple
+0BE 00000168 SECT16 notype       Static       | $pdata$CacheInvalidateRelcacheByTuple
+0BF 000001F0 SECT15 notype       Static       | $unwind$CacheInvalidateRelcacheByRelid
+0C0 00000174 SECT16 notype       Static       | $pdata$CacheInvalidateRelcacheByRelid
+0C1 000001FC SECT15 notype       Static       | $unwind$CacheInvalidateSmgr
+0C2 00000180 SECT16 notype       Static       | $pdata$CacheInvalidateSmgr
+0C3 0000020C SECT15 notype       Static       | $unwind$CacheInvalidateRelmap
+0C4 0000018C SECT16 notype       Static       | $pdata$CacheInvalidateRelmap
+0C5 0000021C SECT15 notype       Static       | $unwind$CacheRegisterSyscacheCallback
+0C6 00000198 SECT16 notype       Static       | $pdata$CacheRegisterSyscacheCallback
+0C7 0000022C SECT15 notype       Static       | $unwind$CacheRegisterRelcacheCallback
+0C8 000001A4 SECT16 notype       Static       | $pdata$CacheRegisterRelcacheCallback
+0C9 00000238 SECT15 notype       Static       | $unwind$CallSyscacheCallbacks
+0CA 000001B0 SECT16 notype       Static       | $pdata$CallSyscacheCallbacks
+0CB 00000248 SECT15 notype       Static       | $chain$0$CallSyscacheCallbacks
+0CC 000001BC SECT16 notype       Static       | $pdata$0$CallSyscacheCallbacks
+0CD 0000025C SECT15 notype       Static       | $chain$1$CallSyscacheCallbacks
+0CE 000001C8 SECT16 notype       Static       | $pdata$1$CallSyscacheCallbacks
+0CF 0000026C SECT15 notype       Static       | $unwind$InvalidateSystemCaches
+0D0 000001D4 SECT16 notype       Static       | $pdata$InvalidateSystemCaches
+0D1 00000278 SECT15 notype       Static       | $chain$0$InvalidateSystemCaches
+0D2 000001E0 SECT16 notype       Static       | $pdata$0$InvalidateSystemCaches
+0D3 0000028C SECT15 notype       Static       | $chain$1$InvalidateSystemCaches
+0D4 000001EC SECT16 notype       Static       | $pdata$1$InvalidateSystemCaches
+0D5 00000000 SECT17 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum CAD22213, selection    5 (pick associative Section 0x7)
+0D7 00000000 SECT17 notype       Static       | $unwind$AddCatcacheInvalidationMessage
+0D8 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7E32D7A2, selection    5 (pick associative Section 0x7)
+0DA 00000000 SECT18 notype       Static       | $pdata$AddCatcacheInvalidationMessage
+0DB 00000000 SECT19 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 352C5D44, selection    5 (pick associative Section 0x7)
+0DD 00000000 SECT19 notype       Static       | $chain$0$AddCatcacheInvalidationMessage
+0DE 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 31FD6AE4, selection    5 (pick associative Section 0x7)
+0E0 00000000 SECT1A notype       Static       | $pdata$0$AddCatcacheInvalidationMessage
+0E1 00000000 SECT1B notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum C7653D4E, selection    5 (pick associative Section 0x7)
+0E3 00000000 SECT1B notype       Static       | $chain$1$AddCatcacheInvalidationMessage
+0E4 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 1C65DE58, selection    5 (pick associative Section 0x7)
+0E6 00000000 SECT1C notype       Static       | $pdata$1$AddCatcacheInvalidationMessage
+0E7 00000000 SECT1D notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum CAD22213, selection    5 (pick associative Section 0x5)
+0E9 00000000 SECT1D notype       Static       | $unwind$AddCatalogInvalidationMessage
+0EA 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7E32D7A2, selection    5 (pick associative Section 0x5)
+0EC 00000000 SECT1E notype       Static       | $pdata$AddCatalogInvalidationMessage
+0ED 00000000 SECT1F notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 352C5D44, selection    5 (pick associative Section 0x5)
+0EF 00000000 SECT1F notype       Static       | $chain$0$AddCatalogInvalidationMessage
+0F0 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 31FD6AE4, selection    5 (pick associative Section 0x5)
+0F2 00000000 SECT20 notype       Static       | $pdata$0$AddCatalogInvalidationMessage
+0F3 00000000 SECT21 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum C7653D4E, selection    5 (pick associative Section 0x5)
+0F5 00000000 SECT21 notype       Static       | $chain$1$AddCatalogInvalidationMessage
+0F6 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 1C65DE58, selection    5 (pick associative Section 0x5)
+0F8 00000000 SECT22 notype       Static       | $pdata$1$AddCatalogInvalidationMessage
+0F9 00000000 SECT23 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum CAD22213, selection    5 (pick associative Section 0x9)
+0FB 00000000 SECT23 notype       Static       | $unwind$AddRelcacheInvalidationMessage
+0FC 00000000 SECT24 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6760BA95, selection    5 (pick associative Section 0x9)
+0FE 00000000 SECT24 notype       Static       | $pdata$AddRelcacheInvalidationMessage
+0FF 00000000 SECT25 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 2C7E3073, selection    5 (pick associative Section 0x9)
+101 00000000 SECT25 notype       Static       | $chain$0$AddRelcacheInvalidationMessage
+102 00000000 SECT26 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F8A48A09, selection    5 (pick associative Section 0x9)
+104 00000000 SECT26 notype       Static       | $pdata$0$AddRelcacheInvalidationMessage
+105 00000000 SECT27 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum DE375079, selection    5 (pick associative Section 0x9)
+107 00000000 SECT27 notype       Static       | $chain$1$AddRelcacheInvalidationMessage
+108 00000000 SECT28 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 59C0CFCA, selection    5 (pick associative Section 0x9)
+10A 00000000 SECT28 notype       Static       | $pdata$1$AddRelcacheInvalidationMessage
+10B 00000000 SECT29 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum CAD22213, selection    5 (pick associative Section 0xB)
+10D 00000000 SECT29 notype       Static       | $unwind$AddSnapshotInvalidationMessage
+10E 00000000 SECT2A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  E51998C, selection    5 (pick associative Section 0xB)
+110 00000000 SECT2A notype       Static       | $pdata$AddSnapshotInvalidationMessage
+111 00000000 SECT2B notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 454F136A, selection    5 (pick associative Section 0xB)
+113 00000000 SECT2B notype       Static       | $chain$0$AddSnapshotInvalidationMessage
+114 00000000 SECT2C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F0F69908, selection    5 (pick associative Section 0xB)
+116 00000000 SECT2C notype       Static       | $pdata$0$AddSnapshotInvalidationMessage
+117 00000000 SECT2D notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum B7067360, selection    5 (pick associative Section 0xB)
+119 00000000 SECT2D notype       Static       | $chain$1$AddSnapshotInvalidationMessage
+11A 00000000 SECT2E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5294E7B4, selection    5 (pick associative Section 0xB)
+11C 00000000 SECT2E notype       Static       | $pdata$1$AddSnapshotInvalidationMessage
+11D 00000000 SECT2F notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum E7460F8C, selection    5 (pick associative Section 0x11)
+11F 00000000 SECT2F notype       Static       | $unwind$ProcessInvalidationMessages
+120 00000000 SECT30 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum ABCABA0B, selection    5 (pick associative Section 0x11)
+122 00000000 SECT30 notype       Static       | $pdata$ProcessInvalidationMessages
+123 00000000 SECT31 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum F4D9A8A3, selection    5 (pick associative Section 0x13)
+125 00000000 SECT31 notype       Static       | $unwind$RegisterRelcacheInvalidation
+126 00000000 SECT32 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum ADD7CC17, selection    5 (pick associative Section 0x13)
+128 00000000 SECT32 notype       Static       | $pdata$RegisterRelcacheInvalidation
+129 00000000 SECT33 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum  FC539D1, selection    5 (pick associative Section 0xF)
+12B 00000000 SECT33 notype       Static       | $unwind$PrepareInvalidationState
+12C 00000000 SECT34 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A41C7E00, selection    5 (pick associative Section 0xF)
+12E 00000000 SECT34 notype       Static       | $pdata$PrepareInvalidationState
+12F 00000000 SECT35 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum C5F765CB, selection    5 (pick associative Section 0xF)
+131 00000000 SECT35 notype       Static       | $chain$0$PrepareInvalidationState
+132 00000000 SECT36 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FAEA85B7, selection    5 (pick associative Section 0xF)
+134 00000000 SECT36 notype       Static       | $pdata$0$PrepareInvalidationState
+135 00000000 SECT37 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 1D4B94EC, selection    5 (pick associative Section 0xF)
+137 00000000 SECT37 notype       Static       | $chain$1$PrepareInvalidationState
+138 00000000 SECT38 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DB0A107C, selection    5 (pick associative Section 0xF)
+13A 00000000 SECT38 notype       Static       | $pdata$1$PrepareInvalidationState
+13B 0000029C SECT15 notype       Static       | $unwind$MakeSharedInvalidMessagesArray
+13C 000001F8 SECT16 notype       Static       | $pdata$MakeSharedInvalidMessagesArray
+13D 00000000 UNDEF  notype       External     | CurrentMemoryContext
+13E 00000000 UNDEF  notype       External     | MyDatabaseId
+13F 00000000 UNDEF  notype       External     | DatabasePath
+140 00000000 UNDEF  notype       External     | Mode
+141 00000000 UNDEF  notype       External     | TopTransactionContext
+142 00000000 UNDEF  notype       External     | CurTransactionContext
+143 00000000 SECT39 notype       Static       | .bss
+    Section length  760, #relocs    0, #linenums    0, checksum        0
+145 00000000 SECT39 notype       Static       | transInvalInfo
+146 00000008 SECT39 notype       Static       | SharedInvalidMessagesArray
+147 00000010 SECT39 notype       Static       | numSharedInvalidMessagesArray
+148 00000014 SECT39 notype       Static       | maxSharedInvalidMessagesArray
+149 00000020 SECT39 notype       Static       | syscache_callback_list
+14A 00000620 SECT39 notype       Static       | syscache_callback_links
+14B 00000018 SECT39 notype       Static       | syscache_callback_count
+14C 000006C0 SECT39 notype       Static       | relcache_callback_list
+14D 0000001C SECT39 notype       Static       | relcache_callback_count
+14E 00000000 SECT3A notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 4D6EACFD, selection    2 (pick any)
+150 00000000 SECT3A notype       External     | ??_C@_0CA@KLJLAGKP@LocalExecuteInvalidationMessage?$AA@ (`string')
+151 00000000 SECT3B notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum F1159521, selection    2 (pick any)
+153 00000000 SECT3B notype       External     | ??_C@_0CA@BHOADPHD@src?1backend?1utils?1cache?1inval?4c?$AA@ (`string')
+154 00000000 SECT3C notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum B1A0A39F, selection    2 (pick any)
+156 00000000 SECT3C notype       External     | ??_C@_0BP@CHFGPANA@unrecognized?5SI?5message?5ID?3?5?$CFd?$AA@ (`string')
+157 00000000 SECT3D notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 2E7F08EB, selection    2 (pick any)
+159 00000000 SECT3D notype       External     | ??_C@_0CF@PFFBIIHA@ProcessCommittedInvalidationMess@ (`string')
+15A 00000000 SECT3E notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum F38F7141, selection    2 (pick any)
+15C 00000000 SECT3E notype       External     | ??_C@_0CA@BFHKNLBD@?5and?5relcache?5file?5invalidation?$AA@ (`string')
+15D 00000000 SECT3F notype       Static       | .rdata
+    Section length    1, #relocs    0, #linenums    0, checksum        0, selection    2 (pick any)
+15F 00000000 SECT3F notype       External     | ??_C@_00CNPNBAHC@?$AA@ (`string')
+160 00000000 SECT40 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum B8962056, selection    2 (pick any)
+162 00000000 SECT40 notype       External     | ??_C@_0CE@CNNPGNHM@replaying?5commit?5with?5?$CFd?5message@ (`string')
+163 00000000 SECT41 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum E388B7A2, selection    2 (pick any)
+165 00000000 SECT41 notype       External     | ??_C@_0CN@NKPHNPPJ@removing?5relcache?5init?5files?5for@ (`string')
+166 00000000 SECT42 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 7C1452A8, selection    2 (pick any)
+168 00000000 SECT42 notype       External     | ??_C@_0BP@OKOCABOH@CacheInvalidateRelcacheByRelid?$AA@ (`string')
+169 00000000 SECT43 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum A271A7DD, selection    2 (pick any)
+16B 00000000 SECT43 notype       External     | ??_C@_0CE@DHDIOKPH@cache?5lookup?5failed?5for?5relation@ (`string')
+16C 00000000 SECT44 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum C08ABCFB, selection    2 (pick any)
+16E 00000000 SECT44 notype       External     | ??_C@_0BO@DPHBHNLB@CacheRegisterSyscacheCallback?$AA@ (`string')
+16F 00000000 SECT45 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum D033B0E7, selection    2 (pick any)
+171 00000000 SECT45 notype       External     | ??_C@_0BF@GOMIIKJD@invalid?5cache?5ID?3?5?$CFd?$AA@ (`string')
+172 00000000 SECT46 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 75BB2F75, selection    2 (pick any)
+174 00000000 SECT46 notype       External     | ??_C@_0CE@OAPCGCFP@out?5of?5syscache_callback_list?5sl@ (`string')
+175 00000000 SECT47 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 16C3C63C, selection    2 (pick any)
+177 00000000 SECT47 notype       External     | ??_C@_0BO@OJDIAHHG@CacheRegisterRelcacheCallback?$AA@ (`string')
+178 00000000 SECT48 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 48B80044, selection    2 (pick any)
+17A 00000000 SECT48 notype       External     | ??_C@_0CE@NNPBENGO@out?5of?5relcache_callback_list?5sl@ (`string')
+17B 00000000 SECT49 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 7669558F, selection    2 (pick any)
+17D 00000000 SECT49 notype       External     | ??_C@_0BG@CBLPBLJA@CallSyscacheCallbacks?$AA@ (`string')
+17E 00000000 UNDEF  notype       External     | __ImageBase
+17F 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x1A92 bytes
+
+  Summary
+
+         760 .bss
+        8270 .debug$S
+          68 .debug$T
+          5D .drectve
+         2D0 .pdata
+         1E8 .rdata
+        14C1 .text$mn
+         3A4 .xdata

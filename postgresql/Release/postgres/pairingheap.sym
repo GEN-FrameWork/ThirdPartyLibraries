@@ -1,0 +1,101 @@
+
+Dump of file Release\postgres/pairingheap.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 3CEC, #relocs   52, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  1EA, #relocs    5, #linenums    0, checksum E045A10A
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   6C, #relocs    0, #linenums    0, checksum D614938D, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  210, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   E5, #relocs    1, #linenums    0, checksum A677F6D9, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  384, #relocs   2C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | palloc
+013 00000000 UNDEF  notype ()    External     | pfree
+014 00000000 SECT4  notype ()    External     | pairingheap_allocate
+015 00000040 SECT4  notype ()    External     | pairingheap_free
+016 00000050 SECT4  notype ()    External     | pairingheap_add
+017 000000E0 SECT4  notype ()    External     | pairingheap_first
+018 000000F0 SECT4  notype ()    External     | pairingheap_remove_first
+019 00000140 SECT4  notype ()    External     | pairingheap_remove
+01A 00000000 SECT5  notype ()    Static       | merge
+01B 00000000 SECT7  notype ()    Static       | merge_children
+01C 00000000 SECT4  notype       Label        | $LN4
+01D 00000050 SECT4  notype       Label        | $LN10
+01E 000000F0 SECT4  notype       Label        | $LN6
+01F 00000140 SECT4  notype       Label        | $LN17
+020 00000000 SECT9  notype       Static       | .xdata
+    Section length   5C, #relocs    6, #linenums    0, checksum 78F64A03
+022 00000000 SECT9  notype       Static       | $unwind$pairingheap_allocate
+023 00000000 SECTA  notype       Static       | .pdata
+    Section length   48, #relocs   12, #linenums    0, checksum 2E67A0A9
+025 00000000 SECTA  notype       Static       | $pdata$pairingheap_allocate
+026 0000000C SECT9  notype       Static       | $unwind$pairingheap_add
+027 0000000C SECTA  notype       Static       | $pdata$pairingheap_add
+028 0000001C SECT9  notype       Static       | $unwind$pairingheap_remove_first
+029 00000018 SECTA  notype       Static       | $pdata$pairingheap_remove_first
+02A 00000028 SECT9  notype       Static       | $unwind$pairingheap_remove
+02B 00000024 SECTA  notype       Static       | $pdata$pairingheap_remove
+02C 00000034 SECT9  notype       Static       | $chain$1$pairingheap_remove
+02D 00000030 SECTA  notype       Static       | $pdata$1$pairingheap_remove
+02E 0000004C SECT9  notype       Static       | $chain$2$pairingheap_remove
+02F 0000003C SECTA  notype       Static       | $pdata$2$pairingheap_remove
+030 00000000 SECTB  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0x5)
+032 00000000 SECTB  notype       Static       | $unwind$merge
+033 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8744B5F4, selection    5 (pick associative Section 0x5)
+035 00000000 SECTC  notype       Static       | $pdata$merge
+036 00000000 SECTD  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 720A7A77, selection    5 (pick associative Section 0x7)
+038 00000000 SECTD  notype       Static       | $unwind$merge_children
+039 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E7BE24FA, selection    5 (pick associative Section 0x7)
+03B 00000000 SECTE  notype       Static       | $pdata$merge_children
+03C 00000000 SECTF  notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 75279EBF, selection    5 (pick associative Section 0x7)
+03E 00000000 SECTF  notype       Static       | $chain$2$merge_children
+03F 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8433452E, selection    5 (pick associative Section 0x7)
+041 00000000 SECT10 notype       Static       | $pdata$2$merge_children
+042 00000000 SECT11 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 41B42BFA, selection    5 (pick associative Section 0x7)
+044 00000000 SECT11 notype       Static       | $chain$3$merge_children
+045 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FFEC89A2, selection    5 (pick associative Section 0x7)
+047 00000000 SECT12 notype       Static       | $pdata$3$merge_children
+048 00000000 SECT13 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 3D64AFC2, selection    5 (pick associative Section 0x7)
+04A 00000000 SECT13 notype       Static       | $chain$4$merge_children
+04B 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E7E82CC5, selection    5 (pick associative Section 0x7)
+04D 00000000 SECT14 notype       Static       | $pdata$4$merge_children
+04E 00000000 SECT15 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 5EE9CE16, selection    5 (pick associative Section 0x7)
+050 00000000 SECT15 notype       Static       | $chain$5$merge_children
+051 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E61EBAE7, selection    5 (pick associative Section 0x7)
+053 00000000 SECT16 notype       Static       | $pdata$5$merge_children
+
+String Table Size = 0x2DD bytes
+
+  Summary
+
+        4280 .debug$S
+          68 .debug$T
+          5D .drectve
+          90 .pdata
+         33B .text$mn
+          C0 .xdata

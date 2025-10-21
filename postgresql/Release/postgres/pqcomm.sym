@@ -1,0 +1,405 @@
+
+Dump of file Release\postgres/pqcomm.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   78, #relocs    0, #linenums    0, checksum C2E7C971
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 7294, #relocs  1CA, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length    6, #relocs    0, #linenums    0, checksum A2CC08BD, selection    2 (pick any)
+00A 00000000 SECT4  notype       External     | ??_C@_05OMPBFGOB@?6?6?2?4?6?$AA@ (`string')
+00B 00000000 UNDEF  notype       External     | FrontendProtocol
+00C 00000004 UNDEF  notype       External     | Unix_socket_permissions
+00D 00000008 UNDEF  notype       External     | Unix_socket_group
+00E 00000000 SECT5  notype       Static       | .bss
+    Section length 202C, #relocs    0, #linenums    0, checksum        0
+010 00000000 SECT5  notype       Static       | PqSendBuffer
+011 00000008 SECT5  notype       Static       | PqSendBufferSize
+012 0000000C SECT5  notype       Static       | PqSendPointer
+013 00000010 SECT5  notype       Static       | PqSendStart
+014 00000014 SECT5  notype       Static       | PqCommBusy
+015 00000015 SECT5  notype       Static       | DoingCopyOut
+016 00000000 SECT6  notype       Static       | .text$mn
+    Section length 18C5, #relocs  198, #linenums    0, checksum 25E484BE
+018 00001610 SECT6  notype ()    Static       | socket_comm_reset
+019 00001680 SECT6  notype ()    Static       | socket_flush
+01A 000016C0 SECT6  notype ()    Static       | socket_flush_if_writable
+01B 00001710 SECT6  notype ()    Static       | socket_is_send_pending
+01C 00001730 SECT6  notype ()    Static       | socket_putmessage
+01D 000017F0 SECT6  notype ()    Static       | socket_putmessage_noblock
+01E 00001870 SECT6  notype ()    Static       | socket_startcopyout
+01F 00001880 SECT6  notype ()    Static       | socket_endcopyout
+020 00000000 SECT7  notype       Static       | .data
+    Section length   50, #relocs    9, #linenums    0, checksum        0
+022 00000000 SECT7  notype       External     | PqCommMethods
+023 00000010 SECT7  notype       Static       | PqCommSocketMethods
+024 00000008 UNDEF  notype       External     | FeBeWaitSet
+025 00000000 SECT8  notype       Static       | .text$mn
+    Section length  15D, #relocs   1C, #linenums    0, checksum 94471C42, selection    1 (pick no duplicates)
+027 00000000 SECT9  notype       Static       | .debug$S
+    Section length  204, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0x8)
+029 00000000 SECTA  notype       Static       | .text$mn
+    Section length  102, #relocs   11, #linenums    0, checksum 152C9533, selection    1 (pick no duplicates)
+02B 00000000 SECTB  notype       Static       | .debug$S
+    Section length  254, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0xA)
+02D 00000000 SECTC  notype       Static       | .text$mn
+    Section length  1C0, #relocs   21, #linenums    0, checksum 7E763061, selection    1 (pick no duplicates)
+02F 00000000 SECTD  notype       Static       | .debug$S
+    Section length  2A4, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0xC)
+031 00000000 SECTE  notype       Static       | .text$mn
+    Section length   F0, #relocs    9, #linenums    0, checksum 8A8E0229, selection    1 (pick no duplicates)
+033 00000000 SECTF  notype       Static       | .debug$S
+    Section length  224, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0xE)
+035 00000000 SECT10 notype       Static       | .text$mn
+    Section length   76, #relocs    9, #linenums    0, checksum 6FA6B66C, selection    1 (pick no duplicates)
+037 00000000 SECT11 notype       Static       | .debug$S
+    Section length  144, #relocs    A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x10)
+039 00000000 UNDEF  notype       External     | __imp_free
+03A 00000000 UNDEF  notype       External     | __imp__errno
+03B 00000000 UNDEF  notype       External     | __imp_memmove
+03C 00000000 UNDEF  notype       External     | __imp_closesocket
+03D 00000000 UNDEF  notype       External     | __imp_getsockname
+03E 00000000 UNDEF  notype       External     | __imp_getsockopt
+03F 00000000 UNDEF  notype       External     | __imp_htonl
+040 00000000 UNDEF  notype       External     | __imp_ntohl
+041 00000000 UNDEF  notype       External     | __imp_setsockopt
+042 00000000 UNDEF  notype       External     | __imp_WSAGetLastError
+043 00000000 UNDEF  notype       External     | __imp_WSAIoctl
+044 00000000 UNDEF  notype       External     | __imp__utime64
+045 00000000 UNDEF  notype ()    External     | pgwin32_socket
+046 00000000 UNDEF  notype ()    External     | pgwin32_bind
+047 00000000 UNDEF  notype ()    External     | pgwin32_listen
+048 00000000 UNDEF  notype ()    External     | pgwin32_accept
+049 00000000 UNDEF  notype ()    External     | pg_usleep
+04A 00000000 UNDEF  notype ()    External     | pg_snprintf
+04B 00000000 UNDEF  notype ()    External     | pgunlink
+04C 00000000 UNDEF  notype ()    External     | errstart
+04D 00000000 UNDEF  notype ()    External     | errfinish
+04E 00000000 UNDEF  notype ()    External     | errcode
+04F 00000000 UNDEF  notype ()    External     | errcode_for_socket_access
+050 00000000 UNDEF  notype ()    External     | errmsg
+051 00000000 UNDEF  notype ()    External     | errhint
+052 00000000 UNDEF  notype ()    External     | elog_start
+053 00000000 UNDEF  notype ()    External     | elog_finish
+054 00000000 UNDEF  notype ()    External     | pg_re_throw
+055 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+056 00000000 UNDEF  notype ()    External     | repalloc
+057 00000000 UNDEF  notype ()    External     | pg_gai_strerror
+058 00000000 UNDEF  notype ()    External     | pg_getaddrinfo_all
+059 00000000 UNDEF  notype ()    External     | pg_freeaddrinfo_all
+05A 00000000 UNDEF  notype ()    External     | pg_getnameinfo_all
+05B 00000000 UNDEF  notype ()    External     | resetStringInfo
+05C 00000000 UNDEF  notype ()    External     | appendBinaryStringInfo
+05D 00000000 UNDEF  notype ()    External     | enlargeStringInfo
+05E 00000000 SECT6  notype ()    External     | pq_getkeepalivesidle
+05F 00000040 SECT6  notype ()    External     | pq_getkeepalivesinterval
+060 00000080 SECT6  notype ()    External     | pq_getkeepalivescount
+061 00000090 SECT6  notype ()    External     | pq_setkeepalivesidle
+062 000000C0 SECT6  notype ()    External     | pq_setkeepalivesinterval
+063 000000F0 SECT6  notype ()    External     | pq_setkeepalivescount
+064 00000000 UNDEF  notype ()    External     | CreateWaitEventSet
+065 00000000 UNDEF  notype ()    External     | AddWaitEventToSet
+066 00000150 SECT6  notype ()    External     | StreamServerPort
+067 00000630 SECT6  notype ()    External     | StreamConnection
+068 00000900 SECT6  notype ()    External     | StreamClose
+069 00000910 SECT6  notype ()    External     | TouchSocketFiles
+06A 00000950 SECT6  notype ()    External     | RemoveSocketFiles
+06B 000009A0 SECT6  notype ()    External     | pq_init
+06C 00000A80 SECT6  notype ()    External     | pq_getbytes
+06D 00000C70 SECT6  notype ()    External     | pq_getstring
+06E 00000E80 SECT6  notype ()    External     | pq_startmsgread
+06F 00000F00 SECT6  notype ()    External     | pq_endmsgread
+070 00000F10 SECT6  notype ()    External     | pq_is_reading_msg
+071 00000F20 SECT6  notype ()    External     | pq_getmessage
+072 00001190 SECT6  notype ()    External     | pq_getbyte
+073 00001340 SECT6  notype ()    External     | pq_peekbyte
+074 000014E0 SECT6  notype ()    External     | pq_getbyte_if_available
+075 000015D0 SECT6  notype ()    External     | pq_putbytes
+076 00000000 UNDEF  notype ()    External     | secure_close
+077 00000000 UNDEF  notype ()    External     | secure_read
+078 00000000 UNDEF  notype ()    External     | secure_write
+079 00000000 UNDEF  notype ()    External     | on_proc_exit
+07A 00001630 SECT6  notype ()    Static       | socket_close
+07B 00000000 SECT10 notype ()    Static       | socket_set_nonblocking
+07C 00000000 SECTA  notype ()    Static       | internal_putbytes
+07D 00000000 SECT8  notype ()    Static       | internal_flush
+07E 00000000 SECTC  notype ()    Static       | pq_discardbytes
+07F 00000000 SECTE  notype ()    Static       | pq_setkeepaliveswin32
+080 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+081 00000000 UNDEF  notype ()    External     | __security_check_cookie
+082 00000000 UNDEF  notype ()    External     | _setjmp
+083 00000000 UNDEF  notype ()    External     | memcpy
+084 000000F0 SECT6  notype       Label        | $LN11
+085 00000150 SECT6  notype       Label        | $LN104
+086 00000630 SECT6  notype       Label        | $LN47
+087 00000910 SECT6  notype       Label        | $LN17
+088 00000950 SECT6  notype       Label        | $LN17
+089 000009A0 SECT6  notype       Label        | $LN4
+08A 00000A80 SECT6  notype       Label        | $LN59
+08B 00000C70 SECT6  notype       Label        | $LN68
+08C 00000E80 SECT6  notype       Label        | $LN12
+08D 00001183 SECT6  notype       Label        | $LN36
+08E 00000F20 SECT6  notype       Label        | $LN37
+08F 00001190 SECT6  notype       Label        | $LN48
+090 00001340 SECT6  notype       Label        | $LN48
+091 000014E0 SECT6  notype       Label        | $LN16
+092 000015D0 SECT6  notype       Label        | $LN5
+093 000017B9 SECT6  notype       Label        | $fail$11
+094 00000000 SECT12 notype       Static       | .xdata
+    Section length  168, #relocs   11, #linenums    0, checksum E47F5628
+096 00000000 SECT12 notype       Static       | $unwind$pq_setkeepalivescount
+097 00000000 SECT13 notype       Static       | .pdata
+    Section length  12C, #relocs   4B, #linenums    0, checksum  908B92B
+099 00000000 SECT13 notype       Static       | $pdata$pq_setkeepalivescount
+09A 00000008 SECT12 notype       Static       | $unwind$StreamServerPort
+09B 0000000C SECT13 notype       Static       | $pdata$StreamServerPort
+09C 00000028 SECT12 notype       Static       | $chain$1$StreamServerPort
+09D 00000018 SECT13 notype       Static       | $pdata$1$StreamServerPort
+09E 0000003C SECT12 notype       Static       | $chain$3$StreamServerPort
+09F 00000024 SECT13 notype       Static       | $pdata$3$StreamServerPort
+0A0 00000050 SECT12 notype       Static       | $chain$4$StreamServerPort
+0A1 00000030 SECT13 notype       Static       | $pdata$4$StreamServerPort
+0A2 00000060 SECT12 notype       Static       | $unwind$StreamConnection
+0A3 0000003C SECT13 notype       Static       | $pdata$StreamConnection
+0A4 00000068 SECT12 notype       Static       | $unwind$TouchSocketFiles
+0A5 00000048 SECT13 notype       Static       | $pdata$TouchSocketFiles
+0A6 00000070 SECT12 notype       Static       | $unwind$RemoveSocketFiles
+0A7 00000054 SECT13 notype       Static       | $pdata$RemoveSocketFiles
+0A8 00000078 SECT12 notype       Static       | $unwind$pq_init
+0A9 00000060 SECT13 notype       Static       | $pdata$pq_init
+0AA 00000080 SECT12 notype       Static       | $unwind$pq_getbytes
+0AB 0000006C SECT13 notype       Static       | $pdata$pq_getbytes
+0AC 0000009C SECT12 notype       Static       | $unwind$pq_getstring
+0AD 00000078 SECT13 notype       Static       | $pdata$pq_getstring
+0AE 000000B0 SECT12 notype       Static       | $unwind$pq_startmsgread
+0AF 00000084 SECT13 notype       Static       | $pdata$pq_startmsgread
+0B0 000000B8 SECT12 notype       Static       | $chain$0$pq_startmsgread
+0B1 00000090 SECT13 notype       Static       | $pdata$0$pq_startmsgread
+0B2 000000CC SECT12 notype       Static       | $chain$1$pq_startmsgread
+0B3 0000009C SECT13 notype       Static       | $pdata$1$pq_startmsgread
+0B4 000000DC SECT12 notype       Static       | $unwind$pq_getmessage
+0B5 000000A8 SECT13 notype       Static       | $pdata$pq_getmessage
+0B6 000000F8 SECT12 notype       Static       | $unwind$pq_getbyte
+0B7 000000B4 SECT13 notype       Static       | $pdata$pq_getbyte
+0B8 00000108 SECT12 notype       Static       | $unwind$pq_peekbyte
+0B9 000000C0 SECT13 notype       Static       | $pdata$pq_peekbyte
+0BA 00000118 SECT12 notype       Static       | $unwind$pq_getbyte_if_available
+0BB 000000CC SECT13 notype       Static       | $pdata$pq_getbyte_if_available
+0BC 00000120 SECT12 notype       Static       | $unwind$pq_putbytes
+0BD 000000D8 SECT13 notype       Static       | $pdata$pq_putbytes
+0BE 00000128 SECT12 notype       Static       | $unwind$socket_close
+0BF 000000E4 SECT13 notype       Static       | $pdata$socket_close
+0C0 00000000 SECT14 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum CAD22213, selection    5 (pick associative Section 0x10)
+0C2 00000000 SECT14 notype       Static       | $unwind$socket_set_nonblocking
+0C3 00000000 SECT15 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E537C273, selection    5 (pick associative Section 0x10)
+0C5 00000000 SECT15 notype       Static       | $pdata$socket_set_nonblocking
+0C6 00000000 SECT16 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum AE294895, selection    5 (pick associative Section 0x10)
+0C8 00000000 SECT16 notype       Static       | $chain$0$socket_set_nonblocking
+0C9 00000000 SECT17 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 33CD5540, selection    5 (pick associative Section 0x10)
+0CB 00000000 SECT17 notype       Static       | $pdata$0$socket_set_nonblocking
+0CC 00000000 SECT18 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 5C60289F, selection    5 (pick associative Section 0x10)
+0CE 00000000 SECT18 notype       Static       | $chain$1$socket_set_nonblocking
+0CF 00000000 SECT19 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DACE830F, selection    5 (pick associative Section 0x10)
+0D1 00000000 SECT19 notype       Static       | $pdata$1$socket_set_nonblocking
+0D2 00000130 SECT12 notype       Static       | $unwind$socket_flush
+0D3 000000F0 SECT13 notype       Static       | $pdata$socket_flush
+0D4 00000138 SECT12 notype       Static       | $unwind$socket_flush_if_writable
+0D5 000000FC SECT13 notype       Static       | $pdata$socket_flush_if_writable
+0D6 00000140 SECT12 notype       Static       | $unwind$socket_putmessage
+0D7 00000108 SECT13 notype       Static       | $pdata$socket_putmessage
+0D8 0000014C SECT12 notype       Static       | $unwind$socket_putmessage_noblock
+0D9 00000114 SECT13 notype       Static       | $pdata$socket_putmessage_noblock
+0DA 00000160 SECT12 notype       Static       | $unwind$socket_endcopyout
+0DB 00000120 SECT13 notype       Static       | $pdata$socket_endcopyout
+0DC 00000000 SECT1A notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 2DC31ABF, selection    5 (pick associative Section 0xA)
+0DE 00000000 SECT1A notype       Static       | $unwind$internal_putbytes
+0DF 00000000 SECT1B notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E4520CC9, selection    5 (pick associative Section 0xA)
+0E1 00000000 SECT1B notype       Static       | $pdata$internal_putbytes
+0E2 00000000 SECT1C notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 815B1B44, selection    5 (pick associative Section 0x8)
+0E4 00000000 SECT1C notype       Static       | $unwind$internal_flush
+0E5 00000000 SECT1D notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6854EDA3, selection    5 (pick associative Section 0x8)
+0E7 00000000 SECT1D notype       Static       | $pdata$internal_flush
+0E8 00000000 SECT1E notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 79191DC9, selection    5 (pick associative Section 0xC)
+0EA 00000000 SECT1E notype       Static       | $unwind$pq_discardbytes
+0EB 00000000 SECT1F notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DCD14C83, selection    5 (pick associative Section 0xC)
+0ED 00000000 SECT1F notype       Static       | $pdata$pq_discardbytes
+0EE 00000000 SECT20 notype       Static       | .xdata
+    Section length   14, #relocs    1, #linenums    0, checksum  1616395, selection    5 (pick associative Section 0xE)
+0F0 00000000 SECT20 notype       Static       | $unwind$pq_setkeepaliveswin32
+0F1 00000000 SECT21 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FF6B144A, selection    5 (pick associative Section 0xE)
+0F3 00000000 SECT21 notype       Static       | $pdata$pq_setkeepaliveswin32
+0F4 00000000 UNDEF  notype       External     | error_context_stack
+0F5 00000000 UNDEF  notype       External     | PG_exception_stack
+0F6 00000000 UNDEF  notype       External     | InterruptPending
+0F7 00000000 UNDEF  notype       External     | ClientConnectionLost
+0F8 00000000 UNDEF  notype       External     | MaxBackends
+0F9 00000000 UNDEF  notype       External     | MyProcPort
+0FA 00000000 UNDEF  notype       External     | MyLatch
+0FB 00000000 UNDEF  notype       External     | tcp_keepalives_idle
+0FC 00000000 UNDEF  notype       External     | tcp_keepalives_interval
+0FD 00000000 UNDEF  notype       External     | tcp_keepalives_count
+0FE 00000000 UNDEF  notype       External     | TopMemoryContext
+0FF 00000018 SECT5  notype       Static       | sock_paths
+100 00000020 SECT5  notype       Static       | PqRecvBuffer
+101 00002020 SECT5  notype       Static       | PqRecvPointer
+102 00002024 SECT5  notype       Static       | PqRecvLength
+103 00000016 SECT5  notype       Static       | PqCommReadingMsg
+104 00000000 SECT22 notype       Static       | .rdata
+    Section length    3, #relocs    0, #linenums    0, checksum 3F172AA8, selection    2 (pick any)
+106 00000000 SECT22 notype       External     | ??_C@_02DPKJAMEF@?$CFd?$AA@ (`string')
+107 00000000 SECT23 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 6B0A5C58, selection    2 (pick any)
+109 00000000 SECT23 notype       External     | ??_C@_0BB@FNBKFCBK@StreamServerPort?$AA@ (`string')
+10A 00000000 SECT24 notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 455EC8FB, selection    2 (pick any)
+10C 00000000 SECT24 notype       External     | ??_C@_0BL@KANLGFLH@src?1backend?1libpq?1pqcomm?4c?$AA@ (`string')
+10D 00000000 SECT25 notype       Static       | .rdata
+    Section length   40, #relocs    0, #linenums    0, checksum 304A1E9B, selection    2 (pick any)
+10F 00000000 SECT25 notype       External     | ??_C@_0EA@LKDIICFC@could?5not?5translate?5host?5name?5?$CC?$CF@ (`string')
+110 00000000 SECT26 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum ABBBEF8D, selection    2 (pick any)
+112 00000000 SECT26 notype       External     | ??_C@_0DA@KGMMKDOH@could?5not?5translate?5service?5?$CC?$CFs?$CC@ (`string')
+113 00000000 SECT27 notype       Static       | .rdata
+    Section length   43, #relocs    0, #linenums    0, checksum 7C5350EA, selection    2 (pick any)
+115 00000000 SECT27 notype       External     | ??_C@_0ED@IBNCCIKJ@could?5not?5bind?5to?5all?5requested?5@ (`string')
+116 00000000 SECT28 notype       Static       | .rdata
+    Section length    5, #relocs    0, #linenums    0, checksum 75B8D28F, selection    2 (pick any)
+118 00000000 SECT28 notype       External     | ??_C@_04EMGFNKGN@IPv4?$AA@ (`string')
+119 00000000 SECT29 notype       Static       | .rdata
+    Section length    5, #relocs    0, #linenums    0, checksum 478EB00D, selection    2 (pick any)
+11B 00000000 SECT29 notype       External     | ??_C@_04HOFDLIOP@IPv6?$AA@ (`string')
+11C 00000000 SECT2A notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 3D48EC0C, selection    2 (pick any)
+11E 00000000 SECT2A notype       External     | ??_C@_0BP@KLLOLPED@unrecognized?5address?5family?5?$CFd?$AA@ (`string')
+11F 00000000 SECT2B notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum 69AC0968, selection    2 (pick any)
+121 00000000 SECT2B notype       External     | ??_C@_0DA@GENLEFAC@could?5not?5create?5?$CFs?5socket?5for?5a@ (`string')
+122 00000000 SECT2C notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum 8BA24CB8, selection    2 (pick any)
+124 00000000 SECT2C notype       External     | ??_C@_0DH@GFGGHBAG@setsockopt?$CIIPV6_V6ONLY?$CJ?5failed?5f@ (`string')
+125 00000000 SECT2D notype       Static       | .rdata
+    Section length   58, #relocs    0, #linenums    0, checksum 6F57315C, selection    2 (pick any)
+127 00000000 SECT2D notype       External     | ??_C@_0FI@GLOKJGOO@Is?5another?5postmaster?5already?5ru@ (`string')
+128 00000000 SECT2E notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 956A4E27, selection    2 (pick any)
+12A 00000000 SECT2E notype       External     | ??_C@_0CD@GDGNOGOP@could?5not?5bind?5?$CFs?5address?5?$CC?$CFs?$CC?3?5@ (`string')
+12B 00000000 SECT2F notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum F8F61200, selection    2 (pick any)
+12D 00000000 SECT2F notype       External     | ??_C@_0CI@OOOFNAEO@could?5not?5listen?5on?5?$CFs?5address?5?$CC@ (`string')
+12E 00000000 SECT30 notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum D8DDACC7, selection    2 (pick any)
+130 00000000 SECT30 notype       External     | ??_C@_0CG@LPNLMIIL@listening?5on?5?$CFs?5address?5?$CC?$CFs?$CC?0?5po@ (`string')
+131 00000000 SECT31 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 4A075E7F, selection    2 (pick any)
+133 00000000 SECT31 notype       External     | ??_C@_0BB@HMBHFADN@StreamConnection?$AA@ (`string')
+134 00000000 SECT32 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum  EC0F151, selection    2 (pick any)
+136 00000000 SECT32 notype       External     | ??_C@_0CE@JLIJLMHL@could?5not?5accept?5new?5connection?3@ (`string')
+137 00000000 SECT33 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum C8626669, selection    2 (pick any)
+139 00000000 SECT33 notype       External     | ??_C@_0BJ@NOFCJHBJ@getsockname?$CI?$CJ?5failed?3?5?$CFm?$AA@ (`string')
+13A 00000000 SECT34 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2545BA11, selection    2 (pick any)
+13C 00000000 SECT34 notype       External     | ??_C@_0M@KBGPIDIB@TCP_NODELAY?$AA@ (`string')
+13D 00000000 SECT35 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum EECA11CF, selection    2 (pick any)
+13F 00000000 SECT35 notype       External     | ??_C@_0BK@LONJFAAC@setsockopt?$CI?$CFs?$CJ?5failed?3?5?$CFm?$AA@ (`string')
+140 00000000 SECT36 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum F7225789, selection    2 (pick any)
+142 00000000 SECT36 notype       External     | ??_C@_0N@HKJOOPE@SO_KEEPALIVE?$AA@ (`string')
+143 00000000 SECT37 notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum A85BE226, selection    2 (pick any)
+145 00000000 SECT37 notype       External     | ??_C@_09LECOHFKP@SO_SNDBUF?$AA@ (`string')
+146 00000000 SECT38 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 6E0CDC69, selection    2 (pick any)
+148 00000000 SECT38 notype       External     | ??_C@_0BK@DOBPJNKE@getsockopt?$CI?$CFs?$CJ?5failed?3?5?$CFm?$AA@ (`string')
+149 00000000 SECT39 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum A1D86AA5, selection    2 (pick any)
+14B 00000000 SECT39 notype       External     | ??_C@_0BH@CMIHLBBO@socket_set_nonblocking?$AA@ (`string')
+14C 00000000 SECT3A notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 715F222A, selection    2 (pick any)
+14E 00000000 SECT3A notype       External     | ??_C@_0BO@IOKEODGA@there?5is?5no?5client?5connection?$AA@ (`string')
+14F 00000000 SECT3B notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum 75F9F6D4, selection    2 (pick any)
+151 00000000 SECT3B notype       External     | ??_C@_0L@OBIBLIMH@pq_recvbuf?$AA@ (`string')
+152 00000000 SECT3C notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum  B9C80EC, selection    2 (pick any)
+154 00000000 SECT3C notype       External     | ??_C@_0CH@HEJBILDD@could?5not?5receive?5data?5from?5clie@ (`string')
+155 00000000 SECT3D notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum FF56CC0F, selection    2 (pick any)
+157 00000000 SECT3D notype       External     | ??_C@_0BI@KDGIPJNA@pq_getbyte_if_available?$AA@ (`string')
+158 00000000 SECT3E notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum BB741267, selection    2 (pick any)
+15A 00000000 SECT3E notype       External     | ??_C@_0BA@KIDAKGMN@pq_startmsgread?$AA@ (`string')
+15B 00000000 SECT3F notype       Static       | .rdata
+    Section length   41, #relocs    0, #linenums    0, checksum 3D6117D1, selection    2 (pick any)
+15D 00000000 SECT3F notype       External     | ??_C@_0EB@NPFDBPFJ@terminating?5connection?5because?5p@ (`string')
+15E 00000000 SECT40 notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 57A0EC16, selection    2 (pick any)
+160 00000000 SECT40 notype       External     | ??_C@_0O@HJOEGKCO@pq_getmessage?$AA@ (`string')
+161 00000000 SECT41 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum A38BAC97, selection    2 (pick any)
+163 00000000 SECT41 notype       External     | ??_C@_0CK@LIBLHLJD@unexpected?5EOF?5within?5message?5le@ (`string')
+164 00000000 SECT42 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum C70D6EB8, selection    2 (pick any)
+166 00000000 SECT42 notype       External     | ??_C@_0BH@EKFCLFAD@invalid?5message?5length?$AA@ (`string')
+167 00000000 SECT43 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 44B1FAF8, selection    2 (pick any)
+169 00000000 SECT43 notype       External     | ??_C@_0BP@NCEHKJLH@incomplete?5message?5from?5client?$AA@ (`string')
+16A 00002028 SECT5  notype       Static       | ?last_reported_send_errno@?1??internal_flush@@9@9 (`internal_flush'::`2'::last_reported_send_errno)
+16B 00000000 SECT44 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum EC0AF290, selection    2 (pick any)
+16D 00000000 SECT44 notype       External     | ??_C@_0P@MECGAOII@internal_flush?$AA@ (`string')
+16E 00000000 SECT45 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum CE9CF97A, selection    2 (pick any)
+170 00000000 SECT45 notype       External     | ??_C@_0CC@HABCGKKP@could?5not?5send?5data?5to?5client?3?5?$CF@ (`string')
+171 00000000 SECT46 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum  A74ACD3, selection    2 (pick any)
+173 00000000 SECT46 notype       External     | ??_C@_0BG@FNKCOCMM@pq_setkeepaliveswin32?$AA@ (`string')
+174 00000000 SECT47 notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum 6E03AC97, selection    2 (pick any)
+176 00000000 SECT47 notype       External     | ??_C@_0CJ@PPHBNDMC@WSAIoctl?$CISIO_KEEPALIVE_VALS?$CJ?5fai@ (`string')
+177 00000000 SECT48 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 582C9C00, selection    2 (pick any)
+179 00000000 SECT48 notype       External     | ??_C@_0BG@PPKNCBP@pq_setkeepalivescount?$AA@ (`string')
+17A 00000000 SECT49 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 4C18094A, selection    2 (pick any)
+17C 00000000 SECT49 notype       External     | ??_C@_0M@MIDCDANK@TCP_KEEPCNT?$AA@ (`string')
+17D 00000000 SECT4A notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum D8E18564, selection    2 (pick any)
+17F 00000000 SECT4A notype       External     | ??_C@_0BN@CMEKLPLN@setsockopt?$CI?$CFs?$CJ?5not?5supported?$AA@ (`string')
+180 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x156D bytes
+
+  Summary
+
+        202C .bss
+          50 .data
+        7CF8 .debug$S
+          68 .debug$T
+          78 .drectve
+         180 .pdata
+         4D3 .rdata
+        1E4A .text$mn
+         1E4 .xdata

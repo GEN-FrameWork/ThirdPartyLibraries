@@ -1,0 +1,316 @@
+
+Dump of file Release\postgres/dsm.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 673C, #relocs  148, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .data
+    Section length   10, #relocs    2, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       Static       | dsm_segment_list
+00B 00000000 SECT5  notype       Static       | .bss
+    Section length   20, #relocs    0, #linenums    0, checksum        0
+00D 00000000 SECT5  notype       Static       | dsm_control_mapped_size
+00E 00000008 SECT5  notype       Static       | dsm_control_impl_private
+00F 00000000 SECT6  notype       Static       | .text$mn
+    Section length  FE5, #relocs   B9, #linenums    0, checksum D8F7F8DC
+011 00000000 SECT7  notype       Static       | .text$mn
+    Section length  179, #relocs   1B, #linenums    0, checksum 913A3EAA, selection    1 (pick no duplicates)
+013 00000000 SECT8  notype       Static       | .debug$S
+    Section length  1E0, #relocs    A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+015 00000000 SECT9  notype       Static       | .text$mn
+    Section length  1BC, #relocs   25, #linenums    0, checksum 302D4621, selection    1 (pick no duplicates)
+017 00000000 SECTA  notype       Static       | .debug$S
+    Section length  22C, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+019 00000000 SECTB  notype       Static       | .text$mn
+    Section length   AA, #relocs    C, #linenums    0, checksum 26D974A1, selection    1 (pick no duplicates)
+01B 00000000 SECTC  notype       Static       | .debug$S
+    Section length  218, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01D 00000000 UNDEF  notype       External     | __imp__errno
+01E 00000000 UNDEF  notype       External     | __imp_strncmp
+01F 00000000 UNDEF  notype ()    External     | pg_snprintf
+020 00000000 UNDEF  notype ()    External     | pgunlink
+021 00000000 UNDEF  notype ()    External     | random
+022 00000000 UNDEF  notype ()    External     | errstart
+023 00000000 UNDEF  notype ()    External     | errfinish
+024 00000000 UNDEF  notype ()    External     | errcode
+025 00000000 UNDEF  notype ()    External     | errcode_for_file_access
+026 00000000 UNDEF  notype ()    External     | errmsg
+027 00000000 UNDEF  notype ()    External     | errhint
+028 00000000 UNDEF  notype ()    External     | elog_start
+029 00000000 UNDEF  notype ()    External     | elog_finish
+02A 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+02B 00000000 UNDEF  notype ()    External     | pfree
+02C 00000000 UNDEF  notype ()    External     | dsm_impl_op
+02D 00000000 UNDEF  notype ()    External     | dsm_impl_pin_segment
+02E 00000000 UNDEF  notype ()    External     | dsm_impl_unpin_segment
+02F 00000000 SECT6  notype ()    External     | dsm_cleanup_using_control_segment
+030 000001E0 SECT6  notype ()    External     | dsm_postmaster_startup
+031 00000330 SECT6  notype ()    External     | dsm_backend_shutdown
+032 00000370 SECT6  notype ()    External     | dsm_detach_all
+033 00000400 SECT6  notype ()    External     | dsm_set_control_handle
+034 00000410 SECT6  notype ()    External     | dsm_create
+035 00000620 SECT6  notype ()    External     | dsm_attach
+036 00000770 SECT6  notype ()    External     | dsm_resize
+037 000007C0 SECT6  notype ()    External     | dsm_remap
+038 00000810 SECT6  notype ()    External     | dsm_detach
+039 000009B0 SECT6  notype ()    External     | dsm_pin_mapping
+03A 000009E0 SECT6  notype ()    External     | dsm_unpin_mapping
+03B 00000A20 SECT6  notype ()    External     | dsm_pin_segment
+03C 00000AE0 SECT6  notype ()    External     | dsm_unpin_segment
+03D 00000C80 SECT6  notype ()    External     | dsm_find_mapping
+03E 00000CB0 SECT6  notype ()    External     | dsm_segment_address
+03F 00000CC0 SECT6  notype ()    External     | dsm_segment_map_length
+040 00000CD0 SECT6  notype ()    External     | dsm_segment_handle
+041 00000CE0 SECT6  notype ()    External     | on_dsm_detach
+042 00000D40 SECT6  notype ()    External     | cancel_on_dsm_detach
+043 00000D90 SECT6  notype ()    External     | reset_on_dsm_detach
+044 00000000 UNDEF  notype ()    External     | on_shmem_exit
+045 00000000 UNDEF  notype ()    External     | LWLockAcquire
+046 00000000 UNDEF  notype ()    External     | LWLockRelease
+047 00000000 UNDEF  notype ()    External     | closedir
+048 00000000 UNDEF  notype ()    External     | AllocateDir
+049 00000000 UNDEF  notype ()    External     | ReadDir
+04A 00000000 UNDEF  notype ()    External     | FreeDir
+04B 00000000 UNDEF  notype ()    External     | ResourceOwnerEnlargeDSMs
+04C 00000000 UNDEF  notype ()    External     | ResourceOwnerRememberDSM
+04D 00000000 UNDEF  notype ()    External     | ResourceOwnerForgetDSM
+04E 00000000 SECT9  notype ()    Static       | dsm_cleanup_for_mmap
+04F 00000E00 SECT6  notype ()    Static       | dsm_postmaster_shutdown
+050 00000000 SECTB  notype ()    Static       | dsm_create_descriptor
+051 00000000 SECT7  notype ()    Static       | dsm_backend_startup
+052 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+053 00000000 UNDEF  notype ()    External     | __security_check_cookie
+054 00000000 SECT6  notype       Label        | $LN35
+055 000001E0 SECT6  notype       Label        | $LN26
+056 00000330 SECT6  notype       Label        | $LN16
+057 00000370 SECT6  notype       Label        | $LN17
+058 00000410 SECT6  notype       Label        | $LN36
+059 00000620 SECT6  notype       Label        | $LN33
+05A 00000770 SECT6  notype       Label        | $LN4
+05B 000007C0 SECT6  notype       Label        | $LN4
+05C 00000810 SECT6  notype       Label        | $LN21
+05D 000009B0 SECT6  notype       Label        | $LN5
+05E 000009E0 SECT6  notype       Label        | $LN4
+05F 00000A20 SECT6  notype       Label        | $LN9
+060 00000AE0 SECT6  notype       Label        | $LN29
+061 00000CE0 SECT6  notype       Label        | $LN6
+062 00000D90 SECT6  notype       Label        | $LN24
+063 00000000 SECTD  notype       Static       | .xdata
+    Section length  1E4, #relocs   30, #linenums    0, checksum DD8CE1D3
+065 00000000 SECTD  notype       Static       | $unwind$dsm_cleanup_using_control_segment
+066 00000000 SECTE  notype       Static       | .pdata
+    Section length  180, #relocs   60, #linenums    0, checksum  BBEB51C
+068 00000000 SECTE  notype       Static       | $pdata$dsm_cleanup_using_control_segment
+069 00000008 SECTD  notype       Static       | $chain$0$dsm_cleanup_using_control_segment
+06A 0000000C SECTE  notype       Static       | $pdata$0$dsm_cleanup_using_control_segment
+06B 0000001C SECTD  notype       Static       | $chain$3$dsm_cleanup_using_control_segment
+06C 00000018 SECTE  notype       Static       | $pdata$3$dsm_cleanup_using_control_segment
+06D 00000038 SECTD  notype       Static       | $chain$4$dsm_cleanup_using_control_segment
+06E 00000024 SECTE  notype       Static       | $pdata$4$dsm_cleanup_using_control_segment
+06F 00000048 SECTD  notype       Static       | $chain$5$dsm_cleanup_using_control_segment
+070 00000030 SECTE  notype       Static       | $pdata$5$dsm_cleanup_using_control_segment
+071 00000058 SECTD  notype       Static       | $unwind$dsm_postmaster_startup
+072 0000003C SECTE  notype       Static       | $pdata$dsm_postmaster_startup
+073 00000060 SECTD  notype       Static       | $chain$2$dsm_postmaster_startup
+074 00000048 SECTE  notype       Static       | $pdata$2$dsm_postmaster_startup
+075 0000007C SECTD  notype       Static       | $chain$3$dsm_postmaster_startup
+076 00000054 SECTE  notype       Static       | $pdata$3$dsm_postmaster_startup
+077 0000008C SECTD  notype       Static       | $unwind$dsm_backend_shutdown
+078 00000060 SECTE  notype       Static       | $pdata$dsm_backend_shutdown
+079 00000094 SECTD  notype       Static       | $unwind$dsm_detach_all
+07A 0000006C SECTE  notype       Static       | $pdata$dsm_detach_all
+07B 0000009C SECTD  notype       Static       | $unwind$dsm_create
+07C 00000078 SECTE  notype       Static       | $pdata$dsm_create
+07D 000000B0 SECTD  notype       Static       | $unwind$dsm_attach
+07E 00000084 SECTE  notype       Static       | $pdata$dsm_attach
+07F 000000B8 SECTD  notype       Static       | $chain$0$dsm_attach
+080 00000090 SECTE  notype       Static       | $pdata$0$dsm_attach
+081 000000CC SECTD  notype       Static       | $chain$1$dsm_attach
+082 0000009C SECTE  notype       Static       | $pdata$1$dsm_attach
+083 000000E0 SECTD  notype       Static       | $chain$2$dsm_attach
+084 000000A8 SECTE  notype       Static       | $pdata$2$dsm_attach
+085 000000F0 SECTD  notype       Static       | $chain$3$dsm_attach
+086 000000B4 SECTE  notype       Static       | $pdata$3$dsm_attach
+087 00000100 SECTD  notype       Static       | $unwind$dsm_resize
+088 000000C0 SECTE  notype       Static       | $pdata$dsm_resize
+089 00000108 SECTD  notype       Static       | $unwind$dsm_remap
+08A 000000CC SECTE  notype       Static       | $pdata$dsm_remap
+08B 00000110 SECTD  notype       Static       | $unwind$dsm_detach
+08C 000000D8 SECTE  notype       Static       | $pdata$dsm_detach
+08D 00000118 SECTD  notype       Static       | $chain$3$dsm_detach
+08E 000000E4 SECTE  notype       Static       | $pdata$3$dsm_detach
+08F 00000138 SECTD  notype       Static       | $chain$4$dsm_detach
+090 000000F0 SECTE  notype       Static       | $pdata$4$dsm_detach
+091 00000148 SECTD  notype       Static       | $unwind$dsm_pin_mapping
+092 000000FC SECTE  notype       Static       | $pdata$dsm_pin_mapping
+093 00000150 SECTD  notype       Static       | $unwind$dsm_unpin_mapping
+094 00000108 SECTE  notype       Static       | $pdata$dsm_unpin_mapping
+095 00000158 SECTD  notype       Static       | $unwind$dsm_pin_segment
+096 00000114 SECTE  notype       Static       | $pdata$dsm_pin_segment
+097 00000160 SECTD  notype       Static       | $unwind$dsm_unpin_segment
+098 00000120 SECTE  notype       Static       | $pdata$dsm_unpin_segment
+099 00000170 SECTD  notype       Static       | $unwind$on_dsm_detach
+09A 0000012C SECTE  notype       Static       | $pdata$on_dsm_detach
+09B 00000180 SECTD  notype       Static       | $unwind$reset_on_dsm_detach
+09C 00000138 SECTE  notype       Static       | $pdata$reset_on_dsm_detach
+09D 00000188 SECTD  notype       Static       | $chain$0$reset_on_dsm_detach
+09E 00000144 SECTE  notype       Static       | $pdata$0$reset_on_dsm_detach
+09F 0000019C SECTD  notype       Static       | $chain$1$reset_on_dsm_detach
+0A0 00000150 SECTE  notype       Static       | $pdata$1$reset_on_dsm_detach
+0A1 00000000 SECTF  notype       Static       | .xdata
+    Section length   1C, #relocs    1, #linenums    0, checksum D08BE444, selection    5 (pick associative Section 0x9)
+0A3 00000000 SECTF  notype       Static       | $unwind$dsm_cleanup_for_mmap
+0A4 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 272EC85C, selection    5 (pick associative Section 0x9)
+0A6 00000000 SECT10 notype       Static       | $pdata$dsm_cleanup_for_mmap
+0A7 000001AC SECTD  notype       Static       | $unwind$dsm_postmaster_shutdown
+0A8 0000015C SECTE  notype       Static       | $pdata$dsm_postmaster_shutdown
+0A9 000001B8 SECTD  notype       Static       | $chain$2$dsm_postmaster_shutdown
+0AA 00000168 SECTE  notype       Static       | $pdata$2$dsm_postmaster_shutdown
+0AB 000001D4 SECTD  notype       Static       | $chain$3$dsm_postmaster_shutdown
+0AC 00000174 SECTE  notype       Static       | $pdata$3$dsm_postmaster_shutdown
+0AD 00000000 SECT11 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0xB)
+0AF 00000000 SECT11 notype       Static       | $unwind$dsm_create_descriptor
+0B0 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3B8DFB44, selection    5 (pick associative Section 0xB)
+0B2 00000000 SECT12 notype       Static       | $pdata$dsm_create_descriptor
+0B3 00000000 SECT13 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 84432563, selection    5 (pick associative Section 0x7)
+0B5 00000000 SECT13 notype       Static       | $unwind$dsm_backend_startup
+0B6 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E537C273, selection    5 (pick associative Section 0x7)
+0B8 00000000 SECT14 notype       Static       | $pdata$dsm_backend_startup
+0B9 00000000 SECT15 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 18B31633, selection    5 (pick associative Section 0x7)
+0BB 00000000 SECT15 notype       Static       | $chain$0$dsm_backend_startup
+0BC 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C1F96388, selection    5 (pick associative Section 0x7)
+0BE 00000000 SECT16 notype       Static       | $pdata$0$dsm_backend_startup
+0BF 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 5C60289F, selection    5 (pick associative Section 0x7)
+0C1 00000000 SECT17 notype       Static       | $chain$1$dsm_backend_startup
+0C2 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DE1FA51B, selection    5 (pick associative Section 0x7)
+0C4 00000000 SECT18 notype       Static       | $pdata$1$dsm_backend_startup
+0C5 00000000 UNDEF  notype       External     | MaxBackends
+0C6 00000000 UNDEF  notype       External     | dynamic_shared_memory_type
+0C7 00000000 UNDEF  notype       External     | MainLWLockArray
+0C8 00000000 UNDEF  notype       External     | TopMemoryContext
+0C9 00000000 UNDEF  notype       External     | CurrentResourceOwner
+0CA 00000010 SECT5  notype       Static       | dsm_init_done
+0CB 00000014 SECT5  notype       Static       | dsm_control_handle
+0CC 00000018 SECT5  notype       Static       | dsm_control
+0CD 00000000 SECT19 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum F02923A5, selection    2 (pick any)
+0CF 00000000 SECT19 notype       External     | ??_C@_0BH@HNHGPIBO@dsm_postmaster_startup?$AA@ (`string')
+0D0 00000000 SECT1A notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum ACF837A1, selection    2 (pick any)
+0D2 00000000 SECT1A notype       External     | ??_C@_0BO@FDADPGOL@src?1backend?1storage?1ipc?1dsm?4c?$AA@ (`string')
+0D3 00000000 SECT1B notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum 36A54C9F, selection    2 (pick any)
+0D5 00000000 SECT1B notype       External     | ??_C@_0DG@PMPJNOJN@dynamic?5shared?5memory?5system?5wil@ (`string')
+0D6 00000000 SECT1C notype       Static       | .rdata
+    Section length   3D, #relocs    0, #linenums    0, checksum 5FDCBDD5, selection    2 (pick any)
+0D8 00000000 SECT1C notype       External     | ??_C@_0DN@HMPODHBM@created?5dynamic?5shared?5memory?5co@ (`string')
+0D9 00000000 SECT1D notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 5AF5B9CD, selection    2 (pick any)
+0DB 00000000 SECT1D notype       External     | ??_C@_0CC@OEHLCKBI@dsm_cleanup_using_control_segmen@ (`string')
+0DC 00000000 SECT1E notype       Static       | .rdata
+    Section length   4B, #relocs    0, #linenums    0, checksum F16E2EFD, selection    2 (pick any)
+0DE 00000000 SECT1E notype       External     | ??_C@_0EL@OMLDCGCO@cleaning?5up?5orphaned?5dynamic?5sha@ (`string')
+0DF 00000000 SECT1F notype       Static       | .rdata
+    Section length   3D, #relocs    0, #linenums    0, checksum 42B83D0E, selection    2 (pick any)
+0E1 00000000 SECT1F notype       External     | ??_C@_0DN@GBJKLHMH@cleaning?5up?5dynamic?5shared?5memor@ (`string')
+0E2 00000000 SECT20 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum  F54C23D, selection    2 (pick any)
+0E4 00000000 SECT20 notype       External     | ??_C@_0M@ILHOPLKN@pg_dynshmem?$AA@ (`string')
+0E5 00000000 SECT21 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 61A2E567, selection    2 (pick any)
+0E7 00000000 SECT21 notype       External     | ??_C@_0BF@NPFJNPBD@dsm_cleanup_for_mmap?$AA@ (`string')
+0E8 00000000 SECT22 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum DF65D840, selection    2 (pick any)
+0EA 00000000 SECT22 notype       External     | ??_C@_0CC@GBOLELJF@could?5not?5open?5directory?5?$CC?$CFs?$CC?3?5?$CF@ (`string')
+0EB 00000000 SECT23 notype       Static       | .rdata
+    Section length    6, #relocs    0, #linenums    0, checksum  9A45E62, selection    2 (pick any)
+0ED 00000000 SECT23 notype       External     | ??_C@_05EHJJAADO@mmap?4?$AA@ (`string')
+0EE 00000000 SECT24 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 7BBC47BB, selection    2 (pick any)
+0F0 00000000 SECT24 notype       External     | ??_C@_0P@FDJALLKD@pg_dynshmem?1?$CFs?$AA@ (`string')
+0F1 00000000 SECT25 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 59629151, selection    2 (pick any)
+0F3 00000000 SECT25 notype       External     | ??_C@_0BD@HMJFKHMB@removing?5file?5?$CC?$CFs?$CC?$AA@ (`string')
+0F4 00000000 SECT26 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 38007BE2, selection    2 (pick any)
+0F6 00000000 SECT26 notype       External     | ??_C@_0BP@KOPGCIKN@could?5not?5remove?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+0F7 00000000 SECT27 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 69E57135, selection    2 (pick any)
+0F9 00000000 SECT27 notype       External     | ??_C@_0BI@DFNLEEOK@dsm_postmaster_shutdown?$AA@ (`string')
+0FA 00000000 SECT28 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum 189736ED, selection    2 (pick any)
+0FC 00000000 SECT28 notype       External     | ??_C@_0DB@LFPNMJOH@dynamic?5shared?5memory?5control?5se@ (`string')
+0FD 00000000 SECT29 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum AE35343A, selection    2 (pick any)
+0FF 00000000 SECT29 notype       External     | ??_C@_0DG@GEGJKGDI@cleaning?5up?5orphaned?5dynamic?5sha@ (`string')
+100 00000000 SECT2A notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 5A8868CA, selection    2 (pick any)
+102 00000000 SECT2A notype       External     | ??_C@_0BE@KKKCAMLI@dsm_backend_startup?$AA@ (`string')
+103 00000000 SECT2B notype       Static       | .rdata
+    Section length   3D, #relocs    0, #linenums    0, checksum  D47C77C, selection    2 (pick any)
+105 00000000 SECT2B notype       External     | ??_C@_0DN@COGFENLF@Set?5dynamic_shared_memory_type?5t@ (`string')
+106 00000000 SECT2C notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum B6C5874D, selection    2 (pick any)
+108 00000000 SECT2C notype       External     | ??_C@_0CC@IELBEJI@dynamic?5shared?5memory?5is?5disable@ (`string')
+109 00000000 SECT2D notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum AB9F97E6, selection    2 (pick any)
+10B 00000000 SECT2D notype       External     | ??_C@_0DD@HMHCDNIL@dynamic?5shared?5memory?5control?5se@ (`string')
+10C 00000000 SECT2E notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum B9D7913F, selection    2 (pick any)
+10E 00000000 SECT2E notype       External     | ??_C@_0L@CNKPNPCM@dsm_create?$AA@ (`string')
+10F 00000000 SECT2F notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 765DFCE8, selection    2 (pick any)
+111 00000000 SECT2F notype       External     | ??_C@_0CI@GAEODOKG@too?5many?5dynamic?5shared?5memory?5s@ (`string')
+112 00000000 SECT30 notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum  9561681, selection    2 (pick any)
+114 00000000 SECT30 notype       External     | ??_C@_0L@JNCOFIJC@dsm_attach?$AA@ (`string')
+115 00000000 SECT31 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 7FB4F956, selection    2 (pick any)
+117 00000000 SECT31 notype       External     | ??_C@_0CN@EGMLJBAN@can?8t?5attach?5the?5same?5segment?5mo@ (`string')
+118 00000000 SECT32 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum  87ADB08, selection    2 (pick any)
+11A 00000000 SECT32 notype       External     | ??_C@_0BA@BLDOGPKC@dsm_pin_segment?$AA@ (`string')
+11B 00000000 SECT33 notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum A8EF0A49, selection    2 (pick any)
+11D 00000000 SECT33 notype       External     | ??_C@_0CM@NEDEJDKK@cannot?5pin?5a?5segment?5that?5is?5alr@ (`string')
+11E 00000000 SECT34 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 4C78DEFD, selection    2 (pick any)
+120 00000000 SECT34 notype       External     | ??_C@_0BC@NEJMOOEP@dsm_unpin_segment?$AA@ (`string')
+121 00000000 SECT35 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum E8225D98, selection    2 (pick any)
+123 00000000 SECT35 notype       External     | ??_C@_0CE@HNGLBALC@cannot?5unpin?5unknown?5segment?5han@ (`string')
+124 00000000 SECT36 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum 924DE683, selection    2 (pick any)
+126 00000000 SECT36 notype       External     | ??_C@_0CK@IJNNDBIH@cannot?5unpin?5a?5segment?5that?5is?5n@ (`string')
+127 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x1201 bytes
+
+  Summary
+
+          20 .bss
+          10 .data
+        6D60 .debug$S
+          68 .debug$T
+          5D .drectve
+         1BC .pdata
+         408 .rdata
+        13C4 .text$mn
+         238 .xdata

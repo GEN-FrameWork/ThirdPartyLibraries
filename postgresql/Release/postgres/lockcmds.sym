@@ -1,0 +1,120 @@
+
+Dump of file Release\postgres/lockcmds.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 3F1C, #relocs   40, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  18D, #relocs   10, #linenums    0, checksum C2DD5E20
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  160, #relocs   12, #linenums    0, checksum 6758DEB9, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  410, #relocs   2A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | errstart
+00F 00000000 UNDEF  notype ()    External     | errfinish
+010 00000000 UNDEF  notype ()    External     | errcode
+011 00000000 UNDEF  notype ()    External     | errmsg
+012 00000000 UNDEF  notype ()    External     | RangeVarGetRelidExtended
+013 00000000 UNDEF  notype ()    External     | find_inheritance_children
+014 00000000 SECT4  notype ()    External     | LockTableCommand
+015 00000000 UNDEF  notype ()    External     | PreventCommandDuringRecovery
+016 00000000 UNDEF  notype ()    External     | GetUserId
+017 00000000 UNDEF  notype ()    External     | pg_class_aclcheck
+018 00000000 UNDEF  notype ()    External     | aclcheck_error
+019 00000000 UNDEF  notype ()    External     | LockRelationOid
+01A 00000000 UNDEF  notype ()    External     | ConditionalLockRelationOid
+01B 00000000 UNDEF  notype ()    External     | UnlockRelationOid
+01C 00000000 UNDEF  notype ()    External     | get_rel_name
+01D 00000000 UNDEF  notype ()    External     | get_rel_relkind
+01E 00000000 UNDEF  notype ()    External     | SearchSysCacheExists
+01F 00000000 SECT5  notype ()    Static       | LockTableRecurse
+020 000000B0 SECT4  notype ()    Static       | RangeVarCallbackForLockTable
+021 00000000 SECT4  notype       Label        | $LN17
+022 00000000 SECT7  notype       Static       | .xdata
+    Section length   90, #relocs   12, #linenums    0, checksum 25E3D461
+024 00000000 SECT7  notype       Static       | $unwind$LockTableCommand
+025 00000000 SECT8  notype       Static       | .pdata
+    Section length   60, #relocs   18, #linenums    0, checksum 2CA40A92
+027 00000000 SECT8  notype       Static       | $pdata$LockTableCommand
+028 00000010 SECT7  notype       Static       | $chain$1$LockTableCommand
+029 0000000C SECT8  notype       Static       | $pdata$1$LockTableCommand
+02A 00000028 SECT7  notype       Static       | $chain$2$LockTableCommand
+02B 00000018 SECT8  notype       Static       | $pdata$2$LockTableCommand
+02C 00000000 SECT9  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 3E7F22BF, selection    5 (pick associative Section 0x5)
+02E 00000000 SECT9  notype       Static       | $unwind$LockTableRecurse
+02F 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2B142464, selection    5 (pick associative Section 0x5)
+031 00000000 SECTA  notype       Static       | $pdata$LockTableRecurse
+032 00000000 SECTB  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum BF3B0A17, selection    5 (pick associative Section 0x5)
+034 00000000 SECTB  notype       Static       | $chain$0$LockTableRecurse
+035 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E5EED019, selection    5 (pick associative Section 0x5)
+037 00000000 SECTC  notype       Static       | $pdata$0$LockTableRecurse
+038 00000000 SECTD  notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 1F2C309D, selection    5 (pick associative Section 0x5)
+03A 00000000 SECTD  notype       Static       | $chain$2$LockTableRecurse
+03B 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4AB1FEF0, selection    5 (pick associative Section 0x5)
+03D 00000000 SECTE  notype       Static       | $pdata$2$LockTableRecurse
+03E 00000000 SECTF  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 5CB93AF5, selection    5 (pick associative Section 0x5)
+040 00000000 SECTF  notype       Static       | $chain$3$LockTableRecurse
+041 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  7C71666, selection    5 (pick associative Section 0x5)
+043 00000000 SECT10 notype       Static       | $pdata$3$LockTableRecurse
+044 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 9243CE88, selection    5 (pick associative Section 0x5)
+046 00000000 SECT11 notype       Static       | $chain$4$LockTableRecurse
+047 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 615EC6A2, selection    5 (pick associative Section 0x5)
+049 00000000 SECT12 notype       Static       | $pdata$4$LockTableRecurse
+04A 00000038 SECT7  notype       Static       | $unwind$RangeVarCallbackForLockTable
+04B 00000024 SECT8  notype       Static       | $pdata$RangeVarCallbackForLockTable
+04C 00000048 SECT7  notype       Static       | $chain$0$RangeVarCallbackForLockTable
+04D 00000030 SECT8  notype       Static       | $pdata$0$RangeVarCallbackForLockTable
+04E 0000005C SECT7  notype       Static       | $chain$1$RangeVarCallbackForLockTable
+04F 0000003C SECT8  notype       Static       | $pdata$1$RangeVarCallbackForLockTable
+050 00000070 SECT7  notype       Static       | $chain$2$RangeVarCallbackForLockTable
+051 00000048 SECT8  notype       Static       | $pdata$2$RangeVarCallbackForLockTable
+052 00000080 SECT7  notype       Static       | $chain$3$RangeVarCallbackForLockTable
+053 00000054 SECT8  notype       Static       | $pdata$3$RangeVarCallbackForLockTable
+054 00000000 SECT13 notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum D8A96BAA, selection    2 (pick any)
+056 00000000 SECT13 notype       External     | ??_C@_0L@EMNBCFLJ@LOCK?5TABLE?$AA@ (`string')
+057 00000000 SECT14 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum A53A6E4A, selection    2 (pick any)
+059 00000000 SECT14 notype       External     | ??_C@_0BN@FBJBFEJD@RangeVarCallbackForLockTable?$AA@ (`string')
+05A 00000000 SECT15 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 2317A8FE, selection    2 (pick any)
+05C 00000000 SECT15 notype       External     | ??_C@_0CA@MFOCACKM@src?1backend?1commands?1lockcmds?4c?$AA@ (`string')
+05D 00000000 SECT16 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 4727A2B0, selection    2 (pick any)
+05F 00000000 SECT16 notype       External     | ??_C@_0BE@LHANMGMC@?$CC?$CFs?$CC?5is?5not?5a?5table?$AA@ (`string')
+060 00000000 SECT17 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum BED4AA64, selection    2 (pick any)
+062 00000000 SECT17 notype       External     | ??_C@_0BB@IIMEKECG@LockTableRecurse?$AA@ (`string')
+063 00000000 SECT18 notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 5A6C1024, selection    2 (pick any)
+065 00000000 SECT18 notype       External     | ??_C@_0CH@CFGBBLPL@could?5not?5obtain?5lock?5on?5relatio@ (`string')
+
+String Table Size = 0x57A bytes
+
+  Summary
+
+        432C .debug$S
+          68 .debug$T
+          5D .drectve
+          9C .pdata
+          94 .rdata
+         2ED .text$mn
+          E4 .xdata

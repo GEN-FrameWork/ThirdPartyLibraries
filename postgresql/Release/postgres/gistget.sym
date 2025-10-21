@@ -1,0 +1,178 @@
+
+Dump of file Release\postgres/gistget.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 56C4, #relocs   44, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  428, #relocs   24, #linenums    0, checksum 14F0E75C
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  1D6, #relocs    E, #linenums    0, checksum 8D71151E, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  328, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  452, #relocs   24, #linenums    0, checksum 4C8D1932, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  9B4, #relocs   66, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  47A, #relocs    E, #linenums    0, checksum A0BC3D7D, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  884, #relocs   68, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length   E2, #relocs    8, #linenums    0, checksum A7C542D7, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  218, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+01B 00000000 UNDEF  notype ()    External     | elog_start
+01C 00000000 UNDEF  notype ()    External     | elog_finish
+01D 00000000 UNDEF  notype ()    External     | palloc
+01E 00000000 UNDEF  notype ()    External     | pfree
+01F 00000000 UNDEF  notype ()    External     | FunctionCall5Coll
+020 00000000 UNDEF  notype ()    External     | tbm_add_tuples
+021 00000000 UNDEF  notype ()    External     | pairingheap_add
+022 00000000 UNDEF  notype ()    External     | pairingheap_remove_first
+023 00000000 UNDEF  notype ()    External     | index_getprocid
+024 00000000 UNDEF  notype ()    External     | nocache_index_getattr
+025 00000000 UNDEF  notype ()    External     | HeapTupleSatisfiesMVCC
+026 00000000 UNDEF  notype ()    External     | HeapTupleSatisfiesToast
+027 00000000 UNDEF  notype ()    External     | ReadBuffer
+028 00000000 UNDEF  notype ()    External     | UnlockReleaseBuffer
+029 00000000 UNDEF  notype ()    External     | BufferGetLSNAtomic
+02A 00000000 UNDEF  notype ()    External     | MarkBufferDirtyHint
+02B 00000000 UNDEF  notype ()    External     | LockBuffer
+02C 00000000 UNDEF  notype ()    External     | TestForOldSnapshot_impl
+02D 00000000 SECT4  notype ()    External     | gistgettuple
+02E 000002F0 SECT4  notype ()    External     | gistgetbitmap
+02F 00000410 SECT4  notype ()    External     | gistcanreturn
+030 00000000 UNDEF  notype ()    External     | gistcheckpage
+031 00000000 UNDEF  notype ()    External     | gistdentryinit
+032 00000000 UNDEF  notype ()    External     | gistFetchTuple
+033 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+034 00000000 UNDEF  notype ()    External     | get_float8_infinity
+035 00000000 UNDEF  notype ()    External     | MemoryContextReset
+036 00000000 SECTB  notype ()    Static       | gistkillitems
+037 00000000 SECT9  notype ()    Static       | gistindex_keytest
+038 00000000 SECT7  notype ()    Static       | gistScanPage
+039 00000000 SECT5  notype ()    Static       | getNextNearest
+03A 00000000 UNDEF  notype ()    External     | memcpy
+03B 00000000 SECT4  notype       Label        | $LN73
+03C 000002F0 SECT4  notype       Label        | $LN28
+03D 00000410 SECT4  notype       Label        | $LN6
+03E 00000000 SECTD  notype       Static       | .xdata
+    Section length   78, #relocs    C, #linenums    0, checksum 967E6677
+040 00000000 SECTD  notype       Static       | $unwind$gistgettuple
+041 00000000 SECTE  notype       Static       | .pdata
+    Section length   54, #relocs   15, #linenums    0, checksum D9832309
+043 00000000 SECTE  notype       Static       | $pdata$gistgettuple
+044 0000000C SECTD  notype       Static       | $chain$0$gistgettuple
+045 0000000C SECTE  notype       Static       | $pdata$0$gistgettuple
+046 00000020 SECTD  notype       Static       | $chain$1$gistgettuple
+047 00000018 SECTE  notype       Static       | $pdata$1$gistgettuple
+048 00000034 SECTD  notype       Static       | $chain$2$gistgettuple
+049 00000024 SECTE  notype       Static       | $pdata$2$gistgettuple
+04A 00000044 SECTD  notype       Static       | $chain$4$gistgettuple
+04B 00000030 SECTE  notype       Static       | $pdata$4$gistgettuple
+04C 0000005C SECTD  notype       Static       | $unwind$gistgetbitmap
+04D 0000003C SECTE  notype       Static       | $pdata$gistgetbitmap
+04E 00000070 SECTD  notype       Static       | $unwind$gistcanreturn
+04F 00000048 SECTE  notype       Static       | $pdata$gistcanreturn
+050 00000000 SECTF  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum ED4F81A7, selection    5 (pick associative Section 0xB)
+052 00000000 SECTF  notype       Static       | $unwind$gistkillitems
+053 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C1F5221C, selection    5 (pick associative Section 0xB)
+055 00000000 SECT10 notype       Static       | $pdata$gistkillitems
+056 00000000 SECT11 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 5085DF8E, selection    5 (pick associative Section 0x9)
+058 00000000 SECT11 notype       Static       | $unwind$gistindex_keytest
+059 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FDE2F2C3, selection    5 (pick associative Section 0x9)
+05B 00000000 SECT12 notype       Static       | $pdata$gistindex_keytest
+05C 00000000 SECT13 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 2B048105, selection    5 (pick associative Section 0x9)
+05E 00000000 SECT13 notype       Static       | $chain$0$gistindex_keytest
+05F 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7A66D202, selection    5 (pick associative Section 0x9)
+061 00000000 SECT14 notype       Static       | $pdata$0$gistindex_keytest
+062 00000000 SECT15 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 44B5182F, selection    5 (pick associative Section 0x9)
+064 00000000 SECT15 notype       Static       | $chain$1$gistindex_keytest
+065 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DDC90FC4, selection    5 (pick associative Section 0x9)
+067 00000000 SECT16 notype       Static       | $pdata$1$gistindex_keytest
+068 00000000 SECT17 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum EECB705A, selection    5 (pick associative Section 0x9)
+06A 00000000 SECT17 notype       Static       | $chain$2$gistindex_keytest
+06B 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8FC55D47, selection    5 (pick associative Section 0x9)
+06D 00000000 SECT18 notype       Static       | $pdata$2$gistindex_keytest
+06E 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 649EE528, selection    5 (pick associative Section 0x9)
+070 00000000 SECT19 notype       Static       | $chain$3$gistindex_keytest
+071 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 25CC5F4E, selection    5 (pick associative Section 0x9)
+073 00000000 SECT1A notype       Static       | $pdata$3$gistindex_keytest
+074 00000000 SECT1B notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 56D67848, selection    5 (pick associative Section 0x7)
+076 00000000 SECT1B notype       Static       | $unwind$gistScanPage
+077 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E34CD0A8, selection    5 (pick associative Section 0x7)
+079 00000000 SECT1C notype       Static       | $pdata$gistScanPage
+07A 00000000 SECT1D notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 489E6DA0, selection    5 (pick associative Section 0x5)
+07C 00000000 SECT1D notype       Static       | $unwind$getNextNearest
+07D 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6605742F, selection    5 (pick associative Section 0x5)
+07F 00000000 SECT1E notype       Static       | $pdata$getNextNearest
+080 00000000 UNDEF  notype       External     | pg_signal_queue
+081 00000000 UNDEF  notype       External     | pg_signal_mask
+082 00000000 UNDEF  notype       External     | CurrentMemoryContext
+083 00000000 UNDEF  notype       External     | old_snapshot_threshold
+084 00000000 UNDEF  notype       External     | BufferBlocks
+085 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+086 00000000 UNDEF  notype       External     | InterruptPending
+087 00000000 SECT1F notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 9F6881E1, selection    2 (pick any)
+089 00000000 SECT1F notype       External     | ??_C@_0BC@HIMLBFD@gistindex_keytest?$AA@ (`string')
+08A 00000000 SECT20 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum C393B106, selection    2 (pick any)
+08C 00000000 SECT20 notype       External     | ??_C@_0CC@HNBNCCND@src?1backend?1access?1gist?1gistget?4@ (`string')
+08D 00000000 SECT21 notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum  251BE5E, selection    2 (pick any)
+08F 00000000 SECT21 notype       External     | ??_C@_0CG@GFFHNKBC@invalid?5GiST?5tuple?5found?5on?5leaf@ (`string')
+090 00000000 SECT22 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum AF330589, selection    2 (pick any)
+092 00000000 SECT22 notype       External     | ??_C@_0P@IHBPPJJB@getNextNearest?$AA@ (`string')
+093 00000000 SECT23 notype       Static       | .rdata
+    Section length   6C, #relocs    0, #linenums    0, checksum 3D1EA149, selection    2 (pick any)
+095 00000000 SECT23 notype       External     | ??_C@_0GM@MNJNKDEF@GiST?5operator?5family?8s?5FOR?5ORDER@ (`string')
+096 00000000 SECT24 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 75CE0057, selection    2 (pick any)
+098 00000000 SECT24 notype       External     | ??_C@_0N@IFEFLJCK@gistgettuple?$AA@ (`string')
+099 00000000 SECT25 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum 4E395052, selection    2 (pick any)
+09B 00000000 SECT25 notype       External     | ??_C@_0CK@FFKJIHFG@GiST?5only?5supports?5forward?5scan?5@ (`string')
+09C 00000000 SECT26 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 8BED836F, selection    2 (pick any)
+09E 00000000 SECT26 notype       External     | __xmm@80000000000000008000000000000000
+09F 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x6CC bytes
+
+  Summary
+
+        6E3C .debug$S
+          68 .debug$T
+          5D .drectve
+          B4 .pdata
+         11C .rdata
+         FAC .text$mn
+         118 .xdata

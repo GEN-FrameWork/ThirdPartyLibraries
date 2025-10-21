@@ -1,0 +1,84 @@
+
+Dump of file Release\postgres/attoptcache.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 42B8, #relocs   40, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  1D8, #relocs   1B, #linenums    0, checksum 2DA2DB65
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   BB, #relocs    8, #linenums    0, checksum  450F385, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  144, #relocs    A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | elog_start
+00F 00000000 UNDEF  notype ()    External     | elog_finish
+010 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+011 00000000 UNDEF  notype ()    External     | palloc
+012 00000000 UNDEF  notype ()    External     | pfree
+013 00000000 UNDEF  notype ()    External     | hash_create
+014 00000000 UNDEF  notype ()    External     | hash_search
+015 00000000 UNDEF  notype ()    External     | hash_seq_init
+016 00000000 UNDEF  notype ()    External     | hash_seq_search
+017 00000000 UNDEF  notype ()    External     | attribute_reloptions
+018 00000000 SECT4  notype ()    External     | get_attribute_options
+019 00000000 UNDEF  notype ()    External     | CreateCacheMemoryContext
+01A 00000000 UNDEF  notype ()    External     | CacheRegisterSyscacheCallback
+01B 00000000 UNDEF  notype ()    External     | SearchSysCache
+01C 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+01D 00000000 UNDEF  notype ()    External     | SysCacheGetAttr
+01E 00000140 SECT4  notype ()    Static       | InvalidateAttoptCacheCallback
+01F 00000000 SECT5  notype ()    Static       | InitializeAttoptCache
+020 00000000 UNDEF  notype ()    External     | memcpy
+021 00000000 UNDEF  notype ()    External     | memset
+022 00000000 SECT4  notype       Label        | $LN11
+023 00000000 SECT7  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 3E59CAA3
+025 00000000 SECT7  notype       Static       | $unwind$get_attribute_options
+026 00000000 SECT8  notype       Static       | .pdata
+    Section length   18, #relocs    6, #linenums    0, checksum 86A8740C
+028 00000000 SECT8  notype       Static       | $pdata$get_attribute_options
+029 00000010 SECT7  notype       Static       | $unwind$InvalidateAttoptCacheCallback
+02A 0000000C SECT8  notype       Static       | $pdata$InvalidateAttoptCacheCallback
+02B 00000000 SECT9  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 8B09EE85, selection    5 (pick associative Section 0x5)
+02D 00000000 SECT9  notype       Static       | $unwind$InitializeAttoptCache
+02E 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8B9CCAF1, selection    5 (pick associative Section 0x5)
+030 00000000 SECTA  notype       Static       | $pdata$InitializeAttoptCache
+031 00000000 UNDEF  notype       External     | CacheMemoryContext
+032 00000000 SECTB  notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+034 00000000 SECTB  notype       Static       | AttoptCacheHash
+035 00000000 SECTC  notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 99CC7720, selection    2 (pick any)
+037 00000000 SECTC  notype       External     | ??_C@_0BO@GGDHLGGK@InvalidateAttoptCacheCallback?$AA@ (`string')
+038 00000000 SECTD  notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum A56D53F2, selection    2 (pick any)
+03A 00000000 SECTD  notype       External     | ??_C@_0CG@MCGLDHLO@src?1backend?1utils?1cache?1attoptca@ (`string')
+03B 00000000 SECTE  notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 13794EB1, selection    2 (pick any)
+03D 00000000 SECTE  notype       External     | ??_C@_0BF@KNICHEMF@hash?5table?5corrupted?$AA@ (`string')
+03E 00000000 SECTF  notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 63AB9794, selection    2 (pick any)
+040 00000000 SECTF  notype       External     | ??_C@_0N@JDCACOOJ@Attopt?5cache?$AA@ (`string')
+
+String Table Size = 0x2D0 bytes
+
+  Summary
+
+           8 .bss
+        43FC .debug$S
+          68 .debug$T
+          5D .drectve
+          24 .pdata
+          66 .rdata
+         293 .text$mn
+          20 .xdata

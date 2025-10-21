@@ -1,0 +1,274 @@
+
+Dump of file Release\postgres/commit_ts.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   81, #relocs    0, #linenums    0, checksum 73890F4C
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6DC4, #relocs  108, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000001 UNDEF  notype       External     | track_commit_timestamp
+009 00000008 UNDEF  notype       External     | commitTsShared
+00A 00000000 SECT4  notype       Static       | .text$mn
+    Section length  C27, #relocs   9F, #linenums    0, checksum 433D9C3C
+00C 00000000 SECT5  notype       Static       | .text$mn
+    Section length  173, #relocs   23, #linenums    0, checksum 1CB22D91, selection    1 (pick no duplicates)
+00E 00000000 SECT6  notype       Static       | .debug$S
+    Section length  1F4, #relocs    8, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+010 00000000 SECT7  notype       Static       | .text$mn
+    Section length   B8, #relocs   11, #linenums    0, checksum DD263925, selection    1 (pick no duplicates)
+012 00000000 SECT8  notype       Static       | .debug$S
+    Section length  114, #relocs    4, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+014 00000000 SECT9  notype       Static       | .text$mn
+    Section length  12E, #relocs    9, #linenums    0, checksum C1B9654B, selection    1 (pick no duplicates)
+016 00000000 SECTA  notype       Static       | .debug$S
+    Section length  3C4, #relocs   26, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+018 00000000 SECTB  notype       Static       | .text$mn
+    Section length   91, #relocs    C, #linenums    0, checksum 9B23C594, selection    1 (pick no duplicates)
+01A 00000000 SECTC  notype       Static       | .debug$S
+    Section length   C8, #relocs    4, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01C 00000000 UNDEF  notype ()    External     | errstart
+01D 00000000 UNDEF  notype ()    External     | errfinish
+01E 00000000 UNDEF  notype ()    External     | errcode
+01F 00000000 UNDEF  notype ()    External     | errmsg
+020 00000000 UNDEF  notype ()    External     | errhint
+021 00000000 UNDEF  notype ()    External     | elog_start
+022 00000000 UNDEF  notype ()    External     | elog_finish
+023 00000000 UNDEF  notype ()    External     | palloc
+024 00000000 UNDEF  notype ()    External     | pfree
+025 00000000 UNDEF  notype ()    External     | XLogBeginInsert
+026 00000000 UNDEF  notype ()    External     | XLogInsert
+027 00000000 UNDEF  notype ()    External     | XLogRegisterData
+028 00000000 UNDEF  notype ()    External     | fsync_fname
+029 00000000 UNDEF  notype ()    External     | RecoveryInProgress
+02A 00000000 UNDEF  notype ()    External     | CreateTemplateTupleDesc
+02B 00000000 UNDEF  notype ()    External     | TupleDescInitEntry
+02C 00000000 SECT4  notype ()    External     | TransactionTreeSetCommitTsData
+02D 00000200 SECT4  notype ()    External     | TransactionIdGetCommitTsData
+02E 00000400 SECT4  notype ()    External     | GetLatestCommitTsData
+02F 000004A0 SECT4  notype ()    External     | CommitTsShmemBuffers
+030 000004E0 SECT4  notype ()    External     | CommitTsShmemSize
+031 00000540 SECT4  notype ()    External     | CommitTsShmemInit
+032 00000620 SECT4  notype ()    External     | BootStrapCommitTs
+033 00000630 SECT4  notype ()    External     | StartupCommitTs
+034 00000640 SECT4  notype ()    External     | CommitTsParameterChange
+035 00000670 SECT4  notype ()    External     | CompleteCommitTsInitialization
+036 00000690 SECT4  notype ()    External     | ShutdownCommitTs
+037 000006C0 SECT4  notype ()    External     | CheckPointCommitTs
+038 000006F0 SECT4  notype ()    External     | ExtendCommitTs
+039 000007C0 SECT4  notype ()    External     | TruncateCommitTs
+03A 00000840 SECT4  notype ()    External     | SetCommitTsLimit
+03B 000008D0 SECT4  notype ()    External     | AdvanceOldestCommitTsXid
+03C 00000930 SECT4  notype ()    External     | commit_ts_redo
+03D 00000000 UNDEF  notype ()    External     | TransactionIdPrecedes
+03E 00000000 UNDEF  notype ()    External     | ReadNewTransactionId
+03F 00000000 UNDEF  notype ()    External     | heap_form_tuple
+040 00000000 UNDEF  notype ()    External     | LWLockAcquire
+041 00000000 UNDEF  notype ()    External     | LWLockRelease
+042 00000000 UNDEF  notype ()    External     | SimpleLruShmemSize
+043 00000000 UNDEF  notype ()    External     | SimpleLruInit
+044 00000000 UNDEF  notype ()    External     | SimpleLruZeroPage
+045 00000000 UNDEF  notype ()    External     | SimpleLruReadPage
+046 00000000 UNDEF  notype ()    External     | SimpleLruReadPage_ReadOnly
+047 00000000 UNDEF  notype ()    External     | SimpleLruWritePage
+048 00000000 UNDEF  notype ()    External     | SimpleLruFlush
+049 00000000 UNDEF  notype ()    External     | SimpleLruTruncate
+04A 00000000 UNDEF  notype ()    External     | SimpleLruDoesPhysicalPageExist
+04B 00000000 UNDEF  notype ()    External     | SlruScanDirectory
+04C 00000000 UNDEF  notype ()    External     | SlruScanDirCbReportPresence
+04D 00000000 UNDEF  notype ()    External     | SlruScanDirCbDeleteAll
+04E 00000000 UNDEF  notype ()    External     | BlessTupleDesc
+04F 00000000 UNDEF  notype ()    External     | HeapTupleHeaderGetDatum
+050 00000000 UNDEF  notype ()    External     | ShmemInitStruct
+051 00000AB0 SECT4  notype ()    External     | pg_xact_commit_timestamp
+052 00000AF0 SECT4  notype ()    External     | pg_last_committed_xact
+053 00000000 SECT9  notype ()    Static       | SetXidCommitTsInPage
+054 00000000 SECTB  notype ()    Static       | error_commit_ts_disabled
+055 00000C10 SECT4  notype ()    Static       | CommitTsPagePrecedes
+056 00000000 SECT5  notype ()    Static       | ActivateCommitTs
+057 00000000 SECT7  notype ()    Static       | DeactivateCommitTs
+058 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+059 00000000 UNDEF  notype ()    External     | __security_check_cookie
+05A 00000000 UNDEF  notype ()    External     | memcpy
+05B 00000000 SECT4  notype       Label        | $LN30
+05C 00000200 SECT4  notype       Label        | $LN21
+05D 00000400 SECT4  notype       Label        | $LN7
+05E 000004E0 SECT4  notype       Label        | $LN12
+05F 00000540 SECT4  notype       Label        | $LN17
+060 00000690 SECT4  notype       Label        | $LN4
+061 000006C0 SECT4  notype       Label        | $LN4
+062 000006F0 SECT4  notype       Label        | $LN12
+063 000007C0 SECT4  notype       Label        | $LN7
+064 00000840 SECT4  notype       Label        | $LN9
+065 000008D0 SECT4  notype       Label        | $LN5
+066 00000930 SECT4  notype       Label        | $LN23
+067 00000AB0 SECT4  notype       Label        | $LN8
+068 00000AF0 SECT4  notype       Label        | $LN15
+069 00000000 SECTD  notype       Static       | .xdata
+    Section length  1BC, #relocs   2B, #linenums    0, checksum 51CE50A7
+06B 00000000 SECTD  notype       Static       | $unwind$TransactionTreeSetCommitTsData
+06C 00000000 SECTE  notype       Static       | .pdata
+    Section length  150, #relocs   54, #linenums    0, checksum 2F618D40
+06E 00000000 SECTE  notype       Static       | $pdata$TransactionTreeSetCommitTsData
+06F 00000018 SECTD  notype       Static       | $chain$4$TransactionTreeSetCommitTsData
+070 0000000C SECTE  notype       Static       | $pdata$4$TransactionTreeSetCommitTsData
+071 0000003C SECTD  notype       Static       | $chain$5$TransactionTreeSetCommitTsData
+072 00000018 SECTE  notype       Static       | $pdata$5$TransactionTreeSetCommitTsData
+073 00000050 SECTD  notype       Static       | $chain$6$TransactionTreeSetCommitTsData
+074 00000024 SECTE  notype       Static       | $pdata$6$TransactionTreeSetCommitTsData
+075 00000060 SECTD  notype       Static       | $unwind$TransactionIdGetCommitTsData
+076 00000030 SECTE  notype       Static       | $pdata$TransactionIdGetCommitTsData
+077 00000078 SECTD  notype       Static       | $chain$0$TransactionIdGetCommitTsData
+078 0000003C SECTE  notype       Static       | $pdata$0$TransactionIdGetCommitTsData
+079 0000008C SECTD  notype       Static       | $chain$1$TransactionIdGetCommitTsData
+07A 00000048 SECTE  notype       Static       | $pdata$1$TransactionIdGetCommitTsData
+07B 0000009C SECTD  notype       Static       | $unwind$GetLatestCommitTsData
+07C 00000054 SECTE  notype       Static       | $pdata$GetLatestCommitTsData
+07D 000000AC SECTD  notype       Static       | $unwind$CommitTsShmemSize
+07E 00000060 SECTE  notype       Static       | $pdata$CommitTsShmemSize
+07F 000000B4 SECTD  notype       Static       | $unwind$CommitTsShmemInit
+080 0000006C SECTE  notype       Static       | $pdata$CommitTsShmemInit
+081 000000BC SECTD  notype       Static       | $unwind$ShutdownCommitTs
+082 00000078 SECTE  notype       Static       | $pdata$ShutdownCommitTs
+083 000000C4 SECTD  notype       Static       | $unwind$CheckPointCommitTs
+084 00000084 SECTE  notype       Static       | $pdata$CheckPointCommitTs
+085 000000CC SECTD  notype       Static       | $unwind$ExtendCommitTs
+086 00000090 SECTE  notype       Static       | $pdata$ExtendCommitTs
+087 000000D4 SECTD  notype       Static       | $chain$0$ExtendCommitTs
+088 0000009C SECTE  notype       Static       | $pdata$0$ExtendCommitTs
+089 000000E8 SECTD  notype       Static       | $chain$1$ExtendCommitTs
+08A 000000A8 SECTE  notype       Static       | $pdata$1$ExtendCommitTs
+08B 000000FC SECTD  notype       Static       | $chain$2$ExtendCommitTs
+08C 000000B4 SECTE  notype       Static       | $pdata$2$ExtendCommitTs
+08D 0000010C SECTD  notype       Static       | $chain$4$ExtendCommitTs
+08E 000000C0 SECTE  notype       Static       | $pdata$4$ExtendCommitTs
+08F 00000120 SECTD  notype       Static       | $chain$5$ExtendCommitTs
+090 000000CC SECTE  notype       Static       | $pdata$5$ExtendCommitTs
+091 00000130 SECTD  notype       Static       | $unwind$TruncateCommitTs
+092 000000D8 SECTE  notype       Static       | $pdata$TruncateCommitTs
+093 00000138 SECTD  notype       Static       | $unwind$SetCommitTsLimit
+094 000000E4 SECTE  notype       Static       | $pdata$SetCommitTsLimit
+095 00000144 SECTD  notype       Static       | $unwind$AdvanceOldestCommitTsXid
+096 000000F0 SECTE  notype       Static       | $pdata$AdvanceOldestCommitTsXid
+097 0000014C SECTD  notype       Static       | $unwind$commit_ts_redo
+098 000000FC SECTE  notype       Static       | $pdata$commit_ts_redo
+099 00000158 SECTD  notype       Static       | $chain$0$commit_ts_redo
+09A 00000108 SECTE  notype       Static       | $pdata$0$commit_ts_redo
+09B 0000016C SECTD  notype       Static       | $chain$2$commit_ts_redo
+09C 00000114 SECTE  notype       Static       | $pdata$2$commit_ts_redo
+09D 00000184 SECTD  notype       Static       | $chain$3$commit_ts_redo
+09E 00000120 SECTE  notype       Static       | $pdata$3$commit_ts_redo
+09F 00000194 SECTD  notype       Static       | $chain$4$commit_ts_redo
+0A0 0000012C SECTE  notype       Static       | $pdata$4$commit_ts_redo
+0A1 000001A4 SECTD  notype       Static       | $unwind$pg_xact_commit_timestamp
+0A2 00000138 SECTE  notype       Static       | $pdata$pg_xact_commit_timestamp
+0A3 000001AC SECTD  notype       Static       | $unwind$pg_last_committed_xact
+0A4 00000144 SECTE  notype       Static       | $pdata$pg_last_committed_xact
+0A5 00000000 SECTF  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 6A3C51C2, selection    5 (pick associative Section 0x9)
+0A7 00000000 SECTF  notype       Static       | $unwind$SetXidCommitTsInPage
+0A8 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4A8B7BD0, selection    5 (pick associative Section 0x9)
+0AA 00000000 SECT10 notype       Static       | $pdata$SetXidCommitTsInPage
+0AB 00000000 SECT11 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 37887F31, selection    5 (pick associative Section 0xB)
+0AD 00000000 SECT11 notype       Static       | $unwind$error_commit_ts_disabled
+0AE 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 205670FA, selection    5 (pick associative Section 0xB)
+0B0 00000000 SECT12 notype       Static       | $pdata$error_commit_ts_disabled
+0B1 00000000 SECT13 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 293F5F95, selection    5 (pick associative Section 0xB)
+0B3 00000000 SECT13 notype       Static       | $chain$1$error_commit_ts_disabled
+0B4 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6E31D41C, selection    5 (pick associative Section 0xB)
+0B6 00000000 SECT14 notype       Static       | $pdata$1$error_commit_ts_disabled
+0B7 00000000 SECT15 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 99019A16, selection    5 (pick associative Section 0xB)
+0B9 00000000 SECT15 notype       Static       | $chain$2$error_commit_ts_disabled
+0BA 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 86E7960E, selection    5 (pick associative Section 0xB)
+0BC 00000000 SECT16 notype       Static       | $pdata$2$error_commit_ts_disabled
+0BD 00000000 SECT17 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum AECF9F7C, selection    5 (pick associative Section 0x5)
+0BF 00000000 SECT17 notype       Static       | $unwind$ActivateCommitTs
+0C0 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 84A89DC7, selection    5 (pick associative Section 0x5)
+0C2 00000000 SECT18 notype       Static       | $pdata$ActivateCommitTs
+0C3 00000000 SECT19 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum  FC539D1, selection    5 (pick associative Section 0x7)
+0C5 00000000 SECT19 notype       Static       | $unwind$DeactivateCommitTs
+0C6 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  513CD12, selection    5 (pick associative Section 0x7)
+0C8 00000000 SECT1A notype       Static       | $pdata$DeactivateCommitTs
+0C9 00000000 UNDEF  notype       External     | InRecovery
+0CA 00000000 UNDEF  notype       External     | ShmemVariableCache
+0CB 00000000 UNDEF  notype       External     | MainLWLockArray
+0CC 00000000 UNDEF  notype       External     | IsUnderPostmaster
+0CD 00000000 UNDEF  notype       External     | NBuffers
+0CE 00000000 SECT1B notype       Static       | .bss
+    Section length   58, #relocs    0, #linenums    0, checksum        0
+0D0 00000000 SECT1B notype       Static       | CommitTsCtlData
+0D1 00000000 SECT1C notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 4C6A35D2, selection    2 (pick any)
+0D3 00000000 SECT1C notype       External     | ??_C@_0BN@LIMBAPAL@TransactionIdGetCommitTsData?$AA@ (`string')
+0D4 00000000 SECT1D notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum AE143F4F, selection    2 (pick any)
+0D6 00000000 SECT1D notype       External     | ??_C@_0CH@NBBJDEJA@src?1backend?1access?1transam?1commi@ (`string')
+0D7 00000000 SECT1E notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum 55328401, selection    2 (pick any)
+0D9 00000000 SECT1E notype       External     | ??_C@_0DE@GGOGHEEO@cannot?5retrieve?5commit?5timestamp@ (`string')
+0DA 00000000 SECT1F notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 5F137304, selection    2 (pick any)
+0DC 00000000 SECT1F notype       External     | ??_C@_0BJ@EJCDICHE@error_commit_ts_disabled?$AA@ (`string')
+0DD 00000000 SECT20 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum BBE0FE11, selection    2 (pick any)
+0DF 00000000 SECT20 notype       External     | ??_C@_0BH@DGLPCFKK@track_commit_timestamp?$AA@ (`string')
+0E0 00000000 SECT21 notype       Static       | .rdata
+    Section length   48, #relocs    0, #linenums    0, checksum 408812D9, selection    2 (pick any)
+0E2 00000000 SECT21 notype       External     | ??_C@_0EI@LALFFGHE@Make?5sure?5the?5configuration?5para@ (`string')
+0E3 00000000 SECT22 notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum 8998995C, selection    2 (pick any)
+0E5 00000000 SECT22 notype       External     | ??_C@_0DD@FOHFDDDB@Make?5sure?5the?5configuration?5para@ (`string')
+0E6 00000000 SECT23 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum AB196A23, selection    2 (pick any)
+0E8 00000000 SECT23 notype       External     | ??_C@_0CE@DOFACHAJ@could?5not?5get?5commit?5timestamp?5d@ (`string')
+0E9 00000000 SECT24 notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum E81CD67F, selection    2 (pick any)
+0EB 00000000 SECT24 notype       External     | ??_C@_03DGKHPGJM@xid?$AA@ (`string')
+0EC 00000000 SECT25 notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum F04C4CB6, selection    2 (pick any)
+0EE 00000000 SECT25 notype       External     | ??_C@_09OMDJNLDP@timestamp?$AA@ (`string')
+0EF 00000000 SECT26 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum F2D05478, selection    2 (pick any)
+0F1 00000000 SECT26 notype       External     | ??_C@_0N@CFLONAF@pg_commit_ts?$AA@ (`string')
+0F2 00000000 SECT27 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum A7E321C3, selection    2 (pick any)
+0F4 00000000 SECT27 notype       External     | ??_C@_0BB@JBPDCPIB@commit_timestamp?$AA@ (`string')
+0F5 00000000 SECT28 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum  B919BBB, selection    2 (pick any)
+0F7 00000000 SECT28 notype       External     | ??_C@_0BA@BINFCPBB@CommitTs?5shared?$AA@ (`string')
+0F8 00000000 SECT29 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 25EB8F8F, selection    2 (pick any)
+0FA 00000000 SECT29 notype       External     | ??_C@_0P@NMHHDJH@commit_ts_redo?$AA@ (`string')
+0FB 00000000 SECT2A notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 2F072388, selection    2 (pick any)
+0FD 00000000 SECT2A notype       External     | ??_C@_0CD@NJAAILEA@commit_ts_redo?3?5unknown?5op?5code?5@ (`string')
+0FE 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0xF42 bytes
+
+  Summary
+
+          58 .bss
+        7558 .debug$S
+          68 .debug$T
+          81 .drectve
+         198 .pdata
+         1B5 .rdata
+        1011 .text$mn
+         214 .xdata

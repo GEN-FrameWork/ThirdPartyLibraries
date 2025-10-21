@@ -1,0 +1,240 @@
+
+Dump of file Release\postgres/heaptuple.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 7728, #relocs  242, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 1B95, #relocs   88, #linenums    0, checksum  4A5B0F2
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  2DC, #relocs    0, #linenums    0, checksum 31271763, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  4B4, #relocs   34, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | errstart
+00F 00000000 UNDEF  notype ()    External     | errfinish
+010 00000000 UNDEF  notype ()    External     | errcode
+011 00000000 UNDEF  notype ()    External     | errmsg
+012 00000000 UNDEF  notype ()    External     | elog_start
+013 00000000 UNDEF  notype ()    External     | elog_finish
+014 00000000 UNDEF  notype ()    External     | palloc
+015 00000000 UNDEF  notype ()    External     | palloc0
+016 00000000 UNDEF  notype ()    External     | pfree
+017 00000000 SECT4  notype ()    External     | heap_compute_data_size
+018 000001F0 SECT4  notype ()    External     | heap_fill_tuple
+019 000005A0 SECT4  notype ()    External     | heap_attisnull
+01A 00000640 SECT4  notype ()    External     | nocachegetattr
+01B 00000A30 SECT4  notype ()    External     | heap_getsysattr
+01C 00000B10 SECT4  notype ()    External     | heap_copytuple
+01D 00000B80 SECT4  notype ()    External     | heap_copytuple_with_tuple
+01E 00000C00 SECT4  notype ()    External     | heap_copy_tuple_as_datum
+01F 00000C80 SECT4  notype ()    External     | heap_form_tuple
+020 00000E40 SECT4  notype ()    External     | heap_modify_tuple
+021 00000F80 SECT4  notype ()    External     | heap_modify_tuple_by_cols
+022 00001100 SECT4  notype ()    External     | heap_deform_tuple
+023 00001440 SECT4  notype ()    External     | heap_freetuple
+024 00001450 SECT4  notype ()    External     | heap_form_minimal_tuple
+025 000015D0 SECT4  notype ()    External     | heap_free_minimal_tuple
+026 000015E0 SECT4  notype ()    External     | heap_copy_minimal_tuple
+027 00001620 SECT4  notype ()    External     | heap_tuple_from_minimal_tuple
+028 000016A0 SECT4  notype ()    External     | minimal_tuple_from_heap_tuple
+029 00000000 UNDEF  notype ()    External     | toast_flatten_tuple_to_datum
+02A 00001700 SECT4  notype ()    External     | slot_getattr
+02B 000018A0 SECT4  notype ()    External     | slot_getallattrs
+02C 00001960 SECT4  notype ()    External     | slot_getsomeattrs
+02D 00001A50 SECT4  notype ()    External     | slot_attisnull
+02E 00001B50 SECT4  notype ()    External     | slot_getsysattr
+02F 00000000 UNDEF  notype ()    External     | DatumGetEOHP
+030 00000000 UNDEF  notype ()    External     | EOH_get_flat_size
+031 00000000 UNDEF  notype ()    External     | EOH_flatten_into
+032 00000000 SECT5  notype ()    Static       | slot_deform_tuple
+033 00000000 UNDEF  notype ()    External     | memcpy
+034 00000000 SECT4  notype       Label        | $LN47
+035 000001F0 SECT4  notype       Label        | $LN78
+036 000005A0 SECT4  notype       Label        | $LN16
+037 00000640 SECT4  notype       Label        | $LN126
+038 00000AEC SECT4  notype       Static       | $LN18
+039 00000A5B SECT4  notype       Label        | $LN7
+03A 00000A65 SECT4  notype       Label        | $LN8
+03B 00000A89 SECT4  notype       Label        | $LN9
+03C 00000A95 SECT4  notype       Label        | $LN10
+03D 00000AA2 SECT4  notype       Label        | $LN11
+03E 00000AAF SECT4  notype       Label        | $LN12
+03F 00000A30 SECT4  notype       Label        | $LN20
+040 00000B10 SECT4  notype       Label        | $LN6
+041 00000B80 SECT4  notype       Label        | $LN6
+042 00000C00 SECT4  notype       Label        | $LN5
+043 00000C80 SECT4  notype       Label        | $LN24
+044 00000E40 SECT4  notype       Label        | $LN22
+045 00000F80 SECT4  notype       Label        | $LN25
+046 00001100 SECT4  notype       Label        | $LN76
+047 00001450 SECT4  notype       Label        | $LN25
+048 000015E0 SECT4  notype       Label        | $LN4
+049 00001620 SECT4  notype       Label        | $LN4
+04A 000016A0 SECT4  notype       Label        | $LN4
+04B 00001700 SECT4  notype       Label        | $LN27
+04C 000018A0 SECT4  notype       Label        | $LN17
+04D 00001960 SECT4  notype       Label        | $LN23
+04E 00001A50 SECT4  notype       Label        | $LN23
+04F 00001B50 SECT4  notype       Label        | $LN6
+050 00000000 SECT7  notype       Static       | .xdata
+    Section length  22C, #relocs   1E, #linenums    0, checksum  FAD898A
+052 00000000 SECT7  notype       Static       | $unwind$heap_compute_data_size
+053 00000000 SECT8  notype       Static       | .pdata
+    Section length  174, #relocs   5D, #linenums    0, checksum B22A2551
+055 00000000 SECT8  notype       Static       | $pdata$heap_compute_data_size
+056 00000018 SECT7  notype       Static       | $chain$0$heap_compute_data_size
+057 0000000C SECT8  notype       Static       | $pdata$0$heap_compute_data_size
+058 0000002C SECT7  notype       Static       | $chain$1$heap_compute_data_size
+059 00000018 SECT8  notype       Static       | $pdata$1$heap_compute_data_size
+05A 0000003C SECT7  notype       Static       | $unwind$heap_fill_tuple
+05B 00000024 SECT8  notype       Static       | $pdata$heap_fill_tuple
+05C 00000054 SECT7  notype       Static       | $unwind$heap_attisnull
+05D 00000030 SECT8  notype       Static       | $pdata$heap_attisnull
+05E 0000005C SECT7  notype       Static       | $unwind$nocachegetattr
+05F 0000003C SECT8  notype       Static       | $pdata$nocachegetattr
+060 00000078 SECT7  notype       Static       | $unwind$heap_getsysattr
+061 00000048 SECT8  notype       Static       | $pdata$heap_getsysattr
+062 00000080 SECT7  notype       Static       | $unwind$heap_copytuple
+063 00000054 SECT8  notype       Static       | $pdata$heap_copytuple
+064 00000088 SECT7  notype       Static       | $chain$0$heap_copytuple
+065 00000060 SECT8  notype       Static       | $pdata$0$heap_copytuple
+066 0000009C SECT7  notype       Static       | $chain$1$heap_copytuple
+067 0000006C SECT8  notype       Static       | $pdata$1$heap_copytuple
+068 000000AC SECT7  notype       Static       | $unwind$heap_copytuple_with_tuple
+069 00000078 SECT8  notype       Static       | $pdata$heap_copytuple_with_tuple
+06A 000000B8 SECT7  notype       Static       | $unwind$heap_copy_tuple_as_datum
+06B 00000084 SECT8  notype       Static       | $pdata$heap_copy_tuple_as_datum
+06C 000000C8 SECT7  notype       Static       | $unwind$heap_form_tuple
+06D 00000090 SECT8  notype       Static       | $pdata$heap_form_tuple
+06E 000000E4 SECT7  notype       Static       | $unwind$heap_modify_tuple
+06F 0000009C SECT8  notype       Static       | $pdata$heap_modify_tuple
+070 00000100 SECT7  notype       Static       | $unwind$heap_modify_tuple_by_cols
+071 000000A8 SECT8  notype       Static       | $pdata$heap_modify_tuple_by_cols
+072 00000118 SECT7  notype       Static       | $unwind$heap_deform_tuple
+073 000000B4 SECT8  notype       Static       | $pdata$heap_deform_tuple
+074 00000130 SECT7  notype       Static       | $unwind$heap_form_minimal_tuple
+075 000000C0 SECT8  notype       Static       | $pdata$heap_form_minimal_tuple
+076 0000014C SECT7  notype       Static       | $unwind$heap_copy_minimal_tuple
+077 000000CC SECT8  notype       Static       | $pdata$heap_copy_minimal_tuple
+078 00000158 SECT7  notype       Static       | $unwind$heap_tuple_from_minimal_tuple
+079 000000D8 SECT8  notype       Static       | $pdata$heap_tuple_from_minimal_tuple
+07A 00000168 SECT7  notype       Static       | $unwind$minimal_tuple_from_heap_tuple
+07B 000000E4 SECT8  notype       Static       | $pdata$minimal_tuple_from_heap_tuple
+07C 0000017C SECT7  notype       Static       | $unwind$slot_getattr
+07D 000000F0 SECT8  notype       Static       | $pdata$slot_getattr
+07E 00000190 SECT7  notype       Static       | $chain$0$slot_getattr
+07F 000000FC SECT8  notype       Static       | $pdata$0$slot_getattr
+080 000001A4 SECT7  notype       Static       | $chain$1$slot_getattr
+081 00000108 SECT8  notype       Static       | $pdata$1$slot_getattr
+082 000001B4 SECT7  notype       Static       | $unwind$slot_getallattrs
+083 00000114 SECT8  notype       Static       | $pdata$slot_getallattrs
+084 000001C0 SECT7  notype       Static       | $chain$0$slot_getallattrs
+085 00000120 SECT8  notype       Static       | $pdata$0$slot_getallattrs
+086 000001D4 SECT7  notype       Static       | $chain$1$slot_getallattrs
+087 0000012C SECT8  notype       Static       | $pdata$1$slot_getallattrs
+088 000001E4 SECT7  notype       Static       | $unwind$slot_getsomeattrs
+089 00000138 SECT8  notype       Static       | $pdata$slot_getsomeattrs
+08A 000001F0 SECT7  notype       Static       | $chain$0$slot_getsomeattrs
+08B 00000144 SECT8  notype       Static       | $pdata$0$slot_getsomeattrs
+08C 00000204 SECT7  notype       Static       | $chain$1$slot_getsomeattrs
+08D 00000150 SECT8  notype       Static       | $pdata$1$slot_getsomeattrs
+08E 00000214 SECT7  notype       Static       | $unwind$slot_attisnull
+08F 0000015C SECT8  notype       Static       | $pdata$slot_attisnull
+090 00000224 SECT7  notype       Static       | $unwind$slot_getsysattr
+091 00000168 SECT8  notype       Static       | $pdata$slot_getsysattr
+092 00000000 SECT9  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 76EDF9CC, selection    5 (pick associative Section 0x5)
+094 00000000 SECT9  notype       Static       | $unwind$slot_deform_tuple
+095 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 412BBC73, selection    5 (pick associative Section 0x5)
+097 00000000 SECTA  notype       Static       | $pdata$slot_deform_tuple
+098 00000000 SECTB  notype       Static       | .xdata
+    Section length   24, #relocs    3, #linenums    0, checksum F4F7B5D9, selection    5 (pick associative Section 0x5)
+09A 00000000 SECTB  notype       Static       | $chain$4$slot_deform_tuple
+09B 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2599DB6E, selection    5 (pick associative Section 0x5)
+09D 00000000 SECTC  notype       Static       | $pdata$4$slot_deform_tuple
+09E 00000000 SECTD  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum F87C569F, selection    5 (pick associative Section 0x5)
+0A0 00000000 SECTD  notype       Static       | $chain$5$slot_deform_tuple
+0A1 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum BA7DFA24, selection    5 (pick associative Section 0x5)
+0A3 00000000 SECTE  notype       Static       | $pdata$5$slot_deform_tuple
+0A4 00000000 SECTF  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 30C63E8F, selection    2 (pick any)
+0A6 00000000 SECTF  notype       External     | ??_C@_0BA@CDICIKCF@heap_fill_tuple?$AA@ (`string')
+0A7 00000000 SECT10 notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 3B1C8DA4, selection    2 (pick any)
+0A9 00000000 SECT10 notype       External     | ??_C@_0CG@FMBKOJOI@src?1backend?1access?1common?1heaptu@ (`string')
+0AA 00000000 SECT11 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 881A13DD, selection    2 (pick any)
+0AC 00000000 SECT11 notype       External     | ??_C@_0BN@HMLBCJAE@unsupported?5byval?5length?3?5?$CFd?$AA@ (`string')
+0AD 00000000 SECT12 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 432E5824, selection    2 (pick any)
+0AF 00000000 SECT12 notype       External     | ??_C@_0P@GLACKEDM@heap_attisnull?$AA@ (`string')
+0B0 00000000 SECT13 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 94E3C5F8, selection    2 (pick any)
+0B2 00000000 SECT13 notype       External     | ??_C@_0BD@LBBEPDGI@invalid?5attnum?3?5?$CFd?$AA@ (`string')
+0B3 00000000 SECT14 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum E52B2E7A, selection    2 (pick any)
+0B5 00000000 SECT14 notype       External     | ??_C@_0BA@PGGPJKNA@heap_getsysattr?$AA@ (`string')
+0B6 00000000 SECT15 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 9570D7B5, selection    2 (pick any)
+0B8 00000000 SECT15 notype       External     | ??_C@_0BA@IGDEGDBP@heap_form_tuple?$AA@ (`string')
+0B9 00000000 SECT16 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum 6A0224D9, selection    2 (pick any)
+0BB 00000000 SECT16 notype       External     | ??_C@_0CK@HBJCPDNN@number?5of?5columns?5?$CI?$CFd?$CJ?5exceeds?5l@ (`string')
+0BC 00000000 SECT17 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum FC87608B, selection    2 (pick any)
+0BE 00000000 SECT17 notype       External     | ??_C@_0BK@KMJECBEG@heap_modify_tuple_by_cols?$AA@ (`string')
+0BF 00000000 SECT18 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 4CCF70D2, selection    2 (pick any)
+0C1 00000000 SECT18 notype       External     | ??_C@_0BJ@FKPPIBKC@invalid?5column?5number?5?$CFd?$AA@ (`string')
+0C2 00000000 SECT19 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 26EECF81, selection    2 (pick any)
+0C4 00000000 SECT19 notype       External     | ??_C@_0N@NGGFHGPM@slot_getattr?$AA@ (`string')
+0C5 00000000 SECT1A notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum 41394572, selection    2 (pick any)
+0C7 00000000 SECT1A notype       External     | ??_C@_0DD@JGNEOPBP@cannot?5extract?5system?5attribute?5@ (`string')
+0C8 00000000 SECT1B notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum 30BAAA5E, selection    2 (pick any)
+0CA 00000000 SECT1B notype       External     | ??_C@_0DD@OHFHAADD@cannot?5extract?5system?5attribute?5@ (`string')
+0CB 00000000 SECT1C notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum A57756AB, selection    2 (pick any)
+0CD 00000000 SECT1C notype       External     | ??_C@_0CP@LPFBACCB@cannot?5extract?5attribute?5from?5em@ (`string')
+0CE 00000000 SECT1D notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 18A33471, selection    2 (pick any)
+0D0 00000000 SECT1D notype       External     | ??_C@_0BB@COLDDKDD@slot_getallattrs?$AA@ (`string')
+0D1 00000000 SECT1E notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 768927F5, selection    2 (pick any)
+0D3 00000000 SECT1E notype       External     | ??_C@_0BC@OOGNBHEH@slot_getsomeattrs?$AA@ (`string')
+0D4 00000000 SECT1F notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum D22C2EBB, selection    2 (pick any)
+0D6 00000000 SECT1F notype       External     | ??_C@_0BM@KNKDKGKN@invalid?5attribute?5number?5?$CFd?$AA@ (`string')
+0D7 00000000 SECT20 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 8E0EA91A, selection    2 (pick any)
+0D9 00000000 SECT20 notype       External     | ??_C@_0P@KGCCFFAC@slot_attisnull?$AA@ (`string')
+0DA 00000000 SECT21 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum  97EDAEF, selection    2 (pick any)
+0DC 00000000 SECT21 notype       External     | ??_C@_0BI@FFEAOPDA@heap_form_minimal_tuple?$AA@ (`string')
+0DD 00000000 UNDEF  notype       External     | __ImageBase
+
+String Table Size = 0xD1F bytes
+
+  Summary
+
+        7BDC .debug$S
+          68 .debug$T
+          5D .drectve
+         198 .pdata
+         1FA .rdata
+        1E71 .text$mn
+         26C .xdata

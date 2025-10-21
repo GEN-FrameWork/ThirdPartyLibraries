@@ -1,0 +1,214 @@
+
+Dump of file Release\postgres/gistxlog.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4AE8, #relocs   66, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  2F0, #relocs   26, #linenums    0, checksum 6FCC61C2
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   90, #relocs    5, #linenums    0, checksum 271D7C41, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  230, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   7A, #relocs    6, #linenums    0, checksum 861A00CA, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  18C, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  2B5, #relocs    D, #linenums    0, checksum 6C65636C, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  518, #relocs   30, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  22C, #relocs   14, #linenums    0, checksum 7E70BF01, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  3BC, #relocs   26, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 UNDEF  notype ()    External     | elog_start
+01B 00000000 UNDEF  notype ()    External     | elog_finish
+01C 00000000 UNDEF  notype ()    External     | palloc
+01D 00000000 UNDEF  notype ()    External     | PageAddItemExtended
+01E 00000000 UNDEF  notype ()    External     | PageIndexMultiDelete
+01F 00000000 UNDEF  notype ()    External     | PageIndexTupleOverwrite
+020 00000000 UNDEF  notype ()    External     | UnlockReleaseBuffer
+021 00000000 UNDEF  notype ()    External     | MarkBufferDirty
+022 00000000 UNDEF  notype ()    External     | mask_page_lsn_and_checksum
+023 00000000 UNDEF  notype ()    External     | mask_page_hint_bits
+024 00000000 UNDEF  notype ()    External     | mask_unused_space
+025 00000000 UNDEF  notype ()    External     | mask_lp_flags
+026 00000000 UNDEF  notype ()    External     | XLogBeginInsert
+027 00000000 UNDEF  notype ()    External     | XLogInsert
+028 00000000 UNDEF  notype ()    External     | XLogRegisterData
+029 00000000 UNDEF  notype ()    External     | XLogRegisterBuffer
+02A 00000000 UNDEF  notype ()    External     | XLogRegisterBufData
+02B 00000000 UNDEF  notype ()    External     | XLogRecGetBlockData
+02C 00000000 UNDEF  notype ()    External     | XLogRecGetBlockTag
+02D 00000000 UNDEF  notype ()    External     | createTempGistContext
+02E 00000000 SECT4  notype ()    External     | gistXLogUpdate
+02F 000000C0 SECT4  notype ()    External     | gistXLogSplit
+030 00000000 UNDEF  notype ()    External     | gistfillbuffer
+031 00000000 UNDEF  notype ()    External     | GISTInitBuffer
+032 000001B0 SECT4  notype ()    External     | gist_redo
+033 00000250 SECT4  notype ()    External     | gist_xlog_startup
+034 00000270 SECT4  notype ()    External     | gist_xlog_cleanup
+035 00000290 SECT4  notype ()    External     | gist_mask
+036 00000000 UNDEF  notype ()    External     | XLogReadBufferForRedo
+037 00000000 UNDEF  notype ()    External     | XLogInitBufferForRedo
+038 00000000 UNDEF  notype ()    External     | MemoryContextReset
+039 00000000 UNDEF  notype ()    External     | MemoryContextDelete
+03A 00000000 SECT5  notype ()    Static       | gistRedoClearFollowRight
+03B 00000000 SECTB  notype ()    Static       | gistRedoPageUpdateRecord
+03C 00000000 SECT9  notype ()    Static       | gistRedoPageSplitRecord
+03D 00000000 SECT7  notype ()    Static       | gistRedoCreateIndex
+03E 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+03F 00000000 UNDEF  notype ()    External     | __security_check_cookie
+040 00000000 SECT4  notype       Label        | $LN12
+041 000000C0 SECT4  notype       Label        | $LN19
+042 000001B0 SECT4  notype       Label        | $LN18
+043 00000250 SECT4  notype       Label        | $LN4
+044 00000290 SECT4  notype       Label        | $LN5
+045 00000000 SECTD  notype       Static       | .xdata
+    Section length   44, #relocs    1, #linenums    0, checksum 2081A8A4
+047 00000000 SECTD  notype       Static       | $unwind$gistXLogUpdate
+048 00000000 SECTE  notype       Static       | .pdata
+    Section length   3C, #relocs    F, #linenums    0, checksum 19581CEB
+04A 00000000 SECTE  notype       Static       | $pdata$gistXLogUpdate
+04B 00000014 SECTD  notype       Static       | $unwind$gistXLogSplit
+04C 0000000C SECTE  notype       Static       | $pdata$gistXLogSplit
+04D 00000028 SECTD  notype       Static       | $unwind$gist_redo
+04E 00000018 SECTE  notype       Static       | $pdata$gist_redo
+04F 00000034 SECTD  notype       Static       | $unwind$gist_xlog_startup
+050 00000024 SECTE  notype       Static       | $pdata$gist_xlog_startup
+051 0000003C SECTD  notype       Static       | $unwind$gist_mask
+052 00000030 SECTE  notype       Static       | $pdata$gist_mask
+053 00000000 SECTF  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum F4D9A8A3, selection    5 (pick associative Section 0x5)
+055 00000000 SECTF  notype       Static       | $unwind$gistRedoClearFollowRight
+056 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2F80B4F1, selection    5 (pick associative Section 0x5)
+058 00000000 SECT10 notype       Static       | $pdata$gistRedoClearFollowRight
+059 00000000 SECT11 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum EEF02251, selection    5 (pick associative Section 0xB)
+05B 00000000 SECT11 notype       Static       | $unwind$gistRedoPageUpdateRecord
+05C 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 844A0EFA, selection    5 (pick associative Section 0xB)
+05E 00000000 SECT12 notype       Static       | $pdata$gistRedoPageUpdateRecord
+05F 00000000 SECT13 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 3E137A9C, selection    5 (pick associative Section 0xB)
+061 00000000 SECT13 notype       Static       | $chain$2$gistRedoPageUpdateRecord
+062 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C4EE6F7F, selection    5 (pick associative Section 0xB)
+064 00000000 SECT14 notype       Static       | $pdata$2$gistRedoPageUpdateRecord
+065 00000000 SECT15 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 66824C4D, selection    5 (pick associative Section 0xB)
+067 00000000 SECT15 notype       Static       | $chain$5$gistRedoPageUpdateRecord
+068 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5FE2FEA8, selection    5 (pick associative Section 0xB)
+06A 00000000 SECT16 notype       Static       | $pdata$5$gistRedoPageUpdateRecord
+06B 00000000 SECT17 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum A8A1A7F2, selection    5 (pick associative Section 0xB)
+06D 00000000 SECT17 notype       Static       | $chain$7$gistRedoPageUpdateRecord
+06E 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D3508C94, selection    5 (pick associative Section 0xB)
+070 00000000 SECT18 notype       Static       | $pdata$7$gistRedoPageUpdateRecord
+071 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum E6B51444, selection    5 (pick associative Section 0xB)
+073 00000000 SECT19 notype       Static       | $chain$8$gistRedoPageUpdateRecord
+074 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B0678E46, selection    5 (pick associative Section 0xB)
+076 00000000 SECT1A notype       Static       | $pdata$8$gistRedoPageUpdateRecord
+077 00000000 SECT1B notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 7DB98593, selection    5 (pick associative Section 0xB)
+079 00000000 SECT1B notype       Static       | $chain$9$gistRedoPageUpdateRecord
+07A 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3B6ED524, selection    5 (pick associative Section 0xB)
+07C 00000000 SECT1C notype       Static       | $pdata$9$gistRedoPageUpdateRecord
+07D 00000000 SECT1D notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum C4600AF6, selection    5 (pick associative Section 0xB)
+07F 00000000 SECT1D notype       Static       | $chain$10$gistRedoPageUpdateRecord
+080 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  53269CD, selection    5 (pick associative Section 0xB)
+082 00000000 SECT1E notype       Static       | $pdata$10$gistRedoPageUpdateRecord
+083 00000000 SECT1F notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 3D1DE416, selection    5 (pick associative Section 0xB)
+085 00000000 SECT1F notype       Static       | $chain$11$gistRedoPageUpdateRecord
+086 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 95209A96, selection    5 (pick associative Section 0xB)
+088 00000000 SECT20 notype       Static       | $pdata$11$gistRedoPageUpdateRecord
+089 00000000 SECT21 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 30A9B09D, selection    5 (pick associative Section 0x9)
+08B 00000000 SECT21 notype       Static       | $unwind$gistRedoPageSplitRecord
+08C 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F8F13FD1, selection    5 (pick associative Section 0x9)
+08E 00000000 SECT22 notype       Static       | $pdata$gistRedoPageSplitRecord
+08F 00000000 SECT23 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum C21FFB0A, selection    5 (pick associative Section 0x9)
+091 00000000 SECT23 notype       Static       | $chain$2$gistRedoPageSplitRecord
+092 00000000 SECT24 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 64A61313, selection    5 (pick associative Section 0x9)
+094 00000000 SECT24 notype       Static       | $pdata$2$gistRedoPageSplitRecord
+095 00000000 SECT25 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 3C980875, selection    5 (pick associative Section 0x9)
+097 00000000 SECT25 notype       Static       | $chain$5$gistRedoPageSplitRecord
+098 00000000 SECT26 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D456BD02, selection    5 (pick associative Section 0x9)
+09A 00000000 SECT26 notype       Static       | $pdata$5$gistRedoPageSplitRecord
+09B 00000000 SECT27 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum DDF1F9FF, selection    5 (pick associative Section 0x9)
+09D 00000000 SECT27 notype       Static       | $chain$6$gistRedoPageSplitRecord
+09E 00000000 SECT28 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8AD1235E, selection    5 (pick associative Section 0x9)
+0A0 00000000 SECT28 notype       Static       | $pdata$6$gistRedoPageSplitRecord
+0A1 00000000 SECT29 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 41A6D53D, selection    5 (pick associative Section 0x9)
+0A3 00000000 SECT29 notype       Static       | $chain$7$gistRedoPageSplitRecord
+0A4 00000000 SECT2A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D70D1A56, selection    5 (pick associative Section 0x9)
+0A6 00000000 SECT2A notype       Static       | $pdata$7$gistRedoPageSplitRecord
+0A7 00000000 SECT2B notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum ED4F81A7, selection    5 (pick associative Section 0x7)
+0A9 00000000 SECT2B notype       Static       | $unwind$gistRedoCreateIndex
+0AA 00000000 SECT2C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3D908D58, selection    5 (pick associative Section 0x7)
+0AC 00000000 SECT2C notype       Static       | $pdata$gistRedoCreateIndex
+0AD 00000000 UNDEF  notype       External     | CurrentMemoryContext
+0AE 00000000 UNDEF  notype       External     | BufferBlocks
+0AF 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+0B0 00000000 SECT2D notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+0B2 00000000 SECT2D notype       Static       | opCtx
+0B3 00000000 SECT2E notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 95ED55A7, selection    2 (pick any)
+0B5 00000000 SECT2E notype       External     | ??_C@_0BJ@IDNNKENH@gistRedoPageUpdateRecord?$AA@ (`string')
+0B6 00000000 SECT2F notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 98871CB8, selection    2 (pick any)
+0B8 00000000 SECT2F notype       External     | ??_C@_0CD@GOIALEHA@src?1backend?1access?1gist?1gistxlog@ (`string')
+0B9 00000000 SECT30 notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum  72A649E, selection    2 (pick any)
+0BB 00000000 SECT30 notype       External     | ??_C@_0DF@OBHKOMGP@failed?5to?5add?5item?5to?5GiST?5index@ (`string')
+0BC 00000000 SECT31 notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum 268A5095, selection    2 (pick any)
+0BE 00000000 SECT31 notype       External     | ??_C@_09DKPPMHBM@gist_redo?$AA@ (`string')
+0BF 00000000 SECT32 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 4413941A, selection    2 (pick any)
+0C1 00000000 SECT32 notype       External     | ??_C@_0BO@LLOIFFFA@gist_redo?3?5unknown?5op?5code?5?$CFu?$AA@ (`string')
+0C2 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x8AD bytes
+
+  Summary
+
+           8 .bss
+        5778 .debug$S
+          68 .debug$T
+          5D .drectve
+          F0 .pdata
+          99 .rdata
+         8DB .text$mn
+         15C .xdata

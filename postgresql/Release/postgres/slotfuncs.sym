@@ -1,0 +1,149 @@
+
+Dump of file Release\postgres/slotfuncs.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 61E4, #relocs   74, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  5CA, #relocs   54, #linenums    0, checksum 86757C11
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   80, #relocs    A, #linenums    0, checksum 7686F3A1, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length   DC, #relocs    4, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | errstart
+00F 00000000 UNDEF  notype ()    External     | errfinish
+010 00000000 UNDEF  notype ()    External     | errcode
+011 00000000 UNDEF  notype ()    External     | errmsg
+012 00000000 UNDEF  notype ()    External     | elog_start
+013 00000000 UNDEF  notype ()    External     | elog_finish
+014 00000000 UNDEF  notype ()    External     | tuplestore_begin_heap
+015 00000000 UNDEF  notype ()    External     | tuplestore_putvalues
+016 00000000 UNDEF  notype ()    External     | s_lock
+017 00000000 UNDEF  notype ()    External     | get_call_result_type
+018 00000000 UNDEF  notype ()    External     | HeapTupleHeaderGetDatum
+019 00000000 UNDEF  notype ()    External     | GetUserId
+01A 00000000 UNDEF  notype ()    External     | superuser
+01B 00000000 UNDEF  notype ()    External     | has_rolreplication
+01C 00000000 UNDEF  notype ()    External     | heap_form_tuple
+01D 00000000 UNDEF  notype ()    External     | LWLockAcquire
+01E 00000000 UNDEF  notype ()    External     | LWLockRelease
+01F 00000000 UNDEF  notype ()    External     | ReplicationSlotCreate
+020 00000000 UNDEF  notype ()    External     | ReplicationSlotPersist
+021 00000000 UNDEF  notype ()    External     | ReplicationSlotDrop
+022 00000000 UNDEF  notype ()    External     | ReplicationSlotRelease
+023 00000000 UNDEF  notype ()    External     | ReplicationSlotSave
+024 00000000 UNDEF  notype ()    External     | ReplicationSlotMarkDirty
+025 00000000 UNDEF  notype ()    External     | ReplicationSlotReserveWal
+026 00000000 UNDEF  notype ()    External     | CheckSlotRequirements
+027 00000000 UNDEF  notype ()    External     | CheckLogicalDecodingRequirements
+028 00000000 UNDEF  notype ()    External     | CreateInitDecodingContext
+029 00000000 UNDEF  notype ()    External     | DecodingContextFindStartpoint
+02A 00000000 UNDEF  notype ()    External     | FreeDecodingContext
+02B 00000000 UNDEF  notype ()    External     | logical_read_local_xlog_page
+02C 00000000 SECT4  notype ()    External     | pg_create_physical_replication_slot
+02D 00000100 SECT4  notype ()    External     | pg_drop_replication_slot
+02E 00000130 SECT4  notype ()    External     | pg_get_replication_slots
+02F 000004A0 SECT4  notype ()    External     | pg_create_logical_replication_slot
+030 00000000 UNDEF  notype ()    External     | namecpy
+031 00000000 UNDEF  notype ()    External     | cstring_to_text
+032 00000000 SECT5  notype ()    Static       | check_permissions
+033 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+034 00000000 UNDEF  notype ()    External     | __security_check_cookie
+035 00000000 SECT4  notype       Label        | $LN15
+036 00000100 SECT4  notype       Label        | $LN4
+037 00000130 SECT4  notype       Label        | $LN58
+038 000004A0 SECT4  notype       Label        | $LN10
+039 00000000 SECT7  notype       Static       | .xdata
+    Section length   70, #relocs    7, #linenums    0, checksum 15254F22
+03B 00000000 SECT7  notype       Static       | $unwind$pg_create_physical_replication_slot
+03C 00000000 SECT8  notype       Static       | .pdata
+    Section length   48, #relocs   12, #linenums    0, checksum EC1227AE
+03E 00000000 SECT8  notype       Static       | $pdata$pg_create_physical_replication_slot
+03F 00000010 SECT7  notype       Static       | $unwind$pg_drop_replication_slot
+040 0000000C SECT8  notype       Static       | $pdata$pg_drop_replication_slot
+041 00000018 SECT7  notype       Static       | $unwind$pg_get_replication_slots
+042 00000018 SECT8  notype       Static       | $pdata$pg_get_replication_slots
+043 00000030 SECT7  notype       Static       | $chain$3$pg_get_replication_slots
+044 00000024 SECT8  notype       Static       | $pdata$3$pg_get_replication_slots
+045 00000050 SECT7  notype       Static       | $chain$4$pg_get_replication_slots
+046 00000030 SECT8  notype       Static       | $pdata$4$pg_get_replication_slots
+047 00000060 SECT7  notype       Static       | $unwind$pg_create_logical_replication_slot
+048 0000003C SECT8  notype       Static       | $pdata$pg_create_logical_replication_slot
+049 00000000 SECT9  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 37887F31, selection    5 (pick associative Section 0x5)
+04B 00000000 SECT9  notype       Static       | $unwind$check_permissions
+04C 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3C17D0DF, selection    5 (pick associative Section 0x5)
+04E 00000000 SECTA  notype       Static       | $pdata$check_permissions
+04F 00000000 SECTB  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum BC920FB9, selection    5 (pick associative Section 0x5)
+051 00000000 SECTB  notype       Static       | $chain$0$check_permissions
+052 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B36DFCF9, selection    5 (pick associative Section 0x5)
+054 00000000 SECTC  notype       Static       | $pdata$0$check_permissions
+055 00000000 SECTD  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 85403A33, selection    5 (pick associative Section 0x5)
+057 00000000 SECTD  notype       Static       | $chain$1$check_permissions
+058 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 984CA1CE, selection    5 (pick associative Section 0x5)
+05A 00000000 SECTE  notype       Static       | $pdata$1$check_permissions
+05B 00000000 UNDEF  notype       External     | CurrentMemoryContext
+05C 00000000 UNDEF  notype       External     | work_mem
+05D 00000000 UNDEF  notype       External     | MainLWLockArray
+05E 00000000 UNDEF  notype       External     | ReplicationSlotCtl
+05F 00000000 UNDEF  notype       External     | MyReplicationSlot
+060 00000000 UNDEF  notype       External     | max_replication_slots
+061 00000000 SECTF  notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 110B9CCE, selection    2 (pick any)
+063 00000000 SECTF  notype       External     | ??_C@_0BC@IJOPKMHM@check_permissions?$AA@ (`string')
+064 00000000 SECT10 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 3A575037, selection    2 (pick any)
+066 00000000 SECT10 notype       External     | ??_C@_0CE@KPBOBNBN@src?1backend?1replication?1slotfunc@ (`string')
+067 00000000 SECT11 notype       Static       | .rdata
+    Section length   3F, #relocs    0, #linenums    0, checksum 4E00B434, selection    2 (pick any)
+069 00000000 SECT11 notype       External     | ??_C@_0DP@FJFFJBCP@must?5be?5superuser?5or?5replication@ (`string')
+06A 00000000 SECT12 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 572F2571, selection    2 (pick any)
+06C 00000000 SECT12 notype       External     | ??_C@_0CE@MCGGGIFL@pg_create_physical_replication_s@ (`string')
+06D 00000000 SECT13 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 6B360E89, selection    2 (pick any)
+06F 00000000 SECT13 notype       External     | ??_C@_0BP@PNMAFNMG@return?5type?5must?5be?5a?5row?5type?$AA@ (`string')
+070 00000000 SECT14 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum FE0C1DAC, selection    2 (pick any)
+072 00000000 SECT14 notype       External     | ??_C@_0CD@IALLFGE@pg_create_logical_replication_sl@ (`string')
+073 00000000 SECT15 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 39AD6AAD, selection    2 (pick any)
+075 00000000 SECT15 notype       External     | ??_C@_0BJ@CPJNJLNN@pg_get_replication_slots?$AA@ (`string')
+076 00000000 SECT16 notype       Static       | .rdata
+    Section length   3F, #relocs    0, #linenums    0, checksum 67EA171F, selection    2 (pick any)
+078 00000000 SECT16 notype       External     | ??_C@_0DP@HALPDCAE@set?9valued?5function?5called?5in?5co@ (`string')
+079 00000000 SECT17 notype       Static       | .rdata
+    Section length   41, #relocs    0, #linenums    0, checksum 4F1D249B, selection    2 (pick any)
+07B 00000000 SECT17 notype       External     | ??_C@_0EB@KNCPCMBD@materialize?5mode?5required?0?5but?5i@ (`string')
+07C 00000000 SECT18 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 3A075A21, selection    2 (pick any)
+07E 00000000 SECT18 notype       External     | ??_C@_08CDPBLBHA@physical?$AA@ (`string')
+07F 00000000 SECT19 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum D2A77E77, selection    2 (pick any)
+081 00000000 SECT19 notype       External     | ??_C@_07EIHKFOOB@logical?$AA@ (`string')
+082 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x7BD bytes
+
+  Summary
+
+        62C0 .debug$S
+          68 .debug$T
+          5D .drectve
+          6C .pdata
+         185 .rdata
+         64A .text$mn
+          9C .xdata

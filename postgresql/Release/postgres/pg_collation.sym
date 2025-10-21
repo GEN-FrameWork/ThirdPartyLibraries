@@ -1,0 +1,93 @@
+
+Dump of file Release\postgres/pg_collation.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4AA0, #relocs   5C, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  4BD, #relocs   3E, #linenums    0, checksum 76267DC5
+00A 00000000 UNDEF  notype ()    External     | errstart
+00B 00000000 UNDEF  notype ()    External     | errfinish
+00C 00000000 UNDEF  notype ()    External     | errcode
+00D 00000000 UNDEF  notype ()    External     | errmsg
+00E 00000000 UNDEF  notype ()    External     | elog_start
+00F 00000000 UNDEF  notype ()    External     | elog_finish
+010 00000000 UNDEF  notype ()    External     | ScanKeyInit
+011 00000000 UNDEF  notype ()    External     | systable_beginscan
+012 00000000 UNDEF  notype ()    External     | systable_getnext
+013 00000000 UNDEF  notype ()    External     | systable_endscan
+014 00000000 UNDEF  notype ()    External     | relation_close
+015 00000000 UNDEF  notype ()    External     | heap_open
+016 00000000 UNDEF  notype ()    External     | heap_form_tuple
+017 00000000 UNDEF  notype ()    External     | heap_freetuple
+018 00000000 UNDEF  notype ()    External     | recordDependencyOn
+019 00000000 UNDEF  notype ()    External     | recordDependencyOnCurrentExtension
+01A 00000000 UNDEF  notype ()    External     | recordDependencyOnOwner
+01B 00000000 UNDEF  notype ()    External     | CatalogTupleInsert
+01C 00000000 UNDEF  notype ()    External     | CatalogTupleDelete
+01D 00000000 UNDEF  notype ()    External     | RunObjectPostCreateHook
+01E 00000000 SECT4  notype ()    External     | CollationCreate
+01F 000003E0 SECT4  notype ()    External     | RemoveCollationById
+020 00000000 UNDEF  notype ()    External     | pg_encoding_to_char
+021 00000000 UNDEF  notype ()    External     | GetDatabaseEncoding
+022 00000000 UNDEF  notype ()    External     | namestrcpy
+023 00000000 UNDEF  notype ()    External     | cstring_to_text
+024 00000000 UNDEF  notype ()    External     | SearchSysCacheExists
+025 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+026 00000000 UNDEF  notype ()    External     | __security_check_cookie
+027 00000000 SECT4  notype       Label        | $LN52
+028 000003E0 SECT4  notype       Label        | $LN10
+029 00000000 SECT5  notype       Static       | .xdata
+    Section length   30, #relocs    1, #linenums    0, checksum  CF3B39B
+02B 00000000 SECT5  notype       Static       | $unwind$CollationCreate
+02C 00000000 SECT6  notype       Static       | .pdata
+    Section length   18, #relocs    6, #linenums    0, checksum  4A233AE
+02E 00000000 SECT6  notype       Static       | $pdata$CollationCreate
+02F 00000020 SECT5  notype       Static       | $unwind$RemoveCollationById
+030 0000000C SECT6  notype       Static       | $pdata$RemoveCollationById
+031 00000000 UNDEF  notype       External     | object_access_hook
+032 00000000 SECT7  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 1F179F9C, selection    2 (pick any)
+034 00000000 SECT7  notype       External     | ??_C@_0BA@MFDCLDG@CollationCreate?$AA@ (`string')
+035 00000000 SECT8  notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 6E6EABE6, selection    2 (pick any)
+037 00000000 SECT8  notype       External     | ??_C@_0CD@JIGJADCO@src?1backend?1catalog?1pg_collation@ (`string')
+038 00000000 SECT9  notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum F4C9FAD5, selection    2 (pick any)
+03A 00000000 SECT9  notype       External     | ??_C@_0CI@OCNKDIJL@collation?5?$CC?$CFs?$CC?5already?5exists?0?5s@ (`string')
+03B 00000000 SECTA  notype       Static       | .rdata
+    Section length   3A, #relocs    0, #linenums    0, checksum 67E0E0D8, selection    2 (pick any)
+03D 00000000 SECTA  notype       External     | ??_C@_0DK@FOMBHNDL@collation?5?$CC?$CFs?$CC?5for?5encoding?5?$CC?$CFs?$CC@ (`string')
+03E 00000000 SECTB  notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 1524B6ED, selection    2 (pick any)
+040 00000000 SECTB  notype       External     | ??_C@_0BO@OKNPHHKH@collation?5?$CC?$CFs?$CC?5already?5exists?$AA@ (`string')
+041 00000000 SECTC  notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum ABD83684, selection    2 (pick any)
+043 00000000 SECTC  notype       External     | ??_C@_0DA@KGKPHKOO@collation?5?$CC?$CFs?$CC?5for?5encoding?5?$CC?$CFs?$CC@ (`string')
+044 00000000 SECTD  notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 2C623809, selection    2 (pick any)
+046 00000000 SECTD  notype       External     | ??_C@_0BE@NMEIFMHL@RemoveCollationById?$AA@ (`string')
+047 00000000 SECTE  notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum F2B5B240, selection    2 (pick any)
+049 00000000 SECTE  notype       External     | ??_C@_0CG@JFLDNGAM@could?5not?5find?5tuple?5for?5collati@ (`string')
+04A 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x43A bytes
+
+  Summary
+
+        4AA0 .debug$S
+          68 .debug$T
+          5D .drectve
+          18 .pdata
+         11D .rdata
+         4BD .text$mn
+          30 .xdata

@@ -1,0 +1,185 @@
+
+Dump of file Release\postgres/gininsert.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6820, #relocs   C2, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  96D, #relocs   6D, #linenums    0, checksum E78159DD
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  188, #relocs    C, #linenums    0, checksum 43055200, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  4C4, #relocs   34, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  11B, #relocs    5, #linenums    0, checksum B5E4E6F1, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  3A8, #relocs   2A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length   B7, #relocs    6, #linenums    0, checksum 6FA1AB37, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  32C, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  219, #relocs    C, #linenums    0, checksum F5511281, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  508, #relocs   3A, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+01B 00000000 UNDEF  notype ()    External     | elog_start
+01C 00000000 UNDEF  notype ()    External     | elog_finish
+01D 00000000 UNDEF  notype ()    External     | palloc
+01E 00000000 UNDEF  notype ()    External     | pfree
+01F 00000000 UNDEF  notype ()    External     | ginUpdateStats
+020 00000000 UNDEF  notype ()    External     | ReadBufferExtended
+021 00000000 UNDEF  notype ()    External     | UnlockReleaseBuffer
+022 00000000 UNDEF  notype ()    External     | MarkBufferDirty
+023 00000000 UNDEF  notype ()    External     | RelationGetNumberOfBlocksInFork
+024 00000000 UNDEF  notype ()    External     | LockBuffer
+025 00000000 UNDEF  notype ()    External     | initGinState
+026 00000000 UNDEF  notype ()    External     | GinNewBuffer
+027 00000000 UNDEF  notype ()    External     | GinInitBuffer
+028 00000000 UNDEF  notype ()    External     | GinInitMetabuffer
+029 00000000 UNDEF  notype ()    External     | ginExtractEntries
+02A 00000000 UNDEF  notype ()    External     | gintuple_get_attrnum
+02B 00000000 UNDEF  notype ()    External     | gintuple_get_key
+02C 00000000 SECT4  notype ()    External     | ginbuild
+02D 000003C0 SECT4  notype ()    External     | ginbuildempty
+02E 00000480 SECT4  notype ()    External     | gininsert
+02F 00000610 SECT4  notype ()    External     | ginEntryInsert
+030 00000000 UNDEF  notype ()    External     | ginFindLeafPage
+031 00000000 UNDEF  notype ()    External     | freeGinBtreeStack
+032 00000000 UNDEF  notype ()    External     | ginInsertValue
+033 00000000 UNDEF  notype ()    External     | GinFormTuple
+034 00000000 UNDEF  notype ()    External     | ginPrepareEntryScan
+035 00000000 UNDEF  notype ()    External     | ginReadTuple
+036 00000000 UNDEF  notype ()    External     | createPostingTree
+037 00000000 UNDEF  notype ()    External     | ginInsertItemPointers
+038 00000000 UNDEF  notype ()    External     | ginInitBA
+039 00000000 UNDEF  notype ()    External     | ginInsertBAEntries
+03A 00000000 UNDEF  notype ()    External     | ginBeginBAScan
+03B 00000000 UNDEF  notype ()    External     | ginGetBAEntry
+03C 00000000 UNDEF  notype ()    External     | ginHeapTupleFastInsert
+03D 00000000 UNDEF  notype ()    External     | ginHeapTupleFastCollect
+03E 00000000 UNDEF  notype ()    External     | ginCompressPostingList
+03F 00000000 UNDEF  notype ()    External     | ginMergeItemPointers
+040 00000000 UNDEF  notype ()    External     | XLogBeginInsert
+041 00000000 UNDEF  notype ()    External     | XLogInsert
+042 00000000 UNDEF  notype ()    External     | XLogRegisterBuffer
+043 00000000 UNDEF  notype ()    External     | log_newpage_buffer
+044 00000000 UNDEF  notype ()    External     | IndexBuildHeapScan
+045 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+046 00000000 UNDEF  notype ()    External     | MemoryContextReset
+047 00000000 UNDEF  notype ()    External     | MemoryContextDelete
+048 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+049 00000000 SECT5  notype ()    Static       | addItemPointersToLeafTuple
+04A 00000000 SECT7  notype ()    Static       | buildFreshLeafTuple
+04B 00000000 SECT9  notype ()    Static       | ginHeapTupleBulkInsert
+04C 000007D0 SECT4  notype ()    Static       | ginBuildCallback
+04D 00000000 SECTB  notype ()    Static       | ginHeapTupleInsert
+04E 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+04F 00000000 UNDEF  notype ()    External     | __chkstk
+050 00000000 UNDEF  notype ()    External     | __security_check_cookie
+051 00000000 SECT4  notype       Label        | $LN32
+052 000003C0 SECT4  notype       Label        | $LN7
+053 00000480 SECT4  notype       Label        | $LN33
+054 00000610 SECT4  notype       Label        | $LN11
+055 00000000 SECTD  notype       Static       | .xdata
+    Section length   A4, #relocs    7, #linenums    0, checksum 23A00BEB
+057 00000000 SECTD  notype       Static       | $unwind$ginbuild
+058 00000000 SECTE  notype       Static       | .pdata
+    Section length   54, #relocs   15, #linenums    0, checksum F1BECDD5
+05A 00000000 SECTE  notype       Static       | $pdata$ginbuild
+05B 00000024 SECTD  notype       Static       | $unwind$ginbuildempty
+05C 0000000C SECTE  notype       Static       | $pdata$ginbuildempty
+05D 00000030 SECTD  notype       Static       | $unwind$gininsert
+05E 00000018 SECTE  notype       Static       | $pdata$gininsert
+05F 0000004C SECTD  notype       Static       | $unwind$ginEntryInsert
+060 00000024 SECTE  notype       Static       | $pdata$ginEntryInsert
+061 00000000 SECTF  notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 101C2884, selection    5 (pick associative Section 0x5)
+063 00000000 SECTF  notype       Static       | $unwind$addItemPointersToLeafTuple
+064 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 26A995DB, selection    5 (pick associative Section 0x5)
+066 00000000 SECT10 notype       Static       | $pdata$addItemPointersToLeafTuple
+067 00000000 SECT11 notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum AA80AC57, selection    5 (pick associative Section 0x7)
+069 00000000 SECT11 notype       Static       | $unwind$buildFreshLeafTuple
+06A 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 87A626C9, selection    5 (pick associative Section 0x7)
+06C 00000000 SECT12 notype       Static       | $pdata$buildFreshLeafTuple
+06D 00000000 SECT13 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 44244803, selection    5 (pick associative Section 0x9)
+06F 00000000 SECT13 notype       Static       | $unwind$ginHeapTupleBulkInsert
+070 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DC33DFBE, selection    5 (pick associative Section 0x9)
+072 00000000 SECT14 notype       Static       | $pdata$ginHeapTupleBulkInsert
+073 0000006C SECTD  notype       Static       | $unwind$ginBuildCallback
+074 00000030 SECTE  notype       Static       | $pdata$ginBuildCallback
+075 00000080 SECTD  notype       Static       | $chain$0$ginBuildCallback
+076 0000003C SECTE  notype       Static       | $pdata$0$ginBuildCallback
+077 00000094 SECTD  notype       Static       | $chain$1$ginBuildCallback
+078 00000048 SECTE  notype       Static       | $pdata$1$ginBuildCallback
+079 00000000 SECT15 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 12648D14, selection    5 (pick associative Section 0xB)
+07B 00000000 SECT15 notype       Static       | $unwind$ginHeapTupleInsert
+07C 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 299DC2ED, selection    5 (pick associative Section 0xB)
+07E 00000000 SECT16 notype       Static       | $pdata$ginHeapTupleInsert
+07F 00000000 SECT17 notype       Static       | .xdata
+    Section length   24, #relocs    3, #linenums    0, checksum 165A817F, selection    5 (pick associative Section 0xB)
+081 00000000 SECT17 notype       Static       | $chain$4$ginHeapTupleInsert
+082 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3CF9B308, selection    5 (pick associative Section 0xB)
+084 00000000 SECT18 notype       Static       | $pdata$4$ginHeapTupleInsert
+085 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 90CA2801, selection    5 (pick associative Section 0xB)
+087 00000000 SECT19 notype       Static       | $chain$5$ginHeapTupleInsert
+088 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 32A88306, selection    5 (pick associative Section 0xB)
+08A 00000000 SECT1A notype       Static       | $pdata$5$ginHeapTupleInsert
+08B 00000000 UNDEF  notype       External     | pg_signal_queue
+08C 00000000 UNDEF  notype       External     | pg_signal_mask
+08D 00000000 UNDEF  notype       External     | CurrentMemoryContext
+08E 00000000 UNDEF  notype       External     | BufferBlocks
+08F 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+090 00000000 UNDEF  notype       External     | InterruptPending
+091 00000000 UNDEF  notype       External     | CritSectionCount
+092 00000000 UNDEF  notype       External     | maintenance_work_mem
+093 00000000 SECT1B notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 5E5385C5, selection    2 (pick any)
+095 00000000 SECT1B notype       External     | ??_C@_08EHKFGOJE@ginbuild?$AA@ (`string')
+096 00000000 SECT1C notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum  A086250, selection    2 (pick any)
+098 00000000 SECT1C notype       External     | ??_C@_0CD@PMAPMKJI@src?1backend?1access?1gin?1gininsert@ (`string')
+099 00000000 SECT1D notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 4BA1A098, selection    2 (pick any)
+09B 00000000 SECT1D notype       External     | ??_C@_0CB@MOCCGFOK@index?5?$CC?$CFs?$CC?5already?5contains?5data@ (`string')
+09C 00000000 SECT1E notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum C704CF67, selection    2 (pick any)
+09E 00000000 SECT1E notype       External     | ??_C@_0BM@LIILEHHB@Gin?5build?5temporary?5context?$AA@ (`string')
+09F 00000000 SECT1F notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum F86CEEBB, selection    2 (pick any)
+0A1 00000000 SECT1F notype       External     | ??_C@_0DG@DCDAHMLJ@Gin?5build?5temporary?5context?5for?5@ (`string')
+0A2 00000000 SECT20 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum F8E42401, selection    2 (pick any)
+0A4 00000000 SECT20 notype       External     | ??_C@_0BN@MEPBONI@Gin?5insert?5temporary?5context?$AA@ (`string')
+0A5 00000000 UNDEF  notype       External     | __security_cookie
+0A6 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x80F bytes
+
+  Summary
+
+        78C0 .debug$S
+          68 .debug$T
+          5D .drectve
+          9C .pdata
+          BC .rdata
+         EE0 .text$mn
+         134 .xdata

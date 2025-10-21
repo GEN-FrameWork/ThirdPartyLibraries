@@ -1,0 +1,129 @@
+
+Dump of file Release\postgres/ts_locale.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4874, #relocs   9C, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  602, #relocs   47, #linenums    0, checksum 94523819
+00A 00000000 UNDEF  notype       External     | __imp_fgets
+00B 00000000 UNDEF  notype       External     | __imp_towlower
+00C 00000000 UNDEF  notype       External     | __imp_iswctype
+00D 00000000 UNDEF  notype       External     | __imp_isalpha
+00E 00000000 UNDEF  notype       External     | __imp_isdigit
+00F 00000000 UNDEF  notype       External     | __imp_isspace
+010 00000000 UNDEF  notype       External     | __imp_isprint
+011 00000000 UNDEF  notype       External     | __imp_tolower
+012 00000000 UNDEF  notype ()    External     | errstart
+013 00000000 UNDEF  notype ()    External     | errfinish
+014 00000000 UNDEF  notype ()    External     | errcode
+015 00000000 UNDEF  notype ()    External     | errmsg
+016 00000000 UNDEF  notype ()    External     | set_errcontext_domain
+017 00000000 UNDEF  notype ()    External     | errcontext_msg
+018 00000000 UNDEF  notype ()    External     | palloc
+019 00000000 UNDEF  notype ()    External     | pfree
+01A 00000000 UNDEF  notype ()    External     | pstrdup
+01B 00000000 UNDEF  notype ()    External     | pnstrdup
+01C 00000000 UNDEF  notype ()    External     | AllocateFile
+01D 00000000 UNDEF  notype ()    External     | FreeFile
+01E 00000000 UNDEF  notype ()    External     | lc_ctype_is_c
+01F 00000000 UNDEF  notype ()    External     | wchar2char
+020 00000000 UNDEF  notype ()    External     | char2wchar
+021 00000000 UNDEF  notype ()    External     | pg_mblen
+022 00000000 UNDEF  notype ()    External     | pg_database_encoding_max_length
+023 00000000 UNDEF  notype ()    External     | pg_any_to_server
+024 00000000 UNDEF  notype ()    External     | pg_verify_mbstr
+025 00000000 SECT4  notype ()    External     | t_isdigit
+026 00000090 SECT4  notype ()    External     | t_isspace
+027 00000120 SECT4  notype ()    External     | t_isalpha
+028 000001B0 SECT4  notype ()    External     | t_isprint
+029 00000240 SECT4  notype ()    External     | lowerstr
+02A 00000260 SECT4  notype ()    External     | lowerstr_with_len
+02B 00000400 SECT4  notype ()    External     | tsearch_readline_begin
+02C 00000480 SECT4  notype ()    External     | tsearch_readline
+02D 000004B0 SECT4  notype ()    External     | tsearch_readline_end
+02E 000004E0 SECT4  notype ()    External     | t_readline
+02F 000005B0 SECT4  notype ()    Static       | tsearch_readline_callback
+030 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+031 00000000 UNDEF  notype ()    External     | __chkstk
+032 00000000 UNDEF  notype ()    External     | __security_check_cookie
+033 00000000 SECT4  notype       Label        | $LN6
+034 00000090 SECT4  notype       Label        | $LN6
+035 00000120 SECT4  notype       Label        | $LN6
+036 000001B0 SECT4  notype       Label        | $LN6
+037 00000260 SECT4  notype       Label        | $LN26
+038 00000400 SECT4  notype       Label        | $LN5
+039 00000480 SECT4  notype       Label        | $LN4
+03A 000004B0 SECT4  notype       Label        | $LN4
+03B 000004E0 SECT4  notype       Label        | $LN7
+03C 00000000 SECT5  notype       Static       | .xdata
+    Section length   C4, #relocs    B, #linenums    0, checksum F8B66F31
+03E 00000000 SECT5  notype       Static       | $unwind$t_isdigit
+03F 00000000 SECT6  notype       Static       | .pdata
+    Section length   90, #relocs   24, #linenums    0, checksum 56EDCC8D
+041 00000000 SECT6  notype       Static       | $pdata$t_isdigit
+042 00000014 SECT5  notype       Static       | $unwind$t_isspace
+043 0000000C SECT6  notype       Static       | $pdata$t_isspace
+044 00000028 SECT5  notype       Static       | $unwind$t_isalpha
+045 00000018 SECT6  notype       Static       | $pdata$t_isalpha
+046 0000003C SECT5  notype       Static       | $unwind$t_isprint
+047 00000024 SECT6  notype       Static       | $pdata$t_isprint
+048 00000050 SECT5  notype       Static       | $unwind$lowerstr_with_len
+049 00000030 SECT6  notype       Static       | $pdata$lowerstr_with_len
+04A 00000068 SECT5  notype       Static       | $chain$3$lowerstr_with_len
+04B 0000003C SECT6  notype       Static       | $pdata$3$lowerstr_with_len
+04C 0000007C SECT5  notype       Static       | $chain$4$lowerstr_with_len
+04D 00000048 SECT6  notype       Static       | $pdata$4$lowerstr_with_len
+04E 0000008C SECT5  notype       Static       | $unwind$tsearch_readline_begin
+04F 00000054 SECT6  notype       Static       | $pdata$tsearch_readline_begin
+050 00000098 SECT5  notype       Static       | $unwind$tsearch_readline
+051 00000060 SECT6  notype       Static       | $pdata$tsearch_readline
+052 000000A0 SECT5  notype       Static       | $unwind$tsearch_readline_end
+053 0000006C SECT6  notype       Static       | $pdata$tsearch_readline_end
+054 000000A8 SECT5  notype       Static       | $unwind$t_readline
+055 00000078 SECT6  notype       Static       | $pdata$t_readline
+056 000000BC SECT5  notype       Static       | $unwind$tsearch_readline_callback
+057 00000084 SECT6  notype       Static       | $pdata$tsearch_readline_callback
+058 00000000 UNDEF  notype       External     | error_context_stack
+059 00000000 SECT7  notype       Static       | .rdata
+    Section length    2, #relocs    0, #linenums    0, checksum 1D091B74, selection    2 (pick any)
+05B 00000000 SECT7  notype       External     | ??_C@_01KDCPPGHE@r?$AA@ (`string')
+05C 00000000 SECT8  notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum 79A8DFE5, selection    2 (pick any)
+05E 00000000 SECT8  notype       External     | ??_C@_0CJ@OINKKALA@line?5?$CFd?5of?5configuration?5file?5?$CC?$CF@ (`string')
+05F 00000000 SECT9  notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum CA4215ED, selection    2 (pick any)
+061 00000000 SECT9  notype       External     | ??_C@_0CD@DMEFLNCF@line?5?$CFd?5of?5configuration?5file?5?$CC?$CF@ (`string')
+062 00000000 SECTA  notype       Static       | .rdata
+    Section length    1, #relocs    0, #linenums    0, checksum        0, selection    2 (pick any)
+064 00000000 SECTA  notype       External     | ??_C@_00CNPNBAHC@?$AA@ (`string')
+065 00000000 SECTB  notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum  166BD9B, selection    2 (pick any)
+067 00000000 SECTB  notype       External     | ??_C@_0BC@JJICINCJ@lowerstr_with_len?$AA@ (`string')
+068 00000000 SECTC  notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum A854A15A, selection    2 (pick any)
+06A 00000000 SECTC  notype       External     | ??_C@_0CA@EOKBALAI@src?1backend?1tsearch?1ts_locale?4c?$AA@ (`string')
+06B 00000000 SECTD  notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum 7982A845, selection    2 (pick any)
+06D 00000000 SECTD  notype       External     | ??_C@_0DG@LDNODKEH@conversion?5from?5wchar_t?5to?5serve@ (`string')
+06E 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x58E bytes
+
+  Summary
+
+        4874 .debug$S
+          68 .debug$T
+          5D .drectve
+          90 .pdata
+          B7 .rdata
+         602 .text$mn
+          C4 .xdata

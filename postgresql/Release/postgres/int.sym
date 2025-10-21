@@ -1,0 +1,448 @@
+
+Dump of file Release\postgres/int.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length A108, #relocs  2DE, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 1B7D, #relocs   FC, #linenums    0, checksum 82D5B354
+00A 00000000 UNDEF  notype       External     | __imp_isspace
+00B 00000000 UNDEF  notype ()    External     | errstart
+00C 00000000 UNDEF  notype ()    External     | errfinish
+00D 00000000 UNDEF  notype ()    External     | errcode
+00E 00000000 UNDEF  notype ()    External     | errmsg
+00F 00000000 UNDEF  notype ()    External     | palloc
+010 00000000 UNDEF  notype ()    External     | palloc0
+011 00000000 UNDEF  notype ()    External     | init_MultiFuncCall
+012 00000000 UNDEF  notype ()    External     | per_MultiFuncCall
+013 00000000 UNDEF  notype ()    External     | end_MultiFuncCall
+014 00000000 UNDEF  notype ()    External     | pq_sendint
+015 00000000 UNDEF  notype ()    External     | pq_begintypsend
+016 00000000 UNDEF  notype ()    External     | pq_endtypsend
+017 00000000 UNDEF  notype ()    External     | pq_getmsgint
+018 00000000 SECT4  notype ()    External     | int2in
+019 00000030 SECT4  notype ()    External     | int2out
+01A 00000070 SECT4  notype ()    External     | int2vectorin
+01B 000001F0 SECT4  notype ()    External     | int2vectorout
+01C 00000290 SECT4  notype ()    External     | int4in
+01D 000002C0 SECT4  notype ()    External     | int4out
+01E 00000300 SECT4  notype ()    External     | int2eq
+01F 00000320 SECT4  notype ()    External     | int2lt
+020 00000340 SECT4  notype ()    External     | int4eq
+021 00000360 SECT4  notype ()    External     | int4lt
+022 00000380 SECT4  notype ()    External     | int4mul
+023 00000440 SECT4  notype ()    External     | int4ne
+024 00000460 SECT4  notype ()    External     | int2ne
+025 00000480 SECT4  notype ()    External     | int2gt
+026 000004A0 SECT4  notype ()    External     | int4gt
+027 000004C0 SECT4  notype ()    External     | int2le
+028 000004E0 SECT4  notype ()    External     | int4le
+029 00000500 SECT4  notype ()    External     | int4ge
+02A 00000520 SECT4  notype ()    External     | int2ge
+02B 00000540 SECT4  notype ()    External     | int2mul
+02C 000005D0 SECT4  notype ()    External     | int2div
+02D 000006E0 SECT4  notype ()    External     | int4div
+02E 000007E0 SECT4  notype ()    External     | int2mod
+02F 00000880 SECT4  notype ()    External     | int4mod
+030 00000910 SECT4  notype ()    External     | int24eq
+031 00000930 SECT4  notype ()    External     | int42eq
+032 00000950 SECT4  notype ()    External     | int24lt
+033 00000970 SECT4  notype ()    External     | int42lt
+034 00000990 SECT4  notype ()    External     | int24gt
+035 000009B0 SECT4  notype ()    External     | int42gt
+036 000009D0 SECT4  notype ()    External     | int24ne
+037 000009F0 SECT4  notype ()    External     | int42ne
+038 00000A10 SECT4  notype ()    External     | int24le
+039 00000A30 SECT4  notype ()    External     | int42le
+03A 00000A50 SECT4  notype ()    External     | int24ge
+03B 00000A70 SECT4  notype ()    External     | int42ge
+03C 00000A90 SECT4  notype ()    External     | int24mul
+03D 00000B30 SECT4  notype ()    External     | int42mul
+03E 00000BD0 SECT4  notype ()    External     | int24div
+03F 00000C60 SECT4  notype ()    External     | int42div
+040 00000D60 SECT4  notype ()    External     | int2pl
+041 00000E00 SECT4  notype ()    External     | int4pl
+042 00000E90 SECT4  notype ()    External     | int24pl
+043 00000F30 SECT4  notype ()    External     | int42pl
+044 00000FC0 SECT4  notype ()    External     | int2mi
+045 00001060 SECT4  notype ()    External     | int4mi
+046 000010F0 SECT4  notype ()    External     | int24mi
+047 00001190 SECT4  notype ()    External     | int42mi
+048 00001220 SECT4  notype ()    External     | int4um
+049 000012A0 SECT4  notype ()    External     | int2um
+04A 00001330 SECT4  notype ()    External     | i2toi4
+04B 00001340 SECT4  notype ()    External     | i4toi2
+04C 000013C0 SECT4  notype ()    External     | int4inc
+04D 00001440 SECT4  notype ()    External     | int4larger
+04E 00001460 SECT4  notype ()    External     | int4smaller
+04F 00001480 SECT4  notype ()    External     | int2larger
+050 000014A0 SECT4  notype ()    External     | int2smaller
+051 000014C0 SECT4  notype ()    External     | generate_series_step_int4
+052 00001640 SECT4  notype ()    External     | generate_series_int4
+053 00001650 SECT4  notype ()    External     | int4abs
+054 000016D0 SECT4  notype ()    External     | int2abs
+055 00001750 SECT4  notype ()    External     | int2and
+056 00001770 SECT4  notype ()    External     | int2or
+057 00001790 SECT4  notype ()    External     | int2xor
+058 000017B0 SECT4  notype ()    External     | int2not
+059 000017C0 SECT4  notype ()    External     | int2shl
+05A 000017E0 SECT4  notype ()    External     | int2shr
+05B 00001800 SECT4  notype ()    External     | int4and
+05C 00001820 SECT4  notype ()    External     | int4or
+05D 00001840 SECT4  notype ()    External     | int4xor
+05E 00001860 SECT4  notype ()    External     | int4not
+05F 00001870 SECT4  notype ()    External     | int4shl
+060 00001880 SECT4  notype ()    External     | int4shr
+061 00001890 SECT4  notype ()    External     | int2up
+062 000018A0 SECT4  notype ()    External     | int4up
+063 00000000 UNDEF  notype ()    External     | array_recv
+064 00000000 UNDEF  notype ()    External     | array_send
+065 000018B0 SECT4  notype ()    External     | int2recv
+066 000018D0 SECT4  notype ()    External     | int2send
+067 00001910 SECT4  notype ()    External     | int4recv
+068 00001930 SECT4  notype ()    External     | int4send
+069 00001970 SECT4  notype ()    External     | int2vectorrecv
+06A 00001AD0 SECT4  notype ()    External     | int2vectorsend
+06B 00001AE0 SECT4  notype ()    External     | int4_bool
+06C 00001AF0 SECT4  notype ()    External     | bool_int4
+06D 00001B00 SECT4  notype ()    External     | buildint2vector
+06E 00000000 UNDEF  notype ()    External     | pg_atoi
+06F 00000000 UNDEF  notype ()    External     | pg_itoa
+070 00000000 UNDEF  notype ()    External     | pg_ltoa
+071 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+072 00000000 UNDEF  notype ()    External     | __security_check_cookie
+073 00000000 UNDEF  notype ()    External     | memcpy
+074 00000000 SECT4  notype       Label        | $LN4
+075 00000030 SECT4  notype       Label        | $LN4
+076 00000070 SECT4  notype       Label        | $LN41
+077 000001F0 SECT4  notype       Label        | $LN18
+078 00000290 SECT4  notype       Label        | $LN4
+079 000002C0 SECT4  notype       Label        | $LN4
+07A 00000380 SECT4  notype       Label        | $LN14
+07B 00000540 SECT4  notype       Label        | $LN12
+07C 000005D0 SECT4  notype       Label        | $LN21
+07D 000006E0 SECT4  notype       Label        | $LN20
+07E 000007E0 SECT4  notype       Label        | $LN15
+07F 00000880 SECT4  notype       Label        | $LN15
+080 00000A90 SECT4  notype       Label        | $LN12
+081 00000B30 SECT4  notype       Label        | $LN12
+082 00000BD0 SECT4  notype       Label        | $LN13
+083 00000C60 SECT4  notype       Label        | $LN20
+084 00000D60 SECT4  notype       Label        | $LN10
+085 00000E00 SECT4  notype       Label        | $LN10
+086 00000E90 SECT4  notype       Label        | $LN10
+087 00000F30 SECT4  notype       Label        | $LN10
+088 00000FC0 SECT4  notype       Label        | $LN10
+089 00001060 SECT4  notype       Label        | $LN10
+08A 000010F0 SECT4  notype       Label        | $LN10
+08B 00001190 SECT4  notype       Label        | $LN10
+08C 00001220 SECT4  notype       Label        | $LN10
+08D 000012A0 SECT4  notype       Label        | $LN10
+08E 00001340 SECT4  notype       Label        | $LN12
+08F 000013C0 SECT4  notype       Label        | $LN10
+090 000014C0 SECT4  notype       Label        | $LN31
+091 00001650 SECT4  notype       Label        | $LN10
+092 000016D0 SECT4  notype       Label        | $LN10
+093 000018B0 SECT4  notype       Label        | $LN4
+094 000018D0 SECT4  notype       Label        | $LN4
+095 00001910 SECT4  notype       Label        | $LN4
+096 00001930 SECT4  notype       Label        | $LN4
+097 00001970 SECT4  notype       Label        | $LN22
+098 00001B00 SECT4  notype       Label        | $LN5
+099 00000000 SECT5  notype       Static       | .xdata
+    Section length  4C4, #relocs   8B, #linenums    0, checksum C037C40E
+09B 00000000 SECT5  notype       Static       | $unwind$int2in
+09C 00000000 SECT6  notype       Static       | .pdata
+    Section length  3E4, #relocs   F9, #linenums    0, checksum 89F6C309
+09E 00000000 SECT6  notype       Static       | $pdata$int2in
+09F 00000008 SECT5  notype       Static       | $unwind$int2out
+0A0 0000000C SECT6  notype       Static       | $pdata$int2out
+0A1 00000014 SECT5  notype       Static       | $unwind$int2vectorin
+0A2 00000018 SECT6  notype       Static       | $pdata$int2vectorin
+0A3 00000024 SECT5  notype       Static       | $chain$1$int2vectorin
+0A4 00000024 SECT6  notype       Static       | $pdata$1$int2vectorin
+0A5 0000003C SECT5  notype       Static       | $chain$2$int2vectorin
+0A6 00000030 SECT6  notype       Static       | $pdata$2$int2vectorin
+0A7 0000004C SECT5  notype       Static       | $unwind$int2vectorout
+0A8 0000003C SECT6  notype       Static       | $pdata$int2vectorout
+0A9 00000064 SECT5  notype       Static       | $unwind$int4in
+0AA 00000048 SECT6  notype       Static       | $pdata$int4in
+0AB 0000006C SECT5  notype       Static       | $unwind$int4out
+0AC 00000054 SECT6  notype       Static       | $pdata$int4out
+0AD 00000078 SECT5  notype       Static       | $unwind$int4mul
+0AE 00000060 SECT6  notype       Static       | $pdata$int4mul
+0AF 00000080 SECT5  notype       Static       | $chain$0$int4mul
+0B0 0000006C SECT6  notype       Static       | $pdata$0$int4mul
+0B1 00000094 SECT5  notype       Static       | $chain$1$int4mul
+0B2 00000078 SECT6  notype       Static       | $pdata$1$int4mul
+0B3 000000A4 SECT5  notype       Static       | $unwind$int2mul
+0B4 00000084 SECT6  notype       Static       | $pdata$int2mul
+0B5 000000AC SECT5  notype       Static       | $chain$0$int2mul
+0B6 00000090 SECT6  notype       Static       | $pdata$0$int2mul
+0B7 000000C0 SECT5  notype       Static       | $chain$1$int2mul
+0B8 0000009C SECT6  notype       Static       | $pdata$1$int2mul
+0B9 000000D0 SECT5  notype       Static       | $unwind$int2div
+0BA 000000A8 SECT6  notype       Static       | $pdata$int2div
+0BB 000000DC SECT5  notype       Static       | $unwind$int4div
+0BC 000000B4 SECT6  notype       Static       | $pdata$int4div
+0BD 000000E8 SECT5  notype       Static       | $unwind$int2mod
+0BE 000000C0 SECT6  notype       Static       | $pdata$int2mod
+0BF 000000F0 SECT5  notype       Static       | $chain$0$int2mod
+0C0 000000CC SECT6  notype       Static       | $pdata$0$int2mod
+0C1 00000104 SECT5  notype       Static       | $chain$1$int2mod
+0C2 000000D8 SECT6  notype       Static       | $pdata$1$int2mod
+0C3 00000114 SECT5  notype       Static       | $unwind$int4mod
+0C4 000000E4 SECT6  notype       Static       | $pdata$int4mod
+0C5 0000011C SECT5  notype       Static       | $chain$0$int4mod
+0C6 000000F0 SECT6  notype       Static       | $pdata$0$int4mod
+0C7 00000130 SECT5  notype       Static       | $chain$1$int4mod
+0C8 000000FC SECT6  notype       Static       | $pdata$1$int4mod
+0C9 00000140 SECT5  notype       Static       | $unwind$int24mul
+0CA 00000108 SECT6  notype       Static       | $pdata$int24mul
+0CB 00000148 SECT5  notype       Static       | $chain$0$int24mul
+0CC 00000114 SECT6  notype       Static       | $pdata$0$int24mul
+0CD 0000015C SECT5  notype       Static       | $chain$1$int24mul
+0CE 00000120 SECT6  notype       Static       | $pdata$1$int24mul
+0CF 0000016C SECT5  notype       Static       | $unwind$int42mul
+0D0 0000012C SECT6  notype       Static       | $pdata$int42mul
+0D1 00000174 SECT5  notype       Static       | $chain$0$int42mul
+0D2 00000138 SECT6  notype       Static       | $pdata$0$int42mul
+0D3 00000188 SECT5  notype       Static       | $chain$1$int42mul
+0D4 00000144 SECT6  notype       Static       | $pdata$1$int42mul
+0D5 00000198 SECT5  notype       Static       | $unwind$int24div
+0D6 00000150 SECT6  notype       Static       | $pdata$int24div
+0D7 000001A0 SECT5  notype       Static       | $chain$0$int24div
+0D8 0000015C SECT6  notype       Static       | $pdata$0$int24div
+0D9 000001B4 SECT5  notype       Static       | $chain$1$int24div
+0DA 00000168 SECT6  notype       Static       | $pdata$1$int24div
+0DB 000001C4 SECT5  notype       Static       | $unwind$int42div
+0DC 00000174 SECT6  notype       Static       | $pdata$int42div
+0DD 000001D0 SECT5  notype       Static       | $unwind$int2pl
+0DE 00000180 SECT6  notype       Static       | $pdata$int2pl
+0DF 000001D8 SECT5  notype       Static       | $chain$0$int2pl
+0E0 0000018C SECT6  notype       Static       | $pdata$0$int2pl
+0E1 000001EC SECT5  notype       Static       | $chain$1$int2pl
+0E2 00000198 SECT6  notype       Static       | $pdata$1$int2pl
+0E3 000001FC SECT5  notype       Static       | $unwind$int4pl
+0E4 000001A4 SECT6  notype       Static       | $pdata$int4pl
+0E5 00000204 SECT5  notype       Static       | $chain$0$int4pl
+0E6 000001B0 SECT6  notype       Static       | $pdata$0$int4pl
+0E7 00000218 SECT5  notype       Static       | $chain$1$int4pl
+0E8 000001BC SECT6  notype       Static       | $pdata$1$int4pl
+0E9 00000228 SECT5  notype       Static       | $unwind$int24pl
+0EA 000001C8 SECT6  notype       Static       | $pdata$int24pl
+0EB 00000230 SECT5  notype       Static       | $chain$0$int24pl
+0EC 000001D4 SECT6  notype       Static       | $pdata$0$int24pl
+0ED 00000244 SECT5  notype       Static       | $chain$1$int24pl
+0EE 000001E0 SECT6  notype       Static       | $pdata$1$int24pl
+0EF 00000254 SECT5  notype       Static       | $unwind$int42pl
+0F0 000001EC SECT6  notype       Static       | $pdata$int42pl
+0F1 0000025C SECT5  notype       Static       | $chain$0$int42pl
+0F2 000001F8 SECT6  notype       Static       | $pdata$0$int42pl
+0F3 00000270 SECT5  notype       Static       | $chain$1$int42pl
+0F4 00000204 SECT6  notype       Static       | $pdata$1$int42pl
+0F5 00000280 SECT5  notype       Static       | $unwind$int2mi
+0F6 00000210 SECT6  notype       Static       | $pdata$int2mi
+0F7 00000288 SECT5  notype       Static       | $chain$0$int2mi
+0F8 0000021C SECT6  notype       Static       | $pdata$0$int2mi
+0F9 0000029C SECT5  notype       Static       | $chain$1$int2mi
+0FA 00000228 SECT6  notype       Static       | $pdata$1$int2mi
+0FB 000002AC SECT5  notype       Static       | $unwind$int4mi
+0FC 00000234 SECT6  notype       Static       | $pdata$int4mi
+0FD 000002B4 SECT5  notype       Static       | $chain$0$int4mi
+0FE 00000240 SECT6  notype       Static       | $pdata$0$int4mi
+0FF 000002C8 SECT5  notype       Static       | $chain$1$int4mi
+100 0000024C SECT6  notype       Static       | $pdata$1$int4mi
+101 000002D8 SECT5  notype       Static       | $unwind$int24mi
+102 00000258 SECT6  notype       Static       | $pdata$int24mi
+103 000002E0 SECT5  notype       Static       | $chain$0$int24mi
+104 00000264 SECT6  notype       Static       | $pdata$0$int24mi
+105 000002F4 SECT5  notype       Static       | $chain$1$int24mi
+106 00000270 SECT6  notype       Static       | $pdata$1$int24mi
+107 00000304 SECT5  notype       Static       | $unwind$int42mi
+108 0000027C SECT6  notype       Static       | $pdata$int42mi
+109 0000030C SECT5  notype       Static       | $chain$0$int42mi
+10A 00000288 SECT6  notype       Static       | $pdata$0$int42mi
+10B 00000320 SECT5  notype       Static       | $chain$1$int42mi
+10C 00000294 SECT6  notype       Static       | $pdata$1$int42mi
+10D 00000330 SECT5  notype       Static       | $unwind$int4um
+10E 000002A0 SECT6  notype       Static       | $pdata$int4um
+10F 00000338 SECT5  notype       Static       | $chain$0$int4um
+110 000002AC SECT6  notype       Static       | $pdata$0$int4um
+111 0000034C SECT5  notype       Static       | $chain$1$int4um
+112 000002B8 SECT6  notype       Static       | $pdata$1$int4um
+113 0000035C SECT5  notype       Static       | $unwind$int2um
+114 000002C4 SECT6  notype       Static       | $pdata$int2um
+115 00000364 SECT5  notype       Static       | $chain$0$int2um
+116 000002D0 SECT6  notype       Static       | $pdata$0$int2um
+117 00000378 SECT5  notype       Static       | $chain$1$int2um
+118 000002DC SECT6  notype       Static       | $pdata$1$int2um
+119 00000388 SECT5  notype       Static       | $unwind$i4toi2
+11A 000002E8 SECT6  notype       Static       | $pdata$i4toi2
+11B 00000390 SECT5  notype       Static       | $chain$0$i4toi2
+11C 000002F4 SECT6  notype       Static       | $pdata$0$i4toi2
+11D 000003A4 SECT5  notype       Static       | $chain$1$i4toi2
+11E 00000300 SECT6  notype       Static       | $pdata$1$i4toi2
+11F 000003B4 SECT5  notype       Static       | $unwind$int4inc
+120 0000030C SECT6  notype       Static       | $pdata$int4inc
+121 000003BC SECT5  notype       Static       | $chain$0$int4inc
+122 00000318 SECT6  notype       Static       | $pdata$0$int4inc
+123 000003D0 SECT5  notype       Static       | $chain$1$int4inc
+124 00000324 SECT6  notype       Static       | $pdata$1$int4inc
+125 000003E0 SECT5  notype       Static       | $unwind$generate_series_step_int4
+126 00000330 SECT6  notype       Static       | $pdata$generate_series_step_int4
+127 000003E8 SECT5  notype       Static       | $chain$4$generate_series_step_int4
+128 0000033C SECT6  notype       Static       | $pdata$4$generate_series_step_int4
+129 0000040C SECT5  notype       Static       | $chain$5$generate_series_step_int4
+12A 00000348 SECT6  notype       Static       | $pdata$5$generate_series_step_int4
+12B 0000041C SECT5  notype       Static       | $unwind$int4abs
+12C 00000354 SECT6  notype       Static       | $pdata$int4abs
+12D 00000424 SECT5  notype       Static       | $chain$0$int4abs
+12E 00000360 SECT6  notype       Static       | $pdata$0$int4abs
+12F 00000438 SECT5  notype       Static       | $chain$1$int4abs
+130 0000036C SECT6  notype       Static       | $pdata$1$int4abs
+131 00000448 SECT5  notype       Static       | $unwind$int2abs
+132 00000378 SECT6  notype       Static       | $pdata$int2abs
+133 00000450 SECT5  notype       Static       | $chain$0$int2abs
+134 00000384 SECT6  notype       Static       | $pdata$0$int2abs
+135 00000464 SECT5  notype       Static       | $chain$1$int2abs
+136 00000390 SECT6  notype       Static       | $pdata$1$int2abs
+137 00000474 SECT5  notype       Static       | $unwind$int2recv
+138 0000039C SECT6  notype       Static       | $pdata$int2recv
+139 0000047C SECT5  notype       Static       | $unwind$int2send
+13A 000003A8 SECT6  notype       Static       | $pdata$int2send
+13B 00000484 SECT5  notype       Static       | $unwind$int4recv
+13C 000003B4 SECT6  notype       Static       | $pdata$int4recv
+13D 0000048C SECT5  notype       Static       | $unwind$int4send
+13E 000003C0 SECT6  notype       Static       | $pdata$int4send
+13F 00000494 SECT5  notype       Static       | $unwind$int2vectorrecv
+140 000003CC SECT6  notype       Static       | $pdata$int2vectorrecv
+141 000004B0 SECT5  notype       Static       | $unwind$buildint2vector
+142 000003D8 SECT6  notype       Static       | $pdata$buildint2vector
+143 00000000 UNDEF  notype       External     | CurrentMemoryContext
+144 00000000 SECT7  notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 3D8B2FF6, selection    2 (pick any)
+146 00000000 SECT7  notype       External     | ??_C@_0N@MNAAJGIL@int2vectorin?$AA@ (`string')
+147 00000000 SECT8  notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 76F94358, selection    2 (pick any)
+149 00000000 SECT8  notype       External     | ??_C@_0BM@JHGMLEO@src?1backend?1utils?1adt?1int?4c?$AA@ (`string')
+14A 00000000 SECT9  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum E159D9B0, selection    2 (pick any)
+14C 00000000 SECT9  notype       External     | ??_C@_0CB@GENKBMMC@int2vector?5has?5too?5many?5elements@ (`string')
+14D 00000000 SECTA  notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 1AF2CC72, selection    2 (pick any)
+14F 00000000 SECTA  notype       External     | ??_C@_0P@DCNODAGK@int2vectorrecv?$AA@ (`string')
+150 00000000 SECTB  notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 983BF0F8, selection    2 (pick any)
+152 00000000 SECTB  notype       External     | ??_C@_0BI@MEAFMFCH@invalid?5int2vector?5data?$AA@ (`string')
+153 00000000 SECTC  notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum BEEBCE29, selection    2 (pick any)
+155 00000000 SECTC  notype       External     | ??_C@_0CA@FIBOGEHL@oidvector?5has?5too?5many?5elements?$AA@ (`string')
+156 00000000 SECTD  notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 44A44909, selection    2 (pick any)
+158 00000000 SECTD  notype       External     | ??_C@_06CGDHGJII@i4toi2?$AA@ (`string')
+159 00000000 SECTE  notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum CB1A1A76, selection    2 (pick any)
+15B 00000000 SECTE  notype       External     | ??_C@_0BG@JMMMFEGJ@smallint?5out?5of?5range?$AA@ (`string')
+15C 00000000 SECTF  notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum DDA2F1B4, selection    2 (pick any)
+15E 00000000 SECTF  notype       External     | ??_C@_06LPDBNBDF@int4um?$AA@ (`string')
+15F 00000000 SECT10 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum ACC70152, selection    2 (pick any)
+161 00000000 SECT10 notype       External     | ??_C@_0BF@BCDMDLCG@integer?5out?5of?5range?$AA@ (`string')
+162 00000000 SECT11 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum C272021E, selection    2 (pick any)
+164 00000000 SECT11 notype       External     | ??_C@_06KAOBCCJP@int4pl?$AA@ (`string')
+165 00000000 SECT12 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum ABFBC678, selection    2 (pick any)
+167 00000000 SECT12 notype       External     | ??_C@_06MJGIOGPJ@int4mi?$AA@ (`string')
+168 00000000 SECT13 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 82017C77, selection    2 (pick any)
+16A 00000000 SECT13 notype       External     | ??_C@_07BINMFMOB@int4mul?$AA@ (`string')
+16B 00000000 SECT14 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 5A189332, selection    2 (pick any)
+16D 00000000 SECT14 notype       External     | ??_C@_07MAMFLDKE@int4div?$AA@ (`string')
+16E 00000000 SECT15 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 38D41CE3, selection    2 (pick any)
+170 00000000 SECT15 notype       External     | ??_C@_0BB@OMEBCKB@division?5by?5zero?$AA@ (`string')
+171 00000000 SECT16 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 9A88BB7E, selection    2 (pick any)
+173 00000000 SECT16 notype       External     | ??_C@_07FFJLOI@int4inc?$AA@ (`string')
+174 00000000 SECT17 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum F8C9AE68, selection    2 (pick any)
+176 00000000 SECT17 notype       External     | ??_C@_06JKFKIOOJ@int2um?$AA@ (`string')
+177 00000000 SECT18 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum E7195DC2, selection    2 (pick any)
+179 00000000 SECT18 notype       External     | ??_C@_06IFIKHNED@int2pl?$AA@ (`string')
+17A 00000000 SECT19 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 8E9099A4, selection    2 (pick any)
+17C 00000000 SECT19 notype       External     | ??_C@_06OMADLJCF@int2mi?$AA@ (`string')
+17D 00000000 SECT1A notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum  D4189D7, selection    2 (pick any)
+17F 00000000 SECT1A notype       External     | ??_C@_07JHJMKJEB@int2mul?$AA@ (`string')
+180 00000000 SECT1B notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum D5586692, selection    2 (pick any)
+182 00000000 SECT1B notype       External     | ??_C@_07EPIFEGAE@int2div?$AA@ (`string')
+183 00000000 SECT1C notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum BD8F0B14, selection    2 (pick any)
+185 00000000 SECT1C notype       External     | ??_C@_07CHFCCLIC@int24pl?$AA@ (`string')
+186 00000000 SECT1D notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum D406CF72, selection    2 (pick any)
+188 00000000 SECT1D notype       External     | ??_C@_07EONLOPOE@int24mi?$AA@ (`string')
+189 00000000 SECT1E notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 62AB6860, selection    2 (pick any)
+18B 00000000 SECT1E notype       External     | ??_C@_08HLFNIDDB@int24mul?$AA@ (`string')
+18C 00000000 SECT1F notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum BAB28725, selection    2 (pick any)
+18E 00000000 SECT1F notype       External     | ??_C@_08KDEEGMHE@int24div?$AA@ (`string')
+18F 00000000 SECT20 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 17A4A168, selection    2 (pick any)
+191 00000000 SECT20 notype       External     | ??_C@_07INHJIBPO@int42pl?$AA@ (`string')
+192 00000000 SECT21 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 7E2D650E, selection    2 (pick any)
+194 00000000 SECT21 notype       External     | ??_C@_07OEPAEFJI@int42mi?$AA@ (`string')
+195 00000000 SECT22 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 3BB27EDD, selection    2 (pick any)
+197 00000000 SECT22 notype       External     | ??_C@_08CCEEJFIM@int42mul?$AA@ (`string')
+198 00000000 SECT23 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum E3AB9198, selection    2 (pick any)
+19A 00000000 SECT23 notype       External     | ??_C@_08PKFNHKMJ@int42div?$AA@ (`string')
+19B 00000000 SECT24 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 5B69D0D9, selection    2 (pick any)
+19D 00000000 SECT24 notype       External     | ??_C@_07MBLEPAEP@int4mod?$AA@ (`string')
+19E 00000000 SECT25 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum D4292579, selection    2 (pick any)
+1A0 00000000 SECT25 notype       External     | ??_C@_07EOPEAFOP@int2mod?$AA@ (`string')
+1A1 00000000 SECT26 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 1CE478A4, selection    2 (pick any)
+1A3 00000000 SECT26 notype       External     | ??_C@_07IGDJFIDC@int4abs?$AA@ (`string')
+1A4 00000000 SECT27 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 93A48D04, selection    2 (pick any)
+1A6 00000000 SECT27 notype       External     | ??_C@_07JHJKNJC@int2abs?$AA@ (`string')
+1A7 00000000 SECT28 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum A2946255, selection    2 (pick any)
+1A9 00000000 SECT28 notype       External     | ??_C@_0BK@PCIHCDJI@generate_series_step_int4?$AA@ (`string')
+1AA 00000000 SECT29 notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 377125AA, selection    2 (pick any)
+1AC 00000000 SECT29 notype       External     | ??_C@_0BM@EIPOKNLM@step?5size?5cannot?5equal?5zero?$AA@ (`string')
+1AD 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x11CA bytes
+
+  Summary
+
+        A108 .debug$S
+          68 .debug$T
+          5D .drectve
+         3E4 .pdata
+         1C0 .rdata
+        1B7D .text$mn
+         4C4 .xdata

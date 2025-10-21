@@ -1,0 +1,81 @@
+
+Dump of file Release\postgres/scram-common.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 49A4, #relocs   9E, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  827, #relocs   59, #linenums    0, checksum CA05B5E8
+00A 00000000 UNDEF  notype       External     | __imp_htonl
+00B 00000000 UNDEF  notype ()    External     | pg_sprintf
+00C 00000000 UNDEF  notype ()    External     | palloc
+00D 00000000 UNDEF  notype ()    External     | pg_b64_encode
+00E 00000000 UNDEF  notype ()    External     | pg_b64_enc_len
+00F 00000000 UNDEF  notype ()    External     | pg_sha256_init
+010 00000000 UNDEF  notype ()    External     | pg_sha256_update
+011 00000000 UNDEF  notype ()    External     | pg_sha256_final
+012 00000000 SECT4  notype ()    External     | scram_HMAC_init
+013 00000160 SECT4  notype ()    External     | scram_HMAC_update
+014 00000170 SECT4  notype ()    External     | scram_HMAC_final
+015 00000200 SECT4  notype ()    External     | scram_SaltedPassword
+016 00000410 SECT4  notype ()    External     | scram_H
+017 00000480 SECT4  notype ()    External     | scram_ClientKey
+018 00000540 SECT4  notype ()    External     | scram_ServerKey
+019 00000600 SECT4  notype ()    External     | scram_build_verifier
+01A 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+01B 00000000 UNDEF  notype ()    External     | __security_check_cookie
+01C 00000000 SECT4  notype       Label        | $LN12
+01D 00000170 SECT4  notype       Label        | $LN4
+01E 00000200 SECT4  notype       Label        | $LN37
+01F 00000410 SECT4  notype       Label        | $LN4
+020 00000480 SECT4  notype       Label        | $LN8
+021 00000540 SECT4  notype       Label        | $LN8
+022 00000600 SECT4  notype       Label        | $LN19
+023 00000000 SECT5  notype       Static       | .xdata
+    Section length   A8, #relocs    7, #linenums    0, checksum 9EDDA954
+025 00000000 SECT5  notype       Static       | $unwind$scram_HMAC_init
+026 00000000 SECT6  notype       Static       | .pdata
+    Section length   54, #relocs   15, #linenums    0, checksum CA63F8EC
+028 00000000 SECT6  notype       Static       | $pdata$scram_HMAC_init
+029 00000018 SECT5  notype       Static       | $unwind$scram_HMAC_final
+02A 0000000C SECT6  notype       Static       | $pdata$scram_HMAC_final
+02B 0000002C SECT5  notype       Static       | $unwind$scram_SaltedPassword
+02C 00000018 SECT6  notype       Static       | $pdata$scram_SaltedPassword
+02D 0000004C SECT5  notype       Static       | $unwind$scram_H
+02E 00000024 SECT6  notype       Static       | $pdata$scram_H
+02F 00000064 SECT5  notype       Static       | $unwind$scram_ClientKey
+030 00000030 SECT6  notype       Static       | $pdata$scram_ClientKey
+031 00000078 SECT5  notype       Static       | $unwind$scram_ServerKey
+032 0000003C SECT6  notype       Static       | $pdata$scram_ServerKey
+033 0000008C SECT5  notype       Static       | $unwind$scram_build_verifier
+034 00000048 SECT6  notype       Static       | $pdata$scram_build_verifier
+035 00000000 SECT7  notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum 9AB54113, selection    2 (pick any)
+037 00000000 SECT7  notype       External     | ??_C@_0L@OMNAPAA@Client?5Key?$AA@ (`string')
+038 00000000 SECT8  notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum C0A9F391, selection    2 (pick any)
+03A 00000000 SECT8  notype       External     | ??_C@_0L@FENBLNIC@Server?5Key?$AA@ (`string')
+03B 00000000 SECT9  notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 4D7E06ED, selection    2 (pick any)
+03D 00000000 SECT9  notype       External     | ??_C@_0BC@NFJKDGFP@SCRAM?9SHA?9256$?$CFd?3?$AA@ (`string')
+03E 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x2E4 bytes
+
+  Summary
+
+        49A4 .debug$S
+          68 .debug$T
+          5D .drectve
+          54 .pdata
+          28 .rdata
+         827 .text$mn
+          A8 .xdata

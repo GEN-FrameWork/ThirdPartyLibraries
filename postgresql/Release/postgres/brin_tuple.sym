@@ -1,0 +1,140 @@
+
+Dump of file Release\postgres/brin_tuple.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 520C, #relocs   E8, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  742, #relocs   22, #linenums    0, checksum 573041C1
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  273, #relocs    1, #linenums    0, checksum FCA3B876, selection    2 (pick any)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  460, #relocs   34, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  11E, #relocs    5, #linenums    0, checksum  2DCA576, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  284, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | palloc
+013 00000000 UNDEF  notype ()    External     | palloc0
+014 00000000 UNDEF  notype ()    External     | repalloc
+015 00000000 UNDEF  notype ()    External     | pfree
+016 00000000 UNDEF  notype ()    External     | CreateTemplateTupleDesc
+017 00000000 UNDEF  notype ()    External     | TupleDescInitEntry
+018 00000000 UNDEF  notype ()    External     | heap_compute_data_size
+019 00000000 UNDEF  notype ()    External     | heap_fill_tuple
+01A 00000000 SECT4  notype ()    External     | brin_form_tuple
+01B 000002C0 SECT4  notype ()    External     | brin_form_placeholder_tuple
+01C 00000380 SECT4  notype ()    External     | brin_free_tuple
+01D 00000390 SECT4  notype ()    External     | brin_copy_tuple
+01E 00000410 SECT4  notype ()    External     | brin_tuples_equal
+01F 00000440 SECT4  notype ()    External     | brin_new_memtuple
+020 000004F0 SECT4  notype ()    External     | brin_memtuple_initialize
+021 00000580 SECT4  notype ()    External     | brin_deform_tuple
+022 00000000 UNDEF  notype ()    External     | datumCopy
+023 00000000 UNDEF  notype ()    External     | MemoryContextReset
+024 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+025 00000000 SECT5  notype ()    Static       | brin_deconstruct_tuple
+026 00000000 SECT7  notype ()    Static       | brtuple_disk_tupdesc
+027 00000000 UNDEF  notype ()    External     | memcmp
+028 00000000 UNDEF  notype ()    External     | memcpy
+029 00000000 SECT4  notype       Label        | $LN53
+02A 000002C0 SECT4  notype       Label        | $LN14
+02B 00000390 SECT4  notype       Label        | $LN9
+02C 00000410 SECT4  notype       Label        | $LN6
+02D 00000440 SECT4  notype       Label        | $LN4
+02E 000004F0 SECT4  notype       Label        | $LN12
+02F 00000580 SECT4  notype       Label        | $LN30
+030 00000000 SECT9  notype       Static       | .xdata
+    Section length   98, #relocs    6, #linenums    0, checksum 1DAFD3CF
+032 00000000 SECT9  notype       Static       | $unwind$brin_form_tuple
+033 00000000 SECTA  notype       Static       | .pdata
+    Section length   6C, #relocs   1B, #linenums    0, checksum 4619C59B
+035 00000000 SECTA  notype       Static       | $pdata$brin_form_tuple
+036 00000018 SECT9  notype       Static       | $unwind$brin_form_placeholder_tuple
+037 0000000C SECTA  notype       Static       | $pdata$brin_form_placeholder_tuple
+038 0000002C SECT9  notype       Static       | $unwind$brin_copy_tuple
+039 00000018 SECTA  notype       Static       | $pdata$brin_copy_tuple
+03A 00000040 SECT9  notype       Static       | $unwind$brin_tuples_equal
+03B 00000024 SECTA  notype       Static       | $pdata$brin_tuples_equal
+03C 00000048 SECT9  notype       Static       | $unwind$brin_new_memtuple
+03D 00000030 SECTA  notype       Static       | $pdata$brin_new_memtuple
+03E 00000054 SECT9  notype       Static       | $unwind$brin_memtuple_initialize
+03F 0000003C SECTA  notype       Static       | $pdata$brin_memtuple_initialize
+040 00000060 SECT9  notype       Static       | $unwind$brin_deform_tuple
+041 00000048 SECTA  notype       Static       | $pdata$brin_deform_tuple
+042 00000074 SECT9  notype       Static       | $chain$0$brin_deform_tuple
+043 00000054 SECTA  notype       Static       | $pdata$0$brin_deform_tuple
+044 00000088 SECT9  notype       Static       | $chain$1$brin_deform_tuple
+045 00000060 SECTA  notype       Static       | $pdata$1$brin_deform_tuple
+046 00000000 SECTB  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 1B6DBFBE, selection    5 (pick associative Section 0x5)
+048 00000000 SECTB  notype       Static       | $unwind$brin_deconstruct_tuple
+049 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum EB665BFF, selection    5 (pick associative Section 0x5)
+04B 00000000 SECTC  notype       Static       | $pdata$brin_deconstruct_tuple
+04C 00000000 SECTD  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 8108013D, selection    5 (pick associative Section 0x5)
+04E 00000000 SECTD  notype       Static       | $chain$0$brin_deconstruct_tuple
+04F 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2F85C7D1, selection    5 (pick associative Section 0x5)
+051 00000000 SECTE  notype       Static       | $pdata$0$brin_deconstruct_tuple
+052 00000000 SECTF  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 5231B113, selection    5 (pick associative Section 0x5)
+054 00000000 SECTF  notype       Static       | $chain$1$brin_deconstruct_tuple
+055 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D45D2916, selection    5 (pick associative Section 0x5)
+057 00000000 SECT10 notype       Static       | $pdata$1$brin_deconstruct_tuple
+058 00000000 SECT11 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum AB722717, selection    5 (pick associative Section 0x7)
+05A 00000000 SECT11 notype       Static       | $unwind$brtuple_disk_tupdesc
+05B 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 63F42A00, selection    5 (pick associative Section 0x7)
+05D 00000000 SECT12 notype       Static       | $pdata$brtuple_disk_tupdesc
+05E 00000000 SECT13 notype       Static       | .xdata
+    Section length   20, #relocs    3, #linenums    0, checksum D9265BE8, selection    5 (pick associative Section 0x7)
+060 00000000 SECT13 notype       Static       | $chain$3$brtuple_disk_tupdesc
+061 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 415A77D6, selection    5 (pick associative Section 0x7)
+063 00000000 SECT14 notype       Static       | $pdata$3$brtuple_disk_tupdesc
+064 00000000 SECT15 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 852D0376, selection    5 (pick associative Section 0x7)
+066 00000000 SECT15 notype       Static       | $chain$6$brtuple_disk_tupdesc
+067 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3A4255A1, selection    5 (pick associative Section 0x7)
+069 00000000 SECT16 notype       Static       | $pdata$6$brtuple_disk_tupdesc
+06A 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum F80D9D3A, selection    5 (pick associative Section 0x7)
+06C 00000000 SECT17 notype       Static       | $chain$7$brtuple_disk_tupdesc
+06D 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F6E1D6F5, selection    5 (pick associative Section 0x7)
+06F 00000000 SECT18 notype       Static       | $pdata$7$brtuple_disk_tupdesc
+070 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum DAA3C0EC, selection    5 (pick associative Section 0x7)
+072 00000000 SECT19 notype       Static       | $chain$8$brtuple_disk_tupdesc
+073 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 754EC861, selection    5 (pick associative Section 0x7)
+075 00000000 SECT1A notype       Static       | $pdata$8$brtuple_disk_tupdesc
+076 00000000 UNDEF  notype       External     | CurrentMemoryContext
+077 00000000 SECT1B notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum CE024BDB, selection    2 (pick any)
+079 00000000 SECT1B notype       External     | ??_C@_0M@EKCIHCEL@brin?5dtuple?$AA@ (`string')
+
+String Table Size = 0x55A bytes
+
+  Summary
+
+        58F0 .debug$S
+          68 .debug$T
+          5D .drectve
+          CC .pdata
+           C .rdata
+         AD3 .text$mn
+         138 .xdata

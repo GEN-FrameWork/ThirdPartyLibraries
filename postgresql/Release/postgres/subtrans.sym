@@ -1,0 +1,104 @@
+
+Dump of file Release\postgres/subtrans.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 496C, #relocs   8A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  431, #relocs   41, #linenums    0, checksum 8FC33979
+00A 00000000 UNDEF  notype ()    External     | elog_start
+00B 00000000 UNDEF  notype ()    External     | elog_finish
+00C 00000000 UNDEF  notype ()    External     | LWLockAcquire
+00D 00000000 UNDEF  notype ()    External     | LWLockRelease
+00E 00000000 UNDEF  notype ()    External     | SimpleLruShmemSize
+00F 00000000 UNDEF  notype ()    External     | SimpleLruInit
+010 00000000 UNDEF  notype ()    External     | SimpleLruZeroPage
+011 00000000 UNDEF  notype ()    External     | SimpleLruReadPage
+012 00000000 UNDEF  notype ()    External     | SimpleLruReadPage_ReadOnly
+013 00000000 UNDEF  notype ()    External     | SimpleLruWritePage
+014 00000000 UNDEF  notype ()    External     | SimpleLruFlush
+015 00000000 UNDEF  notype ()    External     | SimpleLruTruncate
+016 00000000 SECT4  notype ()    External     | SubTransSetParent
+017 00000090 SECT4  notype ()    External     | SubTransGetParent
+018 00000100 SECT4  notype ()    External     | SubTransGetTopmostTransaction
+019 000001F0 SECT4  notype ()    External     | SUBTRANSShmemSize
+01A 00000200 SECT4  notype ()    External     | SUBTRANSShmemInit
+01B 00000270 SECT4  notype ()    External     | BootStrapSUBTRANS
+01C 000002D0 SECT4  notype ()    External     | StartupSUBTRANS
+01D 00000360 SECT4  notype ()    External     | ShutdownSUBTRANS
+01E 00000380 SECT4  notype ()    External     | CheckPointSUBTRANS
+01F 000003A0 SECT4  notype ()    External     | ExtendSUBTRANS
+020 00000400 SECT4  notype ()    External     | TruncateSUBTRANS
+021 00000000 UNDEF  notype ()    External     | TransactionIdPrecedes
+022 00000420 SECT4  notype ()    Static       | SubTransPagePrecedes
+023 00000000 SECT4  notype       Label        | $LN5
+024 00000090 SECT4  notype       Label        | $LN5
+025 00000100 SECT4  notype       Label        | $LN24
+026 00000200 SECT4  notype       Label        | $LN4
+027 00000270 SECT4  notype       Label        | $LN6
+028 000002D0 SECT4  notype       Label        | $LN14
+029 000003A0 SECT4  notype       Label        | $LN7
+02A 00000000 SECT5  notype       Static       | .xdata
+    Section length   68, #relocs    6, #linenums    0, checksum 29B0D869
+02C 00000000 SECT5  notype       Static       | $unwind$SubTransSetParent
+02D 00000000 SECT6  notype       Static       | .pdata
+    Section length   6C, #relocs   1B, #linenums    0, checksum 871AF5D7
+02F 00000000 SECT6  notype       Static       | $pdata$SubTransSetParent
+030 0000000C SECT5  notype       Static       | $unwind$SubTransGetParent
+031 0000000C SECT6  notype       Static       | $pdata$SubTransGetParent
+032 00000014 SECT5  notype       Static       | $unwind$SubTransGetTopmostTransaction
+033 00000018 SECT6  notype       Static       | $pdata$SubTransGetTopmostTransaction
+034 0000001C SECT5  notype       Static       | $chain$1$SubTransGetTopmostTransaction
+035 00000024 SECT6  notype       Static       | $pdata$1$SubTransGetTopmostTransaction
+036 00000034 SECT5  notype       Static       | $chain$2$SubTransGetTopmostTransaction
+037 00000030 SECT6  notype       Static       | $pdata$2$SubTransGetTopmostTransaction
+038 00000044 SECT5  notype       Static       | $unwind$SUBTRANSShmemInit
+039 0000003C SECT6  notype       Static       | $pdata$SUBTRANSShmemInit
+03A 0000004C SECT5  notype       Static       | $unwind$BootStrapSUBTRANS
+03B 00000048 SECT6  notype       Static       | $pdata$BootStrapSUBTRANS
+03C 00000054 SECT5  notype       Static       | $unwind$StartupSUBTRANS
+03D 00000054 SECT6  notype       Static       | $pdata$StartupSUBTRANS
+03E 00000060 SECT5  notype       Static       | $unwind$ExtendSUBTRANS
+03F 00000060 SECT6  notype       Static       | $pdata$ExtendSUBTRANS
+040 00000000 UNDEF  notype       External     | MainLWLockArray
+041 00000000 UNDEF  notype       External     | ShmemVariableCache
+042 00000000 UNDEF  notype       External     | TransactionXmin
+043 00000000 SECT7  notype       Static       | .bss
+    Section length   58, #relocs    0, #linenums    0, checksum        0
+045 00000000 SECT7  notype       Static       | SubTransCtlData
+046 00000000 SECT8  notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum E37218A6, selection    2 (pick any)
+048 00000000 SECT8  notype       External     | ??_C@_0BO@BMIJNJOM@SubTransGetTopmostTransaction?$AA@ (`string')
+049 00000000 SECT9  notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 253E7B09, selection    2 (pick any)
+04B 00000000 SECT9  notype       External     | ??_C@_0CG@ECDIBPEF@src?1backend?1access?1transam?1subtr@ (`string')
+04C 00000000 SECTA  notype       Static       | .rdata
+    Section length   43, #relocs    0, #linenums    0, checksum 2E6E2137, selection    2 (pick any)
+04E 00000000 SECTA  notype       External     | ??_C@_0ED@NDOPFJHE@pg_subtrans?5contains?5invalid?5ent@ (`string')
+04F 00000000 SECTB  notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum F26D42A3, selection    2 (pick any)
+051 00000000 SECTB  notype       External     | ??_C@_0M@HGEHHLDD@pg_subtrans?$AA@ (`string')
+052 00000000 SECTC  notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum E7D79D29, selection    2 (pick any)
+054 00000000 SECTC  notype       External     | ??_C@_08POCBHGHI@subtrans?$AA@ (`string')
+
+String Table Size = 0x4FD bytes
+
+  Summary
+
+          58 .bss
+        496C .debug$S
+          68 .debug$T
+          5D .drectve
+          6C .pdata
+          9C .rdata
+         431 .text$mn
+          68 .xdata

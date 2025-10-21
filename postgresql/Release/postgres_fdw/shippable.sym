@@ -1,0 +1,80 @@
+
+Dump of file Release\postgres_fdw/shippable.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 43D0, #relocs   32, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   6C, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  186, #relocs   15, #linenums    0, checksum EA5A2ED1
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   AC, #relocs    6, #linenums    0, checksum E020439A, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  134, #relocs    A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | elog_start
+00F 00000000 UNDEF  notype ()    External     | elog_finish
+010 00000000 UNDEF  notype ()    External     | list_member_oid
+011 00000000 SECT4  notype ()    External     | is_builtin
+012 00000010 SECT4  notype ()    External     | is_shippable
+013 00000000 UNDEF  notype ()    External     | getExtensionOfObject
+014 00000000 UNDEF  notype ()    External     | hash_create
+015 00000000 UNDEF  notype ()    External     | hash_search
+016 00000000 UNDEF  notype ()    External     | hash_seq_init
+017 00000000 UNDEF  notype ()    External     | hash_seq_search
+018 00000000 UNDEF  notype ()    External     | CacheRegisterSyscacheCallback
+019 00000100 SECT4  notype ()    Static       | InvalidateShippableCacheCallback
+01A 00000000 SECT5  notype ()    Static       | InitializeShippableCache
+01B 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+01C 00000000 UNDEF  notype ()    External     | __security_check_cookie
+01D 00000000 UNDEF  notype ()    External     | memset
+01E 00000010 SECT4  notype       Label        | $LN13
+01F 00000000 SECT7  notype       Static       | .xdata
+    Section length   1C, #relocs    1, #linenums    0, checksum 8E9AA439
+021 00000000 SECT7  notype       Static       | $unwind$is_shippable
+022 00000000 SECT8  notype       Static       | .pdata
+    Section length   18, #relocs    6, #linenums    0, checksum 19E95C3A
+024 00000000 SECT8  notype       Static       | $pdata$is_shippable
+025 00000014 SECT7  notype       Static       | $unwind$InvalidateShippableCacheCallback
+026 0000000C SECT8  notype       Static       | $pdata$InvalidateShippableCacheCallback
+027 00000000 SECT9  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 8B09EE85, selection    5 (pick associative Section 0x5)
+029 00000000 SECT9  notype       Static       | $unwind$InitializeShippableCache
+02A 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FDE2F2C3, selection    5 (pick associative Section 0x5)
+02C 00000000 SECTA  notype       Static       | $pdata$InitializeShippableCache
+02D 00000000 SECTB  notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+02F 00000000 SECTB  notype       Static       | ShippableCacheHash
+030 00000000 SECTC  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 8148D3F3, selection    2 (pick any)
+032 00000000 SECTC  notype       External     | ??_C@_0CB@EMLBGIB@InvalidateShippableCacheCallback@ (`string')
+033 00000000 SECTD  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum CE774D8A, selection    2 (pick any)
+035 00000000 SECTD  notype       External     | ??_C@_0CB@ELPEIIPI@contrib?1postgres_fdw?1shippable?4c@ (`string')
+036 00000000 SECTE  notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 13794EB1, selection    2 (pick any)
+038 00000000 SECTE  notype       External     | ??_C@_0BF@KNICHEMF@hash?5table?5corrupted?$AA@ (`string')
+039 00000000 SECTF  notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum F757AE47, selection    2 (pick any)
+03B 00000000 SECTF  notype       External     | ??_C@_0BD@NCKAJINH@Shippability?5cache?$AA@ (`string')
+03C 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x2B6 bytes
+
+  Summary
+
+           8 .bss
+        4504 .debug$S
+          6C .debug$T
+          5D .drectve
+          24 .pdata
+          6A .rdata
+         232 .text$mn
+          24 .xdata

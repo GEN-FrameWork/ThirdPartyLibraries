@@ -1,0 +1,139 @@
+
+Dump of file Release\postgres/hashutil.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 686C, #relocs  144, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  9B3, #relocs   49, #linenums    0, checksum E3B803D2
+00A 00000000 UNDEF  notype ()    External     | fls
+00B 00000000 UNDEF  notype ()    External     | errstart
+00C 00000000 UNDEF  notype ()    External     | errfinish
+00D 00000000 UNDEF  notype ()    External     | errcode
+00E 00000000 UNDEF  notype ()    External     | errmsg
+00F 00000000 UNDEF  notype ()    External     | errhint
+010 00000000 UNDEF  notype ()    External     | elog_start
+011 00000000 UNDEF  notype ()    External     | elog_finish
+012 00000000 UNDEF  notype ()    External     | FunctionCall1Coll
+013 00000000 UNDEF  notype ()    External     | OidFunctionCall1Coll
+014 00000000 UNDEF  notype ()    External     | ItemPointerEquals
+015 00000000 UNDEF  notype ()    External     | index_getprocinfo
+016 00000000 UNDEF  notype ()    External     | BufferGetBlockNumber
+017 00000000 UNDEF  notype ()    External     | MarkBufferDirtyHint
+018 00000000 SECT4  notype ()    External     | hashoptions
+019 00000000 UNDEF  notype ()    External     | _hash_getbuf
+01A 00000000 UNDEF  notype ()    External     | _hash_relbuf
+01B 00000020 SECT4  notype ()    External     | _hash_checkqual
+01C 00000030 SECT4  notype ()    External     | _hash_datum2hashkey
+01D 00000080 SECT4  notype ()    External     | _hash_datum2hashkey_type
+01E 00000120 SECT4  notype ()    External     | _hash_hashkey2bucket
+01F 00000140 SECT4  notype ()    External     | _hash_log2
+020 00000160 SECT4  notype ()    External     | _hash_spareindex
+021 000001A0 SECT4  notype ()    External     | _hash_get_totalbuckets
+022 000001E0 SECT4  notype ()    External     | _hash_checkpage
+023 00000480 SECT4  notype ()    External     | _hash_get_indextuple_hashkey
+024 000004B0 SECT4  notype ()    External     | _hash_convert_tuple
+025 00000530 SECT4  notype ()    External     | _hash_binsearch
+026 000005E0 SECT4  notype ()    External     | _hash_binsearch_last
+027 00000680 SECT4  notype ()    External     | _hash_get_oldblock_from_newbucket
+028 00000760 SECT4  notype ()    External     | _hash_get_newblock_from_oldbucket
+029 00000840 SECT4  notype ()    External     | _hash_get_newbucket_from_oldbucket
+02A 00000860 SECT4  notype ()    External     | _hash_kill_items
+02B 00000000 UNDEF  notype ()    External     | default_reloptions
+02C 00000000 UNDEF  notype ()    External     | get_opfamily_proc
+02D 00000030 SECT4  notype       Label        | $LN4
+02E 00000080 SECT4  notype       Label        | $LN9
+02F 000001E0 SECT4  notype       Label        | $LN38
+030 000004B0 SECT4  notype       Label        | $LN7
+031 00000530 SECT4  notype       Label        | $LN16
+032 000005E0 SECT4  notype       Label        | $LN16
+033 00000680 SECT4  notype       Label        | $LN21
+034 00000760 SECT4  notype       Label        | $LN24
+035 00000860 SECT4  notype       Label        | $LN24
+036 00000000 SECT5  notype       Static       | .xdata
+    Section length  134, #relocs   18, #linenums    0, checksum 63B4A97B
+038 00000000 SECT5  notype       Static       | $unwind$_hash_datum2hashkey
+039 00000000 SECT6  notype       Static       | .pdata
+    Section length   CC, #relocs   33, #linenums    0, checksum 9B4B19D1
+03B 00000000 SECT6  notype       Static       | $pdata$_hash_datum2hashkey
+03C 0000000C SECT5  notype       Static       | $unwind$_hash_datum2hashkey_type
+03D 0000000C SECT6  notype       Static       | $pdata$_hash_datum2hashkey_type
+03E 00000020 SECT5  notype       Static       | $unwind$_hash_checkpage
+03F 00000018 SECT6  notype       Static       | $pdata$_hash_checkpage
+040 0000002C SECT5  notype       Static       | $chain$3$_hash_checkpage
+041 00000024 SECT6  notype       Static       | $pdata$3$_hash_checkpage
+042 0000004C SECT5  notype       Static       | $chain$4$_hash_checkpage
+043 00000030 SECT6  notype       Static       | $pdata$4$_hash_checkpage
+044 00000064 SECT5  notype       Static       | $unwind$_hash_convert_tuple
+045 0000003C SECT6  notype       Static       | $pdata$_hash_convert_tuple
+046 00000074 SECT5  notype       Static       | $unwind$_hash_binsearch
+047 00000048 SECT6  notype       Static       | $pdata$_hash_binsearch
+048 0000007C SECT5  notype       Static       | $chain$0$_hash_binsearch
+049 00000054 SECT6  notype       Static       | $pdata$0$_hash_binsearch
+04A 00000090 SECT5  notype       Static       | $chain$1$_hash_binsearch
+04B 00000060 SECT6  notype       Static       | $pdata$1$_hash_binsearch
+04C 000000A0 SECT5  notype       Static       | $unwind$_hash_binsearch_last
+04D 0000006C SECT6  notype       Static       | $pdata$_hash_binsearch_last
+04E 000000A8 SECT5  notype       Static       | $chain$0$_hash_binsearch_last
+04F 00000078 SECT6  notype       Static       | $pdata$0$_hash_binsearch_last
+050 000000BC SECT5  notype       Static       | $chain$1$_hash_binsearch_last
+051 00000084 SECT6  notype       Static       | $pdata$1$_hash_binsearch_last
+052 000000CC SECT5  notype       Static       | $unwind$_hash_get_oldblock_from_newbucket
+053 00000090 SECT6  notype       Static       | $pdata$_hash_get_oldblock_from_newbucket
+054 000000E0 SECT5  notype       Static       | $unwind$_hash_get_newblock_from_oldbucket
+055 0000009C SECT6  notype       Static       | $pdata$_hash_get_newblock_from_oldbucket
+056 000000F4 SECT5  notype       Static       | $unwind$_hash_kill_items
+057 000000A8 SECT6  notype       Static       | $pdata$_hash_kill_items
+058 00000108 SECT5  notype       Static       | $chain$3$_hash_kill_items
+059 000000B4 SECT6  notype       Static       | $pdata$3$_hash_kill_items
+05A 00000124 SECT5  notype       Static       | $chain$4$_hash_kill_items
+05B 000000C0 SECT6  notype       Static       | $pdata$4$_hash_kill_items
+05C 00000000 UNDEF  notype       External     | BufferBlocks
+05D 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+05E 00000000 SECT7  notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum B0941812, selection    2 (pick any)
+060 00000000 SECT7  notype       External     | ??_C@_0BJ@KGKEOJGC@_hash_datum2hashkey_type?$AA@ (`string')
+061 00000000 SECT8  notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 8A71ABE5, selection    2 (pick any)
+063 00000000 SECT8  notype       External     | ??_C@_0CD@HMHGADCN@src?1backend?1access?1hash?1hashutil@ (`string')
+064 00000000 SECT9  notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum 19C6E9A1, selection    2 (pick any)
+066 00000000 SECT9  notype       External     | ??_C@_0DC@PJLOGKEA@missing?5support?5function?5?$CFd?$CI?$CFu?0?$CF@ (`string')
+067 00000000 SECTA  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum AAA7C224, selection    2 (pick any)
+069 00000000 SECTA  notype       External     | ??_C@_0BA@LJODHGIO@_hash_checkpage?$AA@ (`string')
+06A 00000000 SECTB  notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 9EB21C37, selection    2 (pick any)
+06C 00000000 SECTB  notype       External     | ??_C@_0BD@LLEFCKKH@Please?5REINDEX?5it?4?$AA@ (`string')
+06D 00000000 SECTC  notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum B863953B, selection    2 (pick any)
+06F 00000000 SECTC  notype       External     | ??_C@_0DF@FODDBNMK@index?5?$CC?$CFs?$CC?5contains?5unexpected?5z@ (`string')
+070 00000000 SECTD  notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum 7D96AE77, selection    2 (pick any)
+072 00000000 SECTD  notype       External     | ??_C@_0CP@GHLAPKPN@index?5?$CC?$CFs?$CC?5contains?5corrupted?5pa@ (`string')
+073 00000000 SECTE  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 7363C46B, selection    2 (pick any)
+075 00000000 SECTE  notype       External     | ??_C@_0BP@OFJFJHCE@index?5?$CC?$CFs?$CC?5is?5not?5a?5hash?5index?$AA@ (`string')
+076 00000000 SECTF  notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 6207F798, selection    2 (pick any)
+078 00000000 SECTF  notype       External     | ??_C@_0CC@NMIJGEEN@index?5?$CC?$CFs?$CC?5has?5wrong?5hash?5versio@ (`string')
+
+String Table Size = 0x844 bytes
+
+  Summary
+
+        686C .debug$S
+          68 .debug$T
+          5D .drectve
+          CC .pdata
+         136 .rdata
+         9B3 .text$mn
+         134 .xdata

@@ -1,0 +1,242 @@
+
+Dump of file Release\postgres/tlist.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 85B0, #relocs  2DE, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 149C, #relocs   7F, #linenums    0, checksum A5965707
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  127, #relocs    6, #linenums    0, checksum FD7C71D8, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  374, #relocs   22, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | elog_start
+00F 00000000 UNDEF  notype ()    External     | elog_finish
+010 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+011 00000000 UNDEF  notype ()    External     | palloc
+012 00000000 UNDEF  notype ()    External     | palloc0
+013 00000000 UNDEF  notype ()    External     | repalloc
+014 00000000 UNDEF  notype ()    External     | copyObjectImpl
+015 00000000 UNDEF  notype ()    External     | equal
+016 00000000 UNDEF  notype ()    External     | lappend
+017 00000000 UNDEF  notype ()    External     | lappend_int
+018 00000000 UNDEF  notype ()    External     | lcons
+019 00000000 UNDEF  notype ()    External     | lcons_int
+01A 00000000 UNDEF  notype ()    External     | list_concat
+01B 00000000 UNDEF  notype ()    External     | list_nth_cell
+01C 00000000 UNDEF  notype ()    External     | list_member
+01D 00000000 UNDEF  notype ()    External     | list_copy
+01E 00000000 UNDEF  notype ()    External     | makeTargetEntry
+01F 00000000 UNDEF  notype ()    External     | exprType
+020 00000000 UNDEF  notype ()    External     | exprCollation
+021 00000000 UNDEF  notype ()    External     | expression_tree_walker
+022 00000000 UNDEF  notype ()    External     | set_pathtarget_cost_width
+023 00000000 SECT4  notype ()    External     | tlist_member
+024 00000070 SECT4  notype ()    External     | tlist_member_ignore_relabel
+025 00000110 SECT4  notype ()    External     | add_to_flat_tlist
+026 00000210 SECT4  notype ()    External     | get_tlist_exprs
+027 00000270 SECT4  notype ()    External     | count_nonjunk_tlist_entries
+028 000002B0 SECT4  notype ()    External     | tlist_same_exprs
+029 00000350 SECT4  notype ()    External     | tlist_same_datatypes
+02A 000003E0 SECT4  notype ()    External     | tlist_same_collations
+02B 00000470 SECT4  notype ()    External     | apply_tlist_labeling
+02C 000004E0 SECT4  notype ()    External     | get_sortgroupref_tle
+02D 00000550 SECT4  notype ()    External     | get_sortgroupclause_tle
+02E 000005C0 SECT4  notype ()    External     | get_sortgroupclause_expr
+02F 00000630 SECT4  notype ()    External     | get_sortgrouplist_exprs
+030 00000700 SECT4  notype ()    External     | get_sortgroupref_clause
+031 00000770 SECT4  notype ()    External     | get_sortgroupref_clause_noerr
+032 000007A0 SECT4  notype ()    External     | extract_grouping_ops
+033 00000800 SECT4  notype ()    External     | extract_grouping_cols
+034 000008E0 SECT4  notype ()    External     | grouping_is_sortable
+035 00000910 SECT4  notype ()    External     | grouping_is_hashable
+036 00000940 SECT4  notype ()    External     | make_pathtarget_from_tlist
+037 00000A00 SECT4  notype ()    External     | make_tlist_from_pathtarget
+038 00000A90 SECT4  notype ()    External     | copy_pathtarget
+039 00000B40 SECT4  notype ()    External     | create_empty_pathtarget
+03A 00000B80 SECT4  notype ()    External     | add_column_to_pathtarget
+03B 00000C10 SECT4  notype ()    External     | add_new_column_to_pathtarget
+03C 00000C80 SECT4  notype ()    External     | add_new_columns_to_pathtarget
+03D 00000D30 SECT4  notype ()    External     | apply_pathtarget_labeling_to_tlist
+03E 00000EF0 SECT4  notype ()    External     | split_pathtarget_at_srfs
+03F 000012C0 SECT4  notype ()    Static       | split_pathtarget_walker
+040 00000000 SECT5  notype ()    Static       | add_sp_item_to_pathtarget
+041 00000000 UNDEF  notype ()    External     | memcpy
+042 00000000 SECT4  notype       Label        | $LN17
+043 00000070 SECT4  notype       Label        | $LN31
+044 00000110 SECT4  notype       Label        | $LN39
+045 00000210 SECT4  notype       Label        | $LN19
+046 000002B0 SECT4  notype       Label        | $LN31
+047 00000350 SECT4  notype       Label        | $LN29
+048 000003E0 SECT4  notype       Label        | $LN29
+049 000004E0 SECT4  notype       Label        | $LN21
+04A 00000550 SECT4  notype       Label        | $LN24
+04B 000005C0 SECT4  notype       Label        | $LN27
+04C 00000630 SECT4  notype       Label        | $LN45
+04D 00000700 SECT4  notype       Label        | $LN21
+04E 000007A0 SECT4  notype       Label        | $LN21
+04F 00000800 SECT4  notype       Label        | $LN45
+050 00000940 SECT4  notype       Label        | $LN21
+051 00000A00 SECT4  notype       Label        | $LN18
+052 00000A90 SECT4  notype       Label        | $LN10
+053 00000B40 SECT4  notype       Label        | $LN4
+054 00000B80 SECT4  notype       Label        | $LN16
+055 00000C10 SECT4  notype       Label        | $LN18
+056 00000C80 SECT4  notype       Label        | $LN33
+057 00000D30 SECT4  notype       Label        | $LN66
+058 00000EF0 SECT4  notype       Label        | $LN112
+059 00000000 SECT7  notype       Static       | .xdata
+    Section length  368, #relocs   51, #linenums    0, checksum 77B02799
+05B 00000000 SECT7  notype       Static       | $unwind$tlist_member
+05C 00000000 SECT8  notype       Static       | .pdata
+    Section length  264, #relocs   99, #linenums    0, checksum A76EB21E
+05E 00000000 SECT8  notype       Static       | $pdata$tlist_member
+05F 00000010 SECT7  notype       Static       | $unwind$tlist_member_ignore_relabel
+060 0000000C SECT8  notype       Static       | $pdata$tlist_member_ignore_relabel
+061 00000020 SECT7  notype       Static       | $unwind$add_to_flat_tlist
+062 00000018 SECT8  notype       Static       | $pdata$add_to_flat_tlist
+063 0000002C SECT7  notype       Static       | $chain$2$add_to_flat_tlist
+064 00000024 SECT8  notype       Static       | $pdata$2$add_to_flat_tlist
+065 00000048 SECT7  notype       Static       | $chain$4$add_to_flat_tlist
+066 00000030 SECT8  notype       Static       | $pdata$4$add_to_flat_tlist
+067 0000005C SECT7  notype       Static       | $chain$5$add_to_flat_tlist
+068 0000003C SECT8  notype       Static       | $pdata$5$add_to_flat_tlist
+069 0000006C SECT7  notype       Static       | $unwind$get_tlist_exprs
+06A 00000048 SECT8  notype       Static       | $pdata$get_tlist_exprs
+06B 00000074 SECT7  notype       Static       | $chain$0$get_tlist_exprs
+06C 00000054 SECT8  notype       Static       | $pdata$0$get_tlist_exprs
+06D 00000088 SECT7  notype       Static       | $chain$1$get_tlist_exprs
+06E 00000060 SECT8  notype       Static       | $pdata$1$get_tlist_exprs
+06F 00000098 SECT7  notype       Static       | $unwind$tlist_same_exprs
+070 0000006C SECT8  notype       Static       | $pdata$tlist_same_exprs
+071 000000A0 SECT7  notype       Static       | $chain$0$tlist_same_exprs
+072 00000078 SECT8  notype       Static       | $pdata$0$tlist_same_exprs
+073 000000B4 SECT7  notype       Static       | $chain$2$tlist_same_exprs
+074 00000084 SECT8  notype       Static       | $pdata$2$tlist_same_exprs
+075 000000C8 SECT7  notype       Static       | $unwind$tlist_same_datatypes
+076 00000090 SECT8  notype       Static       | $pdata$tlist_same_datatypes
+077 000000D8 SECT7  notype       Static       | $unwind$tlist_same_collations
+078 0000009C SECT8  notype       Static       | $pdata$tlist_same_collations
+079 000000E8 SECT7  notype       Static       | $unwind$get_sortgroupref_tle
+07A 000000A8 SECT8  notype       Static       | $pdata$get_sortgroupref_tle
+07B 000000F0 SECT7  notype       Static       | $unwind$get_sortgroupclause_tle
+07C 000000B4 SECT8  notype       Static       | $pdata$get_sortgroupclause_tle
+07D 000000F8 SECT7  notype       Static       | $unwind$get_sortgroupclause_expr
+07E 000000C0 SECT8  notype       Static       | $pdata$get_sortgroupclause_expr
+07F 00000100 SECT7  notype       Static       | $unwind$get_sortgrouplist_exprs
+080 000000CC SECT8  notype       Static       | $pdata$get_sortgrouplist_exprs
+081 0000010C SECT7  notype       Static       | $chain$0$get_sortgrouplist_exprs
+082 000000D8 SECT8  notype       Static       | $pdata$0$get_sortgrouplist_exprs
+083 00000120 SECT7  notype       Static       | $chain$2$get_sortgrouplist_exprs
+084 000000E4 SECT8  notype       Static       | $pdata$2$get_sortgrouplist_exprs
+085 00000134 SECT7  notype       Static       | $chain$3$get_sortgrouplist_exprs
+086 000000F0 SECT8  notype       Static       | $pdata$3$get_sortgrouplist_exprs
+087 00000144 SECT7  notype       Static       | $unwind$get_sortgroupref_clause
+088 000000FC SECT8  notype       Static       | $pdata$get_sortgroupref_clause
+089 0000014C SECT7  notype       Static       | $unwind$extract_grouping_ops
+08A 00000108 SECT8  notype       Static       | $pdata$extract_grouping_ops
+08B 00000154 SECT7  notype       Static       | $unwind$extract_grouping_cols
+08C 00000114 SECT8  notype       Static       | $pdata$extract_grouping_cols
+08D 00000164 SECT7  notype       Static       | $chain$0$extract_grouping_cols
+08E 00000120 SECT8  notype       Static       | $pdata$0$extract_grouping_cols
+08F 00000178 SECT7  notype       Static       | $chain$1$extract_grouping_cols
+090 0000012C SECT8  notype       Static       | $pdata$1$extract_grouping_cols
+091 00000188 SECT7  notype       Static       | $unwind$make_pathtarget_from_tlist
+092 00000138 SECT8  notype       Static       | $pdata$make_pathtarget_from_tlist
+093 00000198 SECT7  notype       Static       | $chain$0$make_pathtarget_from_tlist
+094 00000144 SECT8  notype       Static       | $pdata$0$make_pathtarget_from_tlist
+095 000001AC SECT7  notype       Static       | $chain$1$make_pathtarget_from_tlist
+096 00000150 SECT8  notype       Static       | $pdata$1$make_pathtarget_from_tlist
+097 000001BC SECT7  notype       Static       | $unwind$make_tlist_from_pathtarget
+098 0000015C SECT8  notype       Static       | $pdata$make_tlist_from_pathtarget
+099 000001D0 SECT7  notype       Static       | $unwind$copy_pathtarget
+09A 00000168 SECT8  notype       Static       | $pdata$copy_pathtarget
+09B 000001DC SECT7  notype       Static       | $chain$0$copy_pathtarget
+09C 00000174 SECT8  notype       Static       | $pdata$0$copy_pathtarget
+09D 000001F0 SECT7  notype       Static       | $chain$1$copy_pathtarget
+09E 00000180 SECT8  notype       Static       | $pdata$1$copy_pathtarget
+09F 00000200 SECT7  notype       Static       | $unwind$create_empty_pathtarget
+0A0 0000018C SECT8  notype       Static       | $pdata$create_empty_pathtarget
+0A1 00000208 SECT7  notype       Static       | $unwind$add_column_to_pathtarget
+0A2 00000198 SECT8  notype       Static       | $pdata$add_column_to_pathtarget
+0A3 00000218 SECT7  notype       Static       | $unwind$add_new_column_to_pathtarget
+0A4 000001A4 SECT8  notype       Static       | $pdata$add_new_column_to_pathtarget
+0A5 00000224 SECT7  notype       Static       | $unwind$add_new_columns_to_pathtarget
+0A6 000001B0 SECT8  notype       Static       | $pdata$add_new_columns_to_pathtarget
+0A7 0000022C SECT7  notype       Static       | $chain$0$add_new_columns_to_pathtarget
+0A8 000001BC SECT8  notype       Static       | $pdata$0$add_new_columns_to_pathtarget
+0A9 00000240 SECT7  notype       Static       | $chain$2$add_new_columns_to_pathtarget
+0AA 000001C8 SECT8  notype       Static       | $pdata$2$add_new_columns_to_pathtarget
+0AB 00000258 SECT7  notype       Static       | $chain$3$add_new_columns_to_pathtarget
+0AC 000001D4 SECT8  notype       Static       | $pdata$3$add_new_columns_to_pathtarget
+0AD 00000268 SECT7  notype       Static       | $chain$4$add_new_columns_to_pathtarget
+0AE 000001E0 SECT8  notype       Static       | $pdata$4$add_new_columns_to_pathtarget
+0AF 00000278 SECT7  notype       Static       | $unwind$apply_pathtarget_labeling_to_tlist
+0B0 000001EC SECT8  notype       Static       | $pdata$apply_pathtarget_labeling_to_tlist
+0B1 00000284 SECT7  notype       Static       | $chain$0$apply_pathtarget_labeling_to_tlist
+0B2 000001F8 SECT8  notype       Static       | $pdata$0$apply_pathtarget_labeling_to_tlist
+0B3 00000298 SECT7  notype       Static       | $chain$4$apply_pathtarget_labeling_to_tlist
+0B4 00000204 SECT8  notype       Static       | $pdata$4$apply_pathtarget_labeling_to_tlist
+0B5 000002B8 SECT7  notype       Static       | $chain$5$apply_pathtarget_labeling_to_tlist
+0B6 00000210 SECT8  notype       Static       | $pdata$5$apply_pathtarget_labeling_to_tlist
+0B7 000002C8 SECT7  notype       Static       | $chain$6$apply_pathtarget_labeling_to_tlist
+0B8 0000021C SECT8  notype       Static       | $pdata$6$apply_pathtarget_labeling_to_tlist
+0B9 000002D8 SECT7  notype       Static       | $chain$7$apply_pathtarget_labeling_to_tlist
+0BA 00000228 SECT8  notype       Static       | $pdata$7$apply_pathtarget_labeling_to_tlist
+0BB 000002FC SECT7  notype       Static       | $unwind$split_pathtarget_at_srfs
+0BC 00000234 SECT8  notype       Static       | $pdata$split_pathtarget_at_srfs
+0BD 00000320 SECT7  notype       Static       | $unwind$split_pathtarget_walker
+0BE 00000240 SECT8  notype       Static       | $pdata$split_pathtarget_walker
+0BF 0000032C SECT7  notype       Static       | $chain$5$split_pathtarget_walker
+0C0 0000024C SECT8  notype       Static       | $pdata$5$split_pathtarget_walker
+0C1 00000354 SECT7  notype       Static       | $chain$7$split_pathtarget_walker
+0C2 00000258 SECT8  notype       Static       | $pdata$7$split_pathtarget_walker
+0C3 00000000 SECT9  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 4D92FE4F, selection    5 (pick associative Section 0x5)
+0C5 00000000 SECT9  notype       Static       | $unwind$add_sp_item_to_pathtarget
+0C6 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 55C460FB, selection    5 (pick associative Section 0x5)
+0C8 00000000 SECTA  notype       Static       | $pdata$add_sp_item_to_pathtarget
+0C9 00000000 UNDEF  notype       External     | CurrentMemoryContext
+0CA 00000000 UNDEF  notype       External     | newNodeMacroHolder
+0CB 00000000 SECTB  notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 563A359B, selection    2 (pick any)
+0CD 00000000 SECTB  notype       External     | ??_C@_0BF@OIMBAPOP@get_sortgroupref_tle?$AA@ (`string')
+0CE 00000000 SECTC  notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 95805FED, selection    2 (pick any)
+0D0 00000000 SECTC  notype       External     | ??_C@_0CD@GDIHPHCF@src?1backend?1optimizer?1util?1tlist@ (`string')
+0D1 00000000 SECTD  notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum 6EB97E11, selection    2 (pick any)
+0D3 00000000 SECTD  notype       External     | ??_C@_0DC@IOMBPNPA@ORDER?1GROUP?5BY?5expression?5not?5fo@ (`string')
+0D4 00000000 SECTE  notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum D05E5186, selection    2 (pick any)
+0D6 00000000 SECTE  notype       External     | ??_C@_0BI@IMGAGEFJ@get_sortgroupref_clause?$AA@ (`string')
+0D7 00000000 SECTF  notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum DF454FF9, selection    2 (pick any)
+0D9 00000000 SECTF  notype       External     | ??_C@_0CM@KDJONGBK@ORDER?1GROUP?5BY?5expression?5not?5fo@ (`string')
+0DA 00000000 SECT10 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 7E46605A, selection    2 (pick any)
+0DC 00000000 SECT10 notype       External     | ??_C@_0CD@IIEBMIJC@apply_pathtarget_labeling_to_tli@ (`string')
+0DD 00000000 SECT11 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum B3944389, selection    2 (pick any)
+0DF 00000000 SECT11 notype       External     | ??_C@_0DB@BOPOLMID@targetlist?5item?5has?5multiple?5sor@ (`string')
+
+String Table Size = 0x125D bytes
+
+  Summary
+
+        8924 .debug$S
+          68 .debug$T
+          5D .drectve
+         270 .pdata
+         102 .rdata
+        15C3 .text$mn
+         380 .xdata

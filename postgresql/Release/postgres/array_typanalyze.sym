@@ -1,0 +1,129 @@
+
+Dump of file Release\postgres/array_typanalyze.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5958, #relocs  122, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  A8A, #relocs   47, #linenums    0, checksum 332E8A22
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   B1, #relocs    B, #linenums    0, checksum 7A81A69B, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  248, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | pg_qsort
+00F 00000000 UNDEF  notype ()    External     | elog_start
+010 00000000 UNDEF  notype ()    External     | elog_finish
+011 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+012 00000000 UNDEF  notype ()    External     | palloc
+013 00000000 UNDEF  notype ()    External     | pfree
+014 00000000 UNDEF  notype ()    External     | toast_raw_datum_size
+015 00000000 UNDEF  notype ()    External     | hash_create
+016 00000000 UNDEF  notype ()    External     | hash_search
+017 00000000 UNDEF  notype ()    External     | hash_get_num_entries
+018 00000000 UNDEF  notype ()    External     | hash_seq_init
+019 00000000 UNDEF  notype ()    External     | hash_seq_search
+01A 00000000 UNDEF  notype ()    External     | vacuum_delay_point
+01B 00000000 UNDEF  notype ()    External     | std_typanalyze
+01C 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+01D 00000000 UNDEF  notype ()    External     | FunctionCall1Coll
+01E 00000000 UNDEF  notype ()    External     | FunctionCall2Coll
+01F 00000000 UNDEF  notype ()    External     | deconstruct_array
+020 00000000 SECT4  notype ()    External     | array_typanalyze
+021 00000000 UNDEF  notype ()    External     | datumCopy
+022 00000000 UNDEF  notype ()    External     | get_base_element_type
+023 00000000 UNDEF  notype ()    External     | lookup_type_cache
+024 00000100 SECT4  notype ()    Static       | compute_array_stats
+025 00000000 SECT5  notype ()    Static       | prune_element_hashtable
+026 000009D0 SECT4  notype ()    Static       | element_hash
+027 000009F0 SECT4  notype ()    Static       | element_match
+028 00000A20 SECT4  notype ()    Static       | trackitem_compare_frequencies_desc
+029 00000A40 SECT4  notype ()    Static       | trackitem_compare_element
+02A 00000A70 SECT4  notype ()    Static       | countitem_compare_count
+02B 00000000 UNDEF  notype ()    External     | memset
+02C 00000000 SECT4  notype       Label        | $LN13
+02D 00000000 SECT7  notype       Static       | .xdata
+    Section length   4C, #relocs    6, #linenums    0, checksum F78D5C6A
+02F 00000000 SECT7  notype       Static       | $unwind$array_typanalyze
+030 00000000 SECT8  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum 80FDA32D
+032 00000000 SECT8  notype       Static       | $pdata$array_typanalyze
+033 0000000C SECT7  notype       Static       | $unwind$compute_array_stats
+034 0000000C SECT8  notype       Static       | $pdata$compute_array_stats
+035 00000028 SECT7  notype       Static       | $chain$0$compute_array_stats
+036 00000018 SECT8  notype       Static       | $pdata$0$compute_array_stats
+037 0000003C SECT7  notype       Static       | $chain$1$compute_array_stats
+038 00000024 SECT8  notype       Static       | $pdata$1$compute_array_stats
+039 00000000 SECT9  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum CA88BA8C, selection    5 (pick associative Section 0x5)
+03B 00000000 SECT9  notype       Static       | $unwind$prune_element_hashtable
+03C 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A41C7E00, selection    5 (pick associative Section 0x5)
+03E 00000000 SECTA  notype       Static       | $pdata$prune_element_hashtable
+03F 00000000 SECTB  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum  E6C304B, selection    5 (pick associative Section 0x5)
+041 00000000 SECTB  notype       Static       | $chain$0$prune_element_hashtable
+042 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  58191FD, selection    5 (pick associative Section 0x5)
+044 00000000 SECTC  notype       Static       | $pdata$0$prune_element_hashtable
+045 00000000 SECTD  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 1D4B94EC, selection    5 (pick associative Section 0x5)
+047 00000000 SECTD  notype       Static       | $chain$1$prune_element_hashtable
+048 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8D97C7C1, selection    5 (pick associative Section 0x5)
+04A 00000000 SECTE  notype       Static       | $pdata$1$prune_element_hashtable
+04B 00000000 UNDEF  notype       External     | CurrentMemoryContext
+04C 00000000 SECTF  notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+04E 00000000 SECTF  notype       Static       | array_extra_data
+04F 00000000 SECT10 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum DB7EBCEE, selection    2 (pick any)
+051 00000000 SECT10 notype       External     | ??_C@_0BB@ONGOLCKM@array_typanalyze?$AA@ (`string')
+052 00000000 SECT11 notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum 5BEF12D7, selection    2 (pick any)
+054 00000000 SECT11 notype       External     | ??_C@_0CJ@MKJNGNIC@src?1backend?1utils?1adt?1array_typa@ (`string')
+055 00000000 SECT12 notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum 7DA99FDD, selection    2 (pick any)
+057 00000000 SECT12 notype       External     | ??_C@_0DD@KKEEDFLA@array_typanalyze?5was?5invoked?5for@ (`string')
+058 00000000 SECT13 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 4A81F48F, selection    2 (pick any)
+05A 00000000 SECT13 notype       External     | ??_C@_0BI@BGLPMBFA@Analyzed?5elements?5table?$AA@ (`string')
+05B 00000000 SECT14 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum E41CBE19, selection    2 (pick any)
+05D 00000000 SECT14 notype       External     | ??_C@_0CD@BCBLBGNB@Array?5distinct?5element?5count?5tab@ (`string')
+05E 00000000 SECT15 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 48FAF160, selection    2 (pick any)
+060 00000000 SECT15 notype       External     | ??_C@_0BE@LINAJFBC@compute_array_stats?$AA@ (`string')
+061 00000000 SECT16 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum 54180213, selection    2 (pick any)
+063 00000000 SECT16 notype       External     | ??_C@_0DA@FJGPEOHJ@insufficient?5pg_statistic?5slots?5@ (`string')
+064 00000000 SECT17 notype       Static       | .rdata
+    Section length   78, #relocs    0, #linenums    0, checksum C191E113, selection    2 (pick any)
+066 00000000 SECT17 notype       External     | ??_C@_0HI@HDDGEML@compute_array_stats?3?5target?5?$CD?5mc@ (`string')
+067 00000000 SECT18 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 821AA1CE, selection    2 (pick any)
+069 00000000 SECT18 notype       External     | ??_C@_0BI@NOCEJEBB@prune_element_hashtable?$AA@ (`string')
+06A 00000000 SECT19 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 13794EB1, selection    2 (pick any)
+06C 00000000 SECT19 notype       External     | ??_C@_0BF@KNICHEMF@hash?5table?5corrupted?$AA@ (`string')
+06D 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x59E bytes
+
+  Summary
+
+           8 .bss
+        5BA0 .debug$S
+          68 .debug$T
+          5D .drectve
+          54 .pdata
+         191 .rdata
+         B3B .text$mn
+          7C .xdata

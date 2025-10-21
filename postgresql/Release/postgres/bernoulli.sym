@@ -1,0 +1,98 @@
+
+Dump of file Release\postgres/bernoulli.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5244, #relocs   6A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  34F, #relocs   20, #linenums    0, checksum 25AF41A5
+00A 00000000 UNDEF  notype       External     | __imp__dclass
+00B 00000000 UNDEF  notype       External     | __imp__fdclass
+00C 00000000 UNDEF  notype       External     | __imp_rint
+00D 00000000 UNDEF  notype ()    External     | errstart
+00E 00000000 UNDEF  notype ()    External     | errfinish
+00F 00000000 UNDEF  notype ()    External     | errcode
+010 00000000 UNDEF  notype ()    External     | errmsg
+011 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+012 00000000 UNDEF  notype ()    External     | palloc0
+013 00000000 UNDEF  notype ()    External     | lcons_oid
+014 00000000 UNDEF  notype ()    External     | hash_any
+015 00000000 UNDEF  notype ()    External     | estimate_expression_value
+016 00000000 UNDEF  notype ()    External     | clamp_row_est
+017 00000000 SECT4  notype ()    External     | tsm_bernoulli_handler
+018 00000090 SECT4  notype ()    Static       | bernoulli_samplescangetsamplesize
+019 00000150 SECT4  notype ()    Static       | bernoulli_initsamplescan
+01A 00000180 SECT4  notype ()    Static       | bernoulli_beginsamplescan
+01B 000002B0 SECT4  notype ()    Static       | bernoulli_nextsampletuple
+01C 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+01D 00000000 UNDEF  notype ()    External     | __security_check_cookie
+01E 00000000 SECT4  notype       Label        | $LN4
+01F 00000000 SECT5  notype       Static       | .xdata
+    Section length   74, #relocs    7, #linenums    0, checksum C6A641A6
+021 00000000 SECT5  notype       Static       | $unwind$tsm_bernoulli_handler
+022 00000000 SECT6  notype       Static       | .pdata
+    Section length   54, #relocs   15, #linenums    0, checksum 6D176288
+024 00000000 SECT6  notype       Static       | $pdata$tsm_bernoulli_handler
+025 00000008 SECT5  notype       Static       | $unwind$bernoulli_samplescangetsamplesize
+026 0000000C SECT6  notype       Static       | $pdata$bernoulli_samplescangetsamplesize
+027 0000001C SECT5  notype       Static       | $unwind$bernoulli_initsamplescan
+028 00000018 SECT6  notype       Static       | $pdata$bernoulli_initsamplescan
+029 00000024 SECT5  notype       Static       | $unwind$bernoulli_beginsamplescan
+02A 00000024 SECT6  notype       Static       | $pdata$bernoulli_beginsamplescan
+02B 00000038 SECT5  notype       Static       | $chain$0$bernoulli_beginsamplescan
+02C 00000030 SECT6  notype       Static       | $pdata$0$bernoulli_beginsamplescan
+02D 0000004C SECT5  notype       Static       | $chain$1$bernoulli_beginsamplescan
+02E 0000003C SECT6  notype       Static       | $pdata$1$bernoulli_beginsamplescan
+02F 0000005C SECT5  notype       Static       | $unwind$bernoulli_nextsampletuple
+030 00000048 SECT6  notype       Static       | $pdata$bernoulli_nextsampletuple
+031 00000000 UNDEF  notype       External     | CurrentMemoryContext
+032 00000000 UNDEF  notype       External     | newNodeMacroHolder
+033 00000000 SECT7  notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 47882462, selection    2 (pick any)
+035 00000000 SECT7  notype       External     | ??_C@_0BK@BHJLGFKP@bernoulli_beginsamplescan?$AA@ (`string')
+036 00000000 SECT8  notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum FFF958FC, selection    2 (pick any)
+038 00000000 SECT8  notype       External     | ??_C@_0CL@PIIPAMDC@src?1backend?1access?1tablesample?1b@ (`string')
+039 00000000 SECT9  notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum 8C1E63D0, selection    2 (pick any)
+03B 00000000 SECT9  notype       External     | ??_C@_0CM@PAMFPKDD@sample?5percentage?5must?5be?5betwee@ (`string')
+03C 00000000 SECTA  notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum 23B58DAC, selection    2 (pick any)
+03E 00000000 SECTA  notype       External     | __real@3dcccccd
+03F 00000000 SECTB  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 7858CC2A, selection    2 (pick any)
+041 00000000 SECTB  notype       External     | __real@4039000000000000
+042 00000000 SECTC  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 1DA5A78D, selection    2 (pick any)
+044 00000000 SECTC  notype       External     | __real@4059000000000000
+045 00000000 SECTD  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 156790BB, selection    2 (pick any)
+047 00000000 SECTD  notype       External     | __real@41f0000000000000
+048 00000000 SECTE  notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum 9BF17DFA, selection    2 (pick any)
+04A 00000000 SECTE  notype       External     | __real@42c80000
+04B 00000000 SECTF  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum B1ABE3C6, selection    2 (pick any)
+04D 00000000 SECTF  notype       External     | __real@43e0000000000000
+04E 00000000 UNDEF  notype       External     | __security_cookie
+04F 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x473 bytes
+
+  Summary
+
+        5244 .debug$S
+          68 .debug$T
+          5D .drectve
+          54 .pdata
+          99 .rdata
+         34F .text$mn
+          74 .xdata

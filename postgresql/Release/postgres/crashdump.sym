@@ -1,0 +1,82 @@
+
+Dump of file Release\postgres/crashdump.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4184, #relocs   4A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  210, #relocs   20, #linenums    0, checksum FFCB734C
+00A 00000000 UNDEF  notype       External     | __imp_CreateFileA
+00B 00000000 UNDEF  notype       External     | __imp_GetFileAttributesA
+00C 00000000 UNDEF  notype       External     | __imp_CloseHandle
+00D 00000000 UNDEF  notype       External     | __imp_SetUnhandledExceptionFilter
+00E 00000000 UNDEF  notype       External     | __imp_GetLastError
+00F 00000000 UNDEF  notype       External     | __imp_GetCurrentProcess
+010 00000000 UNDEF  notype       External     | __imp_GetCurrentThreadId
+011 00000000 UNDEF  notype       External     | __imp_GetProcessId
+012 00000000 UNDEF  notype       External     | __imp_GetTickCount
+013 00000000 UNDEF  notype       External     | __imp_GetProcAddress
+014 00000000 UNDEF  notype       External     | __imp_LoadLibraryA
+015 00000000 SECT4  notype ()    External     | pgwin32_install_crashdump_handler
+016 00000000 UNDEF  notype ()    External     | pg_snprintf
+017 00000000 UNDEF  notype ()    External     | write_stderr
+018 00000020 SECT4  notype ()    Static       | crashDumpHandler
+019 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+01A 00000000 UNDEF  notype ()    External     | __security_check_cookie
+01B 00000000 SECT5  notype       Static       | .xdata
+    Section length   24, #relocs    1, #linenums    0, checksum 6E2C135C
+01D 00000000 SECT5  notype       Static       | $unwind$crashDumpHandler
+01E 00000000 SECT6  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 591C1FFE
+020 00000000 SECT6  notype       Static       | $pdata$crashDumpHandler
+021 00000000 SECT7  notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum D1ECEBC2, selection    2 (pick any)
+023 00000000 SECT7  notype       External     | ??_C@_0L@EFJEKFNB@crashdumps?$AA@ (`string')
+024 00000000 SECT8  notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 6A63266A, selection    2 (pick any)
+026 00000000 SECT8  notype       External     | ??_C@_0M@OOEJBPPK@dbghelp?4dll?$AA@ (`string')
+027 00000000 SECT9  notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum EBAE049C, selection    2 (pick any)
+029 00000000 SECT9  notype       External     | ??_C@_0DF@NPOIMGN@could?5not?5load?5dbghelp?4dll?0?5cann@ (`string')
+02A 00000000 SECTA  notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 556EE511, selection    2 (pick any)
+02C 00000000 SECTA  notype       External     | ??_C@_0BC@MNIKNFKD@MiniDumpWriteDump?$AA@ (`string')
+02D 00000000 SECTB  notype       Static       | .rdata
+    Section length   4B, #relocs    0, #linenums    0, checksum 977C2F84, selection    2 (pick any)
+02F 00000000 SECTB  notype       External     | ??_C@_0EL@IKKBCHFH@could?5not?5load?5required?5function@ (`string')
+030 00000000 SECTC  notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum B80EAB2F, selection    2 (pick any)
+032 00000000 SECTC  notype       External     | ??_C@_0M@DMCEJCLP@EnumDirTree?$AA@ (`string')
+033 00000000 SECTD  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum D439D1ED, selection    2 (pick any)
+035 00000000 SECTD  notype       External     | ??_C@_0CE@EBHAJMMH@crashdumps?2postgres?9pid?$CF0i?9?$CF0i?4m@ (`string')
+036 00000000 SECTE  notype       Static       | .rdata
+    Section length   41, #relocs    0, #linenums    0, checksum 585FEFA8, selection    2 (pick any)
+038 00000000 SECTE  notype       External     | ??_C@_0EB@LKGNOHCA@could?5not?5open?5crash?5dump?5file?5?$CC@ (`string')
+039 00000000 SECTF  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 916D0D9A, selection    2 (pick any)
+03B 00000000 SECTF  notype       External     | ??_C@_0BP@HJLFONF@wrote?5crash?5dump?5to?5file?5?$CC?$CFs?$CC?6?$AA@ (`string')
+03C 00000000 SECT10 notype       Static       | .rdata
+    Section length   39, #relocs    0, #linenums    0, checksum 2AE0F5E2, selection    2 (pick any)
+03E 00000000 SECT10 notype       External     | ??_C@_0DJ@IMONEAB@could?5not?5write?5crash?5dump?5to?5fi@ (`string')
+03F 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x3AF bytes
+
+  Summary
+
+        4184 .debug$S
+          68 .debug$T
+          5D .drectve
+           C .pdata
+         172 .rdata
+         210 .text$mn
+          24 .xdata

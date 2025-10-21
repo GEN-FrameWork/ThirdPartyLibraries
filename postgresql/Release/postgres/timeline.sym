@@ -1,0 +1,229 @@
+
+Dump of file Release\postgres/timeline.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5D14, #relocs  116, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 1129, #relocs  11B, #linenums    0, checksum D1064AD4
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length    8, #relocs    1, #linenums    0, checksum 411950D3, selection    2 (pick any)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length   C8, #relocs    6, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   4F, #relocs    2, #linenums    0, checksum 922E19BB, selection    2 (pick any)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  18C, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT5  notype ()    External     | __local_stdio_scanf_options
+013 00000000 UNDEF  notype       External     | __imp_fgets
+014 00000000 UNDEF  notype       External     | __imp___stdio_common_vsscanf
+015 00000000 SECT7  notype ()    External     | sscanf
+016 00000000 UNDEF  notype       External     | __imp__errno
+017 00000000 UNDEF  notype       External     | __imp_isspace
+018 00000000 UNDEF  notype       External     | __imp_getpid
+019 00000000 UNDEF  notype ()    External     | pg_snprintf
+01A 00000000 UNDEF  notype ()    External     | pgunlink
+01B 00000000 UNDEF  notype       External     | __imp_read
+01C 00000000 UNDEF  notype       External     | __imp_write
+01D 00000000 UNDEF  notype ()    External     | errstart
+01E 00000000 UNDEF  notype ()    External     | errfinish
+01F 00000000 UNDEF  notype ()    External     | errcode_for_file_access
+020 00000000 UNDEF  notype ()    External     | errmsg
+021 00000000 UNDEF  notype ()    External     | errhint
+022 00000000 UNDEF  notype ()    External     | elog_start
+023 00000000 UNDEF  notype ()    External     | elog_finish
+024 00000000 UNDEF  notype ()    External     | palloc
+025 00000000 UNDEF  notype ()    External     | lcons
+026 00000000 SECT4  notype ()    External     | readTimeLineHistory
+027 00000440 SECT4  notype ()    External     | existsTimeLineHistory
+028 00000580 SECT4  notype ()    External     | findNewestTimeLine
+029 000006B0 SECT4  notype ()    External     | writeTimeLineHistory
+02A 00000C50 SECT4  notype ()    External     | writeTimeLineHistoryFile
+02B 00000F30 SECT4  notype ()    External     | restoreTimeLineHistoryFiles
+02C 00000FE0 SECT4  notype ()    External     | tliInHistory
+02D 00001010 SECT4  notype ()    External     | tliOfPointInHistory
+02E 000010A0 SECT4  notype ()    External     | tliSwitchPoint
+02F 00000000 UNDEF  notype ()    External     | AllocateFile
+030 00000000 UNDEF  notype ()    External     | FreeFile
+031 00000000 UNDEF  notype ()    External     | OpenTransientFile
+032 00000000 UNDEF  notype ()    External     | CloseTransientFile
+033 00000000 UNDEF  notype ()    External     | pg_fsync
+034 00000000 UNDEF  notype ()    External     | durable_link_or_rename
+035 00000000 UNDEF  notype ()    External     | RestoreArchivedFile
+036 00000000 UNDEF  notype ()    External     | KeepFileRestoredFromArchive
+037 00000000 UNDEF  notype ()    External     | XLogArchiveNotify
+038 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+039 00000000 UNDEF  notype ()    External     | __chkstk
+03A 00000000 UNDEF  notype ()    External     | __security_check_cookie
+03B 00000000 SECT7  notype       Label        | $LN6
+03C 00000000 SECT4  notype       Label        | $LN63
+03D 00000440 SECT4  notype       Label        | $LN15
+03E 00000580 SECT4  notype       Label        | $LN32
+03F 000006B0 SECT4  notype       Label        | $LN98
+040 00000C50 SECT4  notype       Label        | $LN45
+041 00000F30 SECT4  notype       Label        | $LN14
+042 00001010 SECT4  notype       Label        | $LN23
+043 000010A0 SECT4  notype       Label        | $LN24
+044 00000000 SECT9  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum A136B8D7, selection    5 (pick associative Section 0x7)
+046 00000000 SECT9  notype       Static       | $unwind$sscanf
+047 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F0BDD041, selection    5 (pick associative Section 0x7)
+049 00000000 SECTA  notype       Static       | $pdata$sscanf
+04A 00000000 SECTB  notype       Static       | .xdata
+    Section length  154, #relocs   21, #linenums    0, checksum 1381C3EF
+04C 00000000 SECTB  notype       Static       | $unwind$readTimeLineHistory
+04D 00000000 SECTC  notype       Static       | .pdata
+    Section length   CC, #relocs   33, #linenums    0, checksum 4C9941F3
+04F 00000000 SECTC  notype       Static       | $pdata$readTimeLineHistory
+050 00000018 SECTB  notype       Static       | $chain$1$readTimeLineHistory
+051 0000000C SECTC  notype       Static       | $pdata$1$readTimeLineHistory
+052 00000030 SECTB  notype       Static       | $chain$3$readTimeLineHistory
+053 00000018 SECTC  notype       Static       | $pdata$3$readTimeLineHistory
+054 00000048 SECTB  notype       Static       | $chain$4$readTimeLineHistory
+055 00000024 SECTC  notype       Static       | $pdata$4$readTimeLineHistory
+056 00000058 SECTB  notype       Static       | $chain$5$readTimeLineHistory
+057 00000030 SECTC  notype       Static       | $pdata$5$readTimeLineHistory
+058 00000068 SECTB  notype       Static       | $unwind$existsTimeLineHistory
+059 0000003C SECTC  notype       Static       | $pdata$existsTimeLineHistory
+05A 00000078 SECTB  notype       Static       | $chain$0$existsTimeLineHistory
+05B 00000048 SECTC  notype       Static       | $pdata$0$existsTimeLineHistory
+05C 0000008C SECTB  notype       Static       | $chain$1$existsTimeLineHistory
+05D 00000054 SECTC  notype       Static       | $pdata$1$existsTimeLineHistory
+05E 0000009C SECTB  notype       Static       | $unwind$findNewestTimeLine
+05F 00000060 SECTC  notype       Static       | $pdata$findNewestTimeLine
+060 000000B4 SECTB  notype       Static       | $unwind$writeTimeLineHistory
+061 0000006C SECTC  notype       Static       | $pdata$writeTimeLineHistory
+062 000000D4 SECTB  notype       Static       | $unwind$writeTimeLineHistoryFile
+063 00000078 SECTC  notype       Static       | $pdata$writeTimeLineHistoryFile
+064 000000EC SECTB  notype       Static       | $chain$2$writeTimeLineHistoryFile
+065 00000084 SECTC  notype       Static       | $pdata$2$writeTimeLineHistoryFile
+066 00000108 SECTB  notype       Static       | $chain$3$writeTimeLineHistoryFile
+067 00000090 SECTC  notype       Static       | $pdata$3$writeTimeLineHistoryFile
+068 0000011C SECTB  notype       Static       | $chain$4$writeTimeLineHistoryFile
+069 0000009C SECTC  notype       Static       | $pdata$4$writeTimeLineHistoryFile
+06A 0000012C SECTB  notype       Static       | $unwind$restoreTimeLineHistoryFiles
+06B 000000A8 SECTC  notype       Static       | $pdata$restoreTimeLineHistoryFiles
+06C 00000144 SECTB  notype       Static       | $unwind$tliOfPointInHistory
+06D 000000B4 SECTC  notype       Static       | $pdata$tliOfPointInHistory
+06E 0000014C SECTB  notype       Static       | $unwind$tliSwitchPoint
+06F 000000C0 SECTC  notype       Static       | $pdata$tliSwitchPoint
+070 00000008 UNDEF  notype       External     | ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@9 (`__local_stdio_scanf_options'::`2'::_OptionsStorage)
+071 00000000 UNDEF  notype       External     | XLogArchiveMode
+072 00000000 UNDEF  notype       External     | ArchiveRecoveryRequested
+073 00000000 UNDEF  notype       External     | MyProc
+074 00000000 UNDEF  notype       External     | pgstat_track_activities
+075 00000000 SECTD  notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 9E28E9BA, selection    2 (pick any)
+077 00000000 SECTD  notype       External     | ??_C@_0N@GOKDFAMH@?$CF08X?4history?$AA@ (`string')
+078 00000000 SECTE  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum ADBDFB54, selection    2 (pick any)
+07A 00000000 SECTE  notype       External     | ??_C@_0BA@LOPJEPPO@RECOVERYHISTORY?$AA@ (`string')
+07B 00000000 SECTF  notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 5D3DA5E2, selection    2 (pick any)
+07D 00000000 SECTF  notype       External     | ??_C@_0BE@KNBHMBJA@pg_wal?1?$CF08X?4history?$AA@ (`string')
+07E 00000000 SECT10 notype       Static       | .rdata
+    Section length    2, #relocs    0, #linenums    0, checksum 1D091B74, selection    2 (pick any)
+080 00000000 SECT10 notype       External     | ??_C@_01KDCPPGHE@r?$AA@ (`string')
+081 00000000 SECT11 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 30F4A62C, selection    2 (pick any)
+083 00000000 SECT11 notype       External     | ??_C@_0BE@MANOMCFO@readTimeLineHistory?$AA@ (`string')
+084 00000000 SECT12 notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum F0FF9C35, selection    2 (pick any)
+086 00000000 SECT12 notype       External     | ??_C@_0CG@JHPJPIHJ@src?1backend?1access?1transam?1timel@ (`string')
+087 00000000 SECT13 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 10036230, selection    2 (pick any)
+089 00000000 SECT13 notype       External     | ??_C@_0BN@OEKIFIOJ@could?5not?5open?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+08A 00000000 SECT14 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 52F9E17B, selection    2 (pick any)
+08C 00000000 SECT14 notype       External     | ??_C@_08ELAPAKCK@?$CFu?7?$CFX?1?$CFX?$AA@ (`string')
+08D 00000000 SECT15 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 92FEB346, selection    2 (pick any)
+08F 00000000 SECT15 notype       External     | ??_C@_0CA@HEALBJBE@Expected?5a?5numeric?5timeline?5ID?4?$AA@ (`string')
+090 00000000 SECT16 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 3EAF90BA, selection    2 (pick any)
+092 00000000 SECT16 notype       External     | ??_C@_0CB@LLCMFFMI@syntax?5error?5in?5history?5file?3?5?$CFs@ (`string')
+093 00000000 SECT17 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum 402084E0, selection    2 (pick any)
+095 00000000 SECT17 notype       External     | ??_C@_0DB@ONEKHLOK@Expected?5a?5write?9ahead?5log?5switc@ (`string')
+096 00000000 SECT18 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 8F212A18, selection    2 (pick any)
+098 00000000 SECT18 notype       External     | ??_C@_0CN@LGFOECED@Timeline?5IDs?5must?5be?5in?5increasi@ (`string')
+099 00000000 SECT19 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum DE1094D2, selection    2 (pick any)
+09B 00000000 SECT19 notype       External     | ??_C@_0CB@FLJDFBKA@invalid?5data?5in?5history?5file?3?5?$CFs@ (`string')
+09C 00000000 SECT1A notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum EE9DD9BC, selection    2 (pick any)
+09E 00000000 SECT1A notype       External     | ??_C@_0DE@NNEJCJPD@Timeline?5IDs?5must?5be?5less?5than?5c@ (`string')
+09F 00000000 SECT1B notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 173C97D1, selection    2 (pick any)
+0A1 00000000 SECT1B notype       External     | ??_C@_0CC@KJLCAEAE@invalid?5data?5in?5history?5file?5?$CC?$CFs@ (`string')
+0A2 00000000 SECT1C notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 95234BD6, selection    2 (pick any)
+0A4 00000000 SECT1C notype       External     | ??_C@_0BG@MCPFAFMJ@existsTimeLineHistory?$AA@ (`string')
+0A5 00000000 SECT1D notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum BA724B5E, selection    2 (pick any)
+0A7 00000000 SECT1D notype       External     | ??_C@_0BD@JPIFHNMO@pg_wal?1xlogtemp?4?$CFd?$AA@ (`string')
+0A8 00000000 SECT1E notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum DCE8BC6A, selection    2 (pick any)
+0AA 00000000 SECT1E notype       External     | ??_C@_0BF@GCBDIGBO@writeTimeLineHistory?$AA@ (`string')
+0AB 00000000 SECT1F notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 290C78ED, selection    2 (pick any)
+0AD 00000000 SECT1F notype       External     | ??_C@_0BP@LPPKCLKC@could?5not?5create?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+0AE 00000000 SECT20 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 79886919, selection    2 (pick any)
+0B0 00000000 SECT20 notype       External     | ??_C@_0BN@INCDFDMA@could?5not?5read?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+0B1 00000000 SECT21 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 784F9D32, selection    2 (pick any)
+0B3 00000000 SECT21 notype       External     | ??_C@_0CB@PNMMFIEA@could?5not?5write?5to?5file?5?$CC?$CFs?$CC?3?5?$CFm@ (`string')
+0B4 00000000 SECT22 notype       Static       | .rdata
+    Section length    1, #relocs    0, #linenums    0, checksum        0, selection    2 (pick any)
+0B6 00000000 SECT22 notype       External     | ??_C@_00CNPNBAHC@?$AA@ (`string')
+0B7 00000000 SECT23 notype       Static       | .rdata
+    Section length    2, #relocs    0, #linenums    0, checksum FAEFE88A, selection    2 (pick any)
+0B9 00000000 SECT23 notype       External     | ??_C@_01EEMJAFIK@?6?$AA@ (`string')
+0BA 00000000 SECT24 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 4FEDE253, selection    2 (pick any)
+0BC 00000000 SECT24 notype       External     | ??_C@_0P@GHMBBOEL@?$CFs?$CFu?7?$CFX?1?$CFX?7?$CFs?6?$AA@ (`string')
+0BD 00000000 SECT25 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum FB6D8B1C, selection    2 (pick any)
+0BF 00000000 SECT25 notype       External     | ??_C@_0BO@EJGEKFG@could?5not?5fsync?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+0C0 00000000 SECT26 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum F69B45D1, selection    2 (pick any)
+0C2 00000000 SECT26 notype       External     | ??_C@_0BO@JGAIEJL@could?5not?5close?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+0C3 00000000 SECT27 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 49C74FCE, selection    2 (pick any)
+0C5 00000000 SECT27 notype       External     | ??_C@_0BJ@FPPHLOLO@writeTimeLineHistoryFile?$AA@ (`string')
+0C6 00000000 SECT28 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum EFE9CF7F, selection    2 (pick any)
+0C8 00000000 SECT28 notype       External     | ??_C@_0BE@BPMDKLAN@tliOfPointInHistory?$AA@ (`string')
+0C9 00000000 SECT29 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum ED9CA603, selection    2 (pick any)
+0CB 00000000 SECT29 notype       External     | ??_C@_0CE@HINFOLCJ@timeline?5history?5was?5not?5contigu@ (`string')
+0CC 00000000 SECT2A notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum  1CAAC72, selection    2 (pick any)
+0CE 00000000 SECT2A notype       External     | ??_C@_0P@CJOGFAGK@tliSwitchPoint?$AA@ (`string')
+0CF 00000000 SECT2B notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum 20BE2C7F, selection    2 (pick any)
+0D1 00000000 SECT2B notype       External     | ??_C@_0DG@OKOCLOHN@requested?5timeline?5?$CFu?5is?5not?5in?5@ (`string')
+0D2 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0xD45 bytes
+
+  Summary
+
+        5F68 .debug$S
+          68 .debug$T
+          5D .drectve
+          D8 .pdata
+         328 .rdata
+        1180 .text$mn
+         160 .xdata

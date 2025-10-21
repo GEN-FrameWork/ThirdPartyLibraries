@@ -1,0 +1,770 @@
+
+Dump of file Release\postgres/date.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length ED60, #relocs  586, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 3C20, #relocs  214, #linenums    0, checksum 3F9C02EA
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   92, #relocs    9, #linenums    0, checksum EBFD0DD0, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  1A0, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   AE, #relocs    7, #linenums    0, checksum 9AEE4ADE, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  170, #relocs    A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  152, #relocs   11, #linenums    0, checksum D34033B7, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  1F8, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 UNDEF  notype       External     | __imp_rint
+017 00000000 UNDEF  notype ()    External     | errstart
+018 00000000 UNDEF  notype ()    External     | errfinish
+019 00000000 UNDEF  notype ()    External     | errcode
+01A 00000000 UNDEF  notype ()    External     | errmsg
+01B 00000000 UNDEF  notype ()    External     | elog_start
+01C 00000000 UNDEF  notype ()    External     | elog_finish
+01D 00000000 UNDEF  notype ()    External     | palloc
+01E 00000000 UNDEF  notype ()    External     | pstrdup
+01F 00000000 UNDEF  notype ()    External     | psprintf
+020 00000000 UNDEF  notype       External     | __imp__time64
+021 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+022 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+023 00000000 UNDEF  notype ()    External     | DirectFunctionCall1Coll
+024 00000000 UNDEF  notype ()    External     | DirectFunctionCall2Coll
+025 00000000 UNDEF  notype ()    External     | hash_uint32
+026 00000000 UNDEF  notype ()    External     | pg_localtime
+027 00000000 UNDEF  notype ()    External     | pg_tzset
+028 00000000 UNDEF  notype ()    External     | timestamp2tm
+029 00000000 UNDEF  notype ()    External     | GetEpochTime
+02A 00000000 UNDEF  notype ()    External     | timestamp_cmp_internal
+02B 00000000 UNDEF  notype ()    External     | GetCurrentDateTime
+02C 00000000 UNDEF  notype ()    External     | j2date
+02D 00000000 UNDEF  notype ()    External     | date2j
+02E 00000000 UNDEF  notype ()    External     | ParseDateTime
+02F 00000000 UNDEF  notype ()    External     | DecodeDateTime
+030 00000000 UNDEF  notype ()    External     | DecodeTimeOnly
+031 00000000 UNDEF  notype ()    External     | DateTimeParseError
+032 00000000 UNDEF  notype ()    External     | DetermineTimeZoneOffset
+033 00000000 UNDEF  notype ()    External     | DetermineTimeZoneAbbrevOffset
+034 00000000 UNDEF  notype ()    External     | EncodeDateOnly
+035 00000000 UNDEF  notype ()    External     | EncodeTimeOnly
+036 00000000 UNDEF  notype ()    External     | ValidateDate
+037 00000000 UNDEF  notype ()    External     | DecodeTimezoneAbbrev
+038 00000000 UNDEF  notype ()    External     | DecodeSpecial
+039 00000000 UNDEF  notype ()    External     | DecodeUnits
+03A 00000000 UNDEF  notype ()    External     | TemporalTransform
+03B 00000000 UNDEF  notype ()    External     | GetCurrentTransactionStartTimestamp
+03C 00000000 UNDEF  notype ()    External     | pq_sendint
+03D 00000000 UNDEF  notype ()    External     | pq_sendint64
+03E 00000000 UNDEF  notype ()    External     | pq_begintypsend
+03F 00000000 UNDEF  notype ()    External     | pq_endtypsend
+040 00000000 UNDEF  notype ()    External     | pq_getmsgint
+041 00000000 UNDEF  notype ()    External     | pq_getmsgint64
+042 00000000 UNDEF  notype ()    External     | downcase_truncate_identifier
+043 00000000 UNDEF  notype ()    External     | ArrayGetIntegerTypmods
+044 00000000 UNDEF  notype ()    External     | hashint8
+045 00000000 SECT4  notype ()    External     | date_in
+046 00000290 SECT4  notype ()    External     | date_out
+047 00000350 SECT4  notype ()    External     | date_eq
+048 00000370 SECT4  notype ()    External     | date_lt
+049 00000390 SECT4  notype ()    External     | date_le
+04A 000003B0 SECT4  notype ()    External     | date_gt
+04B 000003D0 SECT4  notype ()    External     | date_ge
+04C 000003F0 SECT4  notype ()    External     | date_ne
+04D 00000410 SECT4  notype ()    External     | date_cmp
+04E 00000440 SECT4  notype ()    External     | time_lt
+04F 00000460 SECT4  notype ()    External     | time_le
+050 00000480 SECT4  notype ()    External     | time_gt
+051 000004A0 SECT4  notype ()    External     | time_ge
+052 000004C0 SECT4  notype ()    External     | time_ne
+053 000004E0 SECT4  notype ()    External     | time_cmp
+054 00000510 SECT4  notype ()    External     | date_larger
+055 00000530 SECT4  notype ()    External     | date_smaller
+056 00000550 SECT4  notype ()    External     | date_mi
+057 000005F0 SECT4  notype ()    External     | date_pli
+058 000006B0 SECT4  notype ()    External     | date_mii
+059 00000770 SECT4  notype ()    External     | time_in
+05A 000008E0 SECT4  notype ()    External     | time_out
+05B 000009E0 SECT4  notype ()    External     | time_eq
+05C 00000000 UNDEF  notype ()    External     | interval_out
+05D 00000A00 SECT4  notype ()    External     | date_timestamptz
+05E 00000A10 SECT4  notype ()    External     | timestamptz_date
+05F 00000AE0 SECT4  notype ()    External     | abstime_date
+060 00000CA0 SECT4  notype ()    External     | overlaps_timetz
+061 00000E30 SECT4  notype ()    External     | datetime_timestamp
+062 00000EE0 SECT4  notype ()    External     | timetz_part
+063 000012A0 SECT4  notype ()    External     | datetimetz_timestamptz
+064 000013E0 SECT4  notype ()    External     | overlaps_time
+065 000014B0 SECT4  notype ()    External     | timestamp_time
+066 00001580 SECT4  notype ()    External     | timetz_in
+067 000016F0 SECT4  notype ()    External     | timetz_out
+068 000017F0 SECT4  notype ()    External     | timetz_eq
+069 00001860 SECT4  notype ()    External     | timetz_ne
+06A 000018D0 SECT4  notype ()    External     | timetz_lt
+06B 00001930 SECT4  notype ()    External     | timetz_le
+06C 000019A0 SECT4  notype ()    External     | timetz_ge
+06D 00001A00 SECT4  notype ()    External     | timetz_gt
+06E 00001A70 SECT4  notype ()    External     | timetz_cmp
+06F 00001AC0 SECT4  notype ()    External     | time_interval
+070 00001AF0 SECT4  notype ()    External     | date_finite
+071 00001B10 SECT4  notype ()    External     | time_larger
+072 00001B30 SECT4  notype ()    External     | time_smaller
+073 00001B50 SECT4  notype ()    External     | timetz_larger
+074 00001B90 SECT4  notype ()    External     | timetz_smaller
+075 00001BD0 SECT4  notype ()    External     | time_part
+076 00001E50 SECT4  notype ()    External     | timestamptz_timetz
+077 00001F40 SECT4  notype ()    External     | interval_time
+078 00001FA0 SECT4  notype ()    External     | time_hash
+079 00001FB0 SECT4  notype ()    External     | time_mi_time
+07A 00001FF0 SECT4  notype ()    External     | timetz_hash
+07B 00002040 SECT4  notype ()    External     | time_pl_interval
+07C 00002080 SECT4  notype ()    External     | time_mi_interval
+07D 000020C0 SECT4  notype ()    External     | timetz_pl_interval
+07E 00002130 SECT4  notype ()    External     | timetz_mi_interval
+07F 000021A0 SECT4  notype ()    External     | time_scale
+080 00002210 SECT4  notype ()    External     | timetz_scale
+081 000022B0 SECT4  notype ()    External     | timestamptz_time
+082 00002380 SECT4  notype ()    External     | date_timestamp
+083 00002390 SECT4  notype ()    External     | timestamp_date
+084 00000000 UNDEF  notype ()    External     | timestamp_pl_interval
+085 00000000 UNDEF  notype ()    External     | timestamp_mi_interval
+086 00002460 SECT4  notype ()    External     | timetz_zone
+087 00002630 SECT4  notype ()    External     | timetz_izone
+088 00002740 SECT4  notype ()    External     | timetz_time
+089 00002750 SECT4  notype ()    External     | time_timetz
+08A 00002820 SECT4  notype ()    External     | date_pl_interval
+08B 00002860 SECT4  notype ()    External     | date_mi_interval
+08C 000028A0 SECT4  notype ()    External     | date_lt_timestamp
+08D 000028E0 SECT4  notype ()    External     | date_le_timestamp
+08E 00002920 SECT4  notype ()    External     | date_eq_timestamp
+08F 00002960 SECT4  notype ()    External     | date_gt_timestamp
+090 000029A0 SECT4  notype ()    External     | date_ge_timestamp
+091 000029E0 SECT4  notype ()    External     | date_ne_timestamp
+092 00002A20 SECT4  notype ()    External     | date_cmp_timestamp
+093 00002A50 SECT4  notype ()    External     | date_lt_timestamptz
+094 00002A90 SECT4  notype ()    External     | date_le_timestamptz
+095 00002AD0 SECT4  notype ()    External     | date_eq_timestamptz
+096 00002B10 SECT4  notype ()    External     | date_gt_timestamptz
+097 00002B50 SECT4  notype ()    External     | date_ge_timestamptz
+098 00002B90 SECT4  notype ()    External     | date_ne_timestamptz
+099 00002BD0 SECT4  notype ()    External     | date_cmp_timestamptz
+09A 00002C00 SECT4  notype ()    External     | timestamp_lt_date
+09B 00002C40 SECT4  notype ()    External     | timestamp_le_date
+09C 00002C80 SECT4  notype ()    External     | timestamp_eq_date
+09D 00002CC0 SECT4  notype ()    External     | timestamp_gt_date
+09E 00002D00 SECT4  notype ()    External     | timestamp_ge_date
+09F 00002D40 SECT4  notype ()    External     | timestamp_ne_date
+0A0 00002D80 SECT4  notype ()    External     | timestamp_cmp_date
+0A1 00002DB0 SECT4  notype ()    External     | timestamptz_lt_date
+0A2 00002DF0 SECT4  notype ()    External     | timestamptz_le_date
+0A3 00002E30 SECT4  notype ()    External     | timestamptz_eq_date
+0A4 00002E70 SECT4  notype ()    External     | timestamptz_gt_date
+0A5 00002EB0 SECT4  notype ()    External     | timestamptz_ge_date
+0A6 00002EF0 SECT4  notype ()    External     | timestamptz_ne_date
+0A7 00002F30 SECT4  notype ()    External     | timestamptz_cmp_date
+0A8 00002F60 SECT4  notype ()    External     | date_recv
+0A9 00003000 SECT4  notype ()    External     | date_send
+0AA 00003040 SECT4  notype ()    External     | time_recv
+0AB 00003150 SECT4  notype ()    External     | time_send
+0AC 00003190 SECT4  notype ()    External     | timetz_recv
+0AD 00003310 SECT4  notype ()    External     | timetz_send
+0AE 00003360 SECT4  notype ()    External     | timetypmodin
+0AF 00003390 SECT4  notype ()    External     | timetypmodout
+0B0 000033D0 SECT4  notype ()    External     | timetztypmodin
+0B1 00003400 SECT4  notype ()    External     | timetztypmodout
+0B2 00003440 SECT4  notype ()    External     | date_sortsupport
+0B3 00003460 SECT4  notype ()    External     | make_date
+0B4 00003620 SECT4  notype ()    External     | make_time
+0B5 00003720 SECT4  notype ()    External     | time_transform
+0B6 00000000 UNDEF  notype ()    External     | text_to_cstring_buffer
+0B7 00003740 SECT4  notype ()    External     | anytime_typmod_check
+0B8 00003860 SECT4  notype ()    External     | date2timestamp_no_overflow
+0B9 000038A0 SECT4  notype ()    External     | EncodeSpecialDate
+0BA 00003920 SECT4  notype ()    External     | GetSQLCurrentDate
+0BB 000039C0 SECT4  notype ()    External     | GetSQLCurrentTime
+0BC 00003AF0 SECT4  notype ()    External     | GetSQLLocalTime
+0BD 00000000 UNDEF  notype ()    External     | abstime2tm
+0BE 00000000 SECT5  notype ()    Static       | anytime_typmodin
+0BF 00003C10 SECT4  notype ()    Static       | date_fastcmp
+0C0 00000000 SECT7  notype ()    Static       | date2timestamp
+0C1 00000000 SECT9  notype ()    Static       | date2timestamptz
+0C2 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+0C3 00000000 UNDEF  notype ()    External     | __security_check_cookie
+0C4 00000000 UNDEF  notype ()    External     | ceil
+0C5 00000000 UNDEF  notype ()    External     | floor
+0C6 00000000 SECT4  notype       Label        | $LN39
+0C7 00000290 SECT4  notype       Label        | $LN21
+0C8 00000550 SECT4  notype       Label        | $LN14
+0C9 000005F0 SECT4  notype       Label        | $LN18
+0CA 000006B0 SECT4  notype       Label        | $LN18
+0CB 00000770 SECT4  notype       Label        | $LN15
+0CC 000008E0 SECT4  notype       Label        | $LN6
+0CD 00000A10 SECT4  notype       Label        | $LN14
+0CE 00000AE0 SECT4  notype       Label        | $LN34
+0CF 00000CA0 SECT4  notype       Label        | $LN49
+0D0 00000E30 SECT4  notype       Label        | $LN17
+0D1 00001278 SECT4  notype       Static       | $LN58
+0D2 00001254 SECT4  notype       Static       | $LN59
+0D3 00001065 SECT4  notype       Label        | $LN19
+0D4 00001076 SECT4  notype       Label        | $LN20
+0D5 000010CC SECT4  notype       Label        | $LN22
+0D6 0000111D SECT4  notype       Label        | $LN24
+0D7 0000113F SECT4  notype       Label        | $LN25
+0D8 00001169 SECT4  notype       Label        | $LN26
+0D9 0000118B SECT4  notype       Label        | $LN27
+0DA 00001199 SECT4  notype       Label        | $LN28
+0DB 000011A7 SECT4  notype       Label        | $LN12
+0DC 00000EE0 SECT4  notype       Label        | $LN65
+0DD 000012A0 SECT4  notype       Label        | $LN31
+0DE 000013E0 SECT4  notype       Label        | $LN50
+0DF 000014B0 SECT4  notype       Label        | $LN16
+0E0 00001580 SECT4  notype       Label        | $LN16
+0E1 000016F0 SECT4  notype       Label        | $LN7
+0E2 00001AC0 SECT4  notype       Label        | $LN4
+0E3 00001BD0 SECT4  notype       Label        | $LN44
+0E4 00001E50 SECT4  notype       Label        | $LN18
+0E5 00001FB0 SECT4  notype       Label        | $LN4
+0E6 00001FF0 SECT4  notype       Label        | $LN4
+0E7 000020C0 SECT4  notype       Label        | $LN5
+0E8 00002130 SECT4  notype       Label        | $LN5
+0E9 00002210 SECT4  notype       Label        | $LN11
+0EA 000022B0 SECT4  notype       Label        | $LN16
+0EB 00002390 SECT4  notype       Label        | $LN14
+0EC 00002460 SECT4  notype       Label        | $LN36
+0ED 00002630 SECT4  notype       Label        | $LN24
+0EE 00002750 SECT4  notype       Label        | $LN6
+0EF 00002820 SECT4  notype       Label        | $LN4
+0F0 00002860 SECT4  notype       Label        | $LN4
+0F1 000028A0 SECT4  notype       Label        | $LN4
+0F2 000028E0 SECT4  notype       Label        | $LN4
+0F3 00002920 SECT4  notype       Label        | $LN4
+0F4 00002960 SECT4  notype       Label        | $LN4
+0F5 000029A0 SECT4  notype       Label        | $LN4
+0F6 000029E0 SECT4  notype       Label        | $LN4
+0F7 00002A20 SECT4  notype       Label        | $LN4
+0F8 00002A50 SECT4  notype       Label        | $LN4
+0F9 00002A90 SECT4  notype       Label        | $LN4
+0FA 00002AD0 SECT4  notype       Label        | $LN4
+0FB 00002B10 SECT4  notype       Label        | $LN4
+0FC 00002B50 SECT4  notype       Label        | $LN4
+0FD 00002B90 SECT4  notype       Label        | $LN4
+0FE 00002BD0 SECT4  notype       Label        | $LN4
+0FF 00002C00 SECT4  notype       Label        | $LN4
+100 00002C40 SECT4  notype       Label        | $LN4
+101 00002C80 SECT4  notype       Label        | $LN4
+102 00002CC0 SECT4  notype       Label        | $LN4
+103 00002D00 SECT4  notype       Label        | $LN4
+104 00002D40 SECT4  notype       Label        | $LN4
+105 00002D80 SECT4  notype       Label        | $LN4
+106 00002DB0 SECT4  notype       Label        | $LN4
+107 00002DF0 SECT4  notype       Label        | $LN4
+108 00002E30 SECT4  notype       Label        | $LN4
+109 00002E70 SECT4  notype       Label        | $LN4
+10A 00002EB0 SECT4  notype       Label        | $LN4
+10B 00002EF0 SECT4  notype       Label        | $LN4
+10C 00002F30 SECT4  notype       Label        | $LN4
+10D 00002F60 SECT4  notype       Label        | $LN15
+10E 00003000 SECT4  notype       Label        | $LN4
+10F 00003040 SECT4  notype       Label        | $LN18
+110 00003150 SECT4  notype       Label        | $LN4
+111 00003190 SECT4  notype       Label        | $LN26
+112 00003310 SECT4  notype       Label        | $LN4
+113 00003360 SECT4  notype       Label        | $LN4
+114 000033D0 SECT4  notype       Label        | $LN4
+115 00003460 SECT4  notype       Label        | $LN30
+116 00003620 SECT4  notype       Label        | $LN14
+117 00003740 SECT4  notype       Label        | $LN17
+118 000038A0 SECT4  notype       Label        | $LN12
+119 00003920 SECT4  notype       Label        | $LN10
+11A 000039C0 SECT4  notype       Label        | $LN19
+11B 00003AF0 SECT4  notype       Label        | $LN18
+11C 00000000 SECTB  notype       Static       | .xdata
+    Section length  53C, #relocs   5B, #linenums    0, checksum AD08A898
+11E 00000000 SECTB  notype       Static       | $unwind$date_in
+11F 00000000 SECTC  notype       Static       | .pdata
+    Section length  4D4, #relocs  135, #linenums    0, checksum 8AE698A4
+121 00000000 SECTC  notype       Static       | $pdata$date_in
+122 00000018 SECTB  notype       Static       | $chain$1$date_in
+123 0000000C SECTC  notype       Static       | $pdata$1$date_in
+124 0000002C SECTB  notype       Static       | $chain$2$date_in
+125 00000018 SECTC  notype       Static       | $pdata$2$date_in
+126 0000003C SECTB  notype       Static       | $unwind$date_out
+127 00000024 SECTC  notype       Static       | $pdata$date_out
+128 0000004C SECTB  notype       Static       | $unwind$date_mi
+129 00000030 SECTC  notype       Static       | $pdata$date_mi
+12A 00000058 SECTB  notype       Static       | $chain$0$date_mi
+12B 0000003C SECTC  notype       Static       | $pdata$0$date_mi
+12C 0000006C SECTB  notype       Static       | $chain$1$date_mi
+12D 00000048 SECTC  notype       Static       | $pdata$1$date_mi
+12E 0000007C SECTB  notype       Static       | $unwind$date_pli
+12F 00000054 SECTC  notype       Static       | $pdata$date_pli
+130 00000084 SECTB  notype       Static       | $chain$0$date_pli
+131 00000060 SECTC  notype       Static       | $pdata$0$date_pli
+132 00000098 SECTB  notype       Static       | $chain$1$date_pli
+133 0000006C SECTC  notype       Static       | $pdata$1$date_pli
+134 000000AC SECTB  notype       Static       | $chain$2$date_pli
+135 00000078 SECTC  notype       Static       | $pdata$2$date_pli
+136 000000BC SECTB  notype       Static       | $chain$3$date_pli
+137 00000084 SECTC  notype       Static       | $pdata$3$date_pli
+138 000000CC SECTB  notype       Static       | $unwind$date_mii
+139 00000090 SECTC  notype       Static       | $pdata$date_mii
+13A 000000D4 SECTB  notype       Static       | $chain$0$date_mii
+13B 0000009C SECTC  notype       Static       | $pdata$0$date_mii
+13C 000000E8 SECTB  notype       Static       | $chain$1$date_mii
+13D 000000A8 SECTC  notype       Static       | $pdata$1$date_mii
+13E 000000FC SECTB  notype       Static       | $chain$2$date_mii
+13F 000000B4 SECTC  notype       Static       | $pdata$2$date_mii
+140 0000010C SECTB  notype       Static       | $chain$3$date_mii
+141 000000C0 SECTC  notype       Static       | $pdata$3$date_mii
+142 0000011C SECTB  notype       Static       | $unwind$time_in
+143 000000CC SECTC  notype       Static       | $pdata$time_in
+144 00000134 SECTB  notype       Static       | $unwind$time_out
+145 000000D8 SECTC  notype       Static       | $pdata$time_out
+146 00000144 SECTB  notype       Static       | $unwind$timestamptz_date
+147 000000E4 SECTC  notype       Static       | $pdata$timestamptz_date
+148 00000150 SECTB  notype       Static       | $unwind$abstime_date
+149 000000F0 SECTC  notype       Static       | $pdata$abstime_date
+14A 0000015C SECTB  notype       Static       | $unwind$overlaps_timetz
+14B 000000FC SECTC  notype       Static       | $pdata$overlaps_timetz
+14C 00000178 SECTB  notype       Static       | $unwind$datetime_timestamp
+14D 00000108 SECTC  notype       Static       | $pdata$datetime_timestamp
+14E 00000184 SECTB  notype       Static       | $unwind$timetz_part
+14F 00000114 SECTC  notype       Static       | $pdata$timetz_part
+150 0000019C SECTB  notype       Static       | $unwind$datetimetz_timestamptz
+151 00000120 SECTC  notype       Static       | $pdata$datetimetz_timestamptz
+152 000001AC SECTB  notype       Static       | $unwind$overlaps_time
+153 0000012C SECTC  notype       Static       | $pdata$overlaps_time
+154 000001B4 SECTB  notype       Static       | $unwind$timestamp_time
+155 00000138 SECTC  notype       Static       | $pdata$timestamp_time
+156 000001BC SECTB  notype       Static       | $chain$0$timestamp_time
+157 00000144 SECTC  notype       Static       | $pdata$0$timestamp_time
+158 000001D0 SECTB  notype       Static       | $chain$1$timestamp_time
+159 00000150 SECTC  notype       Static       | $pdata$1$timestamp_time
+15A 000001E0 SECTB  notype       Static       | $unwind$timetz_in
+15B 0000015C SECTC  notype       Static       | $pdata$timetz_in
+15C 000001F8 SECTB  notype       Static       | $unwind$timetz_out
+15D 00000168 SECTC  notype       Static       | $pdata$timetz_out
+15E 00000208 SECTB  notype       Static       | $unwind$time_interval
+15F 00000174 SECTC  notype       Static       | $pdata$time_interval
+160 00000210 SECTB  notype       Static       | $unwind$time_part
+161 00000180 SECTC  notype       Static       | $pdata$time_part
+162 0000021C SECTB  notype       Static       | $unwind$timestamptz_timetz
+163 0000018C SECTC  notype       Static       | $pdata$timestamptz_timetz
+164 00000224 SECTB  notype       Static       | $chain$0$timestamptz_timetz
+165 00000198 SECTC  notype       Static       | $pdata$0$timestamptz_timetz
+166 00000238 SECTB  notype       Static       | $chain$1$timestamptz_timetz
+167 000001A4 SECTC  notype       Static       | $pdata$1$timestamptz_timetz
+168 00000248 SECTB  notype       Static       | $unwind$time_mi_time
+169 000001B0 SECTC  notype       Static       | $pdata$time_mi_time
+16A 00000254 SECTB  notype       Static       | $unwind$timetz_hash
+16B 000001BC SECTC  notype       Static       | $pdata$timetz_hash
+16C 00000260 SECTB  notype       Static       | $unwind$timetz_pl_interval
+16D 000001C8 SECTC  notype       Static       | $pdata$timetz_pl_interval
+16E 0000026C SECTB  notype       Static       | $unwind$timetz_mi_interval
+16F 000001D4 SECTC  notype       Static       | $pdata$timetz_mi_interval
+170 00000278 SECTB  notype       Static       | $unwind$timetz_scale
+171 000001E0 SECTC  notype       Static       | $pdata$timetz_scale
+172 00000284 SECTB  notype       Static       | $unwind$timestamptz_time
+173 000001EC SECTC  notype       Static       | $pdata$timestamptz_time
+174 0000028C SECTB  notype       Static       | $chain$0$timestamptz_time
+175 000001F8 SECTC  notype       Static       | $pdata$0$timestamptz_time
+176 000002A0 SECTB  notype       Static       | $chain$1$timestamptz_time
+177 00000204 SECTC  notype       Static       | $pdata$1$timestamptz_time
+178 000002B0 SECTB  notype       Static       | $unwind$timestamp_date
+179 00000210 SECTC  notype       Static       | $pdata$timestamp_date
+17A 000002BC SECTB  notype       Static       | $unwind$timetz_zone
+17B 0000021C SECTC  notype       Static       | $pdata$timetz_zone
+17C 000002D8 SECTB  notype       Static       | $unwind$timetz_izone
+17D 00000228 SECTC  notype       Static       | $pdata$timetz_izone
+17E 000002E8 SECTB  notype       Static       | $unwind$time_timetz
+17F 00000234 SECTC  notype       Static       | $pdata$time_timetz
+180 000002F4 SECTB  notype       Static       | $unwind$date_pl_interval
+181 00000240 SECTC  notype       Static       | $pdata$date_pl_interval
+182 000002FC SECTB  notype       Static       | $unwind$date_mi_interval
+183 0000024C SECTC  notype       Static       | $pdata$date_mi_interval
+184 00000304 SECTB  notype       Static       | $unwind$date_lt_timestamp
+185 00000258 SECTC  notype       Static       | $pdata$date_lt_timestamp
+186 0000030C SECTB  notype       Static       | $unwind$date_le_timestamp
+187 00000264 SECTC  notype       Static       | $pdata$date_le_timestamp
+188 00000314 SECTB  notype       Static       | $unwind$date_eq_timestamp
+189 00000270 SECTC  notype       Static       | $pdata$date_eq_timestamp
+18A 0000031C SECTB  notype       Static       | $unwind$date_gt_timestamp
+18B 0000027C SECTC  notype       Static       | $pdata$date_gt_timestamp
+18C 00000324 SECTB  notype       Static       | $unwind$date_ge_timestamp
+18D 00000288 SECTC  notype       Static       | $pdata$date_ge_timestamp
+18E 0000032C SECTB  notype       Static       | $unwind$date_ne_timestamp
+18F 00000294 SECTC  notype       Static       | $pdata$date_ne_timestamp
+190 00000334 SECTB  notype       Static       | $unwind$date_cmp_timestamp
+191 000002A0 SECTC  notype       Static       | $pdata$date_cmp_timestamp
+192 0000033C SECTB  notype       Static       | $unwind$date_lt_timestamptz
+193 000002AC SECTC  notype       Static       | $pdata$date_lt_timestamptz
+194 00000344 SECTB  notype       Static       | $unwind$date_le_timestamptz
+195 000002B8 SECTC  notype       Static       | $pdata$date_le_timestamptz
+196 0000034C SECTB  notype       Static       | $unwind$date_eq_timestamptz
+197 000002C4 SECTC  notype       Static       | $pdata$date_eq_timestamptz
+198 00000354 SECTB  notype       Static       | $unwind$date_gt_timestamptz
+199 000002D0 SECTC  notype       Static       | $pdata$date_gt_timestamptz
+19A 0000035C SECTB  notype       Static       | $unwind$date_ge_timestamptz
+19B 000002DC SECTC  notype       Static       | $pdata$date_ge_timestamptz
+19C 00000364 SECTB  notype       Static       | $unwind$date_ne_timestamptz
+19D 000002E8 SECTC  notype       Static       | $pdata$date_ne_timestamptz
+19E 0000036C SECTB  notype       Static       | $unwind$date_cmp_timestamptz
+19F 000002F4 SECTC  notype       Static       | $pdata$date_cmp_timestamptz
+1A0 00000374 SECTB  notype       Static       | $unwind$timestamp_lt_date
+1A1 00000300 SECTC  notype       Static       | $pdata$timestamp_lt_date
+1A2 0000037C SECTB  notype       Static       | $unwind$timestamp_le_date
+1A3 0000030C SECTC  notype       Static       | $pdata$timestamp_le_date
+1A4 00000384 SECTB  notype       Static       | $unwind$timestamp_eq_date
+1A5 00000318 SECTC  notype       Static       | $pdata$timestamp_eq_date
+1A6 0000038C SECTB  notype       Static       | $unwind$timestamp_gt_date
+1A7 00000324 SECTC  notype       Static       | $pdata$timestamp_gt_date
+1A8 00000394 SECTB  notype       Static       | $unwind$timestamp_ge_date
+1A9 00000330 SECTC  notype       Static       | $pdata$timestamp_ge_date
+1AA 0000039C SECTB  notype       Static       | $unwind$timestamp_ne_date
+1AB 0000033C SECTC  notype       Static       | $pdata$timestamp_ne_date
+1AC 000003A4 SECTB  notype       Static       | $unwind$timestamp_cmp_date
+1AD 00000348 SECTC  notype       Static       | $pdata$timestamp_cmp_date
+1AE 000003AC SECTB  notype       Static       | $unwind$timestamptz_lt_date
+1AF 00000354 SECTC  notype       Static       | $pdata$timestamptz_lt_date
+1B0 000003B4 SECTB  notype       Static       | $unwind$timestamptz_le_date
+1B1 00000360 SECTC  notype       Static       | $pdata$timestamptz_le_date
+1B2 000003BC SECTB  notype       Static       | $unwind$timestamptz_eq_date
+1B3 0000036C SECTC  notype       Static       | $pdata$timestamptz_eq_date
+1B4 000003C4 SECTB  notype       Static       | $unwind$timestamptz_gt_date
+1B5 00000378 SECTC  notype       Static       | $pdata$timestamptz_gt_date
+1B6 000003CC SECTB  notype       Static       | $unwind$timestamptz_ge_date
+1B7 00000384 SECTC  notype       Static       | $pdata$timestamptz_ge_date
+1B8 000003D4 SECTB  notype       Static       | $unwind$timestamptz_ne_date
+1B9 00000390 SECTC  notype       Static       | $pdata$timestamptz_ne_date
+1BA 000003DC SECTB  notype       Static       | $unwind$timestamptz_cmp_date
+1BB 0000039C SECTC  notype       Static       | $pdata$timestamptz_cmp_date
+1BC 000003E4 SECTB  notype       Static       | $unwind$date_recv
+1BD 000003A8 SECTC  notype       Static       | $pdata$date_recv
+1BE 000003EC SECTB  notype       Static       | $chain$0$date_recv
+1BF 000003B4 SECTC  notype       Static       | $pdata$0$date_recv
+1C0 00000400 SECTB  notype       Static       | $chain$1$date_recv
+1C1 000003C0 SECTC  notype       Static       | $pdata$1$date_recv
+1C2 00000410 SECTB  notype       Static       | $unwind$date_send
+1C3 000003CC SECTC  notype       Static       | $pdata$date_send
+1C4 00000418 SECTB  notype       Static       | $unwind$time_recv
+1C5 000003D8 SECTC  notype       Static       | $pdata$time_recv
+1C6 00000424 SECTB  notype       Static       | $chain$0$time_recv
+1C7 000003E4 SECTC  notype       Static       | $pdata$0$time_recv
+1C8 00000438 SECTB  notype       Static       | $chain$1$time_recv
+1C9 000003F0 SECTC  notype       Static       | $pdata$1$time_recv
+1CA 00000448 SECTB  notype       Static       | $unwind$time_send
+1CB 000003FC SECTC  notype       Static       | $pdata$time_send
+1CC 00000450 SECTB  notype       Static       | $unwind$timetz_recv
+1CD 00000408 SECTC  notype       Static       | $pdata$timetz_recv
+1CE 0000045C SECTB  notype       Static       | $chain$0$timetz_recv
+1CF 00000414 SECTC  notype       Static       | $pdata$0$timetz_recv
+1D0 00000470 SECTB  notype       Static       | $chain$1$timetz_recv
+1D1 00000420 SECTC  notype       Static       | $pdata$1$timetz_recv
+1D2 00000484 SECTB  notype       Static       | $chain$2$timetz_recv
+1D3 0000042C SECTC  notype       Static       | $pdata$2$timetz_recv
+1D4 00000494 SECTB  notype       Static       | $chain$3$timetz_recv
+1D5 00000438 SECTC  notype       Static       | $pdata$3$timetz_recv
+1D6 000004A4 SECTB  notype       Static       | $unwind$timetz_send
+1D7 00000444 SECTC  notype       Static       | $pdata$timetz_send
+1D8 000004AC SECTB  notype       Static       | $unwind$timetypmodin
+1D9 00000450 SECTC  notype       Static       | $pdata$timetypmodin
+1DA 000004B4 SECTB  notype       Static       | $unwind$timetztypmodin
+1DB 0000045C SECTC  notype       Static       | $pdata$timetztypmodin
+1DC 000004BC SECTB  notype       Static       | $unwind$make_date
+1DD 00000468 SECTC  notype       Static       | $pdata$make_date
+1DE 000004C8 SECTB  notype       Static       | $unwind$make_time
+1DF 00000474 SECTC  notype       Static       | $pdata$make_time
+1E0 000004D8 SECTB  notype       Static       | $chain$0$make_time
+1E1 00000480 SECTC  notype       Static       | $pdata$0$make_time
+1E2 000004EC SECTB  notype       Static       | $chain$1$make_time
+1E3 0000048C SECTC  notype       Static       | $pdata$1$make_time
+1E4 000004FC SECTB  notype       Static       | $unwind$anytime_typmod_check
+1E5 00000498 SECTC  notype       Static       | $pdata$anytime_typmod_check
+1E6 00000514 SECTB  notype       Static       | $unwind$EncodeSpecialDate
+1E7 000004A4 SECTC  notype       Static       | $pdata$EncodeSpecialDate
+1E8 0000051C SECTB  notype       Static       | $unwind$GetSQLCurrentDate
+1E9 000004B0 SECTC  notype       Static       | $pdata$GetSQLCurrentDate
+1EA 00000524 SECTB  notype       Static       | $unwind$GetSQLCurrentTime
+1EB 000004BC SECTC  notype       Static       | $pdata$GetSQLCurrentTime
+1EC 00000530 SECTB  notype       Static       | $unwind$GetSQLLocalTime
+1ED 000004C8 SECTC  notype       Static       | $pdata$GetSQLLocalTime
+1EE 00000000 SECTD  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum BF0D5D67, selection    5 (pick associative Section 0x5)
+1F0 00000000 SECTD  notype       Static       | $unwind$anytime_typmodin
+1F1 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 86C3E873, selection    5 (pick associative Section 0x5)
+1F3 00000000 SECTE  notype       Static       | $pdata$anytime_typmodin
+1F4 00000000 SECTF  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum CDDD6295, selection    5 (pick associative Section 0x5)
+1F6 00000000 SECTF  notype       Static       | $chain$0$anytime_typmodin
+1F7 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C188A82D, selection    5 (pick associative Section 0x5)
+1F9 00000000 SECT10 notype       Static       | $pdata$0$anytime_typmodin
+1FA 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 3F94029F, selection    5 (pick associative Section 0x5)
+1FC 00000000 SECT11 notype       Static       | $chain$1$anytime_typmodin
+1FD 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4CE57FF9, selection    5 (pick associative Section 0x5)
+1FF 00000000 SECT12 notype       Static       | $pdata$1$anytime_typmodin
+200 00000000 SECT13 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum CAD22213, selection    5 (pick associative Section 0x7)
+202 00000000 SECT13 notype       Static       | $unwind$date2timestamp
+203 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 22DF9673, selection    5 (pick associative Section 0x7)
+205 00000000 SECT14 notype       Static       | $pdata$date2timestamp
+206 00000000 SECT15 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 69C11C95, selection    5 (pick associative Section 0x7)
+208 00000000 SECT15 notype       Static       | $chain$0$date2timestamp
+209 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7691EEEC, selection    5 (pick associative Section 0x7)
+20B 00000000 SECT16 notype       Static       | $pdata$0$date2timestamp
+20C 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 9B887C9F, selection    5 (pick associative Section 0x7)
+20E 00000000 SECT17 notype       Static       | $chain$1$date2timestamp
+20F 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A7809E2D, selection    5 (pick associative Section 0x7)
+211 00000000 SECT18 notype       Static       | $pdata$1$date2timestamp
+212 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum AC34D776, selection    5 (pick associative Section 0x9)
+214 00000000 SECT19 notype       Static       | $unwind$date2timestamptz
+215 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B174FF0F, selection    5 (pick associative Section 0x9)
+217 00000000 SECT1A notype       Static       | $pdata$date2timestamptz
+218 00000000 UNDEF  notype       External     | session_timezone
+219 00000000 UNDEF  notype       External     | DateStyle
+21A 00000000 SECT1B notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 6D66AE90, selection    2 (pick any)
+21C 00000000 SECT1B notype       External     | ??_C@_0BB@FLHGKANC@anytime_typmodin?$AA@ (`string')
+21D 00000000 SECT1C notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 8FC00A5B, selection    2 (pick any)
+21F 00000000 SECT1C notype       External     | ??_C@_0BN@HLGLDAIC@src?1backend?1utils?1adt?1date?4c?$AA@ (`string')
+220 00000000 SECT1D notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 549DEEF4, selection    2 (pick any)
+222 00000000 SECT1D notype       External     | ??_C@_0BG@DELKAOL@invalid?5type?5modifier?$AA@ (`string')
+223 00000000 SECT1E notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 700D3F14, selection    2 (pick any)
+225 00000000 SECT1E notype       External     | ??_C@_0BF@MOPGAFGA@anytime_typmod_check?$AA@ (`string')
+226 00000000 SECT1F notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum B39F14EB, selection    2 (pick any)
+228 00000000 SECT1F notype       External     | ??_C@_0BA@KANLKAEB@?5WITH?5TIME?5ZONE?$AA@ (`string')
+229 00000000 SECT20 notype       Static       | .rdata
+    Section length    1, #relocs    0, #linenums    0, checksum        0, selection    2 (pick any)
+22B 00000000 SECT20 notype       External     | ??_C@_00CNPNBAHC@?$AA@ (`string')
+22C 00000000 SECT21 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum 45AFB64A, selection    2 (pick any)
+22E 00000000 SECT21 notype       External     | ??_C@_0CK@FODPGBEO@TIME?$CI?$CFd?$CJ?$CFs?5precision?5must?5not?5be@ (`string')
+22F 00000000 SECT22 notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum E7E8984A, selection    2 (pick any)
+231 00000000 SECT22 notype       External     | ??_C@_0DE@NEDMGIAF@TIME?$CI?$CFd?$CJ?$CFs?5precision?5reduced?5to?5@ (`string')
+232 00000000 SECT23 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 6A2CFA61, selection    2 (pick any)
+234 00000000 SECT23 notype       External     | ??_C@_0BA@HJGIEOML@?5with?5time?5zone?$AA@ (`string')
+235 00000000 SECT24 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 56792BF5, selection    2 (pick any)
+237 00000000 SECT24 notype       External     | ??_C@_0BD@HDIOBNGF@?5without?5time?5zone?$AA@ (`string')
+238 00000000 SECT25 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 202F7C79, selection    2 (pick any)
+23A 00000000 SECT25 notype       External     | ??_C@_06ECLMFMPI@?$CI?$CFd?$CJ?$CFs?$AA@ (`string')
+23B 00000000 SECT26 notype       Static       | .rdata
+    Section length    3, #relocs    0, #linenums    0, checksum 3A94AE3E, selection    2 (pick any)
+23D 00000000 SECT26 notype       External     | ??_C@_02DKCKIIND@?$CFs?$AA@ (`string')
+23E 00000000 SECT27 notype       Static       | .rdata
+    Section length    5, #relocs    0, #linenums    0, checksum A45A1E85, selection    2 (pick any)
+240 00000000 SECT27 notype       External     | ??_C@_04JNIHBGGH@date?$AA@ (`string')
+241 00000000 SECT28 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 9717F788, selection    2 (pick any)
+243 00000000 SECT28 notype       External     | ??_C@_07NMKNHBO@date_in?$AA@ (`string')
+244 00000000 SECT29 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum 57A1E807, selection    2 (pick any)
+246 00000000 SECT29 notype       External     | ??_C@_0DB@PKMLBHAN@date?1time?5value?5?$CCcurrent?$CC?5is?5no?5@ (`string')
+247 00000000 SECT2A notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 5AAFBCAF, selection    2 (pick any)
+249 00000000 SECT2A notype       External     | ??_C@_0BI@GJBIJHA@date?5out?5of?5range?3?5?$CC?$CFs?$CC?$AA@ (`string')
+24A 00000000 SECT2B notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum 23466870, selection    2 (pick any)
+24C 00000000 SECT2B notype       External     | ??_C@_09DPDDPPPJ@date_recv?$AA@ (`string')
+24D 00000000 SECT2C notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum  DD6CA8E, selection    2 (pick any)
+24F 00000000 SECT2C notype       External     | ??_C@_0BC@JFDCPKDM@date?5out?5of?5range?$AA@ (`string')
+250 00000000 SECT2D notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum 628C612F, selection    2 (pick any)
+252 00000000 SECT2D notype       External     | ??_C@_09HOPJPGKG@make_date?$AA@ (`string')
+253 00000000 SECT2E notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum BE1F4330, selection    2 (pick any)
+255 00000000 SECT2E notype       External     | ??_C@_0CM@MCMENKND@date?5field?5value?5out?5of?5range?3?5?$CF@ (`string')
+256 00000000 SECT2F notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum E296997D, selection    2 (pick any)
+258 00000000 SECT2F notype       External     | ??_C@_0CA@EGDDDCP@date?5out?5of?5range?3?5?$CFd?9?$CF02d?9?$CF02d?$AA@ (`string')
+259 00000000 SECT30 notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum 85B659CD, selection    2 (pick any)
+25B 00000000 SECT30 notype       External     | ??_C@_09JJMDMOEE@?9infinity?$AA@ (`string')
+25C 00000000 SECT31 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 3F15D1AD, selection    2 (pick any)
+25E 00000000 SECT31 notype       External     | ??_C@_08CGODDKPM@infinity?$AA@ (`string')
+25F 00000000 SECT32 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum F30BC250, selection    2 (pick any)
+261 00000000 SECT32 notype       External     | ??_C@_0BC@GLOPPCOC@EncodeSpecialDate?$AA@ (`string')
+262 00000000 SECT33 notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum B80D2123, selection    2 (pick any)
+264 00000000 SECT33 notype       External     | ??_C@_0CH@MHAACKPM@invalid?5argument?5for?5EncodeSpeci@ (`string')
+265 00000000 SECT34 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 87A3709E, selection    2 (pick any)
+267 00000000 SECT34 notype       External     | ??_C@_0BC@BPEHEACM@GetSQLCurrentDate?$AA@ (`string')
+268 00000000 SECT35 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 9199A746, selection    2 (pick any)
+26A 00000000 SECT35 notype       External     | ??_C@_0BH@BMMGHMPN@timestamp?5out?5of?5range?$AA@ (`string')
+26B 00000000 SECT36 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 3100570C, selection    2 (pick any)
+26D 00000000 SECT36 notype       External     | ??_C@_0BC@KJOEGHLO@GetSQLCurrentTime?$AA@ (`string')
+26E 00000000 SECT37 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 46C69F2D, selection    2 (pick any)
+270 00000000 SECT37 notype       External     | ??_C@_0BA@FFICCLIH@GetSQLLocalTime?$AA@ (`string')
+271 00000000 SECT38 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum DF5FC993, selection    2 (pick any)
+273 00000000 SECT38 notype       External     | ??_C@_07EFICOJAF@date_mi?$AA@ (`string')
+274 00000000 SECT39 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum C33E8B2A, selection    2 (pick any)
+276 00000000 SECT39 notype       External     | ??_C@_0BP@FFMINIGF@cannot?5subtract?5infinite?5dates?$AA@ (`string')
+277 00000000 SECT3A notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 795E0070, selection    2 (pick any)
+279 00000000 SECT3A notype       External     | ??_C@_08GAKIOLCB@date_pli?$AA@ (`string')
+27A 00000000 SECT3B notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum DDE64DD9, selection    2 (pick any)
+27C 00000000 SECT3B notype       External     | ??_C@_08MEBAKGII@date_mii?$AA@ (`string')
+27D 00000000 SECT3C notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 9366FDBE, selection    2 (pick any)
+27F 00000000 SECT3C notype       External     | ??_C@_0P@LLEKABKG@date2timestamp?$AA@ (`string')
+280 00000000 SECT3D notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 7CBD9C93, selection    2 (pick any)
+282 00000000 SECT3D notype       External     | ??_C@_0CA@JKEIDGMB@date?5out?5of?5range?5for?5timestamp?$AA@ (`string')
+283 00000000 SECT3E notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 3F62CF01, selection    2 (pick any)
+285 00000000 SECT3E notype       External     | ??_C@_0BB@JHCMBED@date2timestamptz?$AA@ (`string')
+286 00000000 SECT3F notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 7AFB2B8F, selection    2 (pick any)
+288 00000000 SECT3F notype       External     | ??_C@_0P@FCNHNHJH@timestamp_date?$AA@ (`string')
+289 00000000 SECT40 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 19DAA7CA, selection    2 (pick any)
+28B 00000000 SECT40 notype       External     | ??_C@_0BB@CPMKKJII@timestamptz_date?$AA@ (`string')
+28C 00000000 SECT41 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum B44CA52C, selection    2 (pick any)
+28E 00000000 SECT41 notype       External     | ??_C@_0N@EEMHBMFB@abstime_date?$AA@ (`string')
+28F 00000000 SECT42 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum 62736611, selection    2 (pick any)
+291 00000000 SECT42 notype       External     | ??_C@_0CO@JOPDJBAF@cannot?5convert?5reserved?5abstime?5@ (`string')
+292 00000000 SECT43 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum BB3E5B63, selection    2 (pick any)
+294 00000000 SECT43 notype       External     | ??_C@_0BO@EEMFJKCJ@abstime?5out?5of?5range?5for?5date?$AA@ (`string')
+295 00000000 SECT44 notype       Static       | .rdata
+    Section length    5, #relocs    0, #linenums    0, checksum 12F93917, selection    2 (pick any)
+297 00000000 SECT44 notype       External     | ??_C@_04CLCEDBPF@time?$AA@ (`string')
+298 00000000 SECT45 notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum DCC46180, selection    2 (pick any)
+29A 00000000 SECT45 notype       External     | ??_C@_09MALBPGAJ@time_recv?$AA@ (`string')
+29B 00000000 SECT46 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum FE39E948, selection    2 (pick any)
+29D 00000000 SECT46 notype       External     | ??_C@_0BC@GGNNNJPK@time?5out?5of?5range?$AA@ (`string')
+29E 00000000 SECT47 notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum D42F46BD, selection    2 (pick any)
+2A0 00000000 SECT47 notype       External     | ??_C@_09MIFKNBDE@make_time?$AA@ (`string')
+2A1 00000000 SECT48 notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum 2DA41B57, selection    2 (pick any)
+2A3 00000000 SECT48 notype       External     | ??_C@_0CM@FBHPICLE@time?5field?5value?5out?5of?5range?3?5?$CF@ (`string')
+2A4 00000000 SECT49 notype       Static       | .rdata
+    Section length   70, #relocs    0, #linenums    0, checksum AA8F38A0
+2A6 00000000 SECT49 notype       Static       | ?TimeScales@?1??AdjustTimeForTypmod@@9@9 (`AdjustTimeForTypmod'::`2'::TimeScales)
+2A7 00000038 SECT49 notype       Static       | ?TimeOffsets@?1??AdjustTimeForTypmod@@9@9 (`AdjustTimeForTypmod'::`2'::TimeOffsets)
+2A8 00000000 SECT4A notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum CC580C1D, selection    2 (pick any)
+2AA 00000000 SECT4A notype       External     | ??_C@_0P@OEHEPAAF@timestamp_time?$AA@ (`string')
+2AB 00000000 SECT4B notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum AF798058, selection    2 (pick any)
+2AD 00000000 SECT4B notype       External     | ??_C@_0BB@JJGJIOBK@timestamptz_time?$AA@ (`string')
+2AE 00000000 SECT4C notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 92565B88, selection    2 (pick any)
+2B0 00000000 SECT4C notype       External     | ??_C@_0BD@LHKBGNBI@datetime_timestamp?$AA@ (`string')
+2B1 00000000 SECT4D notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum  6B40E72, selection    2 (pick any)
+2B3 00000000 SECT4D notype       External     | ??_C@_09BKMBJJPL@time_part?$AA@ (`string')
+2B4 00000000 SECT4E notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum A11C78A7, selection    2 (pick any)
+2B6 00000000 SECT4E notype       External     | ??_C@_0CB@CEJPLNNF@?$CCtime?$CC?5units?5?$CC?$CFs?$CC?5not?5recognized@ (`string')
+2B7 00000000 SECT4F notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum CDE7F1D8, selection    2 (pick any)
+2B9 00000000 SECT4F notype       External     | ??_C@_0BE@DNMNJFKK@time?5with?5time?5zone?$AA@ (`string')
+2BA 00000000 SECT50 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 1FFCECA7, selection    2 (pick any)
+2BC 00000000 SECT50 notype       External     | ??_C@_0M@JLNGNFDH@timetz_recv?$AA@ (`string')
+2BD 00000000 SECT51 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum  D3CBB7D, selection    2 (pick any)
+2BF 00000000 SECT51 notype       External     | ??_C@_0CE@JIHFPGFH@time?5zone?5displacement?5out?5of?5ra@ (`string')
+2C0 00000000 SECT52 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 19F2AAF5, selection    2 (pick any)
+2C2 00000000 SECT52 notype       External     | ??_C@_0BD@DMAFJMGF@timestamptz_timetz?$AA@ (`string')
+2C3 00000000 SECT53 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 1142760B, selection    2 (pick any)
+2C5 00000000 SECT53 notype       External     | ??_C@_0BH@JMBNKNLA@datetimetz_timestamptz?$AA@ (`string')
+2C6 00000000 SECT54 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum C58C8355, selection    2 (pick any)
+2C8 00000000 SECT54 notype       External     | ??_C@_0M@EBKGLKMF@timetz_part?$AA@ (`string')
+2C9 00000000 SECT55 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum  3AC49E6, selection    2 (pick any)
+2CB 00000000 SECT55 notype       External     | ??_C@_0DA@ONLAFIM@?$CCtime?5with?5time?5zone?$CC?5units?5?$CC?$CFs?$CC@ (`string')
+2CC 00000000 SECT56 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 290695C3, selection    2 (pick any)
+2CE 00000000 SECT56 notype       External     | ??_C@_0M@KNCMKMFD@timetz_zone?$AA@ (`string')
+2CF 00000000 SECT57 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 3564142C, selection    2 (pick any)
+2D1 00000000 SECT57 notype       External     | ??_C@_0BO@MKJPNFGG@time?5zone?5?$CC?$CFs?$CC?5not?5recognized?$AA@ (`string')
+2D2 00000000 SECT58 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 8365EA3E, selection    2 (pick any)
+2D4 00000000 SECT58 notype       External     | ??_C@_0N@HDOOFDED@timetz_izone?$AA@ (`string')
+2D5 00000000 SECT59 notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum 8E8EFFF1, selection    2 (pick any)
+2D7 00000000 SECT59 notype       External     | ??_C@_0DI@KCLJKFEH@interval?5time?5zone?5?$CC?$CFs?$CC?5must?5not@ (`string')
+2D8 00000000 UNDEF  notype       External     | __ImageBase
+2D9 00000000 SECT5A notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 1826231B, selection    2 (pick any)
+2DB 00000000 SECT5A notype       External     | __real@404e000000000000
+2DC 00000000 SECT5B notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum BA5D48D4, selection    2 (pick any)
+2DE 00000000 SECT5B notype       External     | __real@408f400000000000
+2DF 00000000 SECT5C notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 4C23F495, selection    2 (pick any)
+2E1 00000000 SECT5C notype       External     | __real@40ac200000000000
+2E2 00000000 SECT5D notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum  1B97D4D, selection    2 (pick any)
+2E4 00000000 SECT5D notype       External     | __real@412e848000000000
+2E5 00000000 SECT5E notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 15B71505, selection    2 (pick any)
+2E7 00000000 SECT5E notype       External     | __real@42341dd760000000
+2E8 00000000 SECT5F notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum E31C9104, selection    2 (pick any)
+2EA 00000000 SECT5F notype       External     | __real@7fefffffffffffff
+2EB 00000000 SECT60 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum  EA41224, selection    2 (pick any)
+2ED 00000000 SECT60 notype       External     | __real@ffefffffffffffff
+2EE 00000000 UNDEF  notype       External     | __security_cookie
+2EF 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x2877 bytes
+
+  Summary
+
+        F268 .debug$S
+          68 .debug$T
+          5D .drectve
+         528 .pdata
+         5BC .rdata
+        3EB2 .text$mn
+         5A8 .xdata

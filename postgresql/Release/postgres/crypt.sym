@@ -1,0 +1,108 @@
+
+Dump of file Release\postgres/crypt.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4278, #relocs   72, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  46A, #relocs   34, #linenums    0, checksum 60758161
+00A 00000000 UNDEF  notype       External     | __imp_strncmp
+00B 00000000 UNDEF  notype ()    External     | elog_start
+00C 00000000 UNDEF  notype ()    External     | elog_finish
+00D 00000000 UNDEF  notype ()    External     | palloc
+00E 00000000 UNDEF  notype ()    External     | pstrdup
+00F 00000000 UNDEF  notype ()    External     | psprintf
+010 00000000 UNDEF  notype ()    External     | pg_md5_encrypt
+011 00000000 SECT4  notype ()    External     | get_password_type
+012 00000070 SECT4  notype ()    External     | encrypt_password
+013 000001C0 SECT4  notype ()    External     | get_role_password
+014 000002E0 SECT4  notype ()    External     | md5_crypt_verify
+015 000003A0 SECT4  notype ()    External     | plain_crypt_verify
+016 00000000 UNDEF  notype ()    External     | pg_be_scram_build_verifier
+017 00000000 UNDEF  notype ()    External     | scram_verify_plain_password
+018 00000000 UNDEF  notype ()    External     | text_to_cstring
+019 00000000 UNDEF  notype ()    External     | SearchSysCache
+01A 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+01B 00000000 UNDEF  notype ()    External     | SysCacheGetAttr
+01C 00000000 UNDEF  notype ()    External     | GetCurrentTimestamp
+01D 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+01E 00000000 UNDEF  notype ()    External     | __security_check_cookie
+01F 00000000 SECT4  notype       Label        | $LN7
+020 00000070 SECT4  notype       Label        | $LN24
+021 000001C0 SECT4  notype       Label        | $LN9
+022 000002E0 SECT4  notype       Label        | $LN12
+023 000003A0 SECT4  notype       Label        | $LN20
+024 00000000 SECT5  notype       Static       | .xdata
+    Section length   5C, #relocs    2, #linenums    0, checksum E3FDB400
+026 00000000 SECT5  notype       Static       | $unwind$get_password_type
+027 00000000 SECT6  notype       Static       | .pdata
+    Section length   3C, #relocs    F, #linenums    0, checksum F9E1C033
+029 00000000 SECT6  notype       Static       | $pdata$get_password_type
+02A 00000008 SECT5  notype       Static       | $unwind$encrypt_password
+02B 0000000C SECT6  notype       Static       | $pdata$encrypt_password
+02C 00000018 SECT5  notype       Static       | $unwind$get_role_password
+02D 00000018 SECT6  notype       Static       | $pdata$get_role_password
+02E 0000002C SECT5  notype       Static       | $unwind$md5_crypt_verify
+02F 00000024 SECT6  notype       Static       | $pdata$md5_crypt_verify
+030 00000044 SECT5  notype       Static       | $unwind$plain_crypt_verify
+031 00000030 SECT6  notype       Static       | $pdata$plain_crypt_verify
+032 00000000 SECT7  notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 1BBF85AF, selection    2 (pick any)
+034 00000000 SECT7  notype       External     | ??_C@_0BK@ELKMMEGC@Role?5?$CC?$CFs?$CC?5does?5not?5exist?4?$AA@ (`string')
+035 00000000 SECT8  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 60811E84, selection    2 (pick any)
+037 00000000 SECT8  notype       External     | ??_C@_0CE@PFMIFDKO@User?5?$CC?$CFs?$CC?5has?5no?5password?5assign@ (`string')
+038 00000000 SECT9  notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum E8443F0B, selection    2 (pick any)
+03A 00000000 SECT9  notype       External     | ??_C@_0CD@BOEDJHMD@User?5?$CC?$CFs?$CC?5has?5an?5expired?5passwor@ (`string')
+03B 00000000 SECTA  notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum 24A38E94, selection    2 (pick any)
+03D 00000000 SECTA  notype       External     | ??_C@_03PKBIKOHH@md5?$AA@ (`string')
+03E 00000000 SECTB  notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum E2A0AE73, selection    2 (pick any)
+040 00000000 SECTB  notype       External     | ??_C@_0P@MKIMFCGL@SCRAM?9SHA?9256$?$AA@ (`string')
+041 00000000 SECTC  notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 1B828CCE, selection    2 (pick any)
+043 00000000 SECTC  notype       External     | ??_C@_0BB@CNJCICIM@encrypt_password?$AA@ (`string')
+044 00000000 SECTD  notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum CC14A9F0, selection    2 (pick any)
+046 00000000 SECTD  notype       External     | ??_C@_0BK@JMAHOIDN@src?1backend?1libpq?1crypt?4c?$AA@ (`string')
+047 00000000 SECTE  notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum A1704B49, selection    2 (pick any)
+049 00000000 SECTE  notype       External     | ??_C@_0BL@EEPFOGAF@password?5encryption?5failed?$AA@ (`string')
+04A 00000000 SECTF  notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum B931CEBD, selection    2 (pick any)
+04C 00000000 SECTF  notype       External     | ??_C@_0CJ@CIEDLBOI@cannot?5encrypt?5password?5with?5?8pl@ (`string')
+04D 00000000 SECT10 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum 1553B735, selection    2 (pick any)
+04F 00000000 SECT10 notype       External     | ??_C@_0CK@OMDGADB@cannot?5encrypt?5password?5to?5reque@ (`string')
+050 00000000 SECT11 notype       Static       | .rdata
+    Section length   46, #relocs    0, #linenums    0, checksum 1A96455C, selection    2 (pick any)
+052 00000000 SECT11 notype       External     | ??_C@_0EG@BFBDDGHA@User?5?$CC?$CFs?$CC?5has?5a?5password?5that?5ca@ (`string')
+053 00000000 SECT12 notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum C08F98CC, selection    2 (pick any)
+055 00000000 SECT12 notype       External     | ??_C@_0CH@LPICJDBD@Password?5does?5not?5match?5for?5user@ (`string')
+056 00000000 SECT13 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum C56476DB, selection    2 (pick any)
+058 00000000 SECT13 notype       External     | ??_C@_0DB@GIAOIJNB@Password?5of?5user?5?$CC?$CFs?$CC?5is?5in?5unre@ (`string')
+059 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x523 bytes
+
+  Summary
+
+        4278 .debug$S
+          68 .debug$T
+          5D .drectve
+          3C .pdata
+         1AB .rdata
+         46A .text$mn
+          5C .xdata

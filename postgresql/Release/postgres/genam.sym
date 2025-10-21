@@ -1,0 +1,155 @@
+
+Dump of file Release\postgres/genam.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5C68, #relocs   D8, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  90D, #relocs   5D, #linenums    0, checksum C48261D5
+00A 00000000 UNDEF  notype ()    External     | elog_start
+00B 00000000 UNDEF  notype ()    External     | elog_finish
+00C 00000000 UNDEF  notype ()    External     | palloc
+00D 00000000 UNDEF  notype ()    External     | pfree
+00E 00000000 UNDEF  notype ()    External     | OidOutputFunctionCall
+00F 00000000 UNDEF  notype ()    External     | initStringInfo
+010 00000000 UNDEF  notype ()    External     | appendStringInfo
+011 00000000 UNDEF  notype ()    External     | appendStringInfoString
+012 00000000 UNDEF  notype ()    External     | appendStringInfoChar
+013 00000000 UNDEF  notype ()    External     | index_open
+014 00000000 UNDEF  notype ()    External     | index_close
+015 00000000 UNDEF  notype ()    External     | index_beginscan
+016 00000000 UNDEF  notype ()    External     | index_rescan
+017 00000000 UNDEF  notype ()    External     | index_endscan
+018 00000000 UNDEF  notype ()    External     | index_getnext
+019 00000000 SECT4  notype ()    External     | RelationGetIndexScan
+01A 000000F0 SECT4  notype ()    External     | IndexScanEnd
+01B 00000130 SECT4  notype ()    External     | BuildIndexValueDescription
+01C 00000360 SECT4  notype ()    External     | systable_beginscan
+01D 00000530 SECT4  notype ()    External     | systable_getnext
+01E 000005B0 SECT4  notype ()    External     | systable_recheck_tuple
+01F 00000640 SECT4  notype ()    External     | systable_endscan
+020 000006A0 SECT4  notype ()    External     | systable_beginscan_ordered
+021 00000870 SECT4  notype ()    External     | systable_getnext_ordered
+022 000008E0 SECT4  notype ()    External     | systable_endscan_ordered
+023 00000000 UNDEF  notype ()    External     | heap_beginscan_strat
+024 00000000 UNDEF  notype ()    External     | heap_endscan
+025 00000000 UNDEF  notype ()    External     | heap_getnext
+026 00000000 UNDEF  notype ()    External     | TransactionStartedDuringRecovery
+027 00000000 UNDEF  notype ()    External     | pg_attribute_aclcheck
+028 00000000 UNDEF  notype ()    External     | pg_class_aclcheck
+029 00000000 UNDEF  notype ()    External     | ReindexIsProcessingIndex
+02A 00000000 UNDEF  notype ()    External     | GetUserId
+02B 00000000 UNDEF  notype ()    External     | GetCatalogSnapshot
+02C 00000000 UNDEF  notype ()    External     | RegisterSnapshot
+02D 00000000 UNDEF  notype ()    External     | UnregisterSnapshot
+02E 00000000 UNDEF  notype ()    External     | LockBuffer
+02F 00000000 UNDEF  notype ()    External     | getTypeOutputInfo
+030 00000000 UNDEF  notype ()    External     | check_enable_rls
+031 00000000 UNDEF  notype ()    External     | pg_get_indexdef_columns
+032 00000000 UNDEF  notype ()    External     | SearchSysCache
+033 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+034 00000000 SECT4  notype       Label        | $LN8
+035 000000F0 SECT4  notype       Label        | $LN6
+036 00000130 SECT4  notype       Label        | $LN32
+037 00000360 SECT4  notype       Label        | $LN33
+038 00000530 SECT4  notype       Label        | $LN14
+039 000005B0 SECT4  notype       Label        | $LN7
+03A 00000640 SECT4  notype       Label        | $LN7
+03B 000006A0 SECT4  notype       Label        | $LN38
+03C 00000870 SECT4  notype       Label        | $LN11
+03D 000008E0 SECT4  notype       Label        | $LN5
+03E 00000000 SECT5  notype       Static       | .xdata
+    Section length   E8, #relocs    C, #linenums    0, checksum B98BC63A
+040 00000000 SECT5  notype       Static       | $unwind$RelationGetIndexScan
+041 00000000 SECT6  notype       Static       | .pdata
+    Section length   A8, #relocs   2A, #linenums    0, checksum FFCFDD75
+043 00000000 SECT6  notype       Static       | $pdata$RelationGetIndexScan
+044 00000018 SECT5  notype       Static       | $unwind$IndexScanEnd
+045 0000000C SECT6  notype       Static       | $pdata$IndexScanEnd
+046 00000020 SECT5  notype       Static       | $unwind$BuildIndexValueDescription
+047 00000018 SECT6  notype       Static       | $pdata$BuildIndexValueDescription
+048 00000038 SECT5  notype       Static       | $unwind$systable_beginscan
+049 00000024 SECT6  notype       Static       | $pdata$systable_beginscan
+04A 0000004C SECT5  notype       Static       | $chain$1$systable_beginscan
+04B 00000030 SECT6  notype       Static       | $pdata$1$systable_beginscan
+04C 00000064 SECT5  notype       Static       | $chain$2$systable_beginscan
+04D 0000003C SECT6  notype       Static       | $pdata$2$systable_beginscan
+04E 00000074 SECT5  notype       Static       | $unwind$systable_getnext
+04F 00000048 SECT6  notype       Static       | $pdata$systable_getnext
+050 0000007C SECT5  notype       Static       | $chain$0$systable_getnext
+051 00000054 SECT6  notype       Static       | $pdata$0$systable_getnext
+052 00000090 SECT5  notype       Static       | $chain$1$systable_getnext
+053 00000060 SECT6  notype       Static       | $pdata$1$systable_getnext
+054 000000A0 SECT5  notype       Static       | $unwind$systable_recheck_tuple
+055 0000006C SECT6  notype       Static       | $pdata$systable_recheck_tuple
+056 000000B0 SECT5  notype       Static       | $unwind$systable_endscan
+057 00000078 SECT6  notype       Static       | $pdata$systable_endscan
+058 000000B8 SECT5  notype       Static       | $unwind$systable_beginscan_ordered
+059 00000084 SECT6  notype       Static       | $pdata$systable_beginscan_ordered
+05A 000000D4 SECT5  notype       Static       | $unwind$systable_getnext_ordered
+05B 00000090 SECT6  notype       Static       | $pdata$systable_getnext_ordered
+05C 000000E0 SECT5  notype       Static       | $unwind$systable_endscan_ordered
+05D 0000009C SECT6  notype       Static       | $pdata$systable_endscan_ordered
+05E 00000000 UNDEF  notype       External     | IgnoreSystemIndexes
+05F 00000000 SECT7  notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum E8DC4AF7, selection    2 (pick any)
+061 00000000 SECT7  notype       External     | ??_C@_0BL@NFJOHLL@BuildIndexValueDescription?$AA@ (`string')
+062 00000000 SECT8  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum  9D73ACB, selection    2 (pick any)
+064 00000000 SECT8  notype       External     | ??_C@_0CB@IMFEPPLJ@src?1backend?1access?1index?1genam?4c@ (`string')
+065 00000000 SECT9  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum A7687AA8, selection    2 (pick any)
+067 00000000 SECT9  notype       External     | ??_C@_0CB@CCOLLPNK@cache?5lookup?5failed?5for?5index?5?$CFu@ (`string')
+068 00000000 SECTA  notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum B99541BC, selection    2 (pick any)
+06A 00000000 SECTA  notype       External     | ??_C@_06NLAGGBDN@?$CI?$CFs?$CJ?$DN?$CI?$AA@ (`string')
+06B 00000000 SECTB  notype       Static       | .rdata
+    Section length    5, #relocs    0, #linenums    0, checksum F2668F6D, selection    2 (pick any)
+06D 00000000 SECTB  notype       External     | ??_C@_04MLLLIHIP@null?$AA@ (`string')
+06E 00000000 SECTC  notype       Static       | .rdata
+    Section length    3, #relocs    0, #linenums    0, checksum A4D39B26, selection    2 (pick any)
+070 00000000 SECTC  notype       External     | ??_C@_02KEGNLNML@?0?5?$AA@ (`string')
+071 00000000 SECTD  notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 9F90BE57, selection    2 (pick any)
+073 00000000 SECTD  notype       External     | ??_C@_0BD@LKGHIIMH@systable_beginscan?$AA@ (`string')
+074 00000000 SECTE  notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum AC587465, selection    2 (pick any)
+076 00000000 SECTE  notype       External     | ??_C@_0BH@CBAHKPNO@column?5is?5not?5in?5index?$AA@ (`string')
+077 00000000 SECTF  notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum AE6EDEAB, selection    2 (pick any)
+079 00000000 SECTF  notype       External     | ??_C@_0BB@JIHONAOJ@systable_getnext?$AA@ (`string')
+07A 00000000 SECT10 notype       Static       | .rdata
+    Section length   45, #relocs    0, #linenums    0, checksum 21F83E79, selection    2 (pick any)
+07C 00000000 SECT10 notype       External     | ??_C@_0EF@KEHCCGDA@system?5catalog?5scans?5with?5lossy?5@ (`string')
+07D 00000000 SECT11 notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum F242EF1C, selection    2 (pick any)
+07F 00000000 SECT11 notype       External     | ??_C@_0BL@BHMHECFA@systable_beginscan_ordered?$AA@ (`string')
+080 00000000 SECT12 notype       Static       | .rdata
+    Section length   44, #relocs    0, #linenums    0, checksum 74BB37CC, selection    2 (pick any)
+082 00000000 SECT12 notype       External     | ??_C@_0EE@JLJDKGJO@cannot?5do?5ordered?5scan?5on?5index?5@ (`string')
+083 00000000 SECT13 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum B635FBC0, selection    2 (pick any)
+085 00000000 SECT13 notype       External     | ??_C@_0CN@IPEKJDJL@using?5index?5?$CC?$CFs?$CC?5despite?5IgnoreS@ (`string')
+086 00000000 SECT14 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 62E94BA3, selection    2 (pick any)
+088 00000000 SECT14 notype       External     | ??_C@_0BJ@HENJLKND@systable_getnext_ordered?$AA@ (`string')
+
+String Table Size = 0x8B5 bytes
+
+  Summary
+
+        5C68 .debug$S
+          68 .debug$T
+          5D .drectve
+          A8 .pdata
+         191 .rdata
+         90D .text$mn
+          E8 .xdata

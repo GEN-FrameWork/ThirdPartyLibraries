@@ -1,0 +1,90 @@
+
+Dump of file Release\postgres/nodeSeqscan.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5AF4, #relocs   88, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  3A3, #relocs   25, #linenums    0, checksum 6B69AB8D
+00A 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+00B 00000000 UNDEF  notype ()    External     | heap_beginscan
+00C 00000000 UNDEF  notype ()    External     | heap_rescan
+00D 00000000 UNDEF  notype ()    External     | heap_endscan
+00E 00000000 UNDEF  notype ()    External     | heap_getnext
+00F 00000000 UNDEF  notype ()    External     | heap_parallelscan_estimate
+010 00000000 UNDEF  notype ()    External     | heap_parallelscan_initialize
+011 00000000 UNDEF  notype ()    External     | heap_parallelscan_reinitialize
+012 00000000 UNDEF  notype ()    External     | heap_beginscan_parallel
+013 00000000 UNDEF  notype ()    External     | ExecStoreTuple
+014 00000000 UNDEF  notype ()    External     | ExecClearTuple
+015 00000000 UNDEF  notype ()    External     | ExecInitQual
+016 00000000 UNDEF  notype ()    External     | ExecScan
+017 00000000 UNDEF  notype ()    External     | ExecAssignScanProjectionInfo
+018 00000000 UNDEF  notype ()    External     | ExecScanReScan
+019 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+01A 00000000 UNDEF  notype ()    External     | ExecInitScanTupleSlot
+01B 00000000 UNDEF  notype ()    External     | ExecAssignExprContext
+01C 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+01D 00000000 UNDEF  notype ()    External     | ExecFreeExprContext
+01E 00000000 UNDEF  notype ()    External     | ExecAssignScanType
+01F 00000000 UNDEF  notype ()    External     | ExecOpenScanRelation
+020 00000000 UNDEF  notype ()    External     | ExecCloseScanRelation
+021 00000000 UNDEF  notype ()    External     | add_size
+022 00000000 UNDEF  notype ()    External     | shm_toc_allocate
+023 00000000 UNDEF  notype ()    External     | shm_toc_insert
+024 00000000 UNDEF  notype ()    External     | shm_toc_lookup
+025 00000000 SECT4  notype ()    External     | ExecInitSeqScan
+026 000000E0 SECT4  notype ()    External     | ExecEndSeqScan
+027 00000150 SECT4  notype ()    External     | ExecReScanSeqScan
+028 00000180 SECT4  notype ()    External     | ExecSeqScanEstimate
+029 000001E0 SECT4  notype ()    External     | ExecSeqScanInitializeDSM
+02A 00000270 SECT4  notype ()    External     | ExecSeqScanReInitializeDSM
+02B 00000290 SECT4  notype ()    External     | ExecSeqScanInitializeWorker
+02C 000002E0 SECT4  notype ()    Static       | SeqNext
+02D 00000380 SECT4  notype ()    Static       | SeqRecheck
+02E 00000390 SECT4  notype ()    Static       | ExecSeqScan
+02F 00000000 SECT4  notype       Label        | $LN6
+030 000000E0 SECT4  notype       Label        | $LN5
+031 00000150 SECT4  notype       Label        | $LN5
+032 00000180 SECT4  notype       Label        | $LN4
+033 000001E0 SECT4  notype       Label        | $LN4
+034 00000290 SECT4  notype       Label        | $LN4
+035 00000000 SECT5  notype       Static       | .xdata
+    Section length   68, #relocs    0, #linenums    0, checksum 4BBC999C
+037 00000000 SECT5  notype       Static       | $unwind$ExecInitSeqScan
+038 00000000 SECT6  notype       Static       | .pdata
+    Section length   54, #relocs   15, #linenums    0, checksum 41A30888
+03A 00000000 SECT6  notype       Static       | $pdata$ExecInitSeqScan
+03B 00000014 SECT5  notype       Static       | $unwind$ExecEndSeqScan
+03C 0000000C SECT6  notype       Static       | $pdata$ExecEndSeqScan
+03D 00000024 SECT5  notype       Static       | $unwind$ExecReScanSeqScan
+03E 00000018 SECT6  notype       Static       | $pdata$ExecReScanSeqScan
+03F 0000002C SECT5  notype       Static       | $unwind$ExecSeqScanEstimate
+040 00000024 SECT6  notype       Static       | $pdata$ExecSeqScanEstimate
+041 00000038 SECT5  notype       Static       | $unwind$ExecSeqScanInitializeDSM
+042 00000030 SECT6  notype       Static       | $pdata$ExecSeqScanInitializeDSM
+043 0000004C SECT5  notype       Static       | $unwind$ExecSeqScanInitializeWorker
+044 0000003C SECT6  notype       Static       | $pdata$ExecSeqScanInitializeWorker
+045 00000054 SECT5  notype       Static       | $unwind$SeqNext
+046 00000048 SECT6  notype       Static       | $pdata$SeqNext
+047 00000000 UNDEF  notype       External     | CurrentMemoryContext
+048 00000000 UNDEF  notype       External     | newNodeMacroHolder
+
+String Table Size = 0x43E bytes
+
+  Summary
+
+        5AF4 .debug$S
+          68 .debug$T
+          5D .drectve
+          54 .pdata
+         3A3 .text$mn
+          68 .xdata

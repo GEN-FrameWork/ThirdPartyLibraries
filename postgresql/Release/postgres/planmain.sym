@@ -1,0 +1,69 @@
+
+Dump of file Release\postgres/planmain.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 3DA4, #relocs   24, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  227, #relocs   1A, #linenums    0, checksum 841F6CB7
+00A 00000000 UNDEF  notype ()    External     | elog_start
+00B 00000000 UNDEF  notype ()    External     | elog_finish
+00C 00000000 UNDEF  notype ()    External     | is_parallel_safe
+00D 00000000 UNDEF  notype ()    External     | extract_restriction_or_clauses
+00E 00000000 UNDEF  notype ()    External     | set_cheapest
+00F 00000000 UNDEF  notype ()    External     | add_path
+010 00000000 UNDEF  notype ()    External     | create_result_path
+011 00000000 UNDEF  notype ()    External     | setup_simple_rel_arrays
+012 00000000 UNDEF  notype ()    External     | build_empty_join_rel
+013 00000000 UNDEF  notype ()    External     | make_one_rel
+014 00000000 UNDEF  notype ()    External     | reconsider_outer_join_clauses
+015 00000000 UNDEF  notype ()    External     | generate_base_implied_equalities
+016 00000000 UNDEF  notype ()    External     | find_placeholders_in_jointree
+017 00000000 UNDEF  notype ()    External     | fix_placeholder_input_needed_levels
+018 00000000 UNDEF  notype ()    External     | add_placeholders_to_base_rels
+019 00000000 SECT4  notype ()    External     | query_planner
+01A 00000000 UNDEF  notype ()    External     | add_base_rels_to_query
+01B 00000000 UNDEF  notype ()    External     | build_base_rel_tlists
+01C 00000000 UNDEF  notype ()    External     | find_lateral_references
+01D 00000000 UNDEF  notype ()    External     | create_lateral_join_info
+01E 00000000 UNDEF  notype ()    External     | deconstruct_jointree
+01F 00000000 UNDEF  notype ()    External     | match_foreign_keys_to_quals
+020 00000000 UNDEF  notype ()    External     | remove_useless_joins
+021 00000000 UNDEF  notype ()    External     | reduce_unique_semijoins
+022 00000000 SECT4  notype       Label        | $LN23
+023 00000000 SECT5  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum C2D1B755
+025 00000000 SECT5  notype       Static       | $unwind$query_planner
+026 00000000 SECT6  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 642C7A66
+028 00000000 SECT6  notype       Static       | $pdata$query_planner
+029 00000000 SECT7  notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum ECB37D26, selection    2 (pick any)
+02B 00000000 SECT7  notype       External     | ??_C@_0O@MCPHPLBO@query_planner?$AA@ (`string')
+02C 00000000 SECT8  notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum DEABFBA5, selection    2 (pick any)
+02E 00000000 SECT8  notype       External     | ??_C@_0CG@LJKNJPOJ@src?1backend?1optimizer?1plan?1planm@ (`string')
+02F 00000000 SECT9  notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 3F2424C5, selection    2 (pick any)
+031 00000000 SECT9  notype       External     | ??_C@_0CG@FICCEAIJ@failed?5to?5construct?5the?5join?5rel@ (`string')
+032 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x2D1 bytes
+
+  Summary
+
+        3DA4 .debug$S
+          68 .debug$T
+          5D .drectve
+           C .pdata
+          5A .rdata
+         227 .text$mn
+          18 .xdata

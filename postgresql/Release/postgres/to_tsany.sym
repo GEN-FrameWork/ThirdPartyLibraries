@@ -1,0 +1,158 @@
+
+Dump of file Release\postgres/to_tsany.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 57CC, #relocs  10A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  AFD, #relocs   54, #linenums    0, checksum EF8AC434
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  2B2, #relocs    8, #linenums    0, checksum BE7FB8E3, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  2A4, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype       External     | __imp_strncmp
+00F 00000000 UNDEF  notype ()    External     | pg_qsort
+010 00000000 UNDEF  notype ()    External     | errstart
+011 00000000 UNDEF  notype ()    External     | errfinish
+012 00000000 UNDEF  notype ()    External     | errcode
+013 00000000 UNDEF  notype ()    External     | errmsg
+014 00000000 UNDEF  notype ()    External     | elog_start
+015 00000000 UNDEF  notype ()    External     | elog_finish
+016 00000000 UNDEF  notype ()    External     | palloc
+017 00000000 UNDEF  notype ()    External     | palloc0
+018 00000000 UNDEF  notype ()    External     | repalloc
+019 00000000 UNDEF  notype ()    External     | pfree
+01A 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+01B 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+01C 00000000 UNDEF  notype ()    External     | DirectFunctionCall2Coll
+01D 00000000 UNDEF  notype ()    External     | getTSCurrentConfig
+01E 00000000 UNDEF  notype ()    External     | parse_tsquery
+01F 00000000 UNDEF  notype ()    External     | pushValue
+020 00000000 UNDEF  notype ()    External     | pushStop
+021 00000000 UNDEF  notype ()    External     | pushOperator
+022 00000000 UNDEF  notype ()    External     | parsetext
+023 00000000 SECT4  notype ()    External     | make_tsvector
+024 00000000 UNDEF  notype ()    External     | tsCompareString
+025 000002B0 SECT4  notype ()    External     | to_tsvector_byid
+026 00000400 SECT4  notype ()    External     | to_tsquery_byid
+027 00000450 SECT4  notype ()    External     | plainto_tsquery_byid
+028 000004A0 SECT4  notype ()    External     | to_tsvector
+029 000004E0 SECT4  notype ()    External     | to_tsquery
+02A 00000520 SECT4  notype ()    External     | plainto_tsquery
+02B 00000560 SECT4  notype ()    External     | get_current_ts_config
+02C 00000580 SECT4  notype ()    External     | jsonb_to_tsvector
+02D 000005C0 SECT4  notype ()    External     | json_to_tsvector
+02E 00000600 SECT4  notype ()    External     | jsonb_to_tsvector_byid
+02F 00000680 SECT4  notype ()    External     | json_to_tsvector_byid
+030 00000700 SECT4  notype ()    External     | phraseto_tsquery
+031 00000740 SECT4  notype ()    External     | phraseto_tsquery_byid
+032 00000000 UNDEF  notype ()    External     | text_to_cstring
+033 00000000 UNDEF  notype ()    External     | iterate_jsonb_string_values
+034 00000000 UNDEF  notype ()    External     | iterate_json_string_values
+035 00000790 SECT4  notype ()    Static       | add_to_tsvector
+036 00000840 SECT4  notype ()    Static       | compareWORD
+037 00000000 SECT5  notype ()    Static       | uniqueWORD
+038 000008B0 SECT4  notype ()    Static       | pushval_morph
+039 00000000 UNDEF  notype ()    External     | memcpy
+03A 00000000 SECT4  notype       Label        | $LN43
+03B 000002B0 SECT4  notype       Label        | $LN27
+03C 00000400 SECT4  notype       Label        | $LN4
+03D 00000450 SECT4  notype       Label        | $LN4
+03E 000004A0 SECT4  notype       Label        | $LN4
+03F 000004E0 SECT4  notype       Label        | $LN4
+040 00000520 SECT4  notype       Label        | $LN4
+041 00000560 SECT4  notype       Label        | $LN4
+042 00000580 SECT4  notype       Label        | $LN4
+043 000005C0 SECT4  notype       Label        | $LN4
+044 00000600 SECT4  notype       Label        | $LN8
+045 00000680 SECT4  notype       Label        | $LN8
+046 00000700 SECT4  notype       Label        | $LN4
+047 00000740 SECT4  notype       Label        | $LN4
+048 00000000 SECT7  notype       Static       | .xdata
+    Section length  14C, #relocs   12, #linenums    0, checksum B3665056
+04A 00000000 SECT7  notype       Static       | $unwind$make_tsvector
+04B 00000000 SECT8  notype       Static       | .pdata
+    Section length  114, #relocs   45, #linenums    0, checksum 27A05FE7
+04D 00000000 SECT8  notype       Static       | $pdata$make_tsvector
+04E 00000008 SECT7  notype       Static       | $chain$5$make_tsvector
+04F 0000000C SECT8  notype       Static       | $pdata$5$make_tsvector
+050 00000030 SECT7  notype       Static       | $chain$6$make_tsvector
+051 00000018 SECT8  notype       Static       | $pdata$6$make_tsvector
+052 00000044 SECT7  notype       Static       | $chain$7$make_tsvector
+053 00000024 SECT8  notype       Static       | $pdata$7$make_tsvector
+054 00000054 SECT7  notype       Static       | $chain$8$make_tsvector
+055 00000030 SECT8  notype       Static       | $pdata$8$make_tsvector
+056 00000064 SECT7  notype       Static       | $unwind$to_tsvector_byid
+057 0000003C SECT8  notype       Static       | $pdata$to_tsvector_byid
+058 0000007C SECT7  notype       Static       | $unwind$to_tsquery_byid
+059 00000048 SECT8  notype       Static       | $pdata$to_tsquery_byid
+05A 00000084 SECT7  notype       Static       | $unwind$plainto_tsquery_byid
+05B 00000054 SECT8  notype       Static       | $pdata$plainto_tsquery_byid
+05C 0000008C SECT7  notype       Static       | $unwind$to_tsvector
+05D 00000060 SECT8  notype       Static       | $pdata$to_tsvector
+05E 00000094 SECT7  notype       Static       | $unwind$to_tsquery
+05F 0000006C SECT8  notype       Static       | $pdata$to_tsquery
+060 0000009C SECT7  notype       Static       | $unwind$plainto_tsquery
+061 00000078 SECT8  notype       Static       | $pdata$plainto_tsquery
+062 000000A4 SECT7  notype       Static       | $unwind$get_current_ts_config
+063 00000084 SECT8  notype       Static       | $pdata$get_current_ts_config
+064 000000AC SECT7  notype       Static       | $unwind$jsonb_to_tsvector
+065 00000090 SECT8  notype       Static       | $pdata$jsonb_to_tsvector
+066 000000B4 SECT7  notype       Static       | $unwind$json_to_tsvector
+067 0000009C SECT8  notype       Static       | $pdata$json_to_tsvector
+068 000000BC SECT7  notype       Static       | $unwind$jsonb_to_tsvector_byid
+069 000000A8 SECT8  notype       Static       | $pdata$jsonb_to_tsvector_byid
+06A 000000CC SECT7  notype       Static       | $unwind$json_to_tsvector_byid
+06B 000000B4 SECT8  notype       Static       | $pdata$json_to_tsvector_byid
+06C 000000DC SECT7  notype       Static       | $unwind$phraseto_tsquery
+06D 000000C0 SECT8  notype       Static       | $pdata$phraseto_tsquery
+06E 000000E4 SECT7  notype       Static       | $unwind$phraseto_tsquery_byid
+06F 000000CC SECT8  notype       Static       | $pdata$phraseto_tsquery_byid
+070 000000EC SECT7  notype       Static       | $unwind$add_to_tsvector
+071 000000D8 SECT8  notype       Static       | $pdata$add_to_tsvector
+072 00000104 SECT7  notype       Static       | $unwind$compareWORD
+073 000000E4 SECT8  notype       Static       | $pdata$compareWORD
+074 00000000 SECT9  notype       Static       | .xdata
+    Section length   20, #relocs    0, #linenums    0, checksum DEB56ABE, selection    5 (pick associative Section 0x5)
+076 00000000 SECT9  notype       Static       | $unwind$uniqueWORD
+077 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  34CC0F3, selection    5 (pick associative Section 0x5)
+079 00000000 SECTA  notype       Static       | $pdata$uniqueWORD
+07A 00000110 SECT7  notype       Static       | $unwind$pushval_morph
+07B 000000F0 SECT8  notype       Static       | $pdata$pushval_morph
+07C 00000128 SECT7  notype       Static       | $chain$0$pushval_morph
+07D 000000FC SECT8  notype       Static       | $pdata$0$pushval_morph
+07E 0000013C SECT7  notype       Static       | $chain$1$pushval_morph
+07F 00000108 SECT8  notype       Static       | $pdata$1$pushval_morph
+080 00000000 SECTB  notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum E442017D, selection    2 (pick any)
+082 00000000 SECTB  notype       External     | ??_C@_0O@MKAGIHEF@make_tsvector?$AA@ (`string')
+083 00000000 SECTC  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 44304013, selection    2 (pick any)
+085 00000000 SECTC  notype       External     | ??_C@_0BP@NCMGBDFM@src?1backend?1tsearch?1to_tsany?4c?$AA@ (`string')
+086 00000000 SECTD  notype       Static       | .rdata
+    Section length   39, #relocs    0, #linenums    0, checksum DBB1363E, selection    2 (pick any)
+088 00000000 SECTD  notype       External     | ??_C@_0DJ@PJJPBHNN@string?5is?5too?5long?5for?5tsvector?5@ (`string')
+089 00000000 SECTE  notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 356CEF2C, selection    2 (pick any)
+08B 00000000 SECTE  notype       External     | ??_C@_0BJ@CDFMBOFM@positions?5array?5too?5long?$AA@ (`string')
+
+String Table Size = 0x785 bytes
+
+  Summary
+
+        5A70 .debug$S
+          68 .debug$T
+          5D .drectve
+         120 .pdata
+          7F .rdata
+         DAF .text$mn
+         16C .xdata

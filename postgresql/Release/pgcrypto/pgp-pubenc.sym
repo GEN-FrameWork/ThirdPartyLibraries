@@ -1,0 +1,113 @@
+
+Dump of file Release\pgcrypto/pgp-pubenc.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 3888, #relocs   20, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  118, #relocs    A, #linenums    0, checksum A408FA9E
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  12E, #relocs    8, #linenums    0, checksum 34850C51, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  358, #relocs   22, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   B0, #relocs    7, #linenums    0, checksum EF7ADACD, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  288, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length   89, #relocs    5, #linenums    0, checksum 9C52A3D5, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  234, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  117, #relocs    7, #linenums    0, checksum FA15FDDA, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  2B4, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 UNDEF  notype ()    External     | pg_strong_random
+01B 00000000 UNDEF  notype ()    External     | palloc
+01C 00000000 UNDEF  notype ()    External     | pfree
+01D 00000000 UNDEF  notype ()    External     | px_memset
+01E 00000000 UNDEF  notype ()    External     | px_debug
+01F 00000000 UNDEF  notype ()    External     | pushf_write
+020 00000000 UNDEF  notype ()    External     | pushf_free
+021 00000000 UNDEF  notype ()    External     | pushf_flush
+022 00000000 SECT4  notype ()    External     | pgp_write_pubenc_sesskey
+023 00000000 UNDEF  notype ()    External     | pgp_create_pkt_writer
+024 00000000 UNDEF  notype ()    External     | pgp_mpi_create
+025 00000000 UNDEF  notype ()    External     | pgp_mpi_free
+026 00000000 UNDEF  notype ()    External     | pgp_mpi_write
+027 00000000 UNDEF  notype ()    External     | pgp_elgamal_encrypt
+028 00000000 UNDEF  notype ()    External     | pgp_rsa_encrypt
+029 00000000 SECTB  notype ()    Static       | pad_eme_pkcs1_v15
+02A 00000000 SECT5  notype ()    Static       | create_secmsg
+02B 00000000 SECT7  notype ()    Static       | encrypt_and_write_elgamal
+02C 00000000 SECT9  notype ()    Static       | encrypt_and_write_rsa
+02D 00000000 UNDEF  notype ()    External     | memcpy
+02E 000000FB SECT4  notype       Label        | $err$17
+02F 00000000 SECT4  notype       Label        | $LN16
+030 00000080 SECT7  notype       Label        | $err$7
+031 00000063 SECT9  notype       Label        | $err$6
+032 00000000 SECTD  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum A221C330
+034 00000000 SECTD  notype       Static       | $unwind$pgp_write_pubenc_sesskey
+035 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  929212A
+037 00000000 SECTE  notype       Static       | $pdata$pgp_write_pubenc_sesskey
+038 00000000 SECTF  notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum AEA327E1, selection    5 (pick associative Section 0xB)
+03A 00000000 SECTF  notype       Static       | $unwind$pad_eme_pkcs1_v15
+03B 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F13A8DC6, selection    5 (pick associative Section 0xB)
+03D 00000000 SECT10 notype       Static       | $pdata$pad_eme_pkcs1_v15
+03E 00000000 SECT11 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum E1B6CDD8, selection    5 (pick associative Section 0xB)
+040 00000000 SECT11 notype       Static       | $chain$4$pad_eme_pkcs1_v15
+041 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B5FC2A9B, selection    5 (pick associative Section 0xB)
+043 00000000 SECT12 notype       Static       | $pdata$4$pad_eme_pkcs1_v15
+044 00000000 SECT13 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 486D672A, selection    5 (pick associative Section 0xB)
+046 00000000 SECT13 notype       Static       | $chain$5$pad_eme_pkcs1_v15
+047 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  92DE703, selection    5 (pick associative Section 0xB)
+049 00000000 SECT14 notype       Static       | $pdata$5$pad_eme_pkcs1_v15
+04A 00000000 SECT15 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 9B957ED1, selection    5 (pick associative Section 0x5)
+04C 00000000 SECT15 notype       Static       | $unwind$create_secmsg
+04D 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4A8B7BD0, selection    5 (pick associative Section 0x5)
+04F 00000000 SECT16 notype       Static       | $pdata$create_secmsg
+050 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 4206EB5B, selection    5 (pick associative Section 0x7)
+052 00000000 SECT17 notype       Static       | $unwind$encrypt_and_write_elgamal
+053 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D6F6D6A7, selection    5 (pick associative Section 0x7)
+055 00000000 SECT18 notype       Static       | $pdata$encrypt_and_write_elgamal
+056 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 29998152, selection    5 (pick associative Section 0x9)
+058 00000000 SECT19 notype       Static       | $unwind$encrypt_and_write_rsa
+059 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4C749EF1, selection    5 (pick associative Section 0x9)
+05B 00000000 SECT1A notype       Static       | $pdata$encrypt_and_write_rsa
+05C 00000000 SECT1B notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum B5267D40, selection    2 (pick any)
+05E 00000000 SECT1B notype       External     | ??_C@_0M@DBAMEENA@no?5pubkey?$DP?6?$AA@ (`string')
+
+String Table Size = 0x2C0 bytes
+
+  Summary
+
+        4350 .debug$S
+          68 .debug$T
+          5D .drectve
+          54 .pdata
+           C .rdata
+         496 .text$mn
+          88 .xdata

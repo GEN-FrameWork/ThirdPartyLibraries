@@ -1,0 +1,231 @@
+
+Dump of file Release\postgres/execUtils.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 7A4C, #relocs  194, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  E8B, #relocs   6D, #linenums    0, checksum  B78E4B6
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   80, #relocs    4, #linenums    0, checksum 89CFAD31, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  208, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | errstart
+00F 00000000 UNDEF  notype ()    External     | errfinish
+010 00000000 UNDEF  notype ()    External     | errcode
+011 00000000 UNDEF  notype ()    External     | errmsg
+012 00000000 UNDEF  notype ()    External     | errhint
+013 00000000 UNDEF  notype ()    External     | errposition
+014 00000000 UNDEF  notype ()    External     | elog_start
+015 00000000 UNDEF  notype ()    External     | elog_finish
+016 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+017 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+018 00000000 UNDEF  notype ()    External     | pfree
+019 00000000 UNDEF  notype ()    External     | lcons
+01A 00000000 UNDEF  notype ()    External     | list_nth
+01B 00000000 UNDEF  notype ()    External     | list_delete_ptr
+01C 00000000 UNDEF  notype ()    External     | DecrTupleDescRefCount
+01D 00000000 UNDEF  notype ()    External     | bms_free
+01E 00000000 UNDEF  notype ()    External     | bms_intersect
+01F 00000000 UNDEF  notype ()    External     | bms_is_empty
+020 00000000 UNDEF  notype ()    External     | bms_join
+021 00000000 UNDEF  notype ()    External     | relation_close
+022 00000000 UNDEF  notype ()    External     | heap_open
+023 00000000 UNDEF  notype ()    External     | nocachegetattr
+024 00000000 UNDEF  notype ()    External     | heap_getsysattr
+025 00000000 UNDEF  notype ()    External     | ExecSetSlotDescriptor
+026 00000000 UNDEF  notype ()    External     | ExecContextForcesOids
+027 00000000 UNDEF  notype ()    External     | ExecFindRowMark
+028 00000000 UNDEF  notype ()    External     | ExecBuildProjectionInfo
+029 00000000 UNDEF  notype ()    External     | ExecTypeFromTL
+02A 00000000 SECT4  notype ()    External     | UpdateChangedParamSet
+02B 00000060 SECT4  notype ()    External     | CreateExecutorState
+02C 000001B0 SECT4  notype ()    External     | FreeExecutorState
+02D 00000290 SECT4  notype ()    External     | CreateExprContext
+02E 00000390 SECT4  notype ()    External     | CreateStandaloneExprContext
+02F 00000440 SECT4  notype ()    External     | FreeExprContext
+030 000004A0 SECT4  notype ()    External     | ReScanExprContext
+031 00000530 SECT4  notype ()    External     | MakePerTupleExprContext
+032 00000570 SECT4  notype ()    External     | ExecAssignExprContext
+033 00000590 SECT4  notype ()    External     | ExecAssignResultType
+034 000005A0 SECT4  notype ()    External     | ExecAssignResultTypeFromTL
+035 000005F0 SECT4  notype ()    External     | ExecGetResultType
+036 00000600 SECT4  notype ()    External     | ExecAssignProjectionInfo
+037 00000640 SECT4  notype ()    External     | ExecFreeExprContext
+038 00000650 SECT4  notype ()    External     | ExecAssignScanType
+039 00000670 SECT4  notype ()    External     | ExecAssignScanTypeFromOuterPlan
+03A 00000690 SECT4  notype ()    External     | ExecRelationIsTargetRelation
+03B 000006D0 SECT4  notype ()    External     | ExecOpenScanRelation
+03C 000007F0 SECT4  notype ()    External     | ExecCloseScanRelation
+03D 00000800 SECT4  notype ()    External     | executor_errposition
+03E 00000840 SECT4  notype ()    External     | RegisterExprContextCallback
+03F 00000890 SECT4  notype ()    External     | UnregisterExprContextCallback
+040 000008F0 SECT4  notype ()    External     | ExecLockNonLeafAppendTables
+041 000009C0 SECT4  notype ()    External     | GetAttributeByName
+042 00000C40 SECT4  notype ()    External     | GetAttributeByNum
+043 00000E40 SECT4  notype ()    External     | ExecTargetListLength
+044 00000E60 SECT4  notype ()    External     | ExecCleanTargetListLength
+045 00000000 UNDEF  notype ()    External     | pg_mbstrlen_with_len
+046 00000000 UNDEF  notype ()    External     | LockRelationOid
+047 00000000 UNDEF  notype ()    External     | namestrcmp
+048 00000000 UNDEF  notype ()    External     | MemoryContextReset
+049 00000000 UNDEF  notype ()    External     | MemoryContextDelete
+04A 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+04B 00000000 UNDEF  notype ()    External     | lookup_rowtype_tupdesc
+04C 00000000 SECT5  notype ()    Static       | ShutdownExprContext
+04D 00000000 SECT4  notype       Label        | $LN6
+04E 00000060 SECT4  notype       Label        | $LN8
+04F 000001B0 SECT4  notype       Label        | $LN33
+050 00000290 SECT4  notype       Label        | $LN8
+051 00000390 SECT4  notype       Label        | $LN4
+052 00000440 SECT4  notype       Label        | $LN5
+053 000004A0 SECT4  notype       Label        | $LN18
+054 00000530 SECT4  notype       Label        | $LN6
+055 00000570 SECT4  notype       Label        | $LN4
+056 000005A0 SECT4  notype       Label        | $LN8
+057 00000600 SECT4  notype       Label        | $LN4
+058 000006D0 SECT4  notype       Label        | $LN28
+059 00000800 SECT4  notype       Label        | $LN7
+05A 00000840 SECT4  notype       Label        | $LN4
+05B 00000890 SECT4  notype       Label        | $LN11
+05C 000008F0 SECT4  notype       Label        | $LN48
+05D 000009C0 SECT4  notype       Label        | $LN53
+05E 00000C40 SECT4  notype       Label        | $LN38
+05F 00000000 SECT7  notype       Static       | .xdata
+    Section length  1D0, #relocs   21, #linenums    0, checksum  4B68E98
+061 00000000 SECT7  notype       Static       | $unwind$UpdateChangedParamSet
+062 00000000 SECT8  notype       Static       | .pdata
+    Section length  15C, #relocs   57, #linenums    0, checksum 1C6B08CD
+064 00000000 SECT8  notype       Static       | $pdata$UpdateChangedParamSet
+065 0000000C SECT7  notype       Static       | $unwind$CreateExecutorState
+066 0000000C SECT8  notype       Static       | $pdata$CreateExecutorState
+067 00000018 SECT7  notype       Static       | $unwind$FreeExecutorState
+068 00000018 SECT8  notype       Static       | $pdata$FreeExecutorState
+069 00000020 SECT7  notype       Static       | $chain$2$FreeExecutorState
+06A 00000024 SECT8  notype       Static       | $pdata$2$FreeExecutorState
+06B 0000003C SECT7  notype       Static       | $chain$3$FreeExecutorState
+06C 00000030 SECT8  notype       Static       | $pdata$3$FreeExecutorState
+06D 0000004C SECT7  notype       Static       | $unwind$CreateExprContext
+06E 0000003C SECT8  notype       Static       | $pdata$CreateExprContext
+06F 00000060 SECT7  notype       Static       | $unwind$CreateStandaloneExprContext
+070 00000048 SECT8  notype       Static       | $pdata$CreateStandaloneExprContext
+071 0000006C SECT7  notype       Static       | $unwind$FreeExprContext
+072 00000054 SECT8  notype       Static       | $pdata$FreeExprContext
+073 00000078 SECT7  notype       Static       | $unwind$ReScanExprContext
+074 00000060 SECT8  notype       Static       | $pdata$ReScanExprContext
+075 00000080 SECT7  notype       Static       | $chain$1$ReScanExprContext
+076 0000006C SECT8  notype       Static       | $pdata$1$ReScanExprContext
+077 00000098 SECT7  notype       Static       | $chain$2$ReScanExprContext
+078 00000078 SECT8  notype       Static       | $pdata$2$ReScanExprContext
+079 000000A8 SECT7  notype       Static       | $unwind$MakePerTupleExprContext
+07A 00000084 SECT8  notype       Static       | $pdata$MakePerTupleExprContext
+07B 000000B0 SECT7  notype       Static       | $unwind$ExecAssignExprContext
+07C 00000090 SECT8  notype       Static       | $pdata$ExecAssignExprContext
+07D 000000B8 SECT7  notype       Static       | $unwind$ExecAssignResultTypeFromTL
+07E 0000009C SECT8  notype       Static       | $pdata$ExecAssignResultTypeFromTL
+07F 000000C0 SECT7  notype       Static       | $unwind$ExecAssignProjectionInfo
+080 000000A8 SECT8  notype       Static       | $pdata$ExecAssignProjectionInfo
+081 000000C8 SECT7  notype       Static       | $unwind$ExecOpenScanRelation
+082 000000B4 SECT8  notype       Static       | $pdata$ExecOpenScanRelation
+083 000000E0 SECT7  notype       Static       | $unwind$executor_errposition
+084 000000C0 SECT8  notype       Static       | $pdata$executor_errposition
+085 000000E8 SECT7  notype       Static       | $unwind$RegisterExprContextCallback
+086 000000CC SECT8  notype       Static       | $pdata$RegisterExprContextCallback
+087 000000F8 SECT7  notype       Static       | $unwind$UnregisterExprContextCallback
+088 000000D8 SECT8  notype       Static       | $pdata$UnregisterExprContextCallback
+089 00000108 SECT7  notype       Static       | $unwind$ExecLockNonLeafAppendTables
+08A 000000E4 SECT8  notype       Static       | $pdata$ExecLockNonLeafAppendTables
+08B 00000114 SECT7  notype       Static       | $chain$0$ExecLockNonLeafAppendTables
+08C 000000F0 SECT8  notype       Static       | $pdata$0$ExecLockNonLeafAppendTables
+08D 00000128 SECT7  notype       Static       | $chain$1$ExecLockNonLeafAppendTables
+08E 000000FC SECT8  notype       Static       | $pdata$1$ExecLockNonLeafAppendTables
+08F 0000013C SECT7  notype       Static       | $chain$2$ExecLockNonLeafAppendTables
+090 00000108 SECT8  notype       Static       | $pdata$2$ExecLockNonLeafAppendTables
+091 0000014C SECT7  notype       Static       | $chain$3$ExecLockNonLeafAppendTables
+092 00000114 SECT8  notype       Static       | $pdata$3$ExecLockNonLeafAppendTables
+093 0000015C SECT7  notype       Static       | $unwind$GetAttributeByName
+094 00000120 SECT8  notype       Static       | $pdata$GetAttributeByName
+095 0000016C SECT7  notype       Static       | $chain$4$GetAttributeByName
+096 0000012C SECT8  notype       Static       | $pdata$4$GetAttributeByName
+097 0000018C SECT7  notype       Static       | $chain$5$GetAttributeByName
+098 00000138 SECT8  notype       Static       | $pdata$5$GetAttributeByName
+099 000001A4 SECT7  notype       Static       | $chain$6$GetAttributeByName
+09A 00000144 SECT8  notype       Static       | $pdata$6$GetAttributeByName
+09B 000001B8 SECT7  notype       Static       | $unwind$GetAttributeByNum
+09C 00000150 SECT8  notype       Static       | $pdata$GetAttributeByNum
+09D 00000000 SECT9  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 3C8645E2, selection    5 (pick associative Section 0x5)
+09F 00000000 SECT9  notype       Static       | $unwind$ShutdownExprContext
+0A0 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 21D12D7D, selection    5 (pick associative Section 0x5)
+0A2 00000000 SECTA  notype       Static       | $pdata$ShutdownExprContext
+0A3 00000000 SECTB  notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 2AF59767, selection    5 (pick associative Section 0x5)
+0A5 00000000 SECTB  notype       Static       | $chain$1$ShutdownExprContext
+0A6 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 993AD606, selection    5 (pick associative Section 0x5)
+0A8 00000000 SECTC  notype       Static       | $pdata$1$ShutdownExprContext
+0A9 00000000 SECTD  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 9886C791, selection    5 (pick associative Section 0x5)
+0AB 00000000 SECTD  notype       Static       | $chain$2$ShutdownExprContext
+0AC 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum EFD2733E, selection    5 (pick associative Section 0x5)
+0AE 00000000 SECTE  notype       Static       | $pdata$2$ShutdownExprContext
+0AF 00000000 UNDEF  notype       External     | CurrentMemoryContext
+0B0 00000000 UNDEF  notype       External     | newNodeMacroHolder
+0B1 00000000 SECTF  notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum DD99811A, selection    2 (pick any)
+0B3 00000000 SECTF  notype       External     | ??_C@_0O@PDNNAHCC@ExecutorState?$AA@ (`string')
+0B4 00000000 SECT10 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 3D344E91, selection    2 (pick any)
+0B6 00000000 SECT10 notype       External     | ??_C@_0M@LJBOHHAB@ExprContext?$AA@ (`string')
+0B7 00000000 SECT11 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum  DAD109C, selection    2 (pick any)
+0B9 00000000 SECT11 notype       External     | ??_C@_0BF@LDFGCKOI@ExecOpenScanRelation?$AA@ (`string')
+0BA 00000000 SECT12 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum C4BEEA23, selection    2 (pick any)
+0BC 00000000 SECT12 notype       External     | ??_C@_0CB@EBDNCPFB@src?1backend?1executor?1execUtils?4c@ (`string')
+0BD 00000000 SECT13 notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum CE08A63C, selection    2 (pick any)
+0BF 00000000 SECT13 notype       External     | ??_C@_0CL@MJHOPCPC@Use?5the?5REFRESH?5MATERIALIZED?5VIE@ (`string')
+0C0 00000000 SECT14 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum A0289830, selection    2 (pick any)
+0C2 00000000 SECT14 notype       External     | ??_C@_0CO@FMKIGPCE@materialized?5view?5?$CC?$CFs?$CC?5has?5not?5b@ (`string')
+0C3 00000000 SECT15 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 6DE48861, selection    2 (pick any)
+0C5 00000000 SECT15 notype       External     | ??_C@_0BD@EIBDLOPB@GetAttributeByName?$AA@ (`string')
+0C6 00000000 SECT16 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum F7EAA25F, selection    2 (pick any)
+0C8 00000000 SECT16 notype       External     | ??_C@_0BH@HKLFHJOE@invalid?5attribute?5name?$AA@ (`string')
+0C9 00000000 SECT17 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum EE70B405, selection    2 (pick any)
+0CB 00000000 SECT17 notype       External     | ??_C@_0CB@GLPDHBHH@a?5NULL?5isNull?5pointer?5was?5passed@ (`string')
+0CC 00000000 SECT18 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 6982A756, selection    2 (pick any)
+0CE 00000000 SECT18 notype       External     | ??_C@_0BO@JGHJGGBM@attribute?5?$CC?$CFs?$CC?5does?5not?5exist?$AA@ (`string')
+0CF 00000000 SECT19 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 1F9B146E, selection    2 (pick any)
+0D1 00000000 SECT19 notype       External     | ??_C@_0BC@IHHPCENM@GetAttributeByNum?$AA@ (`string')
+0D2 00000000 SECT1A notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum D22C2EBB, selection    2 (pick any)
+0D4 00000000 SECT1A notype       External     | ??_C@_0BM@KNKDKGKN@invalid?5attribute?5number?5?$CFd?$AA@ (`string')
+
+String Table Size = 0xE4F bytes
+
+  Summary
+
+        7C54 .debug$S
+          68 .debug$T
+          5D .drectve
+         180 .pdata
+         140 .rdata
+         F0B .text$mn
+         204 .xdata

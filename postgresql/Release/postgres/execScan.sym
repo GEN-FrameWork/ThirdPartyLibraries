@@ -1,0 +1,114 @@
+
+Dump of file Release\postgres/execScan.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 53CC, #relocs   54, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  30F, #relocs   18, #linenums    0, checksum 1BE522A2
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   74, #relocs    4, #linenums    0, checksum 4D3F8A20, selection    2 (pick any)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  230, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   EC, #relocs    8, #linenums    0, checksum  271E73E, selection    2 (pick any)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  2F4, #relocs   22, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length   CD, #relocs    1, #linenums    0, checksum 37BFDF99, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  3C4, #relocs   2A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+017 00000000 UNDEF  notype ()    External     | elog_start
+018 00000000 UNDEF  notype ()    External     | elog_finish
+019 00000000 UNDEF  notype ()    External     | ExecStoreTuple
+01A 00000000 UNDEF  notype ()    External     | ExecClearTuple
+01B 00000000 UNDEF  notype ()    External     | bms_next_member
+01C 00000000 UNDEF  notype ()    External     | ExecContextForcesOids
+01D 00000000 SECT5  notype ()    Static       | ExecProject
+01E 00000000 SECT4  notype ()    External     | ExecScan
+01F 00000160 SECT4  notype ()    External     | ExecAssignScanProjectionInfo
+020 000001C0 SECT4  notype ()    External     | ExecAssignScanProjectionInfoWithVarno
+021 00000220 SECT4  notype ()    External     | ExecScanReScan
+022 00000000 UNDEF  notype ()    External     | ExecAssignProjectionInfo
+023 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+024 00000000 UNDEF  notype ()    External     | MemoryContextReset
+025 00000000 SECT9  notype ()    Static       | tlist_matches_tupdesc
+026 00000000 SECT7  notype ()    Static       | ExecScanFetch
+027 00000000 SECT4  notype       Label        | $LN40
+028 00000160 SECT4  notype       Label        | $LN8
+029 000001C0 SECT4  notype       Label        | $LN6
+02A 00000220 SECT4  notype       Label        | $LN22
+02B 00000000 SECTB  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 533B2AD9, selection    5 (pick associative Section 0x5)
+02D 00000000 SECTB  notype       Static       | $unwind$ExecProject
+02E 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 281A9F6A, selection    5 (pick associative Section 0x5)
+030 00000000 SECTC  notype       Static       | $pdata$ExecProject
+031 00000000 SECTD  notype       Static       | .xdata
+    Section length   74, #relocs    9, #linenums    0, checksum FDF4FE43
+033 00000000 SECTD  notype       Static       | $unwind$ExecScan
+034 00000000 SECTE  notype       Static       | .pdata
+    Section length   54, #relocs   15, #linenums    0, checksum 2D2C3AAE
+036 00000000 SECTE  notype       Static       | $pdata$ExecScan
+037 00000020 SECTD  notype       Static       | $unwind$ExecAssignScanProjectionInfo
+038 0000000C SECTE  notype       Static       | $pdata$ExecAssignScanProjectionInfo
+039 00000028 SECTD  notype       Static       | $unwind$ExecAssignScanProjectionInfoWithVarno
+03A 00000018 SECTE  notype       Static       | $pdata$ExecAssignScanProjectionInfoWithVarno
+03B 00000030 SECTD  notype       Static       | $unwind$ExecScanReScan
+03C 00000024 SECTE  notype       Static       | $pdata$ExecScanReScan
+03D 0000003C SECTD  notype       Static       | $chain$0$ExecScanReScan
+03E 00000030 SECTE  notype       Static       | $pdata$0$ExecScanReScan
+03F 00000050 SECTD  notype       Static       | $chain$2$ExecScanReScan
+040 0000003C SECTE  notype       Static       | $pdata$2$ExecScanReScan
+041 00000064 SECTD  notype       Static       | $chain$3$ExecScanReScan
+042 00000048 SECTE  notype       Static       | $pdata$3$ExecScanReScan
+043 00000000 SECTF  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum F00D607E, selection    5 (pick associative Section 0x9)
+045 00000000 SECTF  notype       Static       | $unwind$tlist_matches_tupdesc
+046 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E1A352E6, selection    5 (pick associative Section 0x9)
+048 00000000 SECT10 notype       Static       | $pdata$tlist_matches_tupdesc
+049 00000000 SECT11 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum F4634387, selection    5 (pick associative Section 0x7)
+04B 00000000 SECT11 notype       Static       | $unwind$ExecScanFetch
+04C 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D47F302E, selection    5 (pick associative Section 0x7)
+04E 00000000 SECT12 notype       Static       | $pdata$ExecScanFetch
+04F 00000000 UNDEF  notype       External     | pg_signal_queue
+050 00000000 UNDEF  notype       External     | pg_signal_mask
+051 00000000 UNDEF  notype       External     | CurrentMemoryContext
+052 00000000 UNDEF  notype       External     | InterruptPending
+053 00000000 SECT13 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 3197F0B7, selection    2 (pick any)
+055 00000000 SECT13 notype       External     | ??_C@_0P@BJLLAMKP@ExecScanReScan?$AA@ (`string')
+056 00000000 SECT14 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum CDD2A3E3, selection    2 (pick any)
+058 00000000 SECT14 notype       External     | ??_C@_0CA@CLCHAJLB@src?1backend?1executor?1execScan?4c?$AA@ (`string')
+059 00000000 SECT15 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum A8FB053D, selection    2 (pick any)
+05B 00000000 SECT15 notype       External     | ??_C@_0BJ@LOMLPEEN@unexpected?5scan?5node?3?5?$CFd?$AA@ (`string')
+05C 00000000 SECT16 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+05E 00000000 SECT16 notype       External     | __real@3ff0000000000000
+05F 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x445 bytes
+
+  Summary
+
+        5CB4 .debug$S
+          68 .debug$T
+          5D .drectve
+          78 .pdata
+          50 .rdata
+         53C .text$mn
+          AC .xdata

@@ -1,0 +1,184 @@
+
+Dump of file Release\postgres/brin_pageops.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6704, #relocs  13E, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  F2E, #relocs   A0, #linenums    0, checksum 1F7DB944
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  348, #relocs   28, #linenums    0, checksum 4214236E, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  5DC, #relocs   2E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   C8, #relocs    A, #linenums    0, checksum 204AEF2F, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  218, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+013 00000000 UNDEF  notype ()    External     | errstart
+014 00000000 UNDEF  notype ()    External     | errfinish
+015 00000000 UNDEF  notype ()    External     | errcode
+016 00000000 UNDEF  notype ()    External     | errmsg
+017 00000000 UNDEF  notype ()    External     | elog_start
+018 00000000 UNDEF  notype ()    External     | elog_finish
+019 00000000 UNDEF  notype ()    External     | PageInit
+01A 00000000 UNDEF  notype ()    External     | PageAddItemExtended
+01B 00000000 UNDEF  notype ()    External     | PageGetFreeSpace
+01C 00000000 UNDEF  notype ()    External     | PageGetExactFreeSpace
+01D 00000000 UNDEF  notype ()    External     | PageIndexTupleDeleteNoCompact
+01E 00000000 UNDEF  notype ()    External     | PageIndexTupleOverwrite
+01F 00000000 UNDEF  notype ()    External     | brin_copy_tuple
+020 00000000 UNDEF  notype ()    External     | brin_tuples_equal
+021 00000000 UNDEF  notype ()    External     | brinRevmapExtend
+022 00000000 UNDEF  notype ()    External     | brinLockRevmapPageForUpdate
+023 00000000 UNDEF  notype ()    External     | brinSetHeapBlockItemptr
+024 00000000 SECT4  notype ()    External     | brin_doupdate
+025 00000620 SECT4  notype ()    External     | brin_can_do_samepage_update
+026 00000690 SECT4  notype ()    External     | brin_doinsert
+027 00000A70 SECT4  notype ()    External     | brin_page_init
+028 00000AB0 SECT4  notype ()    External     | brin_metapage_init
+029 00000B10 SECT4  notype ()    External     | brin_start_evacuating_page
+02A 00000BC0 SECT4  notype ()    External     | brin_evacuate_page
+02B 00000D70 SECT4  notype ()    External     | brin_page_cleanup
+02C 00000000 UNDEF  notype ()    External     | XLogBeginInsert
+02D 00000000 UNDEF  notype ()    External     | XLogInsert
+02E 00000000 UNDEF  notype ()    External     | XLogRegisterData
+02F 00000000 UNDEF  notype ()    External     | XLogRegisterBuffer
+030 00000000 UNDEF  notype ()    External     | XLogRegisterBufData
+031 00000000 UNDEF  notype ()    External     | log_newpage_buffer
+032 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+033 00000000 UNDEF  notype ()    External     | ReadBuffer
+034 00000000 UNDEF  notype ()    External     | ReleaseBuffer
+035 00000000 UNDEF  notype ()    External     | UnlockReleaseBuffer
+036 00000000 UNDEF  notype ()    External     | MarkBufferDirty
+037 00000000 UNDEF  notype ()    External     | BufferGetBlockNumber
+038 00000000 UNDEF  notype ()    External     | MarkBufferDirtyHint
+039 00000000 UNDEF  notype ()    External     | LockBuffer
+03A 00000000 UNDEF  notype ()    External     | GetRecordedFreeSpace
+03B 00000000 UNDEF  notype ()    External     | GetPageWithFreeSpace
+03C 00000000 UNDEF  notype ()    External     | RecordAndGetPageWithFreeSpace
+03D 00000000 UNDEF  notype ()    External     | RecordPageWithFreeSpace
+03E 00000000 UNDEF  notype ()    External     | FreeSpaceMapVacuum
+03F 00000000 UNDEF  notype ()    External     | LockRelationForExtension
+040 00000000 UNDEF  notype ()    External     | UnlockRelationForExtension
+041 00000000 UNDEF  notype ()    External     | smgropen
+042 00000000 UNDEF  notype ()    External     | smgrsetowner
+043 00000000 SECT5  notype ()    Static       | brin_getinsertbuffer
+044 00000000 SECT7  notype ()    Static       | brin_initialize_empty_new_buffer
+045 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+046 00000000 UNDEF  notype ()    External     | __security_check_cookie
+047 00000000 SECT4  notype       Label        | $LN81
+048 00000620 SECT4  notype       Label        | $LN8
+049 00000690 SECT4  notype       Label        | $LN55
+04A 00000A70 SECT4  notype       Label        | $LN4
+04B 00000AB0 SECT4  notype       Label        | $LN6
+04C 00000B10 SECT4  notype       Label        | $LN18
+04D 00000BC0 SECT4  notype       Label        | $LN29
+04E 00000D70 SECT4  notype       Label        | $LN24
+04F 00000000 SECT9  notype       Static       | .xdata
+    Section length  16C, #relocs   26, #linenums    0, checksum C9759F4E
+051 00000000 SECT9  notype       Static       | $unwind$brin_doupdate
+052 00000000 SECTA  notype       Static       | .pdata
+    Section length   F0, #relocs   3C, #linenums    0, checksum 6FCC3794
+054 00000000 SECTA  notype       Static       | $pdata$brin_doupdate
+055 0000001C SECT9  notype       Static       | $chain$0$brin_doupdate
+056 0000000C SECTA  notype       Static       | $pdata$0$brin_doupdate
+057 00000030 SECT9  notype       Static       | $chain$1$brin_doupdate
+058 00000018 SECTA  notype       Static       | $pdata$1$brin_doupdate
+059 00000044 SECT9  notype       Static       | $chain$2$brin_doupdate
+05A 00000024 SECTA  notype       Static       | $pdata$2$brin_doupdate
+05B 00000054 SECT9  notype       Static       | $chain$3$brin_doupdate
+05C 00000030 SECTA  notype       Static       | $pdata$3$brin_doupdate
+05D 00000064 SECT9  notype       Static       | $unwind$brin_can_do_samepage_update
+05E 0000003C SECTA  notype       Static       | $pdata$brin_can_do_samepage_update
+05F 00000070 SECT9  notype       Static       | $unwind$brin_doinsert
+060 00000048 SECTA  notype       Static       | $pdata$brin_doinsert
+061 0000008C SECT9  notype       Static       | $chain$0$brin_doinsert
+062 00000054 SECTA  notype       Static       | $pdata$0$brin_doinsert
+063 000000A0 SECT9  notype       Static       | $chain$2$brin_doinsert
+064 00000060 SECTA  notype       Static       | $pdata$2$brin_doinsert
+065 000000B8 SECT9  notype       Static       | $chain$3$brin_doinsert
+066 0000006C SECTA  notype       Static       | $pdata$3$brin_doinsert
+067 000000C8 SECT9  notype       Static       | $chain$4$brin_doinsert
+068 00000078 SECTA  notype       Static       | $pdata$4$brin_doinsert
+069 000000D8 SECT9  notype       Static       | $unwind$brin_page_init
+06A 00000084 SECTA  notype       Static       | $pdata$brin_page_init
+06B 000000E4 SECT9  notype       Static       | $unwind$brin_metapage_init
+06C 00000090 SECTA  notype       Static       | $pdata$brin_metapage_init
+06D 000000F4 SECT9  notype       Static       | $unwind$brin_start_evacuating_page
+06E 0000009C SECTA  notype       Static       | $pdata$brin_start_evacuating_page
+06F 000000FC SECT9  notype       Static       | $unwind$brin_evacuate_page
+070 000000A8 SECTA  notype       Static       | $pdata$brin_evacuate_page
+071 0000010C SECT9  notype       Static       | $chain$1$brin_evacuate_page
+072 000000B4 SECTA  notype       Static       | $pdata$1$brin_evacuate_page
+073 00000124 SECT9  notype       Static       | $chain$3$brin_evacuate_page
+074 000000C0 SECTA  notype       Static       | $pdata$3$brin_evacuate_page
+075 0000013C SECT9  notype       Static       | $chain$4$brin_evacuate_page
+076 000000CC SECTA  notype       Static       | $pdata$4$brin_evacuate_page
+077 0000014C SECT9  notype       Static       | $chain$5$brin_evacuate_page
+078 000000D8 SECTA  notype       Static       | $pdata$5$brin_evacuate_page
+079 0000015C SECT9  notype       Static       | $unwind$brin_page_cleanup
+07A 000000E4 SECTA  notype       Static       | $pdata$brin_page_cleanup
+07B 00000000 SECTB  notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum E47509E6, selection    5 (pick associative Section 0x5)
+07D 00000000 SECTB  notype       Static       | $unwind$brin_getinsertbuffer
+07E 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum CB90C3C5, selection    5 (pick associative Section 0x5)
+080 00000000 SECTC  notype       Static       | $pdata$brin_getinsertbuffer
+081 00000000 SECTD  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum F4634387, selection    5 (pick associative Section 0x7)
+083 00000000 SECTD  notype       Static       | $unwind$brin_initialize_empty_new_buffer
+084 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A9435C82, selection    5 (pick associative Section 0x7)
+086 00000000 SECTE  notype       Static       | $pdata$brin_initialize_empty_new_buffer
+087 00000000 UNDEF  notype       External     | pg_signal_queue
+088 00000000 UNDEF  notype       External     | pg_signal_mask
+089 00000000 UNDEF  notype       External     | InterruptPending
+08A 00000000 UNDEF  notype       External     | CritSectionCount
+08B 00000000 UNDEF  notype       External     | BufferBlocks
+08C 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+08D 00000000 SECTF  notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 51313A5E, selection    2 (pick any)
+08F 00000000 SECTF  notype       External     | ??_C@_0O@HPHFLMGG@brin_doupdate?$AA@ (`string')
+090 00000000 SECT10 notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 29908711, selection    2 (pick any)
+092 00000000 SECT10 notype       External     | ??_C@_0CH@FGJNIMMO@src?1backend?1access?1brin?1brin_pag@ (`string')
+093 00000000 SECT11 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum 711ECBC8, selection    2 (pick any)
+095 00000000 SECT11 notype       External     | ??_C@_0DG@LLECFJMK@index?5row?5size?5?$CFzu?5exceeds?5maxim@ (`string')
+096 00000000 SECT12 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 5D876EFB, selection    2 (pick any)
+098 00000000 SECT12 notype       External     | ??_C@_0BN@KJCMFECC@failed?5to?5replace?5BRIN?5tuple?$AA@ (`string')
+099 00000000 SECT13 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum E4C1C0FF, selection    2 (pick any)
+09B 00000000 SECT13 notype       External     | ??_C@_0CF@DPOPEAGE@failed?5to?5add?5BRIN?5tuple?5to?5new?5@ (`string')
+09C 00000000 SECT14 notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum C2652C68, selection    2 (pick any)
+09E 00000000 SECT14 notype       External     | ??_C@_0O@OMCBKKFA@brin_doinsert?$AA@ (`string')
+09F 00000000 SECT15 notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum 984BE060, selection    2 (pick any)
+0A1 00000000 SECT15 notype       External     | ??_C@_0CJ@JDJJPDF@could?5not?5insert?5new?5index?5tuple@ (`string')
+0A2 00000000 SECT16 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum F137FD2C, selection    2 (pick any)
+0A4 00000000 SECT16 notype       External     | ??_C@_0BF@EPMMMHFI@brin_getinsertbuffer?$AA@ (`string')
+0A5 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0xA4D bytes
+
+  Summary
+
+        6EF8 .debug$S
+          68 .debug$T
+          5D .drectve
+         108 .pdata
+          F9 .rdata
+        133E .text$mn
+         19C .xdata

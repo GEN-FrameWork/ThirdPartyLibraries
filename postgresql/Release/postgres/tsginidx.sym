@@ -1,0 +1,162 @@
+
+Dump of file Release\postgres/tsginidx.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5010, #relocs   F2, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  806, #relocs   2E, #linenums    0, checksum D5919F86
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  1AC, #relocs    B, #linenums    0, checksum 377E8585, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  38C, #relocs   22, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | elog_start
+00F 00000000 UNDEF  notype ()    External     | elog_finish
+010 00000000 UNDEF  notype ()    External     | palloc
+011 00000000 UNDEF  notype ()    External     | palloc0
+012 00000000 UNDEF  notype ()    External     | pfree
+013 00000000 UNDEF  notype ()    External     | check_stack_depth
+014 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+015 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+016 00000000 UNDEF  notype ()    External     | TS_execute
+017 00000000 UNDEF  notype ()    External     | tsquery_requires_match
+018 00000000 UNDEF  notype ()    External     | tsCompareString
+019 00000000 SECT4  notype ()    External     | gin_cmp_prefix
+01A 00000150 SECT4  notype ()    External     | gin_extract_tsvector_2args
+01B 000001A0 SECT4  notype ()    External     | gin_extract_tsquery_5args
+01C 000001F0 SECT4  notype ()    External     | gin_tsquery_consistent_6args
+01D 00000290 SECT4  notype ()    External     | gin_extract_tsvector
+01E 00000360 SECT4  notype ()    External     | gin_extract_tsquery
+01F 00000520 SECT4  notype ()    External     | gin_tsquery_consistent
+020 00000590 SECT4  notype ()    External     | gin_cmp_tslexeme
+021 000006D0 SECT4  notype ()    External     | gin_extract_tsquery_oldsig
+022 000006E0 SECT4  notype ()    External     | gin_tsquery_consistent_oldsig
+023 00000750 SECT4  notype ()    External     | gin_tsquery_triconsistent
+024 00000000 UNDEF  notype ()    External     | cstring_to_text_with_len
+025 000007C0 SECT4  notype ()    Static       | checkcondition_gin
+026 00000000 SECT5  notype ()    Static       | TS_execute_ternary
+027 00000000 SECT4  notype       Label        | $LN33
+028 00000150 SECT4  notype       Label        | $LN9
+029 000001A0 SECT4  notype       Label        | $LN9
+02A 000001F0 SECT4  notype       Label        | $LN12
+02B 00000290 SECT4  notype       Label        | $LN18
+02C 00000360 SECT4  notype       Label        | $LN32
+02D 00000520 SECT4  notype       Label        | $LN5
+02E 00000590 SECT4  notype       Label        | $LN32
+02F 000006E0 SECT4  notype       Label        | $LN7
+030 00000750 SECT4  notype       Label        | $LN8
+031 00000000 SECT7  notype       Static       | .xdata
+    Section length  140, #relocs   1E, #linenums    0, checksum FCCB57DC
+033 00000000 SECT7  notype       Static       | $unwind$gin_cmp_prefix
+034 00000000 SECT8  notype       Static       | .pdata
+    Section length   F0, #relocs   3C, #linenums    0, checksum 851B5A53
+036 00000000 SECT8  notype       Static       | $pdata$gin_cmp_prefix
+037 00000018 SECT7  notype       Static       | $unwind$gin_extract_tsvector_2args
+038 0000000C SECT8  notype       Static       | $pdata$gin_extract_tsvector_2args
+039 00000020 SECT7  notype       Static       | $unwind$gin_extract_tsquery_5args
+03A 00000018 SECT8  notype       Static       | $pdata$gin_extract_tsquery_5args
+03B 00000028 SECT7  notype       Static       | $unwind$gin_tsquery_consistent_6args
+03C 00000024 SECT8  notype       Static       | $pdata$gin_tsquery_consistent_6args
+03D 00000030 SECT7  notype       Static       | $unwind$gin_extract_tsvector
+03E 00000030 SECT8  notype       Static       | $pdata$gin_extract_tsvector
+03F 0000003C SECT7  notype       Static       | $chain$1$gin_extract_tsvector
+040 0000003C SECT8  notype       Static       | $pdata$1$gin_extract_tsvector
+041 00000054 SECT7  notype       Static       | $chain$2$gin_extract_tsvector
+042 00000048 SECT8  notype       Static       | $pdata$2$gin_extract_tsvector
+043 00000068 SECT7  notype       Static       | $chain$3$gin_extract_tsvector
+044 00000054 SECT8  notype       Static       | $pdata$3$gin_extract_tsvector
+045 0000007C SECT7  notype       Static       | $chain$4$gin_extract_tsvector
+046 00000060 SECT8  notype       Static       | $pdata$4$gin_extract_tsvector
+047 0000008C SECT7  notype       Static       | $chain$5$gin_extract_tsvector
+048 0000006C SECT8  notype       Static       | $pdata$5$gin_extract_tsvector
+049 0000009C SECT7  notype       Static       | $chain$6$gin_extract_tsvector
+04A 00000078 SECT8  notype       Static       | $pdata$6$gin_extract_tsvector
+04B 000000AC SECT7  notype       Static       | $unwind$gin_extract_tsquery
+04C 00000084 SECT8  notype       Static       | $pdata$gin_extract_tsquery
+04D 000000B8 SECT7  notype       Static       | $chain$4$gin_extract_tsquery
+04E 00000090 SECT8  notype       Static       | $pdata$4$gin_extract_tsquery
+04F 000000DC SECT7  notype       Static       | $chain$5$gin_extract_tsquery
+050 0000009C SECT8  notype       Static       | $pdata$5$gin_extract_tsquery
+051 000000F0 SECT7  notype       Static       | $chain$6$gin_extract_tsquery
+052 000000A8 SECT8  notype       Static       | $pdata$6$gin_extract_tsquery
+053 00000100 SECT7  notype       Static       | $chain$7$gin_extract_tsquery
+054 000000B4 SECT8  notype       Static       | $pdata$7$gin_extract_tsquery
+055 00000110 SECT7  notype       Static       | $unwind$gin_tsquery_consistent
+056 000000C0 SECT8  notype       Static       | $pdata$gin_tsquery_consistent
+057 00000118 SECT7  notype       Static       | $unwind$gin_cmp_tslexeme
+058 000000CC SECT8  notype       Static       | $pdata$gin_cmp_tslexeme
+059 00000130 SECT7  notype       Static       | $unwind$gin_tsquery_consistent_oldsig
+05A 000000D8 SECT8  notype       Static       | $pdata$gin_tsquery_consistent_oldsig
+05B 00000138 SECT7  notype       Static       | $unwind$gin_tsquery_triconsistent
+05C 000000E4 SECT8  notype       Static       | $pdata$gin_tsquery_triconsistent
+05D 00000000 SECT9  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum D718098F, selection    5 (pick associative Section 0x5)
+05F 00000000 SECT9  notype       Static       | $unwind$TS_execute_ternary
+060 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3D908D58, selection    5 (pick associative Section 0x5)
+062 00000000 SECTA  notype       Static       | $pdata$TS_execute_ternary
+063 00000000 SECTB  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum FF2B17DD, selection    5 (pick associative Section 0x5)
+065 00000000 SECTB  notype       Static       | $chain$0$TS_execute_ternary
+066 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C2A51690, selection    5 (pick associative Section 0x5)
+068 00000000 SECTC  notype       Static       | $pdata$0$TS_execute_ternary
+069 00000000 SECTD  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum BBF84771, selection    5 (pick associative Section 0x5)
+06B 00000000 SECTD  notype       Static       | $chain$2$TS_execute_ternary
+06C 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8D5D6CD9, selection    5 (pick associative Section 0x5)
+06E 00000000 SECTE  notype       Static       | $pdata$2$TS_execute_ternary
+06F 00000000 SECTF  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 84C767B4, selection    5 (pick associative Section 0x5)
+071 00000000 SECTF  notype       Static       | $chain$3$TS_execute_ternary
+072 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B4453C41, selection    5 (pick associative Section 0x5)
+074 00000000 SECT10 notype       Static       | $pdata$3$TS_execute_ternary
+075 00000000 SECT11 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum A7CC14C7, selection    2 (pick any)
+077 00000000 SECT11 notype       External     | ??_C@_0BD@ICDLCCFH@TS_execute_ternary?$AA@ (`string')
+078 00000000 SECT12 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum B383E600, selection    2 (pick any)
+07A 00000000 SECT12 notype       External     | ??_C@_0CB@DGAACDHC@src?1backend?1utils?1adt?1tsginidx?4c@ (`string')
+07B 00000000 SECT13 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 1A43C906, selection    2 (pick any)
+07D 00000000 SECT13 notype       External     | ??_C@_0BK@EKFAIIML@unrecognized?5operator?3?5?$CFd?$AA@ (`string')
+07E 00000000 SECT14 notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 8990B8F0, selection    2 (pick any)
+080 00000000 SECT14 notype       External     | ??_C@_0BL@GMBFBFLM@gin_extract_tsvector_2args?$AA@ (`string')
+081 00000000 SECT15 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum D9E5FAC0, selection    2 (pick any)
+083 00000000 SECT15 notype       External     | ??_C@_0CO@CFGFANNE@gin_extract_tsvector?5requires?5th@ (`string')
+084 00000000 SECT16 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 9A78A3FE, selection    2 (pick any)
+086 00000000 SECT16 notype       External     | ??_C@_0BK@MKGLOCDD@gin_extract_tsquery_5args?$AA@ (`string')
+087 00000000 SECT17 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum D9E3C7F0, selection    2 (pick any)
+089 00000000 SECT17 notype       External     | ??_C@_0CN@OAJMKPKL@gin_extract_tsquery?5requires?5sev@ (`string')
+08A 00000000 SECT18 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 5968969B, selection    2 (pick any)
+08C 00000000 SECT18 notype       External     | ??_C@_0BN@KNMDKMEC@gin_tsquery_consistent_6args?$AA@ (`string')
+08D 00000000 SECT19 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum C8F0930C, selection    2 (pick any)
+08F 00000000 SECT19 notype       External     | ??_C@_0DA@MFIHNPGG@gin_tsquery_consistent?5requires?5@ (`string')
+
+String Table Size = 0x93F bytes
+
+  Summary
+
+        539C .debug$S
+          68 .debug$T
+          5D .drectve
+         120 .pdata
+         12B .rdata
+         9B2 .text$mn
+         188 .xdata

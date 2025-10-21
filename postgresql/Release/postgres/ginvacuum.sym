@@ -1,0 +1,203 @@
+
+Dump of file Release\postgres/ginvacuum.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5764, #relocs   86, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  6ED, #relocs   42, #linenums    0, checksum E0B50D96
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  297, #relocs   1D, #linenums    0, checksum 246D0969, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  574, #relocs   34, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  1D1, #relocs    9, #linenums    0, checksum 78E38F9E, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  458, #relocs   2C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  310, #relocs   14, #linenums    0, checksum C8C58217, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  640, #relocs   42, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  296, #relocs   15, #linenums    0, checksum F7E2016A, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  578, #relocs   30, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 UNDEF  notype ()    External     | elog_start
+01B 00000000 UNDEF  notype ()    External     | elog_finish
+01C 00000000 UNDEF  notype ()    External     | palloc
+01D 00000000 UNDEF  notype ()    External     | palloc0
+01E 00000000 UNDEF  notype ()    External     | pfree
+01F 00000000 UNDEF  notype ()    External     | ginUpdateStats
+020 00000000 UNDEF  notype ()    External     | PageAddItemExtended
+021 00000000 UNDEF  notype ()    External     | PageGetTempPageCopy
+022 00000000 UNDEF  notype ()    External     | PageRestoreTempPage
+023 00000000 UNDEF  notype ()    External     | PageIndexTupleDelete
+024 00000000 UNDEF  notype ()    External     | ReadBufferExtended
+025 00000000 UNDEF  notype ()    External     | ReleaseBuffer
+026 00000000 UNDEF  notype ()    External     | UnlockReleaseBuffer
+027 00000000 UNDEF  notype ()    External     | MarkBufferDirty
+028 00000000 UNDEF  notype ()    External     | RelationGetNumberOfBlocksInFork
+029 00000000 UNDEF  notype ()    External     | LockBuffer
+02A 00000000 UNDEF  notype ()    External     | LockBufferForCleanup
+02B 00000000 UNDEF  notype ()    External     | initGinState
+02C 00000000 UNDEF  notype ()    External     | gintuple_get_attrnum
+02D 00000000 UNDEF  notype ()    External     | gintuple_get_key
+02E 00000000 UNDEF  notype ()    External     | GinFormTuple
+02F 00000000 UNDEF  notype ()    External     | GinPageDeletePostingItem
+030 00000000 UNDEF  notype ()    External     | ginVacuumPostingTreeLeaf
+031 00000000 SECT4  notype ()    External     | ginbulkdelete
+032 00000310 SECT4  notype ()    External     | ginvacuumcleanup
+033 000005D0 SECT4  notype ()    External     | ginVacuumItemPointers
+034 00000000 UNDEF  notype ()    External     | ginInsertCleanup
+035 00000000 UNDEF  notype ()    External     | ginCompressPostingList
+036 00000000 UNDEF  notype ()    External     | ginPostingListDecode
+037 00000000 UNDEF  notype ()    External     | ginTraverseLock
+038 00000000 UNDEF  notype ()    External     | XLogBeginInsert
+039 00000000 UNDEF  notype ()    External     | XLogInsert
+03A 00000000 UNDEF  notype ()    External     | XLogRegisterData
+03B 00000000 UNDEF  notype ()    External     | XLogRegisterBuffer
+03C 00000000 UNDEF  notype ()    External     | vacuum_delay_point
+03D 00000000 UNDEF  notype ()    External     | IsAutoVacuumWorkerProcess
+03E 00000000 UNDEF  notype ()    External     | RecordFreeIndexPage
+03F 00000000 UNDEF  notype ()    External     | IndexFreeSpaceMapVacuum
+040 00000000 UNDEF  notype ()    External     | LockRelationForExtension
+041 00000000 UNDEF  notype ()    External     | UnlockRelationForExtension
+042 00000000 UNDEF  notype ()    External     | MemoryContextReset
+043 00000000 UNDEF  notype ()    External     | MemoryContextDelete
+044 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+045 00000000 SECT5  notype ()    Static       | ginDeletePage
+046 00000000 SECT7  notype ()    Static       | ginScanToDelete
+047 00000000 SECTB  notype ()    Static       | ginVacuumPostingTreeLeaves
+048 00000000 SECT9  notype ()    Static       | ginVacuumEntryPage
+049 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+04A 00000000 UNDEF  notype ()    External     | __chkstk
+04B 00000000 UNDEF  notype ()    External     | __security_check_cookie
+04C 00000000 UNDEF  notype ()    External     | memcpy
+04D 00000000 SECT4  notype       Label        | $LN62
+04E 00000310 SECT4  notype       Label        | $LN32
+04F 000005D0 SECT4  notype       Label        | $LN17
+050 00000000 SECTD  notype       Static       | .xdata
+    Section length   E0, #relocs   17, #linenums    0, checksum B7D3F56B
+052 00000000 SECTD  notype       Static       | $unwind$ginbulkdelete
+053 00000000 SECTE  notype       Static       | .pdata
+    Section length   78, #relocs   1E, #linenums    0, checksum 3EAD345B
+055 00000000 SECTE  notype       Static       | $pdata$ginbulkdelete
+056 0000001C SECTD  notype       Static       | $unwind$ginvacuumcleanup
+057 0000000C SECTE  notype       Static       | $pdata$ginvacuumcleanup
+058 00000034 SECTD  notype       Static       | $chain$3$ginvacuumcleanup
+059 00000018 SECTE  notype       Static       | $pdata$3$ginvacuumcleanup
+05A 00000054 SECTD  notype       Static       | $chain$4$ginvacuumcleanup
+05B 00000024 SECTE  notype       Static       | $pdata$4$ginvacuumcleanup
+05C 00000068 SECTD  notype       Static       | $chain$5$ginvacuumcleanup
+05D 00000030 SECTE  notype       Static       | $pdata$5$ginvacuumcleanup
+05E 00000078 SECTD  notype       Static       | $chain$6$ginvacuumcleanup
+05F 0000003C SECTE  notype       Static       | $pdata$6$ginvacuumcleanup
+060 0000008C SECTD  notype       Static       | $chain$7$ginvacuumcleanup
+061 00000048 SECTE  notype       Static       | $pdata$7$ginvacuumcleanup
+062 0000009C SECTD  notype       Static       | $unwind$ginVacuumItemPointers
+063 00000054 SECTE  notype       Static       | $pdata$ginVacuumItemPointers
+064 000000AC SECTD  notype       Static       | $chain$4$ginVacuumItemPointers
+065 00000060 SECTE  notype       Static       | $pdata$4$ginVacuumItemPointers
+066 000000D0 SECTD  notype       Static       | $chain$5$ginVacuumItemPointers
+067 0000006C SECTE  notype       Static       | $pdata$5$ginVacuumItemPointers
+068 00000000 SECTF  notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum E31C2B32, selection    5 (pick associative Section 0x5)
+06A 00000000 SECTF  notype       Static       | $unwind$ginDeletePage
+06B 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B2DAACC1, selection    5 (pick associative Section 0x5)
+06D 00000000 SECT10 notype       Static       | $pdata$ginDeletePage
+06E 00000000 SECT11 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 6F29043F, selection    5 (pick associative Section 0x7)
+070 00000000 SECT11 notype       Static       | $unwind$ginScanToDelete
+071 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F8F13FD1, selection    5 (pick associative Section 0x7)
+073 00000000 SECT12 notype       Static       | $pdata$ginScanToDelete
+074 00000000 SECT13 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 941C5A14, selection    5 (pick associative Section 0x7)
+076 00000000 SECT13 notype       Static       | $chain$0$ginScanToDelete
+077 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 240AF2E7, selection    5 (pick associative Section 0x7)
+079 00000000 SECT14 notype       Static       | $pdata$0$ginScanToDelete
+07A 00000000 SECT15 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum A5EF037C, selection    5 (pick associative Section 0x7)
+07C 00000000 SECT15 notype       Static       | $chain$1$ginScanToDelete
+07D 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3DAB0C0F, selection    5 (pick associative Section 0x7)
+07F 00000000 SECT16 notype       Static       | $pdata$1$ginScanToDelete
+080 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 9D5D180B, selection    5 (pick associative Section 0x7)
+082 00000000 SECT17 notype       Static       | $chain$2$ginScanToDelete
+083 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 57B96637, selection    5 (pick associative Section 0x7)
+085 00000000 SECT18 notype       Static       | $pdata$2$ginScanToDelete
+086 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 41A6D53D, selection    5 (pick associative Section 0x7)
+088 00000000 SECT19 notype       Static       | $chain$3$ginScanToDelete
+089 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8A74A816, selection    5 (pick associative Section 0x7)
+08B 00000000 SECT1A notype       Static       | $pdata$3$ginScanToDelete
+08C 00000000 SECT1B notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 512EFCA6, selection    5 (pick associative Section 0xB)
+08E 00000000 SECT1B notype       Static       | $unwind$ginVacuumPostingTreeLeaves
+08F 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7E70AC5F, selection    5 (pick associative Section 0xB)
+091 00000000 SECT1C notype       Static       | $pdata$ginVacuumPostingTreeLeaves
+092 00000000 SECT1D notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum EAADF8C2, selection    5 (pick associative Section 0x9)
+094 00000000 SECT1D notype       Static       | $unwind$ginVacuumEntryPage
+095 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 111E82A7, selection    5 (pick associative Section 0x9)
+097 00000000 SECT1E notype       Static       | $pdata$ginVacuumEntryPage
+098 00000000 SECT1F notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 50BD146C, selection    5 (pick associative Section 0x9)
+09A 00000000 SECT1F notype       Static       | $chain$2$ginVacuumEntryPage
+09B 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2267FD9B, selection    5 (pick associative Section 0x9)
+09D 00000000 SECT20 notype       Static       | $pdata$2$ginVacuumEntryPage
+09E 00000000 SECT21 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum A849684B, selection    5 (pick associative Section 0x9)
+0A0 00000000 SECT21 notype       Static       | $chain$3$ginVacuumEntryPage
+0A1 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum BE8FD983, selection    5 (pick associative Section 0x9)
+0A3 00000000 SECT22 notype       Static       | $pdata$3$ginVacuumEntryPage
+0A4 00000000 UNDEF  notype       External     | CurrentMemoryContext
+0A5 00000000 UNDEF  notype       External     | BufferBlocks
+0A6 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+0A7 00000000 UNDEF  notype       External     | CritSectionCount
+0A8 00000000 SECT23 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 6111903E, selection    2 (pick any)
+0AA 00000000 SECT23 notype       External     | ??_C@_0BD@EEOGKGKO@ginVacuumEntryPage?$AA@ (`string')
+0AB 00000000 SECT24 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 5B68A70C, selection    2 (pick any)
+0AD 00000000 SECT24 notype       External     | ??_C@_0CD@KNGPAPME@src?1backend?1access?1gin?1ginvacuum@ (`string')
+0AE 00000000 SECT25 notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum 8E8B6C2B, selection    2 (pick any)
+0B0 00000000 SECT25 notype       External     | ??_C@_0CJ@BPPJBDHO@failed?5to?5add?5item?5to?5index?5page@ (`string')
+0B1 00000000 SECT26 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 78A56B3D, selection    2 (pick any)
+0B3 00000000 SECT26 notype       External     | ??_C@_0BN@IMAOFBOE@Gin?5vacuum?5temporary?5context?$AA@ (`string')
+0B4 00000000 SECT27 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+0B6 00000000 SECT27 notype       External     | __real@3ff0000000000000
+0B7 00000000 UNDEF  notype       External     | __security_cookie
+0B8 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x8E2 bytes
+
+  Summary
+
+        6CE8 .debug$S
+          68 .debug$T
+          5D .drectve
+          F0 .pdata
+          84 .rdata
+        10FB .text$mn
+         19C .xdata

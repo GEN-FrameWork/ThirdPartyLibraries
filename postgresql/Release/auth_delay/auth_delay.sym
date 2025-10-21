@@ -1,0 +1,57 @@
+
+Dump of file Release\auth_delay/auth_delay.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   73, #relocs    0, #linenums    0, checksum 2C345B63
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 3A9C, #relocs   22, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 13DF8958
+00A 00000000 SECT4  notype       Static       | ?Pg_magic_data@?1??Pg_magic_func@@9@9 (`Pg_magic_func'::`2'::Pg_magic_data)
+00B 00000000 SECT5  notype       Static       | .text$mn
+    Section length   C4, #relocs    B, #linenums    0, checksum 8185DED9
+00D 00000000 UNDEF  notype ()    External     | pg_usleep
+00E 00000000 UNDEF  notype ()    External     | DefineCustomIntVariable
+00F 00000000 SECT5  notype ()    External     | Pg_magic_func
+010 00000010 SECT5  notype ()    External     | _PG_init
+011 00000090 SECT5  notype ()    Static       | auth_delay_checks
+012 00000010 SECT5  notype       Label        | $LN4
+013 00000000 SECT6  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum B70113E9
+015 00000000 SECT6  notype       Static       | $unwind$_PG_init
+016 00000000 SECT7  notype       Static       | .pdata
+    Section length   18, #relocs    6, #linenums    0, checksum  48B7033
+018 00000000 SECT7  notype       Static       | $pdata$_PG_init
+019 00000008 SECT6  notype       Static       | $unwind$auth_delay_checks
+01A 0000000C SECT7  notype       Static       | $pdata$auth_delay_checks
+01B 00000000 UNDEF  notype       External     | __imp_ClientAuthentication_hook
+01C 00000000 SECT8  notype       Static       | .bss
+    Section length   10, #relocs    0, #linenums    0, checksum        0
+01E 00000000 SECT8  notype       Static       | auth_delay_milliseconds
+01F 00000008 SECT8  notype       Static       | original_client_auth_hook
+020 00000000 SECT9  notype       Static       | .rdata
+    Section length   3E, #relocs    0, #linenums    0, checksum EB58A1D5, selection    2 (pick any)
+022 00000000 SECT9  notype       External     | ??_C@_0DO@JMDPJEL@Milliseconds?5to?5delay?5before?5rep@ (`string')
+023 00000000 SECTA  notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 79E7AC1F, selection    2 (pick any)
+025 00000000 SECTA  notype       External     | ??_C@_0BI@CFNJJJMA@auth_delay?4milliseconds?$AA@ (`string')
+
+String Table Size = 0x17B bytes
+
+  Summary
+
+          10 .bss
+        3A9C .debug$S
+          68 .debug$T
+          73 .drectve
+          18 .pdata
+          72 .rdata
+          C4 .text$mn
+          10 .xdata

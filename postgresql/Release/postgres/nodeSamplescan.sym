@@ -1,0 +1,160 @@
+
+Dump of file Release\postgres/nodeSamplescan.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6004, #relocs   54, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  283, #relocs   1E, #linenums    0, checksum E90D5F2C
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  380, #relocs   12, #linenums    0, checksum AC3067CA, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  7D4, #relocs   58, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  27D, #relocs   1A, #linenums    0, checksum 281BDCE6, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  5AC, #relocs   3A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+013 00000000 UNDEF  notype ()    External     | random
+014 00000000 UNDEF  notype ()    External     | errstart
+015 00000000 UNDEF  notype ()    External     | errfinish
+016 00000000 UNDEF  notype ()    External     | errcode
+017 00000000 UNDEF  notype ()    External     | errmsg
+018 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+019 00000000 UNDEF  notype ()    External     | palloc
+01A 00000000 UNDEF  notype ()    External     | pfree
+01B 00000000 UNDEF  notype ()    External     | DirectFunctionCall1Coll
+01C 00000000 UNDEF  notype ()    External     | ReleaseBuffer
+01D 00000000 UNDEF  notype ()    External     | LockBuffer
+01E 00000000 UNDEF  notype ()    External     | heap_beginscan_sampling
+01F 00000000 UNDEF  notype ()    External     | heapgetpage
+020 00000000 UNDEF  notype ()    External     | heap_rescan_set_params
+021 00000000 UNDEF  notype ()    External     | heap_endscan
+022 00000000 UNDEF  notype ()    External     | ss_report_location
+023 00000000 UNDEF  notype ()    External     | ExecStoreTuple
+024 00000000 UNDEF  notype ()    External     | ExecClearTuple
+025 00000000 UNDEF  notype ()    External     | GetTsmRoutine
+026 00000000 UNDEF  notype ()    External     | ExecInitExpr
+027 00000000 UNDEF  notype ()    External     | ExecInitQual
+028 00000000 UNDEF  notype ()    External     | ExecInitExprList
+029 00000000 UNDEF  notype ()    External     | ExecScan
+02A 00000000 UNDEF  notype ()    External     | ExecAssignScanProjectionInfo
+02B 00000000 UNDEF  notype ()    External     | ExecScanReScan
+02C 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+02D 00000000 UNDEF  notype ()    External     | ExecInitScanTupleSlot
+02E 00000000 UNDEF  notype ()    External     | ExecAssignExprContext
+02F 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+030 00000000 UNDEF  notype ()    External     | ExecFreeExprContext
+031 00000000 UNDEF  notype ()    External     | ExecAssignScanType
+032 00000000 UNDEF  notype ()    External     | ExecOpenScanRelation
+033 00000000 UNDEF  notype ()    External     | ExecCloseScanRelation
+034 00000000 SECT4  notype ()    External     | ExecInitSampleScan
+035 00000160 SECT4  notype ()    External     | ExecEndSampleScan
+036 000001C0 SECT4  notype ()    External     | ExecReScanSampleScan
+037 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+038 00000000 UNDEF  notype ()    External     | CheckForSerializableConflictOut
+039 00000000 UNDEF  notype ()    External     | hashfloat8
+03A 000001E0 SECT4  notype ()    Static       | SampleNext
+03B 00000000 SECT7  notype ()    Static       | tablesample_init
+03C 00000000 SECT5  notype ()    Static       | tablesample_getnext
+03D 00000260 SECT4  notype ()    Static       | SampleRecheck
+03E 00000270 SECT4  notype ()    Static       | ExecSampleScan
+03F 00000000 SECT4  notype       Label        | $LN9
+040 00000160 SECT4  notype       Label        | $LN6
+041 00000000 SECT9  notype       Static       | .xdata
+    Section length   2C, #relocs    0, #linenums    0, checksum F42D413F
+043 00000000 SECT9  notype       Static       | $unwind$ExecInitSampleScan
+044 00000000 SECTA  notype       Static       | .pdata
+    Section length   24, #relocs    9, #linenums    0, checksum 926E26CF
+046 00000000 SECTA  notype       Static       | $pdata$ExecInitSampleScan
+047 00000018 SECT9  notype       Static       | $unwind$ExecEndSampleScan
+048 0000000C SECTA  notype       Static       | $pdata$ExecEndSampleScan
+049 00000020 SECT9  notype       Static       | $unwind$SampleNext
+04A 00000018 SECTA  notype       Static       | $pdata$SampleNext
+04B 00000000 SECTB  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 371685A6, selection    5 (pick associative Section 0x7)
+04D 00000000 SECTB  notype       Static       | $unwind$tablesample_init
+04E 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 91C01CC8, selection    5 (pick associative Section 0x7)
+050 00000000 SECTC  notype       Static       | $pdata$tablesample_init
+051 00000000 SECTD  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum B481E05E, selection    5 (pick associative Section 0x7)
+053 00000000 SECTD  notype       Static       | $chain$0$tablesample_init
+054 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5A26D9D4, selection    5 (pick associative Section 0x7)
+056 00000000 SECTE  notype       Static       | $pdata$0$tablesample_init
+057 00000000 SECTF  notype       Static       | .xdata
+    Section length   20, #relocs    3, #linenums    0, checksum B57FE682, selection    5 (pick associative Section 0x7)
+059 00000000 SECTF  notype       Static       | $chain$4$tablesample_init
+05A 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 52DC131A, selection    5 (pick associative Section 0x7)
+05C 00000000 SECT10 notype       Static       | $pdata$4$tablesample_init
+05D 00000000 SECT11 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 44D36C03, selection    5 (pick associative Section 0x7)
+05F 00000000 SECT11 notype       Static       | $chain$5$tablesample_init
+060 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 9520826A, selection    5 (pick associative Section 0x7)
+062 00000000 SECT12 notype       Static       | $pdata$5$tablesample_init
+063 00000000 SECT13 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum EB8BF9F6, selection    5 (pick associative Section 0x7)
+065 00000000 SECT13 notype       Static       | $chain$6$tablesample_init
+066 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 9FAFCE19, selection    5 (pick associative Section 0x7)
+068 00000000 SECT14 notype       Static       | $pdata$6$tablesample_init
+069 00000000 SECT15 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum B83C726B, selection    5 (pick associative Section 0x7)
+06B 00000000 SECT15 notype       Static       | $chain$7$tablesample_init
+06C 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3590E965, selection    5 (pick associative Section 0x7)
+06E 00000000 SECT16 notype       Static       | $pdata$7$tablesample_init
+06F 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 2897F624, selection    5 (pick associative Section 0x7)
+071 00000000 SECT17 notype       Static       | $chain$8$tablesample_init
+072 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F1B48CD4, selection    5 (pick associative Section 0x7)
+074 00000000 SECT18 notype       Static       | $pdata$8$tablesample_init
+075 00000000 SECT19 notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 55DF9CF9, selection    5 (pick associative Section 0x5)
+077 00000000 SECT19 notype       Static       | $unwind$tablesample_getnext
+078 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 62D39F47, selection    5 (pick associative Section 0x5)
+07A 00000000 SECT1A notype       Static       | $pdata$tablesample_getnext
+07B 00000000 UNDEF  notype       External     | pg_signal_queue
+07C 00000000 UNDEF  notype       External     | pg_signal_mask
+07D 00000000 UNDEF  notype       External     | CurrentMemoryContext
+07E 00000000 UNDEF  notype       External     | newNodeMacroHolder
+07F 00000000 UNDEF  notype       External     | BufferBlocks
+080 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+081 00000000 UNDEF  notype       External     | InterruptPending
+082 00000000 SECT1B notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 297195BD, selection    2 (pick any)
+084 00000000 SECT1B notype       External     | ??_C@_0BB@BPGBJLPP@tablesample_init?$AA@ (`string')
+085 00000000 SECT1C notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum E4151FC0, selection    2 (pick any)
+087 00000000 SECT1C notype       External     | ??_C@_0CG@IDBDHLIM@src?1backend?1executor?1nodeSamples@ (`string')
+088 00000000 SECT1D notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 5EE92776, selection    2 (pick any)
+08A 00000000 SECT1D notype       External     | ??_C@_0CF@IFMHKHON@TABLESAMPLE?5parameter?5cannot?5be?5@ (`string')
+08B 00000000 SECT1E notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum 4305BE5A, selection    2 (pick any)
+08D 00000000 SECT1E notype       External     | ??_C@_0DA@EOHCPCDA@TABLESAMPLE?5REPEATABLE?5parameter@ (`string')
+
+String Table Size = 0x64C bytes
+
+  Summary
+
+        6D84 .debug$S
+          68 .debug$T
+          5D .drectve
+          84 .pdata
+          8C .rdata
+         880 .text$mn
+          D0 .xdata

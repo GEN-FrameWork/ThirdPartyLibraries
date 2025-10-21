@@ -1,0 +1,221 @@
+
+Dump of file Release\postgres/pg_constraint.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 7B84, #relocs  232, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 1BB8, #relocs   F0, #linenums    0, checksum BDCB4B06
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length    D, #relocs    0, #linenums    0, checksum 7F648353, selection    2 (pick any)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length   D4, #relocs    6, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | __report_rangecheckfailure
+00F 00000000 UNDEF  notype       External     | __imp_strncpy
+010 00000000 UNDEF  notype ()    External     | pg_snprintf
+011 00000000 UNDEF  notype ()    External     | errstart
+012 00000000 UNDEF  notype ()    External     | errfinish
+013 00000000 UNDEF  notype ()    External     | errcode
+014 00000000 UNDEF  notype ()    External     | errmsg
+015 00000000 UNDEF  notype ()    External     | elog_start
+016 00000000 UNDEF  notype ()    External     | elog_finish
+017 00000000 UNDEF  notype ()    External     | palloc
+018 00000000 UNDEF  notype ()    External     | pfree
+019 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+01A 00000000 UNDEF  notype ()    External     | ScanKeyInit
+01B 00000000 SECT5  notype ()    Static       | list_head
+01C 00000000 UNDEF  notype ()    External     | lappend_oid
+01D 00000000 UNDEF  notype ()    External     | bms_is_subset
+01E 00000000 UNDEF  notype ()    External     | bms_add_member
+01F 00000000 UNDEF  notype ()    External     | systable_beginscan
+020 00000000 UNDEF  notype ()    External     | systable_getnext
+021 00000000 UNDEF  notype ()    External     | systable_endscan
+022 00000000 UNDEF  notype ()    External     | relation_close
+023 00000000 UNDEF  notype ()    External     | heap_open
+024 00000000 UNDEF  notype ()    External     | nocachegetattr
+025 00000000 UNDEF  notype ()    External     | heap_copytuple
+026 00000000 UNDEF  notype ()    External     | heap_form_tuple
+027 00000000 UNDEF  notype ()    External     | heap_freetuple
+028 00000000 UNDEF  notype ()    External     | construct_array
+029 00000000 UNDEF  notype ()    External     | recordDependencyOnSingleRelExpr
+02A 00000000 UNDEF  notype ()    External     | add_exact_object_address
+02B 00000000 UNDEF  notype ()    External     | object_address_present
+02C 00000000 UNDEF  notype ()    External     | recordDependencyOn
+02D 00000000 UNDEF  notype ()    External     | CatalogTupleInsert
+02E 00000000 UNDEF  notype ()    External     | CatalogTupleUpdate
+02F 00000000 UNDEF  notype ()    External     | CatalogTupleDelete
+030 00000000 UNDEF  notype ()    External     | RunObjectPostCreateHook
+031 00000000 UNDEF  notype ()    External     | RunObjectPostAlterHook
+032 00000000 SECT4  notype ()    External     | CreateConstraintEntry
+033 00000740 SECT4  notype ()    External     | RemoveConstraintById
+034 00000930 SECT4  notype ()    External     | RenameConstraintById
+035 00000C00 SECT4  notype ()    External     | ConstraintNameIsUsed
+036 00000D20 SECT4  notype ()    External     | ChooseConstraintName
+037 00000EF0 SECT4  notype ()    External     | AlterConstraintNamespaces
+038 000010E0 SECT4  notype ()    External     | get_relation_constraint_oid
+039 000012D0 SECT4  notype ()    External     | get_relation_constraint_attnos
+03A 00001650 SECT4  notype ()    External     | get_domain_constraint_oid
+03B 00001840 SECT4  notype ()    External     | get_primary_key_attnos
+03C 00001B10 SECT4  notype ()    External     | check_functional_grouping
+03D 00000000 UNDEF  notype ()    External     | makeObjectName
+03E 00000000 UNDEF  notype ()    External     | namestrcpy
+03F 00000000 UNDEF  notype ()    External     | cstring_to_text
+040 00000000 UNDEF  notype ()    External     | format_type_be
+041 00000000 UNDEF  notype ()    External     | get_rel_name
+042 00000000 UNDEF  notype ()    External     | SearchSysCache
+043 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+044 00000000 UNDEF  notype ()    External     | SearchSysCacheCopy
+045 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+046 00000000 UNDEF  notype ()    External     | __security_check_cookie
+047 00000732 SECT4  notype       Label        | $LN116
+048 00000000 SECT4  notype       Label        | $LN119
+049 00000740 SECT4  notype       Label        | $LN28
+04A 00000930 SECT4  notype       Label        | $LN36
+04B 00000C00 SECT4  notype       Label        | $LN16
+04C 00000D20 SECT4  notype       Label        | $LN31
+04D 00000EF0 SECT4  notype       Label        | $LN22
+04E 000010E0 SECT4  notype       Label        | $LN27
+04F 000012D0 SECT4  notype       Label        | $LN65
+050 00001650 SECT4  notype       Label        | $LN27
+051 00001840 SECT4  notype       Label        | $LN54
+052 00001B10 SECT4  notype       Label        | $LN18
+053 00000000 SECT7  notype       Static       | .xdata
+    Section length  248, #relocs   33, #linenums    0, checksum 480BCFEC
+055 00000000 SECT7  notype       Static       | $unwind$CreateConstraintEntry
+056 00000000 SECT8  notype       Static       | .pdata
+    Section length  144, #relocs   51, #linenums    0, checksum 24624EFF
+058 00000000 SECT8  notype       Static       | $pdata$CreateConstraintEntry
+059 00000028 SECT7  notype       Static       | $unwind$RemoveConstraintById
+05A 0000000C SECT8  notype       Static       | $pdata$RemoveConstraintById
+05B 00000038 SECT7  notype       Static       | $chain$0$RemoveConstraintById
+05C 00000018 SECT8  notype       Static       | $pdata$0$RemoveConstraintById
+05D 0000004C SECT7  notype       Static       | $chain$1$RemoveConstraintById
+05E 00000024 SECT8  notype       Static       | $pdata$1$RemoveConstraintById
+05F 00000060 SECT7  notype       Static       | $chain$2$RemoveConstraintById
+060 00000030 SECT8  notype       Static       | $pdata$2$RemoveConstraintById
+061 00000070 SECT7  notype       Static       | $chain$3$RemoveConstraintById
+062 0000003C SECT8  notype       Static       | $pdata$3$RemoveConstraintById
+063 00000080 SECT7  notype       Static       | $unwind$RenameConstraintById
+064 00000048 SECT8  notype       Static       | $pdata$RenameConstraintById
+065 00000090 SECT7  notype       Static       | $chain$3$RenameConstraintById
+066 00000054 SECT8  notype       Static       | $pdata$3$RenameConstraintById
+067 000000B0 SECT7  notype       Static       | $chain$4$RenameConstraintById
+068 00000060 SECT8  notype       Static       | $pdata$4$RenameConstraintById
+069 000000C4 SECT7  notype       Static       | $chain$5$RenameConstraintById
+06A 0000006C SECT8  notype       Static       | $pdata$5$RenameConstraintById
+06B 000000D4 SECT7  notype       Static       | $chain$6$RenameConstraintById
+06C 00000078 SECT8  notype       Static       | $pdata$6$RenameConstraintById
+06D 000000E4 SECT7  notype       Static       | $unwind$ConstraintNameIsUsed
+06E 00000084 SECT8  notype       Static       | $pdata$ConstraintNameIsUsed
+06F 00000100 SECT7  notype       Static       | $unwind$ChooseConstraintName
+070 00000090 SECT8  notype       Static       | $pdata$ChooseConstraintName
+071 00000120 SECT7  notype       Static       | $unwind$AlterConstraintNamespaces
+072 0000009C SECT8  notype       Static       | $pdata$AlterConstraintNamespaces
+073 00000144 SECT7  notype       Static       | $chain$0$AlterConstraintNamespaces
+074 000000A8 SECT8  notype       Static       | $pdata$0$AlterConstraintNamespaces
+075 00000158 SECT7  notype       Static       | $chain$1$AlterConstraintNamespaces
+076 000000B4 SECT8  notype       Static       | $pdata$1$AlterConstraintNamespaces
+077 00000168 SECT7  notype       Static       | $unwind$get_relation_constraint_oid
+078 000000C0 SECT8  notype       Static       | $pdata$get_relation_constraint_oid
+079 0000017C SECT7  notype       Static       | $chain$1$get_relation_constraint_oid
+07A 000000CC SECT8  notype       Static       | $pdata$1$get_relation_constraint_oid
+07B 00000194 SECT7  notype       Static       | $chain$2$get_relation_constraint_oid
+07C 000000D8 SECT8  notype       Static       | $pdata$2$get_relation_constraint_oid
+07D 000001A4 SECT7  notype       Static       | $unwind$get_relation_constraint_attnos
+07E 000000E4 SECT8  notype       Static       | $pdata$get_relation_constraint_attnos
+07F 000001BC SECT7  notype       Static       | $unwind$get_domain_constraint_oid
+080 000000F0 SECT8  notype       Static       | $pdata$get_domain_constraint_oid
+081 000001D0 SECT7  notype       Static       | $chain$1$get_domain_constraint_oid
+082 000000FC SECT8  notype       Static       | $pdata$1$get_domain_constraint_oid
+083 000001E8 SECT7  notype       Static       | $chain$2$get_domain_constraint_oid
+084 00000108 SECT8  notype       Static       | $pdata$2$get_domain_constraint_oid
+085 000001F8 SECT7  notype       Static       | $unwind$get_primary_key_attnos
+086 00000114 SECT8  notype       Static       | $pdata$get_primary_key_attnos
+087 00000210 SECT7  notype       Static       | $chain$0$get_primary_key_attnos
+088 00000120 SECT8  notype       Static       | $pdata$0$get_primary_key_attnos
+089 00000224 SECT7  notype       Static       | $chain$1$get_primary_key_attnos
+08A 0000012C SECT8  notype       Static       | $pdata$1$get_primary_key_attnos
+08B 00000234 SECT7  notype       Static       | $unwind$check_functional_grouping
+08C 00000138 SECT8  notype       Static       | $pdata$check_functional_grouping
+08D 00000000 UNDEF  notype       External     | object_access_hook
+08E 00000000 SECT9  notype       Static       | .rdata
+    Section length    5, #relocs    0, #linenums    0, checksum 4FBC85AE, selection    2 (pick any)
+090 00000000 SECT9  notype       External     | ??_C@_04HGGBINEM@?$CFs?$CFd?$AA@ (`string')
+091 00000000 SECTA  notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum  DD5409D, selection    2 (pick any)
+093 00000000 SECTA  notype       External     | ??_C@_0BF@LDCOHKOJ@RemoveConstraintById?$AA@ (`string')
+094 00000000 SECTB  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 906220B0, selection    2 (pick any)
+096 00000000 SECTB  notype       External     | ??_C@_0CE@FCLGNJK@src?1backend?1catalog?1pg_constrain@ (`string')
+097 00000000 SECTC  notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum F9E3FC9E, selection    2 (pick any)
+099 00000000 SECTC  notype       External     | ??_C@_0CG@JOOFJINC@cache?5lookup?5failed?5for?5constrai@ (`string')
+09A 00000000 SECTD  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum A271A7DD, selection    2 (pick any)
+09C 00000000 SECTD  notype       External     | ??_C@_0CE@DHDIOKPH@cache?5lookup?5failed?5for?5relation@ (`string')
+09D 00000000 SECTE  notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 81DC0884, selection    2 (pick any)
+09F 00000000 SECTE  notype       External     | ??_C@_0CA@GHCJKCNG@relation?5?$CC?$CFs?$CC?5has?5relchecks?5?$DN?50?$AA@ (`string')
+0A0 00000000 SECTF  notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 34129E0F, selection    2 (pick any)
+0A2 00000000 SECTF  notype       External     | ??_C@_0CF@OPDMBOJE@constraint?5?$CFu?5is?5not?5of?5a?5known?5@ (`string')
+0A3 00000000 SECT10 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 157559DA, selection    2 (pick any)
+0A5 00000000 SECT10 notype       External     | ??_C@_0BF@KLIOGDKO@RenameConstraintById?$AA@ (`string')
+0A6 00000000 SECT11 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum E1E03BF1, selection    2 (pick any)
+0A8 00000000 SECT11 notype       External     | ??_C@_0DB@EMIKMEPL@constraint?5?$CC?$CFs?$CC?5for?5relation?5?$CC?$CFs@ (`string')
+0A9 00000000 SECT12 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 9E56CFCF, selection    2 (pick any)
+0AB 00000000 SECT12 notype       External     | ??_C@_0CN@KHCJKHJE@constraint?5?$CC?$CFs?$CC?5for?5domain?5?$CFs?5al@ (`string')
+0AC 00000000 SECT13 notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum AEC1DC4B, selection    2 (pick any)
+0AE 00000000 SECT13 notype       External     | ??_C@_0BM@NBEOFEFN@get_relation_constraint_oid?$AA@ (`string')
+0AF 00000000 SECT14 notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum 88C0707E, selection    2 (pick any)
+0B1 00000000 SECT14 notype       External     | ??_C@_0CP@JCOGCEPE@table?5?$CC?$CFs?$CC?5has?5multiple?5constrai@ (`string')
+0B2 00000000 SECT15 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum D75FC008, selection    2 (pick any)
+0B4 00000000 SECT15 notype       External     | ??_C@_0CO@CLNPDHBM@constraint?5?$CC?$CFs?$CC?5for?5table?5?$CC?$CFs?$CC?5d@ (`string')
+0B5 00000000 SECT16 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum AED6C138, selection    2 (pick any)
+0B7 00000000 SECT16 notype       External     | ??_C@_0BP@DICAJCHH@get_relation_constraint_attnos?$AA@ (`string')
+0B8 00000000 SECT17 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum EC121392, selection    2 (pick any)
+0BA 00000000 SECT17 notype       External     | ??_C@_0CD@BKBFLLFK@conkey?5is?5not?5a?51?9D?5smallint?5arr@ (`string')
+0BB 00000000 SECT18 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum C770A9B1, selection    2 (pick any)
+0BD 00000000 SECT18 notype       External     | ??_C@_0BK@JHGDOIHM@get_domain_constraint_oid?$AA@ (`string')
+0BE 00000000 SECT19 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum E918D5DA, selection    2 (pick any)
+0C0 00000000 SECT19 notype       External     | ??_C@_0CO@BFJICCMO@domain?5?$CFs?5has?5multiple?5constrain@ (`string')
+0C1 00000000 SECT1A notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 74E2EE30, selection    2 (pick any)
+0C3 00000000 SECT1A notype       External     | ??_C@_0CN@ENJNIGGL@constraint?5?$CC?$CFs?$CC?5for?5domain?5?$CFs?5do@ (`string')
+0C4 00000000 SECT1B notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 4746F491, selection    2 (pick any)
+0C6 00000000 SECT1B notype       External     | ??_C@_0BH@MKBJCPCK@get_primary_key_attnos?$AA@ (`string')
+0C7 00000000 SECT1C notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum C809E42F, selection    2 (pick any)
+0C9 00000000 SECT1C notype       External     | ??_C@_0BO@DHPCCFGF@null?5conkey?5for?5constraint?5?$CFu?$AA@ (`string')
+0CA 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0xF34 bytes
+
+  Summary
+
+        7C58 .debug$S
+          68 .debug$T
+          5D .drectve
+         144 .pdata
+         2A5 .rdata
+        1BC5 .text$mn
+         248 .xdata

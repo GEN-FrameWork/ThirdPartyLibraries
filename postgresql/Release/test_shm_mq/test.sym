@@ -1,0 +1,132 @@
+
+Dump of file Release\test_shm_mq/test.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   B7, #relocs    0, #linenums    0, checksum E14F530B
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4A08, #relocs   66, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   6C, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 2B736301
+00A 00000000 SECT4  notype       Static       | ?Pg_magic_data@?1??Pg_magic_func@@9@9 (`Pg_magic_func'::`2'::Pg_magic_data)
+00B 0000001C SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_test_shm_mq@@9@9 (`pg_finfo_test_shm_mq'::`2'::my_finfo)
+00C 00000020 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_test_shm_mq_pipelined@@9@9 (`pg_finfo_test_shm_mq_pipelined'::`2'::my_finfo)
+00D 00000000 SECT5  notype       Static       | .text$mn
+    Section length  648, #relocs   58, #linenums    0, checksum 63070BE8
+00F 00000000 SECT6  notype       Static       | .text$mn
+    Section length  10F, #relocs   10, #linenums    0, checksum F2C51527, selection    1 (pick no duplicates)
+011 00000000 SECT7  notype       Static       | .debug$S
+    Section length  248, #relocs   1A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+013 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+014 00000000 UNDEF  notype ()    External     | errstart
+015 00000000 UNDEF  notype ()    External     | errfinish
+016 00000000 UNDEF  notype ()    External     | errcode
+017 00000000 UNDEF  notype ()    External     | errmsg
+018 00000000 UNDEF  notype ()    External     | errdetail
+019 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+01A 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+01B 00000000 UNDEF  notype ()    External     | ResetLatch
+01C 00000000 UNDEF  notype ()    External     | WaitLatch
+01D 00000000 UNDEF  notype ()    External     | dsm_detach
+01E 00000000 UNDEF  notype ()    External     | shm_mq_send
+01F 00000000 UNDEF  notype ()    External     | shm_mq_receive
+020 00000000 UNDEF  notype ()    External     | test_shm_mq_setup
+021 00000000 SECT5  notype ()    External     | Pg_magic_func
+022 00000010 SECT5  notype ()    External     | test_shm_mq
+023 000002A0 SECT5  notype ()    External     | pg_finfo_test_shm_mq
+024 000002B0 SECT5  notype ()    External     | test_shm_mq_pipelined
+025 00000640 SECT5  notype ()    External     | pg_finfo_test_shm_mq_pipelined
+026 00000000 SECT6  notype ()    Static       | verify_message
+027 00000010 SECT5  notype       Label        | $LN57
+028 000002B0 SECT5  notype       Label        | $LN66
+029 00000000 SECT8  notype       Static       | .xdata
+    Section length   54, #relocs    6, #linenums    0, checksum 9ADFCE7E
+02B 00000000 SECT8  notype       Static       | $unwind$test_shm_mq
+02C 00000000 SECT9  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum 6AEC4964
+02E 00000000 SECT9  notype       Static       | $pdata$test_shm_mq
+02F 00000014 SECT8  notype       Static       | $unwind$test_shm_mq_pipelined
+030 0000000C SECT9  notype       Static       | $pdata$test_shm_mq_pipelined
+031 00000020 SECT8  notype       Static       | $chain$4$test_shm_mq_pipelined
+032 00000018 SECT9  notype       Static       | $pdata$4$test_shm_mq_pipelined
+033 00000044 SECT8  notype       Static       | $chain$5$test_shm_mq_pipelined
+034 00000024 SECT9  notype       Static       | $pdata$5$test_shm_mq_pipelined
+035 00000000 SECTA  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 32DAD2AC, selection    5 (pick associative Section 0x6)
+037 00000000 SECTA  notype       Static       | $unwind$verify_message
+038 00000000 SECTB  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 9F918544, selection    5 (pick associative Section 0x6)
+03A 00000000 SECTB  notype       Static       | $pdata$verify_message
+03B 00000000 SECTC  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum FF1AB072, selection    5 (pick associative Section 0x6)
+03D 00000000 SECTC  notype       Static       | $chain$0$verify_message
+03E 00000000 SECTD  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 59632B93, selection    5 (pick associative Section 0x6)
+040 00000000 SECTD  notype       Static       | $pdata$0$verify_message
+041 00000000 SECTE  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 26C66FA8, selection    5 (pick associative Section 0x6)
+043 00000000 SECTE  notype       Static       | $chain$1$verify_message
+044 00000000 SECTF  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4A485302, selection    5 (pick associative Section 0x6)
+046 00000000 SECTF  notype       Static       | $pdata$1$verify_message
+047 00000000 UNDEF  notype       External     | __imp_pg_signal_queue
+048 00000000 UNDEF  notype       External     | __imp_pg_signal_mask
+049 00000000 UNDEF  notype       External     | __imp_InterruptPending
+04A 00000000 UNDEF  notype       External     | __imp_MyLatch
+04B 00000000 SECT10 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 87383694, selection    2 (pick any)
+04D 00000000 SECT10 notype       External     | ??_C@_0M@DBCAPAE@test_shm_mq?$AA@ (`string')
+04E 00000000 SECT11 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 89F06469, selection    2 (pick any)
+050 00000000 SECT11 notype       External     | ??_C@_0CE@BMLJCJED@src?1test?1modules?1test_shm_mq?1tes@ (`string')
+051 00000000 SECT12 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum 277B6D3B, selection    2 (pick any)
+053 00000000 SECT12 notype       External     | ??_C@_0DB@IKBBJCDB@repeat?5count?5size?5must?5be?5a?5non?9@ (`string')
+054 00000000 SECT13 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 4E3FECBE, selection    2 (pick any)
+056 00000000 SECT13 notype       External     | ??_C@_0CN@HHEAIEOF@number?5of?5workers?5must?5be?5a?5posi@ (`string')
+057 00000000 SECT14 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 356D69A7, selection    2 (pick any)
+059 00000000 SECT14 notype       External     | ??_C@_0BH@LIDCLCBM@could?5not?5send?5message?$AA@ (`string')
+05A 00000000 SECT15 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum C8DCFA4D, selection    2 (pick any)
+05C 00000000 SECT15 notype       External     | ??_C@_0BK@JIMPLLIA@could?5not?5receive?5message?$AA@ (`string')
+05D 00000000 SECT16 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 6983996D, selection    2 (pick any)
+05F 00000000 SECT16 notype       External     | ??_C@_0BG@DOFFNHHC@test_shm_mq_pipelined?$AA@ (`string')
+060 00000000 SECT17 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum 1B6F4E83, selection    2 (pick any)
+062 00000000 SECT17 notype       External     | ??_C@_0DB@LGAFLBIJ@number?5of?5workers?5must?5be?5a?5non?9@ (`string')
+063 00000000 SECT18 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum C1C7BECA, selection    2 (pick any)
+065 00000000 SECT18 notype       External     | ??_C@_0CN@PILINGJB@message?5sent?5?$CFd?5times?0?5but?5recei@ (`string')
+066 00000000 SECT19 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 2B71EDBB, selection    2 (pick any)
+068 00000000 SECT19 notype       External     | ??_C@_0P@DFNBBKD@verify_message?$AA@ (`string')
+069 00000000 SECT1A notype       Static       | .rdata
+    Section length   47, #relocs    0, #linenums    0, checksum 3F5042BA, selection    2 (pick any)
+06B 00000000 SECT1A notype       External     | ??_C@_0EH@NIHKLCK@The?5original?5message?5was?5?$CFzu?5byt@ (`string')
+06C 00000000 SECT1B notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum  3FE6766, selection    2 (pick any)
+06E 00000000 SECT1B notype       External     | ??_C@_0BC@JLBKFHNE@message?5corrupted?$AA@ (`string')
+06F 00000000 SECT1C notype       Static       | .rdata
+    Section length   39, #relocs    0, #linenums    0, checksum 61B13DD9, selection    2 (pick any)
+071 00000000 SECT1C notype       External     | ??_C@_0DJ@EDJPBMDK@The?5new?5and?5original?5messages?5di@ (`string')
+
+String Table Size = 0x604 bytes
+
+  Summary
+
+        4C50 .debug$S
+          6C .debug$T
+          B7 .drectve
+          54 .pdata
+         1F8 .rdata
+         757 .text$mn
+          8C .xdata

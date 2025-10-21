@@ -1,0 +1,83 @@
+
+Dump of file Release\postgres/spgtextproc.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 567C, #relocs  126, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  F7B, #relocs   33, #linenums    0, checksum 6D16E15C
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   7A, #relocs    2, #linenums    0, checksum C7C252FF, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  190, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | pg_qsort
+00F 00000000 UNDEF  notype ()    External     | elog_start
+010 00000000 UNDEF  notype ()    External     | elog_finish
+011 00000000 UNDEF  notype ()    External     | palloc
+012 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+013 00000000 SECT4  notype ()    External     | spg_text_config
+014 00000020 SECT4  notype ()    External     | spg_text_choose
+015 000002F0 SECT4  notype ()    External     | spg_text_picksplit
+016 00000860 SECT4  notype ()    External     | spg_text_inner_consistent
+017 00000BC0 SECT4  notype ()    External     | spg_text_leaf_consistent
+018 00000000 UNDEF  notype ()    External     | datumCopy
+019 00000000 UNDEF  notype ()    External     | lc_collate_is_c
+01A 00000000 UNDEF  notype ()    External     | varstr_cmp
+01B 00000000 SECT5  notype ()    Static       | formTextDatum
+01C 00000F70 SECT4  notype ()    Static       | cmpNodePtr
+01D 00000000 UNDEF  notype ()    External     | memcmp
+01E 00000000 UNDEF  notype ()    External     | memcpy
+01F 00000020 SECT4  notype       Label        | $LN73
+020 000002F0 SECT4  notype       Label        | $LN121
+021 00000860 SECT4  notype       Label        | $LN69
+022 00000BC0 SECT4  notype       Label        | $LN90
+023 00000000 SECT7  notype       Static       | .xdata
+    Section length   68, #relocs    0, #linenums    0, checksum 3B71B801
+025 00000000 SECT7  notype       Static       | $unwind$spg_text_choose
+026 00000000 SECT8  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum AA10C33C
+028 00000000 SECT8  notype       Static       | $pdata$spg_text_choose
+029 0000001C SECT7  notype       Static       | $unwind$spg_text_picksplit
+02A 0000000C SECT8  notype       Static       | $pdata$spg_text_picksplit
+02B 00000034 SECT7  notype       Static       | $unwind$spg_text_inner_consistent
+02C 00000018 SECT8  notype       Static       | $pdata$spg_text_inner_consistent
+02D 0000004C SECT7  notype       Static       | $unwind$spg_text_leaf_consistent
+02E 00000024 SECT8  notype       Static       | $pdata$spg_text_leaf_consistent
+02F 00000000 SECT9  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum F4634387, selection    5 (pick associative Section 0x5)
+031 00000000 SECT9  notype       Static       | $unwind$formTextDatum
+032 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3D908D58, selection    5 (pick associative Section 0x5)
+034 00000000 SECTA  notype       Static       | $pdata$formTextDatum
+035 00000000 SECTB  notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum DEBFDCB3, selection    2 (pick any)
+037 00000000 SECTB  notype       External     | ??_C@_0BK@IOKMJNHO@spg_text_inner_consistent?$AA@ (`string')
+038 00000000 SECTC  notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum ADADECD7, selection    2 (pick any)
+03A 00000000 SECTC  notype       External     | ??_C@_0CI@LLLOCOJJ@src?1backend?1access?1spgist?1spgtex@ (`string')
+03B 00000000 SECTD  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 9FD1ACAF, selection    2 (pick any)
+03D 00000000 SECTD  notype       External     | ??_C@_0CB@BKFCGJNN@unrecognized?5strategy?5number?3?5?$CFd@ (`string')
+03E 00000000 SECTE  notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum D5D0A84F, selection    2 (pick any)
+040 00000000 SECTE  notype       External     | ??_C@_0BJ@MDOAFJDP@spg_text_leaf_consistent?$AA@ (`string')
+
+String Table Size = 0x2C2 bytes
+
+  Summary
+
+        580C .debug$S
+          68 .debug$T
+          5D .drectve
+          3C .pdata
+          7C .rdata
+         FF5 .text$mn
+          7C .xdata

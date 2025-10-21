@@ -1,0 +1,72 @@
+
+Dump of file Release\postgres/buf_table.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 43CC, #relocs   38, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  17C, #relocs   11, #linenums    0, checksum 144E358A
+00A 00000000 UNDEF  notype ()    External     | elog_start
+00B 00000000 UNDEF  notype ()    External     | elog_finish
+00C 00000000 UNDEF  notype ()    External     | get_hash_value
+00D 00000000 UNDEF  notype ()    External     | hash_search_with_hash_value
+00E 00000000 UNDEF  notype ()    External     | hash_estimate_size
+00F 00000000 UNDEF  notype ()    External     | ShmemInitHash
+010 00000000 SECT4  notype ()    External     | BufTableShmemSize
+011 00000010 SECT4  notype ()    External     | InitBufTable
+012 00000070 SECT4  notype ()    External     | BufTableHashCode
+013 00000090 SECT4  notype ()    External     | BufTableLookup
+014 000000D0 SECT4  notype ()    External     | BufTableInsert
+015 00000120 SECT4  notype ()    External     | BufTableDelete
+016 00000010 SECT4  notype       Label        | $LN4
+017 00000090 SECT4  notype       Label        | $LN5
+018 000000D0 SECT4  notype       Label        | $LN5
+019 00000120 SECT4  notype       Label        | $LN9
+01A 00000000 SECT5  notype       Static       | .xdata
+    Section length   20, #relocs    0, #linenums    0, checksum EBF7FFEA
+01C 00000000 SECT5  notype       Static       | $unwind$InitBufTable
+01D 00000000 SECT6  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum B52B2AB1
+01F 00000000 SECT6  notype       Static       | $pdata$InitBufTable
+020 00000008 SECT5  notype       Static       | $unwind$BufTableLookup
+021 0000000C SECT6  notype       Static       | $pdata$BufTableLookup
+022 00000010 SECT5  notype       Static       | $unwind$BufTableInsert
+023 00000018 SECT6  notype       Static       | $pdata$BufTableInsert
+024 00000018 SECT5  notype       Static       | $unwind$BufTableDelete
+025 00000024 SECT6  notype       Static       | $pdata$BufTableDelete
+026 00000000 SECT7  notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+028 00000000 SECT7  notype       Static       | SharedBufHash
+029 00000000 SECT8  notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 859BBF0D, selection    2 (pick any)
+02B 00000000 SECT8  notype       External     | ??_C@_0BL@GABOBCEB@Shared?5Buffer?5Lookup?5Table?$AA@ (`string')
+02C 00000000 SECT9  notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum  8FB3F7E, selection    2 (pick any)
+02E 00000000 SECT9  notype       External     | ??_C@_0P@CANHMDGG@BufTableDelete?$AA@ (`string')
+02F 00000000 SECTA  notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 9BFD2F0D, selection    2 (pick any)
+031 00000000 SECTA  notype       External     | ??_C@_0CH@OEPACENC@src?1backend?1storage?1buffer?1buf_t@ (`string')
+032 00000000 SECTB  notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum D8C130C8, selection    2 (pick any)
+034 00000000 SECTB  notype       External     | ??_C@_0CD@COMGJIAA@shared?5buffer?5hash?5table?5corrupt@ (`string')
+
+String Table Size = 0x250 bytes
+
+  Summary
+
+           8 .bss
+        43CC .debug$S
+          68 .debug$T
+          5D .drectve
+          30 .pdata
+          74 .rdata
+         17C .text$mn
+          20 .xdata

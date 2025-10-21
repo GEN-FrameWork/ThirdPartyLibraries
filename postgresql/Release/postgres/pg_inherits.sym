@@ -1,0 +1,118 @@
+
+Dump of file Release\postgres/pg_inherits.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 53B4, #relocs   A6, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  694, #relocs   3A, #linenums    0, checksum C3464771
+00A 00000000 UNDEF  notype ()    External     | pg_qsort
+00B 00000000 UNDEF  notype ()    External     | elog_start
+00C 00000000 UNDEF  notype ()    External     | elog_finish
+00D 00000000 UNDEF  notype ()    External     | palloc
+00E 00000000 UNDEF  notype ()    External     | repalloc
+00F 00000000 UNDEF  notype ()    External     | pfree
+010 00000000 UNDEF  notype ()    External     | ScanKeyInit
+011 00000000 UNDEF  notype ()    External     | lappend_int
+012 00000000 UNDEF  notype ()    External     | lappend_oid
+013 00000000 UNDEF  notype ()    External     | lcons_int
+014 00000000 UNDEF  notype ()    External     | lcons_oid
+015 00000000 UNDEF  notype ()    External     | list_member_oid
+016 00000000 UNDEF  notype ()    External     | list_free
+017 00000000 UNDEF  notype ()    External     | systable_beginscan
+018 00000000 UNDEF  notype ()    External     | systable_getnext
+019 00000000 UNDEF  notype ()    External     | systable_endscan
+01A 00000000 UNDEF  notype ()    External     | relation_close
+01B 00000000 UNDEF  notype ()    External     | heap_open
+01C 00000000 UNDEF  notype ()    External     | hash_create
+01D 00000000 UNDEF  notype ()    External     | hash_destroy
+01E 00000000 UNDEF  notype ()    External     | hash_search
+01F 00000000 SECT4  notype ()    External     | find_inheritance_children
+020 00000200 SECT4  notype ()    External     | find_all_inheritors
+021 000003A0 SECT4  notype ()    External     | has_subclass
+022 00000430 SECT4  notype ()    External     | has_superclass
+023 000004E0 SECT4  notype ()    External     | typeInheritsFrom
+024 00000000 UNDEF  notype ()    External     | typeidTypeRelid
+025 00000000 UNDEF  notype ()    External     | LockRelationOid
+026 00000000 UNDEF  notype ()    External     | UnlockRelationOid
+027 00000000 UNDEF  notype ()    External     | oid_cmp
+028 00000000 UNDEF  notype ()    External     | SearchSysCache
+029 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+02A 00000000 UNDEF  notype ()    External     | SearchSysCacheExists
+02B 00000000 UNDEF  notype ()    External     | memset
+02C 00000000 SECT4  notype       Label        | $LN22
+02D 00000200 SECT4  notype       Label        | $LN31
+02E 000003A0 SECT4  notype       Label        | $LN9
+02F 00000430 SECT4  notype       Label        | $LN4
+030 000004E0 SECT4  notype       Label        | $LN33
+031 00000000 SECT5  notype       Static       | .xdata
+    Section length  13C, #relocs   24, #linenums    0, checksum 152184F2
+033 00000000 SECT5  notype       Static       | $unwind$find_inheritance_children
+034 00000000 SECT6  notype       Static       | .pdata
+    Section length   CC, #relocs   33, #linenums    0, checksum 58A1F975
+036 00000000 SECT6  notype       Static       | $pdata$find_inheritance_children
+037 00000020 SECT5  notype       Static       | $chain$4$find_inheritance_children
+038 0000000C SECT6  notype       Static       | $pdata$4$find_inheritance_children
+039 00000034 SECT5  notype       Static       | $chain$5$find_inheritance_children
+03A 00000018 SECT6  notype       Static       | $pdata$5$find_inheritance_children
+03B 00000044 SECT5  notype       Static       | $unwind$find_all_inheritors
+03C 00000024 SECT6  notype       Static       | $pdata$find_all_inheritors
+03D 00000054 SECT5  notype       Static       | $chain$1$find_all_inheritors
+03E 00000030 SECT6  notype       Static       | $pdata$1$find_all_inheritors
+03F 0000006C SECT5  notype       Static       | $chain$2$find_all_inheritors
+040 0000003C SECT6  notype       Static       | $pdata$2$find_all_inheritors
+041 00000080 SECT5  notype       Static       | $chain$3$find_all_inheritors
+042 00000048 SECT6  notype       Static       | $pdata$3$find_all_inheritors
+043 00000094 SECT5  notype       Static       | $chain$4$find_all_inheritors
+044 00000054 SECT6  notype       Static       | $pdata$4$find_all_inheritors
+045 000000A4 SECT5  notype       Static       | $chain$5$find_all_inheritors
+046 00000060 SECT6  notype       Static       | $pdata$5$find_all_inheritors
+047 000000B4 SECT5  notype       Static       | $chain$6$find_all_inheritors
+048 0000006C SECT6  notype       Static       | $pdata$6$find_all_inheritors
+049 000000C4 SECT5  notype       Static       | $unwind$has_subclass
+04A 00000078 SECT6  notype       Static       | $pdata$has_subclass
+04B 000000D0 SECT5  notype       Static       | $unwind$has_superclass
+04C 00000084 SECT6  notype       Static       | $pdata$has_superclass
+04D 000000E0 SECT5  notype       Static       | $unwind$typeInheritsFrom
+04E 00000090 SECT6  notype       Static       | $pdata$typeInheritsFrom
+04F 000000F0 SECT5  notype       Static       | $chain$2$typeInheritsFrom
+050 0000009C SECT6  notype       Static       | $pdata$2$typeInheritsFrom
+051 00000108 SECT5  notype       Static       | $chain$3$typeInheritsFrom
+052 000000A8 SECT6  notype       Static       | $pdata$3$typeInheritsFrom
+053 0000011C SECT5  notype       Static       | $chain$4$typeInheritsFrom
+054 000000B4 SECT6  notype       Static       | $pdata$4$typeInheritsFrom
+055 0000012C SECT5  notype       Static       | $chain$5$typeInheritsFrom
+056 000000C0 SECT6  notype       Static       | $pdata$5$typeInheritsFrom
+057 00000000 UNDEF  notype       External     | CurrentMemoryContext
+058 00000000 SECT7  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum A987DA9C, selection    2 (pick any)
+05A 00000000 SECT7  notype       External     | ??_C@_0CE@DMMOJHLG@find_all_inheritors?5temporary?5ta@ (`string')
+05B 00000000 SECT8  notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum FAF276A9, selection    2 (pick any)
+05D 00000000 SECT8  notype       External     | ??_C@_0N@KHJMPNE@has_subclass?$AA@ (`string')
+05E 00000000 SECT9  notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum C054D862, selection    2 (pick any)
+060 00000000 SECT9  notype       External     | ??_C@_0CC@HONKELLH@src?1backend?1catalog?1pg_inherits?4@ (`string')
+061 00000000 SECTA  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum A271A7DD, selection    2 (pick any)
+063 00000000 SECTA  notype       External     | ??_C@_0CE@DHDIOKPH@cache?5lookup?5failed?5for?5relation@ (`string')
+
+String Table Size = 0x63B bytes
+
+  Summary
+
+        53B4 .debug$S
+          68 .debug$T
+          5D .drectve
+          CC .pdata
+          77 .rdata
+         694 .text$mn
+         13C .xdata

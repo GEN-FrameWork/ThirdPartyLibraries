@@ -1,0 +1,135 @@
+
+Dump of file Release\postgres/geo_spgist.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 545C, #relocs  10E, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  B73, #relocs   5C, #linenums    0, checksum 9161CD04
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   B6, #relocs    1, #linenums    0, checksum F322C0C1, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  200, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | pg_qsort
+00F 00000000 UNDEF  notype ()    External     | elog_start
+010 00000000 UNDEF  notype ()    External     | elog_finish
+011 00000000 UNDEF  notype ()    External     | palloc
+012 00000000 UNDEF  notype ()    External     | pfree
+013 00000000 UNDEF  notype ()    External     | DirectFunctionCall2Coll
+014 00000000 UNDEF  notype ()    External     | box_overlap
+015 00000000 UNDEF  notype ()    External     | box_same
+016 00000000 UNDEF  notype ()    External     | box_contain
+017 00000000 UNDEF  notype ()    External     | box_left
+018 00000000 UNDEF  notype ()    External     | box_overleft
+019 00000000 UNDEF  notype ()    External     | box_overright
+01A 00000000 UNDEF  notype ()    External     | box_right
+01B 00000000 UNDEF  notype ()    External     | box_contained
+01C 00000000 UNDEF  notype ()    External     | box_below
+01D 00000000 UNDEF  notype ()    External     | box_overbelow
+01E 00000000 UNDEF  notype ()    External     | box_overabove
+01F 00000000 UNDEF  notype ()    External     | box_above
+020 00000000 SECT4  notype ()    External     | spg_box_quad_config
+021 00000020 SECT4  notype ()    External     | spg_box_quad_choose
+022 000000A0 SECT4  notype ()    External     | spg_box_quad_picksplit
+023 000002E0 SECT4  notype ()    External     | spg_box_quad_inner_consistent
+024 00000900 SECT4  notype ()    External     | spg_box_quad_leaf_consistent
+025 00000000 UNDEF  notype ()    External     | get_float8_infinity
+026 00000B50 SECT4  notype ()    Static       | compareDoubles
+027 00000000 SECT5  notype ()    Static       | nextRectBox
+028 000000A0 SECT4  notype       Label        | $LN25
+029 000008C0 SECT4  notype       Static       | $LN172
+02A 00000549 SECT4  notype       Label        | $LN22
+02B 0000059B SECT4  notype       Label        | $LN23
+02C 000005E1 SECT4  notype       Label        | $LN24
+02D 00000681 SECT4  notype       Label        | $LN25
+02E 000006AD SECT4  notype       Label        | $LN26
+02F 000006DF SECT4  notype       Label        | $LN27
+030 00000712 SECT4  notype       Label        | $LN28
+031 0000073F SECT4  notype       Label        | $LN29
+032 00000776 SECT4  notype       Label        | $LN30
+033 0000078E SECT4  notype       Label        | $LN31
+034 000007BC SECT4  notype       Label        | $LN32
+035 000002E0 SECT4  notype       Label        | $LN176
+036 00000B14 SECT4  notype       Static       | $LN32
+037 00000979 SECT4  notype       Label        | $LN10
+038 00000994 SECT4  notype       Label        | $LN11
+039 000009AF SECT4  notype       Label        | $LN12
+03A 000009CA SECT4  notype       Label        | $LN13
+03B 000009E5 SECT4  notype       Label        | $LN14
+03C 00000A00 SECT4  notype       Label        | $LN15
+03D 00000A1B SECT4  notype       Label        | $LN16
+03E 00000A36 SECT4  notype       Label        | $LN17
+03F 00000A51 SECT4  notype       Label        | $LN18
+040 00000A69 SECT4  notype       Label        | $LN19
+041 00000A81 SECT4  notype       Label        | $LN20
+042 00000A99 SECT4  notype       Label        | $LN21
+043 00000900 SECT4  notype       Label        | $LN38
+044 00000000 SECT7  notype       Static       | .xdata
+    Section length   BC, #relocs   12, #linenums    0, checksum 4E268207
+046 00000000 SECT7  notype       Static       | $unwind$spg_box_quad_picksplit
+047 00000000 SECT8  notype       Static       | .pdata
+    Section length   6C, #relocs   1B, #linenums    0, checksum C0280FAB
+049 00000000 SECT8  notype       Static       | $pdata$spg_box_quad_picksplit
+04A 0000001C SECT7  notype       Static       | $unwind$spg_box_quad_inner_consistent
+04B 0000000C SECT8  notype       Static       | $pdata$spg_box_quad_inner_consistent
+04C 00000028 SECT7  notype       Static       | $chain$4$spg_box_quad_inner_consistent
+04D 00000018 SECT8  notype       Static       | $pdata$4$spg_box_quad_inner_consistent
+04E 0000004C SECT7  notype       Static       | $chain$5$spg_box_quad_inner_consistent
+04F 00000024 SECT8  notype       Static       | $pdata$5$spg_box_quad_inner_consistent
+050 00000060 SECT7  notype       Static       | $chain$6$spg_box_quad_inner_consistent
+051 00000030 SECT8  notype       Static       | $pdata$6$spg_box_quad_inner_consistent
+052 00000070 SECT7  notype       Static       | $chain$7$spg_box_quad_inner_consistent
+053 0000003C SECT8  notype       Static       | $pdata$7$spg_box_quad_inner_consistent
+054 00000080 SECT7  notype       Static       | $unwind$spg_box_quad_leaf_consistent
+055 00000048 SECT8  notype       Static       | $pdata$spg_box_quad_leaf_consistent
+056 00000090 SECT7  notype       Static       | $chain$2$spg_box_quad_leaf_consistent
+057 00000054 SECT8  notype       Static       | $pdata$2$spg_box_quad_leaf_consistent
+058 000000AC SECT7  notype       Static       | $chain$3$spg_box_quad_leaf_consistent
+059 00000060 SECT8  notype       Static       | $pdata$3$spg_box_quad_leaf_consistent
+05A 00000000 SECT9  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum ED4F81A7, selection    5 (pick associative Section 0x5)
+05C 00000000 SECT9  notype       Static       | $unwind$nextRectBox
+05D 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 1099DF20, selection    5 (pick associative Section 0x5)
+05F 00000000 SECTA  notype       Static       | $pdata$nextRectBox
+060 00000000 UNDEF  notype       External     | CurrentMemoryContext
+061 00000000 SECTB  notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum E6133A1F, selection    2 (pick any)
+063 00000000 SECTB  notype       External     | ??_C@_0BO@BJOIPLFF@spg_box_quad_inner_consistent?$AA@ (`string')
+064 00000000 SECTC  notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum CAF816AB, selection    2 (pick any)
+066 00000000 SECTC  notype       External     | ??_C@_0CD@DMPPLOGD@src?1backend?1utils?1adt?1geo_spgist@ (`string')
+067 00000000 SECTD  notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 73C28ED4, selection    2 (pick any)
+069 00000000 SECTD  notype       External     | ??_C@_0BK@CDNBMPBJ@unrecognized?5strategy?3?5?$CFd?$AA@ (`string')
+06A 00000000 SECTE  notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum A1F4C0ED, selection    2 (pick any)
+06C 00000000 SECTE  notype       External     | ??_C@_0BN@FFFPPKDE@spg_box_quad_leaf_consistent?$AA@ (`string')
+06D 00000000 UNDEF  notype       External     | __ImageBase
+06E 00000000 SECTF  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 3B5E3D73, selection    2 (pick any)
+070 00000000 SECTF  notype       External     | __real@3eb0c6f7a0b5ed8d
+071 00000000 SECT10 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 8BED836F, selection    2 (pick any)
+073 00000000 SECT10 notype       External     | __xmm@80000000000000008000000000000000
+074 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x55B bytes
+
+  Summary
+
+        565C .debug$S
+          68 .debug$T
+          5D .drectve
+          78 .pdata
+          90 .rdata
+         C29 .text$mn
+          CC .xdata

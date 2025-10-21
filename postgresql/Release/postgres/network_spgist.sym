@@ -1,0 +1,109 @@
+
+Dump of file Release\postgres/network_spgist.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 46BC, #relocs   7A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  5D8, #relocs   16, #linenums    0, checksum 78DB6EFB
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  5CC, #relocs    B, #linenums    0, checksum E24B1B3D, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  6EC, #relocs   42, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   B0, #relocs    0, #linenums    0, checksum 41565F48, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  150, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | palloc
+013 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+014 00000000 SECT4  notype ()    External     | inet_spg_config
+015 00000020 SECT4  notype ()    External     | inet_spg_choose
+016 00000200 SECT4  notype ()    External     | inet_spg_picksplit
+017 00000420 SECT4  notype ()    External     | inet_spg_inner_consistent
+018 00000590 SECT4  notype ()    External     | inet_spg_leaf_consistent
+019 00000000 UNDEF  notype ()    External     | cidr_set_masklen_internal
+01A 00000000 UNDEF  notype ()    External     | bitncmp
+01B 00000000 UNDEF  notype ()    External     | bitncommon
+01C 00000000 SECT7  notype ()    Static       | inet_spg_node_number
+01D 00000000 SECT5  notype ()    Static       | inet_spg_consistent_bitmap
+01E 00000020 SECT4  notype       Label        | $LN42
+01F 00000200 SECT4  notype       Label        | $LN50
+020 00000420 SECT4  notype       Label        | $LN43
+021 00000590 SECT4  notype       Label        | $LN4
+022 000005B4 SECT5  notype       Static       | $LN187
+023 00000556 SECT5  notype       Label        | $LN86
+024 00000560 SECT5  notype       Label        | $LN88
+025 0000056A SECT5  notype       Label        | $LN90
+026 00000574 SECT5  notype       Label        | $LN92
+027 0000057E SECT5  notype       Label        | $LN94
+028 00000588 SECT5  notype       Label        | $LN96
+029 00000000 SECT9  notype       Static       | .xdata
+    Section length   A8, #relocs    C, #linenums    0, checksum B526BC50
+02B 00000000 SECT9  notype       Static       | $unwind$inet_spg_choose
+02C 00000000 SECTA  notype       Static       | .pdata
+    Section length   60, #relocs   18, #linenums    0, checksum EB3FE6A7
+02E 00000000 SECTA  notype       Static       | $pdata$inet_spg_choose
+02F 00000020 SECT9  notype       Static       | $unwind$inet_spg_picksplit
+030 0000000C SECTA  notype       Static       | $pdata$inet_spg_picksplit
+031 0000003C SECT9  notype       Static       | $unwind$inet_spg_inner_consistent
+032 00000018 SECTA  notype       Static       | $pdata$inet_spg_inner_consistent
+033 0000004C SECT9  notype       Static       | $chain$0$inet_spg_inner_consistent
+034 00000024 SECTA  notype       Static       | $pdata$0$inet_spg_inner_consistent
+035 00000060 SECT9  notype       Static       | $chain$3$inet_spg_inner_consistent
+036 00000030 SECTA  notype       Static       | $pdata$3$inet_spg_inner_consistent
+037 0000007C SECT9  notype       Static       | $chain$4$inet_spg_inner_consistent
+038 0000003C SECTA  notype       Static       | $pdata$4$inet_spg_inner_consistent
+039 0000008C SECT9  notype       Static       | $chain$5$inet_spg_inner_consistent
+03A 00000048 SECTA  notype       Static       | $pdata$5$inet_spg_inner_consistent
+03B 0000009C SECT9  notype       Static       | $unwind$inet_spg_leaf_consistent
+03C 00000054 SECTA  notype       Static       | $pdata$inet_spg_leaf_consistent
+03D 00000000 SECTB  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 7B2C45B3, selection    5 (pick associative Section 0x7)
+03F 00000000 SECTB  notype       Static       | $unwind$inet_spg_node_number
+040 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D6F6D6A7, selection    5 (pick associative Section 0x7)
+042 00000000 SECTC  notype       Static       | $pdata$inet_spg_node_number
+043 00000000 SECTD  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 440182F2, selection    5 (pick associative Section 0x5)
+045 00000000 SECTD  notype       Static       | $unwind$inet_spg_consistent_bitmap
+046 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum EFF2CB6A, selection    5 (pick associative Section 0x5)
+048 00000000 SECTE  notype       Static       | $pdata$inet_spg_consistent_bitmap
+049 00000000 SECTF  notype       Static       | .xdata
+    Section length   28, #relocs    3, #linenums    0, checksum 87AA4AEA, selection    5 (pick associative Section 0x5)
+04B 00000000 SECTF  notype       Static       | $chain$5$inet_spg_consistent_bitmap
+04C 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6AFC0677, selection    5 (pick associative Section 0x5)
+04E 00000000 SECT10 notype       Static       | $pdata$5$inet_spg_consistent_bitmap
+04F 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 56A52186, selection    5 (pick associative Section 0x5)
+051 00000000 SECT11 notype       Static       | $chain$6$inet_spg_consistent_bitmap
+052 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 30095232, selection    5 (pick associative Section 0x5)
+054 00000000 SECT12 notype       Static       | $pdata$6$inet_spg_consistent_bitmap
+055 00000000 SECT13 notype       Static       | .xdata
+    Section length   28, #relocs    3, #linenums    0, checksum 7C141B35, selection    5 (pick associative Section 0x5)
+057 00000000 SECT13 notype       Static       | $chain$7$inet_spg_consistent_bitmap
+058 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 787C1A30, selection    5 (pick associative Section 0x5)
+05A 00000000 SECT14 notype       Static       | $pdata$7$inet_spg_consistent_bitmap
+05B 00000000 UNDEF  notype       External     | __ImageBase
+
+String Table Size = 0x439 bytes
+
+  Summary
+
+        4EF8 .debug$S
+          68 .debug$T
+          5D .drectve
+          9C .pdata
+         C54 .text$mn
+         124 .xdata

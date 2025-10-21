@@ -1,0 +1,96 @@
+
+Dump of file Release\postgres/pg_conversion.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 498C, #relocs   50, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  4A1, #relocs   35, #linenums    0, checksum E926A8C8
+00A 00000000 UNDEF  notype ()    External     | __report_rangecheckfailure
+00B 00000000 UNDEF  notype ()    External     | errstart
+00C 00000000 UNDEF  notype ()    External     | errfinish
+00D 00000000 UNDEF  notype ()    External     | errcode
+00E 00000000 UNDEF  notype ()    External     | errmsg
+00F 00000000 UNDEF  notype ()    External     | elog_start
+010 00000000 UNDEF  notype ()    External     | elog_finish
+011 00000000 UNDEF  notype ()    External     | ScanKeyInit
+012 00000000 UNDEF  notype ()    External     | relation_close
+013 00000000 UNDEF  notype ()    External     | heap_open
+014 00000000 UNDEF  notype ()    External     | heap_beginscan_catalog
+015 00000000 UNDEF  notype ()    External     | heap_endscan
+016 00000000 UNDEF  notype ()    External     | heap_getnext
+017 00000000 UNDEF  notype ()    External     | heap_form_tuple
+018 00000000 UNDEF  notype ()    External     | heap_freetuple
+019 00000000 UNDEF  notype ()    External     | recordDependencyOn
+01A 00000000 UNDEF  notype ()    External     | recordDependencyOnCurrentExtension
+01B 00000000 UNDEF  notype ()    External     | recordDependencyOnOwner
+01C 00000000 UNDEF  notype ()    External     | CatalogTupleInsert
+01D 00000000 UNDEF  notype ()    External     | CatalogTupleDelete
+01E 00000000 UNDEF  notype ()    External     | RunObjectPostCreateHook
+01F 00000000 SECT4  notype ()    External     | ConversionCreate
+020 00000340 SECT4  notype ()    External     | RemoveConversionById
+021 00000420 SECT4  notype ()    External     | FindDefaultConversion
+022 00000000 UNDEF  notype ()    External     | pg_encoding_to_char
+023 00000000 UNDEF  notype ()    External     | namestrcpy
+024 00000000 UNDEF  notype ()    External     | ReleaseCatCacheList
+025 00000000 UNDEF  notype ()    External     | SearchSysCacheExists
+026 00000000 UNDEF  notype ()    External     | SearchSysCacheList
+027 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+028 00000000 UNDEF  notype ()    External     | __security_check_cookie
+029 0000032E SECT4  notype       Label        | $LN40
+02A 00000000 SECT4  notype       Label        | $LN43
+02B 00000340 SECT4  notype       Label        | $LN10
+02C 00000420 SECT4  notype       Label        | $LN13
+02D 00000000 SECT5  notype       Static       | .xdata
+    Section length   3C, #relocs    1, #linenums    0, checksum 81C9AFBA
+02F 00000000 SECT5  notype       Static       | $unwind$ConversionCreate
+030 00000000 SECT6  notype       Static       | .pdata
+    Section length   24, #relocs    9, #linenums    0, checksum 3EC6D295
+032 00000000 SECT6  notype       Static       | $pdata$ConversionCreate
+033 00000024 SECT5  notype       Static       | $unwind$RemoveConversionById
+034 0000000C SECT6  notype       Static       | $pdata$RemoveConversionById
+035 00000034 SECT5  notype       Static       | $unwind$FindDefaultConversion
+036 00000018 SECT6  notype       Static       | $pdata$FindDefaultConversion
+037 00000000 UNDEF  notype       External     | object_access_hook
+038 00000000 SECT7  notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 79801421, selection    2 (pick any)
+03A 00000000 SECT7  notype       External     | ??_C@_0BB@EPJABKGD@ConversionCreate?$AA@ (`string')
+03B 00000000 SECT8  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 3F75AE6A, selection    2 (pick any)
+03D 00000000 SECT8  notype       External     | ??_C@_0CE@KKDMODEA@src?1backend?1catalog?1pg_conversio@ (`string')
+03E 00000000 SECT9  notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 7CE3976B, selection    2 (pick any)
+040 00000000 SECT9  notype       External     | ??_C@_0BM@DGMBPHN@no?5conversion?5name?5supplied?$AA@ (`string')
+041 00000000 SECTA  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 8BAAA4D9, selection    2 (pick any)
+043 00000000 SECTA  notype       External     | ??_C@_0BP@BNFMPHJG@conversion?5?$CC?$CFs?$CC?5already?5exists?$AA@ (`string')
+044 00000000 SECTB  notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum D145F166, selection    2 (pick any)
+046 00000000 SECTB  notype       External     | ??_C@_0CP@MLGDKFOM@default?5conversion?5for?5?$CFs?5to?5?$CFs?5@ (`string')
+047 00000000 SECTC  notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 7C026C38, selection    2 (pick any)
+049 00000000 SECTC  notype       External     | ??_C@_0BF@MCPJFGEM@RemoveConversionById?$AA@ (`string')
+04A 00000000 SECTD  notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum  7A35167, selection    2 (pick any)
+04C 00000000 SECTD  notype       External     | ??_C@_0CH@HIKOFKLI@could?5not?5find?5tuple?5for?5convers@ (`string')
+04D 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x44D bytes
+
+  Summary
+
+        498C .debug$S
+          68 .debug$T
+          5D .drectve
+          24 .pdata
+          DB .rdata
+         4A1 .text$mn
+          3C .xdata

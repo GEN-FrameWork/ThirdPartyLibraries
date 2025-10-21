@@ -1,0 +1,55 @@
+
+Dump of file Release\postgres/bufmask.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 3D80, #relocs   32, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  155, #relocs    7, #linenums    0, checksum 78EBBC2C
+00A 00000000 UNDEF  notype ()    External     | elog_start
+00B 00000000 UNDEF  notype ()    External     | elog_finish
+00C 00000000 SECT4  notype ()    External     | mask_page_lsn_and_checksum
+00D 00000010 SECT4  notype ()    External     | mask_page_hint_bits
+00E 00000030 SECT4  notype ()    External     | mask_unused_space
+00F 000000D0 SECT4  notype ()    External     | mask_lp_flags
+010 00000130 SECT4  notype ()    External     | mask_page_content
+011 00000000 UNDEF  notype ()    External     | memset
+012 00000030 SECT4  notype       Label        | $LN10
+013 00000130 SECT4  notype       Label        | $LN4
+014 00000000 SECT5  notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 4722D85C
+016 00000000 SECT5  notype       Static       | $unwind$mask_unused_space
+017 00000000 SECT6  notype       Static       | .pdata
+    Section length   18, #relocs    6, #linenums    0, checksum A6F85C3F
+019 00000000 SECT6  notype       Static       | $pdata$mask_unused_space
+01A 00000014 SECT5  notype       Static       | $unwind$mask_page_content
+01B 0000000C SECT6  notype       Static       | $pdata$mask_page_content
+01C 00000000 SECT7  notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 3D46A669, selection    2 (pick any)
+01E 00000000 SECT7  notype       External     | ??_C@_0BC@KFKCJGNL@mask_unused_space?$AA@ (`string')
+01F 00000000 SECT8  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum BFF4C6FB, selection    2 (pick any)
+021 00000000 SECT8  notype       External     | ??_C@_0CE@CKLNILNB@src?1backend?1access?1common?1bufmas@ (`string')
+022 00000000 SECT9  notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum 516062EF, selection    2 (pick any)
+024 00000000 SECT9  notype       External     | ??_C@_0DE@GCLEJCKA@invalid?5page?5pd_lower?5?$CFu?5pd_uppe@ (`string')
+
+String Table Size = 0x181 bytes
+
+  Summary
+
+        3D80 .debug$S
+          68 .debug$T
+          5D .drectve
+          18 .pdata
+          6A .rdata
+         155 .text$mn
+          1C .xdata

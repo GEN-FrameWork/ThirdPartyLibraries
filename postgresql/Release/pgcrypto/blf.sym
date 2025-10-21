@@ -1,0 +1,98 @@
+
+Dump of file Release\pgcrypto/blf.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 42B0, #relocs   AA, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  6E6, #relocs    E, #linenums    0, checksum 971F7CAA
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  485, #relocs    0, #linenums    0, checksum 57837585, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  318, #relocs   24, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  485, #relocs    0, #linenums    0, checksum 442C7FBE, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  318, #relocs   24, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT4  notype ()    External     | blowfish_setkey
+013 00000290 SECT4  notype ()    External     | blowfish_setiv
+014 000002F0 SECT4  notype ()    External     | blowfish_encrypt_cbc
+015 00000400 SECT4  notype ()    External     | blowfish_decrypt_cbc
+016 00000530 SECT4  notype ()    External     | blowfish_encrypt_ecb
+017 00000610 SECT4  notype ()    External     | blowfish_decrypt_ecb
+018 00000000 SECT7  notype ()    Static       | blowfish_encrypt
+019 00000000 SECT5  notype ()    Static       | blowfish_decrypt
+01A 00000000 SECT4  notype       Label        | $LN56
+01B 000002F0 SECT4  notype       Label        | $LN17
+01C 00000400 SECT4  notype       Label        | $LN17
+01D 00000530 SECT4  notype       Label        | $LN17
+01E 00000610 SECT4  notype       Label        | $LN17
+01F 00000000 SECT9  notype       Static       | .xdata
+    Section length   E4, #relocs   18, #linenums    0, checksum FEA37993
+021 00000000 SECT9  notype       Static       | $unwind$blowfish_setkey
+022 00000000 SECTA  notype       Static       | .pdata
+    Section length   9C, #relocs   27, #linenums    0, checksum 96BB80C0
+024 00000000 SECTA  notype       Static       | $pdata$blowfish_setkey
+025 0000001C SECT9  notype       Static       | $unwind$blowfish_encrypt_cbc
+026 0000000C SECTA  notype       Static       | $pdata$blowfish_encrypt_cbc
+027 00000024 SECT9  notype       Static       | $chain$1$blowfish_encrypt_cbc
+028 00000018 SECTA  notype       Static       | $pdata$1$blowfish_encrypt_cbc
+029 0000003C SECT9  notype       Static       | $chain$2$blowfish_encrypt_cbc
+02A 00000024 SECTA  notype       Static       | $pdata$2$blowfish_encrypt_cbc
+02B 0000004C SECT9  notype       Static       | $unwind$blowfish_decrypt_cbc
+02C 00000030 SECTA  notype       Static       | $pdata$blowfish_decrypt_cbc
+02D 00000058 SECT9  notype       Static       | $chain$2$blowfish_decrypt_cbc
+02E 0000003C SECTA  notype       Static       | $pdata$2$blowfish_decrypt_cbc
+02F 00000074 SECT9  notype       Static       | $chain$3$blowfish_decrypt_cbc
+030 00000048 SECTA  notype       Static       | $pdata$3$blowfish_decrypt_cbc
+031 00000084 SECT9  notype       Static       | $unwind$blowfish_encrypt_ecb
+032 00000054 SECTA  notype       Static       | $pdata$blowfish_encrypt_ecb
+033 0000008C SECT9  notype       Static       | $chain$1$blowfish_encrypt_ecb
+034 00000060 SECTA  notype       Static       | $pdata$1$blowfish_encrypt_ecb
+035 000000A4 SECT9  notype       Static       | $chain$2$blowfish_encrypt_ecb
+036 0000006C SECTA  notype       Static       | $pdata$2$blowfish_encrypt_ecb
+037 000000B4 SECT9  notype       Static       | $unwind$blowfish_decrypt_ecb
+038 00000078 SECTA  notype       Static       | $pdata$blowfish_decrypt_ecb
+039 000000BC SECT9  notype       Static       | $chain$1$blowfish_decrypt_ecb
+03A 00000084 SECTA  notype       Static       | $pdata$1$blowfish_decrypt_ecb
+03B 000000D4 SECT9  notype       Static       | $chain$2$blowfish_decrypt_ecb
+03C 00000090 SECTA  notype       Static       | $pdata$2$blowfish_decrypt_ecb
+03D 00000000 SECTB  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum B9697155, selection    5 (pick associative Section 0x7)
+03F 00000000 SECTB  notype       Static       | $unwind$blowfish_encrypt
+040 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum EF94AFAD, selection    5 (pick associative Section 0x7)
+042 00000000 SECTC  notype       Static       | $pdata$blowfish_encrypt
+043 00000000 SECTD  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum B9697155, selection    5 (pick associative Section 0x5)
+045 00000000 SECTD  notype       Static       | $unwind$blowfish_decrypt
+046 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum EF94AFAD, selection    5 (pick associative Section 0x5)
+048 00000000 SECTE  notype       Static       | $pdata$blowfish_decrypt
+049 00000000 SECTF  notype       Static       | .rdata
+    Section length 1050, #relocs    0, #linenums    0, checksum A496DC49
+04B 00000000 SECTF  notype       Static       | parray
+04C 00000050 SECTF  notype       Static       | sbox0
+04D 00000450 SECTF  notype       Static       | sbox1
+04E 00000850 SECTF  notype       Static       | sbox2
+04F 00000C50 SECTF  notype       Static       | sbox3
+
+String Table Size = 0x3EE bytes
+
+  Summary
+
+        48E0 .debug$S
+          68 .debug$T
+          5D .drectve
+          B4 .pdata
+        1050 .rdata
+         FF0 .text$mn
+          FC .xdata

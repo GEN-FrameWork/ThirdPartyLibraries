@@ -1,0 +1,527 @@
+
+Dump of file Release\postgres/network.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 901C, #relocs  304, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 2695, #relocs   F1, #linenums    0, checksum AD53E874
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   76, #relocs    0, #linenums    0, checksum E57A351F, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  20C, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  18A, #relocs    8, #linenums    0, checksum F3305D6D, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  240, #relocs   1A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  167, #relocs    2, #linenums    0, checksum 43E6094F, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  1A4, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  228, #relocs   16, #linenums    0, checksum A927EFF4, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  208, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 SECTD  notype       Static       | .text$mn
+    Section length  160, #relocs    E, #linenums    0, checksum DA8D27FF, selection    1 (pick no duplicates)
+01C 00000000 SECTE  notype       Static       | .debug$S
+    Section length  1EC, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0xD)
+01E 00000000 SECTF  notype       Static       | .text$mn
+    Section length  302, #relocs   29, #linenums    0, checksum  37F93AC, selection    1 (pick no duplicates)
+020 00000000 SECT10 notype       Static       | .debug$S
+    Section length  2A0, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0xF)
+022 00000000 SECT11 notype       Static       | .text$mn
+    Section length   E5, #relocs    7, #linenums    0, checksum CECCE8C3, selection    1 (pick no duplicates)
+024 00000000 SECT12 notype       Static       | .debug$S
+    Section length  1DC, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x11)
+026 00000000 UNDEF  notype       External     | __imp_strchr
+027 00000000 UNDEF  notype ()    External     | pg_snprintf
+028 00000000 UNDEF  notype ()    External     | inet_net_ntop
+029 00000000 UNDEF  notype ()    External     | errstart
+02A 00000000 UNDEF  notype ()    External     | errfinish
+02B 00000000 UNDEF  notype ()    External     | errcode
+02C 00000000 UNDEF  notype ()    External     | errmsg
+02D 00000000 UNDEF  notype ()    External     | errdetail
+02E 00000000 UNDEF  notype ()    External     | elog_start
+02F 00000000 UNDEF  notype ()    External     | elog_finish
+030 00000000 UNDEF  notype ()    External     | palloc
+031 00000000 UNDEF  notype ()    External     | palloc0
+032 00000000 UNDEF  notype ()    External     | pstrdup
+033 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+034 00000000 UNDEF  notype ()    External     | DirectFunctionCall1Coll
+035 00000000 UNDEF  notype ()    External     | DirectFunctionCall2Coll
+036 00000000 UNDEF  notype ()    External     | hash_any
+037 00000000 UNDEF  notype ()    External     | pg_getnameinfo_all
+038 00000000 UNDEF  notype ()    External     | pq_sendbyte
+039 00000000 UNDEF  notype ()    External     | pq_begintypsend
+03A 00000000 UNDEF  notype ()    External     | pq_endtypsend
+03B 00000000 UNDEF  notype ()    External     | pq_getmsgbyte
+03C 00000000 UNDEF  notype ()    External     | int4in
+03D 00000000 SECT4  notype ()    External     | hashinet
+03E 00000060 SECT4  notype ()    External     | inet_abbrev
+03F 00000150 SECT4  notype ()    External     | cidr_abbrev
+040 00000240 SECT4  notype ()    External     | inet_set_masklen
+041 000003E0 SECT4  notype ()    External     | cidr_set_masklen
+042 000004B0 SECT4  notype ()    External     | network_network
+043 000005D0 SECT4  notype ()    External     | network_netmask
+044 000006D0 SECT4  notype ()    External     | network_masklen
+045 00000700 SECT4  notype ()    External     | network_broadcast
+046 00000840 SECT4  notype ()    External     | network_host
+047 00000950 SECT4  notype ()    External     | network_family
+048 000009A0 SECT4  notype ()    External     | network_show
+049 00000B10 SECT4  notype ()    External     | inet_in
+04A 00000B30 SECT4  notype ()    External     | inet_out
+04B 00000B60 SECT4  notype ()    External     | network_eq
+04C 00000BB0 SECT4  notype ()    External     | network_lt
+04D 00000C00 SECT4  notype ()    External     | network_le
+04E 00000C50 SECT4  notype ()    External     | network_gt
+04F 00000CA0 SECT4  notype ()    External     | network_ge
+050 00000CF0 SECT4  notype ()    External     | network_ne
+051 00000D40 SECT4  notype ()    External     | network_cmp
+052 00000D80 SECT4  notype ()    External     | network_sub
+053 00000E50 SECT4  notype ()    External     | network_subeq
+054 00000F20 SECT4  notype ()    External     | network_sup
+055 00000FF0 SECT4  notype ()    External     | network_supeq
+056 000010C0 SECT4  notype ()    External     | cidr_in
+057 000010E0 SECT4  notype ()    External     | network_hostmask
+058 00001230 SECT4  notype ()    External     | cidr_out
+059 00001260 SECT4  notype ()    External     | inet_to_cidr
+05A 00001300 SECT4  notype ()    External     | inet_client_addr
+05B 000013E0 SECT4  notype ()    External     | inet_client_port
+05C 000014B0 SECT4  notype ()    External     | inet_server_addr
+05D 00001590 SECT4  notype ()    External     | inet_server_port
+05E 00001660 SECT4  notype ()    External     | inet_recv
+05F 00001680 SECT4  notype ()    External     | inet_send
+060 000016B0 SECT4  notype ()    External     | cidr_recv
+061 000016D0 SECT4  notype ()    External     | cidr_send
+062 00001700 SECT4  notype ()    External     | inetnot
+063 00001810 SECT4  notype ()    External     | inetand
+064 000019F0 SECT4  notype ()    External     | inetor
+065 00001BD0 SECT4  notype ()    External     | inetpl
+066 00001C00 SECT4  notype ()    External     | inetmi_int8
+067 00001C30 SECT4  notype ()    External     | inetmi
+068 00001E40 SECT4  notype ()    External     | network_overlap
+069 00001F20 SECT4  notype ()    External     | network_larger
+06A 00001F70 SECT4  notype ()    External     | network_smaller
+06B 00001FC0 SECT4  notype ()    External     | inet_merge
+06C 000020F0 SECT4  notype ()    External     | inet_same_family
+06D 00000000 UNDEF  notype ()    External     | cstring_to_text
+06E 00000000 UNDEF  notype ()    External     | inet_cidr_ntop
+06F 00000000 UNDEF  notype ()    External     | inet_net_pton
+070 00002150 SECT4  notype ()    External     | convert_network_to_scalar
+071 000023A0 SECT4  notype ()    External     | network_scan_first
+072 000023C0 SECT4  notype ()    External     | network_scan_last
+073 00002400 SECT4  notype ()    External     | clean_ipv6_addr
+074 00002430 SECT4  notype ()    External     | cidr_set_masklen_internal
+075 00002550 SECT4  notype ()    External     | bitncmp
+076 000025F0 SECT4  notype ()    External     | bitncommon
+077 00000000 SECT9  notype ()    Static       | network_cmp_internal
+078 00000000 SECT5  notype ()    Static       | addressOK
+079 00000000 SECT7  notype ()    Static       | internal_inetpl
+07A 00000000 SECTB  notype ()    Static       | network_in
+07B 00000000 SECTD  notype ()    Static       | network_out
+07C 00000000 SECTF  notype ()    Static       | network_recv
+07D 00000000 SECT11 notype ()    Static       | network_send
+07E 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+07F 00000000 UNDEF  notype ()    External     | __security_check_cookie
+080 00000000 UNDEF  notype ()    External     | memcmp
+081 00000000 UNDEF  notype ()    External     | memcpy
+082 00000000 SECT4  notype       Label        | $LN8
+083 00000060 SECT4  notype       Label        | $LN16
+084 00000150 SECT4  notype       Label        | $LN16
+085 00000240 SECT4  notype       Label        | $LN34
+086 000003E0 SECT4  notype       Label        | $LN16
+087 000004B0 SECT4  notype       Label        | $LN28
+088 000005D0 SECT4  notype       Label        | $LN26
+089 000006D0 SECT4  notype       Label        | $LN6
+08A 00000700 SECT4  notype       Label        | $LN39
+08B 00000840 SECT4  notype       Label        | $LN17
+08C 00000950 SECT4  notype       Label        | $LN11
+08D 000009A0 SECT4  notype       Label        | $LN20
+08E 00000B30 SECT4  notype       Label        | $LN4
+08F 00000B60 SECT4  notype       Label        | $LN4
+090 00000BB0 SECT4  notype       Label        | $LN4
+091 00000C00 SECT4  notype       Label        | $LN4
+092 00000C50 SECT4  notype       Label        | $LN4
+093 00000CA0 SECT4  notype       Label        | $LN4
+094 00000CF0 SECT4  notype       Label        | $LN4
+095 00000D40 SECT4  notype       Label        | $LN4
+096 00000D80 SECT4  notype       Label        | $LN21
+097 00000E50 SECT4  notype       Label        | $LN21
+098 00000F20 SECT4  notype       Label        | $LN21
+099 00000FF0 SECT4  notype       Label        | $LN21
+09A 000010E0 SECT4  notype       Label        | $LN30
+09B 00001230 SECT4  notype       Label        | $LN4
+09C 00001260 SECT4  notype       Label        | $LN14
+09D 00001300 SECT4  notype       Label        | $LN27
+09E 000013E0 SECT4  notype       Label        | $LN22
+09F 000014B0 SECT4  notype       Label        | $LN27
+0A0 00001590 SECT4  notype       Label        | $LN22
+0A1 00001680 SECT4  notype       Label        | $LN4
+0A2 000016D0 SECT4  notype       Label        | $LN4
+0A3 00001700 SECT4  notype       Label        | $LN27
+0A4 00001810 SECT4  notype       Label        | $LN48
+0A5 000019F0 SECT4  notype       Label        | $LN48
+0A6 00001BD0 SECT4  notype       Label        | $LN4
+0A7 00001C00 SECT4  notype       Label        | $LN4
+0A8 00001C30 SECT4  notype       Label        | $LN45
+0A9 00001E40 SECT4  notype       Label        | $LN23
+0AA 00001F20 SECT4  notype       Label        | $LN6
+0AB 00001F70 SECT4  notype       Label        | $LN6
+0AC 00001FC0 SECT4  notype       Label        | $LN28
+0AD 000020F0 SECT4  notype       Label        | $LN8
+0AE 00002150 SECT4  notype       Label        | $LN36
+0AF 000023C0 SECT4  notype       Label        | $LN4
+0B0 00002400 SECT4  notype       Label        | $LN6
+0B1 00002430 SECT4  notype       Label        | $LN20
+0B2 00002550 SECT4  notype       Label        | $LN16
+0B3 000025F0 SECT4  notype       Label        | $LN23
+0B4 00000000 SECT13 notype       Static       | .xdata
+    Section length  41C, #relocs   3E, #linenums    0, checksum 36DF0238
+0B6 00000000 SECT13 notype       Static       | $unwind$hashinet
+0B7 00000000 SECT14 notype       Static       | .pdata
+    Section length  330, #relocs   CC, #linenums    0, checksum  2426707
+0B9 00000000 SECT14 notype       Static       | $pdata$hashinet
+0BA 00000008 SECT13 notype       Static       | $unwind$inet_abbrev
+0BB 0000000C SECT14 notype       Static       | $pdata$inet_abbrev
+0BC 00000018 SECT13 notype       Static       | $chain$0$inet_abbrev
+0BD 00000018 SECT14 notype       Static       | $pdata$0$inet_abbrev
+0BE 0000002C SECT13 notype       Static       | $chain$1$inet_abbrev
+0BF 00000024 SECT14 notype       Static       | $pdata$1$inet_abbrev
+0C0 0000003C SECT13 notype       Static       | $unwind$cidr_abbrev
+0C1 00000030 SECT14 notype       Static       | $pdata$cidr_abbrev
+0C2 0000004C SECT13 notype       Static       | $chain$0$cidr_abbrev
+0C3 0000003C SECT14 notype       Static       | $pdata$0$cidr_abbrev
+0C4 00000060 SECT13 notype       Static       | $chain$1$cidr_abbrev
+0C5 00000048 SECT14 notype       Static       | $pdata$1$cidr_abbrev
+0C6 00000070 SECT13 notype       Static       | $unwind$inet_set_masklen
+0C7 00000054 SECT14 notype       Static       | $pdata$inet_set_masklen
+0C8 00000088 SECT13 notype       Static       | $unwind$cidr_set_masklen
+0C9 00000060 SECT14 notype       Static       | $pdata$cidr_set_masklen
+0CA 00000098 SECT13 notype       Static       | $unwind$network_network
+0CB 0000006C SECT14 notype       Static       | $pdata$network_network
+0CC 000000A8 SECT13 notype       Static       | $unwind$network_netmask
+0CD 00000078 SECT14 notype       Static       | $pdata$network_netmask
+0CE 000000B4 SECT13 notype       Static       | $unwind$network_masklen
+0CF 00000084 SECT14 notype       Static       | $pdata$network_masklen
+0D0 000000BC SECT13 notype       Static       | $unwind$network_broadcast
+0D1 00000090 SECT14 notype       Static       | $pdata$network_broadcast
+0D2 000000D4 SECT13 notype       Static       | $unwind$network_host
+0D3 0000009C SECT14 notype       Static       | $pdata$network_host
+0D4 000000E4 SECT13 notype       Static       | $chain$0$network_host
+0D5 000000A8 SECT14 notype       Static       | $pdata$0$network_host
+0D6 000000F8 SECT13 notype       Static       | $chain$1$network_host
+0D7 000000B4 SECT14 notype       Static       | $pdata$1$network_host
+0D8 00000108 SECT13 notype       Static       | $unwind$network_family
+0D9 000000C0 SECT14 notype       Static       | $pdata$network_family
+0DA 00000110 SECT13 notype       Static       | $unwind$network_show
+0DB 000000CC SECT14 notype       Static       | $pdata$network_show
+0DC 00000124 SECT13 notype       Static       | $chain$0$network_show
+0DD 000000D8 SECT14 notype       Static       | $pdata$0$network_show
+0DE 00000138 SECT13 notype       Static       | $chain$1$network_show
+0DF 000000E4 SECT14 notype       Static       | $pdata$1$network_show
+0E0 00000148 SECT13 notype       Static       | $unwind$inet_out
+0E1 000000F0 SECT14 notype       Static       | $pdata$inet_out
+0E2 00000150 SECT13 notype       Static       | $unwind$network_eq
+0E3 000000FC SECT14 notype       Static       | $pdata$network_eq
+0E4 0000015C SECT13 notype       Static       | $unwind$network_lt
+0E5 00000108 SECT14 notype       Static       | $pdata$network_lt
+0E6 00000168 SECT13 notype       Static       | $unwind$network_le
+0E7 00000114 SECT14 notype       Static       | $pdata$network_le
+0E8 00000174 SECT13 notype       Static       | $unwind$network_gt
+0E9 00000120 SECT14 notype       Static       | $pdata$network_gt
+0EA 00000180 SECT13 notype       Static       | $unwind$network_ge
+0EB 0000012C SECT14 notype       Static       | $pdata$network_ge
+0EC 0000018C SECT13 notype       Static       | $unwind$network_ne
+0ED 00000138 SECT14 notype       Static       | $pdata$network_ne
+0EE 00000198 SECT13 notype       Static       | $unwind$network_cmp
+0EF 00000144 SECT14 notype       Static       | $pdata$network_cmp
+0F0 000001A4 SECT13 notype       Static       | $unwind$network_sub
+0F1 00000150 SECT14 notype       Static       | $pdata$network_sub
+0F2 000001B0 SECT13 notype       Static       | $unwind$network_subeq
+0F3 0000015C SECT14 notype       Static       | $pdata$network_subeq
+0F4 000001BC SECT13 notype       Static       | $unwind$network_sup
+0F5 00000168 SECT14 notype       Static       | $pdata$network_sup
+0F6 000001C8 SECT13 notype       Static       | $unwind$network_supeq
+0F7 00000174 SECT14 notype       Static       | $pdata$network_supeq
+0F8 000001D4 SECT13 notype       Static       | $unwind$network_hostmask
+0F9 00000180 SECT14 notype       Static       | $pdata$network_hostmask
+0FA 000001EC SECT13 notype       Static       | $unwind$cidr_out
+0FB 0000018C SECT14 notype       Static       | $pdata$cidr_out
+0FC 000001F4 SECT13 notype       Static       | $unwind$inet_to_cidr
+0FD 00000198 SECT14 notype       Static       | $pdata$inet_to_cidr
+0FE 00000200 SECT13 notype       Static       | $unwind$inet_client_addr
+0FF 000001A4 SECT14 notype       Static       | $pdata$inet_client_addr
+100 00000214 SECT13 notype       Static       | $chain$0$inet_client_addr
+101 000001B0 SECT14 notype       Static       | $pdata$0$inet_client_addr
+102 00000228 SECT13 notype       Static       | $chain$1$inet_client_addr
+103 000001BC SECT14 notype       Static       | $pdata$1$inet_client_addr
+104 00000238 SECT13 notype       Static       | $unwind$inet_client_port
+105 000001C8 SECT14 notype       Static       | $pdata$inet_client_port
+106 00000248 SECT13 notype       Static       | $unwind$inet_server_addr
+107 000001D4 SECT14 notype       Static       | $pdata$inet_server_addr
+108 0000025C SECT13 notype       Static       | $chain$0$inet_server_addr
+109 000001E0 SECT14 notype       Static       | $pdata$0$inet_server_addr
+10A 00000270 SECT13 notype       Static       | $chain$1$inet_server_addr
+10B 000001EC SECT14 notype       Static       | $pdata$1$inet_server_addr
+10C 00000280 SECT13 notype       Static       | $unwind$inet_server_port
+10D 000001F8 SECT14 notype       Static       | $pdata$inet_server_port
+10E 00000290 SECT13 notype       Static       | $unwind$inet_send
+10F 00000204 SECT14 notype       Static       | $pdata$inet_send
+110 00000298 SECT13 notype       Static       | $unwind$cidr_send
+111 00000210 SECT14 notype       Static       | $pdata$cidr_send
+112 000002A0 SECT13 notype       Static       | $unwind$inetnot
+113 0000021C SECT14 notype       Static       | $pdata$inetnot
+114 000002AC SECT13 notype       Static       | $unwind$inetand
+115 00000228 SECT14 notype       Static       | $pdata$inetand
+116 000002C4 SECT13 notype       Static       | $unwind$inetor
+117 00000234 SECT14 notype       Static       | $pdata$inetor
+118 000002DC SECT13 notype       Static       | $unwind$inetpl
+119 00000240 SECT14 notype       Static       | $pdata$inetpl
+11A 000002E4 SECT13 notype       Static       | $unwind$inetmi_int8
+11B 0000024C SECT14 notype       Static       | $pdata$inetmi_int8
+11C 000002EC SECT13 notype       Static       | $unwind$inetmi
+11D 00000258 SECT14 notype       Static       | $pdata$inetmi
+11E 000002F8 SECT13 notype       Static       | $chain$0$inetmi
+11F 00000264 SECT14 notype       Static       | $pdata$0$inetmi
+120 0000030C SECT13 notype       Static       | $chain$4$inetmi
+121 00000270 SECT14 notype       Static       | $pdata$4$inetmi
+122 0000032C SECT13 notype       Static       | $chain$5$inetmi
+123 0000027C SECT14 notype       Static       | $pdata$5$inetmi
+124 0000033C SECT13 notype       Static       | $chain$7$inetmi
+125 00000288 SECT14 notype       Static       | $pdata$7$inetmi
+126 00000350 SECT13 notype       Static       | $unwind$network_overlap
+127 00000294 SECT14 notype       Static       | $pdata$network_overlap
+128 0000035C SECT13 notype       Static       | $unwind$network_larger
+129 000002A0 SECT14 notype       Static       | $pdata$network_larger
+12A 00000368 SECT13 notype       Static       | $unwind$network_smaller
+12B 000002AC SECT14 notype       Static       | $pdata$network_smaller
+12C 00000374 SECT13 notype       Static       | $unwind$inet_merge
+12D 000002B8 SECT14 notype       Static       | $pdata$inet_merge
+12E 00000384 SECT13 notype       Static       | $unwind$inet_same_family
+12F 000002C4 SECT14 notype       Static       | $pdata$inet_same_family
+130 00000390 SECT13 notype       Static       | $unwind$convert_network_to_scalar
+131 000002D0 SECT14 notype       Static       | $pdata$convert_network_to_scalar
+132 00000398 SECT13 notype       Static       | $chain$4$convert_network_to_scalar
+133 000002DC SECT14 notype       Static       | $pdata$4$convert_network_to_scalar
+134 000003BC SECT13 notype       Static       | $chain$5$convert_network_to_scalar
+135 000002E8 SECT14 notype       Static       | $pdata$5$convert_network_to_scalar
+136 000003D4 SECT13 notype       Static       | $unwind$network_scan_last
+137 000002F4 SECT14 notype       Static       | $pdata$network_scan_last
+138 000003DC SECT13 notype       Static       | $unwind$clean_ipv6_addr
+139 00000300 SECT14 notype       Static       | $pdata$clean_ipv6_addr
+13A 000003E4 SECT13 notype       Static       | $unwind$cidr_set_masklen_internal
+13B 0000030C SECT14 notype       Static       | $pdata$cidr_set_masklen_internal
+13C 000003FC SECT13 notype       Static       | $unwind$bitncmp
+13D 00000318 SECT14 notype       Static       | $pdata$bitncmp
+13E 00000410 SECT13 notype       Static       | $unwind$bitncommon
+13F 00000324 SECT14 notype       Static       | $pdata$bitncommon
+140 00000000 SECT15 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 47C11500, selection    5 (pick associative Section 0x9)
+142 00000000 SECT15 notype       Static       | $unwind$network_cmp_internal
+143 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 617DCC89, selection    5 (pick associative Section 0x9)
+145 00000000 SECT16 notype       Static       | $pdata$network_cmp_internal
+146 00000000 SECT17 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 46F207F1, selection    5 (pick associative Section 0x9)
+148 00000000 SECT17 notype       Static       | $chain$2$network_cmp_internal
+149 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 525A8A85, selection    5 (pick associative Section 0x9)
+14B 00000000 SECT18 notype       Static       | $pdata$2$network_cmp_internal
+14C 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum D82A2665, selection    5 (pick associative Section 0x9)
+14E 00000000 SECT19 notype       Static       | $chain$3$network_cmp_internal
+14F 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DB6AD4A3, selection    5 (pick associative Section 0x9)
+151 00000000 SECT1A notype       Static       | $pdata$3$network_cmp_internal
+152 00000000 SECT1B notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 4A7F8298, selection    5 (pick associative Section 0x7)
+154 00000000 SECT1B notype       Static       | $unwind$internal_inetpl
+155 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 648C92A6, selection    5 (pick associative Section 0x7)
+157 00000000 SECT1C notype       Static       | $pdata$internal_inetpl
+158 00000000 SECT1D notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 83BD73E6, selection    5 (pick associative Section 0xB)
+15A 00000000 SECT1D notype       Static       | $unwind$network_in
+15B 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum BD0C68CA, selection    5 (pick associative Section 0xB)
+15D 00000000 SECT1E notype       Static       | $pdata$network_in
+15E 00000000 SECT1F notype       Static       | .xdata
+    Section length   18, #relocs    1, #linenums    0, checksum EF8B64D7, selection    5 (pick associative Section 0xD)
+160 00000000 SECT1F notype       Static       | $unwind$network_out
+161 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 68B67E9E, selection    5 (pick associative Section 0xD)
+163 00000000 SECT20 notype       Static       | $pdata$network_out
+164 00000000 SECT21 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 545B0D13, selection    5 (pick associative Section 0xD)
+166 00000000 SECT21 notype       Static       | $chain$0$network_out
+167 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 816BC6B9, selection    5 (pick associative Section 0xD)
+169 00000000 SECT22 notype       Static       | $pdata$0$network_out
+16A 00000000 SECT23 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum DD9E99B8, selection    5 (pick associative Section 0xD)
+16C 00000000 SECT23 notype       Static       | $chain$1$network_out
+16D 00000000 SECT24 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 1330465E, selection    5 (pick associative Section 0xD)
+16F 00000000 SECT24 notype       Static       | $pdata$1$network_out
+170 00000000 SECT25 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 383C2C55, selection    5 (pick associative Section 0xD)
+172 00000000 SECT25 notype       Static       | $chain$2$network_out
+173 00000000 SECT26 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 84AA239B, selection    5 (pick associative Section 0xD)
+175 00000000 SECT26 notype       Static       | $pdata$2$network_out
+176 00000000 SECT27 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum D1E19472, selection    5 (pick associative Section 0xD)
+178 00000000 SECT27 notype       Static       | $chain$3$network_out
+179 00000000 SECT28 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D1340D07, selection    5 (pick associative Section 0xD)
+17B 00000000 SECT28 notype       Static       | $pdata$3$network_out
+17C 00000000 SECT29 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum D4A236FE, selection    5 (pick associative Section 0xF)
+17E 00000000 SECT29 notype       Static       | $unwind$network_recv
+17F 00000000 SECT2A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 73CD1DE0, selection    5 (pick associative Section 0xF)
+181 00000000 SECT2A notype       Static       | $pdata$network_recv
+182 00000000 SECT2B notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum F0AB61A9, selection    5 (pick associative Section 0x11)
+184 00000000 SECT2B notype       Static       | $unwind$network_send
+185 00000000 SECT2C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum CB302B05, selection    5 (pick associative Section 0x11)
+187 00000000 SECT2C notype       Static       | $pdata$network_send
+188 00000000 UNDEF  notype       External     | MyProcPort
+189 00000000 SECT2D notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum C45607B2, selection    2 (pick any)
+18B 00000000 SECT2D notype       External     | ??_C@_0L@FACOEJKB@network_in?$AA@ (`string')
+18C 00000000 SECT2E notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum B24DE3B1, selection    2 (pick any)
+18E 00000000 SECT2E notype       External     | ??_C@_0CA@FELIEJOD@src?1backend?1utils?1adt?1network?4c?$AA@ (`string')
+18F 00000000 SECT2F notype       Static       | .rdata
+    Section length    5, #relocs    0, #linenums    0, checksum CA6BCD9C, selection    2 (pick any)
+191 00000000 SECT2F notype       External     | ??_C@_04PDLGMFHO@cidr?$AA@ (`string')
+192 00000000 SECT30 notype       Static       | .rdata
+    Section length    5, #relocs    0, #linenums    0, checksum 4A942035, selection    2 (pick any)
+194 00000000 SECT30 notype       External     | ??_C@_04HDEJCINH@inet?$AA@ (`string')
+195 00000000 SECT31 notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum C56C472F, selection    2 (pick any)
+197 00000000 SECT31 notype       External     | ??_C@_0CH@LKGBEMPA@invalid?5input?5syntax?5for?5type?5?$CFs@ (`string')
+198 00000000 SECT32 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 14BF07E0, selection    2 (pick any)
+19A 00000000 SECT32 notype       External     | ??_C@_0CF@MPJBIHHL@Value?5has?5bits?5set?5to?5right?5of?5m@ (`string')
+19B 00000000 SECT33 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum  B09A176, selection    2 (pick any)
+19D 00000000 SECT33 notype       External     | ??_C@_0BJ@BNDJFAAG@invalid?5cidr?5value?3?5?$CC?$CFs?$CC?$AA@ (`string')
+19E 00000000 SECT34 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 5BE02B18, selection    2 (pick any)
+1A0 00000000 SECT34 notype       External     | ??_C@_0M@NPMKBCII@network_out?$AA@ (`string')
+1A1 00000000 SECT35 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum D242C5D2, selection    2 (pick any)
+1A3 00000000 SECT35 notype       External     | ??_C@_0CA@DELHGPIA@could?5not?5format?5inet?5value?3?5?$CFm?$AA@ (`string')
+1A4 00000000 SECT36 notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum 949FB6D0, selection    2 (pick any)
+1A6 00000000 SECT36 notype       External     | ??_C@_03EKCEJGDD@?1?$CFu?$AA@ (`string')
+1A7 00000000 SECT37 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum BB521754, selection    2 (pick any)
+1A9 00000000 SECT37 notype       External     | ??_C@_0N@ELNJKOCJ@network_recv?$AA@ (`string')
+1AA 00000000 SECT38 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum 8BD071A4, selection    2 (pick any)
+1AC 00000000 SECT38 notype       External     | ??_C@_0CO@HHFAIGLA@invalid?5address?5family?5in?5extern@ (`string')
+1AD 00000000 SECT39 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 85B0B023, selection    2 (pick any)
+1AF 00000000 SECT39 notype       External     | ??_C@_0CE@BAPJPNAJ@invalid?5bits?5in?5external?5?$CC?$CFs?$CC?5va@ (`string')
+1B0 00000000 SECT3A notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 6BC8AB3F, selection    2 (pick any)
+1B2 00000000 SECT3A notype       External     | ??_C@_0CG@MMOMPHD@invalid?5length?5in?5external?5?$CC?$CFs?$CC?5@ (`string')
+1B3 00000000 SECT3B notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum B6C2C9DB, selection    2 (pick any)
+1B5 00000000 SECT3B notype       External     | ??_C@_0BO@EJDJAIJB@invalid?5external?5?$CCcidr?$CC?5value?$AA@ (`string')
+1B6 00000000 SECT3C notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 59982A47, selection    2 (pick any)
+1B8 00000000 SECT3C notype       External     | ??_C@_0N@KJBDJDDK@inet_to_cidr?$AA@ (`string')
+1B9 00000000 SECT3D notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 1B13091A, selection    2 (pick any)
+1BB 00000000 SECT3D notype       External     | ??_C@_0BM@GEJMIBAM@invalid?5inet?5bit?5length?3?5?$CFd?$AA@ (`string')
+1BC 00000000 SECT3E notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 46E783E7, selection    2 (pick any)
+1BE 00000000 SECT3E notype       External     | ??_C@_0BB@HAPHINKF@inet_set_masklen?$AA@ (`string')
+1BF 00000000 SECT3F notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 8817C9C4, selection    2 (pick any)
+1C1 00000000 SECT3F notype       External     | ??_C@_0BI@NECJPMBL@invalid?5mask?5length?3?5?$CFd?$AA@ (`string')
+1C2 00000000 SECT40 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum C80B3495, selection    2 (pick any)
+1C4 00000000 SECT40 notype       External     | ??_C@_0BB@POBLDKNH@cidr_set_masklen?$AA@ (`string')
+1C5 00000000 SECT41 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum D0AFB9E1, selection    2 (pick any)
+1C7 00000000 SECT41 notype       External     | ??_C@_0N@CACEAAJM@network_host?$AA@ (`string')
+1C8 00000000 SECT42 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 64592E1C, selection    2 (pick any)
+1CA 00000000 SECT42 notype       External     | ??_C@_0N@JENCJHGB@network_show?$AA@ (`string')
+1CB 00000000 SECT43 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum DC9E25A1, selection    2 (pick any)
+1CD 00000000 SECT43 notype       External     | ??_C@_0M@FILEBMDB@inet_abbrev?$AA@ (`string')
+1CE 00000000 SECT44 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 834ACAF7, selection    2 (pick any)
+1D0 00000000 SECT44 notype       External     | ??_C@_0M@HGAPDGH@cidr_abbrev?$AA@ (`string')
+1D1 00000000 SECT45 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum E22B6E61, selection    2 (pick any)
+1D3 00000000 SECT45 notype       External     | ??_C@_0CA@ENOMEDD@could?5not?5format?5cidr?5value?3?5?$CFm?$AA@ (`string')
+1D4 00000000 SECT46 notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum 7E589048, selection    2 (pick any)
+1D6 00000000 SECT46 notype       External     | ??_C@_0L@OKCANOFL@inet_merge?$AA@ (`string')
+1D7 00000000 SECT47 notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum C12F03A6, selection    2 (pick any)
+1D9 00000000 SECT47 notype       External     | ??_C@_0CP@NLAJFHCM@cannot?5merge?5addresses?5from?5diff@ (`string')
+1DA 00000000 SECT48 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 80048C21, selection    2 (pick any)
+1DC 00000000 SECT48 notype       External     | ??_C@_07BKNJKMLH@inetand?$AA@ (`string')
+1DD 00000000 SECT49 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum FA932C4E, selection    2 (pick any)
+1DF 00000000 SECT49 notype       External     | ??_C@_0CK@OBADPLEK@cannot?5AND?5inet?5values?5of?5differ@ (`string')
+1E0 00000000 SECT4A notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum C7DD3F83, selection    2 (pick any)
+1E2 00000000 SECT4A notype       External     | ??_C@_06KFEOBPAC@inetor?$AA@ (`string')
+1E3 00000000 SECT4B notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum 5F1CB117, selection    2 (pick any)
+1E5 00000000 SECT4B notype       External     | ??_C@_0CJ@MOGOMOEC@cannot?5OR?5inet?5values?5of?5differe@ (`string')
+1E6 00000000 SECT4C notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 6D29310C, selection    2 (pick any)
+1E8 00000000 SECT4C notype       External     | ??_C@_0BA@HOGNIFKG@internal_inetpl?$AA@ (`string')
+1E9 00000000 SECT4D notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum AE2DF0C8, selection    2 (pick any)
+1EB 00000000 SECT4D notype       External     | ??_C@_0BH@CDHCCLHD@result?5is?5out?5of?5range?$AA@ (`string')
+1EC 00000000 SECT4E notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 6D6F2077, selection    2 (pick any)
+1EE 00000000 SECT4E notype       External     | ??_C@_06PPMAAPG@inetmi?$AA@ (`string')
+1EF 00000000 SECT4F notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum 8A3543BD, selection    2 (pick any)
+1F1 00000000 SECT4F notype       External     | ??_C@_0CP@JABDBHDH@cannot?5subtract?5inet?5values?5of?5d@ (`string')
+1F2 00000000 SECT50 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 59E33866, selection    2 (pick any)
+1F4 00000000 SECT50 notype       External     | __real@4070000000000000
+1F5 00000000 SECT51 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 2EE408F0, selection    2 (pick any)
+1F7 00000000 SECT51 notype       External     | __real@4170000000000000
+1F8 00000000 SECT52 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 156790BB, selection    2 (pick any)
+1FA 00000000 SECT52 notype       External     | __real@41f0000000000000
+1FB 00000000 UNDEF  notype       External     | __security_cookie
+1FC 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x1862 bytes
+
+  Summary
+
+        9E7C .debug$S
+          68 .debug$T
+          5D .drectve
+         3C0 .pdata
+         333 .rdata
+        316B .text$mn
+         518 .xdata

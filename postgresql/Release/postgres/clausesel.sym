@@ -1,0 +1,117 @@
+
+Dump of file Release\postgres/clausesel.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5220, #relocs   A8, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  96F, #relocs   31, #linenums    0, checksum A745A189
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  110, #relocs    4, #linenums    0, checksum AB328809, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  37C, #relocs   20, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | palloc
+00F 00000000 UNDEF  notype ()    External     | pfree
+010 00000000 UNDEF  notype ()    External     | bms_is_member
+011 00000000 UNDEF  notype ()    External     | bms_get_singleton_member
+012 00000000 UNDEF  notype ()    External     | bms_membership
+013 00000000 UNDEF  notype ()    External     | bms_is_empty
+014 00000000 UNDEF  notype ()    External     | equal
+015 00000000 UNDEF  notype ()    External     | get_leftop
+016 00000000 UNDEF  notype ()    External     | get_rightop
+017 00000000 UNDEF  notype ()    External     | not_clause
+018 00000000 UNDEF  notype ()    External     | get_notclausearg
+019 00000000 UNDEF  notype ()    External     | or_clause
+01A 00000000 UNDEF  notype ()    External     | and_clause
+01B 00000000 UNDEF  notype ()    External     | is_pseudo_constant_clause
+01C 00000000 UNDEF  notype ()    External     | is_pseudo_constant_clause_relids
+01D 00000000 UNDEF  notype ()    External     | NumRelids
+01E 00000000 UNDEF  notype ()    External     | estimate_expression_value
+01F 00000000 SECT4  notype ()    External     | clauselist_selectivity
+020 000004C0 SECT4  notype ()    External     | clause_selectivity
+021 00000000 UNDEF  notype ()    External     | find_base_rel
+022 00000000 UNDEF  notype ()    External     | restriction_selectivity
+023 00000000 UNDEF  notype ()    External     | join_selectivity
+024 00000000 UNDEF  notype ()    External     | get_oprrest
+025 00000000 UNDEF  notype ()    External     | boolvarsel
+026 00000000 UNDEF  notype ()    External     | booltestsel
+027 00000000 UNDEF  notype ()    External     | nulltestsel
+028 00000000 UNDEF  notype ()    External     | scalararraysel
+029 00000000 UNDEF  notype ()    External     | rowcomparesel
+02A 00000000 UNDEF  notype ()    External     | dependencies_clauselist_selectivity
+02B 00000000 SECT5  notype ()    Static       | addRangeClause
+02C 00000000 SECT4  notype       Label        | $LN126
+02D 000004C0 SECT4  notype       Label        | $LN193
+02E 00000000 SECT7  notype       Static       | .xdata
+    Section length  100, #relocs   1E, #linenums    0, checksum 7F3D3547
+030 00000000 SECT7  notype       Static       | $unwind$clauselist_selectivity
+031 00000000 SECT8  notype       Static       | .pdata
+    Section length   90, #relocs   24, #linenums    0, checksum  A2946F7
+033 00000000 SECT8  notype       Static       | $pdata$clauselist_selectivity
+034 00000018 SECT7  notype       Static       | $chain$2$clauselist_selectivity
+035 0000000C SECT8  notype       Static       | $pdata$2$clauselist_selectivity
+036 00000034 SECT7  notype       Static       | $chain$3$clauselist_selectivity
+037 00000018 SECT8  notype       Static       | $pdata$3$clauselist_selectivity
+038 00000048 SECT7  notype       Static       | $chain$4$clauselist_selectivity
+039 00000024 SECT8  notype       Static       | $pdata$4$clauselist_selectivity
+03A 0000005C SECT7  notype       Static       | $chain$9$clauselist_selectivity
+03B 00000030 SECT8  notype       Static       | $pdata$9$clauselist_selectivity
+03C 00000080 SECT7  notype       Static       | $chain$10$clauselist_selectivity
+03D 0000003C SECT8  notype       Static       | $pdata$10$clauselist_selectivity
+03E 00000090 SECT7  notype       Static       | $chain$11$clauselist_selectivity
+03F 00000048 SECT8  notype       Static       | $pdata$11$clauselist_selectivity
+040 000000A0 SECT7  notype       Static       | $chain$12$clauselist_selectivity
+041 00000054 SECT8  notype       Static       | $pdata$12$clauselist_selectivity
+042 000000B0 SECT7  notype       Static       | $chain$13$clauselist_selectivity
+043 00000060 SECT8  notype       Static       | $pdata$13$clauselist_selectivity
+044 000000C0 SECT7  notype       Static       | $unwind$clause_selectivity
+045 0000006C SECT8  notype       Static       | $pdata$clause_selectivity
+046 000000D8 SECT7  notype       Static       | $chain$1$clause_selectivity
+047 00000078 SECT8  notype       Static       | $pdata$1$clause_selectivity
+048 000000F0 SECT7  notype       Static       | $chain$2$clause_selectivity
+049 00000084 SECT8  notype       Static       | $pdata$2$clause_selectivity
+04A 00000000 SECT9  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum E7460F8C, selection    5 (pick associative Section 0x5)
+04C 00000000 SECT9  notype       Static       | $unwind$addRangeClause
+04D 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DACC3A9F, selection    5 (pick associative Section 0x5)
+04F 00000000 SECTA  notype       Static       | $pdata$addRangeClause
+050 00000000 SECTB  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 5898BD10, selection    2 (pick any)
+052 00000000 SECTB  notype       External     | __real@3ddb7cdfd9d7bdbb
+053 00000000 SECTC  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 61FE9BC8, selection    2 (pick any)
+055 00000000 SECTC  notype       External     | __real@3f747ae147ae147b
+056 00000000 SECTD  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 1C16EDE1, selection    2 (pick any)
+058 00000000 SECTD  notype       External     | __real@3fd5555555555555
+059 00000000 SECTE  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum E818DED1, selection    2 (pick any)
+05B 00000000 SECTE  notype       External     | __real@3fe0000000000000
+05C 00000000 SECTF  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+05E 00000000 SECTF  notype       External     | __real@3ff0000000000000
+05F 00000000 SECT10 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 98FAF955, selection    2 (pick any)
+061 00000000 SECT10 notype       External     | __real@bf847ae147ae147b
+062 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x575 bytes
+
+  Summary
+
+        559C .debug$S
+          68 .debug$T
+          5D .drectve
+          9C .pdata
+          30 .rdata
+         A7F .text$mn
+         114 .xdata

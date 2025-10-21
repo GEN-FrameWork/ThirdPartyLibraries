@@ -1,0 +1,435 @@
+
+Dump of file Release\postgres/varbit.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 8E10, #relocs  362, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 25BC, #relocs  118, #linenums    0, checksum C07BDBFF
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  132, #relocs   16, #linenums    0, checksum FD092576, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  1D4, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  186, #relocs    A, #linenums    0, checksum AF467A29, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  2C0, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  120, #relocs   12, #linenums    0, checksum 3C87CAA5, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  290, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  1AB, #relocs    A, #linenums    0, checksum 29C278E0, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  4C4, #relocs   3C, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 UNDEF  notype ()    External     | pg_snprintf
+01B 00000000 UNDEF  notype ()    External     | errstart
+01C 00000000 UNDEF  notype ()    External     | errfinish
+01D 00000000 UNDEF  notype ()    External     | errcode
+01E 00000000 UNDEF  notype ()    External     | errmsg
+01F 00000000 UNDEF  notype ()    External     | palloc
+020 00000000 UNDEF  notype ()    External     | palloc0
+021 00000000 UNDEF  notype ()    External     | pfree
+022 00000000 UNDEF  notype ()    External     | pq_sendbytes
+023 00000000 UNDEF  notype ()    External     | pq_sendint
+024 00000000 UNDEF  notype ()    External     | pq_begintypsend
+025 00000000 UNDEF  notype ()    External     | pq_endtypsend
+026 00000000 UNDEF  notype ()    External     | pq_getmsgint
+027 00000000 UNDEF  notype ()    External     | pq_copymsgbytes
+028 00000000 UNDEF  notype ()    External     | exprTypmod
+029 00000000 UNDEF  notype ()    External     | relabel_to_typmod
+02A 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+02B 00000000 UNDEF  notype ()    External     | DirectFunctionCall2Coll
+02C 00000000 UNDEF  notype ()    External     | ArrayGetIntegerTypmods
+02D 00000000 SECT4  notype ()    External     | bit_in
+02E 000002B0 SECT4  notype ()    External     | bit_out
+02F 000002C0 SECT4  notype ()    External     | varbit_in
+030 00000570 SECT4  notype ()    External     | varbit_out
+031 00000670 SECT4  notype ()    External     | biteq
+032 00000730 SECT4  notype ()    External     | bitne
+033 00000800 SECT4  notype ()    External     | bitge
+034 000008C0 SECT4  notype ()    External     | bitgt
+035 00000970 SECT4  notype ()    External     | bitle
+036 00000A20 SECT4  notype ()    External     | bitlt
+037 00000AD0 SECT4  notype ()    External     | bitcmp
+038 00000B80 SECT4  notype ()    External     | bit_and
+039 00000CA0 SECT4  notype ()    External     | bit_or
+03A 00000DD0 SECT4  notype ()    External     | bitxor
+03B 00000F00 SECT4  notype ()    External     | bitnot
+03C 00000FA0 SECT4  notype ()    External     | bitshiftleft
+03D 000011E0 SECT4  notype ()    External     | bitshiftright
+03E 00001410 SECT4  notype ()    External     | bitcat
+03F 00001450 SECT4  notype ()    External     | bitsubstr
+040 00001480 SECT4  notype ()    External     | bitlength
+041 000014A0 SECT4  notype ()    External     | bitoctetlength
+042 000014D0 SECT4  notype ()    External     | bitfromint4
+043 000015D0 SECT4  notype ()    External     | bittoint4
+044 000016C0 SECT4  notype ()    External     | bit
+045 00001800 SECT4  notype ()    External     | varbit
+046 00001910 SECT4  notype ()    External     | bitposition
+047 00001B80 SECT4  notype ()    External     | bitsubstr_no_len
+048 00001BB0 SECT4  notype ()    External     | bitfromint8
+049 00001CC0 SECT4  notype ()    External     | bittoint8
+04A 00001DB0 SECT4  notype ()    External     | bit_recv
+04B 00001F10 SECT4  notype ()    External     | bit_send
+04C 00001F70 SECT4  notype ()    External     | varbit_recv
+04D 000020D0 SECT4  notype ()    External     | varbit_send
+04E 00002130 SECT4  notype ()    External     | varbittypmodin
+04F 00002160 SECT4  notype ()    External     | bittypmodin
+050 00002190 SECT4  notype ()    External     | bittypmodout
+051 000021F0 SECT4  notype ()    External     | varbittypmodout
+052 00002250 SECT4  notype ()    External     | bitoverlay
+053 000022A0 SECT4  notype ()    External     | bitoverlay_no_len
+054 000022F0 SECT4  notype ()    External     | bitgetbit
+055 000023C0 SECT4  notype ()    External     | bitsetbit
+056 00002530 SECT4  notype ()    External     | varbit_transform
+057 00000000 SECT7  notype ()    Static       | bit_catenate
+058 00000000 SECTB  notype ()    Static       | bitsubstring
+059 00000000 SECT9  notype ()    Static       | bit_overlay
+05A 00000000 SECT5  notype ()    Static       | anybit_typmodin
+05B 00000000 UNDEF  notype ()    External     | memcmp
+05C 00000000 UNDEF  notype ()    External     | memcpy
+05D 00000000 UNDEF  notype ()    External     | memset
+05E 00000000 SECT4  notype       Label        | $LN76
+05F 000002C0 SECT4  notype       Label        | $LN76
+060 00000570 SECT4  notype       Label        | $LN37
+061 00000670 SECT4  notype       Label        | $LN19
+062 00000730 SECT4  notype       Label        | $LN19
+063 00000800 SECT4  notype       Label        | $LN17
+064 000008C0 SECT4  notype       Label        | $LN16
+065 00000970 SECT4  notype       Label        | $LN16
+066 00000A20 SECT4  notype       Label        | $LN17
+067 00000AD0 SECT4  notype       Label        | $LN16
+068 00000B80 SECT4  notype       Label        | $LN18
+069 00000CA0 SECT4  notype       Label        | $LN19
+06A 00000DD0 SECT4  notype       Label        | $LN19
+06B 00000F00 SECT4  notype       Label        | $LN13
+06C 00000FA0 SECT4  notype       Label        | $LN51
+06D 000011E0 SECT4  notype       Label        | $LN45
+06E 00001410 SECT4  notype       Label        | $LN4
+06F 00001450 SECT4  notype       Label        | $LN4
+070 00001480 SECT4  notype       Label        | $LN4
+071 000014A0 SECT4  notype       Label        | $LN4
+072 000014D0 SECT4  notype       Label        | $LN23
+073 000015D0 SECT4  notype       Label        | $LN17
+074 000016C0 SECT4  notype       Label        | $LN15
+075 00001800 SECT4  notype       Label        | $LN13
+076 00001910 SECT4  notype       Label        | $LN49
+077 00001B80 SECT4  notype       Label        | $LN4
+078 00001BB0 SECT4  notype       Label        | $LN23
+079 00001CC0 SECT4  notype       Label        | $LN17
+07A 00001DB0 SECT4  notype       Label        | $LN20
+07B 00001F10 SECT4  notype       Label        | $LN6
+07C 00001F70 SECT4  notype       Label        | $LN20
+07D 000020D0 SECT4  notype       Label        | $LN4
+07E 00002130 SECT4  notype       Label        | $LN4
+07F 00002160 SECT4  notype       Label        | $LN4
+080 00002190 SECT4  notype       Label        | $LN8
+081 000021F0 SECT4  notype       Label        | $LN8
+082 00002250 SECT4  notype       Label        | $LN4
+083 000022A0 SECT4  notype       Label        | $LN4
+084 000022F0 SECT4  notype       Label        | $LN13
+085 000023C0 SECT4  notype       Label        | $LN21
+086 00002530 SECT4  notype       Label        | $LN21
+087 00000000 SECTD  notype       Static       | .xdata
+    Section length  48C, #relocs   4E, #linenums    0, checksum 2D6B9436
+089 00000000 SECTD  notype       Static       | $unwind$bit_in
+08A 00000000 SECTE  notype       Static       | .pdata
+    Section length  324, #relocs   C9, #linenums    0, checksum 36BA1F01
+08C 00000000 SECTE  notype       Static       | $pdata$bit_in
+08D 0000001C SECTD  notype       Static       | $unwind$varbit_in
+08E 0000000C SECTE  notype       Static       | $pdata$varbit_in
+08F 00000038 SECTD  notype       Static       | $unwind$varbit_out
+090 00000018 SECTE  notype       Static       | $pdata$varbit_out
+091 00000044 SECTD  notype       Static       | $unwind$biteq
+092 00000024 SECTE  notype       Static       | $pdata$biteq
+093 00000058 SECTD  notype       Static       | $unwind$bitne
+094 00000030 SECTE  notype       Static       | $pdata$bitne
+095 00000064 SECTD  notype       Static       | $chain$1$bitne
+096 0000003C SECTE  notype       Static       | $pdata$1$bitne
+097 0000007C SECTD  notype       Static       | $chain$2$bitne
+098 00000048 SECTE  notype       Static       | $pdata$2$bitne
+099 00000090 SECTD  notype       Static       | $chain$3$bitne
+09A 00000054 SECTE  notype       Static       | $pdata$3$bitne
+09B 000000A0 SECTD  notype       Static       | $chain$4$bitne
+09C 00000060 SECTE  notype       Static       | $pdata$4$bitne
+09D 000000B0 SECTD  notype       Static       | $unwind$bitge
+09E 0000006C SECTE  notype       Static       | $pdata$bitge
+09F 000000C4 SECTD  notype       Static       | $unwind$bitgt
+0A0 00000078 SECTE  notype       Static       | $pdata$bitgt
+0A1 000000D8 SECTD  notype       Static       | $unwind$bitle
+0A2 00000084 SECTE  notype       Static       | $pdata$bitle
+0A3 000000EC SECTD  notype       Static       | $unwind$bitlt
+0A4 00000090 SECTE  notype       Static       | $pdata$bitlt
+0A5 00000100 SECTD  notype       Static       | $unwind$bitcmp
+0A6 0000009C SECTE  notype       Static       | $pdata$bitcmp
+0A7 00000114 SECTD  notype       Static       | $unwind$bit_and
+0A8 000000A8 SECTE  notype       Static       | $pdata$bit_and
+0A9 0000012C SECTD  notype       Static       | $unwind$bit_or
+0AA 000000B4 SECTE  notype       Static       | $pdata$bit_or
+0AB 00000144 SECTD  notype       Static       | $unwind$bitxor
+0AC 000000C0 SECTE  notype       Static       | $pdata$bitxor
+0AD 0000015C SECTD  notype       Static       | $unwind$bitnot
+0AE 000000CC SECTE  notype       Static       | $pdata$bitnot
+0AF 00000164 SECTD  notype       Static       | $unwind$bitshiftleft
+0B0 000000D8 SECTE  notype       Static       | $pdata$bitshiftleft
+0B1 00000178 SECTD  notype       Static       | $chain$1$bitshiftleft
+0B2 000000E4 SECTE  notype       Static       | $pdata$1$bitshiftleft
+0B3 0000018C SECTD  notype       Static       | $chain$2$bitshiftleft
+0B4 000000F0 SECTE  notype       Static       | $pdata$2$bitshiftleft
+0B5 0000019C SECTD  notype       Static       | $unwind$bitshiftright
+0B6 000000FC SECTE  notype       Static       | $pdata$bitshiftright
+0B7 000001A8 SECTD  notype       Static       | $chain$0$bitshiftright
+0B8 00000108 SECTE  notype       Static       | $pdata$0$bitshiftright
+0B9 000001BC SECTD  notype       Static       | $chain$2$bitshiftright
+0BA 00000114 SECTE  notype       Static       | $pdata$2$bitshiftright
+0BB 000001D0 SECTD  notype       Static       | $chain$6$bitshiftright
+0BC 00000120 SECTE  notype       Static       | $pdata$6$bitshiftright
+0BD 000001E8 SECTD  notype       Static       | $chain$7$bitshiftright
+0BE 0000012C SECTE  notype       Static       | $pdata$7$bitshiftright
+0BF 000001FC SECTD  notype       Static       | $chain$8$bitshiftright
+0C0 00000138 SECTE  notype       Static       | $pdata$8$bitshiftright
+0C1 0000020C SECTD  notype       Static       | $chain$4$bitshiftright
+0C2 00000144 SECTE  notype       Static       | $pdata$4$bitshiftright
+0C3 00000220 SECTD  notype       Static       | $unwind$bitcat
+0C4 00000150 SECTE  notype       Static       | $pdata$bitcat
+0C5 0000022C SECTD  notype       Static       | $unwind$bitsubstr
+0C6 0000015C SECTE  notype       Static       | $pdata$bitsubstr
+0C7 00000234 SECTD  notype       Static       | $unwind$bitlength
+0C8 00000168 SECTE  notype       Static       | $pdata$bitlength
+0C9 0000023C SECTD  notype       Static       | $unwind$bitoctetlength
+0CA 00000174 SECTE  notype       Static       | $pdata$bitoctetlength
+0CB 00000244 SECTD  notype       Static       | $unwind$bitfromint4
+0CC 00000180 SECTE  notype       Static       | $pdata$bitfromint4
+0CD 00000254 SECTD  notype       Static       | $unwind$bittoint4
+0CE 0000018C SECTE  notype       Static       | $pdata$bittoint4
+0CF 00000260 SECTD  notype       Static       | $chain$0$bittoint4
+0D0 00000198 SECTE  notype       Static       | $pdata$0$bittoint4
+0D1 00000274 SECTD  notype       Static       | $chain$1$bittoint4
+0D2 000001A4 SECTE  notype       Static       | $pdata$1$bittoint4
+0D3 00000284 SECTD  notype       Static       | $unwind$bit
+0D4 000001B0 SECTE  notype       Static       | $pdata$bit
+0D5 00000294 SECTD  notype       Static       | $chain$0$bit
+0D6 000001BC SECTE  notype       Static       | $pdata$0$bit
+0D7 000002A8 SECTD  notype       Static       | $chain$1$bit
+0D8 000001C8 SECTE  notype       Static       | $pdata$1$bit
+0D9 000002B8 SECTD  notype       Static       | $unwind$varbit
+0DA 000001D4 SECTE  notype       Static       | $pdata$varbit
+0DB 000002C8 SECTD  notype       Static       | $chain$0$varbit
+0DC 000001E0 SECTE  notype       Static       | $pdata$0$varbit
+0DD 000002DC SECTD  notype       Static       | $chain$1$varbit
+0DE 000001EC SECTE  notype       Static       | $pdata$1$varbit
+0DF 000002EC SECTD  notype       Static       | $unwind$bitposition
+0E0 000001F8 SECTE  notype       Static       | $pdata$bitposition
+0E1 000002F8 SECTD  notype       Static       | $chain$5$bitposition
+0E2 00000204 SECTE  notype       Static       | $pdata$5$bitposition
+0E3 00000320 SECTD  notype       Static       | $chain$7$bitposition
+0E4 00000210 SECTE  notype       Static       | $pdata$7$bitposition
+0E5 00000348 SECTD  notype       Static       | $chain$8$bitposition
+0E6 0000021C SECTE  notype       Static       | $pdata$8$bitposition
+0E7 00000358 SECTD  notype       Static       | $unwind$bitsubstr_no_len
+0E8 00000228 SECTE  notype       Static       | $pdata$bitsubstr_no_len
+0E9 00000360 SECTD  notype       Static       | $unwind$bitfromint8
+0EA 00000234 SECTE  notype       Static       | $pdata$bitfromint8
+0EB 00000370 SECTD  notype       Static       | $unwind$bittoint8
+0EC 00000240 SECTE  notype       Static       | $pdata$bittoint8
+0ED 0000037C SECTD  notype       Static       | $chain$0$bittoint8
+0EE 0000024C SECTE  notype       Static       | $pdata$0$bittoint8
+0EF 00000390 SECTD  notype       Static       | $chain$1$bittoint8
+0F0 00000258 SECTE  notype       Static       | $pdata$1$bittoint8
+0F1 000003A0 SECTD  notype       Static       | $unwind$bit_recv
+0F2 00000264 SECTE  notype       Static       | $pdata$bit_recv
+0F3 000003B4 SECTD  notype       Static       | $unwind$bit_send
+0F4 00000270 SECTE  notype       Static       | $pdata$bit_send
+0F5 000003BC SECTD  notype       Static       | $unwind$varbit_recv
+0F6 0000027C SECTE  notype       Static       | $pdata$varbit_recv
+0F7 000003D0 SECTD  notype       Static       | $unwind$varbit_send
+0F8 00000288 SECTE  notype       Static       | $pdata$varbit_send
+0F9 000003D8 SECTD  notype       Static       | $unwind$varbittypmodin
+0FA 00000294 SECTE  notype       Static       | $pdata$varbittypmodin
+0FB 000003E0 SECTD  notype       Static       | $unwind$bittypmodin
+0FC 000002A0 SECTE  notype       Static       | $pdata$bittypmodin
+0FD 000003E8 SECTD  notype       Static       | $unwind$bittypmodout
+0FE 000002AC SECTE  notype       Static       | $pdata$bittypmodout
+0FF 000003F4 SECTD  notype       Static       | $unwind$varbittypmodout
+100 000002B8 SECTE  notype       Static       | $pdata$varbittypmodout
+101 00000400 SECTD  notype       Static       | $unwind$bitoverlay
+102 000002C4 SECTE  notype       Static       | $pdata$bitoverlay
+103 0000040C SECTD  notype       Static       | $unwind$bitoverlay_no_len
+104 000002D0 SECTE  notype       Static       | $pdata$bitoverlay_no_len
+105 00000418 SECTD  notype       Static       | $unwind$bitgetbit
+106 000002DC SECTE  notype       Static       | $pdata$bitgetbit
+107 0000042C SECTD  notype       Static       | $unwind$bitsetbit
+108 000002E8 SECTE  notype       Static       | $pdata$bitsetbit
+109 00000444 SECTD  notype       Static       | $unwind$varbit_transform
+10A 000002F4 SECTE  notype       Static       | $pdata$varbit_transform
+10B 0000044C SECTD  notype       Static       | $chain$1$varbit_transform
+10C 00000300 SECTE  notype       Static       | $pdata$1$varbit_transform
+10D 00000464 SECTD  notype       Static       | $chain$3$varbit_transform
+10E 0000030C SECTE  notype       Static       | $pdata$3$varbit_transform
+10F 0000047C SECTD  notype       Static       | $chain$4$varbit_transform
+110 00000318 SECTE  notype       Static       | $pdata$4$varbit_transform
+111 00000000 SECTF  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 2DC31ABF, selection    5 (pick associative Section 0x7)
+113 00000000 SECTF  notype       Static       | $unwind$bit_catenate
+114 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 332387E9, selection    5 (pick associative Section 0x7)
+116 00000000 SECT10 notype       Static       | $pdata$bit_catenate
+117 00000000 SECT11 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum F24C1426, selection    5 (pick associative Section 0xB)
+119 00000000 SECT11 notype       Static       | $unwind$bitsubstring
+11A 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 767E3832, selection    5 (pick associative Section 0xB)
+11C 00000000 SECT12 notype       Static       | $pdata$bitsubstring
+11D 00000000 SECT13 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 5872FDBF, selection    5 (pick associative Section 0xB)
+11F 00000000 SECT13 notype       Static       | $chain$0$bitsubstring
+120 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 1E67E361, selection    5 (pick associative Section 0xB)
+122 00000000 SECT14 notype       Static       | $pdata$0$bitsubstring
+123 00000000 SECT15 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum CF29D2DE, selection    5 (pick associative Section 0xB)
+125 00000000 SECT15 notype       Static       | $chain$1$bitsubstring
+126 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B2030819, selection    5 (pick associative Section 0xB)
+128 00000000 SECT16 notype       Static       | $pdata$1$bitsubstring
+129 00000000 SECT17 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 2DC31ABF, selection    5 (pick associative Section 0x9)
+12B 00000000 SECT17 notype       Static       | $unwind$bit_overlay
+12C 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5F0169E2, selection    5 (pick associative Section 0x9)
+12E 00000000 SECT18 notype       Static       | $pdata$bit_overlay
+12F 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 815B1B44, selection    5 (pick associative Section 0x5)
+131 00000000 SECT19 notype       Static       | $unwind$anybit_typmodin
+132 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 619F5FB4, selection    5 (pick associative Section 0x5)
+134 00000000 SECT1A notype       Static       | $pdata$anybit_typmodin
+135 00000000 SECT1B notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum F4E12A3E, selection    2 (pick any)
+137 00000000 SECT1B notype       External     | ??_C@_0BA@OHKFJOJE@anybit_typmodin?$AA@ (`string')
+138 00000000 SECT1C notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 1E6735C5, selection    2 (pick any)
+13A 00000000 SECT1C notype       External     | ??_C@_0BP@IIJBGGIK@src?1backend?1utils?1adt?1varbit?4c?$AA@ (`string')
+13B 00000000 SECT1D notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 549DEEF4, selection    2 (pick any)
+13D 00000000 SECT1D notype       External     | ??_C@_0BG@DELKAOL@invalid?5type?5modifier?$AA@ (`string')
+13E 00000000 SECT1E notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 9336756A, selection    2 (pick any)
+140 00000000 SECT1E notype       External     | ??_C@_0CG@PEDABBCG@length?5for?5type?5?$CFs?5must?5be?5at?5le@ (`string')
+141 00000000 SECT1F notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum A60A151A, selection    2 (pick any)
+143 00000000 SECT1F notype       External     | ??_C@_0CE@DDEDFIDA@length?5for?5type?5?$CFs?5cannot?5exceed@ (`string')
+144 00000000 SECT20 notype       Static       | .rdata
+    Section length    5, #relocs    0, #linenums    0, checksum 6DC5C7DE, selection    2 (pick any)
+146 00000000 SECT20 notype       External     | ??_C@_04FEBIMPDM@?$CI?$CFd?$CJ?$AA@ (`string')
+147 00000000 SECT21 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 1096EC23, selection    2 (pick any)
+149 00000000 SECT21 notype       External     | ??_C@_06HCAFMMKC@bit_in?$AA@ (`string')
+14A 00000000 SECT22 notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum 1B635AF1, selection    2 (pick any)
+14C 00000000 SECT22 notype       External     | ??_C@_0DD@MMIOPAJM@bit?5string?5length?5exceeds?5the?5ma@ (`string')
+14D 00000000 SECT23 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum 7AF17688, selection    2 (pick any)
+14F 00000000 SECT23 notype       External     | ??_C@_0DB@NHJLIJIC@bit?5string?5length?5?$CFd?5does?5not?5ma@ (`string')
+150 00000000 SECT24 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum DDF0017C, selection    2 (pick any)
+152 00000000 SECT24 notype       External     | ??_C@_0CB@FIHDMEAO@?$CC?$CFc?$CC?5is?5not?5a?5valid?5binary?5digit@ (`string')
+153 00000000 SECT25 notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 432BD9D6, selection    2 (pick any)
+155 00000000 SECT25 notype       External     | ??_C@_0CG@CECNLNJK@?$CC?$CFc?$CC?5is?5not?5a?5valid?5hexadecimal?5@ (`string')
+156 00000000 SECT26 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum E4D0433F, selection    2 (pick any)
+158 00000000 SECT26 notype       External     | ??_C@_08PNCGKIGO@bit_recv?$AA@ (`string')
+159 00000000 SECT27 notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 726C5E18, selection    2 (pick any)
+15B 00000000 SECT27 notype       External     | ??_C@_0CG@BFGKDKFE@invalid?5length?5in?5external?5bit?5s@ (`string')
+15C 00000000 SECT28 notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum 9D7A73D5, selection    2 (pick any)
+15E 00000000 SECT28 notype       External     | ??_C@_03EDMBFDDG@bit?$AA@ (`string')
+15F 00000000 SECT29 notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum 4EAC1AF6, selection    2 (pick any)
+161 00000000 SECT29 notype       External     | ??_C@_09FCNJINHP@varbit_in?$AA@ (`string')
+162 00000000 SECT2A notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 4B910B6D, selection    2 (pick any)
+164 00000000 SECT2A notype       External     | ??_C@_0CN@HCOOGDDG@bit?5string?5too?5long?5for?5type?5bit@ (`string')
+165 00000000 SECT2B notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 4C417B76, selection    2 (pick any)
+167 00000000 SECT2B notype       External     | ??_C@_0M@MIGLECOG@varbit_recv?$AA@ (`string')
+168 00000000 SECT2C notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 5278F994, selection    2 (pick any)
+16A 00000000 SECT2C notype       External     | ??_C@_06DAOLNJBF@varbit?$AA@ (`string')
+16B 00000000 SECT2D notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum  AEBB489, selection    2 (pick any)
+16D 00000000 SECT2D notype       External     | ??_C@_0N@PKGAANPE@bit_catenate?$AA@ (`string')
+16E 00000000 SECT2E notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 40D19237, selection    2 (pick any)
+170 00000000 SECT2E notype       External     | ??_C@_0N@LAFKCLEK@bitsubstring?$AA@ (`string')
+171 00000000 SECT2F notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 19EE4DC8, selection    2 (pick any)
+173 00000000 SECT2F notype       External     | ??_C@_0CG@HOOICJIE@negative?5substring?5length?5not?5al@ (`string')
+174 00000000 SECT30 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 26F9A03C, selection    2 (pick any)
+176 00000000 SECT30 notype       External     | ??_C@_0M@KCNDJJKM@bit_overlay?$AA@ (`string')
+177 00000000 SECT31 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum ACC70152, selection    2 (pick any)
+179 00000000 SECT31 notype       External     | ??_C@_0BF@BCDMDLCG@integer?5out?5of?5range?$AA@ (`string')
+17A 00000000 SECT32 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 665261D2, selection    2 (pick any)
+17C 00000000 SECT32 notype       External     | ??_C@_07PMIPEBEE@bit_and?$AA@ (`string')
+17D 00000000 SECT33 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum 3830F536, selection    2 (pick any)
+17F 00000000 SECT33 notype       External     | ??_C@_0CK@CDKACCDC@cannot?5AND?5bit?5strings?5of?5differ@ (`string')
+180 00000000 SECT34 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum F26CCDCC, selection    2 (pick any)
+182 00000000 SECT34 notype       External     | ??_C@_06JAPPONEN@bit_or?$AA@ (`string')
+183 00000000 SECT35 notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum 9DBF686F, selection    2 (pick any)
+185 00000000 SECT35 notype       External     | ??_C@_0CJ@MMNBHDK@cannot?5OR?5bit?5strings?5of?5differe@ (`string')
+186 00000000 SECT36 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum CF895A4B, selection    2 (pick any)
+188 00000000 SECT36 notype       External     | ??_C@_06KNBKHKMK@bitxor?$AA@ (`string')
+189 00000000 SECT37 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum 3977371E, selection    2 (pick any)
+18B 00000000 SECT37 notype       External     | ??_C@_0CK@CCOHOABK@cannot?5XOR?5bit?5strings?5of?5differ@ (`string')
+18C 00000000 SECT38 notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum 4B449318, selection    2 (pick any)
+18E 00000000 SECT38 notype       External     | ??_C@_09FHDBAEJB@bittoint4?$AA@ (`string')
+18F 00000000 SECT39 notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum E7F1DC14, selection    2 (pick any)
+191 00000000 SECT39 notype       External     | ??_C@_09PLIEELJN@bittoint8?$AA@ (`string')
+192 00000000 SECT3A notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum BE481917, selection    2 (pick any)
+194 00000000 SECT3A notype       External     | ??_C@_0BE@EOGCHNGF@bigint?5out?5of?5range?$AA@ (`string')
+195 00000000 SECT3B notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum 19591D5D, selection    2 (pick any)
+197 00000000 SECT3B notype       External     | ??_C@_09FCMIKNE@bitsetbit?$AA@ (`string')
+198 00000000 SECT3C notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum AEFF2442, selection    2 (pick any)
+19A 00000000 SECT3C notype       External     | ??_C@_0CI@LIOMOGAM@bit?5index?5?$CFd?5out?5of?5valid?5range?5@ (`string')
+19B 00000000 SECT3D notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 7FA8C48B, selection    2 (pick any)
+19D 00000000 SECT3D notype       External     | ??_C@_0BH@PCPHBPDA@new?5bit?5must?5be?50?5or?51?$AA@ (`string')
+19E 00000000 SECT3E notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum 8AC8A580, selection    2 (pick any)
+1A0 00000000 SECT3E notype       External     | ??_C@_09JGLNDCAJ@bitgetbit?$AA@ (`string')
+
+String Table Size = 0x133A bytes
+
+  Summary
+
+        99F8 .debug$S
+          68 .debug$T
+          5D .drectve
+         36C .pdata
+         332 .rdata
+        2B3F .text$mn
+         504 .xdata

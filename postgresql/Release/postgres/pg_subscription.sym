@@ -1,0 +1,159 @@
+
+Dump of file Release\postgres/pg_subscription.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5A54, #relocs   E4, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  975, #relocs   62, #linenums    0, checksum  D457221
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   A3, #relocs    4, #linenums    0, checksum 5A70AE28, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  218, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | errstart
+00F 00000000 UNDEF  notype ()    External     | errfinish
+010 00000000 UNDEF  notype ()    External     | errcode
+011 00000000 UNDEF  notype ()    External     | errmsg
+012 00000000 UNDEF  notype ()    External     | elog_start
+013 00000000 UNDEF  notype ()    External     | elog_finish
+014 00000000 UNDEF  notype ()    External     | palloc
+015 00000000 UNDEF  notype ()    External     | pfree
+016 00000000 UNDEF  notype ()    External     | pstrdup
+017 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+018 00000000 UNDEF  notype ()    External     | ScanKeyInit
+019 00000000 UNDEF  notype ()    External     | lappend
+01A 00000000 UNDEF  notype ()    External     | list_free_deep
+01B 00000000 UNDEF  notype ()    External     | systable_beginscan
+01C 00000000 UNDEF  notype ()    External     | systable_getnext
+01D 00000000 UNDEF  notype ()    External     | systable_endscan
+01E 00000000 UNDEF  notype ()    External     | relation_close
+01F 00000000 UNDEF  notype ()    External     | heap_open
+020 00000000 UNDEF  notype ()    External     | heap_beginscan_catalog
+021 00000000 UNDEF  notype ()    External     | heap_endscan
+022 00000000 UNDEF  notype ()    External     | heap_getnext
+023 00000000 UNDEF  notype ()    External     | heap_form_tuple
+024 00000000 UNDEF  notype ()    External     | heap_modify_tuple
+025 00000000 UNDEF  notype ()    External     | heap_freetuple
+026 00000000 UNDEF  notype ()    External     | CatalogTupleInsert
+027 00000000 UNDEF  notype ()    External     | CatalogTupleUpdate
+028 00000000 UNDEF  notype ()    External     | CatalogTupleDelete
+029 00000000 SECT4  notype ()    External     | GetSubscription
+02A 00000180 SECT4  notype ()    External     | FreeSubscription
+02B 000001D0 SECT4  notype ()    External     | get_subscription_oid
+02C 00000280 SECT4  notype ()    External     | get_subscription_name
+02D 00000310 SECT4  notype ()    External     | CountDBSubscriptions
+02E 000003D0 SECT4  notype ()    External     | SetSubscriptionRelState
+02F 00000550 SECT4  notype ()    External     | GetSubscriptionRelState
+030 00000660 SECT4  notype ()    External     | RemoveSubscriptionRel
+031 00000760 SECT4  notype ()    External     | GetSubscriptionRelations
+032 00000860 SECT4  notype ()    External     | GetSubscriptionNotReadyRelations
+033 00000000 UNDEF  notype ()    External     | makeString
+034 00000000 UNDEF  notype ()    External     | deconstruct_array
+035 00000000 UNDEF  notype ()    External     | LockSharedObject
+036 00000000 UNDEF  notype ()    External     | text_to_cstring
+037 00000000 UNDEF  notype ()    External     | SearchSysCache
+038 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+039 00000000 UNDEF  notype ()    External     | SearchSysCacheCopy
+03A 00000000 UNDEF  notype ()    External     | GetSysCacheOid
+03B 00000000 UNDEF  notype ()    External     | SysCacheGetAttr
+03C 00000000 SECT5  notype ()    Static       | textarray_to_stringlist
+03D 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+03E 00000000 UNDEF  notype ()    External     | __security_check_cookie
+03F 00000000 SECT4  notype       Label        | $LN12
+040 00000180 SECT4  notype       Label        | $LN5
+041 000001D0 SECT4  notype       Label        | $LN13
+042 00000280 SECT4  notype       Label        | $LN9
+043 00000310 SECT4  notype       Label        | $LN10
+044 000003D0 SECT4  notype       Label        | $LN14
+045 00000550 SECT4  notype       Label        | $LN12
+046 00000660 SECT4  notype       Label        | $LN12
+047 00000760 SECT4  notype       Label        | $LN10
+048 00000860 SECT4  notype       Label        | $LN10
+049 00000000 SECT7  notype       Static       | .xdata
+    Section length   C8, #relocs    1, #linenums    0, checksum 77779A5B
+04B 00000000 SECT7  notype       Static       | $unwind$GetSubscription
+04C 00000000 SECT8  notype       Static       | .pdata
+    Section length   78, #relocs   1E, #linenums    0, checksum 62861920
+04E 00000000 SECT8  notype       Static       | $pdata$GetSubscription
+04F 00000014 SECT7  notype       Static       | $unwind$FreeSubscription
+050 0000000C SECT8  notype       Static       | $pdata$FreeSubscription
+051 0000001C SECT7  notype       Static       | $unwind$get_subscription_oid
+052 00000018 SECT8  notype       Static       | $pdata$get_subscription_oid
+053 0000002C SECT7  notype       Static       | $unwind$get_subscription_name
+054 00000024 SECT8  notype       Static       | $pdata$get_subscription_name
+055 00000038 SECT7  notype       Static       | $unwind$CountDBSubscriptions
+056 00000030 SECT8  notype       Static       | $pdata$CountDBSubscriptions
+057 00000048 SECT7  notype       Static       | $unwind$SetSubscriptionRelState
+058 0000003C SECT8  notype       Static       | $pdata$SetSubscriptionRelState
+059 00000068 SECT7  notype       Static       | $unwind$GetSubscriptionRelState
+05A 00000048 SECT8  notype       Static       | $pdata$GetSubscriptionRelState
+05B 00000080 SECT7  notype       Static       | $unwind$RemoveSubscriptionRel
+05C 00000054 SECT8  notype       Static       | $pdata$RemoveSubscriptionRel
+05D 00000098 SECT7  notype       Static       | $unwind$GetSubscriptionRelations
+05E 00000060 SECT8  notype       Static       | $pdata$GetSubscriptionRelations
+05F 000000B0 SECT7  notype       Static       | $unwind$GetSubscriptionNotReadyRelations
+060 0000006C SECT8  notype       Static       | $pdata$GetSubscriptionNotReadyRelations
+061 00000000 SECT9  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum A6678907, selection    5 (pick associative Section 0x5)
+063 00000000 SECT9  notype       Static       | $unwind$textarray_to_stringlist
+064 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5526F3C6, selection    5 (pick associative Section 0x5)
+066 00000000 SECTA  notype       Static       | $pdata$textarray_to_stringlist
+067 00000000 SECTB  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 50606C30, selection    5 (pick associative Section 0x5)
+069 00000000 SECTB  notype       Static       | $chain$1$textarray_to_stringlist
+06A 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5B1BE099, selection    5 (pick associative Section 0x5)
+06C 00000000 SECTC  notype       Static       | $pdata$1$textarray_to_stringlist
+06D 00000000 SECTD  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum EC71192A, selection    5 (pick associative Section 0x5)
+06F 00000000 SECTD  notype       Static       | $chain$2$textarray_to_stringlist
+070 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D0BE1563, selection    5 (pick associative Section 0x5)
+072 00000000 SECTE  notype       Static       | $pdata$2$textarray_to_stringlist
+073 00000000 UNDEF  notype       External     | MyDatabaseId
+074 00000000 SECTF  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 208C6E49, selection    2 (pick any)
+076 00000000 SECTF  notype       External     | ??_C@_0BA@DDMINKOD@GetSubscription?$AA@ (`string')
+077 00000000 SECT10 notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 7D0BAF6E, selection    2 (pick any)
+079 00000000 SECT10 notype       External     | ??_C@_0CG@BKANMLCC@src?1backend?1catalog?1pg_subscript@ (`string')
+07A 00000000 SECT11 notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 7500EA23, selection    2 (pick any)
+07C 00000000 SECT11 notype       External     | ??_C@_0CI@GDBDCIGN@cache?5lookup?5failed?5for?5subscrip@ (`string')
+07D 00000000 SECT12 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum  7F26D51, selection    2 (pick any)
+07F 00000000 SECT12 notype       External     | ??_C@_0BF@LJAJFHCF@get_subscription_oid?$AA@ (`string')
+080 00000000 SECT13 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum DB70E528, selection    2 (pick any)
+082 00000000 SECT13 notype       External     | ??_C@_0CB@FOPDCAFK@subscription?5?$CC?$CFs?$CC?5does?5not?5exist@ (`string')
+083 00000000 SECT14 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum F3E4363D, selection    2 (pick any)
+085 00000000 SECT14 notype       External     | ??_C@_0BG@KEDCHICC@get_subscription_name?$AA@ (`string')
+086 00000000 SECT15 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 83F10739, selection    2 (pick any)
+088 00000000 SECT15 notype       External     | ??_C@_0BI@NPMPDCOG@GetSubscriptionRelState?$AA@ (`string')
+089 00000000 SECT16 notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum B67CB7A3, selection    2 (pick any)
+08B 00000000 SECT16 notype       External     | ??_C@_0DI@JKELONBF@subscription?5table?5?$CFu?5in?5subscri@ (`string')
+08C 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x7C7 bytes
+
+  Summary
+
+        5C6C .debug$S
+          68 .debug$T
+          5D .drectve
+          9C .pdata
+          FA .rdata
+         A18 .text$mn
+          F8 .xdata

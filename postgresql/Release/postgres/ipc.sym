@@ -1,0 +1,174 @@
+
+Dump of file Release\postgres/ipc.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   7F, #relocs    0, #linenums    0, checksum A7F997DE
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4170, #relocs   76, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .bss
+    Section length  3DC, #relocs    0, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       External     | proc_exit_inprogress
+00B 00000000 SECT5  notype       Static       | .text$mn
+    Section length  458, #relocs   58, #linenums    0, checksum 61A64244
+00D 00000000 SECT6  notype       Static       | .text$mn
+    Section length   D6, #relocs   15, #linenums    0, checksum 14E5A8C8, selection    1 (pick no duplicates)
+00F 00000000 SECT7  notype       Static       | .debug$S
+    Section length  17C, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+011 00000000 UNDEF  notype       External     | __imp_exit
+012 00000000 UNDEF  notype ()    External     | atexit
+013 00000000 UNDEF  notype ()    External     | errstart
+014 00000000 UNDEF  notype ()    External     | errfinish
+015 00000000 UNDEF  notype ()    External     | errcode
+016 00000000 UNDEF  notype ()    External     | errmsg_internal
+017 00000000 UNDEF  notype ()    External     | elog_start
+018 00000000 UNDEF  notype ()    External     | elog_finish
+019 00000000 UNDEF  notype ()    External     | dsm_backend_shutdown
+01A 00000000 UNDEF  notype ()    External     | reset_on_dsm_detach
+01B 00000000 SECT5  notype ()    External     | proc_exit
+01C 00000050 SECT5  notype ()    External     | shmem_exit
+01D 00000180 SECT5  notype ()    External     | on_proc_exit
+01E 00000250 SECT5  notype ()    External     | on_shmem_exit
+01F 00000320 SECT5  notype ()    External     | before_shmem_exit
+020 000003F0 SECT5  notype ()    External     | cancel_before_shmem_exit
+021 00000430 SECT5  notype ()    External     | on_exit_reset
+022 00000000 SECT6  notype ()    Static       | proc_exit_prepare
+023 00000450 SECT5  notype ()    Static       | atexit_callback
+024 00000042 SECT5  notype       Label        | $LN7
+025 00000000 SECT5  notype       Label        | $LN8
+026 00000050 SECT5  notype       Label        | $LN25
+027 00000180 SECT5  notype       Label        | $LN12
+028 00000250 SECT5  notype       Label        | $LN12
+029 00000320 SECT5  notype       Label        | $LN12
+02A 00000000 SECT8  notype       Static       | .xdata
+    Section length  110, #relocs   24, #linenums    0, checksum A9898AB3
+02C 00000000 SECT8  notype       Static       | $unwind$proc_exit
+02D 00000000 SECT9  notype       Static       | .pdata
+    Section length   CC, #relocs   33, #linenums    0, checksum A79F7925
+02F 00000000 SECT9  notype       Static       | $pdata$proc_exit
+030 00000008 SECT8  notype       Static       | $unwind$shmem_exit
+031 0000000C SECT9  notype       Static       | $pdata$shmem_exit
+032 00000014 SECT8  notype       Static       | $unwind$on_proc_exit
+033 00000018 SECT9  notype       Static       | $pdata$on_proc_exit
+034 0000001C SECT8  notype       Static       | $chain$1$on_proc_exit
+035 00000024 SECT9  notype       Static       | $pdata$1$on_proc_exit
+036 00000034 SECT8  notype       Static       | $chain$2$on_proc_exit
+037 00000030 SECT9  notype       Static       | $pdata$2$on_proc_exit
+038 00000048 SECT8  notype       Static       | $chain$3$on_proc_exit
+039 0000003C SECT9  notype       Static       | $pdata$3$on_proc_exit
+03A 00000058 SECT8  notype       Static       | $chain$4$on_proc_exit
+03B 00000048 SECT9  notype       Static       | $pdata$4$on_proc_exit
+03C 00000068 SECT8  notype       Static       | $unwind$on_shmem_exit
+03D 00000054 SECT9  notype       Static       | $pdata$on_shmem_exit
+03E 00000070 SECT8  notype       Static       | $chain$1$on_shmem_exit
+03F 00000060 SECT9  notype       Static       | $pdata$1$on_shmem_exit
+040 00000088 SECT8  notype       Static       | $chain$2$on_shmem_exit
+041 0000006C SECT9  notype       Static       | $pdata$2$on_shmem_exit
+042 0000009C SECT8  notype       Static       | $chain$3$on_shmem_exit
+043 00000078 SECT9  notype       Static       | $pdata$3$on_shmem_exit
+044 000000AC SECT8  notype       Static       | $chain$4$on_shmem_exit
+045 00000084 SECT9  notype       Static       | $pdata$4$on_shmem_exit
+046 000000BC SECT8  notype       Static       | $unwind$before_shmem_exit
+047 00000090 SECT9  notype       Static       | $pdata$before_shmem_exit
+048 000000C4 SECT8  notype       Static       | $chain$1$before_shmem_exit
+049 0000009C SECT9  notype       Static       | $pdata$1$before_shmem_exit
+04A 000000DC SECT8  notype       Static       | $chain$2$before_shmem_exit
+04B 000000A8 SECT9  notype       Static       | $pdata$2$before_shmem_exit
+04C 000000F0 SECT8  notype       Static       | $chain$3$before_shmem_exit
+04D 000000B4 SECT9  notype       Static       | $pdata$3$before_shmem_exit
+04E 00000100 SECT8  notype       Static       | $chain$4$before_shmem_exit
+04F 000000C0 SECT9  notype       Static       | $pdata$4$before_shmem_exit
+050 00000000 SECTA  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum F3B20EE4, selection    5 (pick associative Section 0x6)
+052 00000000 SECTA  notype       Static       | $unwind$proc_exit_prepare
+053 00000000 SECTB  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8A1B9776, selection    5 (pick associative Section 0x6)
+055 00000000 SECTB  notype       Static       | $pdata$proc_exit_prepare
+056 00000000 SECTC  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum C065336D, selection    5 (pick associative Section 0x6)
+058 00000000 SECTC  notype       Static       | $chain$0$proc_exit_prepare
+059 00000000 SECTD  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2015B9C2, selection    5 (pick associative Section 0x6)
+05B 00000000 SECTD  notype       Static       | $pdata$0$proc_exit_prepare
+05C 00000000 SECTE  notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 334C7D9A, selection    5 (pick associative Section 0x6)
+05E 00000000 SECTE  notype       Static       | $chain$1$proc_exit_prepare
+05F 00000000 SECTF  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  875D09B, selection    5 (pick associative Section 0x6)
+061 00000000 SECTF  notype       Static       | $pdata$1$proc_exit_prepare
+062 00000000 UNDEF  notype       External     | error_context_stack
+063 00000000 UNDEF  notype       External     | InterruptPending
+064 00000000 UNDEF  notype       External     | QueryCancelPending
+065 00000000 UNDEF  notype       External     | ProcDiePending
+066 00000000 UNDEF  notype       External     | InterruptHoldoffCount
+067 00000000 UNDEF  notype       External     | CritSectionCount
+068 00000000 UNDEF  notype       External     | debug_query_string
+069 00000001 SECT4  notype       Static       | atexit_callback_setup
+06A 00000010 SECT4  notype       Static       | on_proc_exit_list
+06B 00000150 SECT4  notype       Static       | on_shmem_exit_list
+06C 00000290 SECT4  notype       Static       | before_shmem_exit_list
+06D 000003D0 SECT4  notype       Static       | on_proc_exit_index
+06E 000003D4 SECT4  notype       Static       | on_shmem_exit_index
+06F 000003D8 SECT4  notype       Static       | before_shmem_exit_index
+070 00000000 SECT10 notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum 955D0C95, selection    2 (pick any)
+072 00000000 SECT10 notype       External     | ??_C@_09IJCIJLBM@proc_exit?$AA@ (`string')
+073 00000000 SECT11 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum B719299C, selection    2 (pick any)
+075 00000000 SECT11 notype       External     | ??_C@_0BO@EIOCOING@src?1backend?1storage?1ipc?1ipc?4c?$AA@ (`string')
+076 00000000 SECT12 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 8A19CFF1, selection    2 (pick any)
+078 00000000 SECT12 notype       External     | ??_C@_08JDOPCEKA@exit?$CI?$CFd?$CJ?$AA@ (`string')
+079 00000000 SECT13 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 1EF47001, selection    2 (pick any)
+07B 00000000 SECT13 notype       External     | ??_C@_0BC@IGBAEALD@proc_exit_prepare?$AA@ (`string')
+07C 00000000 SECT14 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum CB90E6F2, selection    2 (pick any)
+07E 00000000 SECT14 notype       External     | ??_C@_0CE@FONJKLNI@proc_exit?$CI?$CFd?$CJ?3?5?$CFd?5callbacks?5to?5m@ (`string')
+07F 00000000 SECT15 notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum 7462134E, selection    2 (pick any)
+081 00000000 SECT15 notype       External     | ??_C@_0L@OABKFNFN@shmem_exit?$AA@ (`string')
+082 00000000 SECT16 notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum 5DB7788D, selection    2 (pick any)
+084 00000000 SECT16 notype       External     | ??_C@_0DH@LDHDEFDD@shmem_exit?$CI?$CFd?$CJ?3?5?$CFd?5before_shmem_@ (`string')
+085 00000000 SECT17 notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum 71739055, selection    2 (pick any)
+087 00000000 SECT17 notype       External     | ??_C@_0DD@KGJODKDI@shmem_exit?$CI?$CFd?$CJ?3?5?$CFd?5on_shmem_exit@ (`string')
+088 00000000 SECT18 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 96FB950A, selection    2 (pick any)
+08A 00000000 SECT18 notype       External     | ??_C@_0N@GGHACMHH@on_proc_exit?$AA@ (`string')
+08B 00000000 SECT19 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 2C04DB92, selection    2 (pick any)
+08D 00000000 SECT19 notype       External     | ??_C@_0BK@HMBHJKFP@out?5of?5on_proc_exit?5slots?$AA@ (`string')
+08E 00000000 SECT1A notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 3B62B2DA, selection    2 (pick any)
+090 00000000 SECT1A notype       External     | ??_C@_0BC@KDIGICGI@before_shmem_exit?$AA@ (`string')
+091 00000000 SECT1B notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum D475E248, selection    2 (pick any)
+093 00000000 SECT1B notype       External     | ??_C@_0BP@ECIDLBAH@out?5of?5before_shmem_exit?5slots?$AA@ (`string')
+094 00000000 SECT1C notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 14D13B02, selection    2 (pick any)
+096 00000000 SECT1C notype       External     | ??_C@_0O@DKJFLNDK@on_shmem_exit?$AA@ (`string')
+097 00000000 SECT1D notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 96E9BB39, selection    2 (pick any)
+099 00000000 SECT1D notype       External     | ??_C@_0BL@HDGMBGHF@out?5of?5on_shmem_exit?5slots?$AA@ (`string')
+09A 00000000 UNDEF  notype       External     | __ImageBase
+
+String Table Size = 0x88A bytes
+
+  Summary
+
+         3DC .bss
+        42EC .debug$S
+          68 .debug$T
+          7F .drectve
+          F0 .pdata
+         15D .rdata
+         52E .text$mn
+         140 .xdata

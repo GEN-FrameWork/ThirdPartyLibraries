@@ -1,0 +1,198 @@
+
+Dump of file Release\postgres/jsonb_gin.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 55F4, #relocs   D4, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  A19, #relocs   4D, #linenums    0, checksum 7C2E06CD
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  107, #relocs    E, #linenums    0, checksum CE8CB71A, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  228, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   A3, #relocs    7, #linenums    0, checksum 2DBFAC8E, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  218, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | pg_snprintf
+013 00000000 UNDEF  notype ()    External     | elog_start
+014 00000000 UNDEF  notype ()    External     | elog_finish
+015 00000000 UNDEF  notype ()    External     | palloc
+016 00000000 UNDEF  notype ()    External     | repalloc
+017 00000000 UNDEF  notype ()    External     | pfree
+018 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+019 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+01A 00000000 UNDEF  notype ()    External     | DirectFunctionCall2Coll
+01B 00000000 UNDEF  notype ()    External     | hash_any
+01C 00000000 SECT4  notype ()    External     | gin_compare_jsonb
+01D 00000150 SECT4  notype ()    External     | gin_extract_jsonb
+01E 00000270 SECT4  notype ()    External     | gin_extract_jsonb_query
+01F 000004B0 SECT4  notype ()    External     | gin_consistent_jsonb
+020 00000580 SECT4  notype ()    External     | gin_extract_jsonb_path
+021 00000780 SECT4  notype ()    External     | gin_extract_jsonb_query_path
+022 00000820 SECT4  notype ()    External     | gin_consistent_jsonb_path
+023 000008C0 SECT4  notype ()    External     | gin_triconsistent_jsonb
+024 00000990 SECT4  notype ()    External     | gin_triconsistent_jsonb_path
+025 00000000 UNDEF  notype ()    External     | deconstruct_array
+026 00000000 UNDEF  notype ()    External     | numeric_normalize
+027 00000000 UNDEF  notype ()    External     | JsonbIteratorInit
+028 00000000 UNDEF  notype ()    External     | JsonbIteratorNext
+029 00000000 UNDEF  notype ()    External     | JsonbHashScalarValue
+02A 00000000 UNDEF  notype ()    External     | varstr_cmp
+02B 00000000 SECT7  notype ()    Static       | make_text_key
+02C 00000000 SECT5  notype ()    Static       | make_scalar_key
+02D 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+02E 00000000 UNDEF  notype ()    External     | __security_check_cookie
+02F 00000000 UNDEF  notype ()    External     | memcpy
+030 00000000 SECT4  notype       Label        | $LN32
+031 00000150 SECT4  notype       Label        | $LN19
+032 00000270 SECT4  notype       Label        | $LN43
+033 000004B0 SECT4  notype       Label        | $LN36
+034 00000754 SECT4  notype       Static       | $LN24
+035 0000066A SECT4  notype       Label        | $LN11
+036 00000687 SECT4  notype       Label        | $LN12
+037 00000696 SECT4  notype       Label        | $LN13
+038 000006B9 SECT4  notype       Label        | $LN14
+039 00000580 SECT4  notype       Label        | $LN26
+03A 00000780 SECT4  notype       Label        | $LN11
+03B 00000820 SECT4  notype       Label        | $LN19
+03C 000008C0 SECT4  notype       Label        | $LN37
+03D 00000990 SECT4  notype       Label        | $LN19
+03E 00000000 SECT9  notype       Static       | .xdata
+    Section length  16C, #relocs   21, #linenums    0, checksum  4CB42A4
+040 00000000 SECT9  notype       Static       | $unwind$gin_compare_jsonb
+041 00000000 SECTA  notype       Static       | .pdata
+    Section length   F0, #relocs   3C, #linenums    0, checksum FCB54142
+043 00000000 SECTA  notype       Static       | $pdata$gin_compare_jsonb
+044 0000001C SECT9  notype       Static       | $unwind$gin_extract_jsonb
+045 0000000C SECTA  notype       Static       | $pdata$gin_extract_jsonb
+046 00000030 SECT9  notype       Static       | $chain$1$gin_extract_jsonb
+047 00000018 SECTA  notype       Static       | $pdata$1$gin_extract_jsonb
+048 00000044 SECT9  notype       Static       | $chain$2$gin_extract_jsonb
+049 00000024 SECTA  notype       Static       | $pdata$2$gin_extract_jsonb
+04A 00000054 SECT9  notype       Static       | $unwind$gin_extract_jsonb_query
+04B 00000030 SECTA  notype       Static       | $pdata$gin_extract_jsonb_query
+04C 00000060 SECT9  notype       Static       | $chain$2$gin_extract_jsonb_query
+04D 0000003C SECTA  notype       Static       | $pdata$2$gin_extract_jsonb_query
+04E 0000007C SECT9  notype       Static       | $chain$4$gin_extract_jsonb_query
+04F 00000048 SECTA  notype       Static       | $pdata$4$gin_extract_jsonb_query
+050 00000094 SECT9  notype       Static       | $chain$5$gin_extract_jsonb_query
+051 00000054 SECTA  notype       Static       | $pdata$5$gin_extract_jsonb_query
+052 000000A8 SECT9  notype       Static       | $chain$6$gin_extract_jsonb_query
+053 00000060 SECTA  notype       Static       | $pdata$6$gin_extract_jsonb_query
+054 000000B8 SECT9  notype       Static       | $chain$7$gin_extract_jsonb_query
+055 0000006C SECTA  notype       Static       | $pdata$7$gin_extract_jsonb_query
+056 000000C8 SECT9  notype       Static       | $unwind$gin_consistent_jsonb
+057 00000078 SECTA  notype       Static       | $pdata$gin_consistent_jsonb
+058 000000D0 SECT9  notype       Static       | $unwind$gin_extract_jsonb_path
+059 00000084 SECTA  notype       Static       | $pdata$gin_extract_jsonb_path
+05A 000000E0 SECT9  notype       Static       | $chain$1$gin_extract_jsonb_path
+05B 00000090 SECTA  notype       Static       | $pdata$1$gin_extract_jsonb_path
+05C 000000F8 SECT9  notype       Static       | $chain$2$gin_extract_jsonb_path
+05D 0000009C SECTA  notype       Static       | $pdata$2$gin_extract_jsonb_path
+05E 0000010C SECT9  notype       Static       | $chain$3$gin_extract_jsonb_path
+05F 000000A8 SECTA  notype       Static       | $pdata$3$gin_extract_jsonb_path
+060 0000011C SECT9  notype       Static       | $chain$4$gin_extract_jsonb_path
+061 000000B4 SECTA  notype       Static       | $pdata$4$gin_extract_jsonb_path
+062 0000012C SECT9  notype       Static       | $unwind$gin_extract_jsonb_query_path
+063 000000C0 SECTA  notype       Static       | $pdata$gin_extract_jsonb_query_path
+064 00000140 SECT9  notype       Static       | $unwind$gin_consistent_jsonb_path
+065 000000CC SECTA  notype       Static       | $pdata$gin_consistent_jsonb_path
+066 00000154 SECT9  notype       Static       | $unwind$gin_triconsistent_jsonb
+067 000000D8 SECTA  notype       Static       | $pdata$gin_triconsistent_jsonb
+068 0000015C SECT9  notype       Static       | $unwind$gin_triconsistent_jsonb_path
+069 000000E4 SECTA  notype       Static       | $pdata$gin_triconsistent_jsonb_path
+06A 00000000 SECTB  notype       Static       | .xdata
+    Section length   18, #relocs    1, #linenums    0, checksum 1183E80E, selection    5 (pick associative Section 0x7)
+06C 00000000 SECTB  notype       Static       | $unwind$make_text_key
+06D 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 24C2E06F, selection    5 (pick associative Section 0x7)
+06F 00000000 SECTC  notype       Static       | $pdata$make_text_key
+070 00000000 SECTD  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum F4D9A8A3, selection    5 (pick associative Section 0x5)
+072 00000000 SECTD  notype       Static       | $unwind$make_scalar_key
+073 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  E51998C, selection    5 (pick associative Section 0x5)
+075 00000000 SECTE  notype       Static       | $pdata$make_scalar_key
+076 00000000 SECTF  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 442F3D97, selection    5 (pick associative Section 0x5)
+078 00000000 SECTF  notype       Static       | $chain$0$make_scalar_key
+079 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F0F69908, selection    5 (pick associative Section 0x5)
+07B 00000000 SECT10 notype       Static       | $pdata$0$make_scalar_key
+07C 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum B7067360, selection    5 (pick associative Section 0x5)
+07E 00000000 SECT11 notype       Static       | $chain$1$make_scalar_key
+07F 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 62B9DB53, selection    5 (pick associative Section 0x5)
+081 00000000 SECT12 notype       Static       | $pdata$1$make_scalar_key
+082 00000000 SECT13 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 13F9BD2B, selection    2 (pick any)
+084 00000000 SECT13 notype       External     | ??_C@_0BI@EPMHIIPE@gin_extract_jsonb_query?$AA@ (`string')
+085 00000000 SECT14 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 78A2A748, selection    2 (pick any)
+087 00000000 SECT14 notype       External     | ??_C@_0CC@MGCMDEJN@src?1backend?1utils?1adt?1jsonb_gin?4@ (`string')
+088 00000000 SECT15 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 9FD1ACAF, selection    2 (pick any)
+08A 00000000 SECT15 notype       External     | ??_C@_0CB@BKFCGJNN@unrecognized?5strategy?5number?3?5?$CFd@ (`string')
+08B 00000000 SECT16 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 453A5591, selection    2 (pick any)
+08D 00000000 SECT16 notype       External     | ??_C@_0BF@PLMBGPOF@gin_consistent_jsonb?$AA@ (`string')
+08E 00000000 SECT17 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 98F5F7FD, selection    2 (pick any)
+090 00000000 SECT17 notype       External     | ??_C@_0BI@MEMLMCCC@gin_triconsistent_jsonb?$AA@ (`string')
+091 00000000 SECT18 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum F32E6E64, selection    2 (pick any)
+093 00000000 SECT18 notype       External     | ??_C@_0BH@HOHBLFNP@gin_extract_jsonb_path?$AA@ (`string')
+094 00000000 SECT19 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 46EE900C, selection    2 (pick any)
+096 00000000 SECT19 notype       External     | ??_C@_0CB@MDGNFFHO@invalid?5JsonbIteratorNext?5rc?3?5?$CFd@ (`string')
+097 00000000 SECT1A notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum FBBF6A37, selection    2 (pick any)
+099 00000000 SECT1A notype       External     | ??_C@_0BN@PBEFAOO@gin_extract_jsonb_query_path?$AA@ (`string')
+09A 00000000 SECT1B notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum CD0BC19E, selection    2 (pick any)
+09C 00000000 SECT1B notype       External     | ??_C@_0BK@JNBIIAFD@gin_consistent_jsonb_path?$AA@ (`string')
+09D 00000000 SECT1C notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum D8CEE073, selection    2 (pick any)
+09F 00000000 SECT1C notype       External     | ??_C@_0BN@CMGFNKKK@gin_triconsistent_jsonb_path?$AA@ (`string')
+0A0 00000000 SECT1D notype       Static       | .rdata
+    Section length    5, #relocs    0, #linenums    0, checksum 34941F03, selection    2 (pick any)
+0A2 00000000 SECT1D notype       External     | ??_C@_04NEJBHOB@?$CF08x?$AA@ (`string')
+0A3 00000000 SECT1E notype       Static       | .rdata
+    Section length    1, #relocs    0, #linenums    0, checksum        0, selection    2 (pick any)
+0A5 00000000 SECT1E notype       External     | ??_C@_00CNPNBAHC@?$AA@ (`string')
+0A6 00000000 SECT1F notype       Static       | .rdata
+    Section length    2, #relocs    0, #linenums    0, checksum 4B53BCF2, selection    2 (pick any)
+0A8 00000000 SECT1F notype       External     | ??_C@_01PFHFFBPC@t?$AA@ (`string')
+0A9 00000000 SECT20 notype       Static       | .rdata
+    Section length    2, #relocs    0, #linenums    0, checksum 33A7CC21, selection    2 (pick any)
+0AB 00000000 SECT20 notype       External     | ??_C@_01INIBCBCB@f?$AA@ (`string')
+0AC 00000000 SECT21 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 49FAEA44, selection    2 (pick any)
+0AE 00000000 SECT21 notype       External     | ??_C@_0BA@FKLOFOOO@make_scalar_key?$AA@ (`string')
+0AF 00000000 SECT22 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 919B10CC, selection    2 (pick any)
+0B1 00000000 SECT22 notype       External     | ??_C@_0CD@GHJMLIAE@unrecognized?5jsonb?5scalar?5type?3?5@ (`string')
+0B2 00000000 UNDEF  notype       External     | __ImageBase
+0B3 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0xA7B bytes
+
+  Summary
+
+        5A34 .debug$S
+          68 .debug$T
+          5D .drectve
+         120 .pdata
+         151 .rdata
+         BC3 .text$mn
+         1B0 .xdata

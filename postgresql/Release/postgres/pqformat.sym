@@ -1,0 +1,225 @@
+
+Dump of file Release\postgres/pqformat.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6008, #relocs  198, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  FA0, #relocs   A0, #linenums    0, checksum 335F6F73
+00A 00000000 UNDEF  notype       External     | __imp_htonl
+00B 00000000 UNDEF  notype       External     | __imp_htons
+00C 00000000 UNDEF  notype       External     | __imp_ntohl
+00D 00000000 UNDEF  notype       External     | __imp_ntohs
+00E 00000000 UNDEF  notype ()    External     | errstart
+00F 00000000 UNDEF  notype ()    External     | errfinish
+010 00000000 UNDEF  notype ()    External     | errcode
+011 00000000 UNDEF  notype ()    External     | errmsg
+012 00000000 UNDEF  notype ()    External     | elog_start
+013 00000000 UNDEF  notype ()    External     | elog_finish
+014 00000000 UNDEF  notype ()    External     | palloc
+015 00000000 UNDEF  notype ()    External     | pfree
+016 00000000 UNDEF  notype ()    External     | initStringInfo
+017 00000000 UNDEF  notype ()    External     | appendStringInfoChar
+018 00000000 UNDEF  notype ()    External     | appendBinaryStringInfo
+019 00000000 UNDEF  notype ()    External     | pg_client_to_server
+01A 00000000 UNDEF  notype ()    External     | pg_server_to_client
+01B 00000000 SECT4  notype ()    External     | pq_beginmessage
+01C 00000030 SECT4  notype ()    External     | pq_sendbyte
+01D 00000070 SECT4  notype ()    External     | pq_sendbytes
+01E 00000080 SECT4  notype ()    External     | pq_sendcountedtext
+01F 00000150 SECT4  notype ()    External     | pq_sendtext
+020 000001D0 SECT4  notype ()    External     | pq_sendstring
+021 00000270 SECT4  notype ()    External     | pq_send_ascii_string
+022 00000300 SECT4  notype ()    External     | pq_sendint
+023 000003E0 SECT4  notype ()    External     | pq_sendint64
+024 00000450 SECT4  notype ()    External     | pq_sendfloat4
+025 00000490 SECT4  notype ()    External     | pq_sendfloat8
+026 00000510 SECT4  notype ()    External     | pq_endmessage
+027 00000550 SECT4  notype ()    External     | pq_begintypsend
+028 00000630 SECT4  notype ()    External     | pq_endtypsend
+029 00000650 SECT4  notype ()    External     | pq_puttextmessage
+02A 00000710 SECT4  notype ()    External     | pq_putemptymessage
+02B 00000730 SECT4  notype ()    External     | pq_getmsgbyte
+02C 000007C0 SECT4  notype ()    External     | pq_getmsgint
+02D 000009A0 SECT4  notype ()    External     | pq_getmsgint64
+02E 00000AC0 SECT4  notype ()    External     | pq_getmsgfloat4
+02F 00000B60 SECT4  notype ()    External     | pq_getmsgfloat8
+030 00000B80 SECT4  notype ()    External     | pq_getmsgbytes
+031 00000C20 SECT4  notype ()    External     | pq_copymsgbytes
+032 00000CD0 SECT4  notype ()    External     | pq_getmsgtext
+033 00000DD0 SECT4  notype ()    External     | pq_getmsgstring
+034 00000E80 SECT4  notype ()    External     | pq_getmsgrawstring
+035 00000F30 SECT4  notype ()    External     | pq_getmsgend
+036 00000000 UNDEF  notype ()    External     | memcpy
+037 00000000 SECT4  notype       Label        | $LN4
+038 00000080 SECT4  notype       Label        | $LN32
+039 00000150 SECT4  notype       Label        | $LN7
+03A 000001D0 SECT4  notype       Label        | $LN8
+03B 00000270 SECT4  notype       Label        | $LN12
+03C 00000300 SECT4  notype       Label        | $LN15
+03D 000003E0 SECT4  notype       Label        | $LN4
+03E 00000450 SECT4  notype       Label        | $LN4
+03F 00000490 SECT4  notype       Label        | $LN6
+040 00000510 SECT4  notype       Label        | $LN4
+041 00000550 SECT4  notype       Label        | $LN12
+042 00000650 SECT4  notype       Label        | $LN7
+043 00000730 SECT4  notype       Label        | $LN10
+044 000007C0 SECT4  notype       Label        | $LN42
+045 000009A0 SECT4  notype       Label        | $LN23
+046 00000AC0 SECT4  notype       Label        | $LN45
+047 00000B60 SECT4  notype       Label        | $LN4
+048 00000B80 SECT4  notype       Label        | $LN11
+049 00000C20 SECT4  notype       Label        | $LN11
+04A 00000CD0 SECT4  notype       Label        | $LN14
+04B 00000DD0 SECT4  notype       Label        | $LN11
+04C 00000E80 SECT4  notype       Label        | $LN11
+04D 00000F30 SECT4  notype       Label        | $LN10
+04E 00000000 SECT5  notype       Static       | .xdata
+    Section length  260, #relocs   30, #linenums    0, checksum FFD4C81B
+050 00000000 SECT5  notype       Static       | $unwind$pq_beginmessage
+051 00000000 SECT6  notype       Static       | .pdata
+    Section length  1D4, #relocs   75, #linenums    0, checksum B9EC6ED0
+053 00000000 SECT6  notype       Static       | $pdata$pq_beginmessage
+054 0000000C SECT5  notype       Static       | $unwind$pq_sendcountedtext
+055 0000000C SECT6  notype       Static       | $pdata$pq_sendcountedtext
+056 00000020 SECT5  notype       Static       | $unwind$pq_sendtext
+057 00000018 SECT6  notype       Static       | $pdata$pq_sendtext
+058 00000034 SECT5  notype       Static       | $unwind$pq_sendstring
+059 00000024 SECT6  notype       Static       | $pdata$pq_sendstring
+05A 0000004C SECT5  notype       Static       | $unwind$pq_send_ascii_string
+05B 00000030 SECT6  notype       Static       | $pdata$pq_send_ascii_string
+05C 00000058 SECT5  notype       Static       | $chain$0$pq_send_ascii_string
+05D 0000003C SECT6  notype       Static       | $pdata$0$pq_send_ascii_string
+05E 0000006C SECT5  notype       Static       | $chain$1$pq_send_ascii_string
+05F 00000048 SECT6  notype       Static       | $pdata$1$pq_send_ascii_string
+060 0000007C SECT5  notype       Static       | $unwind$pq_sendint
+061 00000054 SECT6  notype       Static       | $pdata$pq_sendint
+062 00000088 SECT5  notype       Static       | $unwind$pq_sendint64
+063 00000060 SECT6  notype       Static       | $pdata$pq_sendint64
+064 00000094 SECT5  notype       Static       | $unwind$pq_sendfloat4
+065 0000006C SECT6  notype       Static       | $pdata$pq_sendfloat4
+066 0000009C SECT5  notype       Static       | $unwind$pq_sendfloat8
+067 00000078 SECT6  notype       Static       | $pdata$pq_sendfloat8
+068 000000A8 SECT5  notype       Static       | $unwind$pq_endmessage
+069 00000084 SECT6  notype       Static       | $pdata$pq_endmessage
+06A 000000B0 SECT5  notype       Static       | $unwind$pq_begintypsend
+06B 00000090 SECT6  notype       Static       | $pdata$pq_begintypsend
+06C 000000B8 SECT5  notype       Static       | $unwind$pq_puttextmessage
+06D 0000009C SECT6  notype       Static       | $pdata$pq_puttextmessage
+06E 000000D0 SECT5  notype       Static       | $unwind$pq_getmsgbyte
+06F 000000A8 SECT6  notype       Static       | $pdata$pq_getmsgbyte
+070 000000D8 SECT5  notype       Static       | $chain$0$pq_getmsgbyte
+071 000000B4 SECT6  notype       Static       | $pdata$0$pq_getmsgbyte
+072 000000EC SECT5  notype       Static       | $chain$1$pq_getmsgbyte
+073 000000C0 SECT6  notype       Static       | $pdata$1$pq_getmsgbyte
+074 000000FC SECT5  notype       Static       | $unwind$pq_getmsgint
+075 000000CC SECT6  notype       Static       | $pdata$pq_getmsgint
+076 00000108 SECT5  notype       Static       | $unwind$pq_getmsgint64
+077 000000D8 SECT6  notype       Static       | $pdata$pq_getmsgint64
+078 0000011C SECT5  notype       Static       | $unwind$pq_getmsgfloat4
+079 000000E4 SECT6  notype       Static       | $pdata$pq_getmsgfloat4
+07A 00000124 SECT5  notype       Static       | $chain$0$pq_getmsgfloat4
+07B 000000F0 SECT6  notype       Static       | $pdata$0$pq_getmsgfloat4
+07C 00000138 SECT5  notype       Static       | $chain$1$pq_getmsgfloat4
+07D 000000FC SECT6  notype       Static       | $pdata$1$pq_getmsgfloat4
+07E 00000148 SECT5  notype       Static       | $unwind$pq_getmsgfloat8
+07F 00000108 SECT6  notype       Static       | $pdata$pq_getmsgfloat8
+080 00000150 SECT5  notype       Static       | $unwind$pq_getmsgbytes
+081 00000114 SECT6  notype       Static       | $pdata$pq_getmsgbytes
+082 0000015C SECT5  notype       Static       | $chain$0$pq_getmsgbytes
+083 00000120 SECT6  notype       Static       | $pdata$0$pq_getmsgbytes
+084 00000170 SECT5  notype       Static       | $chain$1$pq_getmsgbytes
+085 0000012C SECT6  notype       Static       | $pdata$1$pq_getmsgbytes
+086 00000180 SECT5  notype       Static       | $unwind$pq_copymsgbytes
+087 00000138 SECT6  notype       Static       | $pdata$pq_copymsgbytes
+088 00000190 SECT5  notype       Static       | $chain$0$pq_copymsgbytes
+089 00000144 SECT6  notype       Static       | $pdata$0$pq_copymsgbytes
+08A 000001A4 SECT5  notype       Static       | $chain$1$pq_copymsgbytes
+08B 00000150 SECT6  notype       Static       | $pdata$1$pq_copymsgbytes
+08C 000001B4 SECT5  notype       Static       | $unwind$pq_getmsgtext
+08D 0000015C SECT6  notype       Static       | $pdata$pq_getmsgtext
+08E 000001CC SECT5  notype       Static       | $unwind$pq_getmsgstring
+08F 00000168 SECT6  notype       Static       | $pdata$pq_getmsgstring
+090 000001DC SECT5  notype       Static       | $chain$0$pq_getmsgstring
+091 00000174 SECT6  notype       Static       | $pdata$0$pq_getmsgstring
+092 000001F0 SECT5  notype       Static       | $chain$1$pq_getmsgstring
+093 00000180 SECT6  notype       Static       | $pdata$1$pq_getmsgstring
+094 00000200 SECT5  notype       Static       | $unwind$pq_getmsgrawstring
+095 0000018C SECT6  notype       Static       | $pdata$pq_getmsgrawstring
+096 00000210 SECT5  notype       Static       | $chain$0$pq_getmsgrawstring
+097 00000198 SECT6  notype       Static       | $pdata$0$pq_getmsgrawstring
+098 00000224 SECT5  notype       Static       | $chain$1$pq_getmsgrawstring
+099 000001A4 SECT6  notype       Static       | $pdata$1$pq_getmsgrawstring
+09A 00000234 SECT5  notype       Static       | $unwind$pq_getmsgend
+09B 000001B0 SECT6  notype       Static       | $pdata$pq_getmsgend
+09C 0000023C SECT5  notype       Static       | $chain$0$pq_getmsgend
+09D 000001BC SECT6  notype       Static       | $pdata$0$pq_getmsgend
+09E 00000250 SECT5  notype       Static       | $chain$1$pq_getmsgend
+09F 000001C8 SECT6  notype       Static       | $pdata$1$pq_getmsgend
+0A0 00000000 UNDEF  notype       External     | PqCommMethods
+0A1 00000000 SECT7  notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum A06B9A35, selection    2 (pick any)
+0A3 00000000 SECT7  notype       External     | ??_C@_0L@DEBDNECG@pq_sendint?$AA@ (`string')
+0A4 00000000 SECT8  notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum D2986DF2, selection    2 (pick any)
+0A6 00000000 SECT8  notype       External     | ??_C@_0BN@CGDDFHCL@src?1backend?1libpq?1pqformat?4c?$AA@ (`string')
+0A7 00000000 SECT9  notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 22009CC8, selection    2 (pick any)
+0A9 00000000 SECT9  notype       External     | ??_C@_0BM@FNIPBENO@unsupported?5integer?5size?5?$CFd?$AA@ (`string')
+0AA 00000000 SECTA  notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 1DA4D904, selection    2 (pick any)
+0AC 00000000 SECTA  notype       External     | ??_C@_0O@DDOAFPDM@pq_getmsgbyte?$AA@ (`string')
+0AD 00000000 SECTB  notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 27762262, selection    2 (pick any)
+0AF 00000000 SECTB  notype       External     | ??_C@_0BI@HLEIBHLN@no?5data?5left?5in?5message?$AA@ (`string')
+0B0 00000000 SECTC  notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum E079C733, selection    2 (pick any)
+0B2 00000000 SECTC  notype       External     | ??_C@_0N@BAPCHOEO@pq_getmsgint?$AA@ (`string')
+0B3 00000000 SECTD  notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum  3624AF5, selection    2 (pick any)
+0B5 00000000 SECTD  notype       External     | ??_C@_0P@CLEOLGON@pq_getmsgbytes?$AA@ (`string')
+0B6 00000000 SECTE  notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 6A8C13DA, selection    2 (pick any)
+0B8 00000000 SECTE  notype       External     | ??_C@_0CC@NEACIAAP@insufficient?5data?5left?5in?5messag@ (`string')
+0B9 00000000 SECTF  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum D290CE4F, selection    2 (pick any)
+0BB 00000000 SECTF  notype       External     | ??_C@_0BA@MBNEHKOF@pq_copymsgbytes?$AA@ (`string')
+0BC 00000000 SECT10 notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum B2088975, selection    2 (pick any)
+0BE 00000000 SECT10 notype       External     | ??_C@_0O@JMEMAPEN@pq_getmsgtext?$AA@ (`string')
+0BF 00000000 SECT11 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 4B376726, selection    2 (pick any)
+0C1 00000000 SECT11 notype       External     | ??_C@_0BA@FIHDNDIM@pq_getmsgstring?$AA@ (`string')
+0C2 00000000 SECT12 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 62F26D55, selection    2 (pick any)
+0C4 00000000 SECT12 notype       External     | ??_C@_0BK@DCOBCMJI@invalid?5string?5in?5message?$AA@ (`string')
+0C5 00000000 SECT13 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum  88C595E, selection    2 (pick any)
+0C7 00000000 SECT13 notype       External     | ??_C@_0BD@CNHLGPMO@pq_getmsgrawstring?$AA@ (`string')
+0C8 00000000 SECT14 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum E06D6ADA, selection    2 (pick any)
+0CA 00000000 SECT14 notype       External     | ??_C@_0N@BAOGNDKH@pq_getmsgend?$AA@ (`string')
+0CB 00000000 SECT15 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum F4D1B4B1, selection    2 (pick any)
+0CD 00000000 SECT15 notype       External     | ??_C@_0BH@HJIOGPAK@invalid?5message?5format?$AA@ (`string')
+0CE 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0xC33 bytes
+
+  Summary
+
+        6008 .debug$S
+          68 .debug$T
+          5D .drectve
+         1D4 .pdata
+         127 .rdata
+         FA0 .text$mn
+         260 .xdata

@@ -1,0 +1,97 @@
+
+Dump of file Release\postgres/transam.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 46E4, #relocs   9A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  2E8, #relocs   19, #linenums    0, checksum 2992B92D
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   6F, #relocs    6, #linenums    0, checksum 8860AC95, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  1C0, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | elog_start
+00F 00000000 UNDEF  notype ()    External     | elog_finish
+010 00000000 UNDEF  notype ()    External     | TransactionIdSetTreeStatus
+011 00000000 UNDEF  notype ()    External     | TransactionIdGetStatus
+012 00000000 UNDEF  notype ()    External     | SubTransGetParent
+013 00000000 SECT4  notype ()    External     | TransactionIdDidCommit
+014 000000A0 SECT4  notype ()    External     | TransactionIdDidAbort
+015 00000140 SECT4  notype ()    External     | TransactionIdIsKnownCompleted
+016 00000150 SECT4  notype ()    External     | TransactionIdCommitTree
+017 00000180 SECT4  notype ()    External     | TransactionIdAsyncCommitTree
+018 000001A0 SECT4  notype ()    External     | TransactionIdAbortTree
+019 000001D0 SECT4  notype ()    External     | TransactionIdPrecedes
+01A 000001F0 SECT4  notype ()    External     | TransactionIdPrecedesOrEquals
+01B 00000210 SECT4  notype ()    External     | TransactionIdFollows
+01C 00000230 SECT4  notype ()    External     | TransactionIdFollowsOrEquals
+01D 00000260 SECT4  notype ()    External     | TransactionIdLatest
+01E 000002B0 SECT4  notype ()    External     | TransactionIdGetCommitLSN
+01F 00000000 SECT5  notype ()    Static       | TransactionLogFetch
+020 00000000 SECT4  notype       Label        | $LN24
+021 000000A0 SECT4  notype       Label        | $LN24
+022 00000150 SECT4  notype       Label        | $LN4
+023 00000180 SECT4  notype       Label        | $LN4
+024 000001A0 SECT4  notype       Label        | $LN4
+025 000002B0 SECT4  notype       Label        | $LN6
+026 00000000 SECT7  notype       Static       | .xdata
+    Section length   30, #relocs    0, #linenums    0, checksum B0552213
+028 00000000 SECT7  notype       Static       | $unwind$TransactionIdDidCommit
+029 00000000 SECT8  notype       Static       | .pdata
+    Section length   48, #relocs   12, #linenums    0, checksum 3BDCDE9D
+02B 00000000 SECT8  notype       Static       | $pdata$TransactionIdDidCommit
+02C 00000008 SECT7  notype       Static       | $unwind$TransactionIdDidAbort
+02D 0000000C SECT8  notype       Static       | $pdata$TransactionIdDidAbort
+02E 00000010 SECT7  notype       Static       | $unwind$TransactionIdCommitTree
+02F 00000018 SECT8  notype       Static       | $pdata$TransactionIdCommitTree
+030 00000018 SECT7  notype       Static       | $unwind$TransactionIdAsyncCommitTree
+031 00000024 SECT8  notype       Static       | $pdata$TransactionIdAsyncCommitTree
+032 00000020 SECT7  notype       Static       | $unwind$TransactionIdAbortTree
+033 00000030 SECT8  notype       Static       | $pdata$TransactionIdAbortTree
+034 00000028 SECT7  notype       Static       | $unwind$TransactionIdGetCommitLSN
+035 0000003C SECT8  notype       Static       | $pdata$TransactionIdGetCommitLSN
+036 00000000 SECT9  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum F4D9A8A3, selection    5 (pick associative Section 0x5)
+038 00000000 SECT9  notype       Static       | $unwind$TransactionLogFetch
+039 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  9CBB217, selection    5 (pick associative Section 0x5)
+03B 00000000 SECTA  notype       Static       | $pdata$TransactionLogFetch
+03C 00000000 UNDEF  notype       External     | TransactionXmin
+03D 00000000 SECTB  notype       Static       | .bss
+    Section length   10, #relocs    0, #linenums    0, checksum        0
+03F 00000000 SECTB  notype       Static       | cachedFetchXid
+040 00000004 SECTB  notype       Static       | cachedFetchXidStatus
+041 00000008 SECTB  notype       Static       | cachedCommitLSN
+042 00000000 SECTC  notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum BFA91DCB, selection    2 (pick any)
+044 00000000 SECTC  notype       External     | ??_C@_0BH@DCPGMGHA@TransactionIdDidCommit?$AA@ (`string')
+045 00000000 SECTD  notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum B6D4DB63, selection    2 (pick any)
+047 00000000 SECTD  notype       External     | ??_C@_0CF@GNPKFLPI@src?1backend?1access?1transam?1trans@ (`string')
+048 00000000 SECTE  notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum E23B594B, selection    2 (pick any)
+04A 00000000 SECTE  notype       External     | ??_C@_0CN@NLEEDBBA@no?5pg_subtrans?5entry?5for?5subcomm@ (`string')
+04B 00000000 SECTF  notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum D9534D76, selection    2 (pick any)
+04D 00000000 SECTF  notype       External     | ??_C@_0BG@IOIFADGJ@TransactionIdDidAbort?$AA@ (`string')
+
+String Table Size = 0x468 bytes
+
+  Summary
+
+          10 .bss
+        48A4 .debug$S
+          68 .debug$T
+          5D .drectve
+          54 .pdata
+          7F .rdata
+         357 .text$mn
+          38 .xdata

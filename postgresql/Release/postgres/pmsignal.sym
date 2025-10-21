@@ -1,0 +1,84 @@
+
+Dump of file Release\postgres/pmsignal.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 3FE8, #relocs   5C, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       External     | PMSignalState
+00B 00000000 SECT5  notype       Static       | .text$mn
+    Section length  350, #relocs   2B, #linenums    0, checksum 4CB432B1
+00D 00000000 UNDEF  notype       External     | __imp_WaitForSingleObject
+00E 00000000 UNDEF  notype ()    External     | pgkill
+00F 00000000 UNDEF  notype ()    External     | elog_start
+010 00000000 UNDEF  notype ()    External     | elog_finish
+011 00000000 UNDEF  notype ()    External     | MaxLivePostmasterChildren
+012 00000000 SECT5  notype ()    External     | PMSignalShmemSize
+013 00000030 SECT5  notype ()    External     | PMSignalShmemInit
+014 00000110 SECT5  notype ()    External     | SendPostmasterSignal
+015 00000150 SECT5  notype ()    External     | CheckPostmasterSignal
+016 00000190 SECT5  notype ()    External     | AssignPostmasterChildSlot
+017 00000240 SECT5  notype ()    External     | ReleasePostmasterChildSlot
+018 00000280 SECT5  notype ()    External     | IsPostmasterChildWalSender
+019 000002A0 SECT5  notype ()    External     | MarkPostmasterChildActive
+01A 000002D0 SECT5  notype ()    External     | MarkPostmasterChildInactive
+01B 00000300 SECT5  notype ()    External     | MarkPostmasterChildWalSender
+01C 00000330 SECT5  notype ()    External     | PostmasterIsAlive
+01D 00000000 UNDEF  notype ()    External     | ShmemInitStruct
+01E 00000000 UNDEF  notype ()    External     | add_size
+01F 00000000 UNDEF  notype ()    External     | mul_size
+020 00000000 UNDEF  notype ()    External     | memset
+021 00000000 SECT5  notype       Label        | $LN4
+022 00000030 SECT5  notype       Label        | $LN22
+023 00000190 SECT5  notype       Label        | $LN18
+024 00000330 SECT5  notype       Label        | $LN4
+025 00000000 SECT6  notype       Static       | .xdata
+    Section length   20, #relocs    0, #linenums    0, checksum  F7D53E2
+027 00000000 SECT6  notype       Static       | $unwind$PMSignalShmemSize
+028 00000000 SECT7  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum FFB223A8
+02A 00000000 SECT7  notype       Static       | $pdata$PMSignalShmemSize
+02B 00000008 SECT6  notype       Static       | $unwind$PMSignalShmemInit
+02C 0000000C SECT7  notype       Static       | $pdata$PMSignalShmemInit
+02D 00000010 SECT6  notype       Static       | $unwind$AssignPostmasterChildSlot
+02E 00000018 SECT7  notype       Static       | $pdata$AssignPostmasterChildSlot
+02F 00000018 SECT6  notype       Static       | $unwind$PostmasterIsAlive
+030 00000024 SECT7  notype       Static       | $pdata$PostmasterIsAlive
+031 00000000 UNDEF  notype       External     | PostmasterPid
+032 00000000 UNDEF  notype       External     | IsUnderPostmaster
+033 00000000 UNDEF  notype       External     | MyPMChildSlot
+034 00000000 UNDEF  notype       External     | PostmasterHandle
+035 00000000 SECT8  notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum  4BB2ADC, selection    2 (pick any)
+037 00000000 SECT8  notype       External     | ??_C@_0O@CKPPKMOE@PMSignalState?$AA@ (`string')
+038 00000000 SECT9  notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum CD7D04C8, selection    2 (pick any)
+03A 00000000 SECT9  notype       External     | ??_C@_0BK@JNGOEFAF@AssignPostmasterChildSlot?$AA@ (`string')
+03B 00000000 SECTA  notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 96DCFC47, selection    2 (pick any)
+03D 00000000 SECTA  notype       External     | ??_C@_0CD@GANLFEIP@src?1backend?1storage?1ipc?1pmsignal@ (`string')
+03E 00000000 SECTB  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum AD00235B, selection    2 (pick any)
+040 00000000 SECTB  notype       External     | ??_C@_0CE@DIEJGOHB@no?5free?5slots?5in?5PMChildFlags?5ar@ (`string')
+
+String Table Size = 0x356 bytes
+
+  Summary
+
+           8 .bss
+        3FE8 .debug$S
+          68 .debug$T
+          5D .drectve
+          30 .pdata
+          6F .rdata
+         350 .text$mn
+          20 .xdata

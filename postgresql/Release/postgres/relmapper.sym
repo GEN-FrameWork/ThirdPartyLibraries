@@ -1,0 +1,300 @@
+
+Dump of file Release\postgres/relmapper.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5BA0, #relocs   FE, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  9C7, #relocs   A5, #linenums    0, checksum DC194227
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  25A, #relocs   2D, #linenums    0, checksum E9D36086, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  2F8, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  116, #relocs    A, #linenums    0, checksum AA3D1CF2, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  2B8, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  1A7, #relocs    F, #linenums    0, checksum 6F9C0CD1, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  1B8, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  440, #relocs   44, #linenums    0, checksum  94741F9, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  7A4, #relocs   44, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 UNDEF  notype       External     | __imp__errno
+01B 00000000 UNDEF  notype ()    External     | pg_snprintf
+01C 00000000 UNDEF  notype       External     | __imp_read
+01D 00000000 UNDEF  notype       External     | __imp_write
+01E 00000000 UNDEF  notype ()    External     | errstart
+01F 00000000 UNDEF  notype ()    External     | errfinish
+020 00000000 UNDEF  notype ()    External     | errcode
+021 00000000 UNDEF  notype ()    External     | errcode_for_file_access
+022 00000000 UNDEF  notype ()    External     | errmsg
+023 00000000 UNDEF  notype ()    External     | elog_start
+024 00000000 UNDEF  notype ()    External     | elog_finish
+025 00000000 UNDEF  notype ()    External     | pfree
+026 00000000 UNDEF  notype ()    External     | GetDatabasePath
+027 00000000 UNDEF  notype ()    External     | GetCurrentTransactionNestLevel
+028 00000000 UNDEF  notype ()    External     | XLogBeginInsert
+029 00000000 UNDEF  notype ()    External     | XLogInsert
+02A 00000000 UNDEF  notype ()    External     | XLogRegisterData
+02B 00000000 UNDEF  notype ()    External     | OpenTransientFile
+02C 00000000 UNDEF  notype ()    External     | CloseTransientFile
+02D 00000000 UNDEF  notype ()    External     | pg_fsync
+02E 00000000 UNDEF  notype ()    External     | XLogFlush
+02F 00000000 UNDEF  notype ()    External     | RelationPreserveStorage
+030 00000000 UNDEF  notype ()    External     | LWLockAcquire
+031 00000000 UNDEF  notype ()    External     | LWLockRelease
+032 00000000 UNDEF  notype ()    External     | CacheInvalidateRelmap
+033 00000000 SECT4  notype ()    External     | RelationMapOidToFilenode
+034 000000F0 SECT4  notype ()    External     | RelationMapFilenodeToOid
+035 000001E0 SECT4  notype ()    External     | RelationMapUpdateMap
+036 00000300 SECT4  notype ()    External     | RelationMapRemoveMapping
+037 00000390 SECT4  notype ()    External     | RelationMapInvalidate
+038 000003D0 SECT4  notype ()    External     | RelationMapInvalidateAll
+039 00000410 SECT4  notype ()    External     | AtCCI_RelationMap
+03A 00000620 SECT4  notype ()    External     | AtEOXact_RelationMap
+03B 00000690 SECT4  notype ()    External     | AtPrepare_RelationMap
+03C 00000730 SECT4  notype ()    External     | CheckPointRelationMap
+03D 00000770 SECT4  notype ()    External     | RelationMapFinishBootstrap
+03E 000007F0 SECT4  notype ()    External     | RelationMapInitialize
+03F 00000820 SECT4  notype ()    External     | RelationMapInitializePhase2
+040 00000840 SECT4  notype ()    External     | RelationMapInitializePhase3
+041 00000860 SECT4  notype ()    External     | relmap_redo
+042 00000000 SECT7  notype ()    Static       | merge_map_updates
+043 00000000 SECT5  notype ()    Static       | load_relmap_file
+044 00000000 SECTB  notype ()    Static       | write_relmap_file
+045 00000000 SECT9  notype ()    Static       | perform_relmap_update
+046 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+047 00000000 UNDEF  notype ()    External     | __security_check_cookie
+048 000001E0 SECT4  notype       Label        | $LN42
+049 00000300 SECT4  notype       Label        | $LN17
+04A 000003D0 SECT4  notype       Label        | $LN6
+04B 00000410 SECT4  notype       Label        | $LN73
+04C 00000620 SECT4  notype       Label        | $LN9
+04D 00000690 SECT4  notype       Label        | $LN11
+04E 00000730 SECT4  notype       Label        | $LN4
+04F 00000770 SECT4  notype       Label        | $LN4
+050 00000860 SECT4  notype       Label        | $LN16
+051 00000000 SECTD  notype       Static       | .xdata
+    Section length   B8, #relocs    D, #linenums    0, checksum 537821BE
+053 00000000 SECTD  notype       Static       | $unwind$RelationMapUpdateMap
+054 00000000 SECTE  notype       Static       | .pdata
+    Section length   9C, #relocs   27, #linenums    0, checksum 4707ED0A
+056 00000000 SECTE  notype       Static       | $pdata$RelationMapUpdateMap
+057 00000014 SECTD  notype       Static       | $unwind$RelationMapRemoveMapping
+058 0000000C SECTE  notype       Static       | $pdata$RelationMapRemoveMapping
+059 0000001C SECTD  notype       Static       | $unwind$RelationMapInvalidateAll
+05A 00000018 SECTE  notype       Static       | $pdata$RelationMapInvalidateAll
+05B 00000024 SECTD  notype       Static       | $unwind$AtCCI_RelationMap
+05C 00000024 SECTE  notype       Static       | $pdata$AtCCI_RelationMap
+05D 0000003C SECTD  notype       Static       | $unwind$AtEOXact_RelationMap
+05E 00000030 SECTE  notype       Static       | $pdata$AtEOXact_RelationMap
+05F 00000044 SECTD  notype       Static       | $unwind$AtPrepare_RelationMap
+060 0000003C SECTE  notype       Static       | $pdata$AtPrepare_RelationMap
+061 0000004C SECTD  notype       Static       | $chain$0$AtPrepare_RelationMap
+062 00000048 SECTE  notype       Static       | $pdata$0$AtPrepare_RelationMap
+063 00000060 SECTD  notype       Static       | $chain$1$AtPrepare_RelationMap
+064 00000054 SECTE  notype       Static       | $pdata$1$AtPrepare_RelationMap
+065 00000070 SECTD  notype       Static       | $unwind$CheckPointRelationMap
+066 00000060 SECTE  notype       Static       | $pdata$CheckPointRelationMap
+067 00000078 SECTD  notype       Static       | $unwind$RelationMapFinishBootstrap
+068 0000006C SECTE  notype       Static       | $pdata$RelationMapFinishBootstrap
+069 00000080 SECTD  notype       Static       | $unwind$relmap_redo
+06A 00000078 SECTE  notype       Static       | $pdata$relmap_redo
+06B 00000094 SECTD  notype       Static       | $chain$0$relmap_redo
+06C 00000084 SECTE  notype       Static       | $pdata$0$relmap_redo
+06D 000000A8 SECTD  notype       Static       | $chain$1$relmap_redo
+06E 00000090 SECTE  notype       Static       | $pdata$1$relmap_redo
+06F 00000000 SECTF  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 98484F8A, selection    5 (pick associative Section 0x7)
+071 00000000 SECTF  notype       Static       | $unwind$merge_map_updates
+072 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 77F965B5, selection    5 (pick associative Section 0x7)
+074 00000000 SECT10 notype       Static       | $pdata$merge_map_updates
+075 00000000 SECT11 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum DF53C31F, selection    5 (pick associative Section 0x7)
+077 00000000 SECT11 notype       Static       | $chain$2$merge_map_updates
+078 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C9D802BC, selection    5 (pick associative Section 0x7)
+07A 00000000 SECT12 notype       Static       | $pdata$2$merge_map_updates
+07B 00000000 SECT13 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum CEAE8F59, selection    5 (pick associative Section 0x7)
+07D 00000000 SECT13 notype       Static       | $chain$3$merge_map_updates
+07E 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum BED9C6D8, selection    5 (pick associative Section 0x7)
+080 00000000 SECT14 notype       Static       | $pdata$3$merge_map_updates
+081 00000000 SECT15 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 766705ED, selection    5 (pick associative Section 0x7)
+083 00000000 SECT15 notype       Static       | $chain$4$merge_map_updates
+084 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum AFB973A9, selection    5 (pick associative Section 0x7)
+086 00000000 SECT16 notype       Static       | $pdata$4$merge_map_updates
+087 00000000 SECT17 notype       Static       | .xdata
+    Section length   14, #relocs    1, #linenums    0, checksum  9058721, selection    5 (pick associative Section 0x5)
+089 00000000 SECT17 notype       Static       | $unwind$load_relmap_file
+08A 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E7BE24FA, selection    5 (pick associative Section 0x5)
+08C 00000000 SECT18 notype       Static       | $pdata$load_relmap_file
+08D 00000000 SECT19 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 8DDA9701, selection    5 (pick associative Section 0x5)
+08F 00000000 SECT19 notype       Static       | $chain$1$load_relmap_file
+090 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum AF27614A, selection    5 (pick associative Section 0x5)
+092 00000000 SECT1A notype       Static       | $pdata$1$load_relmap_file
+093 00000000 SECT1B notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum B8451285, selection    5 (pick associative Section 0x5)
+095 00000000 SECT1B notype       Static       | $chain$2$load_relmap_file
+096 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum CE9FFAA8, selection    5 (pick associative Section 0x5)
+098 00000000 SECT1C notype       Static       | $pdata$2$load_relmap_file
+099 00000000 SECT1D notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 16708BA6, selection    5 (pick associative Section 0x5)
+09B 00000000 SECT1D notype       Static       | $chain$3$load_relmap_file
+09C 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  7E413D5, selection    5 (pick associative Section 0x5)
+09E 00000000 SECT1E notype       Static       | $pdata$3$load_relmap_file
+09F 00000000 SECT1F notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum B857E534, selection    5 (pick associative Section 0x5)
+0A1 00000000 SECT1F notype       Static       | $chain$4$load_relmap_file
+0A2 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E5427119, selection    5 (pick associative Section 0x5)
+0A4 00000000 SECT20 notype       Static       | $pdata$4$load_relmap_file
+0A5 00000000 SECT21 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 5EE9CE16, selection    5 (pick associative Section 0x5)
+0A7 00000000 SECT21 notype       Static       | $chain$5$load_relmap_file
+0A8 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E72ED979, selection    5 (pick associative Section 0x5)
+0AA 00000000 SECT22 notype       Static       | $pdata$5$load_relmap_file
+0AB 00000000 SECT23 notype       Static       | .xdata
+    Section length   28, #relocs    1, #linenums    0, checksum BEE2D223, selection    5 (pick associative Section 0xB)
+0AD 00000000 SECT23 notype       Static       | $unwind$write_relmap_file
+0AE 00000000 SECT24 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DDD2E6FE, selection    5 (pick associative Section 0xB)
+0B0 00000000 SECT24 notype       Static       | $pdata$write_relmap_file
+0B1 00000000 SECT25 notype       Static       | .xdata
+    Section length   18, #relocs    1, #linenums    0, checksum 76830C00, selection    5 (pick associative Section 0x9)
+0B3 00000000 SECT25 notype       Static       | $unwind$perform_relmap_update
+0B4 00000000 SECT26 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  6FFE521, selection    5 (pick associative Section 0x9)
+0B6 00000000 SECT26 notype       Static       | $pdata$perform_relmap_update
+0B7 00000000 UNDEF  notype       External     | pg_comp_crc32c
+0B8 00000000 UNDEF  notype       External     | CritSectionCount
+0B9 00000000 UNDEF  notype       External     | MyDatabaseId
+0BA 00000000 UNDEF  notype       External     | MyDatabaseTableSpace
+0BB 00000000 UNDEF  notype       External     | allowSystemTableMods
+0BC 00000000 UNDEF  notype       External     | DatabasePath
+0BD 00000000 UNDEF  notype       External     | Mode
+0BE 00000000 UNDEF  notype       External     | MainLWLockArray
+0BF 00000000 UNDEF  notype       External     | MyProc
+0C0 00000000 UNDEF  notype       External     | pgstat_track_activities
+0C1 00000000 SECT27 notype       Static       | .bss
+    Section length  C00, #relocs    0, #linenums    0, checksum        0
+0C3 00000000 SECT27 notype       Static       | shared_map
+0C4 00000200 SECT27 notype       Static       | local_map
+0C5 00000400 SECT27 notype       Static       | active_shared_updates
+0C6 00000600 SECT27 notype       Static       | active_local_updates
+0C7 00000800 SECT27 notype       Static       | pending_shared_updates
+0C8 00000A00 SECT27 notype       Static       | pending_local_updates
+0C9 00000000 SECT28 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum D15AB7D9, selection    2 (pick any)
+0CB 00000000 SECT28 notype       External     | ??_C@_0BF@GPKBINKN@RelationMapUpdateMap?$AA@ (`string')
+0CC 00000000 SECT29 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 17008EF7, selection    2 (pick any)
+0CE 00000000 SECT29 notype       External     | ??_C@_0CE@ICEJMDNN@src?1backend?1utils?1cache?1relmappe@ (`string')
+0CF 00000000 SECT2A notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum 6F5209C1, selection    2 (pick any)
+0D1 00000000 SECT2A notype       External     | ??_C@_0DF@IJACIBDA@cannot?5change?5relation?5mapping?5w@ (`string')
+0D2 00000000 SECT2B notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 303722EB, selection    2 (pick any)
+0D4 00000000 SECT2B notype       External     | ??_C@_0BB@GCHCMKJ@apply_map_update?$AA@ (`string')
+0D5 00000000 SECT2C notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum  F048E25, selection    2 (pick any)
+0D7 00000000 SECT2C notype       External     | ??_C@_0DD@NIOJCEEI@attempt?5to?5apply?5a?5mapping?5to?5un@ (`string')
+0D8 00000000 SECT2D notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum  34A49B1, selection    2 (pick any)
+0DA 00000000 SECT2D notype       External     | ??_C@_0CB@IGMJIMMD@ran?5out?5of?5space?5in?5relation?5map@ (`string')
+0DB 00000000 SECT2E notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum FA0B74B5, selection    2 (pick any)
+0DD 00000000 SECT2E notype       External     | ??_C@_0BJ@OMDLIFMF@RelationMapRemoveMapping?$AA@ (`string')
+0DE 00000000 SECT2F notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum 99F5C24D, selection    2 (pick any)
+0E0 00000000 SECT2F notype       External     | ??_C@_0DB@DEJPDNEH@could?5not?5find?5temporary?5mapping@ (`string')
+0E1 00000000 SECT30 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum D124B36C, selection    2 (pick any)
+0E3 00000000 SECT30 notype       External     | ??_C@_0BG@IGPCPNHD@AtPrepare_RelationMap?$AA@ (`string')
+0E4 00000000 SECT31 notype       Static       | .rdata
+    Section length   3C, #relocs    0, #linenums    0, checksum DED66E6B, selection    2 (pick any)
+0E6 00000000 SECT31 notype       External     | ??_C@_0DM@CFDLBIJM@cannot?5PREPARE?5a?5transaction?5tha@ (`string')
+0E7 00000000 SECT32 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 6A16663E, selection    2 (pick any)
+0E9 00000000 SECT32 notype       External     | ??_C@_0BA@HJFCNCJE@pg_filenode?4map?$AA@ (`string')
+0EA 00000000 SECT33 notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum C121D587, selection    2 (pick any)
+0EC 00000000 SECT33 notype       External     | ??_C@_09NNFEECAO@global?1?$CFs?$AA@ (`string')
+0ED 00000000 SECT34 notype       Static       | .rdata
+    Section length    6, #relocs    0, #linenums    0, checksum 2BD61FCC, selection    2 (pick any)
+0EF 00000000 SECT34 notype       External     | ??_C@_05GFOLEBJA@?$CFs?1?$CFs?$AA@ (`string')
+0F0 00000000 SECT35 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 9AF7536D, selection    2 (pick any)
+0F2 00000000 SECT35 notype       External     | ??_C@_0BB@KMOHFNCP@load_relmap_file?$AA@ (`string')
+0F3 00000000 SECT36 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum FCB07383, selection    2 (pick any)
+0F5 00000000 SECT36 notype       External     | ??_C@_0CO@DAIEJH@could?5not?5open?5relation?5mapping?5@ (`string')
+0F6 00000000 SECT37 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum 5B86C835, selection    2 (pick any)
+0F8 00000000 SECT37 notype       External     | ??_C@_0CO@KHAGDPCB@could?5not?5read?5relation?5mapping?5@ (`string')
+0F9 00000000 SECT38 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum BD0B3B08, selection    2 (pick any)
+0FB 00000000 SECT38 notype       External     | ??_C@_0DB@BAGBMEAC@relation?5mapping?5file?5?$CC?$CFs?$CC?5conta@ (`string')
+0FC 00000000 SECT39 notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum B3272AD3, selection    2 (pick any)
+0FE 00000000 SECT39 notype       External     | ??_C@_0DH@FNODBHGN@relation?5mapping?5file?5?$CC?$CFs?$CC?5conta@ (`string')
+0FF 00000000 SECT3A notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 5DBF05FC, selection    2 (pick any)
+101 00000000 SECT3A notype       External     | ??_C@_0BC@MFFLDFEO@write_relmap_file?$AA@ (`string')
+102 00000000 SECT3B notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum  CEDE9AA, selection    2 (pick any)
+104 00000000 SECT3B notype       External     | ??_C@_0CI@BKPOCLOE@attempt?5to?5write?5bogus?5relation?5@ (`string')
+105 00000000 SECT3C notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum 15779915, selection    2 (pick any)
+107 00000000 SECT3C notype       External     | ??_C@_0DC@PFAPBKPE@could?5not?5write?5to?5relation?5mapp@ (`string')
+108 00000000 SECT3D notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum 10174135, selection    2 (pick any)
+10A 00000000 SECT3D notype       External     | ??_C@_0CP@KDBBFLP@could?5not?5fsync?5relation?5mapping@ (`string')
+10B 00000000 SECT3E notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum 6AB92F20, selection    2 (pick any)
+10D 00000000 SECT3E notype       External     | ??_C@_0CP@HAJPHLKK@could?5not?5close?5relation?5mapping@ (`string')
+10E 00000000 SECT3F notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum A0A5CD3A, selection    2 (pick any)
+110 00000000 SECT3F notype       External     | ??_C@_0M@CEIPPEKK@relmap_redo?$AA@ (`string')
+111 00000000 SECT40 notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum B9D17855, selection    2 (pick any)
+113 00000000 SECT40 notype       External     | ??_C@_0DD@GODMNCDI@relmap_redo?3?5wrong?5size?5?$CFu?5in?5re@ (`string')
+114 00000000 SECT41 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 4178E7C1, selection    2 (pick any)
+116 00000000 SECT41 notype       External     | ??_C@_0CA@KHINENJD@relmap_redo?3?5unknown?5op?5code?5?$CFu?$AA@ (`string')
+117 00000000 UNDEF  notype       External     | __ImageBase
+118 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0xEC1 bytes
+
+  Summary
+
+         C00 .bss
+        6AAC .debug$S
+          68 .debug$T
+          5D .drectve
+         12C .pdata
+         38D .rdata
+        131E .text$mn
+         1C4 .xdata

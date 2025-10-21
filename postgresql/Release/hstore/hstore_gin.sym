@@ -1,0 +1,96 @@
+
+Dump of file Release\hstore/hstore_gin.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   D2, #relocs    0, #linenums    0, checksum 3397BBD7
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 44C4, #relocs   98, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   64, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum EFB32B94
+00A 00000000 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gin_extract_hstore@@9@9 (`pg_finfo_gin_extract_hstore'::`2'::my_finfo)
+00B 00000004 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gin_extract_hstore_query@@9@9 (`pg_finfo_gin_extract_hstore_query'::`2'::my_finfo)
+00C 00000008 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gin_consistent_hstore@@9@9 (`pg_finfo_gin_consistent_hstore'::`2'::my_finfo)
+00D 00000000 SECT5  notype       Static       | .text$mn
+    Section length  558, #relocs   1E, #linenums    0, checksum  37AF395
+00F 00000000 SECT6  notype       Static       | .text$mn
+    Section length   6A, #relocs    2, #linenums    0, checksum D171C78C, selection    1 (pick no duplicates)
+011 00000000 SECT7  notype       Static       | .debug$S
+    Section length  1AC, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+013 00000000 UNDEF  notype ()    External     | elog_start
+014 00000000 UNDEF  notype ()    External     | elog_finish
+015 00000000 UNDEF  notype ()    External     | palloc
+016 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+017 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+018 00000000 UNDEF  notype ()    External     | DirectFunctionCall2Coll
+019 00000000 UNDEF  notype ()    External     | deconstruct_array
+01A 00000000 UNDEF  notype ()    External     | hstoreUpgrade
+01B 00000000 SECT5  notype ()    External     | gin_extract_hstore
+01C 000001D0 SECT5  notype ()    External     | pg_finfo_gin_extract_hstore
+01D 00000000 SECT6  notype ()    Static       | makeitem
+01E 000001E0 SECT5  notype ()    External     | gin_extract_hstore_query
+01F 00000470 SECT5  notype ()    External     | pg_finfo_gin_extract_hstore_query
+020 00000480 SECT5  notype ()    External     | gin_consistent_hstore
+021 00000550 SECT5  notype ()    External     | pg_finfo_gin_consistent_hstore
+022 00000000 UNDEF  notype ()    External     | memcpy
+023 00000000 SECT5  notype       Label        | $LN32
+024 000001E0 SECT5  notype       Label        | $LN44
+025 00000480 SECT5  notype       Label        | $LN36
+026 00000000 SECT8  notype       Static       | .xdata
+    Section length   A4, #relocs   12, #linenums    0, checksum A95FBA6D
+028 00000000 SECT8  notype       Static       | $unwind$gin_extract_hstore
+029 00000000 SECT9  notype       Static       | .pdata
+    Section length   6C, #relocs   1B, #linenums    0, checksum E7346D10
+02B 00000000 SECT9  notype       Static       | $pdata$gin_extract_hstore
+02C 00000010 SECT8  notype       Static       | $chain$2$gin_extract_hstore
+02D 0000000C SECT9  notype       Static       | $pdata$2$gin_extract_hstore
+02E 0000002C SECT8  notype       Static       | $chain$3$gin_extract_hstore
+02F 00000018 SECT9  notype       Static       | $pdata$3$gin_extract_hstore
+030 00000000 SECTA  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum F4634387, selection    5 (pick associative Section 0x6)
+032 00000000 SECTA  notype       Static       | $unwind$makeitem
+033 00000000 SECTB  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 412BBC73, selection    5 (pick associative Section 0x6)
+035 00000000 SECTB  notype       Static       | $pdata$makeitem
+036 0000003C SECT8  notype       Static       | $unwind$gin_extract_hstore_query
+037 00000024 SECT9  notype       Static       | $pdata$gin_extract_hstore_query
+038 00000048 SECT8  notype       Static       | $chain$1$gin_extract_hstore_query
+039 00000030 SECT9  notype       Static       | $pdata$1$gin_extract_hstore_query
+03A 00000060 SECT8  notype       Static       | $chain$4$gin_extract_hstore_query
+03B 0000003C SECT9  notype       Static       | $pdata$4$gin_extract_hstore_query
+03C 0000007C SECT8  notype       Static       | $chain$5$gin_extract_hstore_query
+03D 00000048 SECT9  notype       Static       | $pdata$5$gin_extract_hstore_query
+03E 0000008C SECT8  notype       Static       | $chain$6$gin_extract_hstore_query
+03F 00000054 SECT9  notype       Static       | $pdata$6$gin_extract_hstore_query
+040 0000009C SECT8  notype       Static       | $unwind$gin_consistent_hstore
+041 00000060 SECT9  notype       Static       | $pdata$gin_consistent_hstore
+042 00000000 SECTC  notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 4DBE45EE, selection    2 (pick any)
+044 00000000 SECTC  notype       External     | ??_C@_0BJ@FLIOLEJO@gin_extract_hstore_query?$AA@ (`string')
+045 00000000 SECTD  notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum FB074E1E, selection    2 (pick any)
+047 00000000 SECTD  notype       External     | ??_C@_0BM@IEIIMGAI@contrib?1hstore?1hstore_gin?4c?$AA@ (`string')
+048 00000000 SECTE  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 9FD1ACAF, selection    2 (pick any)
+04A 00000000 SECTE  notype       External     | ??_C@_0CB@BKFCGJNN@unrecognized?5strategy?5number?3?5?$CFd@ (`string')
+04B 00000000 SECTF  notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum BBF275CA, selection    2 (pick any)
+04D 00000000 SECTF  notype       External     | ??_C@_0BG@OMCEDLNF@gin_consistent_hstore?$AA@ (`string')
+
+String Table Size = 0x4D5 bytes
+
+  Summary
+
+        4670 .debug$S
+          64 .debug$T
+          D2 .drectve
+          78 .pdata
+          78 .rdata
+         5C2 .text$mn
+          B8 .xdata

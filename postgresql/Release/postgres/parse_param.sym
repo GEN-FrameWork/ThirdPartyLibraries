@@ -1,0 +1,118 @@
+
+Dump of file Release\postgres/parse_param.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4AE0, #relocs   AC, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  795, #relocs   51, #linenums    0, checksum D8296FFC
+00A 00000000 UNDEF  notype ()    External     | errstart
+00B 00000000 UNDEF  notype ()    External     | errfinish
+00C 00000000 UNDEF  notype ()    External     | errcode
+00D 00000000 UNDEF  notype ()    External     | errmsg
+00E 00000000 UNDEF  notype ()    External     | errdetail
+00F 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+010 00000000 UNDEF  notype ()    External     | palloc
+011 00000000 UNDEF  notype ()    External     | repalloc
+012 00000000 UNDEF  notype ()    External     | expression_tree_walker
+013 00000000 UNDEF  notype ()    External     | query_tree_walker
+014 00000000 UNDEF  notype ()    External     | parser_errposition
+015 00000000 SECT4  notype ()    External     | parse_fixed_parameters
+016 00000060 SECT4  notype ()    External     | parse_variable_parameters
+017 000000D0 SECT4  notype ()    External     | check_variable_parameters
+018 00000100 SECT4  notype ()    External     | query_contains_extern_params
+019 00000000 UNDEF  notype ()    External     | format_type_be
+01A 00000000 UNDEF  notype ()    External     | get_typcollation
+01B 00000120 SECT4  notype ()    Static       | fixed_paramref_hook
+01C 00000240 SECT4  notype ()    Static       | variable_paramref_hook
+01D 00000410 SECT4  notype ()    Static       | variable_coerce_param_hook
+01E 000005E0 SECT4  notype ()    Static       | check_parameter_resolution_walker
+01F 00000760 SECT4  notype ()    Static       | query_contains_extern_params_walker
+020 00000000 UNDEF  notype ()    External     | memset
+021 00000000 SECT4  notype       Label        | $LN4
+022 00000060 SECT4  notype       Label        | $LN4
+023 00000000 SECT5  notype       Static       | .xdata
+    Section length  12C, #relocs   1E, #linenums    0, checksum FB645B9F
+025 00000000 SECT5  notype       Static       | $unwind$parse_fixed_parameters
+026 00000000 SECT6  notype       Static       | .pdata
+    Section length   C0, #relocs   30, #linenums    0, checksum 9F11CC7A
+028 00000000 SECT6  notype       Static       | $pdata$parse_fixed_parameters
+029 00000010 SECT5  notype       Static       | $unwind$parse_variable_parameters
+02A 0000000C SECT6  notype       Static       | $pdata$parse_variable_parameters
+02B 00000020 SECT5  notype       Static       | $unwind$fixed_paramref_hook
+02C 00000018 SECT6  notype       Static       | $pdata$fixed_paramref_hook
+02D 00000034 SECT5  notype       Static       | $chain$0$fixed_paramref_hook
+02E 00000024 SECT6  notype       Static       | $pdata$0$fixed_paramref_hook
+02F 00000048 SECT5  notype       Static       | $chain$1$fixed_paramref_hook
+030 00000030 SECT6  notype       Static       | $pdata$1$fixed_paramref_hook
+031 00000058 SECT5  notype       Static       | $unwind$variable_paramref_hook
+032 0000003C SECT6  notype       Static       | $pdata$variable_paramref_hook
+033 00000070 SECT5  notype       Static       | $unwind$variable_coerce_param_hook
+034 00000048 SECT6  notype       Static       | $pdata$variable_coerce_param_hook
+035 0000007C SECT5  notype       Static       | $chain$1$variable_coerce_param_hook
+036 00000054 SECT6  notype       Static       | $pdata$1$variable_coerce_param_hook
+037 00000094 SECT5  notype       Static       | $chain$3$variable_coerce_param_hook
+038 00000060 SECT6  notype       Static       | $pdata$3$variable_coerce_param_hook
+039 000000AC SECT5  notype       Static       | $chain$4$variable_coerce_param_hook
+03A 0000006C SECT6  notype       Static       | $pdata$4$variable_coerce_param_hook
+03B 000000C0 SECT5  notype       Static       | $chain$5$variable_coerce_param_hook
+03C 00000078 SECT6  notype       Static       | $pdata$5$variable_coerce_param_hook
+03D 000000D0 SECT5  notype       Static       | $unwind$check_parameter_resolution_walker
+03E 00000084 SECT6  notype       Static       | $pdata$check_parameter_resolution_walker
+03F 000000DC SECT5  notype       Static       | $chain$2$check_parameter_resolution_walker
+040 00000090 SECT6  notype       Static       | $pdata$2$check_parameter_resolution_walker
+041 000000F8 SECT5  notype       Static       | $chain$3$check_parameter_resolution_walker
+042 0000009C SECT6  notype       Static       | $pdata$3$check_parameter_resolution_walker
+043 0000010C SECT5  notype       Static       | $chain$4$check_parameter_resolution_walker
+044 000000A8 SECT6  notype       Static       | $pdata$4$check_parameter_resolution_walker
+045 0000011C SECT5  notype       Static       | $chain$5$check_parameter_resolution_walker
+046 000000B4 SECT6  notype       Static       | $pdata$5$check_parameter_resolution_walker
+047 00000000 UNDEF  notype       External     | CurrentMemoryContext
+048 00000000 UNDEF  notype       External     | newNodeMacroHolder
+049 00000000 SECT7  notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 68A60754, selection    2 (pick any)
+04B 00000000 SECT7  notype       External     | ??_C@_0BE@JIIMGDCG@fixed_paramref_hook?$AA@ (`string')
+04C 00000000 SECT8  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 73717EDF, selection    2 (pick any)
+04E 00000000 SECT8  notype       External     | ??_C@_0CB@PGPCLLKN@src?1backend?1parser?1parse_param?4c@ (`string')
+04F 00000000 SECT9  notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum C14EB9FC, selection    2 (pick any)
+051 00000000 SECT9  notype       External     | ??_C@_0BK@JBFNPIDB@there?5is?5no?5parameter?5$?$CFd?$AA@ (`string')
+052 00000000 SECTA  notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 9C07A9C9, selection    2 (pick any)
+054 00000000 SECTA  notype       External     | ??_C@_0BH@BBFIHCHC@variable_paramref_hook?$AA@ (`string')
+055 00000000 SECTB  notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 47C93879, selection    2 (pick any)
+057 00000000 SECTB  notype       External     | ??_C@_0BL@KCEMJFDF@variable_coerce_param_hook?$AA@ (`string')
+058 00000000 SECTC  notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum DA744E37, selection    2 (pick any)
+05A 00000000 SECTC  notype       External     | ??_C@_0N@CKPPPHEK@?$CFs?5versus?5?$CFs?$AA@ (`string')
+05B 00000000 SECTD  notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 5CB55567, selection    2 (pick any)
+05D 00000000 SECTD  notype       External     | ??_C@_0CN@GFMKDNDM@inconsistent?5types?5deduced?5for?5p@ (`string')
+05E 00000000 SECTE  notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 5A6B857D, selection    2 (pick any)
+060 00000000 SECTE  notype       External     | ??_C@_0CC@OEOFBGKI@check_parameter_resolution_walke@ (`string')
+061 00000000 SECTF  notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum 7067EB07, selection    2 (pick any)
+063 00000000 SECTF  notype       External     | ??_C@_0CP@GKEBLPIN@could?5not?5determine?5data?5type?5of@ (`string')
+
+String Table Size = 0x7FA bytes
+
+  Summary
+
+        4AE0 .debug$S
+          68 .debug$T
+          5D .drectve
+          C0 .pdata
+         10C .rdata
+         795 .text$mn
+         12C .xdata

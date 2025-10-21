@@ -1,0 +1,118 @@
+
+Dump of file Release\pgcrypto/pgp-mpi-internal.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 46C0, #relocs   9A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  59D, #relocs   46, #linenums    0, checksum 73D2B1F3
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   76, #relocs    7, #linenums    0, checksum 32722F5D, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  1B0, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   7F, #relocs    5, #linenums    0, checksum 7C7790EE, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  234, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length   9F, #relocs    5, #linenums    0, checksum 7FC8A9FD, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  1F0, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length   80, #relocs    8, #linenums    0, checksum 27FD365A, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  1B0, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 UNDEF  notype ()    External     | pg_strong_random
+01B 00000000 UNDEF  notype ()    External     | palloc
+01C 00000000 UNDEF  notype ()    External     | pfree
+01D 00000000 UNDEF  notype ()    External     | mp_int_alloc
+01E 00000000 UNDEF  notype ()    External     | mp_int_init_size
+01F 00000000 UNDEF  notype ()    External     | mp_int_free
+020 00000000 UNDEF  notype ()    External     | mp_int_mul
+021 00000000 UNDEF  notype ()    External     | mp_int_mod
+022 00000000 UNDEF  notype ()    External     | mp_int_exptmod
+023 00000000 UNDEF  notype ()    External     | mp_int_invmod
+024 00000000 UNDEF  notype ()    External     | mp_int_count_bits
+025 00000000 UNDEF  notype ()    External     | mp_int_to_unsigned
+026 00000000 UNDEF  notype ()    External     | mp_int_read_unsigned
+027 00000000 UNDEF  notype ()    External     | px_debug
+028 00000000 UNDEF  notype ()    External     | pgp_mpi_alloc
+029 00000000 UNDEF  notype ()    External     | pgp_mpi_free
+02A 00000000 SECT4  notype ()    External     | pgp_elgamal_encrypt
+02B 00000240 SECT4  notype ()    External     | pgp_elgamal_decrypt
+02C 000003D0 SECT4  notype ()    External     | pgp_rsa_encrypt
+02D 000004C0 SECT4  notype ()    External     | pgp_rsa_decrypt
+02E 00000000 SECT9  notype ()    Static       | mp_px_rand
+02F 00000000 SECT7  notype ()    Static       | mp_modmul
+030 00000000 SECTB  notype ()    Static       | mpi_to_bn
+031 00000000 SECT5  notype ()    Static       | bn_to_mpi
+032 000001B1 SECT4  notype       Label        | $err$45
+033 00000000 SECT4  notype       Label        | $LN44
+034 00000346 SECT4  notype       Label        | $err$36
+035 00000240 SECT4  notype       Label        | $LN35
+036 00000463 SECT4  notype       Label        | $err$23
+037 000003D0 SECT4  notype       Label        | $LN22
+038 00000553 SECT4  notype       Label        | $err$23
+039 000004C0 SECT4  notype       Label        | $LN22
+03A 00000000 SECTD  notype       Static       | .xdata
+    Section length   64, #relocs    0, #linenums    0, checksum 2B2398E2
+03C 00000000 SECTD  notype       Static       | $unwind$pgp_elgamal_encrypt
+03D 00000000 SECTE  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum 803A983B
+03F 00000000 SECTE  notype       Static       | $pdata$pgp_elgamal_encrypt
+040 00000018 SECTD  notype       Static       | $unwind$pgp_elgamal_decrypt
+041 0000000C SECTE  notype       Static       | $pdata$pgp_elgamal_decrypt
+042 00000034 SECTD  notype       Static       | $unwind$pgp_rsa_encrypt
+043 00000018 SECTE  notype       Static       | $pdata$pgp_rsa_encrypt
+044 0000004C SECTD  notype       Static       | $unwind$pgp_rsa_decrypt
+045 00000024 SECTE  notype       Static       | $pdata$pgp_rsa_decrypt
+046 00000000 SECTF  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum C2D1B755, selection    5 (pick associative Section 0x9)
+048 00000000 SECTF  notype       Static       | $unwind$mp_px_rand
+049 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F6A0A65D, selection    5 (pick associative Section 0x9)
+04B 00000000 SECT10 notype       Static       | $pdata$mp_px_rand
+04C 00000000 SECT11 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum C2D1B755, selection    5 (pick associative Section 0x7)
+04E 00000000 SECT11 notype       Static       | $unwind$mp_modmul
+04F 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7570833C, selection    5 (pick associative Section 0x7)
+051 00000000 SECT12 notype       Static       | $pdata$mp_modmul
+052 00000000 SECT13 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0xB)
+054 00000000 SECT13 notype       Static       | $unwind$mpi_to_bn
+055 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 533B85DA, selection    5 (pick associative Section 0xB)
+057 00000000 SECT14 notype       Static       | $pdata$mpi_to_bn
+058 00000000 SECT15 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum F4D9A8A3, selection    5 (pick associative Section 0x5)
+05A 00000000 SECT15 notype       Static       | $unwind$bn_to_mpi
+05B 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6A3F9817, selection    5 (pick associative Section 0x5)
+05D 00000000 SECT16 notype       Static       | $pdata$bn_to_mpi
+05E 00000000 SECT17 notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum 46295B91, selection    2 (pick any)
+060 00000000 SECT17 notype       External     | ??_C@_0DD@JBMEPBPM@mpi_to_bn?3?5bignum?5conversion?5fai@ (`string')
+061 00000000 SECT18 notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum 69C306F9, selection    2 (pick any)
+063 00000000 SECT18 notype       External     | ??_C@_0DD@LOCOKMJE@bn_to_mpi?3?5bignum?5conversion?5fai@ (`string')
+
+String Table Size = 0x304 bytes
+
+  Summary
+
+        4E44 .debug$S
+          68 .debug$T
+          5D .drectve
+          60 .pdata
+          66 .rdata
+         7B1 .text$mn
+          A8 .xdata

@@ -1,0 +1,133 @@
+
+Dump of file Release\pg_trgm/trgm_gin.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length  11C, #relocs    0, #linenums    0, checksum 990F3F4A
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 49F0, #relocs   CC, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 24BC8143
+00A 00000000 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gin_extract_trgm@@9@9 (`pg_finfo_gin_extract_trgm'::`2'::my_finfo)
+00B 00000004 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gin_extract_value_trgm@@9@9 (`pg_finfo_gin_extract_value_trgm'::`2'::my_finfo)
+00C 00000008 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gin_extract_query_trgm@@9@9 (`pg_finfo_gin_extract_query_trgm'::`2'::my_finfo)
+00D 0000000C SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gin_trgm_consistent@@9@9 (`pg_finfo_gin_trgm_consistent'::`2'::my_finfo)
+00E 00000010 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_gin_trgm_triconsistent@@9@9 (`pg_finfo_gin_trgm_triconsistent'::`2'::my_finfo)
+00F 00000000 SECT5  notype       Static       | .text$mn
+    Section length  918, #relocs   4C, #linenums    0, checksum C8F14240
+011 00000000 UNDEF  notype ()    External     | elog_start
+012 00000000 UNDEF  notype ()    External     | elog_finish
+013 00000000 UNDEF  notype ()    External     | palloc
+014 00000000 UNDEF  notype ()    External     | pfree
+015 00000000 UNDEF  notype ()    External     | trgm2int
+016 00000000 UNDEF  notype ()    External     | generate_trgm
+017 00000000 UNDEF  notype ()    External     | generate_wildcard_trgm
+018 00000000 UNDEF  notype ()    External     | createTrgmNFA
+019 00000000 UNDEF  notype ()    External     | trigramsMatchGraph
+01A 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+01B 00000000 SECT5  notype ()    External     | gin_extract_trgm
+01C 00000070 SECT5  notype ()    External     | pg_finfo_gin_extract_trgm
+01D 00000080 SECT5  notype ()    External     | gin_extract_value_trgm
+01E 000001C0 SECT5  notype ()    External     | pg_finfo_gin_extract_value_trgm
+01F 000001D0 SECT5  notype ()    External     | gin_extract_query_trgm
+020 000004A0 SECT5  notype ()    External     | pg_finfo_gin_extract_query_trgm
+021 000004B0 SECT5  notype ()    External     | gin_trgm_consistent
+022 00000660 SECT5  notype ()    External     | pg_finfo_gin_trgm_consistent
+023 00000670 SECT5  notype ()    External     | gin_trgm_triconsistent
+024 00000910 SECT5  notype ()    External     | pg_finfo_gin_trgm_triconsistent
+025 00000000 SECT5  notype       Label        | $LN13
+026 00000080 SECT5  notype       Label        | $LN26
+027 00000478 SECT5  notype       Static       | $LN53
+028 00000232 SECT5  notype       Label        | $LN13
+029 000002AA SECT5  notype       Label        | $LN14
+02A 00000322 SECT5  notype       Label        | $LN15
+02B 000003B9 SECT5  notype       Label        | $LN9
+02C 000001D0 SECT5  notype       Label        | $LN57
+02D 00000634 SECT5  notype       Static       | $LN39
+02E 00000506 SECT5  notype       Label        | $LN13
+02F 00000584 SECT5  notype       Label        | $LN15
+030 000005B7 SECT5  notype       Label        | $LN17
+031 000005F3 SECT5  notype       Label        | $LN12
+032 000004B0 SECT5  notype       Label        | $LN43
+033 000008E4 SECT5  notype       Static       | $LN60
+034 000006C2 SECT5  notype       Label        | $LN16
+035 0000073A SECT5  notype       Label        | $LN18
+036 00000767 SECT5  notype       Label        | $LN20
+037 00000896 SECT5  notype       Label        | $LN15
+038 00000670 SECT5  notype       Label        | $LN64
+039 00000000 SECT6  notype       Static       | .xdata
+    Section length   C8, #relocs   12, #linenums    0, checksum 26C761AE
+03B 00000000 SECT6  notype       Static       | $unwind$gin_extract_trgm
+03C 00000000 SECT7  notype       Static       | .pdata
+    Section length   84, #relocs   21, #linenums    0, checksum C6A4252F
+03E 00000000 SECT7  notype       Static       | $pdata$gin_extract_trgm
+03F 00000008 SECT6  notype       Static       | $unwind$gin_extract_value_trgm
+040 0000000C SECT7  notype       Static       | $pdata$gin_extract_value_trgm
+041 00000018 SECT6  notype       Static       | $chain$1$gin_extract_value_trgm
+042 00000018 SECT7  notype       Static       | $pdata$1$gin_extract_value_trgm
+043 00000030 SECT6  notype       Static       | $chain$2$gin_extract_value_trgm
+044 00000024 SECT7  notype       Static       | $pdata$2$gin_extract_value_trgm
+045 00000040 SECT6  notype       Static       | $unwind$gin_extract_query_trgm
+046 00000030 SECT7  notype       Static       | $pdata$gin_extract_query_trgm
+047 0000005C SECT6  notype       Static       | $unwind$gin_trgm_consistent
+048 0000003C SECT7  notype       Static       | $pdata$gin_trgm_consistent
+049 00000068 SECT6  notype       Static       | $chain$0$gin_trgm_consistent
+04A 00000048 SECT7  notype       Static       | $pdata$0$gin_trgm_consistent
+04B 0000007C SECT6  notype       Static       | $chain$1$gin_trgm_consistent
+04C 00000054 SECT7  notype       Static       | $pdata$1$gin_trgm_consistent
+04D 0000008C SECT6  notype       Static       | $unwind$gin_trgm_triconsistent
+04E 00000060 SECT7  notype       Static       | $pdata$gin_trgm_triconsistent
+04F 000000A4 SECT6  notype       Static       | $chain$0$gin_trgm_triconsistent
+050 0000006C SECT7  notype       Static       | $pdata$0$gin_trgm_triconsistent
+051 000000B8 SECT6  notype       Static       | $chain$1$gin_trgm_triconsistent
+052 00000078 SECT7  notype       Static       | $pdata$1$gin_trgm_triconsistent
+053 00000000 UNDEF  notype       External     | __imp_CurrentMemoryContext
+054 00000000 UNDEF  notype       External     | similarity_threshold
+055 00000000 UNDEF  notype       External     | word_similarity_threshold
+056 00000000 SECT8  notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 446EFA80, selection    2 (pick any)
+058 00000000 SECT8  notype       External     | ??_C@_0BB@HCHOPEMC@gin_extract_trgm?$AA@ (`string')
+059 00000000 SECT9  notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum AE36CA0A, selection    2 (pick any)
+05B 00000000 SECT9  notype       External     | ??_C@_0BL@ELLDGHEG@contrib?1pg_trgm?1trgm_gin?4c?$AA@ (`string')
+05C 00000000 SECTA  notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum B193286F, selection    2 (pick any)
+05E 00000000 SECTA  notype       External     | ??_C@_0DD@GGHOICAC@unexpected?5number?5of?5arguments?5t@ (`string')
+05F 00000000 SECTB  notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 7C3F8CBF, selection    2 (pick any)
+061 00000000 SECTB  notype       External     | ??_C@_0BH@PBGAFHAE@gin_extract_query_trgm?$AA@ (`string')
+062 00000000 SECTC  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 9FD1ACAF, selection    2 (pick any)
+064 00000000 SECTC  notype       External     | ??_C@_0CB@BKFCGJNN@unrecognized?5strategy?5number?3?5?$CFd@ (`string')
+065 00000000 SECTD  notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 87DD84C3, selection    2 (pick any)
+067 00000000 SECTD  notype       External     | ??_C@_0BE@HHPHOALB@gin_trgm_consistent?$AA@ (`string')
+068 00000000 SECTE  notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 39005C54, selection    2 (pick any)
+06A 00000000 SECTE  notype       External     | ??_C@_0BH@LEFPIHOP@gin_trgm_triconsistent?$AA@ (`string')
+06B 00000000 UNDEF  notype       External     | __ImageBase
+06C 00000000 SECTF  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum BE1B63E2, selection    2 (pick any)
+06E 00000000 SECTF  notype       External     | __xmm@01010101010101010101010101010101
+06F 00000000 SECT10 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum D3088D4F, selection    2 (pick any)
+071 00000000 SECT10 notype       External     | __xmm@ffffffffffffffffffffffffffffffff
+072 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x705 bytes
+
+  Summary
+
+        49F0 .debug$S
+          68 .debug$T
+         11C .drectve
+          84 .pdata
+          F6 .rdata
+         918 .text$mn
+          C8 .xdata

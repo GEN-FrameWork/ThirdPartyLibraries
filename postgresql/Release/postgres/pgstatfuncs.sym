@@ -1,0 +1,549 @@
+
+Dump of file Release\postgres/pgstatfuncs.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length D1B4, #relocs  3D0, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 2311, #relocs  12E, #linenums    0, checksum B8C0193C
+00A 00000000 UNDEF  notype       External     | __imp_atoi
+00B 00000000 UNDEF  notype       External     | __imp_QueryPerformanceFrequency
+00C 00000000 UNDEF  notype ()    External     | pg_strcasecmp
+00D 00000000 UNDEF  notype ()    External     | errstart
+00E 00000000 UNDEF  notype ()    External     | errfinish
+00F 00000000 UNDEF  notype ()    External     | errcode
+010 00000000 UNDEF  notype ()    External     | errmsg
+011 00000000 UNDEF  notype ()    External     | elog_start
+012 00000000 UNDEF  notype ()    External     | elog_finish
+013 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+014 00000000 UNDEF  notype ()    External     | CreateTemplateTupleDesc
+015 00000000 UNDEF  notype ()    External     | TupleDescInitEntry
+016 00000000 UNDEF  notype ()    External     | heap_form_tuple
+017 00000000 UNDEF  notype ()    External     | pg_getnameinfo_all
+018 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+019 00000000 UNDEF  notype ()    External     | DirectFunctionCall1Coll
+01A 00000000 UNDEF  notype ()    External     | tuplestore_begin_heap
+01B 00000000 UNDEF  notype ()    External     | tuplestore_putvalues
+01C 00000000 UNDEF  notype ()    External     | has_privs_of_role
+01D 00000000 UNDEF  notype ()    External     | is_member_of_role
+01E 00000000 UNDEF  notype ()    External     | get_call_result_type
+01F 00000000 UNDEF  notype ()    External     | BlessTupleDesc
+020 00000000 UNDEF  notype ()    External     | HeapTupleHeaderGetDatum
+021 00000000 UNDEF  notype ()    External     | init_MultiFuncCall
+022 00000000 UNDEF  notype ()    External     | per_MultiFuncCall
+023 00000000 UNDEF  notype ()    External     | end_MultiFuncCall
+024 00000000 UNDEF  notype ()    External     | GetUserId
+025 00000000 UNDEF  notype ()    External     | AuxiliaryPidGetProc
+026 00000000 UNDEF  notype ()    External     | pgstat_clear_snapshot
+027 00000000 UNDEF  notype ()    External     | pgstat_reset_counters
+028 00000000 UNDEF  notype ()    External     | pgstat_reset_shared_counters
+029 00000000 UNDEF  notype ()    External     | pgstat_reset_single_counter
+02A 00000000 UNDEF  notype ()    External     | pgstat_get_wait_event
+02B 00000000 UNDEF  notype ()    External     | pgstat_get_wait_event_type
+02C 00000000 UNDEF  notype ()    External     | pgstat_get_backend_desc
+02D 00000000 UNDEF  notype ()    External     | find_tabstat_entry
+02E 00000000 UNDEF  notype ()    External     | find_funcstat_entry
+02F 00000000 UNDEF  notype ()    External     | pgstat_fetch_stat_dbentry
+030 00000000 UNDEF  notype ()    External     | pgstat_fetch_stat_tabentry
+031 00000000 UNDEF  notype ()    External     | pgstat_fetch_stat_beentry
+032 00000000 UNDEF  notype ()    External     | pgstat_fetch_stat_local_beentry
+033 00000000 UNDEF  notype ()    External     | pgstat_fetch_stat_funcentry
+034 00000000 UNDEF  notype ()    External     | pgstat_fetch_stat_numbackends
+035 00000000 UNDEF  notype ()    External     | pgstat_fetch_stat_archiver
+036 00000000 UNDEF  notype ()    External     | pgstat_fetch_global
+037 00000000 UNDEF  notype ()    External     | BackendPidGetProc
+038 00000000 UNDEF  notype ()    External     | int4in
+039 00000000 UNDEF  notype ()    External     | inet_in
+03A 00000000 SECT4  notype ()    External     | pg_stat_get_backend_start
+03B 00000050 SECT4  notype ()    External     | pg_stat_get_backend_client_addr
+03C 00000180 SECT4  notype ()    External     | pg_stat_get_backend_client_port
+03D 000002B0 SECT4  notype ()    External     | pg_stat_get_numscans
+03E 000002E0 SECT4  notype ()    External     | pg_stat_get_tuples_returned
+03F 00000310 SECT4  notype ()    External     | pg_stat_get_tuples_fetched
+040 00000340 SECT4  notype ()    External     | pg_stat_get_tuples_inserted
+041 00000370 SECT4  notype ()    External     | pg_stat_get_tuples_updated
+042 000003A0 SECT4  notype ()    External     | pg_stat_get_tuples_deleted
+043 000003D0 SECT4  notype ()    External     | pg_stat_get_blocks_fetched
+044 00000400 SECT4  notype ()    External     | pg_stat_get_blocks_hit
+045 00000430 SECT4  notype ()    External     | pg_stat_get_backend_idset
+046 000004E0 SECT4  notype ()    External     | pg_stat_get_backend_pid
+047 00000510 SECT4  notype ()    External     | pg_stat_get_backend_dbid
+048 00000540 SECT4  notype ()    External     | pg_stat_get_backend_userid
+049 00000570 SECT4  notype ()    External     | pg_stat_get_backend_activity
+04A 000005E0 SECT4  notype ()    External     | pg_stat_get_db_numbackends
+04B 00000650 SECT4  notype ()    External     | pg_stat_get_db_xact_commit
+04C 00000680 SECT4  notype ()    External     | pg_stat_get_db_xact_rollback
+04D 000006B0 SECT4  notype ()    External     | pg_stat_get_db_blocks_fetched
+04E 000006E0 SECT4  notype ()    External     | pg_stat_get_db_blocks_hit
+04F 00000710 SECT4  notype ()    External     | pg_stat_get_tuples_hot_updated
+050 00000740 SECT4  notype ()    External     | pg_stat_get_activity
+051 00000EF0 SECT4  notype ()    External     | pg_backend_pid
+052 00000F00 SECT4  notype ()    External     | pg_stat_get_backend_activity_start
+053 00000F50 SECT4  notype ()    External     | pg_stat_clear_snapshot
+054 00000F70 SECT4  notype ()    External     | pg_stat_reset
+055 00000F90 SECT4  notype ()    External     | pg_stat_get_db_tuples_returned
+056 00000FC0 SECT4  notype ()    External     | pg_stat_get_db_tuples_fetched
+057 00000FF0 SECT4  notype ()    External     | pg_stat_get_db_tuples_inserted
+058 00001020 SECT4  notype ()    External     | pg_stat_get_db_tuples_updated
+059 00001050 SECT4  notype ()    External     | pg_stat_get_db_tuples_deleted
+05A 00001080 SECT4  notype ()    External     | pg_stat_get_bgwriter_timed_checkpoints
+05B 000010A0 SECT4  notype ()    External     | pg_stat_get_bgwriter_requested_checkpoints
+05C 000010C0 SECT4  notype ()    External     | pg_stat_get_bgwriter_buf_written_checkpoints
+05D 000010E0 SECT4  notype ()    External     | pg_stat_get_bgwriter_buf_written_clean
+05E 00001100 SECT4  notype ()    External     | pg_stat_get_bgwriter_maxwritten_clean
+05F 00001120 SECT4  notype ()    External     | pg_stat_get_buf_written_backend
+060 00001140 SECT4  notype ()    External     | pg_stat_get_last_vacuum_time
+061 00001180 SECT4  notype ()    External     | pg_stat_get_last_autovacuum_time
+062 000011C0 SECT4  notype ()    External     | pg_stat_get_last_analyze_time
+063 00001200 SECT4  notype ()    External     | pg_stat_get_last_autoanalyze_time
+064 00001240 SECT4  notype ()    External     | pg_stat_get_backend_wait_event_type
+065 000012F0 SECT4  notype ()    External     | pg_stat_get_db_blk_read_time
+066 00001330 SECT4  notype ()    External     | pg_stat_get_db_blk_write_time
+067 00001370 SECT4  notype ()    External     | pg_stat_get_backend_wait_event
+068 00001420 SECT4  notype ()    External     | pg_stat_get_backend_xact_start
+069 00001470 SECT4  notype ()    External     | pg_stat_get_buf_alloc
+06A 00001490 SECT4  notype ()    External     | pg_stat_get_live_tuples
+06B 000014C0 SECT4  notype ()    External     | pg_stat_get_dead_tuples
+06C 000014F0 SECT4  notype ()    External     | pg_stat_get_function_calls
+06D 00001520 SECT4  notype ()    External     | pg_stat_get_function_total_time
+06E 00001570 SECT4  notype ()    External     | pg_stat_get_function_self_time
+06F 000015C0 SECT4  notype ()    External     | pg_stat_get_xact_numscans
+070 000015F0 SECT4  notype ()    External     | pg_stat_get_xact_tuples_returned
+071 00001620 SECT4  notype ()    External     | pg_stat_get_xact_tuples_fetched
+072 00001650 SECT4  notype ()    External     | pg_stat_get_xact_tuples_inserted
+073 000016A0 SECT4  notype ()    External     | pg_stat_get_xact_tuples_updated
+074 000016F0 SECT4  notype ()    External     | pg_stat_get_xact_tuples_deleted
+075 00001740 SECT4  notype ()    External     | pg_stat_get_xact_tuples_hot_updated
+076 00001770 SECT4  notype ()    External     | pg_stat_get_xact_blocks_fetched
+077 000017A0 SECT4  notype ()    External     | pg_stat_get_xact_blocks_hit
+078 000017D0 SECT4  notype ()    External     | pg_stat_get_xact_function_calls
+079 00001800 SECT4  notype ()    External     | pg_stat_get_xact_function_total_time
+07A 00001880 SECT4  notype ()    External     | pg_stat_get_xact_function_self_time
+07B 00001900 SECT4  notype ()    External     | pg_stat_get_vacuum_count
+07C 00001930 SECT4  notype ()    External     | pg_stat_get_autovacuum_count
+07D 00001960 SECT4  notype ()    External     | pg_stat_get_analyze_count
+07E 00001990 SECT4  notype ()    External     | pg_stat_get_autoanalyze_count
+07F 000019C0 SECT4  notype ()    External     | pg_stat_get_buf_fsync_backend
+080 000019E0 SECT4  notype ()    External     | pg_stat_get_db_conflict_tablespace
+081 00001A10 SECT4  notype ()    External     | pg_stat_get_db_conflict_lock
+082 00001A40 SECT4  notype ()    External     | pg_stat_get_db_conflict_snapshot
+083 00001A70 SECT4  notype ()    External     | pg_stat_get_db_conflict_bufferpin
+084 00001AA0 SECT4  notype ()    External     | pg_stat_get_db_conflict_startup_deadlock
+085 00001AD0 SECT4  notype ()    External     | pg_stat_get_db_conflict_all
+086 00001B10 SECT4  notype ()    External     | pg_stat_get_db_stat_reset_time
+087 00001B50 SECT4  notype ()    External     | pg_stat_get_bgwriter_stat_reset_time
+088 00001B70 SECT4  notype ()    External     | pg_stat_get_db_temp_files
+089 00001BA0 SECT4  notype ()    External     | pg_stat_get_db_temp_bytes
+08A 00001BD0 SECT4  notype ()    External     | pg_stat_get_db_deadlocks
+08B 00001C00 SECT4  notype ()    External     | pg_stat_get_checkpoint_write_time
+08C 00001C30 SECT4  notype ()    External     | pg_stat_get_checkpoint_sync_time
+08D 00001C60 SECT4  notype ()    External     | pg_stat_get_mod_since_analyze
+08E 00001C90 SECT4  notype ()    External     | pg_stat_get_archiver
+08F 00001F00 SECT4  notype ()    External     | pg_stat_get_progress_info
+090 00002290 SECT4  notype ()    External     | pg_stat_reset_shared
+091 000022C0 SECT4  notype ()    External     | pg_stat_reset_single_table_counters
+092 000022E0 SECT4  notype ()    External     | pg_stat_reset_single_function_counters
+093 00002300 SECT4  notype ()    External     | pg_stat_get_snapshot_timestamp
+094 00000000 UNDEF  notype ()    External     | cstring_to_text
+095 00000000 UNDEF  notype ()    External     | text_to_cstring
+096 00000000 UNDEF  notype ()    External     | clean_ipv6_addr
+097 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+098 00000000 UNDEF  notype ()    External     | __security_check_cookie
+099 00000000 UNDEF  notype ()    External     | memcmp
+09A 00000000 UNDEF  notype ()    External     | memset
+09B 00000000 SECT4  notype       Label        | $LN17
+09C 00000050 SECT4  notype       Label        | $LN32
+09D 00000180 SECT4  notype       Label        | $LN33
+09E 000002B0 SECT4  notype       Label        | $LN6
+09F 000002E0 SECT4  notype       Label        | $LN6
+0A0 00000310 SECT4  notype       Label        | $LN6
+0A1 00000340 SECT4  notype       Label        | $LN6
+0A2 00000370 SECT4  notype       Label        | $LN6
+0A3 000003A0 SECT4  notype       Label        | $LN6
+0A4 000003D0 SECT4  notype       Label        | $LN6
+0A5 00000400 SECT4  notype       Label        | $LN6
+0A6 00000430 SECT4  notype       Label        | $LN16
+0A7 000004E0 SECT4  notype       Label        | $LN8
+0A8 00000510 SECT4  notype       Label        | $LN8
+0A9 00000540 SECT4  notype       Label        | $LN8
+0AA 00000570 SECT4  notype       Label        | $LN10
+0AB 000005E0 SECT4  notype       Label        | $LN12
+0AC 00000650 SECT4  notype       Label        | $LN6
+0AD 00000680 SECT4  notype       Label        | $LN6
+0AE 000006B0 SECT4  notype       Label        | $LN6
+0AF 000006E0 SECT4  notype       Label        | $LN6
+0B0 00000710 SECT4  notype       Label        | $LN6
+0B1 00000EC0 SECT4  notype       Static       | $LN129
+0B2 00000BD6 SECT4  notype       Label        | $LN60
+0B3 00000BE8 SECT4  notype       Label        | $LN61
+0B4 00000BFA SECT4  notype       Label        | $LN62
+0B5 00000C0C SECT4  notype       Label        | $LN63
+0B6 00000C1E SECT4  notype       Label        | $LN64
+0B7 00000C30 SECT4  notype       Label        | $LN65
+0B8 00000C42 SECT4  notype       Label        | $LN66
+0B9 00000740 SECT4  notype       Label        | $LN136
+0BA 00000F00 SECT4  notype       Label        | $LN17
+0BB 00000F50 SECT4  notype       Label        | $LN4
+0BC 00000F70 SECT4  notype       Label        | $LN4
+0BD 00000F90 SECT4  notype       Label        | $LN6
+0BE 00000FC0 SECT4  notype       Label        | $LN6
+0BF 00000FF0 SECT4  notype       Label        | $LN6
+0C0 00001020 SECT4  notype       Label        | $LN6
+0C1 00001050 SECT4  notype       Label        | $LN6
+0C2 00001080 SECT4  notype       Label        | $LN4
+0C3 000010A0 SECT4  notype       Label        | $LN4
+0C4 000010C0 SECT4  notype       Label        | $LN4
+0C5 000010E0 SECT4  notype       Label        | $LN4
+0C6 00001100 SECT4  notype       Label        | $LN4
+0C7 00001120 SECT4  notype       Label        | $LN4
+0C8 00001140 SECT4  notype       Label        | $LN12
+0C9 00001180 SECT4  notype       Label        | $LN12
+0CA 000011C0 SECT4  notype       Label        | $LN12
+0CB 00001200 SECT4  notype       Label        | $LN12
+0CC 00001240 SECT4  notype       Label        | $LN14
+0CD 000012F0 SECT4  notype       Label        | $LN9
+0CE 00001330 SECT4  notype       Label        | $LN9
+0CF 00001370 SECT4  notype       Label        | $LN14
+0D0 00001420 SECT4  notype       Label        | $LN17
+0D1 00001470 SECT4  notype       Label        | $LN4
+0D2 00001490 SECT4  notype       Label        | $LN6
+0D3 000014C0 SECT4  notype       Label        | $LN6
+0D4 000014F0 SECT4  notype       Label        | $LN8
+0D5 00001520 SECT4  notype       Label        | $LN10
+0D6 00001570 SECT4  notype       Label        | $LN10
+0D7 000015C0 SECT4  notype       Label        | $LN6
+0D8 000015F0 SECT4  notype       Label        | $LN6
+0D9 00001620 SECT4  notype       Label        | $LN6
+0DA 00001650 SECT4  notype       Label        | $LN14
+0DB 000016A0 SECT4  notype       Label        | $LN14
+0DC 000016F0 SECT4  notype       Label        | $LN14
+0DD 00001740 SECT4  notype       Label        | $LN6
+0DE 00001770 SECT4  notype       Label        | $LN6
+0DF 000017A0 SECT4  notype       Label        | $LN6
+0E0 000017D0 SECT4  notype       Label        | $LN8
+0E1 00001800 SECT4  notype       Label        | $LN12
+0E2 00001880 SECT4  notype       Label        | $LN12
+0E3 00001900 SECT4  notype       Label        | $LN6
+0E4 00001930 SECT4  notype       Label        | $LN6
+0E5 00001960 SECT4  notype       Label        | $LN6
+0E6 00001990 SECT4  notype       Label        | $LN6
+0E7 000019C0 SECT4  notype       Label        | $LN4
+0E8 000019E0 SECT4  notype       Label        | $LN6
+0E9 00001A10 SECT4  notype       Label        | $LN6
+0EA 00001A40 SECT4  notype       Label        | $LN6
+0EB 00001A70 SECT4  notype       Label        | $LN6
+0EC 00001AA0 SECT4  notype       Label        | $LN6
+0ED 00001AD0 SECT4  notype       Label        | $LN6
+0EE 00001B10 SECT4  notype       Label        | $LN12
+0EF 00001B50 SECT4  notype       Label        | $LN4
+0F0 00001B70 SECT4  notype       Label        | $LN6
+0F1 00001BA0 SECT4  notype       Label        | $LN6
+0F2 00001BD0 SECT4  notype       Label        | $LN6
+0F3 00001C00 SECT4  notype       Label        | $LN6
+0F4 00001C30 SECT4  notype       Label        | $LN6
+0F5 00001C60 SECT4  notype       Label        | $LN6
+0F6 00001C90 SECT4  notype       Label        | $LN40
+0F7 00001F00 SECT4  notype       Label        | $LN97
+0F8 00002290 SECT4  notype       Label        | $LN4
+0F9 000022C0 SECT4  notype       Label        | $LN4
+0FA 000022E0 SECT4  notype       Label        | $LN4
+0FB 00002300 SECT4  notype       Label        | $LN4
+0FC 00000000 SECT5  notype       Static       | .xdata
+    Section length  3F0, #relocs   1D, #linenums    0, checksum 748E5CC1
+0FE 00000000 SECT5  notype       Static       | $unwind$pg_stat_get_backend_start
+0FF 00000000 SECT6  notype       Static       | .pdata
+    Section length  48C, #relocs  123, #linenums    0, checksum F9D30606
+101 00000000 SECT6  notype       Static       | $pdata$pg_stat_get_backend_start
+102 0000000C SECT5  notype       Static       | $unwind$pg_stat_get_backend_client_addr
+103 0000000C SECT6  notype       Static       | $pdata$pg_stat_get_backend_client_addr
+104 00000024 SECT5  notype       Static       | $chain$0$pg_stat_get_backend_client_addr
+105 00000018 SECT6  notype       Static       | $pdata$0$pg_stat_get_backend_client_addr
+106 00000038 SECT5  notype       Static       | $chain$1$pg_stat_get_backend_client_addr
+107 00000024 SECT6  notype       Static       | $pdata$1$pg_stat_get_backend_client_addr
+108 00000048 SECT5  notype       Static       | $unwind$pg_stat_get_backend_client_port
+109 00000030 SECT6  notype       Static       | $pdata$pg_stat_get_backend_client_port
+10A 00000060 SECT5  notype       Static       | $chain$0$pg_stat_get_backend_client_port
+10B 0000003C SECT6  notype       Static       | $pdata$0$pg_stat_get_backend_client_port
+10C 00000074 SECT5  notype       Static       | $chain$1$pg_stat_get_backend_client_port
+10D 00000048 SECT6  notype       Static       | $pdata$1$pg_stat_get_backend_client_port
+10E 00000084 SECT5  notype       Static       | $unwind$pg_stat_get_numscans
+10F 00000054 SECT6  notype       Static       | $pdata$pg_stat_get_numscans
+110 0000008C SECT5  notype       Static       | $unwind$pg_stat_get_tuples_returned
+111 00000060 SECT6  notype       Static       | $pdata$pg_stat_get_tuples_returned
+112 00000094 SECT5  notype       Static       | $unwind$pg_stat_get_tuples_fetched
+113 0000006C SECT6  notype       Static       | $pdata$pg_stat_get_tuples_fetched
+114 0000009C SECT5  notype       Static       | $unwind$pg_stat_get_tuples_inserted
+115 00000078 SECT6  notype       Static       | $pdata$pg_stat_get_tuples_inserted
+116 000000A4 SECT5  notype       Static       | $unwind$pg_stat_get_tuples_updated
+117 00000084 SECT6  notype       Static       | $pdata$pg_stat_get_tuples_updated
+118 000000AC SECT5  notype       Static       | $unwind$pg_stat_get_tuples_deleted
+119 00000090 SECT6  notype       Static       | $pdata$pg_stat_get_tuples_deleted
+11A 000000B4 SECT5  notype       Static       | $unwind$pg_stat_get_blocks_fetched
+11B 0000009C SECT6  notype       Static       | $pdata$pg_stat_get_blocks_fetched
+11C 000000BC SECT5  notype       Static       | $unwind$pg_stat_get_blocks_hit
+11D 000000A8 SECT6  notype       Static       | $pdata$pg_stat_get_blocks_hit
+11E 000000C4 SECT5  notype       Static       | $unwind$pg_stat_get_backend_idset
+11F 000000B4 SECT6  notype       Static       | $pdata$pg_stat_get_backend_idset
+120 000000CC SECT5  notype       Static       | $chain$1$pg_stat_get_backend_idset
+121 000000C0 SECT6  notype       Static       | $pdata$1$pg_stat_get_backend_idset
+122 000000E4 SECT5  notype       Static       | $chain$2$pg_stat_get_backend_idset
+123 000000CC SECT6  notype       Static       | $pdata$2$pg_stat_get_backend_idset
+124 000000F4 SECT5  notype       Static       | $unwind$pg_stat_get_backend_pid
+125 000000D8 SECT6  notype       Static       | $pdata$pg_stat_get_backend_pid
+126 000000FC SECT5  notype       Static       | $unwind$pg_stat_get_backend_dbid
+127 000000E4 SECT6  notype       Static       | $pdata$pg_stat_get_backend_dbid
+128 00000104 SECT5  notype       Static       | $unwind$pg_stat_get_backend_userid
+129 000000F0 SECT6  notype       Static       | $pdata$pg_stat_get_backend_userid
+12A 0000010C SECT5  notype       Static       | $unwind$pg_stat_get_backend_activity
+12B 000000FC SECT6  notype       Static       | $pdata$pg_stat_get_backend_activity
+12C 00000114 SECT5  notype       Static       | $unwind$pg_stat_get_db_numbackends
+12D 00000108 SECT6  notype       Static       | $pdata$pg_stat_get_db_numbackends
+12E 00000128 SECT5  notype       Static       | $unwind$pg_stat_get_db_xact_commit
+12F 00000114 SECT6  notype       Static       | $pdata$pg_stat_get_db_xact_commit
+130 00000130 SECT5  notype       Static       | $unwind$pg_stat_get_db_xact_rollback
+131 00000120 SECT6  notype       Static       | $pdata$pg_stat_get_db_xact_rollback
+132 00000138 SECT5  notype       Static       | $unwind$pg_stat_get_db_blocks_fetched
+133 0000012C SECT6  notype       Static       | $pdata$pg_stat_get_db_blocks_fetched
+134 00000140 SECT5  notype       Static       | $unwind$pg_stat_get_db_blocks_hit
+135 00000138 SECT6  notype       Static       | $pdata$pg_stat_get_db_blocks_hit
+136 00000148 SECT5  notype       Static       | $unwind$pg_stat_get_tuples_hot_updated
+137 00000144 SECT6  notype       Static       | $pdata$pg_stat_get_tuples_hot_updated
+138 00000150 SECT5  notype       Static       | $unwind$pg_stat_get_activity
+139 00000150 SECT6  notype       Static       | $pdata$pg_stat_get_activity
+13A 00000174 SECT5  notype       Static       | $chain$0$pg_stat_get_activity
+13B 0000015C SECT6  notype       Static       | $pdata$0$pg_stat_get_activity
+13C 00000188 SECT5  notype       Static       | $chain$1$pg_stat_get_activity
+13D 00000168 SECT6  notype       Static       | $pdata$1$pg_stat_get_activity
+13E 00000198 SECT5  notype       Static       | $unwind$pg_stat_get_backend_activity_start
+13F 00000174 SECT6  notype       Static       | $pdata$pg_stat_get_backend_activity_start
+140 000001A4 SECT5  notype       Static       | $unwind$pg_stat_clear_snapshot
+141 00000180 SECT6  notype       Static       | $pdata$pg_stat_clear_snapshot
+142 000001AC SECT5  notype       Static       | $unwind$pg_stat_reset
+143 0000018C SECT6  notype       Static       | $pdata$pg_stat_reset
+144 000001B4 SECT5  notype       Static       | $unwind$pg_stat_get_db_tuples_returned
+145 00000198 SECT6  notype       Static       | $pdata$pg_stat_get_db_tuples_returned
+146 000001BC SECT5  notype       Static       | $unwind$pg_stat_get_db_tuples_fetched
+147 000001A4 SECT6  notype       Static       | $pdata$pg_stat_get_db_tuples_fetched
+148 000001C4 SECT5  notype       Static       | $unwind$pg_stat_get_db_tuples_inserted
+149 000001B0 SECT6  notype       Static       | $pdata$pg_stat_get_db_tuples_inserted
+14A 000001CC SECT5  notype       Static       | $unwind$pg_stat_get_db_tuples_updated
+14B 000001BC SECT6  notype       Static       | $pdata$pg_stat_get_db_tuples_updated
+14C 000001D4 SECT5  notype       Static       | $unwind$pg_stat_get_db_tuples_deleted
+14D 000001C8 SECT6  notype       Static       | $pdata$pg_stat_get_db_tuples_deleted
+14E 000001DC SECT5  notype       Static       | $unwind$pg_stat_get_bgwriter_timed_checkpoints
+14F 000001D4 SECT6  notype       Static       | $pdata$pg_stat_get_bgwriter_timed_checkpoints
+150 000001E4 SECT5  notype       Static       | $unwind$pg_stat_get_bgwriter_requested_checkpoints
+151 000001E0 SECT6  notype       Static       | $pdata$pg_stat_get_bgwriter_requested_checkpoints
+152 000001EC SECT5  notype       Static       | $unwind$pg_stat_get_bgwriter_buf_written_checkpoints
+153 000001EC SECT6  notype       Static       | $pdata$pg_stat_get_bgwriter_buf_written_checkpoints
+154 000001F4 SECT5  notype       Static       | $unwind$pg_stat_get_bgwriter_buf_written_clean
+155 000001F8 SECT6  notype       Static       | $pdata$pg_stat_get_bgwriter_buf_written_clean
+156 000001FC SECT5  notype       Static       | $unwind$pg_stat_get_bgwriter_maxwritten_clean
+157 00000204 SECT6  notype       Static       | $pdata$pg_stat_get_bgwriter_maxwritten_clean
+158 00000204 SECT5  notype       Static       | $unwind$pg_stat_get_buf_written_backend
+159 00000210 SECT6  notype       Static       | $pdata$pg_stat_get_buf_written_backend
+15A 0000020C SECT5  notype       Static       | $unwind$pg_stat_get_last_vacuum_time
+15B 0000021C SECT6  notype       Static       | $pdata$pg_stat_get_last_vacuum_time
+15C 00000214 SECT5  notype       Static       | $unwind$pg_stat_get_last_autovacuum_time
+15D 00000228 SECT6  notype       Static       | $pdata$pg_stat_get_last_autovacuum_time
+15E 0000021C SECT5  notype       Static       | $unwind$pg_stat_get_last_analyze_time
+15F 00000234 SECT6  notype       Static       | $pdata$pg_stat_get_last_analyze_time
+160 00000224 SECT5  notype       Static       | $unwind$pg_stat_get_last_autoanalyze_time
+161 00000240 SECT6  notype       Static       | $pdata$pg_stat_get_last_autoanalyze_time
+162 0000022C SECT5  notype       Static       | $unwind$pg_stat_get_backend_wait_event_type
+163 0000024C SECT6  notype       Static       | $pdata$pg_stat_get_backend_wait_event_type
+164 00000238 SECT5  notype       Static       | $unwind$pg_stat_get_db_blk_read_time
+165 00000258 SECT6  notype       Static       | $pdata$pg_stat_get_db_blk_read_time
+166 00000240 SECT5  notype       Static       | $unwind$pg_stat_get_db_blk_write_time
+167 00000264 SECT6  notype       Static       | $pdata$pg_stat_get_db_blk_write_time
+168 00000248 SECT5  notype       Static       | $unwind$pg_stat_get_backend_wait_event
+169 00000270 SECT6  notype       Static       | $pdata$pg_stat_get_backend_wait_event
+16A 00000254 SECT5  notype       Static       | $unwind$pg_stat_get_backend_xact_start
+16B 0000027C SECT6  notype       Static       | $pdata$pg_stat_get_backend_xact_start
+16C 00000260 SECT5  notype       Static       | $unwind$pg_stat_get_buf_alloc
+16D 00000288 SECT6  notype       Static       | $pdata$pg_stat_get_buf_alloc
+16E 00000268 SECT5  notype       Static       | $unwind$pg_stat_get_live_tuples
+16F 00000294 SECT6  notype       Static       | $pdata$pg_stat_get_live_tuples
+170 00000270 SECT5  notype       Static       | $unwind$pg_stat_get_dead_tuples
+171 000002A0 SECT6  notype       Static       | $pdata$pg_stat_get_dead_tuples
+172 00000278 SECT5  notype       Static       | $unwind$pg_stat_get_function_calls
+173 000002AC SECT6  notype       Static       | $pdata$pg_stat_get_function_calls
+174 00000280 SECT5  notype       Static       | $unwind$pg_stat_get_function_total_time
+175 000002B8 SECT6  notype       Static       | $pdata$pg_stat_get_function_total_time
+176 00000288 SECT5  notype       Static       | $unwind$pg_stat_get_function_self_time
+177 000002C4 SECT6  notype       Static       | $pdata$pg_stat_get_function_self_time
+178 00000290 SECT5  notype       Static       | $unwind$pg_stat_get_xact_numscans
+179 000002D0 SECT6  notype       Static       | $pdata$pg_stat_get_xact_numscans
+17A 00000298 SECT5  notype       Static       | $unwind$pg_stat_get_xact_tuples_returned
+17B 000002DC SECT6  notype       Static       | $pdata$pg_stat_get_xact_tuples_returned
+17C 000002A0 SECT5  notype       Static       | $unwind$pg_stat_get_xact_tuples_fetched
+17D 000002E8 SECT6  notype       Static       | $pdata$pg_stat_get_xact_tuples_fetched
+17E 000002A8 SECT5  notype       Static       | $unwind$pg_stat_get_xact_tuples_inserted
+17F 000002F4 SECT6  notype       Static       | $pdata$pg_stat_get_xact_tuples_inserted
+180 000002B0 SECT5  notype       Static       | $unwind$pg_stat_get_xact_tuples_updated
+181 00000300 SECT6  notype       Static       | $pdata$pg_stat_get_xact_tuples_updated
+182 000002B8 SECT5  notype       Static       | $unwind$pg_stat_get_xact_tuples_deleted
+183 0000030C SECT6  notype       Static       | $pdata$pg_stat_get_xact_tuples_deleted
+184 000002C0 SECT5  notype       Static       | $unwind$pg_stat_get_xact_tuples_hot_updated
+185 00000318 SECT6  notype       Static       | $pdata$pg_stat_get_xact_tuples_hot_updated
+186 000002C8 SECT5  notype       Static       | $unwind$pg_stat_get_xact_blocks_fetched
+187 00000324 SECT6  notype       Static       | $pdata$pg_stat_get_xact_blocks_fetched
+188 000002D0 SECT5  notype       Static       | $unwind$pg_stat_get_xact_blocks_hit
+189 00000330 SECT6  notype       Static       | $pdata$pg_stat_get_xact_blocks_hit
+18A 000002D8 SECT5  notype       Static       | $unwind$pg_stat_get_xact_function_calls
+18B 0000033C SECT6  notype       Static       | $pdata$pg_stat_get_xact_function_calls
+18C 000002E0 SECT5  notype       Static       | $unwind$pg_stat_get_xact_function_total_time
+18D 00000348 SECT6  notype       Static       | $pdata$pg_stat_get_xact_function_total_time
+18E 000002EC SECT5  notype       Static       | $unwind$pg_stat_get_xact_function_self_time
+18F 00000354 SECT6  notype       Static       | $pdata$pg_stat_get_xact_function_self_time
+190 000002F8 SECT5  notype       Static       | $unwind$pg_stat_get_vacuum_count
+191 00000360 SECT6  notype       Static       | $pdata$pg_stat_get_vacuum_count
+192 00000300 SECT5  notype       Static       | $unwind$pg_stat_get_autovacuum_count
+193 0000036C SECT6  notype       Static       | $pdata$pg_stat_get_autovacuum_count
+194 00000308 SECT5  notype       Static       | $unwind$pg_stat_get_analyze_count
+195 00000378 SECT6  notype       Static       | $pdata$pg_stat_get_analyze_count
+196 00000310 SECT5  notype       Static       | $unwind$pg_stat_get_autoanalyze_count
+197 00000384 SECT6  notype       Static       | $pdata$pg_stat_get_autoanalyze_count
+198 00000318 SECT5  notype       Static       | $unwind$pg_stat_get_buf_fsync_backend
+199 00000390 SECT6  notype       Static       | $pdata$pg_stat_get_buf_fsync_backend
+19A 00000320 SECT5  notype       Static       | $unwind$pg_stat_get_db_conflict_tablespace
+19B 0000039C SECT6  notype       Static       | $pdata$pg_stat_get_db_conflict_tablespace
+19C 00000328 SECT5  notype       Static       | $unwind$pg_stat_get_db_conflict_lock
+19D 000003A8 SECT6  notype       Static       | $pdata$pg_stat_get_db_conflict_lock
+19E 00000330 SECT5  notype       Static       | $unwind$pg_stat_get_db_conflict_snapshot
+19F 000003B4 SECT6  notype       Static       | $pdata$pg_stat_get_db_conflict_snapshot
+1A0 00000338 SECT5  notype       Static       | $unwind$pg_stat_get_db_conflict_bufferpin
+1A1 000003C0 SECT6  notype       Static       | $pdata$pg_stat_get_db_conflict_bufferpin
+1A2 00000340 SECT5  notype       Static       | $unwind$pg_stat_get_db_conflict_startup_deadlock
+1A3 000003CC SECT6  notype       Static       | $pdata$pg_stat_get_db_conflict_startup_deadlock
+1A4 00000348 SECT5  notype       Static       | $unwind$pg_stat_get_db_conflict_all
+1A5 000003D8 SECT6  notype       Static       | $pdata$pg_stat_get_db_conflict_all
+1A6 00000350 SECT5  notype       Static       | $unwind$pg_stat_get_db_stat_reset_time
+1A7 000003E4 SECT6  notype       Static       | $pdata$pg_stat_get_db_stat_reset_time
+1A8 00000358 SECT5  notype       Static       | $unwind$pg_stat_get_bgwriter_stat_reset_time
+1A9 000003F0 SECT6  notype       Static       | $pdata$pg_stat_get_bgwriter_stat_reset_time
+1AA 00000360 SECT5  notype       Static       | $unwind$pg_stat_get_db_temp_files
+1AB 000003FC SECT6  notype       Static       | $pdata$pg_stat_get_db_temp_files
+1AC 00000368 SECT5  notype       Static       | $unwind$pg_stat_get_db_temp_bytes
+1AD 00000408 SECT6  notype       Static       | $pdata$pg_stat_get_db_temp_bytes
+1AE 00000370 SECT5  notype       Static       | $unwind$pg_stat_get_db_deadlocks
+1AF 00000414 SECT6  notype       Static       | $pdata$pg_stat_get_db_deadlocks
+1B0 00000378 SECT5  notype       Static       | $unwind$pg_stat_get_checkpoint_write_time
+1B1 00000420 SECT6  notype       Static       | $pdata$pg_stat_get_checkpoint_write_time
+1B2 00000380 SECT5  notype       Static       | $unwind$pg_stat_get_checkpoint_sync_time
+1B3 0000042C SECT6  notype       Static       | $pdata$pg_stat_get_checkpoint_sync_time
+1B4 00000388 SECT5  notype       Static       | $unwind$pg_stat_get_mod_since_analyze
+1B5 00000438 SECT6  notype       Static       | $pdata$pg_stat_get_mod_since_analyze
+1B6 00000390 SECT5  notype       Static       | $unwind$pg_stat_get_archiver
+1B7 00000444 SECT6  notype       Static       | $pdata$pg_stat_get_archiver
+1B8 000003A8 SECT5  notype       Static       | $unwind$pg_stat_get_progress_info
+1B9 00000450 SECT6  notype       Static       | $pdata$pg_stat_get_progress_info
+1BA 000003D0 SECT5  notype       Static       | $unwind$pg_stat_reset_shared
+1BB 0000045C SECT6  notype       Static       | $pdata$pg_stat_reset_shared
+1BC 000003D8 SECT5  notype       Static       | $unwind$pg_stat_reset_single_table_counters
+1BD 00000468 SECT6  notype       Static       | $pdata$pg_stat_reset_single_table_counters
+1BE 000003E0 SECT5  notype       Static       | $unwind$pg_stat_reset_single_function_counters
+1BF 00000474 SECT6  notype       Static       | $pdata$pg_stat_reset_single_function_counters
+1C0 000003E8 SECT5  notype       Static       | $unwind$pg_stat_get_snapshot_timestamp
+1C1 00000480 SECT6  notype       Static       | $pdata$pg_stat_get_snapshot_timestamp
+1C2 00000000 UNDEF  notype       External     | CurrentMemoryContext
+1C3 00000000 UNDEF  notype       External     | MyProcPid
+1C4 00000000 UNDEF  notype       External     | work_mem
+1C5 00000000 SECT7  notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 7DB77A10, selection    2 (pick any)
+1C7 00000000 SECT7  notype       External     | ??_C@_0BK@CNKEDLNN@pg_stat_get_progress_info?$AA@ (`string')
+1C8 00000000 SECT8  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum FE5C54DD, selection    2 (pick any)
+1CA 00000000 SECT8  notype       External     | ??_C@_0CE@GLBFBJPH@src?1backend?1utils?1adt?1pgstatfunc@ (`string')
+1CB 00000000 SECT9  notype       Static       | .rdata
+    Section length   3F, #relocs    0, #linenums    0, checksum 67EA171F, selection    2 (pick any)
+1CD 00000000 SECT9  notype       External     | ??_C@_0DP@HALPDCAE@set?9valued?5function?5called?5in?5co@ (`string')
+1CE 00000000 SECTA  notype       Static       | .rdata
+    Section length   41, #relocs    0, #linenums    0, checksum 4F1D249B, selection    2 (pick any)
+1D0 00000000 SECTA  notype       External     | ??_C@_0EB@KNCPCMBD@materialize?5mode?5required?0?5but?5i@ (`string')
+1D1 00000000 SECTB  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 6B360E89, selection    2 (pick any)
+1D3 00000000 SECTB  notype       External     | ??_C@_0BP@PNMAFNMG@return?5type?5must?5be?5a?5row?5type?$AA@ (`string')
+1D4 00000000 SECTC  notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum 4821055E, selection    2 (pick any)
+1D6 00000000 SECTC  notype       External     | ??_C@_06CKLCCFNP@VACUUM?$AA@ (`string')
+1D7 00000000 SECTD  notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 4F31E264, selection    2 (pick any)
+1D9 00000000 SECTD  notype       External     | ??_C@_0BL@KKLEEPCI@invalid?5command?5name?3?5?$CC?$CFs?$CC?$AA@ (`string')
+1DA 00000000 SECTE  notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum DF101DE9, selection    2 (pick any)
+1DC 00000000 SECTE  notype       External     | ??_C@_0BF@GBOLCHJN@pg_stat_get_activity?$AA@ (`string')
+1DD 00000000 SECTF  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum C1A89D7A, selection    2 (pick any)
+1DF 00000000 SECTF  notype       External     | ??_C@_0CE@FEOBNAFA@?$DMbackend?5information?5not?5availab@ (`string')
+1E0 00000000 SECT10 notype       Static       | .rdata
+    Section length    5, #relocs    0, #linenums    0, checksum 7921D8CE, selection    2 (pick any)
+1E2 00000000 SECT10 notype       External     | ??_C@_04EAPMNACM@idle?$AA@ (`string')
+1E3 00000000 SECT11 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum A12B4F23, selection    2 (pick any)
+1E5 00000000 SECT11 notype       External     | ??_C@_06MDLIGPKC@active?$AA@ (`string')
+1E6 00000000 SECT12 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum A61FC4E7, selection    2 (pick any)
+1E8 00000000 SECT12 notype       External     | ??_C@_0BE@FGDFKAJF@idle?5in?5transaction?$AA@ (`string')
+1E9 00000000 SECT13 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 1C0CBD8B, selection    2 (pick any)
+1EB 00000000 SECT13 notype       External     | ??_C@_0BH@JBFDGGDA@fastpath?5function?5call?$AA@ (`string')
+1EC 00000000 SECT14 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 821352A2, selection    2 (pick any)
+1EE 00000000 SECT14 notype       External     | ??_C@_0BO@HNOIJDOI@idle?5in?5transaction?5?$CIaborted?$CJ?$AA@ (`string')
+1EF 00000000 SECT15 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum  D8CB68F, selection    2 (pick any)
+1F1 00000000 SECT15 notype       External     | ??_C@_08BEHKFNNO@disabled?$AA@ (`string')
+1F2 00000000 SECT16 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum F4BB6683, selection    2 (pick any)
+1F4 00000000 SECT16 notype       External     | ??_C@_0BJ@OCILJHPD@?$DMinsufficient?5privilege?$DO?$AA@ (`string')
+1F5 00000000 SECT17 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum  6450E12, selection    2 (pick any)
+1F7 00000000 SECT17 notype       External     | ??_C@_0BN@PCOODEML@?$DMcommand?5string?5not?5enabled?$DO?$AA@ (`string')
+1F8 00000000 SECT18 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum EA5C7C0D, selection    2 (pick any)
+1FA 00000000 SECT18 notype       External     | ??_C@_0P@MCHAIABF@archived_count?$AA@ (`string')
+1FB 00000000 SECT19 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum  8908630, selection    2 (pick any)
+1FD 00000000 SECT19 notype       External     | ??_C@_0BC@JAHELGIC@last_archived_wal?$AA@ (`string')
+1FE 00000000 SECT1A notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum BD8D07C0, selection    2 (pick any)
+200 00000000 SECT1A notype       External     | ??_C@_0BD@JIHKDBFA@last_archived_time?$AA@ (`string')
+201 00000000 SECT1B notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum AA920D4D, selection    2 (pick any)
+203 00000000 SECT1B notype       External     | ??_C@_0N@FKBJLEDA@failed_count?$AA@ (`string')
+204 00000000 SECT1C notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum B0D75F06, selection    2 (pick any)
+206 00000000 SECT1C notype       External     | ??_C@_0BA@KDJDOLKM@last_failed_wal?$AA@ (`string')
+207 00000000 SECT1D notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 728FD580, selection    2 (pick any)
+209 00000000 SECT1D notype       External     | ??_C@_0BB@EEJPNLMC@last_failed_time?$AA@ (`string')
+20A 00000000 SECT1E notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 12FA6E73, selection    2 (pick any)
+20C 00000000 SECT1E notype       External     | ??_C@_0M@JGNAFHOD@stats_reset?$AA@ (`string')
+20D 00000000 UNDEF  notype       External     | __ImageBase
+20E 00000000 SECT1F notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum BA5D48D4, selection    2 (pick any)
+210 00000000 SECT1F notype       External     | __real@408f400000000000
+211 00000000 UNDEF  notype       External     | __security_cookie
+212 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x2F71 bytes
+
+  Summary
+
+        D1B4 .debug$S
+          68 .debug$T
+          5D .drectve
+         48C .pdata
+         242 .rdata
+        2311 .text$mn
+         3F0 .xdata

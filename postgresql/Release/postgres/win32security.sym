@@ -1,0 +1,86 @@
+
+Dump of file Release\postgres/win32security.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 3B04, #relocs   48, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  376, #relocs   30, #linenums    0, checksum D4FA55CD
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   27, #relocs    1, #linenums    0, checksum 9180B3DE, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length   E4, #relocs    6, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype       External     | __imp___acrt_iob_func
+00F 00000000 UNDEF  notype       External     | __imp_exit
+010 00000000 UNDEF  notype       External     | __imp_GetLastError
+011 00000000 UNDEF  notype       External     | __imp_AllocateAndInitializeSid
+012 00000000 UNDEF  notype       External     | __imp_CheckTokenMembership
+013 00000000 UNDEF  notype       External     | __imp_FreeSid
+014 00000000 SECT4  notype ()    External     | pgwin32_is_service
+015 00000200 SECT4  notype ()    External     | pgwin32_is_admin
+016 00000000 UNDEF  notype ()    External     | pg_fprintf
+017 00000000 UNDEF  notype ()    External     | write_stderr
+018 00000000 SECT5  notype ()    Static       | log_error
+019 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+01A 00000000 UNDEF  notype ()    External     | __security_check_cookie
+01B 00000000 SECT4  notype       Label        | $LN13
+01C 00000376 SECT4  notype       Label        | $LN11
+01D 00000200 SECT4  notype       Label        | $LN12
+01E 00000000 SECT7  notype       Static       | .xdata
+    Section length   48, #relocs    8, #linenums    0, checksum AC8638F3
+020 00000000 SECT7  notype       Static       | $unwind$pgwin32_is_service
+021 00000000 SECT8  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum 9EE7A4AB
+023 00000000 SECT8  notype       Static       | $pdata$pgwin32_is_service
+024 00000010 SECT7  notype       Static       | $chain$0$pgwin32_is_service
+025 0000000C SECT8  notype       Static       | $pdata$0$pgwin32_is_service
+026 00000024 SECT7  notype       Static       | $chain$1$pgwin32_is_service
+027 00000018 SECT8  notype       Static       | $pdata$1$pgwin32_is_service
+028 00000034 SECT7  notype       Static       | $unwind$pgwin32_is_admin
+029 00000024 SECT8  notype       Static       | $pdata$pgwin32_is_admin
+02A 00000000 SECT9  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum B574274C, selection    5 (pick associative Section 0x5)
+02C 00000000 SECT9  notype       Static       | $unwind$log_error
+02D 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F3B36B4F, selection    5 (pick associative Section 0x5)
+02F 00000000 SECTA  notype       Static       | $pdata$log_error
+030 00000000 SECTB  notype       Static       | .rdata
+    Section length   3C, #relocs    0, #linenums    0, checksum  1181A39, selection    2 (pick any)
+032 00000000 SECTB  notype       External     | ??_C@_0DM@PKPFGMMO@could?5not?5get?5SID?5for?5Administra@ (`string')
+033 00000000 SECTC  notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum D96A2572, selection    2 (pick any)
+035 00000000 SECTC  notype       External     | ??_C@_0DI@PFFNHPME@could?5not?5get?5SID?5for?5PowerUsers@ (`string')
+036 00000000 SECTD  notype       Static       | .rdata
+    Section length   39, #relocs    0, #linenums    0, checksum CF37DBAE, selection    2 (pick any)
+038 00000000 SECTD  notype       External     | ??_C@_0DJ@ONBJPKEN@could?5not?5check?5access?5token?5mem@ (`string')
+039 00000000 SECTE  notype       Static       | .data
+    Section length    4, #relocs    0, #linenums    0, checksum DEBB20E3
+03B 00000000 SECTE  notype       Static       | ?_is_service@?1??pgwin32_is_service@@9@9 (`pgwin32_is_service'::`2'::_is_service)
+03C 00000000 SECTF  notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum F237B530, selection    2 (pick any)
+03E 00000000 SECTF  notype       External     | ??_C@_0CM@IOOMCMND@could?5not?5get?5SID?5for?5local?5syst@ (`string')
+03F 00000000 SECT10 notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum 43CC01DE, selection    2 (pick any)
+041 00000000 SECT10 notype       External     | ??_C@_0DF@KFJMIJCP@could?5not?5get?5SID?5for?5service?5gr@ (`string')
+042 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x347 bytes
+
+  Summary
+
+           4 .data
+        3BE8 .debug$S
+          68 .debug$T
+          5D .drectve
+          3C .pdata
+         10E .rdata
+         39D .text$mn
+          50 .xdata

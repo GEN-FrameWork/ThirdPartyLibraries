@@ -1,0 +1,198 @@
+
+Dump of file Release\postgres/xlogarchive.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5684, #relocs   C8, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 1055, #relocs   EB, #linenums    0, checksum 60C73171
+00A 00000000 UNDEF  notype       External     | __imp__errno
+00B 00000000 UNDEF  notype       External     | __imp_strncpy
+00C 00000000 UNDEF  notype ()    External     | make_native_path
+00D 00000000 UNDEF  notype ()    External     | pg_snprintf
+00E 00000000 UNDEF  notype ()    External     | pgrename
+00F 00000000 UNDEF  notype ()    External     | pgunlink
+010 00000000 UNDEF  notype ()    External     | pgwin32_safestat
+011 00000000 UNDEF  notype ()    External     | pgwin32_system
+012 00000000 UNDEF  notype ()    External     | wait_result_to_str
+013 00000000 UNDEF  notype ()    External     | errstart
+014 00000000 UNDEF  notype ()    External     | errfinish
+015 00000000 UNDEF  notype ()    External     | errcode_for_file_access
+016 00000000 UNDEF  notype ()    External     | errmsg
+017 00000000 UNDEF  notype ()    External     | errmsg_internal
+018 00000000 UNDEF  notype ()    External     | AllocateFile
+019 00000000 UNDEF  notype ()    External     | FreeFile
+01A 00000000 UNDEF  notype ()    External     | durable_rename
+01B 00000000 UNDEF  notype ()    External     | RecoveryInProgress
+01C 00000000 UNDEF  notype ()    External     | GetOldestRestartPoint
+01D 00000000 SECT4  notype ()    External     | RestoreArchivedFile
+01E 00000540 SECT4  notype ()    External     | ExecuteRecoveryCommand
+01F 00000750 SECT4  notype ()    External     | KeepFileRestoredFromArchive
+020 00000910 SECT4  notype ()    External     | XLogArchiveNotify
+021 00000A20 SECT4  notype ()    External     | XLogArchiveNotifySeg
+022 00000A90 SECT4  notype ()    External     | XLogArchiveForceDone
+023 00000C00 SECT4  notype ()    External     | XLogArchiveCheckDone
+024 00000D30 SECT4  notype ()    External     | XLogArchiveIsBusy
+025 00000E60 SECT4  notype ()    External     | XLogArchiveIsReady
+026 00000ED0 SECT4  notype ()    External     | XLogArchiveIsReadyOrDone
+027 00000FC0 SECT4  notype ()    External     | XLogArchiveCleanup
+028 00000000 UNDEF  notype ()    External     | PreRestoreCommand
+029 00000000 UNDEF  notype ()    External     | PostRestoreCommand
+02A 00000000 UNDEF  notype ()    External     | WalSndWakeup
+02B 00000000 UNDEF  notype ()    External     | WalSndRqstFileReload
+02C 00000000 UNDEF  notype ()    External     | proc_exit
+02D 00000000 UNDEF  notype ()    External     | SendPostmasterSignal
+02E 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+02F 00000000 UNDEF  notype ()    External     | __security_check_cookie
+030 000004E1 SECT4  notype       Label        | $not_available$100
+031 00000000 SECT4  notype       Label        | $LN99
+032 00000540 SECT4  notype       Label        | $LN44
+033 00000750 SECT4  notype       Label        | $LN20
+034 00000910 SECT4  notype       Label        | $LN19
+035 00000A20 SECT4  notype       Label        | $LN4
+036 00000A90 SECT4  notype       Label        | $LN19
+037 00000C00 SECT4  notype       Label        | $LN13
+038 00000D30 SECT4  notype       Label        | $LN9
+039 00000E60 SECT4  notype       Label        | $LN5
+03A 00000ED0 SECT4  notype       Label        | $LN8
+03B 00000FC0 SECT4  notype       Label        | $LN4
+03C 00000000 SECT5  notype       Static       | .xdata
+    Section length  164, #relocs   1D, #linenums    0, checksum 787CC868
+03E 00000000 SECT5  notype       Static       | $unwind$RestoreArchivedFile
+03F 00000000 SECT6  notype       Static       | .pdata
+    Section length   CC, #relocs   33, #linenums    0, checksum 7011F6BF
+041 00000000 SECT6  notype       Static       | $pdata$RestoreArchivedFile
+042 00000020 SECT5  notype       Static       | $unwind$ExecuteRecoveryCommand
+043 0000000C SECT6  notype       Static       | $pdata$ExecuteRecoveryCommand
+044 0000003C SECT5  notype       Static       | $chain$0$ExecuteRecoveryCommand
+045 00000018 SECT6  notype       Static       | $pdata$0$ExecuteRecoveryCommand
+046 00000050 SECT5  notype       Static       | $chain$1$ExecuteRecoveryCommand
+047 00000024 SECT6  notype       Static       | $pdata$1$ExecuteRecoveryCommand
+048 00000060 SECT5  notype       Static       | $unwind$KeepFileRestoredFromArchive
+049 00000030 SECT6  notype       Static       | $pdata$KeepFileRestoredFromArchive
+04A 0000007C SECT5  notype       Static       | $unwind$XLogArchiveNotify
+04B 0000003C SECT6  notype       Static       | $pdata$XLogArchiveNotify
+04C 00000090 SECT5  notype       Static       | $unwind$XLogArchiveNotifySeg
+04D 00000048 SECT6  notype       Static       | $pdata$XLogArchiveNotifySeg
+04E 000000A0 SECT5  notype       Static       | $unwind$XLogArchiveForceDone
+04F 00000054 SECT6  notype       Static       | $pdata$XLogArchiveForceDone
+050 000000B4 SECT5  notype       Static       | $unwind$XLogArchiveCheckDone
+051 00000060 SECT6  notype       Static       | $pdata$XLogArchiveCheckDone
+052 000000C8 SECT5  notype       Static       | $chain$0$XLogArchiveCheckDone
+053 0000006C SECT6  notype       Static       | $pdata$0$XLogArchiveCheckDone
+054 000000DC SECT5  notype       Static       | $chain$1$XLogArchiveCheckDone
+055 00000078 SECT6  notype       Static       | $pdata$1$XLogArchiveCheckDone
+056 000000EC SECT5  notype       Static       | $chain$2$XLogArchiveCheckDone
+057 00000084 SECT6  notype       Static       | $pdata$2$XLogArchiveCheckDone
+058 00000100 SECT5  notype       Static       | $chain$3$XLogArchiveCheckDone
+059 00000090 SECT6  notype       Static       | $pdata$3$XLogArchiveCheckDone
+05A 00000110 SECT5  notype       Static       | $unwind$XLogArchiveIsBusy
+05B 0000009C SECT6  notype       Static       | $pdata$XLogArchiveIsBusy
+05C 00000128 SECT5  notype       Static       | $unwind$XLogArchiveIsReady
+05D 000000A8 SECT6  notype       Static       | $pdata$XLogArchiveIsReady
+05E 00000138 SECT5  notype       Static       | $unwind$XLogArchiveIsReadyOrDone
+05F 000000B4 SECT6  notype       Static       | $pdata$XLogArchiveIsReadyOrDone
+060 00000150 SECT5  notype       Static       | $unwind$XLogArchiveCleanup
+061 000000C0 SECT6  notype       Static       | $pdata$XLogArchiveCleanup
+062 00000000 UNDEF  notype       External     | ThisTimeLineID
+063 00000000 UNDEF  notype       External     | XLogArchiveMode
+064 00000000 UNDEF  notype       External     | StandbyMode
+065 00000000 UNDEF  notype       External     | recoveryRestoreCommand
+066 00000000 UNDEF  notype       External     | IsUnderPostmaster
+067 00000000 SECT7  notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum 362D31DF, selection    2 (pick any)
+069 00000000 SECT7  notype       External     | ??_C@_09CKFIKGFG@pg_wal?1?$CFs?$AA@ (`string')
+06A 00000000 SECT8  notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum D40970B3, selection    2 (pick any)
+06C 00000000 SECT8  notype       External     | ??_C@_0BE@CECDBEMB@RestoreArchivedFile?$AA@ (`string')
+06D 00000000 SECT9  notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum BAC45DE4, selection    2 (pick any)
+06F 00000000 SECT9  notype       External     | ??_C@_0CJ@CLLGCCLB@src?1backend?1access?1transam?1xloga@ (`string')
+070 00000000 SECTA  notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 89BC3D26, selection    2 (pick any)
+072 00000000 SECTA  notype       External     | ??_C@_0BN@HNBHAHPP@could?5not?5stat?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+073 00000000 SECTB  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 38007BE2, selection    2 (pick any)
+075 00000000 SECTB  notype       External     | ??_C@_0BP@KOPGCIKN@could?5not?5remove?5file?5?$CC?$CFs?$CC?3?5?$CFm?$AA@ (`string')
+076 00000000 SECTC  notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 15F86C98, selection    2 (pick any)
+078 00000000 SECTC  notype       External     | ??_C@_0N@OFHDNFOF@?$CF08X?$CF08X?$CF08X?$AA@ (`string')
+079 00000000 SECTD  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum F90280F7, selection    2 (pick any)
+07B 00000000 SECTD  notype       External     | ??_C@_0BP@GPPENDLI@executing?5restore?5command?5?$CC?$CFs?$CC?$AA@ (`string')
+07C 00000000 SECTE  notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum 7A0D9CCF, selection    2 (pick any)
+07E 00000000 SECTE  notype       External     | ??_C@_0DF@JMFNBEDO@archive?5file?5?$CC?$CFs?$CC?5has?5wrong?5size@ (`string')
+07F 00000000 SECTF  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum D66FBD90, selection    2 (pick any)
+081 00000000 SECTF  notype       External     | ??_C@_0CE@EDCGPALK@restored?5log?5file?5?$CC?$CFs?$CC?5from?5arch@ (`string')
+082 00000000 SECT10 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum C5266545, selection    2 (pick any)
+084 00000000 SECT10 notype       External     | ??_C@_0CN@PMFJANBO@could?5not?5restore?5file?5?$CC?$CFs?$CC?5from@ (`string')
+085 00000000 SECT11 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum CDB90A8F, selection    2 (pick any)
+087 00000000 SECT11 notype       External     | ??_C@_0BH@EAOGNBDE@ExecuteRecoveryCommand?$AA@ (`string')
+088 00000000 SECT12 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 358EFA95, selection    2 (pick any)
+08A 00000000 SECT12 notype       External     | ??_C@_0BC@KNGKMKCH@executing?5?$CFs?5?$CC?$CFs?$CC?$AA@ (`string')
+08B 00000000 SECT13 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 534D9271, selection    2 (pick any)
+08D 00000000 SECT13 notype       External     | ??_C@_0M@NHGHKLOB@?$CFs?5?$CC?$CFs?$CC?3?5?$CFs?$AA@ (`string')
+08E 00000000 SECT14 notype       Static       | .data
+    Section length    4, #relocs    0, #linenums    0, checksum B8BC6765
+090 00000000 SECT14 notype       Static       | ?deletedcounter@?2??KeepFileRestoredFromArchive@@9@9 (`KeepFileRestoredFromArchive'::`3'::deletedcounter)
+091 00000000 SECT15 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum A0B66762, selection    2 (pick any)
+093 00000000 SECT15 notype       External     | ??_C@_0N@FADNNOBP@?$CFs?4deleted?$CFu?$AA@ (`string')
+094 00000000 SECT16 notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum  72D641C, selection    2 (pick any)
+096 00000000 SECT16 notype       External     | ??_C@_0BM@HIKCOMAK@KeepFileRestoredFromArchive?$AA@ (`string')
+097 00000000 SECT17 notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum E7DCD05E, selection    2 (pick any)
+099 00000000 SECT17 notype       External     | ??_C@_0CH@JINBNLIB@could?5not?5rename?5file?5?$CC?$CFs?$CC?5to?5?$CC?$CF@ (`string')
+09A 00000000 SECT18 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum BA032713, selection    2 (pick any)
+09C 00000000 SECT18 notype       External     | ??_C@_06NIJAAHJC@?4ready?$AA@ (`string')
+09D 00000000 SECT19 notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 9751B79F, selection    2 (pick any)
+09F 00000000 SECT19 notype       External     | ??_C@_0BL@HCNEBKND@pg_wal?1archive_status?1?$CFs?$CFs?$AA@ (`string')
+0A0 00000000 SECT1A notype       Static       | .rdata
+    Section length    2, #relocs    0, #linenums    0, checksum 607EEF31, selection    2 (pick any)
+0A2 00000000 SECT1A notype       External     | ??_C@_01NOFIACDB@w?$AA@ (`string')
+0A3 00000000 SECT1B notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum B57D3A62, selection    2 (pick any)
+0A5 00000000 SECT1B notype       External     | ??_C@_0BC@CNJJAKNA@XLogArchiveNotify?$AA@ (`string')
+0A6 00000000 SECT1C notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum F694C26C, selection    2 (pick any)
+0A8 00000000 SECT1C notype       External     | ??_C@_0CO@KBEDFHI@could?5not?5create?5archive?5status?5@ (`string')
+0A9 00000000 SECT1D notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum ECDEC60E, selection    2 (pick any)
+0AB 00000000 SECT1D notype       External     | ??_C@_0CN@NFKBKOFF@could?5not?5write?5archive?5status?5f@ (`string')
+0AC 00000000 SECT1E notype       Static       | .rdata
+    Section length    6, #relocs    0, #linenums    0, checksum 68922B56, selection    2 (pick any)
+0AE 00000000 SECT1E notype       External     | ??_C@_05CGKPHFAK@?4done?$AA@ (`string')
+0AF 00000000 SECT1F notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum D7254A3A, selection    2 (pick any)
+0B1 00000000 SECT1F notype       External     | ??_C@_0BF@GJNOHAEO@XLogArchiveForceDone?$AA@ (`string')
+0B2 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0xBE2 bytes
+
+  Summary
+
+           4 .data
+        5684 .debug$S
+          68 .debug$T
+          5D .drectve
+          CC .pdata
+         266 .rdata
+        1055 .text$mn
+         164 .xdata

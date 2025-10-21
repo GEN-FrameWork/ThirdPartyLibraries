@@ -1,0 +1,232 @@
+
+Dump of file Release\postgres/brin_xlog.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 41BC, #relocs   2A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  179, #relocs   18, #linenums    0, checksum F0A6EEDA
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   8E, #relocs    6, #linenums    0, checksum 1B31B0A5, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  1A8, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  151, #relocs    E, #linenums    0, checksum 51E32D3A, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  2DC, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  298, #relocs   1D, #linenums    0, checksum CA788DA1, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  4B4, #relocs   34, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  101, #relocs    C, #linenums    0, checksum 5AD8086F, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  2F0, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 SECTD  notype       Static       | .text$mn
+    Section length   DC, #relocs    C, #linenums    0, checksum AD699DE6, selection    1 (pick no duplicates)
+01C 00000000 SECTE  notype       Static       | .debug$S
+    Section length  2C8, #relocs   20, #linenums    0, checksum        0, selection    5 (pick associative Section 0xD)
+01E 00000000 SECTF  notype       Static       | .text$mn
+    Section length   B3, #relocs    7, #linenums    0, checksum F63E5CDC, selection    1 (pick no duplicates)
+020 00000000 SECT10 notype       Static       | .debug$S
+    Section length  22C, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0xF)
+022 00000000 UNDEF  notype ()    External     | elog_start
+023 00000000 UNDEF  notype ()    External     | elog_finish
+024 00000000 UNDEF  notype ()    External     | PageAddItemExtended
+025 00000000 UNDEF  notype ()    External     | PageIndexTupleDeleteNoCompact
+026 00000000 UNDEF  notype ()    External     | PageIndexTupleOverwrite
+027 00000000 UNDEF  notype ()    External     | brinSetHeapBlockItemptr
+028 00000000 UNDEF  notype ()    External     | brin_page_init
+029 00000000 UNDEF  notype ()    External     | brin_metapage_init
+02A 00000000 UNDEF  notype ()    External     | XLogRecGetBlockData
+02B 00000000 UNDEF  notype ()    External     | XLogRecGetBlockTag
+02C 00000000 SECT4  notype ()    External     | brin_redo
+02D 00000140 SECT4  notype ()    External     | brin_mask
+02E 00000000 UNDEF  notype ()    External     | UnlockReleaseBuffer
+02F 00000000 UNDEF  notype ()    External     | MarkBufferDirty
+030 00000000 UNDEF  notype ()    External     | BufferGetBlockNumber
+031 00000000 UNDEF  notype ()    External     | mask_page_lsn_and_checksum
+032 00000000 UNDEF  notype ()    External     | mask_page_hint_bits
+033 00000000 UNDEF  notype ()    External     | mask_unused_space
+034 00000000 UNDEF  notype ()    External     | XLogReadBufferForRedo
+035 00000000 UNDEF  notype ()    External     | XLogInitBufferForRedo
+036 00000000 SECT5  notype ()    Static       | brin_xlog_createidx
+037 00000000 SECT9  notype ()    Static       | brin_xlog_insert_update
+038 00000000 SECTF  notype ()    Static       | brin_xlog_update
+039 00000000 SECTD  notype ()    Static       | brin_xlog_samepage_update
+03A 00000000 SECTB  notype ()    Static       | brin_xlog_revmap_extend
+03B 00000000 SECT7  notype ()    Static       | brin_xlog_desummarize_page
+03C 000000E0 SECT4  notype       Static       | $LN18
+03D 000000C4 SECT4  notype       Static       | $LN19
+03E 0000003E SECT4  notype       Label        | $LN7
+03F 0000004B SECT4  notype       Label        | $LN8
+040 0000005C SECT4  notype       Label        | $LN9
+041 00000069 SECT4  notype       Label        | $LN10
+042 00000076 SECT4  notype       Label        | $LN11
+043 00000083 SECT4  notype       Label        | $LN12
+044 00000090 SECT4  notype       Label        | $LN6
+045 00000000 SECT4  notype       Label        | $LN21
+046 00000140 SECT4  notype       Label        | $LN5
+047 00000000 SECT11 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 2CDA6EBF
+049 00000000 SECT11 notype       Static       | $unwind$brin_redo
+04A 00000000 SECT12 notype       Static       | .pdata
+    Section length   18, #relocs    6, #linenums    0, checksum D23D0866
+04C 00000000 SECT12 notype       Static       | $pdata$brin_redo
+04D 00000008 SECT11 notype       Static       | $unwind$brin_mask
+04E 0000000C SECT12 notype       Static       | $pdata$brin_mask
+04F 00000000 SECT13 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum E7460F8C, selection    5 (pick associative Section 0x5)
+051 00000000 SECT13 notype       Static       | $unwind$brin_xlog_createidx
+052 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 46B197E8, selection    5 (pick associative Section 0x5)
+054 00000000 SECT14 notype       Static       | $pdata$brin_xlog_createidx
+055 00000000 SECT15 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum CDAD9722, selection    5 (pick associative Section 0x9)
+057 00000000 SECT15 notype       Static       | $unwind$brin_xlog_insert_update
+058 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  AC50919, selection    5 (pick associative Section 0x9)
+05A 00000000 SECT16 notype       Static       | $pdata$brin_xlog_insert_update
+05B 00000000 SECT17 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum DB500BD9, selection    5 (pick associative Section 0x9)
+05D 00000000 SECT17 notype       Static       | $chain$1$brin_xlog_insert_update
+05E 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4A06DFD9, selection    5 (pick associative Section 0x9)
+060 00000000 SECT18 notype       Static       | $pdata$1$brin_xlog_insert_update
+061 00000000 SECT19 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 8A6A851F, selection    5 (pick associative Section 0x9)
+063 00000000 SECT19 notype       Static       | $chain$2$brin_xlog_insert_update
+064 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 83D75963, selection    5 (pick associative Section 0x9)
+066 00000000 SECT1A notype       Static       | $pdata$2$brin_xlog_insert_update
+067 00000000 SECT1B notype       Static       | .xdata
+    Section length   20, #relocs    3, #linenums    0, checksum 272A4F3C, selection    5 (pick associative Section 0x9)
+069 00000000 SECT1B notype       Static       | $chain$6$brin_xlog_insert_update
+06A 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8BED0154, selection    5 (pick associative Section 0x9)
+06C 00000000 SECT1C notype       Static       | $pdata$6$brin_xlog_insert_update
+06D 00000000 SECT1D notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum CC4A3EEA, selection    5 (pick associative Section 0x9)
+06F 00000000 SECT1D notype       Static       | $chain$7$brin_xlog_insert_update
+070 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A74988D2, selection    5 (pick associative Section 0x9)
+072 00000000 SECT1E notype       Static       | $pdata$7$brin_xlog_insert_update
+073 00000000 SECT1F notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 32BAEBB8, selection    5 (pick associative Section 0x9)
+075 00000000 SECT1F notype       Static       | $chain$8$brin_xlog_insert_update
+076 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6CF40F8A, selection    5 (pick associative Section 0x9)
+078 00000000 SECT20 notype       Static       | $pdata$8$brin_xlog_insert_update
+079 00000000 SECT21 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum ADEAD4F7, selection    5 (pick associative Section 0x9)
+07B 00000000 SECT21 notype       Static       | $chain$9$brin_xlog_insert_update
+07C 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 251B3A3E, selection    5 (pick associative Section 0x9)
+07E 00000000 SECT22 notype       Static       | $pdata$9$brin_xlog_insert_update
+07F 00000000 SECT23 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 643B524D, selection    5 (pick associative Section 0x9)
+081 00000000 SECT23 notype       Static       | $chain$10$brin_xlog_insert_update
+082 00000000 SECT24 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3E88F39C, selection    5 (pick associative Section 0x9)
+084 00000000 SECT24 notype       Static       | $pdata$10$brin_xlog_insert_update
+085 00000000 SECT25 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum B392E3F5, selection    5 (pick associative Section 0x9)
+087 00000000 SECT25 notype       Static       | $chain$11$brin_xlog_insert_update
+088 00000000 SECT26 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum BA60BB52, selection    5 (pick associative Section 0x9)
+08A 00000000 SECT26 notype       Static       | $pdata$11$brin_xlog_insert_update
+08B 00000000 SECT27 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum  FC539D1, selection    5 (pick associative Section 0xF)
+08D 00000000 SECT27 notype       Static       | $unwind$brin_xlog_update
+08E 00000000 SECT28 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 844A0EFA, selection    5 (pick associative Section 0xF)
+090 00000000 SECT28 notype       Static       | $pdata$brin_xlog_update
+091 00000000 SECT29 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 1784AB32, selection    5 (pick associative Section 0xF)
+093 00000000 SECT29 notype       Static       | $chain$2$brin_xlog_update
+094 00000000 SECT2A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C4EE6F7F, selection    5 (pick associative Section 0xF)
+096 00000000 SECT2A notype       Static       | $pdata$2$brin_xlog_update
+097 00000000 SECT2B notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum D964516F, selection    5 (pick associative Section 0xF)
+099 00000000 SECT2B notype       Static       | $chain$3$brin_xlog_update
+09A 00000000 SECT2C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6D4624C6, selection    5 (pick associative Section 0xF)
+09C 00000000 SECT2C notype       Static       | $pdata$3$brin_xlog_update
+09D 00000000 SECT2D notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 7DB98593, selection    5 (pick associative Section 0xF)
+09F 00000000 SECT2D notype       Static       | $chain$4$brin_xlog_update
+0A0 00000000 SECT2E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3AF836A7, selection    5 (pick associative Section 0xF)
+0A2 00000000 SECT2E notype       Static       | $pdata$4$brin_xlog_update
+0A3 00000000 SECT2F notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 3D1DE416, selection    5 (pick associative Section 0xF)
+0A5 00000000 SECT2F notype       Static       | $chain$5$brin_xlog_update
+0A6 00000000 SECT30 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum BD265FCD, selection    5 (pick associative Section 0xF)
+0A8 00000000 SECT30 notype       Static       | $pdata$5$brin_xlog_update
+0A9 00000000 SECT31 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum C98CD064, selection    5 (pick associative Section 0xD)
+0AB 00000000 SECT31 notype       Static       | $unwind$brin_xlog_samepage_update
+0AC 00000000 SECT32 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 51B26353, selection    5 (pick associative Section 0xD)
+0AE 00000000 SECT32 notype       Static       | $pdata$brin_xlog_samepage_update
+0AF 00000000 SECT33 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 44DE9CBA, selection    5 (pick associative Section 0xB)
+0B1 00000000 SECT33 notype       Static       | $unwind$brin_xlog_revmap_extend
+0B2 00000000 SECT34 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6ADD0B2A, selection    5 (pick associative Section 0xB)
+0B4 00000000 SECT34 notype       Static       | $pdata$brin_xlog_revmap_extend
+0B5 00000000 SECT35 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 2DB4CB26, selection    5 (pick associative Section 0x7)
+0B7 00000000 SECT35 notype       Static       | $unwind$brin_xlog_desummarize_page
+0B8 00000000 SECT36 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3FFBF8EC, selection    5 (pick associative Section 0x7)
+0BA 00000000 SECT36 notype       Static       | $pdata$brin_xlog_desummarize_page
+0BB 00000000 UNDEF  notype       External     | BufferBlocks
+0BC 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+0BD 00000000 SECT37 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 58805ACA, selection    2 (pick any)
+0BF 00000000 SECT37 notype       External     | ??_C@_0BI@ELOGPBF@brin_xlog_insert_update?$AA@ (`string')
+0C0 00000000 SECT38 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum   C6774F, selection    2 (pick any)
+0C2 00000000 SECT38 notype       External     | ??_C@_0CE@JFIPDKGF@src?1backend?1access?1brin?1brin_xlo@ (`string')
+0C3 00000000 SECT39 notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum E3649477, selection    2 (pick any)
+0C5 00000000 SECT39 notype       External     | ??_C@_0DD@DEIJDOBK@brin_xlog_insert_update?3?5invalid@ (`string')
+0C6 00000000 SECT3A notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 8488C4F8, selection    2 (pick any)
+0C8 00000000 SECT3A notype       External     | ??_C@_0CN@LNPHKMKD@brin_xlog_insert_update?3?5failed?5@ (`string')
+0C9 00000000 SECT3B notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 3865EEC3, selection    2 (pick any)
+0CB 00000000 SECT3B notype       External     | ??_C@_0BK@GIHGKPAO@brin_xlog_samepage_update?$AA@ (`string')
+0CC 00000000 SECT3C notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum 43581ED9, selection    2 (pick any)
+0CE 00000000 SECT3C notype       External     | ??_C@_0DD@JELFLELE@brin_xlog_samepage_update?3?5faile@ (`string')
+0CF 00000000 SECT3D notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum C0E3A91E, selection    2 (pick any)
+0D1 00000000 SECT3D notype       External     | ??_C@_09NMJGDOJH@brin_redo?$AA@ (`string')
+0D2 00000000 SECT3E notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 509950A6, selection    2 (pick any)
+0D4 00000000 SECT3E notype       External     | ??_C@_0BO@KPGCJBOM@brin_redo?3?5unknown?5op?5code?5?$CFu?$AA@ (`string')
+0D5 00000000 UNDEF  notype       External     | __ImageBase
+
+String Table Size = 0x872 bytes
+
+  Summary
+
+        52D8 .debug$S
+          68 .debug$T
+          5D .drectve
+          F0 .pdata
+         111 .rdata
+         880 .text$mn
+         16C .xdata

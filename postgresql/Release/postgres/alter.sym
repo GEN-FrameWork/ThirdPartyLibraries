@@ -1,0 +1,324 @@
+
+Dump of file Release\postgres/alter.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 67B0, #relocs  12E, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 118E, #relocs   A2, #linenums    0, checksum C462158D
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  6D1, #relocs   35, #linenums    0, checksum CDFFF649, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  86C, #relocs   58, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  6DF, #relocs   3A, #linenums    0, checksum DA3AA712, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  8E0, #relocs   4E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  101, #relocs   11, #linenums    0, checksum 847D4E31, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  234, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  11B, #relocs   12, #linenums    0, checksum 40F17B54, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  284, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 UNDEF  notype ()    External     | pg_snprintf
+01B 00000000 UNDEF  notype ()    External     | errstart
+01C 00000000 UNDEF  notype ()    External     | errfinish
+01D 00000000 UNDEF  notype ()    External     | errcode
+01E 00000000 UNDEF  notype ()    External     | errmsg
+01F 00000000 UNDEF  notype ()    External     | elog_start
+020 00000000 UNDEF  notype ()    External     | elog_finish
+021 00000000 UNDEF  notype ()    External     | palloc0
+022 00000000 UNDEF  notype ()    External     | pfree
+023 00000000 UNDEF  notype ()    External     | nocachegetattr
+024 00000000 UNDEF  notype ()    External     | heap_getsysattr
+025 00000000 UNDEF  notype ()    External     | heap_modify_tuple
+026 00000000 UNDEF  notype ()    External     | heap_freetuple
+027 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+028 00000000 UNDEF  notype ()    External     | aclnewowner
+029 00000000 UNDEF  notype ()    External     | has_privs_of_role
+02A 00000000 UNDEF  notype ()    External     | check_is_member_of_role
+02B 00000000 UNDEF  notype ()    External     | get_rolespec_oid
+02C 00000000 UNDEF  notype ()    External     | pg_namespace_aclcheck
+02D 00000000 UNDEF  notype ()    External     | aclcheck_error
+02E 00000000 UNDEF  notype ()    External     | get_object_address
+02F 00000000 UNDEF  notype ()    External     | get_object_address_rv
+030 00000000 UNDEF  notype ()    External     | get_object_catcache_oid
+031 00000000 UNDEF  notype ()    External     | get_object_catcache_name
+032 00000000 UNDEF  notype ()    External     | get_object_attnum_name
+033 00000000 UNDEF  notype ()    External     | get_object_attnum_namespace
+034 00000000 UNDEF  notype ()    External     | get_object_attnum_owner
+035 00000000 UNDEF  notype ()    External     | get_object_attnum_acl
+036 00000000 UNDEF  notype ()    External     | get_object_aclkind
+037 00000000 UNDEF  notype ()    External     | get_catalog_object_by_oid
+038 00000000 UNDEF  notype ()    External     | getObjectDescriptionOids
+039 00000000 UNDEF  notype ()    External     | getObjectClass
+03A 00000000 UNDEF  notype ()    External     | recordDependencyOn
+03B 00000000 UNDEF  notype ()    External     | changeDependencyFor
+03C 00000000 UNDEF  notype ()    External     | changeDependencyOnOwner
+03D 00000000 UNDEF  notype ()    External     | CatalogTupleUpdate
+03E 00000000 UNDEF  notype ()    External     | LookupCreationNamespace
+03F 00000000 UNDEF  notype ()    External     | CheckSetNamespace
+040 00000000 UNDEF  notype ()    External     | RunObjectPostAlterHook
+041 00000000 SECT4  notype ()    External     | ExecRenameStmt
+042 00000340 SECT4  notype ()    External     | ExecAlterObjectDependsStmt
+043 00000430 SECT4  notype ()    External     | ExecAlterObjectSchemaStmt
+044 00000670 SECT4  notype ()    External     | AlterObjectNamespace_oid
+045 00000790 SECT4  notype ()    External     | ExecAlterOwnerStmt
+046 00000A30 SECT4  notype ()    External     | AlterObjectOwner_internal
+047 00000000 UNDEF  notype ()    External     | IsThereCollationInNamespace
+048 00000000 UNDEF  notype ()    External     | RenameDatabase
+049 00000000 UNDEF  notype ()    External     | AlterDatabaseOwner
+04A 00000000 UNDEF  notype ()    External     | IsThereFunctionInNamespace
+04B 00000000 UNDEF  notype ()    External     | IsThereOpClassInNamespace
+04C 00000000 UNDEF  notype ()    External     | IsThereOpFamilyInNamespace
+04D 00000000 UNDEF  notype ()    External     | AlterForeignServerOwner
+04E 00000000 UNDEF  notype ()    External     | AlterForeignDataWrapperOwner
+04F 00000000 UNDEF  notype ()    External     | AlterEventTriggerOwner
+050 00000000 UNDEF  notype ()    External     | AlterExtensionNamespace
+051 00000000 UNDEF  notype ()    External     | rename_policy
+052 00000000 UNDEF  notype ()    External     | AlterPublicationOwner
+053 00000000 UNDEF  notype ()    External     | RenameSchema
+054 00000000 UNDEF  notype ()    External     | AlterSchemaOwner
+055 00000000 UNDEF  notype ()    External     | AlterSubscriptionOwner
+056 00000000 UNDEF  notype ()    External     | AlterTableNamespace
+057 00000000 UNDEF  notype ()    External     | AlterTableNamespaceInternal
+058 00000000 UNDEF  notype ()    External     | renameatt
+059 00000000 UNDEF  notype ()    External     | RenameConstraint
+05A 00000000 UNDEF  notype ()    External     | RenameRelation
+05B 00000000 UNDEF  notype ()    External     | RenameTableSpace
+05C 00000000 UNDEF  notype ()    External     | relation_open
+05D 00000000 UNDEF  notype ()    External     | relation_close
+05E 00000000 UNDEF  notype ()    External     | heap_open
+05F 00000000 UNDEF  notype ()    External     | renametrig
+060 00000000 UNDEF  notype ()    External     | RenameType
+061 00000000 UNDEF  notype ()    External     | AlterTypeOwner
+062 00000000 UNDEF  notype ()    External     | AlterTypeNamespace
+063 00000000 UNDEF  notype ()    External     | AlterTypeNamespace_oid
+064 00000000 UNDEF  notype ()    External     | RenameRole
+065 00000000 UNDEF  notype ()    External     | GetUserId
+066 00000000 UNDEF  notype ()    External     | superuser
+067 00000000 UNDEF  notype ()    External     | RenameRewriteRule
+068 00000000 UNDEF  notype ()    External     | namestrcpy
+069 00000000 UNDEF  notype ()    External     | get_namespace_name
+06A 00000000 UNDEF  notype ()    External     | SearchSysCache
+06B 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+06C 00000000 UNDEF  notype ()    External     | SearchSysCacheCopy
+06D 00000000 UNDEF  notype ()    External     | SearchSysCacheExists
+06E 00000000 SECT5  notype ()    Static       | AlterObjectNamespace_internal
+06F 00000000 SECT9  notype ()    Static       | report_name_conflict
+070 00000000 SECTB  notype ()    Static       | report_namespace_conflict
+071 00000000 SECT7  notype ()    Static       | AlterObjectRename_internal
+072 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+073 00000000 UNDEF  notype ()    External     | __security_check_cookie
+074 00000304 SECT4  notype       Static       | $LN22
+075 000002D0 SECT4  notype       Static       | $LN23
+076 0000003B SECT4  notype       Label        | $LN7
+077 00000060 SECT4  notype       Label        | $LN8
+078 0000008A SECT4  notype       Label        | $LN9
+079 000000B4 SECT4  notype       Label        | $LN10
+07A 000000DE SECT4  notype       Label        | $LN11
+07B 00000108 SECT4  notype       Label        | $LN12
+07C 0000012D SECT4  notype       Label        | $LN13
+07D 00000152 SECT4  notype       Label        | $LN14
+07E 00000180 SECT4  notype       Label        | $LN15
+07F 000001A5 SECT4  notype       Label        | $LN16
+080 000001CA SECT4  notype       Label        | $LN17
+081 000001EF SECT4  notype       Label        | $LN18
+082 00000281 SECT4  notype       Label        | $LN6
+083 00000000 SECT4  notype       Label        | $LN27
+084 00000340 SECT4  notype       Label        | $LN6
+085 0000062C SECT4  notype       Static       | $LN18
+086 00000618 SECT4  notype       Static       | $LN19
+087 00000476 SECT4  notype       Label        | $LN10
+088 000004A8 SECT4  notype       Label        | $LN11
+089 000004D1 SECT4  notype       Label        | $LN12
+08A 00000507 SECT4  notype       Label        | $LN13
+08B 000005C7 SECT4  notype       Label        | $LN6
+08C 00000430 SECT4  notype       Label        | $LN22
+08D 00000764 SECT4  notype       Static       | $LN9
+08E 00000754 SECT4  notype       Static       | $LN10
+08F 000006D2 SECT4  notype       Label        | $LN4
+090 000006FC SECT4  notype       Label        | $LN5
+091 0000070C SECT4  notype       Label        | $LN6
+092 00000737 SECT4  notype       Label        | $LN7
+093 00000670 SECT4  notype       Label        | $LN13
+094 000009F0 SECT4  notype       Static       | $LN20
+095 000009C8 SECT4  notype       Static       | $LN21
+096 000007DB SECT4  notype       Label        | $LN7
+097 000007FC SECT4  notype       Label        | $LN8
+098 0000081D SECT4  notype       Label        | $LN9
+099 0000083D SECT4  notype       Label        | $LN10
+09A 0000085E SECT4  notype       Label        | $LN11
+09B 0000087F SECT4  notype       Label        | $LN12
+09C 000008A0 SECT4  notype       Label        | $LN13
+09D 000008C1 SECT4  notype       Label        | $LN14
+09E 000008E2 SECT4  notype       Label        | $LN15
+09F 0000097B SECT4  notype       Label        | $LN6
+0A0 00000790 SECT4  notype       Label        | $LN25
+0A1 00000A30 SECT4  notype       Label        | $LN106
+0A2 00000000 SECTD  notype       Static       | .xdata
+    Section length   EC, #relocs   15, #linenums    0, checksum 5CCCA0E6
+0A4 00000000 SECTD  notype       Static       | $unwind$ExecRenameStmt
+0A5 00000000 SECTE  notype       Static       | .pdata
+    Section length   90, #relocs   24, #linenums    0, checksum D08B0091
+0A7 00000000 SECTE  notype       Static       | $pdata$ExecRenameStmt
+0A8 0000000C SECTD  notype       Static       | $chain$1$ExecRenameStmt
+0A9 0000000C SECTE  notype       Static       | $pdata$1$ExecRenameStmt
+0AA 00000024 SECTD  notype       Static       | $chain$2$ExecRenameStmt
+0AB 00000018 SECTE  notype       Static       | $pdata$2$ExecRenameStmt
+0AC 00000034 SECTD  notype       Static       | $unwind$ExecAlterObjectDependsStmt
+0AD 00000024 SECTE  notype       Static       | $pdata$ExecAlterObjectDependsStmt
+0AE 0000004C SECTD  notype       Static       | $unwind$ExecAlterObjectSchemaStmt
+0AF 00000030 SECTE  notype       Static       | $pdata$ExecAlterObjectSchemaStmt
+0B0 0000005C SECTD  notype       Static       | $chain$0$ExecAlterObjectSchemaStmt
+0B1 0000003C SECTE  notype       Static       | $pdata$0$ExecAlterObjectSchemaStmt
+0B2 00000070 SECTD  notype       Static       | $chain$1$ExecAlterObjectSchemaStmt
+0B3 00000048 SECTE  notype       Static       | $pdata$1$ExecAlterObjectSchemaStmt
+0B4 00000080 SECTD  notype       Static       | $unwind$AlterObjectNamespace_oid
+0B5 00000054 SECTE  notype       Static       | $pdata$AlterObjectNamespace_oid
+0B6 00000098 SECTD  notype       Static       | $unwind$ExecAlterOwnerStmt
+0B7 00000060 SECTE  notype       Static       | $pdata$ExecAlterOwnerStmt
+0B8 000000A4 SECTD  notype       Static       | $chain$0$ExecAlterOwnerStmt
+0B9 0000006C SECTE  notype       Static       | $pdata$0$ExecAlterOwnerStmt
+0BA 000000B8 SECTD  notype       Static       | $chain$1$ExecAlterOwnerStmt
+0BB 00000078 SECTE  notype       Static       | $pdata$1$ExecAlterOwnerStmt
+0BC 000000C8 SECTD  notype       Static       | $unwind$AlterObjectOwner_internal
+0BD 00000084 SECTE  notype       Static       | $pdata$AlterObjectOwner_internal
+0BE 00000000 SECTF  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 6E3D2D72, selection    5 (pick associative Section 0x5)
+0C0 00000000 SECTF  notype       Static       | $unwind$AlterObjectNamespace_internal
+0C1 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A96743B8, selection    5 (pick associative Section 0x5)
+0C3 00000000 SECT10 notype       Static       | $pdata$AlterObjectNamespace_internal
+0C4 00000000 SECT11 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 57846775, selection    5 (pick associative Section 0x9)
+0C6 00000000 SECT11 notype       Static       | $unwind$report_name_conflict
+0C7 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6ADD0B2A, selection    5 (pick associative Section 0x9)
+0C9 00000000 SECT12 notype       Static       | $pdata$report_name_conflict
+0CA 00000000 SECT13 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 815B1B44, selection    5 (pick associative Section 0xB)
+0CC 00000000 SECT13 notype       Static       | $unwind$report_namespace_conflict
+0CD 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 87A626C9, selection    5 (pick associative Section 0xB)
+0CF 00000000 SECT14 notype       Static       | $pdata$report_namespace_conflict
+0D0 00000000 SECT15 notype       Static       | .xdata
+    Section length   24, #relocs    1, #linenums    0, checksum 4944D6A5, selection    5 (pick associative Section 0x7)
+0D2 00000000 SECT15 notype       Static       | $unwind$AlterObjectRename_internal
+0D3 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum BCED518A, selection    5 (pick associative Section 0x7)
+0D5 00000000 SECT16 notype       Static       | $pdata$AlterObjectRename_internal
+0D6 00000000 UNDEF  notype       External     | InvalidObjectAddress
+0D7 00000000 UNDEF  notype       External     | object_access_hook
+0D8 00000000 UNDEF  notype       External     | MyDatabaseId
+0D9 00000000 SECT17 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 1CE93E36, selection    2 (pick any)
+0DB 00000000 SECT17 notype       External     | ??_C@_0CC@KCGHKNOD@event?5trigger?5?$CC?$CFs?$CC?5already?5exist@ (`string')
+0DC 00000000 SECT18 notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum D31DBA7D, selection    2 (pick any)
+0DE 00000000 SECT18 notype       External     | ??_C@_0CJ@ECGPMFCI@foreign?9data?5wrapper?5?$CC?$CFs?$CC?5alread@ (`string')
+0DF 00000000 SECT19 notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 36E7D11C, selection    2 (pick any)
+0E1 00000000 SECT19 notype       External     | ??_C@_0BL@NDGCHMFA@server?5?$CC?$CFs?$CC?5already?5exists?$AA@ (`string')
+0E2 00000000 SECT1A notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 129B18B0, selection    2 (pick any)
+0E4 00000000 SECT1A notype       External     | ??_C@_0BN@OGDACCGJ@language?5?$CC?$CFs?$CC?5already?5exists?$AA@ (`string')
+0E5 00000000 SECT1B notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 1A654D55, selection    2 (pick any)
+0E7 00000000 SECT1B notype       External     | ??_C@_0CA@PMJAOHAH@publication?5?$CC?$CFs?$CC?5already?5exists?$AA@ (`string')
+0E8 00000000 SECT1C notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 31C4C4D7, selection    2 (pick any)
+0EA 00000000 SECT1C notype       External     | ??_C@_0CB@LEEHABKF@subscription?5?$CC?$CFs?$CC?5already?5exists@ (`string')
+0EB 00000000 SECT1D notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum F95E7CDD, selection    2 (pick any)
+0ED 00000000 SECT1D notype       External     | ??_C@_0BF@EHKFEGKJ@report_name_conflict?$AA@ (`string')
+0EE 00000000 SECT1E notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 633868EA, selection    2 (pick any)
+0F0 00000000 SECT1E notype       External     | ??_C@_0BN@JHJDFCDD@src?1backend?1commands?1alter?4c?$AA@ (`string')
+0F1 00000000 SECT1F notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum A2CF01FD, selection    2 (pick any)
+0F3 00000000 SECT1F notype       External     | ??_C@_0BM@NNEAIJOL@unsupported?5object?5class?5?$CFu?$AA@ (`string')
+0F4 00000000 SECT20 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum FCCF075E, selection    2 (pick any)
+0F6 00000000 SECT20 notype       External     | ??_C@_0CO@EPPAEK@conversion?5?$CC?$CFs?$CC?5already?5exists?5i@ (`string')
+0F7 00000000 SECT21 notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum 1E5EF419, selection    2 (pick any)
+0F9 00000000 SECT21 notype       External     | ??_C@_0DF@PIAOHMOI@statistics?5object?5?$CC?$CFs?$CC?5already?5e@ (`string')
+0FA 00000000 SECT22 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum A259165C, selection    2 (pick any)
+0FC 00000000 SECT22 notype       External     | ??_C@_0DG@GIAFIEFO@text?5search?5parser?5?$CC?$CFs?$CC?5already?5@ (`string')
+0FD 00000000 SECT23 notype       Static       | .rdata
+    Section length   3A, #relocs    0, #linenums    0, checksum 72A7BCAA, selection    2 (pick any)
+0FF 00000000 SECT23 notype       External     | ??_C@_0DK@ELIGCBEJ@text?5search?5dictionary?5?$CC?$CFs?$CC?5alre@ (`string')
+100 00000000 SECT24 notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum 2D7B77BB, selection    2 (pick any)
+102 00000000 SECT24 notype       External     | ??_C@_0DI@BEMCNAN@text?5search?5template?5?$CC?$CFs?$CC?5alread@ (`string')
+103 00000000 SECT25 notype       Static       | .rdata
+    Section length   3D, #relocs    0, #linenums    0, checksum 843DB75A, selection    2 (pick any)
+105 00000000 SECT25 notype       External     | ??_C@_0DN@KHBPDNJD@text?5search?5configuration?5?$CC?$CFs?$CC?5a@ (`string')
+106 00000000 SECT26 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 9EF07A73, selection    2 (pick any)
+108 00000000 SECT26 notype       External     | ??_C@_0BK@MOODDLLO@report_namespace_conflict?$AA@ (`string')
+109 00000000 SECT27 notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum F5022E96, selection    2 (pick any)
+10B 00000000 SECT27 notype       External     | ??_C@_0BL@BAIHIDNK@AlterObjectRename_internal?$AA@ (`string')
+10C 00000000 SECT28 notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum CACCE4FC, selection    2 (pick any)
+10E 00000000 SECT28 notype       External     | ??_C@_0DC@CKLEGHBN@cache?5lookup?5failed?5for?5object?5?$CF@ (`string')
+10F 00000000 SECT29 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 9D865976, selection    2 (pick any)
+111 00000000 SECT29 notype       External     | ??_C@_0BP@LHAAKDJ@must?5be?5superuser?5to?5rename?5?$CFs?$AA@ (`string')
+112 00000000 SECT2A notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum D14C3B6F, selection    2 (pick any)
+114 00000000 SECT2A notype       External     | ??_C@_0P@PJGAMHHH@ExecRenameStmt?$AA@ (`string')
+115 00000000 SECT2B notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum BD85BA0F, selection    2 (pick any)
+117 00000000 SECT2B notype       External     | ??_C@_0CC@DALCJNK@unrecognized?5rename?5stmt?5type?3?5?$CF@ (`string')
+118 00000000 SECT2C notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 2726AAAA, selection    2 (pick any)
+11A 00000000 SECT2C notype       External     | ??_C@_0BK@HHDFOLGH@ExecAlterObjectSchemaStmt?$AA@ (`string')
+11B 00000000 SECT2D notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum 8FD97E90, selection    2 (pick any)
+11D 00000000 SECT2D notype       External     | ??_C@_0CM@PDACOHHD@unrecognized?5AlterObjectSchemaSt@ (`string')
+11E 00000000 SECT2E notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum BA409EF0, selection    2 (pick any)
+120 00000000 SECT2E notype       External     | ??_C@_0BO@EFLLFPLK@AlterObjectNamespace_internal?$AA@ (`string')
+121 00000000 SECT2F notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 3CAD3140, selection    2 (pick any)
+123 00000000 SECT2F notype       External     | ??_C@_0CG@FLKLFFAM@must?5be?5superuser?5to?5set?5schema?5@ (`string')
+124 00000000 SECT30 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum B26768E9, selection    2 (pick any)
+126 00000000 SECT30 notype       External     | ??_C@_0BD@JHJAFOHJ@ExecAlterOwnerStmt?$AA@ (`string')
+127 00000000 SECT31 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum A3DB1836, selection    2 (pick any)
+129 00000000 SECT31 notype       External     | ??_C@_0CF@HIPFJIKN@unrecognized?5AlterOwnerStmt?5type@ (`string')
+12A 00000000 SECT32 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 1DB0D81F, selection    2 (pick any)
+12C 00000000 SECT32 notype       External     | ??_C@_0BK@ENKDJJNC@AlterObjectOwner_internal?$AA@ (`string')
+12D 00000000 SECT33 notype       Static       | .rdata
+    Section length    3, #relocs    0, #linenums    0, checksum 6CCE09B8, selection    2 (pick any)
+12F 00000000 SECT33 notype       External     | ??_C@_02GMHACPFF@?$CFu?$AA@ (`string')
+130 00000000 UNDEF  notype       External     | __ImageBase
+131 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x1115 bytes
+
+  Summary
+
+        7DB4 .debug$S
+          68 .debug$T
+          5D .drectve
+          C0 .pdata
+         3F0 .rdata
+        215A .text$mn
+         144 .xdata

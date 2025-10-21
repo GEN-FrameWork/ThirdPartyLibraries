@@ -1,0 +1,151 @@
+
+Dump of file Release\postgres/hio.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4DEC, #relocs   6A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  6F6, #relocs   4E, #linenums    0, checksum C988E18F
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  16E, #relocs    C, #linenums    0, checksum 9C20E975, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  3D0, #relocs   26, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   9E, #relocs    6, #linenums    0, checksum E594E9D1, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  240, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  16B, #relocs   11, #linenums    0, checksum CFA4E999, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  3B4, #relocs   24, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 UNDEF  notype ()    External     | errstart
+017 00000000 UNDEF  notype ()    External     | errfinish
+018 00000000 UNDEF  notype ()    External     | errcode
+019 00000000 UNDEF  notype ()    External     | errmsg
+01A 00000000 UNDEF  notype ()    External     | elog_start
+01B 00000000 UNDEF  notype ()    External     | elog_finish
+01C 00000000 UNDEF  notype ()    External     | PageInit
+01D 00000000 UNDEF  notype ()    External     | PageAddItemExtended
+01E 00000000 UNDEF  notype ()    External     | PageGetHeapFreeSpace
+01F 00000000 SECT4  notype ()    External     | RelationPutHeapTuple
+020 00000100 SECT4  notype ()    External     | RelationGetBufferForTuple
+021 00000000 UNDEF  notype ()    External     | visibilitymap_pin
+022 00000000 UNDEF  notype ()    External     | visibilitymap_pin_ok
+023 00000000 UNDEF  notype ()    External     | ReadBuffer
+024 00000000 UNDEF  notype ()    External     | ReadBufferExtended
+025 00000000 UNDEF  notype ()    External     | ReleaseBuffer
+026 00000000 UNDEF  notype ()    External     | UnlockReleaseBuffer
+027 00000000 UNDEF  notype ()    External     | MarkBufferDirty
+028 00000000 UNDEF  notype ()    External     | IncrBufferRefCount
+029 00000000 UNDEF  notype ()    External     | BufferGetBlockNumber
+02A 00000000 UNDEF  notype ()    External     | RelationGetNumberOfBlocksInFork
+02B 00000000 UNDEF  notype ()    External     | LockBuffer
+02C 00000000 UNDEF  notype ()    External     | GetPageWithFreeSpace
+02D 00000000 UNDEF  notype ()    External     | RecordAndGetPageWithFreeSpace
+02E 00000000 UNDEF  notype ()    External     | RecordPageWithFreeSpace
+02F 00000000 UNDEF  notype ()    External     | UpdateFreeSpaceMap
+030 00000000 UNDEF  notype ()    External     | LockRelationForExtension
+031 00000000 UNDEF  notype ()    External     | UnlockRelationForExtension
+032 00000000 UNDEF  notype ()    External     | ConditionalLockRelationForExtension
+033 00000000 UNDEF  notype ()    External     | RelationExtensionLockWaiterCount
+034 00000000 UNDEF  notype ()    External     | smgropen
+035 00000000 UNDEF  notype ()    External     | smgrsetowner
+036 00000000 SECT7  notype ()    Static       | ReadBufferBI
+037 00000000 SECT5  notype ()    Static       | GetVisibilityMapPins
+038 00000000 SECT9  notype ()    Static       | RelationAddExtraBlocks
+039 00000000 SECT4  notype       Label        | $LN12
+03A 00000270 SECT4  notype       Label        | $loop$117
+03B 00000100 SECT4  notype       Label        | $LN116
+03C 00000000 SECTB  notype       Static       | .xdata
+    Section length   30, #relocs    0, #linenums    0, checksum C657977B
+03E 00000000 SECTB  notype       Static       | $unwind$RelationPutHeapTuple
+03F 00000000 SECTC  notype       Static       | .pdata
+    Section length   18, #relocs    6, #linenums    0, checksum E485F961
+041 00000000 SECTC  notype       Static       | $pdata$RelationPutHeapTuple
+042 00000018 SECTB  notype       Static       | $unwind$RelationGetBufferForTuple
+043 0000000C SECTC  notype       Static       | $pdata$RelationGetBufferForTuple
+044 00000000 SECTD  notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 815B1B44, selection    5 (pick associative Section 0x7)
+046 00000000 SECTD  notype       Static       | $unwind$ReadBufferBI
+047 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3A0AA6C3, selection    5 (pick associative Section 0x7)
+049 00000000 SECTE  notype       Static       | $pdata$ReadBufferBI
+04A 00000000 SECTF  notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum  B87DB6D, selection    5 (pick associative Section 0x5)
+04C 00000000 SECTF  notype       Static       | $unwind$GetVisibilityMapPins
+04D 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6316B93D, selection    5 (pick associative Section 0x5)
+04F 00000000 SECT10 notype       Static       | $pdata$GetVisibilityMapPins
+050 00000000 SECT11 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 1175A591, selection    5 (pick associative Section 0x9)
+052 00000000 SECT11 notype       Static       | $unwind$RelationAddExtraBlocks
+053 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum CD2D5D19, selection    5 (pick associative Section 0x9)
+055 00000000 SECT12 notype       Static       | $pdata$RelationAddExtraBlocks
+056 00000000 SECT13 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 40AEFC71, selection    5 (pick associative Section 0x9)
+058 00000000 SECT13 notype       Static       | $chain$0$RelationAddExtraBlocks
+059 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D9ACB2D2, selection    5 (pick associative Section 0x9)
+05B 00000000 SECT14 notype       Static       | $pdata$0$RelationAddExtraBlocks
+05C 00000000 SECT15 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 8B1EB72F, selection    5 (pick associative Section 0x9)
+05E 00000000 SECT15 notype       Static       | $chain$1$RelationAddExtraBlocks
+05F 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F1B49428, selection    5 (pick associative Section 0x9)
+061 00000000 SECT16 notype       Static       | $pdata$1$RelationAddExtraBlocks
+062 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 60FB583E, selection    5 (pick associative Section 0x9)
+064 00000000 SECT17 notype       Static       | $chain$2$RelationAddExtraBlocks
+065 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3D621568, selection    5 (pick associative Section 0x9)
+067 00000000 SECT18 notype       Static       | $pdata$2$RelationAddExtraBlocks
+068 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 747AB7F5, selection    5 (pick associative Section 0x9)
+06A 00000000 SECT19 notype       Static       | $chain$3$RelationAddExtraBlocks
+06B 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D00F446B, selection    5 (pick associative Section 0x9)
+06D 00000000 SECT1A notype       Static       | $pdata$3$RelationAddExtraBlocks
+06E 00000000 UNDEF  notype       External     | BufferBlocks
+06F 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+070 00000000 SECT1B notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 7A98878B, selection    2 (pick any)
+072 00000000 SECT1B notype       External     | ??_C@_0BF@MEGDLNPP@RelationPutHeapTuple?$AA@ (`string')
+073 00000000 SECT1C notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum BA60C646, selection    2 (pick any)
+075 00000000 SECT1C notype       External     | ??_C@_0BO@EFJLAHAM@src?1backend?1access?1heap?1hio?4c?$AA@ (`string')
+076 00000000 SECT1D notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 74AA539C, selection    2 (pick any)
+078 00000000 SECT1D notype       External     | ??_C@_0BM@LCFNLIK@failed?5to?5add?5tuple?5to?5page?$AA@ (`string')
+079 00000000 SECT1E notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 39EF0C30, selection    2 (pick any)
+07B 00000000 SECT1E notype       External     | ??_C@_0BK@GJPMENPN@RelationGetBufferForTuple?$AA@ (`string')
+07C 00000000 SECT1F notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum C8529CE3, selection    2 (pick any)
+07E 00000000 SECT1F notype       External     | ??_C@_0CL@MPCEMICN@row?5is?5too?5big?3?5size?5?$CFzu?0?5maximu@ (`string')
+07F 00000000 SECT20 notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum 403660EB, selection    2 (pick any)
+081 00000000 SECT20 notype       External     | ??_C@_0DE@HDOCJAKE@page?5?$CFu?5of?5relation?5?$CC?$CFs?$CC?5should?5@ (`string')
+082 00000000 SECT21 notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 88292318, selection    2 (pick any)
+084 00000000 SECT21 notype       External     | ??_C@_0BL@GNKMIOFE@tuple?5is?5too?5big?3?5size?5?$CFzu?$AA@ (`string')
+
+String Table Size = 0x644 bytes
+
+  Summary
+
+        57B0 .debug$S
+          68 .debug$T
+          5D .drectve
+          6C .pdata
+          E3 .rdata
+         A6D .text$mn
+          B8 .xdata

@@ -1,0 +1,183 @@
+
+Dump of file Release\postgres/placeholder.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4C18, #relocs   CA, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  62B, #relocs   35, #linenums    0, checksum D2B84723
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   69, #relocs    3, #linenums    0, checksum E3930F2D, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  200, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  166, #relocs    E, #linenums    0, checksum 16847598, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  40C, #relocs   2C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | elog_start
+013 00000000 UNDEF  notype ()    External     | elog_finish
+014 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+015 00000000 UNDEF  notype ()    External     | bms_copy
+016 00000000 UNDEF  notype ()    External     | bms_difference
+017 00000000 UNDEF  notype ()    External     | bms_is_subset
+018 00000000 UNDEF  notype ()    External     | bms_overlap
+019 00000000 UNDEF  notype ()    External     | bms_nonempty_difference
+01A 00000000 UNDEF  notype ()    External     | bms_get_singleton_member
+01B 00000000 UNDEF  notype ()    External     | bms_is_empty
+01C 00000000 UNDEF  notype ()    External     | bms_add_members
+01D 00000000 UNDEF  notype ()    External     | bms_int_members
+01E 00000000 UNDEF  notype ()    External     | copyObjectImpl
+01F 00000000 UNDEF  notype ()    External     | lappend
+020 00000000 UNDEF  notype ()    External     | list_free
+021 00000000 UNDEF  notype ()    External     | exprType
+022 00000000 UNDEF  notype ()    External     | exprTypmod
+023 00000000 UNDEF  notype ()    External     | cost_qual_eval_node
+024 00000000 UNDEF  notype ()    External     | find_base_rel
+025 00000000 SECT4  notype ()    External     | make_placeholder_expr
+026 00000070 SECT4  notype ()    External     | find_placeholder_info
+027 00000200 SECT4  notype ()    External     | find_placeholders_in_jointree
+028 00000220 SECT4  notype ()    External     | update_placeholder_eval_levels
+029 000003B0 SECT4  notype ()    External     | fix_placeholder_input_needed_levels
+02A 00000440 SECT4  notype ()    External     | add_placeholders_to_base_rels
+02B 000004F0 SECT4  notype ()    External     | add_placeholders_to_joinrel
+02C 00000000 UNDEF  notype ()    External     | add_vars_to_targetlist
+02D 00000000 UNDEF  notype ()    External     | pull_varnos
+02E 00000000 UNDEF  notype ()    External     | pull_var_clause
+02F 00000000 UNDEF  notype ()    External     | get_typavgwidth
+030 00000000 SECT7  notype ()    Static       | find_placeholders_recurse
+031 00000000 SECT5  notype ()    Static       | find_placeholders_in_expr
+032 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+033 00000000 UNDEF  notype ()    External     | __security_check_cookie
+034 00000000 SECT4  notype       Label        | $LN4
+035 00000070 SECT4  notype       Label        | $LN34
+036 00000220 SECT4  notype       Label        | $LN42
+037 000003B0 SECT4  notype       Label        | $LN15
+038 00000440 SECT4  notype       Label        | $LN16
+039 000004F0 SECT4  notype       Label        | $LN18
+03A 00000000 SECT9  notype       Static       | .xdata
+    Section length  150, #relocs   25, #linenums    0, checksum CE663A15
+03C 00000000 SECT9  notype       Static       | $unwind$make_placeholder_expr
+03D 00000000 SECTA  notype       Static       | .pdata
+    Section length   D8, #relocs   36, #linenums    0, checksum BEBD949D
+03F 00000000 SECTA  notype       Static       | $pdata$make_placeholder_expr
+040 00000010 SECT9  notype       Static       | $unwind$find_placeholder_info
+041 0000000C SECTA  notype       Static       | $pdata$find_placeholder_info
+042 0000001C SECT9  notype       Static       | $chain$1$find_placeholder_info
+043 00000018 SECTA  notype       Static       | $pdata$1$find_placeholder_info
+044 00000034 SECT9  notype       Static       | $chain$2$find_placeholder_info
+045 00000024 SECTA  notype       Static       | $pdata$2$find_placeholder_info
+046 00000044 SECT9  notype       Static       | $unwind$update_placeholder_eval_levels
+047 00000030 SECTA  notype       Static       | $pdata$update_placeholder_eval_levels
+048 00000050 SECT9  notype       Static       | $chain$0$update_placeholder_eval_levels
+049 0000003C SECTA  notype       Static       | $pdata$0$update_placeholder_eval_levels
+04A 00000064 SECT9  notype       Static       | $chain$5$update_placeholder_eval_levels
+04B 00000048 SECTA  notype       Static       | $pdata$5$update_placeholder_eval_levels
+04C 00000088 SECT9  notype       Static       | $chain$6$update_placeholder_eval_levels
+04D 00000054 SECTA  notype       Static       | $pdata$6$update_placeholder_eval_levels
+04E 00000098 SECT9  notype       Static       | $chain$7$update_placeholder_eval_levels
+04F 00000060 SECTA  notype       Static       | $pdata$7$update_placeholder_eval_levels
+050 000000A8 SECT9  notype       Static       | $unwind$fix_placeholder_input_needed_levels
+051 0000006C SECTA  notype       Static       | $pdata$fix_placeholder_input_needed_levels
+052 000000B4 SECT9  notype       Static       | $chain$1$fix_placeholder_input_needed_levels
+053 00000078 SECTA  notype       Static       | $pdata$1$fix_placeholder_input_needed_levels
+054 000000CC SECT9  notype       Static       | $chain$2$fix_placeholder_input_needed_levels
+055 00000084 SECTA  notype       Static       | $pdata$2$fix_placeholder_input_needed_levels
+056 000000DC SECT9  notype       Static       | $unwind$add_placeholders_to_base_rels
+057 00000090 SECTA  notype       Static       | $pdata$add_placeholders_to_base_rels
+058 000000E8 SECT9  notype       Static       | $chain$1$add_placeholders_to_base_rels
+059 0000009C SECTA  notype       Static       | $pdata$1$add_placeholders_to_base_rels
+05A 00000100 SECT9  notype       Static       | $chain$2$add_placeholders_to_base_rels
+05B 000000A8 SECTA  notype       Static       | $pdata$2$add_placeholders_to_base_rels
+05C 00000110 SECT9  notype       Static       | $unwind$add_placeholders_to_joinrel
+05D 000000B4 SECTA  notype       Static       | $pdata$add_placeholders_to_joinrel
+05E 0000012C SECT9  notype       Static       | $chain$0$add_placeholders_to_joinrel
+05F 000000C0 SECTA  notype       Static       | $pdata$0$add_placeholders_to_joinrel
+060 00000140 SECT9  notype       Static       | $chain$1$add_placeholders_to_joinrel
+061 000000CC SECTA  notype       Static       | $pdata$1$add_placeholders_to_joinrel
+062 00000000 SECTB  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 874C8425, selection    5 (pick associative Section 0x7)
+064 00000000 SECTB  notype       Static       | $unwind$find_placeholders_recurse
+065 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3F196BD1, selection    5 (pick associative Section 0x7)
+067 00000000 SECTC  notype       Static       | $pdata$find_placeholders_recurse
+068 00000000 SECTD  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum BF9CB4B7, selection    5 (pick associative Section 0x7)
+06A 00000000 SECTD  notype       Static       | $chain$0$find_placeholders_recurse
+06B 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3EB5B394, selection    5 (pick associative Section 0x7)
+06D 00000000 SECTE  notype       Static       | $pdata$0$find_placeholders_recurse
+06E 00000000 SECTF  notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum FB4FE41B, selection    5 (pick associative Section 0x7)
+070 00000000 SECTF  notype       Static       | $chain$2$find_placeholders_recurse
+071 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2786165F, selection    5 (pick associative Section 0x7)
+073 00000000 SECT10 notype       Static       | $pdata$2$find_placeholders_recurse
+074 00000000 SECT11 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum FB4FE41B, selection    5 (pick associative Section 0x7)
+076 00000000 SECT11 notype       Static       | $chain$4$find_placeholders_recurse
+077 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 9DB3087D, selection    5 (pick associative Section 0x7)
+079 00000000 SECT12 notype       Static       | $pdata$4$find_placeholders_recurse
+07A 00000000 SECT13 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 864E813D, selection    5 (pick associative Section 0x7)
+07C 00000000 SECT13 notype       Static       | $chain$5$find_placeholders_recurse
+07D 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3C94834A, selection    5 (pick associative Section 0x7)
+07F 00000000 SECT14 notype       Static       | $pdata$5$find_placeholders_recurse
+080 00000000 SECT15 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum CDD0F737, selection    5 (pick associative Section 0x5)
+082 00000000 SECT15 notype       Static       | $unwind$find_placeholders_in_expr
+083 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B1966C32, selection    5 (pick associative Section 0x5)
+085 00000000 SECT16 notype       Static       | $pdata$find_placeholders_in_expr
+086 00000000 SECT17 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 3113B354, selection    5 (pick associative Section 0x5)
+088 00000000 SECT17 notype       Static       | $chain$0$find_placeholders_in_expr
+089 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DF715637, selection    5 (pick associative Section 0x5)
+08B 00000000 SECT18 notype       Static       | $pdata$0$find_placeholders_in_expr
+08C 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum  8C186DE, selection    5 (pick associative Section 0x5)
+08E 00000000 SECT19 notype       Static       | $chain$1$find_placeholders_in_expr
+08F 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 87470813, selection    5 (pick associative Section 0x5)
+091 00000000 SECT1A notype       Static       | $pdata$1$find_placeholders_in_expr
+092 00000000 UNDEF  notype       External     | CurrentMemoryContext
+093 00000000 UNDEF  notype       External     | newNodeMacroHolder
+094 00000000 SECT1B notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum  5FCAC2E, selection    2 (pick any)
+096 00000000 SECT1B notype       External     | ??_C@_0BG@FCCKOCDB@find_placeholder_info?$AA@ (`string')
+097 00000000 SECT1C notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum B6918C25, selection    2 (pick any)
+099 00000000 SECT1C notype       External     | ??_C@_0CJ@CHODPDHA@src?1backend?1optimizer?1util?1place@ (`string')
+09A 00000000 SECT1D notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum 1A75E7B1, selection    2 (pick any)
+09C 00000000 SECT1D notype       External     | ??_C@_0CJ@ILAHJIOE@too?5late?5to?5create?5a?5new?5PlaceHo@ (`string')
+09D 00000000 SECT1E notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 83A1CCF0, selection    2 (pick any)
+09F 00000000 SECT1E notype       External     | ??_C@_0BK@NDLCINDN@find_placeholders_recurse?$AA@ (`string')
+0A0 00000000 SECT1F notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 37C5203E, selection    2 (pick any)
+0A2 00000000 SECT1F notype       External     | ??_C@_0BL@NCEAINHC@unrecognized?5node?5type?3?5?$CFd?$AA@ (`string')
+0A3 00000000 UNDEF  notype       External     | __security_cookie
+0A4 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0xB2B bytes
+
+  Summary
+
+        5224 .debug$S
+          68 .debug$T
+          5D .drectve
+         138 .pdata
+          9D .rdata
+         7FA .text$mn
+         1D8 .xdata

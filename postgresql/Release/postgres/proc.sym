@@ -1,0 +1,359 @@
+
+Dump of file Release\postgres/proc.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   BC, #relocs    0, #linenums    0, checksum AA8D0CC2
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 7E84, #relocs  1F0, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .bss
+    Section length   50, #relocs    0, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       External     | MyProc
+00B 00000008 SECT4  notype       External     | MyPgXact
+00C 00000010 SECT4  notype       External     | ProcGlobal
+00D 00000018 SECT4  notype       External     | PreparedXactProcs
+00E 00000000 SECT5  notype       Static       | .data
+    Section length    4, #relocs    0, #linenums    0, checksum 118DD78E
+010 00000000 SECT5  notype       External     | DeadlockTimeout
+011 00000020 SECT4  notype       External     | StatementTimeout
+012 00000024 SECT4  notype       External     | LockTimeout
+013 00000028 SECT4  notype       External     | IdleInTransactionSessionTimeout
+014 0000002C SECT4  notype       External     | log_lock_waits
+015 00000030 SECT4  notype       External     | ProcStructLock
+016 00000038 SECT4  notype       External     | AuxiliaryProcs
+017 00000000 SECT6  notype       Static       | .text$mn
+    Section length 1DB7, #relocs  1F6, #linenums    0, checksum C79F566C
+019 00000000 SECT7  notype       Static       | .text$mn
+    Section length   A3, #relocs    B, #linenums    0, checksum 1E83AC0B, selection    1 (pick no duplicates)
+01B 00000000 SECT8  notype       Static       | .debug$S
+    Section length  144, #relocs    A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+01D 00000000 UNDEF  notype       External     | __imp__errno
+01E 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+01F 00000000 UNDEF  notype ()    External     | pgkill
+020 00000000 UNDEF  notype ()    External     | errstart
+021 00000000 UNDEF  notype ()    External     | errfinish
+022 00000000 UNDEF  notype ()    External     | errcode
+023 00000000 UNDEF  notype ()    External     | errmsg
+024 00000000 UNDEF  notype ()    External     | errdetail_log
+025 00000000 UNDEF  notype ()    External     | errdetail_log_plural
+026 00000000 UNDEF  notype ()    External     | elog_start
+027 00000000 UNDEF  notype ()    External     | elog_finish
+028 00000000 UNDEF  notype ()    External     | pfree
+029 00000000 UNDEF  notype ()    External     | s_lock
+02A 00000000 UNDEF  notype ()    External     | set_spins_per_delay
+02B 00000000 UNDEF  notype ()    External     | update_spins_per_delay
+02C 00000000 UNDEF  notype ()    External     | LWLockAcquire
+02D 00000000 UNDEF  notype ()    External     | LWLockRelease
+02E 00000000 UNDEF  notype ()    External     | LWLockReleaseAll
+02F 00000000 UNDEF  notype ()    External     | InitLWLockAccess
+030 00000000 UNDEF  notype ()    External     | LWLockInitialize
+031 00000000 UNDEF  notype ()    External     | ShmemAlloc
+032 00000000 UNDEF  notype ()    External     | ShmemInitStruct
+033 00000000 UNDEF  notype ()    External     | add_size
+034 00000000 UNDEF  notype ()    External     | mul_size
+035 00000000 UNDEF  notype ()    External     | SHMQueueInit
+036 00000000 UNDEF  notype ()    External     | SHMQueueElemInit
+037 00000000 UNDEF  notype ()    External     | SHMQueueDelete
+038 00000000 UNDEF  notype ()    External     | SHMQueueInsertBefore
+039 00000000 UNDEF  notype ()    External     | SHMQueueNext
+03A 00000000 UNDEF  notype ()    External     | LockTagHashCode
+03B 00000000 UNDEF  notype ()    External     | AbortStrongLockAcquire
+03C 00000000 UNDEF  notype ()    External     | LockReleaseAll
+03D 00000000 UNDEF  notype ()    External     | LockCheckConflicts
+03E 00000000 UNDEF  notype ()    External     | GrantLock
+03F 00000000 UNDEF  notype ()    External     | GrantAwaitedLock
+040 00000000 UNDEF  notype ()    External     | RemoveFromWaitQueue
+041 00000000 UNDEF  notype ()    External     | GetLockmodeName
+042 00000000 UNDEF  notype ()    External     | DeadLockCheck
+043 00000000 UNDEF  notype ()    External     | GetBlockingAutoVacuumPgproc
+044 00000000 UNDEF  notype ()    External     | RememberSimpleDeadLock
+045 00000000 UNDEF  notype ()    External     | InitDeadLockChecking
+046 00000000 UNDEF  notype ()    External     | initStringInfo
+047 00000000 UNDEF  notype ()    External     | appendStringInfo
+048 00000000 UNDEF  notype ()    External     | GetCurrentTimestamp
+049 00000000 UNDEF  notype ()    External     | TimestampDifference
+04A 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+04B 00000000 UNDEF  notype ()    External     | SwitchToSharedLatch
+04C 00000000 UNDEF  notype ()    External     | SwitchBackToLocalLatch
+04D 00000000 UNDEF  notype ()    External     | InitSharedLatch
+04E 00000000 UNDEF  notype ()    External     | OwnLatch
+04F 00000000 UNDEF  notype ()    External     | DisownLatch
+050 00000000 UNDEF  notype ()    External     | SetLatch
+051 00000000 UNDEF  notype ()    External     | ResetLatch
+052 00000000 UNDEF  notype ()    External     | WaitLatch
+053 00000000 UNDEF  notype ()    External     | PGSemaphoreCreate
+054 00000000 UNDEF  notype ()    External     | PGSemaphoreReset
+055 00000000 SECT6  notype ()    External     | ProcGlobalSemas
+056 00000010 SECT6  notype ()    External     | ProcGlobalShmemSize
+057 000000F0 SECT6  notype ()    External     | InitProcGlobal
+058 00000470 SECT6  notype ()    External     | InitProcess
+059 000007C0 SECT6  notype ()    External     | InitProcessPhase2
+05A 000007F0 SECT6  notype ()    External     | InitAuxiliaryProcess
+05B 00000A60 SECT6  notype ()    External     | PublishStartupProcessInformation
+05C 00000AE0 SECT6  notype ()    External     | SetStartupBufferPinWaitBufId
+05D 00000B00 SECT6  notype ()    External     | GetStartupBufferPinWaitBufId
+05E 00000B20 SECT6  notype ()    External     | HaveNFreeProcs
+05F 00000BA0 SECT6  notype ()    External     | ProcReleaseLocks
+060 00000BF0 SECT6  notype ()    External     | ProcQueueInit
+061 00000C20 SECT6  notype ()    External     | ProcSleep
+062 00001580 SECT6  notype ()    External     | ProcWakeup
+063 00001600 SECT6  notype ()    External     | ProcLockWakeup
+064 000016F0 SECT6  notype ()    External     | CheckDeadLockAlert
+065 00001730 SECT6  notype ()    External     | IsWaitingForLock
+066 00001750 SECT6  notype ()    External     | LockErrorCleanup
+067 00001820 SECT6  notype ()    External     | ProcWaitForSignal
+068 00001880 SECT6  notype ()    External     | ProcSendSignal
+069 00001920 SECT6  notype ()    External     | AuxiliaryPidGetProc
+06A 00001960 SECT6  notype ()    External     | BecomeLockGroupLeader
+06B 00001A10 SECT6  notype ()    External     | BecomeLockGroupMember
+06C 00000000 UNDEF  notype ()    External     | IsAutoVacuumLauncherProcess
+06D 00000000 UNDEF  notype ()    External     | IsAutoVacuumWorkerProcess
+06E 00000000 UNDEF  notype ()    External     | RecoveryInProgress
+06F 00000000 UNDEF  notype ()    External     | ConditionVariableCancelSleep
+070 00000000 UNDEF  notype ()    External     | ReplicationSlotRelease
+071 00000000 UNDEF  notype ()    External     | ReplicationSlotCleanup
+072 00000000 UNDEF  notype ()    External     | SyncRepCleanupAtProcExit
+073 00000000 UNDEF  notype ()    External     | ResolveRecoveryConflictWithLock
+074 00000000 UNDEF  notype ()    External     | CheckRecoveryConflictDeadlock
+075 00000000 UNDEF  notype ()    External     | on_shmem_exit
+076 00000000 UNDEF  notype ()    External     | DescribeLockTag
+077 00000000 UNDEF  notype ()    External     | MarkPostmasterChildActive
+078 00000000 UNDEF  notype ()    External     | MarkPostmasterChildInactive
+079 00000000 UNDEF  notype ()    External     | ProcArrayAdd
+07A 00000000 UNDEF  notype ()    External     | ProcArrayRemove
+07B 00000000 UNDEF  notype ()    External     | BackendPidGetProc
+07C 00000000 UNDEF  notype ()    External     | enable_timeout_after
+07D 00000000 UNDEF  notype ()    External     | enable_timeouts
+07E 00000000 UNDEF  notype ()    External     | disable_timeout
+07F 00000000 UNDEF  notype ()    External     | disable_timeouts
+080 00000000 UNDEF  notype ()    External     | get_timeout_start_time
+081 00001AE0 SECT6  notype ()    Static       | RemoveProcFromArray
+082 00001B00 SECT6  notype ()    Static       | ProcKill
+083 00001D20 SECT6  notype ()    Static       | AuxiliaryProcKill
+084 00000000 SECT7  notype ()    Static       | CheckDeadLock
+085 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+086 00000000 UNDEF  notype ()    External     | __security_check_cookie
+087 00000000 UNDEF  notype ()    External     | memset
+088 00000010 SECT6  notype       Label        | $LN4
+089 000000F0 SECT6  notype       Label        | $LN62
+08A 00000470 SECT6  notype       Label        | $LN43
+08B 000007C0 SECT6  notype       Label        | $LN4
+08C 000007F0 SECT6  notype       Label        | $LN37
+08D 00000A60 SECT6  notype       Label        | $LN9
+08E 00000B20 SECT6  notype       Label        | $LN16
+08F 00000BA0 SECT6  notype       Label        | $LN5
+090 00000BF0 SECT6  notype       Label        | $LN4
+091 00000C20 SECT6  notype       Label        | $LN147
+092 00001580 SECT6  notype       Label        | $LN6
+093 00001600 SECT6  notype       Label        | $LN18
+094 000016F0 SECT6  notype       Label        | $LN4
+095 00001750 SECT6  notype       Label        | $LN15
+096 00001820 SECT6  notype       Label        | $LN9
+097 00001880 SECT6  notype       Label        | $LN15
+098 00001960 SECT6  notype       Label        | $LN11
+099 00001A10 SECT6  notype       Label        | $LN11
+09A 0000006F SECT7  notype       Label        | $check_done$21
+09B 00000000 SECT9  notype       Static       | .xdata
+    Section length  220, #relocs   31, #linenums    0, checksum  DAF3D19
+09D 00000000 SECT9  notype       Static       | $unwind$ProcGlobalShmemSize
+09E 00000000 SECTA  notype       Static       | .pdata
+    Section length  1B0, #relocs   6C, #linenums    0, checksum AA5E458C
+0A0 00000000 SECTA  notype       Static       | $pdata$ProcGlobalShmemSize
+0A1 00000008 SECT9  notype       Static       | $unwind$InitProcGlobal
+0A2 0000000C SECTA  notype       Static       | $pdata$InitProcGlobal
+0A3 00000018 SECT9  notype       Static       | $chain$1$InitProcGlobal
+0A4 00000018 SECTA  notype       Static       | $pdata$1$InitProcGlobal
+0A5 00000030 SECT9  notype       Static       | $chain$2$InitProcGlobal
+0A6 00000024 SECTA  notype       Static       | $pdata$2$InitProcGlobal
+0A7 00000040 SECT9  notype       Static       | $unwind$InitProcess
+0A8 00000030 SECTA  notype       Static       | $pdata$InitProcess
+0A9 0000004C SECT9  notype       Static       | $unwind$InitProcessPhase2
+0AA 0000003C SECTA  notype       Static       | $pdata$InitProcessPhase2
+0AB 00000054 SECT9  notype       Static       | $unwind$InitAuxiliaryProcess
+0AC 00000048 SECTA  notype       Static       | $pdata$InitAuxiliaryProcess
+0AD 00000064 SECT9  notype       Static       | $unwind$PublishStartupProcessInformation
+0AE 00000054 SECTA  notype       Static       | $pdata$PublishStartupProcessInformation
+0AF 0000006C SECT9  notype       Static       | $unwind$HaveNFreeProcs
+0B0 00000060 SECTA  notype       Static       | $pdata$HaveNFreeProcs
+0B1 00000074 SECT9  notype       Static       | $unwind$ProcReleaseLocks
+0B2 0000006C SECTA  notype       Static       | $pdata$ProcReleaseLocks
+0B3 0000007C SECT9  notype       Static       | $unwind$ProcQueueInit
+0B4 00000078 SECTA  notype       Static       | $pdata$ProcQueueInit
+0B5 00000084 SECT9  notype       Static       | $unwind$ProcSleep
+0B6 00000084 SECTA  notype       Static       | $pdata$ProcSleep
+0B7 000000A8 SECT9  notype       Static       | $unwind$ProcWakeup
+0B8 00000090 SECTA  notype       Static       | $pdata$ProcWakeup
+0B9 000000B8 SECT9  notype       Static       | $unwind$ProcLockWakeup
+0BA 0000009C SECTA  notype       Static       | $pdata$ProcLockWakeup
+0BB 000000CC SECT9  notype       Static       | $chain$0$ProcLockWakeup
+0BC 000000A8 SECTA  notype       Static       | $pdata$0$ProcLockWakeup
+0BD 000000E0 SECT9  notype       Static       | $chain$1$ProcLockWakeup
+0BE 000000B4 SECTA  notype       Static       | $pdata$1$ProcLockWakeup
+0BF 000000F4 SECT9  notype       Static       | $chain$2$ProcLockWakeup
+0C0 000000C0 SECTA  notype       Static       | $pdata$2$ProcLockWakeup
+0C1 00000104 SECT9  notype       Static       | $chain$3$ProcLockWakeup
+0C2 000000CC SECTA  notype       Static       | $pdata$3$ProcLockWakeup
+0C3 00000114 SECT9  notype       Static       | $unwind$CheckDeadLockAlert
+0C4 000000D8 SECTA  notype       Static       | $pdata$CheckDeadLockAlert
+0C5 0000011C SECT9  notype       Static       | $unwind$LockErrorCleanup
+0C6 000000E4 SECTA  notype       Static       | $pdata$LockErrorCleanup
+0C7 00000124 SECT9  notype       Static       | $chain$0$LockErrorCleanup
+0C8 000000F0 SECTA  notype       Static       | $pdata$0$LockErrorCleanup
+0C9 00000138 SECT9  notype       Static       | $chain$1$LockErrorCleanup
+0CA 000000FC SECTA  notype       Static       | $pdata$1$LockErrorCleanup
+0CB 00000148 SECT9  notype       Static       | $unwind$ProcWaitForSignal
+0CC 00000108 SECTA  notype       Static       | $pdata$ProcWaitForSignal
+0CD 00000150 SECT9  notype       Static       | $unwind$ProcSendSignal
+0CE 00000114 SECTA  notype       Static       | $pdata$ProcSendSignal
+0CF 0000015C SECT9  notype       Static       | $unwind$BecomeLockGroupLeader
+0D0 00000120 SECTA  notype       Static       | $pdata$BecomeLockGroupLeader
+0D1 00000164 SECT9  notype       Static       | $chain$0$BecomeLockGroupLeader
+0D2 0000012C SECTA  notype       Static       | $pdata$0$BecomeLockGroupLeader
+0D3 00000178 SECT9  notype       Static       | $chain$1$BecomeLockGroupLeader
+0D4 00000138 SECTA  notype       Static       | $pdata$1$BecomeLockGroupLeader
+0D5 00000188 SECT9  notype       Static       | $unwind$BecomeLockGroupMember
+0D6 00000144 SECTA  notype       Static       | $pdata$BecomeLockGroupMember
+0D7 0000019C SECT9  notype       Static       | $unwind$ProcKill
+0D8 00000150 SECTA  notype       Static       | $pdata$ProcKill
+0D9 000001A4 SECT9  notype       Static       | $chain$2$ProcKill
+0DA 0000015C SECTA  notype       Static       | $pdata$2$ProcKill
+0DB 000001C0 SECT9  notype       Static       | $chain$3$ProcKill
+0DC 00000168 SECTA  notype       Static       | $pdata$3$ProcKill
+0DD 000001D4 SECT9  notype       Static       | $chain$4$ProcKill
+0DE 00000174 SECTA  notype       Static       | $pdata$4$ProcKill
+0DF 000001E8 SECT9  notype       Static       | $chain$5$ProcKill
+0E0 00000180 SECTA  notype       Static       | $pdata$5$ProcKill
+0E1 000001F8 SECT9  notype       Static       | $chain$6$ProcKill
+0E2 0000018C SECTA  notype       Static       | $pdata$6$ProcKill
+0E3 00000208 SECT9  notype       Static       | $chain$7$ProcKill
+0E4 00000198 SECTA  notype       Static       | $pdata$7$ProcKill
+0E5 00000218 SECT9  notype       Static       | $unwind$AuxiliaryProcKill
+0E6 000001A4 SECTA  notype       Static       | $pdata$AuxiliaryProcKill
+0E7 00000000 SECTB  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0x7)
+0E9 00000000 SECTB  notype       Static       | $unwind$CheckDeadLock
+0EA 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 24C2E06F, selection    5 (pick associative Section 0x7)
+0EC 00000000 SECTC  notype       Static       | $pdata$CheckDeadLock
+0ED 00000000 UNDEF  notype       External     | pg_signal_queue
+0EE 00000000 UNDEF  notype       External     | pg_signal_mask
+0EF 00000000 UNDEF  notype       External     | MainLWLockArray
+0F0 00000000 UNDEF  notype       External     | max_prepared_xacts
+0F1 00000000 UNDEF  notype       External     | InterruptPending
+0F2 00000000 UNDEF  notype       External     | InterruptHoldoffCount
+0F3 00000000 UNDEF  notype       External     | IsUnderPostmaster
+0F4 00000000 UNDEF  notype       External     | IsBackgroundWorker
+0F5 00000000 UNDEF  notype       External     | MaxBackends
+0F6 00000000 UNDEF  notype       External     | MaxConnections
+0F7 00000000 UNDEF  notype       External     | MyProcPid
+0F8 00000000 UNDEF  notype       External     | MyLatch
+0F9 00000000 UNDEF  notype       External     | autovacuum_max_workers
+0FA 00000000 UNDEF  notype       External     | AutovacuumLauncherPid
+0FB 00000000 UNDEF  notype       External     | InRecovery
+0FC 00000000 UNDEF  notype       External     | standbyState
+0FD 00000000 UNDEF  notype       External     | MyReplicationSlot
+0FE 00000040 SECT4  notype       Static       | lockAwaited
+0FF 00000048 SECT4  notype       Static       | deadlock_state
+100 0000004C SECT4  notype       Static       | got_deadlock_timeout
+101 00000000 SECTD  notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 4A9FB815, selection    2 (pick any)
+103 00000000 SECTD  notype       External     | ??_C@_0M@MOLFIBIF@Proc?5Header?$AA@ (`string')
+104 00000000 SECTE  notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 7869F4E7, selection    2 (pick any)
+106 00000000 SECTE  notype       External     | ??_C@_0M@PMEDMNHH@InitProcess?$AA@ (`string')
+107 00000000 SECTF  notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum D6992AC7, selection    2 (pick any)
+109 00000000 SECTF  notype       External     | ??_C@_0CA@DAGMIAJF@src?1backend?1storage?1lmgr?1proc?4c?$AA@ (`string')
+10A 00000000 SECT10 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 4A3622EB, selection    2 (pick any)
+10C 00000000 SECT10 notype       External     | ??_C@_0BK@BKCFGDCG@proc?5header?5uninitialized?$AA@ (`string')
+10D 00000000 SECT11 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 4CC67B50, selection    2 (pick any)
+10F 00000000 SECT11 notype       External     | ??_C@_0BC@NECCELOC@you?5already?5exist?$AA@ (`string')
+110 00000000 SECT12 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 4925134D, selection    2 (pick any)
+112 00000000 SECT12 notype       External     | ??_C@_0CA@KPNALJBP@sorry?0?5too?5many?5clients?5already?$AA@ (`string')
+113 00000000 SECT13 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum D253BB02, selection    2 (pick any)
+115 00000000 SECT13 notype       External     | ??_C@_0BF@GMKIIBHG@InitAuxiliaryProcess?$AA@ (`string')
+116 00000000 SECT14 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 269A34EC, selection    2 (pick any)
+118 00000000 SECT14 notype       External     | ??_C@_0BO@NJGBPFKG@all?5AuxiliaryProcs?5are?5in?5use?$AA@ (`string')
+119 00000000 SECT15 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 45B90FBA, selection    2 (pick any)
+11B 00000000 SECT15 notype       External     | ??_C@_0CB@MADKMKMI@PublishStartupProcessInformation@ (`string')
+11C 00000000 SECT16 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 94500165, selection    2 (pick any)
+11E 00000000 SECT16 notype       External     | ??_C@_0P@LMHMPNHN@HaveNFreeProcs?$AA@ (`string')
+11F 00000000 SECT17 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 8E31515D, selection    2 (pick any)
+121 00000000 SECT17 notype       External     | ??_C@_08JHMHLKAM@ProcKill?$AA@ (`string')
+122 00000000 SECT18 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum E366604C, selection    2 (pick any)
+124 00000000 SECT18 notype       External     | ??_C@_0BC@HLICFAPO@AuxiliaryProcKill?$AA@ (`string')
+125 00000000 SECT19 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 1540CE2B, selection    2 (pick any)
+127 00000000 SECT19 notype       External     | ??_C@_0BP@IDLGJNGE@Process?5?$CFd?5waits?5for?5?$CFs?5on?5?$CFs?4?$AA@ (`string')
+128 00000000 SECT1A notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum 6FD71E6D, selection    2 (pick any)
+12A 00000000 SECT1A notype       External     | ??_C@_09HDKCIJOE@ProcSleep?$AA@ (`string')
+12B 00000000 SECT1B notype       Static       | .rdata
+    Section length    3, #relocs    0, #linenums    0, checksum 3A94AE3E, selection    2 (pick any)
+12D 00000000 SECT1B notype       External     | ??_C@_02DKCKIIND@?$CFs?$AA@ (`string')
+12E 00000000 SECT1C notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum A8575397, selection    2 (pick any)
+130 00000000 SECT1C notype       External     | ??_C@_0CN@JBCIDLMM@sending?5cancel?5to?5blocking?5autov@ (`string')
+131 00000000 SECT1D notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum C2543B0B, selection    2 (pick any)
+133 00000000 SECT1D notype       External     | ??_C@_0CI@NEEHPJEF@could?5not?5send?5signal?5to?5process@ (`string')
+134 00000000 SECT1E notype       Static       | .rdata
+    Section length    3, #relocs    0, #linenums    0, checksum 3F172AA8, selection    2 (pick any)
+136 00000000 SECT1E notype       External     | ??_C@_02DPKJAMEF@?$CFd?$AA@ (`string')
+137 00000000 SECT1F notype       Static       | .rdata
+    Section length    5, #relocs    0, #linenums    0, checksum 9B144793, selection    2 (pick any)
+139 00000000 SECT1F notype       External     | ??_C@_04KCMJEPHB@?0?5?$CFd?$AA@ (`string')
+13A 00000000 SECT20 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum 6AA0D1E0, selection    2 (pick any)
+13C 00000000 SECT20 notype       External     | ??_C@_0DA@GHNHJNIK@Processes?5holding?5the?5lock?3?5?$CFs?4?5@ (`string')
+13D 00000000 SECT21 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum 1091C2C1, selection    2 (pick any)
+13F 00000000 SECT21 notype       External     | ??_C@_0CO@OMBBDFNF@Process?5holding?5the?5lock?3?5?$CFs?4?5Wa@ (`string')
+140 00000000 SECT22 notype       Static       | .rdata
+    Section length   56, #relocs    0, #linenums    0, checksum 3065D965, selection    2 (pick any)
+142 00000000 SECT22 notype       External     | ??_C@_0FG@LHPJJFLP@process?5?$CFd?5avoided?5deadlock?5for?5@ (`string')
+143 00000000 SECT23 notype       Static       | .rdata
+    Section length   4A, #relocs    0, #linenums    0, checksum DFF509DC, selection    2 (pick any)
+145 00000000 SECT23 notype       External     | ??_C@_0EK@LFONLOMM@process?5?$CFd?5detected?5deadlock?5whi@ (`string')
+146 00000000 SECT24 notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum 991BC2DF, selection    2 (pick any)
+148 00000000 SECT24 notype       External     | ??_C@_0DI@LFCMJIGJ@process?5?$CFd?5still?5waiting?5for?5?$CFs?5@ (`string')
+149 00000000 SECT25 notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum F9BA6BC7, selection    2 (pick any)
+14B 00000000 SECT25 notype       External     | ??_C@_0CP@ODJMDPEN@process?5?$CFd?5acquired?5?$CFs?5on?5?$CFs?5aft@ (`string')
+14C 00000000 SECT26 notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum 85E46B21, selection    2 (pick any)
+14E 00000000 SECT26 notype       External     | ??_C@_0DI@KJNDDBJH@process?5?$CFd?5failed?5to?5acquire?5?$CFs?5@ (`string')
+14F 00000000 SECT27 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum A835A146, selection    2 (pick any)
+151 00000000 SECT27 notype       External     | ??_C@_0P@IABJFNFO@ProcSendSignal?$AA@ (`string')
+152 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x14F1 bytes
+
+  Summary
+
+          50 .bss
+           4 .data
+        7FC8 .debug$S
+          68 .debug$T
+          BC .drectve
+         1BC .pdata
+         337 .rdata
+        1E5A .text$mn
+         22C .xdata

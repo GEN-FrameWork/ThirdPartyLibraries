@@ -1,0 +1,341 @@
+
+Dump of file Release\postgres/plancache.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 7A50, #relocs  184, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  F85, #relocs   81, #linenums    0, checksum E2771854
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  11C, #relocs    7, #linenums    0, checksum BD4B4E50, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  404, #relocs   2E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   57, #relocs    2, #linenums    0, checksum 41E69140, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  22C, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  1B8, #relocs   13, #linenums    0, checksum 239A9F74, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  4FC, #relocs   2C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length   B7, #relocs    5, #linenums    0, checksum  1E564EA, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  20C, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 SECTD  notype       Static       | .text$mn
+    Section length   A8, #relocs    5, #linenums    0, checksum 521FEA5A, selection    1 (pick no duplicates)
+01C 00000000 SECTE  notype       Static       | .debug$S
+    Section length  2CC, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0xD)
+01E 00000000 SECTF  notype       Static       | .text$mn
+    Section length  32A, #relocs   28, #linenums    0, checksum D90CF515, selection    1 (pick no duplicates)
+020 00000000 SECT10 notype       Static       | .debug$S
+    Section length  634, #relocs   30, #linenums    0, checksum        0, selection    5 (pick associative Section 0xF)
+022 00000000 SECT11 notype       Static       | .text$mn
+    Section length   F1, #relocs    7, #linenums    0, checksum 5135CADC, selection    1 (pick no duplicates)
+024 00000000 SECT12 notype       Static       | .debug$S
+    Section length  358, #relocs   26, #linenums    0, checksum        0, selection    5 (pick associative Section 0x11)
+026 00000000 SECT13 notype       Static       | .text$mn
+    Section length   5F, #relocs    0, #linenums    0, checksum 24418254, selection    1 (pick no duplicates)
+028 00000000 SECT14 notype       Static       | .debug$S
+    Section length  1A0, #relocs    A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x13)
+02A 00000000 UNDEF  notype ()    External     | errstart
+02B 00000000 UNDEF  notype ()    External     | errfinish
+02C 00000000 UNDEF  notype ()    External     | errcode
+02D 00000000 UNDEF  notype ()    External     | errmsg
+02E 00000000 UNDEF  notype ()    External     | elog_start
+02F 00000000 UNDEF  notype ()    External     | elog_finish
+030 00000000 UNDEF  notype ()    External     | palloc
+031 00000000 UNDEF  notype ()    External     | palloc0
+032 00000000 UNDEF  notype ()    External     | pstrdup
+033 00000000 UNDEF  notype ()    External     | copyObjectImpl
+034 00000000 UNDEF  notype ()    External     | list_member_int
+035 00000000 UNDEF  notype ()    External     | list_member_oid
+036 00000000 UNDEF  notype ()    External     | GetOverrideSearchPath
+037 00000000 UNDEF  notype ()    External     | CopyOverrideSearchPath
+038 00000000 UNDEF  notype ()    External     | OverrideSearchPathMatchesCurrent
+039 00000000 UNDEF  notype ()    External     | CreateTupleDescCopy
+03A 00000000 UNDEF  notype ()    External     | FreeTupleDesc
+03B 00000000 UNDEF  notype ()    External     | equalTupleDescs
+03C 00000000 UNDEF  notype ()    External     | ExecCleanTypeFromTL
+03D 00000000 UNDEF  notype ()    External     | GetUserId
+03E 00000000 UNDEF  notype ()    External     | expression_tree_walker
+03F 00000000 UNDEF  notype ()    External     | query_tree_walker
+040 00000000 UNDEF  notype ()    External     | extract_query_dependencies
+041 00000000 UNDEF  notype ()    External     | get_plan_rowmark
+042 00000000 UNDEF  notype ()    External     | analyze_requires_snapshot
+043 00000000 UNDEF  notype ()    External     | get_parse_rowmark
+044 00000000 UNDEF  notype ()    External     | LockRelationOid
+045 00000000 UNDEF  notype ()    External     | UnlockRelationOid
+046 00000000 SECT4  notype ()    External     | InitPlanCache
+047 00000090 SECT4  notype ()    External     | ResetPlanCache
+048 00000130 SECT4  notype ()    External     | CreateCachedPlan
+049 00000260 SECT4  notype ()    External     | CreateOneShotCachedPlan
+04A 00000330 SECT4  notype ()    External     | CompleteCachedPlan
+04B 000004D0 SECT4  notype ()    External     | SaveCachedPlan
+04C 00000570 SECT4  notype ()    External     | DropCachedPlan
+04D 00000630 SECT4  notype ()    External     | CachedPlanSetParentContext
+04E 000006E0 SECT4  notype ()    External     | CopyCachedPlan
+04F 00000930 SECT4  notype ()    External     | CachedPlanIsValid
+050 00000940 SECT4  notype ()    External     | CachedPlanGetTargetList
+051 000009A0 SECT4  notype ()    External     | GetCachedPlan
+052 00000CA0 SECT4  notype ()    External     | ReleaseCachedPlan
+053 00000000 UNDEF  notype ()    External     | ChoosePortalStrategy
+054 00000000 UNDEF  notype ()    External     | FetchStatementTargetList
+055 00000000 UNDEF  notype ()    External     | pg_analyze_and_rewrite
+056 00000000 UNDEF  notype ()    External     | pg_analyze_and_rewrite_params
+057 00000000 UNDEF  notype ()    External     | pg_plan_queries
+058 00000000 UNDEF  notype ()    External     | UtilityTupleDescriptor
+059 00000000 UNDEF  notype ()    External     | UtilityContainsQuery
+05A 00000000 UNDEF  notype ()    External     | CacheRegisterSyscacheCallback
+05B 00000000 UNDEF  notype ()    External     | CacheRegisterRelcacheCallback
+05C 00000000 UNDEF  notype ()    External     | MemoryContextDelete
+05D 00000000 UNDEF  notype ()    External     | MemoryContextSetParent
+05E 00000000 UNDEF  notype ()    External     | MemoryContextGetParent
+05F 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+060 00000000 UNDEF  notype ()    External     | ResourceOwnerEnlargePlanCacheRefs
+061 00000000 UNDEF  notype ()    External     | ResourceOwnerRememberPlanCacheRef
+062 00000000 UNDEF  notype ()    External     | ResourceOwnerForgetPlanCacheRef
+063 00000000 UNDEF  notype ()    External     | GetTransactionSnapshot
+064 00000000 UNDEF  notype ()    External     | PushActiveSnapshot
+065 00000000 UNDEF  notype ()    External     | PopActiveSnapshot
+066 00000000 UNDEF  notype ()    External     | ActiveSnapshotSet
+067 00000000 SECTF  notype ()    Static       | RevalidateCachedQuery
+068 00000000 SECTB  notype ()    Static       | CheckCachedPlan
+069 00000000 SECT9  notype ()    Static       | BuildCachedPlan
+06A 00000000 SECT13 notype ()    Static       | choose_custom_plan
+06B 00000000 SECT5  notype ()    Static       | AcquireExecutorLocks
+06C 00000000 SECT7  notype ()    Static       | AcquirePlannerLocks
+06D 00000000 SECT11 notype ()    Static       | ScanQueryForLocks
+06E 00000CF0 SECT4  notype ()    Static       | ScanQueryWalker
+06F 00000000 SECTD  notype ()    Static       | PlanCacheComputeResultDesc
+070 00000D50 SECT4  notype ()    Static       | PlanCacheRelCallback
+071 00000E60 SECT4  notype ()    Static       | PlanCacheFuncCallback
+072 00000F80 SECT4  notype ()    Static       | PlanCacheSysCallback
+073 00000000 UNDEF  notype ()    External     | memcpy
+074 00000000 SECT4  notype       Label        | $LN4
+075 00000090 SECT4  notype       Label        | $LN28
+076 00000130 SECT4  notype       Label        | $LN8
+077 00000260 SECT4  notype       Label        | $LN4
+078 00000330 SECT4  notype       Label        | $LN20
+079 000004D0 SECT4  notype       Label        | $LN17
+07A 00000570 SECT4  notype       Label        | $LN25
+07B 00000630 SECT4  notype       Label        | $LN15
+07C 000006E0 SECT4  notype       Label        | $LN20
+07D 00000940 SECT4  notype       Label        | $LN20
+07E 000009A0 SECT4  notype       Label        | $LN79
+07F 00000CA0 SECT4  notype       Label        | $LN7
+080 00000000 SECT15 notype       Static       | .xdata
+    Section length  114, #relocs    C, #linenums    0, checksum DB8EEF1E
+082 00000000 SECT15 notype       Static       | $unwind$InitPlanCache
+083 00000000 SECT16 notype       Static       | .pdata
+    Section length   D8, #relocs   36, #linenums    0, checksum EA3DB94A
+085 00000000 SECT16 notype       Static       | $pdata$InitPlanCache
+086 00000008 SECT15 notype       Static       | $unwind$ResetPlanCache
+087 0000000C SECT16 notype       Static       | $pdata$ResetPlanCache
+088 00000010 SECT15 notype       Static       | $chain$0$ResetPlanCache
+089 00000018 SECT16 notype       Static       | $pdata$0$ResetPlanCache
+08A 00000024 SECT15 notype       Static       | $chain$1$ResetPlanCache
+08B 00000024 SECT16 notype       Static       | $pdata$1$ResetPlanCache
+08C 00000034 SECT15 notype       Static       | $unwind$CreateCachedPlan
+08D 00000030 SECT16 notype       Static       | $pdata$CreateCachedPlan
+08E 0000004C SECT15 notype       Static       | $unwind$CreateOneShotCachedPlan
+08F 0000003C SECT16 notype       Static       | $pdata$CreateOneShotCachedPlan
+090 0000005C SECT15 notype       Static       | $unwind$CompleteCachedPlan
+091 00000048 SECT16 notype       Static       | $pdata$CompleteCachedPlan
+092 00000074 SECT15 notype       Static       | $unwind$SaveCachedPlan
+093 00000054 SECT16 notype       Static       | $pdata$SaveCachedPlan
+094 0000007C SECT15 notype       Static       | $unwind$DropCachedPlan
+095 00000060 SECT16 notype       Static       | $pdata$DropCachedPlan
+096 00000084 SECT15 notype       Static       | $unwind$CachedPlanSetParentContext
+097 0000006C SECT16 notype       Static       | $pdata$CachedPlanSetParentContext
+098 00000090 SECT15 notype       Static       | $unwind$CopyCachedPlan
+099 00000078 SECT16 notype       Static       | $pdata$CopyCachedPlan
+09A 000000A8 SECT15 notype       Static       | $unwind$CachedPlanGetTargetList
+09B 00000084 SECT16 notype       Static       | $pdata$CachedPlanGetTargetList
+09C 000000B0 SECT15 notype       Static       | $unwind$GetCachedPlan
+09D 00000090 SECT16 notype       Static       | $pdata$GetCachedPlan
+09E 000000D0 SECT15 notype       Static       | $unwind$ReleaseCachedPlan
+09F 0000009C SECT16 notype       Static       | $pdata$ReleaseCachedPlan
+0A0 00000000 SECT17 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum F6B6C260, selection    5 (pick associative Section 0xF)
+0A2 00000000 SECT17 notype       Static       | $unwind$RevalidateCachedQuery
+0A3 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FEEC49CD, selection    5 (pick associative Section 0xF)
+0A5 00000000 SECT18 notype       Static       | $pdata$RevalidateCachedQuery
+0A6 00000000 SECT19 notype       Static       | .xdata
+    Section length   24, #relocs    3, #linenums    0, checksum  3726CB8, selection    5 (pick associative Section 0xF)
+0A8 00000000 SECT19 notype       Static       | $chain$4$RevalidateCachedQuery
+0A9 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E8B3FDB9, selection    5 (pick associative Section 0xF)
+0AB 00000000 SECT1A notype       Static       | $pdata$4$RevalidateCachedQuery
+0AC 00000000 SECT1B notype       Static       | .xdata
+    Section length   24, #relocs    3, #linenums    0, checksum F7AD5D41, selection    5 (pick associative Section 0xF)
+0AE 00000000 SECT1B notype       Static       | $chain$6$RevalidateCachedQuery
+0AF 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 1ED9597E, selection    5 (pick associative Section 0xF)
+0B1 00000000 SECT1C notype       Static       | $pdata$6$RevalidateCachedQuery
+0B2 00000000 SECT1D notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 47BBA321, selection    5 (pick associative Section 0xF)
+0B4 00000000 SECT1D notype       Static       | $chain$7$RevalidateCachedQuery
+0B5 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 43289595, selection    5 (pick associative Section 0xF)
+0B7 00000000 SECT1E notype       Static       | $pdata$7$RevalidateCachedQuery
+0B8 00000000 SECT1F notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0xB)
+0BA 00000000 SECT1F notype       Static       | $unwind$CheckCachedPlan
+0BB 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DC33DFBE, selection    5 (pick associative Section 0xB)
+0BD 00000000 SECT20 notype       Static       | $pdata$CheckCachedPlan
+0BE 00000000 SECT21 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 4A7F8298, selection    5 (pick associative Section 0x9)
+0C0 00000000 SECT21 notype       Static       | $unwind$BuildCachedPlan
+0C1 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A364C6A6, selection    5 (pick associative Section 0x9)
+0C3 00000000 SECT22 notype       Static       | $pdata$BuildCachedPlan
+0C4 00000000 SECT23 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 1E381023, selection    5 (pick associative Section 0x5)
+0C6 00000000 SECT23 notype       Static       | $unwind$AcquireExecutorLocks
+0C7 00000000 SECT24 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D92012AC, selection    5 (pick associative Section 0x5)
+0C9 00000000 SECT24 notype       Static       | $pdata$AcquireExecutorLocks
+0CA 00000000 SECT25 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 78D51DEE, selection    5 (pick associative Section 0x5)
+0CC 00000000 SECT25 notype       Static       | $chain$0$AcquireExecutorLocks
+0CD 00000000 SECT26 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C302F343, selection    5 (pick associative Section 0x5)
+0CF 00000000 SECT26 notype       Static       | $pdata$0$AcquireExecutorLocks
+0D0 00000000 SECT27 notype       Static       | .xdata
+    Section length   20, #relocs    3, #linenums    0, checksum 701906DF, selection    5 (pick associative Section 0x5)
+0D2 00000000 SECT27 notype       Static       | $chain$4$AcquireExecutorLocks
+0D3 00000000 SECT28 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5A5E9677, selection    5 (pick associative Section 0x5)
+0D5 00000000 SECT28 notype       Static       | $pdata$4$AcquireExecutorLocks
+0D6 00000000 SECT29 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 7A5519AF, selection    5 (pick associative Section 0x5)
+0D8 00000000 SECT29 notype       Static       | $chain$5$AcquireExecutorLocks
+0D9 00000000 SECT2A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4A3014F5, selection    5 (pick associative Section 0x5)
+0DB 00000000 SECT2A notype       Static       | $pdata$5$AcquireExecutorLocks
+0DC 00000000 SECT2B notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 6077F840, selection    5 (pick associative Section 0x5)
+0DE 00000000 SECT2B notype       Static       | $chain$6$AcquireExecutorLocks
+0DF 00000000 SECT2C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3167B9E2, selection    5 (pick associative Section 0x5)
+0E1 00000000 SECT2C notype       Static       | $pdata$6$AcquireExecutorLocks
+0E2 00000000 SECT2D notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 6B1FF9FB, selection    5 (pick associative Section 0x7)
+0E4 00000000 SECT2D notype       Static       | $unwind$AcquirePlannerLocks
+0E5 00000000 SECT2E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 91C01CC8, selection    5 (pick associative Section 0x7)
+0E7 00000000 SECT2E notype       Static       | $pdata$AcquirePlannerLocks
+0E8 00000000 SECT2F notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 1145C3AE, selection    5 (pick associative Section 0x7)
+0EA 00000000 SECT2F notype       Static       | $chain$0$AcquirePlannerLocks
+0EB 00000000 SECT30 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 797E1220, selection    5 (pick associative Section 0x7)
+0ED 00000000 SECT30 notype       Static       | $pdata$0$AcquirePlannerLocks
+0EE 00000000 SECT31 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 2897F624, selection    5 (pick associative Section 0x7)
+0F0 00000000 SECT31 notype       Static       | $chain$1$AcquirePlannerLocks
+0F1 00000000 SECT32 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8CA50533, selection    5 (pick associative Section 0x7)
+0F3 00000000 SECT32 notype       Static       | $pdata$1$AcquirePlannerLocks
+0F4 00000000 SECT33 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum A39318A1, selection    5 (pick associative Section 0x11)
+0F6 00000000 SECT33 notype       Static       | $unwind$ScanQueryForLocks
+0F7 00000000 SECT34 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 33C114D4, selection    5 (pick associative Section 0x11)
+0F9 00000000 SECT34 notype       Static       | $pdata$ScanQueryForLocks
+0FA 000000D8 SECT15 notype       Static       | $unwind$ScanQueryWalker
+0FB 000000A8 SECT16 notype       Static       | $pdata$ScanQueryWalker
+0FC 00000000 SECT35 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum F4D9A8A3, selection    5 (pick associative Section 0xD)
+0FE 00000000 SECT35 notype       Static       | $unwind$PlanCacheComputeResultDesc
+0FF 00000000 SECT36 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 79A8FC39, selection    5 (pick associative Section 0xD)
+101 00000000 SECT36 notype       Static       | $pdata$PlanCacheComputeResultDesc
+102 000000E4 SECT15 notype       Static       | $unwind$PlanCacheRelCallback
+103 000000B4 SECT16 notype       Static       | $pdata$PlanCacheRelCallback
+104 000000F0 SECT15 notype       Static       | $chain$0$PlanCacheRelCallback
+105 000000C0 SECT16 notype       Static       | $pdata$0$PlanCacheRelCallback
+106 00000104 SECT15 notype       Static       | $chain$1$PlanCacheRelCallback
+107 000000CC SECT16 notype       Static       | $pdata$1$PlanCacheRelCallback
+108 00000000 UNDEF  notype       External     | CurrentMemoryContext
+109 00000000 UNDEF  notype       External     | cpu_operator_cost
+10A 00000000 UNDEF  notype       External     | CurrentResourceOwner
+10B 00000000 UNDEF  notype       External     | CacheMemoryContext
+10C 00000000 UNDEF  notype       External     | row_security
+10D 00000000 UNDEF  notype       External     | TransactionXmin
+10E 00000000 SECT37 notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+110 00000000 SECT37 notype       Static       | first_saved_plan
+111 00000000 SECT38 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 39261FFB, selection    2 (pick any)
+113 00000000 SECT38 notype       External     | ??_C@_0BB@PDGBBLJ@CachedPlanSource?$AA@ (`string')
+114 00000000 SECT39 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 9FD82F58, selection    2 (pick any)
+116 00000000 SECT39 notype       External     | ??_C@_0BA@IMJMJLPC@CachedPlanQuery?$AA@ (`string')
+117 00000000 SECT3A notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 82DA00DA, selection    2 (pick any)
+119 00000000 SECT3A notype       External     | ??_C@_0P@KKPGPMMC@SaveCachedPlan?$AA@ (`string')
+11A 00000000 SECT3B notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 7F95D23D, selection    2 (pick any)
+11C 00000000 SECT3B notype       External     | ??_C@_0CE@OKNMJPBH@src?1backend?1utils?1cache?1plancach@ (`string')
+11D 00000000 SECT3C notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum F5580E9D, selection    2 (pick any)
+11F 00000000 SECT3C notype       External     | ??_C@_0CB@HANLMLOP@cannot?5save?5one?9shot?5cached?5plan@ (`string')
+120 00000000 SECT3D notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum F4094051, selection    2 (pick any)
+122 00000000 SECT3D notype       External     | ??_C@_0BG@KDNPAOEO@RevalidateCachedQuery?$AA@ (`string')
+123 00000000 SECT3E notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum B5C0371D, selection    2 (pick any)
+125 00000000 SECT3E notype       External     | ??_C@_0CI@KDNDPFFD@cached?5plan?5must?5not?5change?5resu@ (`string')
+126 00000000 SECT3F notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum A60C588F, selection    2 (pick any)
+128 00000000 SECT3F notype       External     | ??_C@_0L@DCHEBGJM@CachedPlan?$AA@ (`string')
+129 00000000 SECT40 notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum B6E8D678, selection    2 (pick any)
+12B 00000000 SECT40 notype       External     | ??_C@_0O@JIKMFAEA@GetCachedPlan?$AA@ (`string')
+12C 00000000 SECT41 notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum A7B551D8, selection    2 (pick any)
+12E 00000000 SECT41 notype       External     | ??_C@_0DE@JEGBKBJH@cannot?5apply?5ResourceOwner?5to?5no@ (`string')
+12F 00000000 SECT42 notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 5A42D27B, selection    2 (pick any)
+131 00000000 SECT42 notype       External     | ??_C@_0BL@LPMHHPDH@CachedPlanSetParentContext?$AA@ (`string')
+132 00000000 SECT43 notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum 6C2C664E, selection    2 (pick any)
+134 00000000 SECT43 notype       External     | ??_C@_0DD@LLMBMMCD@cannot?5move?5a?5saved?5cached?5plan?5@ (`string')
+135 00000000 SECT44 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum E216128C, selection    2 (pick any)
+137 00000000 SECT44 notype       External     | ??_C@_0DG@CIEKIAIO@cannot?5move?5a?5one?9shot?5cached?5pl@ (`string')
+138 00000000 SECT45 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum A4D4B5B5, selection    2 (pick any)
+13A 00000000 SECT45 notype       External     | ??_C@_0P@IMPIEJKN@CopyCachedPlan?$AA@ (`string')
+13B 00000000 SECT46 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum F005175E, selection    2 (pick any)
+13D 00000000 SECT46 notype       External     | ??_C@_0CD@GACLPJG@cannot?5copy?5a?5one?9shot?5cached?5pl@ (`string')
+13E 00000000 SECT47 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum BA5D48D4, selection    2 (pick any)
+140 00000000 SECT47 notype       External     | __real@408f400000000000
+141 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x1008 bytes
+
+  Summary
+
+           8 .bss
+        9580 .debug$S
+          68 .debug$T
+          5D .drectve
+         198 .pdata
+         1BE .rdata
+        1889 .text$mn
+         240 .xdata

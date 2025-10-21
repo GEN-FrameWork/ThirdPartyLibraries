@@ -1,0 +1,99 @@
+
+Dump of file Release\test_rls_hooks/test_rls_hooks.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   73, #relocs    0, #linenums    0, checksum 2C345B63
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4914, #relocs   54, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   6C, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 13DF8958
+00A 00000000 SECT4  notype       Static       | ?Pg_magic_data@?1??Pg_magic_func@@9@9 (`Pg_magic_func'::`2'::Pg_magic_data)
+00B 00000000 SECT5  notype       Static       | .text$mn
+    Section length  443, #relocs   4C, #linenums    0, checksum 4EA0FF70
+00D 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+00E 00000000 UNDEF  notype ()    External     | palloc0
+00F 00000000 UNDEF  notype ()    External     | pstrdup
+010 00000000 UNDEF  notype ()    External     | copyObjectImpl
+011 00000000 UNDEF  notype ()    External     | lcons
+012 00000000 UNDEF  notype ()    External     | makeString
+013 00000000 UNDEF  notype ()    External     | construct_array
+014 00000000 SECT5  notype ()    External     | test_rls_hooks_permissive
+015 000001E0 SECT5  notype ()    External     | test_rls_hooks_restrictive
+016 00000000 UNDEF  notype ()    External     | makeSimpleA_Expr
+017 00000000 UNDEF  notype ()    External     | makeFuncCall
+018 00000000 UNDEF  notype ()    External     | make_parsestate
+019 00000000 UNDEF  notype ()    External     | transformWhereClause
+01A 00000000 UNDEF  notype ()    External     | addRangeTableEntryForRelation
+01B 00000000 UNDEF  notype ()    External     | addRTEtoQuery
+01C 000003C0 SECT5  notype ()    External     | Pg_magic_func
+01D 000003D0 SECT5  notype ()    External     | _PG_init
+01E 00000420 SECT5  notype ()    External     | _PG_fini
+01F 00000000 UNDEF  notype ()    External     | strcmp
+020 00000000 SECT5  notype       Label        | $LN5
+021 000001E0 SECT5  notype       Label        | $LN5
+022 00000000 SECT6  notype       Static       | .xdata
+    Section length   28, #relocs    0, #linenums    0, checksum E618AA89
+024 00000000 SECT6  notype       Static       | $unwind$test_rls_hooks_permissive
+025 00000000 SECT7  notype       Static       | .pdata
+    Section length   18, #relocs    6, #linenums    0, checksum  F920A19
+027 00000000 SECT7  notype       Static       | $pdata$test_rls_hooks_permissive
+028 00000014 SECT6  notype       Static       | $unwind$test_rls_hooks_restrictive
+029 0000000C SECT7  notype       Static       | $pdata$test_rls_hooks_restrictive
+02A 00000000 UNDEF  notype       External     | __imp_CurrentMemoryContext
+02B 00000000 UNDEF  notype       External     | __imp_newNodeMacroHolder
+02C 00000000 UNDEF  notype       External     | __imp_row_security_policy_hook_permissive
+02D 00000000 UNDEF  notype       External     | __imp_row_security_policy_hook_restrictive
+02E 00000000 SECT8  notype       Static       | .bss
+    Section length   10, #relocs    0, #linenums    0, checksum        0
+030 00000000 SECT8  notype       Static       | prev_row_security_policy_hook_permissive
+031 00000008 SECT8  notype       Static       | prev_row_security_policy_hook_restrictive
+032 00000000 SECT9  notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 86157CAF, selection    2 (pick any)
+034 00000000 SECT9  notype       External     | ??_C@_0BE@HGDPBINN@rls_test_permissive?$AA@ (`string')
+035 00000000 SECTA  notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 77C7B590, selection    2 (pick any)
+037 00000000 SECTA  notype       External     | ??_C@_0O@FJIDDDKI@rls_test_both?$AA@ (`string')
+038 00000000 SECTB  notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum D5497B32, selection    2 (pick any)
+03A 00000000 SECTB  notype       External     | ??_C@_0BB@ODFJHFHA@extension?5policy?$AA@ (`string')
+03B 00000000 SECTC  notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 76E5B4E9, selection    2 (pick any)
+03D 00000000 SECTC  notype       External     | ??_C@_0N@IGGOANJE@current_user?$AA@ (`string')
+03E 00000000 SECTD  notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum 3F710BB8, selection    2 (pick any)
+040 00000000 SECTD  notype       External     | ??_C@_0L@KLAJEFKL@pg_catalog?$AA@ (`string')
+041 00000000 SECTE  notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum FA9241BA, selection    2 (pick any)
+043 00000000 SECTE  notype       External     | ??_C@_08ODGEKKOL@username?$AA@ (`string')
+044 00000000 SECTF  notype       Static       | .rdata
+    Section length    2, #relocs    0, #linenums    0, checksum 6AE848BE, selection    2 (pick any)
+046 00000000 SECTF  notype       External     | ??_C@_01NEMOKFLO@?$DN?$AA@ (`string')
+047 00000000 SECT10 notype       Static       | .rdata
+    Section length    7, #relocs    0, #linenums    0, checksum BF612675, selection    2 (pick any)
+049 00000000 SECT10 notype       External     | ??_C@_06NNPCAGPE@POLICY?$AA@ (`string')
+04A 00000000 SECT11 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 323CD0D9, selection    2 (pick any)
+04C 00000000 SECT11 notype       External     | ??_C@_0BF@IMMHOKKN@rls_test_restrictive?$AA@ (`string')
+04D 00000000 SECT12 notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum  AAEB5DD, selection    2 (pick any)
+04F 00000000 SECT12 notype       External     | ??_C@_0L@JONGPLMO@supervisor?$AA@ (`string')
+
+String Table Size = 0x3EF bytes
+
+  Summary
+
+          10 .bss
+        4914 .debug$S
+          6C .debug$T
+          73 .drectve
+          18 .pdata
+          99 .rdata
+         443 .text$mn
+          28 .xdata

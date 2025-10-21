@@ -1,0 +1,136 @@
+
+Dump of file Release\postgres/network_gist.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 51D4, #relocs  112, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  CC1, #relocs   33, #linenums    0, checksum 9B9CDB4D
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   B3, #relocs    2, #linenums    0, checksum 26AE832D, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  228, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 UNDEF  notype ()    External     | elog_start
+00F 00000000 UNDEF  notype ()    External     | elog_finish
+010 00000000 UNDEF  notype ()    External     | palloc
+011 00000000 UNDEF  notype ()    External     | palloc0
+012 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+013 00000000 SECT4  notype ()    External     | inet_gist_consistent
+014 00000440 SECT4  notype ()    External     | inet_gist_union
+015 00000520 SECT4  notype ()    External     | inet_gist_compress
+016 00000680 SECT4  notype ()    External     | inet_gist_decompress
+017 00000690 SECT4  notype ()    External     | inet_gist_penalty
+018 00000740 SECT4  notype ()    External     | inet_gist_picksplit
+019 00000B50 SECT4  notype ()    External     | inet_gist_same
+01A 00000BD0 SECT4  notype ()    External     | inet_gist_fetch
+01B 00000000 UNDEF  notype ()    External     | bitncmp
+01C 00000000 UNDEF  notype ()    External     | bitncommon
+01D 00000000 SECT5  notype ()    Static       | build_inet_union_key
+01E 00000000 UNDEF  notype ()    External     | memcmp
+01F 00000000 UNDEF  notype ()    External     | memcpy
+020 000003E0 SECT4  notype       Static       | $LN104
+021 000003C8 SECT4  notype       Static       | $LN105
+022 000001FD SECT4  notype       Label        | $LN30
+023 0000020A SECT4  notype       Label        | $LN31
+024 00000217 SECT4  notype       Label        | $LN35
+025 00000222 SECT4  notype       Label        | $LN38
+026 00000243 SECT4  notype       Label        | $LN42
+027 000003FC SECT4  notype       Static       | $LN103
+028 00000273 SECT4  notype       Label        | $LN45
+029 0000029E SECT4  notype       Label        | $LN48
+02A 000002B8 SECT4  notype       Label        | $LN50
+02B 000002E7 SECT4  notype       Label        | $LN53
+02C 00000414 SECT4  notype       Static       | $LN102
+02D 0000034A SECT4  notype       Label        | $LN55
+02E 00000354 SECT4  notype       Label        | $LN56
+02F 0000035E SECT4  notype       Label        | $LN58
+030 00000368 SECT4  notype       Label        | $LN59
+031 00000372 SECT4  notype       Label        | $LN60
+032 00000256 SECT4  notype       Label        | $LN43
+033 00000000 SECT4  notype       Label        | $LN118
+034 00000440 SECT4  notype       Label        | $LN20
+035 00000520 SECT4  notype       Label        | $LN22
+036 00000690 SECT4  notype       Label        | $LN13
+037 00000740 SECT4  notype       Label        | $LN96
+038 00000B50 SECT4  notype       Label        | $LN7
+039 00000BD0 SECT4  notype       Label        | $LN17
+03A 00000000 SECT7  notype       Static       | .xdata
+    Section length  154, #relocs   21, #linenums    0, checksum 63C35A2C
+03C 00000000 SECT7  notype       Static       | $unwind$inet_gist_consistent
+03D 00000000 SECT8  notype       Static       | .pdata
+    Section length   D8, #relocs   36, #linenums    0, checksum  DAED3E6
+03F 00000000 SECT8  notype       Static       | $pdata$inet_gist_consistent
+040 00000010 SECT7  notype       Static       | $chain$1$inet_gist_consistent
+041 0000000C SECT8  notype       Static       | $pdata$1$inet_gist_consistent
+042 00000028 SECT7  notype       Static       | $chain$3$inet_gist_consistent
+043 00000018 SECT8  notype       Static       | $pdata$3$inet_gist_consistent
+044 00000040 SECT7  notype       Static       | $chain$4$inet_gist_consistent
+045 00000024 SECT8  notype       Static       | $pdata$4$inet_gist_consistent
+046 00000050 SECT7  notype       Static       | $chain$5$inet_gist_consistent
+047 00000030 SECT8  notype       Static       | $pdata$5$inet_gist_consistent
+048 00000068 SECT7  notype       Static       | $chain$6$inet_gist_consistent
+049 0000003C SECT8  notype       Static       | $pdata$6$inet_gist_consistent
+04A 00000078 SECT7  notype       Static       | $chain$7$inet_gist_consistent
+04B 00000048 SECT8  notype       Static       | $pdata$7$inet_gist_consistent
+04C 00000088 SECT7  notype       Static       | $unwind$inet_gist_union
+04D 00000054 SECT8  notype       Static       | $pdata$inet_gist_union
+04E 000000A0 SECT7  notype       Static       | $chain$0$inet_gist_union
+04F 00000060 SECT8  notype       Static       | $pdata$0$inet_gist_union
+050 000000B4 SECT7  notype       Static       | $chain$1$inet_gist_union
+051 0000006C SECT8  notype       Static       | $pdata$1$inet_gist_union
+052 000000C4 SECT7  notype       Static       | $unwind$inet_gist_compress
+053 00000078 SECT8  notype       Static       | $pdata$inet_gist_compress
+054 000000CC SECT7  notype       Static       | $chain$3$inet_gist_compress
+055 00000084 SECT8  notype       Static       | $pdata$3$inet_gist_compress
+056 000000EC SECT7  notype       Static       | $chain$5$inet_gist_compress
+057 00000090 SECT8  notype       Static       | $pdata$5$inet_gist_compress
+058 00000104 SECT7  notype       Static       | $chain$6$inet_gist_compress
+059 0000009C SECT8  notype       Static       | $pdata$6$inet_gist_compress
+05A 00000114 SECT7  notype       Static       | $unwind$inet_gist_penalty
+05B 000000A8 SECT8  notype       Static       | $pdata$inet_gist_penalty
+05C 0000011C SECT7  notype       Static       | $unwind$inet_gist_picksplit
+05D 000000B4 SECT8  notype       Static       | $pdata$inet_gist_picksplit
+05E 00000134 SECT7  notype       Static       | $unwind$inet_gist_same
+05F 000000C0 SECT8  notype       Static       | $pdata$inet_gist_same
+060 0000013C SECT7  notype       Static       | $unwind$inet_gist_fetch
+061 000000CC SECT8  notype       Static       | $pdata$inet_gist_fetch
+062 00000000 SECT9  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum C2D1B755, selection    5 (pick associative Section 0x5)
+064 00000000 SECT9  notype       Static       | $unwind$build_inet_union_key
+065 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5879D144, selection    5 (pick associative Section 0x5)
+067 00000000 SECTA  notype       Static       | $pdata$build_inet_union_key
+068 00000000 SECTB  notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 637AAE9E, selection    2 (pick any)
+06A 00000000 SECTB  notype       External     | ??_C@_0BF@NNIBJEOK@inet_gist_consistent?$AA@ (`string')
+06B 00000000 SECTC  notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum DABE080E, selection    2 (pick any)
+06D 00000000 SECTC  notype       External     | ??_C@_0CF@BJAIIJF@src?1backend?1utils?1adt?1network_gi@ (`string')
+06E 00000000 SECTD  notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum DD706203, selection    2 (pick any)
+070 00000000 SECTD  notype       External     | ??_C@_0BP@ELIGDBEM@unknown?5strategy?5for?5inet?5GiST?$AA@ (`string')
+071 00000000 UNDEF  notype       External     | __ImageBase
+072 00000000 SECTE  notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum 8DE5B576, selection    2 (pick any)
+074 00000000 SECTE  notype       External     | __real@3f800000
+075 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x5B1 bytes
+
+  Summary
+
+        53FC .debug$S
+          68 .debug$T
+          5D .drectve
+          E4 .pdata
+          5D .rdata
+         D74 .text$mn
+         16C .xdata

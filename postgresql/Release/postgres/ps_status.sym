@@ -1,0 +1,83 @@
+
+Dump of file Release\postgres/ps_status.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 3CF4, #relocs   52, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .data
+    Section length   10, #relocs    0, #linenums    0, checksum EA0E91E4
+00A 00000000 SECT4  notype       External     | update_process_title
+00B 00000000 SECT5  notype       Static       | .text$mn
+    Section length  1EC, #relocs   1F, #linenums    0, checksum E7CC8F9F
+00D 00000000 UNDEF  notype       External     | __imp_CloseHandle
+00E 00000000 UNDEF  notype       External     | __imp_CreateEventA
+00F 00000000 UNDEF  notype ()    External     | pg_snprintf
+010 00000000 UNDEF  notype ()    External     | pg_sprintf
+011 00000000 UNDEF  notype ()    External     | strlcpy
+012 00000000 SECT5  notype ()    External     | save_ps_display_args
+013 00000020 SECT5  notype ()    External     | init_ps_display
+014 000000E0 SECT5  notype ()    External     | set_ps_display
+015 000001D0 SECT5  notype ()    External     | get_ps_display
+016 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+017 00000000 UNDEF  notype ()    External     | __security_check_cookie
+018 00000020 SECT5  notype       Label        | $LN9
+019 000000E0 SECT5  notype       Label        | $LN8
+01A 00000000 SECT6  notype       Static       | .xdata
+    Section length   60, #relocs    D, #linenums    0, checksum AD539F3F
+01C 00000000 SECT6  notype       Static       | $unwind$init_ps_display
+01D 00000000 SECT7  notype       Static       | .pdata
+    Section length   48, #relocs   12, #linenums    0, checksum  E3A4157
+01F 00000000 SECT7  notype       Static       | $pdata$init_ps_display
+020 00000008 SECT6  notype       Static       | $chain$0$init_ps_display
+021 0000000C SECT7  notype       Static       | $pdata$0$init_ps_display
+022 0000001C SECT6  notype       Static       | $chain$1$init_ps_display
+023 00000018 SECT7  notype       Static       | $pdata$1$init_ps_display
+024 0000002C SECT6  notype       Static       | $unwind$set_ps_display
+025 00000024 SECT7  notype       Static       | $pdata$set_ps_display
+026 0000003C SECT6  notype       Static       | $chain$0$set_ps_display
+027 00000030 SECT7  notype       Static       | $pdata$0$set_ps_display
+028 00000050 SECT6  notype       Static       | $chain$1$set_ps_display
+029 0000003C SECT7  notype       Static       | $pdata$1$set_ps_display
+02A 00000000 UNDEF  notype       External     | IsUnderPostmaster
+02B 00000000 UNDEF  notype       External     | MyProcPid
+02C 00000000 UNDEF  notype       External     | cluster_name
+02D 00000000 SECT8  notype       Static       | .bss
+    Section length  120, #relocs    0, #linenums    0, checksum        0
+02F 00000000 SECT8  notype       Static       | ps_buffer
+030 00000100 SECT8  notype       Static       | ps_buffer_cur_len
+031 00000108 SECT8  notype       Static       | ps_buffer_fixed_size
+032 00000110 SECT8  notype       Static       | save_argc
+033 00000118 SECT8  notype       Static       | save_argv
+034 00000000 SECT9  notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum D222F70A, selection    2 (pick any)
+036 00000000 SECT9  notype       External     | ??_C@_0BE@CCAIJDHI@postgres?3?5?$CFs?5?$CFs?5?$CFs?5?$AA@ (`string')
+037 00000000 SECTA  notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 6F157899, selection    2 (pick any)
+039 00000000 SECTA  notype       External     | ??_C@_0BI@DDCLENEG@postgres?3?5?$CFs?3?5?$CFs?5?$CFs?5?$CFs?5?$AA@ (`string')
+03A 00000008 SECT4  notype       Static       | ?ident_handle@?2??set_ps_display@@9@9 (`set_ps_display'::`3'::ident_handle)
+03B 00000000 SECTB  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum  1BB6B23, selection    2 (pick any)
+03D 00000000 SECTB  notype       External     | ??_C@_0BA@BCPPNPIJ@pgident?$CI?$CFd?$CJ?3?5?$CFs?$AA@ (`string')
+03E 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x33A bytes
+
+  Summary
+
+         120 .bss
+          10 .data
+        3CF4 .debug$S
+          68 .debug$T
+          5D .drectve
+          48 .pdata
+          3C .rdata
+         1EC .text$mn
+          60 .xdata

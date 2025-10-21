@@ -1,0 +1,774 @@
+
+Dump of file Release\postgres/bufmgr.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length BAC4, #relocs  3BC, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .bss
+    Section length   9C, #relocs    0, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       External     | zero_damaged_pages
+00B 00000000 SECT5  notype       Static       | .data
+    Section length   14, #relocs    0, #linenums    0, checksum AD4516A9
+00D 00000000 SECT5  notype       External     | bgwriter_lru_maxpages
+00E 00000008 SECT5  notype       External     | bgwriter_lru_multiplier
+00F 00000001 SECT4  notype       External     | track_io_timing
+010 00000004 SECT4  notype       External     | target_prefetch_pages
+011 00000008 SECT4  notype       External     | checkpoint_flush_after
+012 0000000C SECT4  notype       External     | backend_flush_after
+013 00000010 SECT4  notype       External     | bgwriter_flush_after
+014 00000014 SECT4  notype       External     | effective_io_concurrency
+015 00000000 SECT6  notype       Static       | .text$mn
+    Section length 24A5, #relocs  182, #linenums    0, checksum C7EEA792
+017 00000000 SECT7  notype       Static       | .text$mn
+    Section length  41B, #relocs   39, #linenums    0, checksum EE1BD4EF, selection    1 (pick no duplicates)
+019 00000000 SECT8  notype       Static       | .debug$S
+    Section length  B2C, #relocs   60, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+01B 00000000 SECT9  notype       Static       | .text$mn
+    Section length  53B, #relocs   39, #linenums    0, checksum 40908F51, selection    1 (pick no duplicates)
+01D 00000000 SECTA  notype       Static       | .debug$S
+    Section length  C80, #relocs   7C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+01F 00000000 SECTB  notype       Static       | .text$mn
+    Section length  202, #relocs   1A, #linenums    0, checksum A6D6FB0D, selection    1 (pick no duplicates)
+021 00000000 SECTC  notype       Static       | .debug$S
+    Section length  490, #relocs   26, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+023 00000000 SECTD  notype       Static       | .text$mn
+    Section length   C8, #relocs    B, #linenums    0, checksum 1BBFDA10, selection    1 (pick no duplicates)
+025 00000000 SECTE  notype       Static       | .debug$S
+    Section length  25C, #relocs   16, #linenums    0, checksum        0, selection    5 (pick associative Section 0xD)
+027 00000000 SECTF  notype       Static       | .text$mn
+    Section length  1EC, #relocs   18, #linenums    0, checksum 3EBED64F, selection    1 (pick no duplicates)
+029 00000000 SECT10 notype       Static       | .debug$S
+    Section length  484, #relocs   20, #linenums    0, checksum        0, selection    5 (pick associative Section 0xF)
+02B 00000000 SECT11 notype       Static       | .text$mn
+    Section length  158, #relocs    A, #linenums    0, checksum E3A6172A, selection    1 (pick no duplicates)
+02D 00000000 SECT12 notype       Static       | .debug$S
+    Section length  444, #relocs   2A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x11)
+02F 00000000 SECT13 notype       Static       | .text$mn
+    Section length   45, #relocs    4, #linenums    0, checksum 61CAB8DD, selection    1 (pick no duplicates)
+031 00000000 SECT14 notype       Static       | .debug$S
+    Section length  1BC, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x13)
+033 00000000 SECT15 notype       Static       | .text$mn
+    Section length  508, #relocs   46, #linenums    0, checksum CE59B249, selection    1 (pick no duplicates)
+035 00000000 SECT16 notype       Static       | .debug$S
+    Section length  984, #relocs   4E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x15)
+037 00000000 SECT17 notype       Static       | .text$mn
+    Section length   8C, #relocs    B, #linenums    0, checksum C1B34699, selection    1 (pick no duplicates)
+039 00000000 SECT18 notype       Static       | .debug$S
+    Section length  1C8, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x17)
+03B 00000000 SECT19 notype       Static       | .text$mn
+    Section length   F6, #relocs    D, #linenums    0, checksum 8C58BB90, selection    1 (pick no duplicates)
+03D 00000000 SECT1A notype       Static       | .debug$S
+    Section length  298, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x19)
+03F 00000000 SECT1B notype       Static       | .text$mn
+    Section length  11C, #relocs    9, #linenums    0, checksum 190CFC9F, selection    1 (pick no duplicates)
+041 00000000 SECT1C notype       Static       | .debug$S
+    Section length  384, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x1B)
+043 00000000 SECT1D notype       Static       | .text$mn
+    Section length  1AA, #relocs   11, #linenums    0, checksum 30B4C40E, selection    1 (pick no duplicates)
+045 00000000 SECT1E notype       Static       | .debug$S
+    Section length  56C, #relocs   32, #linenums    0, checksum        0, selection    5 (pick associative Section 0x1D)
+047 00000000 SECT1F notype       Static       | .text$mn
+    Section length   E9, #relocs    8, #linenums    0, checksum 1557B64C, selection    1 (pick no duplicates)
+049 00000000 SECT20 notype       Static       | .debug$S
+    Section length  284, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0x1F)
+04B 00000000 UNDEF  notype       External     | __imp_bsearch
+04C 00000000 UNDEF  notype       External     | __imp_QueryPerformanceCounter
+04D 00000000 UNDEF  notype       External     | __imp_QueryPerformanceFrequency
+04E 00000000 UNDEF  notype ()    External     | pg_qsort
+04F 00000000 UNDEF  notype ()    External     | errstart
+050 00000000 UNDEF  notype ()    External     | errfinish
+051 00000000 UNDEF  notype ()    External     | errcode
+052 00000000 UNDEF  notype ()    External     | errmsg
+053 00000000 UNDEF  notype ()    External     | errdetail
+054 00000000 UNDEF  notype ()    External     | errhint
+055 00000000 UNDEF  notype ()    External     | set_errcontext_domain
+056 00000000 UNDEF  notype ()    External     | errcontext_msg
+057 00000000 UNDEF  notype ()    External     | elog_start
+058 00000000 UNDEF  notype ()    External     | elog_finish
+059 00000000 UNDEF  notype ()    External     | palloc
+05A 00000000 UNDEF  notype ()    External     | repalloc
+05B 00000000 UNDEF  notype ()    External     | pfree
+05C 00000000 UNDEF  notype ()    External     | GetRelationPath
+05D 00000000 UNDEF  notype ()    External     | XLogSaveBufferForHint
+05E 00000000 UNDEF  notype ()    External     | XLogFlush
+05F 00000000 UNDEF  notype ()    External     | XLogNeedsFlush
+060 00000000 UNDEF  notype ()    External     | RecoveryInProgress
+061 00000000 UNDEF  notype ()    External     | DataChecksumsEnabled
+062 00000000 UNDEF  notype ()    External     | IsCatalogRelation
+063 00000000 UNDEF  notype ()    External     | binaryheap_allocate
+064 00000000 UNDEF  notype ()    External     | binaryheap_free
+065 00000000 UNDEF  notype ()    External     | binaryheap_add_unordered
+066 00000000 UNDEF  notype ()    External     | binaryheap_build
+067 00000000 UNDEF  notype ()    External     | binaryheap_first
+068 00000000 UNDEF  notype ()    External     | binaryheap_remove_first
+069 00000000 UNDEF  notype ()    External     | binaryheap_replace_first
+06A 00000000 UNDEF  notype ()    External     | perform_spin_delay
+06B 00000000 UNDEF  notype ()    External     | finish_spin_delay
+06C 00000000 UNDEF  notype ()    External     | LWLockAcquire
+06D 00000000 UNDEF  notype ()    External     | LWLockConditionalAcquire
+06E 00000000 UNDEF  notype ()    External     | LWLockRelease
+06F 00000000 UNDEF  notype ()    External     | hash_create
+070 00000000 UNDEF  notype ()    External     | hash_search
+071 00000000 UNDEF  notype ()    External     | SetStartupBufferPinWaitBufId
+072 00000000 UNDEF  notype ()    External     | GetStartupBufferPinWaitBufId
+073 00000000 UNDEF  notype ()    External     | ProcWaitForSignal
+074 00000000 UNDEF  notype ()    External     | ProcSendSignal
+075 00000000 UNDEF  notype ()    External     | CheckpointWriteDelay
+076 00000000 UNDEF  notype ()    External     | PageIsVerified
+077 00000000 UNDEF  notype ()    External     | PageSetChecksumCopy
+078 00000000 UNDEF  notype ()    External     | PageSetChecksumInplace
+079 00000000 UNDEF  notype ()    External     | GetOldSnapshotThresholdTimestamp
+07A 00000000 SECT6  notype ()    External     | ComputeIoConcurrency
+07B 00000170 SECT6  notype ()    External     | PrefetchBuffer
+07C 00000180 SECT6  notype ()    External     | ReadBuffer
+07D 000001B0 SECT6  notype ()    External     | ReadBufferExtended
+07E 000002F0 SECT6  notype ()    External     | ReadBufferWithoutRelcache
+07F 00000370 SECT6  notype ()    External     | ReleaseBuffer
+080 000003F0 SECT6  notype ()    External     | UnlockReleaseBuffer
+081 00000430 SECT6  notype ()    External     | MarkBufferDirty
+082 00000560 SECT6  notype ()    External     | IncrBufferRefCount
+083 000005B0 SECT6  notype ()    External     | ReleaseAndReadBuffer
+084 000006A0 SECT6  notype ()    External     | InitBufferPoolAccess
+085 00000770 SECT6  notype ()    External     | InitBufferPoolBackend
+086 00000790 SECT6  notype ()    External     | AtEOXact_Buffers
+087 000007A0 SECT6  notype ()    External     | PrintBufferLeakWarning
+088 000008D0 SECT6  notype ()    External     | CheckPointBuffers
+089 00000920 SECT6  notype ()    External     | BufferGetBlockNumber
+08A 00000960 SECT6  notype ()    External     | RelationGetNumberOfBlocksInFork
+08B 000009C0 SECT6  notype ()    External     | FlushOneBuffer
+08C 000009E0 SECT6  notype ()    External     | FlushRelationBuffers
+08D 00000C50 SECT6  notype ()    External     | FlushDatabaseBuffers
+08E 00000D70 SECT6  notype ()    External     | DropRelFileNodeBuffers
+08F 00000E70 SECT6  notype ()    External     | DropRelFileNodesAllBuffers
+090 00001100 SECT6  notype ()    External     | DropDatabaseBuffers
+091 00001190 SECT6  notype ()    External     | BufferIsPermanent
+092 000011C0 SECT6  notype ()    External     | BufferGetLSNAtomic
+093 00001280 SECT6  notype ()    External     | BufferGetTag
+094 000012D0 SECT6  notype ()    External     | MarkBufferDirtyHint
+095 00001460 SECT6  notype ()    External     | UnlockBuffers
+096 000014C0 SECT6  notype ()    External     | LockBuffer
+097 00001560 SECT6  notype ()    External     | ConditionalLockBuffer
+098 00001590 SECT6  notype ()    External     | LockBufferForCleanup
+099 00001800 SECT6  notype ()    External     | ConditionalLockBufferForCleanup
+09A 00001900 SECT6  notype ()    External     | IsBufferCleanupOK
+09B 000019C0 SECT6  notype ()    External     | HoldingBufferPinThatDelaysRecovery
+09C 00001A30 SECT6  notype ()    External     | AbortBufferIO
+09D 00001B90 SECT6  notype ()    External     | BufmgrCommit
+09E 00001BA0 SECT6  notype ()    External     | BgBufferSync
+09F 00000000 UNDEF  notype ()    External     | AtProcExit_LocalBuffers
+0A0 00001EA0 SECT6  notype ()    External     | TestForOldSnapshot_impl
+0A1 00000000 UNDEF  notype ()    External     | smgropen
+0A2 00000000 UNDEF  notype ()    External     | smgrsetowner
+0A3 00000000 UNDEF  notype ()    External     | smgrextend
+0A4 00000000 UNDEF  notype ()    External     | smgrread
+0A5 00000000 UNDEF  notype ()    External     | smgrwrite
+0A6 00000000 UNDEF  notype ()    External     | smgrwriteback
+0A7 00000000 UNDEF  notype ()    External     | smgrnblocks
+0A8 00000000 UNDEF  notype ()    External     | smgrsync
+0A9 00001F90 SECT6  notype ()    External     | LockBufHdr
+0AA 00002020 SECT6  notype ()    External     | WritebackContextInit
+0AB 00002040 SECT6  notype ()    External     | IssuePendingWritebacks
+0AC 000021B0 SECT6  notype ()    External     | ScheduleBufferTagForWriteback
+0AD 00000000 UNDEF  notype ()    External     | StrategyGetBuffer
+0AE 00000000 UNDEF  notype ()    External     | StrategyFreeBuffer
+0AF 00000000 UNDEF  notype ()    External     | StrategyRejectBuffer
+0B0 00000000 UNDEF  notype ()    External     | StrategySyncStart
+0B1 00000000 UNDEF  notype ()    External     | BufTableHashCode
+0B2 00000000 UNDEF  notype ()    External     | BufTableLookup
+0B3 00000000 UNDEF  notype ()    External     | BufTableInsert
+0B4 00000000 UNDEF  notype ()    External     | BufTableDelete
+0B5 00000000 UNDEF  notype ()    External     | LocalBufferAlloc
+0B6 00000000 UNDEF  notype ()    External     | MarkLocalBufferDirty
+0B7 00000000 UNDEF  notype ()    External     | DropRelFileNodeLocalBuffers
+0B8 00000000 UNDEF  notype ()    External     | DropRelFileNodeAllLocalBuffers
+0B9 00000000 UNDEF  notype ()    External     | AtEOXact_LocalBuffers
+0BA 00000000 UNDEF  notype ()    External     | on_shmem_exit
+0BB 00000000 UNDEF  notype ()    External     | ResolveRecoveryConflictWithBufferPin
+0BC 00000000 UNDEF  notype ()    External     | RelationHasUnloggedIndex
+0BD 00000000 UNDEF  notype ()    External     | ResourceOwnerEnlargeBuffers
+0BE 00000000 UNDEF  notype ()    External     | ResourceOwnerRememberBuffer
+0BF 00000000 UNDEF  notype ()    External     | ResourceOwnerForgetBuffer
+0C0 00000000 UNDEF  notype ()    External     | GetCurrentTimestamp
+0C1 00000000 SECT17 notype ()    Static       | ReservePrivateRefCountEntry
+0C2 00000000 SECTD  notype ()    Static       | GetPrivateRefCountEntry
+0C3 00000000 SECT15 notype ()    Static       | ReadBuffer_common
+0C4 00000000 SECT11 notype ()    Static       | PinBuffer
+0C5 00000000 SECT13 notype ()    Static       | PinBuffer_Locked
+0C6 00000000 SECT1D notype ()    Static       | UnpinBuffer
+0C7 00000000 SECT9  notype ()    Static       | BufferSync
+0C8 00000000 SECT1B notype ()    Static       | SyncOneBuffer
+0C9 00000000 SECT1F notype ()    Static       | WaitIO
+0CA 00000000 SECT19 notype ()    Static       | StartBufferIO
+0CB 00002200 SECT6  notype ()    Static       | shared_buffer_write_error_callback
+0CC 00002260 SECT6  notype ()    Static       | local_buffer_write_error_callback
+0CD 00000000 SECT7  notype ()    Static       | BufferAlloc
+0CE 00000000 SECTB  notype ()    Static       | FlushBuffer
+0CF 000022D0 SECT6  notype ()    Static       | AtProcExit_Buffers
+0D0 00002330 SECT6  notype ()    Static       | rnode_comparator
+0D1 000023A0 SECT6  notype ()    Static       | buffertag_comparator
+0D2 00002430 SECT6  notype ()    Static       | ckpt_buforder_comparator
+0D3 00002480 SECT6  notype ()    Static       | ts_ckpt_progress_comparator
+0D4 00000000 SECTF  notype ()    Static       | InvalidateBuffer
+0D5 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+0D6 00000000 UNDEF  notype ()    External     | __chkstk
+0D7 00000000 UNDEF  notype ()    External     | __security_check_cookie
+0D8 00000000 UNDEF  notype ()    External     | memset
+0D9 00000000 SECT6  notype       Label        | $LN21
+0DA 00000180 SECT6  notype       Label        | $LN4
+0DB 000001B0 SECT6  notype       Label        | $LN24
+0DC 000002F0 SECT6  notype       Label        | $LN4
+0DD 00000370 SECT6  notype       Label        | $LN10
+0DE 000003F0 SECT6  notype       Label        | $LN18
+0DF 00000430 SECT6  notype       Label        | $LN48
+0E0 00000560 SECT6  notype       Label        | $LN6
+0E1 000005B0 SECT6  notype       Label        | $LN12
+0E2 000006A0 SECT6  notype       Label        | $LN17
+0E3 000007A0 SECT6  notype       Label        | $LN34
+0E4 000008D0 SECT6  notype       Label        | $LN4
+0E5 00000960 SECT6  notype       Label        | $LN8
+0E6 000009E0 SECT6  notype       Label        | $LN44
+0E7 00000C50 SECT6  notype       Label        | $LN36
+0E8 00000D70 SECT6  notype       Label        | $LN25
+0E9 00000E70 SECT6  notype       Label        | $LN78
+0EA 00001100 SECT6  notype       Label        | $LN21
+0EB 000011C0 SECT6  notype       Label        | $LN16
+0EC 000012D0 SECT6  notype       Label        | $LN41
+0ED 00001460 SECT6  notype       Label        | $LN13
+0EE 000014C0 SECT6  notype       Label        | $LN16
+0EF 00001590 SECT6  notype       Label        | $LN142
+0F0 00001800 SECT6  notype       Label        | $LN63
+0F1 00001900 SECT6  notype       Label        | $LN43
+0F2 000019C0 SECT6  notype       Label        | $LN26
+0F3 00001A30 SECT6  notype       Label        | $LN37
+0F4 00001BA0 SECT6  notype       Label        | $LN32
+0F5 00001EA0 SECT6  notype       Label        | $LN14
+0F6 00001F90 SECT6  notype       Label        | $LN30
+0F7 00002040 SECT6  notype       Label        | $LN26
+0F8 00000090 SECTF  notype       Label        | $retry$71
+0F9 00000000 SECT21 notype       Static       | .xdata
+    Section length  564, #relocs   8D, #linenums    0, checksum 23925715
+0FB 00000000 SECT21 notype       Static       | $unwind$ComputeIoConcurrency
+0FC 00000000 SECT22 notype       Static       | .pdata
+    Section length  3E4, #relocs   F9, #linenums    0, checksum 31BC6F69
+0FE 00000000 SECT22 notype       Static       | $pdata$ComputeIoConcurrency
+0FF 0000000C SECT21 notype       Static       | $unwind$ReadBuffer
+100 0000000C SECT22 notype       Static       | $pdata$ReadBuffer
+101 00000014 SECT21 notype       Static       | $unwind$ReadBufferExtended
+102 00000018 SECT22 notype       Static       | $pdata$ReadBufferExtended
+103 0000001C SECT21 notype       Static       | $chain$3$ReadBufferExtended
+104 00000024 SECT22 notype       Static       | $pdata$3$ReadBufferExtended
+105 0000003C SECT21 notype       Static       | $chain$4$ReadBufferExtended
+106 00000030 SECT22 notype       Static       | $pdata$4$ReadBufferExtended
+107 00000050 SECT21 notype       Static       | $chain$5$ReadBufferExtended
+108 0000003C SECT22 notype       Static       | $pdata$5$ReadBufferExtended
+109 00000060 SECT21 notype       Static       | $chain$6$ReadBufferExtended
+10A 00000048 SECT22 notype       Static       | $pdata$6$ReadBufferExtended
+10B 00000070 SECT21 notype       Static       | $unwind$ReadBufferWithoutRelcache
+10C 00000054 SECT22 notype       Static       | $pdata$ReadBufferWithoutRelcache
+10D 00000080 SECT21 notype       Static       | $unwind$ReleaseBuffer
+10E 00000060 SECT22 notype       Static       | $pdata$ReleaseBuffer
+10F 00000088 SECT21 notype       Static       | $unwind$UnlockReleaseBuffer
+110 0000006C SECT22 notype       Static       | $pdata$UnlockReleaseBuffer
+111 00000090 SECT21 notype       Static       | $unwind$MarkBufferDirty
+112 00000078 SECT22 notype       Static       | $pdata$MarkBufferDirty
+113 0000009C SECT21 notype       Static       | $chain$2$MarkBufferDirty
+114 00000084 SECT22 notype       Static       | $pdata$2$MarkBufferDirty
+115 000000B8 SECT21 notype       Static       | $chain$3$MarkBufferDirty
+116 00000090 SECT22 notype       Static       | $pdata$3$MarkBufferDirty
+117 000000C8 SECT21 notype       Static       | $unwind$IncrBufferRefCount
+118 0000009C SECT22 notype       Static       | $pdata$IncrBufferRefCount
+119 000000D0 SECT21 notype       Static       | $unwind$ReleaseAndReadBuffer
+11A 000000A8 SECT22 notype       Static       | $pdata$ReleaseAndReadBuffer
+11B 000000E0 SECT21 notype       Static       | $unwind$InitBufferPoolAccess
+11C 000000B4 SECT22 notype       Static       | $pdata$InitBufferPoolAccess
+11D 000000E8 SECT21 notype       Static       | $unwind$PrintBufferLeakWarning
+11E 000000C0 SECT22 notype       Static       | $pdata$PrintBufferLeakWarning
+11F 000000FC SECT21 notype       Static       | $unwind$CheckPointBuffers
+120 000000CC SECT22 notype       Static       | $pdata$CheckPointBuffers
+121 00000104 SECT21 notype       Static       | $unwind$RelationGetNumberOfBlocksInFork
+122 000000D8 SECT22 notype       Static       | $pdata$RelationGetNumberOfBlocksInFork
+123 00000110 SECT21 notype       Static       | $unwind$FlushRelationBuffers
+124 000000E4 SECT22 notype       Static       | $pdata$FlushRelationBuffers
+125 0000012C SECT21 notype       Static       | $chain$5$FlushRelationBuffers
+126 000000F0 SECT22 notype       Static       | $pdata$5$FlushRelationBuffers
+127 00000144 SECT21 notype       Static       | $chain$6$FlushRelationBuffers
+128 000000FC SECT22 notype       Static       | $pdata$6$FlushRelationBuffers
+129 00000154 SECT21 notype       Static       | $unwind$FlushDatabaseBuffers
+12A 00000108 SECT22 notype       Static       | $pdata$FlushDatabaseBuffers
+12B 00000160 SECT21 notype       Static       | $chain$2$FlushDatabaseBuffers
+12C 00000114 SECT22 notype       Static       | $pdata$2$FlushDatabaseBuffers
+12D 0000017C SECT21 notype       Static       | $chain$3$FlushDatabaseBuffers
+12E 00000120 SECT22 notype       Static       | $pdata$3$FlushDatabaseBuffers
+12F 0000018C SECT21 notype       Static       | $unwind$DropRelFileNodeBuffers
+130 0000012C SECT22 notype       Static       | $pdata$DropRelFileNodeBuffers
+131 00000198 SECT21 notype       Static       | $chain$0$DropRelFileNodeBuffers
+132 00000138 SECT22 notype       Static       | $pdata$0$DropRelFileNodeBuffers
+133 000001AC SECT21 notype       Static       | $chain$2$DropRelFileNodeBuffers
+134 00000144 SECT22 notype       Static       | $pdata$2$DropRelFileNodeBuffers
+135 000001C4 SECT21 notype       Static       | $chain$3$DropRelFileNodeBuffers
+136 00000150 SECT22 notype       Static       | $pdata$3$DropRelFileNodeBuffers
+137 000001D4 SECT21 notype       Static       | $chain$4$DropRelFileNodeBuffers
+138 0000015C SECT22 notype       Static       | $pdata$4$DropRelFileNodeBuffers
+139 000001E4 SECT21 notype       Static       | $unwind$DropRelFileNodesAllBuffers
+13A 00000168 SECT22 notype       Static       | $pdata$DropRelFileNodesAllBuffers
+13B 000001F0 SECT21 notype       Static       | $chain$2$DropRelFileNodesAllBuffers
+13C 00000174 SECT22 notype       Static       | $pdata$2$DropRelFileNodesAllBuffers
+13D 0000020C SECT21 notype       Static       | $chain$4$DropRelFileNodesAllBuffers
+13E 00000180 SECT22 notype       Static       | $pdata$4$DropRelFileNodesAllBuffers
+13F 00000224 SECT21 notype       Static       | $chain$5$DropRelFileNodesAllBuffers
+140 0000018C SECT22 notype       Static       | $pdata$5$DropRelFileNodesAllBuffers
+141 00000238 SECT21 notype       Static       | $chain$6$DropRelFileNodesAllBuffers
+142 00000198 SECT22 notype       Static       | $pdata$6$DropRelFileNodesAllBuffers
+143 00000248 SECT21 notype       Static       | $chain$7$DropRelFileNodesAllBuffers
+144 000001A4 SECT22 notype       Static       | $pdata$7$DropRelFileNodesAllBuffers
+145 00000258 SECT21 notype       Static       | $chain$8$DropRelFileNodesAllBuffers
+146 000001B0 SECT22 notype       Static       | $pdata$8$DropRelFileNodesAllBuffers
+147 00000268 SECT21 notype       Static       | $unwind$DropDatabaseBuffers
+148 000001BC SECT22 notype       Static       | $pdata$DropDatabaseBuffers
+149 00000274 SECT21 notype       Static       | $chain$1$DropDatabaseBuffers
+14A 000001C8 SECT22 notype       Static       | $pdata$1$DropDatabaseBuffers
+14B 0000028C SECT21 notype       Static       | $chain$2$DropDatabaseBuffers
+14C 000001D4 SECT22 notype       Static       | $pdata$2$DropDatabaseBuffers
+14D 0000029C SECT21 notype       Static       | $unwind$BufferGetLSNAtomic
+14E 000001E0 SECT22 notype       Static       | $pdata$BufferGetLSNAtomic
+14F 000002AC SECT21 notype       Static       | $unwind$MarkBufferDirtyHint
+150 000001EC SECT22 notype       Static       | $pdata$MarkBufferDirtyHint
+151 000002B8 SECT21 notype       Static       | $chain$0$MarkBufferDirtyHint
+152 000001F8 SECT22 notype       Static       | $pdata$0$MarkBufferDirtyHint
+153 000002CC SECT21 notype       Static       | $chain$3$MarkBufferDirtyHint
+154 00000204 SECT22 notype       Static       | $pdata$3$MarkBufferDirtyHint
+155 000002E8 SECT21 notype       Static       | $chain$4$MarkBufferDirtyHint
+156 00000210 SECT22 notype       Static       | $pdata$4$MarkBufferDirtyHint
+157 000002F8 SECT21 notype       Static       | $chain$5$MarkBufferDirtyHint
+158 0000021C SECT22 notype       Static       | $pdata$5$MarkBufferDirtyHint
+159 00000308 SECT21 notype       Static       | $unwind$UnlockBuffers
+15A 00000228 SECT22 notype       Static       | $pdata$UnlockBuffers
+15B 00000310 SECT21 notype       Static       | $unwind$LockBuffer
+15C 00000234 SECT22 notype       Static       | $pdata$LockBuffer
+15D 00000318 SECT21 notype       Static       | $unwind$LockBufferForCleanup
+15E 00000240 SECT22 notype       Static       | $pdata$LockBufferForCleanup
+15F 00000324 SECT21 notype       Static       | $chain$1$LockBufferForCleanup
+160 0000024C SECT22 notype       Static       | $pdata$1$LockBufferForCleanup
+161 0000033C SECT21 notype       Static       | $chain$2$LockBufferForCleanup
+162 00000258 SECT22 notype       Static       | $pdata$2$LockBufferForCleanup
+163 0000034C SECT21 notype       Static       | $unwind$ConditionalLockBufferForCleanup
+164 00000264 SECT22 notype       Static       | $pdata$ConditionalLockBufferForCleanup
+165 00000354 SECT21 notype       Static       | $chain$0$ConditionalLockBufferForCleanup
+166 00000270 SECT22 notype       Static       | $pdata$0$ConditionalLockBufferForCleanup
+167 00000368 SECT21 notype       Static       | $chain$2$ConditionalLockBufferForCleanup
+168 0000027C SECT22 notype       Static       | $pdata$2$ConditionalLockBufferForCleanup
+169 0000037C SECT21 notype       Static       | $unwind$IsBufferCleanupOK
+16A 00000288 SECT22 notype       Static       | $pdata$IsBufferCleanupOK
+16B 00000384 SECT21 notype       Static       | $unwind$HoldingBufferPinThatDelaysRecovery
+16C 00000294 SECT22 notype       Static       | $pdata$HoldingBufferPinThatDelaysRecovery
+16D 0000038C SECT21 notype       Static       | $unwind$AbortBufferIO
+16E 000002A0 SECT22 notype       Static       | $pdata$AbortBufferIO
+16F 00000394 SECT21 notype       Static       | $chain$0$AbortBufferIO
+170 000002AC SECT22 notype       Static       | $pdata$0$AbortBufferIO
+171 000003A8 SECT21 notype       Static       | $chain$2$AbortBufferIO
+172 000002B8 SECT22 notype       Static       | $pdata$2$AbortBufferIO
+173 000003C0 SECT21 notype       Static       | $chain$3$AbortBufferIO
+174 000002C4 SECT22 notype       Static       | $pdata$3$AbortBufferIO
+175 000003D0 SECT21 notype       Static       | $chain$4$AbortBufferIO
+176 000002D0 SECT22 notype       Static       | $pdata$4$AbortBufferIO
+177 000003E0 SECT21 notype       Static       | $unwind$BgBufferSync
+178 000002DC SECT22 notype       Static       | $pdata$BgBufferSync
+179 000003E8 SECT21 notype       Static       | $chain$0$BgBufferSync
+17A 000002E8 SECT22 notype       Static       | $pdata$0$BgBufferSync
+17B 000003FC SECT21 notype       Static       | $chain$6$BgBufferSync
+17C 000002F4 SECT22 notype       Static       | $pdata$6$BgBufferSync
+17D 00000424 SECT21 notype       Static       | $chain$7$BgBufferSync
+17E 00000300 SECT22 notype       Static       | $pdata$7$BgBufferSync
+17F 0000043C SECT21 notype       Static       | $chain$8$BgBufferSync
+180 0000030C SECT22 notype       Static       | $pdata$8$BgBufferSync
+181 00000450 SECT21 notype       Static       | $chain$10$BgBufferSync
+182 00000318 SECT22 notype       Static       | $pdata$10$BgBufferSync
+183 0000047C SECT21 notype       Static       | $unwind$TestForOldSnapshot_impl
+184 00000324 SECT22 notype       Static       | $pdata$TestForOldSnapshot_impl
+185 00000488 SECT21 notype       Static       | $unwind$LockBufHdr
+186 00000330 SECT22 notype       Static       | $pdata$LockBufHdr
+187 00000494 SECT21 notype       Static       | $unwind$IssuePendingWritebacks
+188 0000033C SECT22 notype       Static       | $pdata$IssuePendingWritebacks
+189 0000049C SECT21 notype       Static       | $chain$0$IssuePendingWritebacks
+18A 00000348 SECT22 notype       Static       | $pdata$0$IssuePendingWritebacks
+18B 000004B0 SECT21 notype       Static       | $chain$5$IssuePendingWritebacks
+18C 00000354 SECT22 notype       Static       | $pdata$5$IssuePendingWritebacks
+18D 000004D4 SECT21 notype       Static       | $chain$6$IssuePendingWritebacks
+18E 00000360 SECT22 notype       Static       | $pdata$6$IssuePendingWritebacks
+18F 000004E4 SECT21 notype       Static       | $chain$7$IssuePendingWritebacks
+190 0000036C SECT22 notype       Static       | $pdata$7$IssuePendingWritebacks
+191 00000000 SECT23 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum  FC539D1, selection    5 (pick associative Section 0x17)
+193 00000000 SECT23 notype       Static       | $unwind$ReservePrivateRefCountEntry
+194 00000000 SECT24 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  4949095, selection    5 (pick associative Section 0x17)
+196 00000000 SECT24 notype       Static       | $pdata$ReservePrivateRefCountEntry
+197 00000000 SECT25 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 15B35EDB, selection    5 (pick associative Section 0xD)
+199 00000000 SECT25 notype       Static       | $unwind$GetPrivateRefCountEntry
+19A 00000000 SECT26 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 998CF358, selection    5 (pick associative Section 0xD)
+19C 00000000 SECT26 notype       Static       | $pdata$GetPrivateRefCountEntry
+19D 00000000 SECT27 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 4EFDB635, selection    5 (pick associative Section 0xD)
+19F 00000000 SECT27 notype       Static       | $chain$0$GetPrivateRefCountEntry
+1A0 00000000 SECT28 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C724876D, selection    5 (pick associative Section 0xD)
+1A2 00000000 SECT28 notype       Static       | $pdata$0$GetPrivateRefCountEntry
+1A3 00000000 SECT29 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum  A2EE699, selection    5 (pick associative Section 0xD)
+1A5 00000000 SECT29 notype       Static       | $chain$2$GetPrivateRefCountEntry
+1A6 00000000 SECT2A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 876C8DD1, selection    5 (pick associative Section 0xD)
+1A8 00000000 SECT2A notype       Static       | $pdata$2$GetPrivateRefCountEntry
+1A9 00000000 SECT2B notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 20DB19B4, selection    5 (pick associative Section 0xD)
+1AB 00000000 SECT2B notype       Static       | $chain$3$GetPrivateRefCountEntry
+1AC 00000000 SECT2C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 15DC1A0D, selection    5 (pick associative Section 0xD)
+1AE 00000000 SECT2C notype       Static       | $pdata$3$GetPrivateRefCountEntry
+1AF 00000000 SECT2D notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum BE95ACF7, selection    5 (pick associative Section 0x15)
+1B1 00000000 SECT2D notype       Static       | $unwind$ReadBuffer_common
+1B2 00000000 SECT2E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 81DD3412, selection    5 (pick associative Section 0x15)
+1B4 00000000 SECT2E notype       Static       | $pdata$ReadBuffer_common
+1B5 00000000 SECT2F notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum B6BCAF48, selection    5 (pick associative Section 0x11)
+1B7 00000000 SECT2F notype       Static       | $unwind$PinBuffer
+1B8 00000000 SECT30 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  B42549E, selection    5 (pick associative Section 0x11)
+1BA 00000000 SECT30 notype       Static       | $pdata$PinBuffer
+1BB 00000000 SECT31 notype       Static       | .xdata
+    Section length   1C, #relocs    3, #linenums    0, checksum 964C2183, selection    5 (pick associative Section 0x11)
+1BD 00000000 SECT31 notype       Static       | $chain$2$PinBuffer
+1BE 00000000 SECT32 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum CE82BBDE, selection    5 (pick associative Section 0x11)
+1C0 00000000 SECT32 notype       Static       | $pdata$2$PinBuffer
+1C1 00000000 SECT33 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum B215BE72, selection    5 (pick associative Section 0x11)
+1C3 00000000 SECT33 notype       Static       | $chain$3$PinBuffer
+1C4 00000000 SECT34 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 828DD8F3, selection    5 (pick associative Section 0x11)
+1C6 00000000 SECT34 notype       Static       | $pdata$3$PinBuffer
+1C7 00000000 SECT35 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum  FC539D1, selection    5 (pick associative Section 0x13)
+1C9 00000000 SECT35 notype       Static       | $unwind$PinBuffer_Locked
+1CA 00000000 SECT36 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 617DCC89, selection    5 (pick associative Section 0x13)
+1CC 00000000 SECT36 notype       Static       | $pdata$PinBuffer_Locked
+1CD 00000000 SECT37 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum C80C23B7, selection    5 (pick associative Section 0x1D)
+1CF 00000000 SECT37 notype       Static       | $unwind$UnpinBuffer
+1D0 00000000 SECT38 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum ABCABA0B, selection    5 (pick associative Section 0x1D)
+1D2 00000000 SECT38 notype       Static       | $pdata$UnpinBuffer
+1D3 00000000 SECT39 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 472684AB, selection    5 (pick associative Section 0x1D)
+1D5 00000000 SECT39 notype       Static       | $chain$0$UnpinBuffer
+1D6 00000000 SECT3A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D6E1A9FC, selection    5 (pick associative Section 0x1D)
+1D8 00000000 SECT3A notype       Static       | $pdata$0$UnpinBuffer
+1D9 00000000 SECT3B notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 129D50E7, selection    5 (pick associative Section 0x1D)
+1DB 00000000 SECT3B notype       Static       | $chain$1$UnpinBuffer
+1DC 00000000 SECT3C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C1DD15A1, selection    5 (pick associative Section 0x1D)
+1DE 00000000 SECT3C notype       Static       | $pdata$1$UnpinBuffer
+1DF 00000000 SECT3D notype       Static       | .xdata
+    Section length   1C, #relocs    1, #linenums    0, checksum 61DA864F, selection    5 (pick associative Section 0x9)
+1E1 00000000 SECT3D notype       Static       | $unwind$BufferSync
+1E2 00000000 SECT3E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 92CEA7C6, selection    5 (pick associative Section 0x9)
+1E4 00000000 SECT3E notype       Static       | $pdata$BufferSync
+1E5 00000000 SECT3F notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 9E76CA2E, selection    5 (pick associative Section 0x9)
+1E7 00000000 SECT3F notype       Static       | $chain$1$BufferSync
+1E8 00000000 SECT40 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6668FA8B, selection    5 (pick associative Section 0x9)
+1EA 00000000 SECT40 notype       Static       | $pdata$1$BufferSync
+1EB 00000000 SECT41 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 8B381D09, selection    5 (pick associative Section 0x9)
+1ED 00000000 SECT41 notype       Static       | $chain$3$BufferSync
+1EE 00000000 SECT42 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8B1D99DE, selection    5 (pick associative Section 0x9)
+1F0 00000000 SECT42 notype       Static       | $pdata$3$BufferSync
+1F1 00000000 SECT43 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum ED433DB3, selection    5 (pick associative Section 0x9)
+1F3 00000000 SECT43 notype       Static       | $chain$4$BufferSync
+1F4 00000000 SECT44 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C7374068, selection    5 (pick associative Section 0x9)
+1F6 00000000 SECT44 notype       Static       | $pdata$4$BufferSync
+1F7 00000000 SECT45 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 324A7332, selection    5 (pick associative Section 0x9)
+1F9 00000000 SECT45 notype       Static       | $chain$5$BufferSync
+1FA 00000000 SECT46 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 9860D888, selection    5 (pick associative Section 0x9)
+1FC 00000000 SECT46 notype       Static       | $pdata$5$BufferSync
+1FD 00000000 SECT47 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum DF3F1067, selection    5 (pick associative Section 0x9)
+1FF 00000000 SECT47 notype       Static       | $chain$6$BufferSync
+200 00000000 SECT48 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  D71EA00, selection    5 (pick associative Section 0x9)
+202 00000000 SECT48 notype       Static       | $pdata$6$BufferSync
+203 00000000 SECT49 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 2B994D2A, selection    5 (pick associative Section 0x9)
+205 00000000 SECT49 notype       Static       | $chain$7$BufferSync
+206 00000000 SECT4A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F2DA6CB3, selection    5 (pick associative Section 0x9)
+208 00000000 SECT4A notype       Static       | $pdata$7$BufferSync
+209 00000000 SECT4B notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 6A3C51C2, selection    5 (pick associative Section 0x1B)
+20B 00000000 SECT4B notype       Static       | $unwind$SyncOneBuffer
+20C 00000000 SECT4C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8D632FD0, selection    5 (pick associative Section 0x1B)
+20E 00000000 SECT4C notype       Static       | $pdata$SyncOneBuffer
+20F 00000000 SECT4D notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 5BAEAEA9, selection    5 (pick associative Section 0x1F)
+211 00000000 SECT4D notype       Static       | $unwind$WaitIO
+212 00000000 SECT4E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 9C9F3E4A, selection    5 (pick associative Section 0x1F)
+214 00000000 SECT4E notype       Static       | $pdata$WaitIO
+215 00000000 SECT4F notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0x19)
+217 00000000 SECT4F notype       Static       | $unwind$StartBufferIO
+218 00000000 SECT50 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 39041DCD, selection    5 (pick associative Section 0x19)
+21A 00000000 SECT50 notype       Static       | $pdata$StartBufferIO
+21B 000004F4 SECT21 notype       Static       | $unwind$shared_buffer_write_error_callback
+21C 00000378 SECT22 notype       Static       | $pdata$shared_buffer_write_error_callback
+21D 000004FC SECT21 notype       Static       | $chain$0$shared_buffer_write_error_callback
+21E 00000384 SECT22 notype       Static       | $pdata$0$shared_buffer_write_error_callback
+21F 00000510 SECT21 notype       Static       | $chain$1$shared_buffer_write_error_callback
+220 00000390 SECT22 notype       Static       | $pdata$1$shared_buffer_write_error_callback
+221 00000520 SECT21 notype       Static       | $unwind$local_buffer_write_error_callback
+222 0000039C SECT22 notype       Static       | $pdata$local_buffer_write_error_callback
+223 00000528 SECT21 notype       Static       | $chain$0$local_buffer_write_error_callback
+224 000003A8 SECT22 notype       Static       | $pdata$0$local_buffer_write_error_callback
+225 0000053C SECT21 notype       Static       | $chain$1$local_buffer_write_error_callback
+226 000003B4 SECT22 notype       Static       | $pdata$1$local_buffer_write_error_callback
+227 00000000 SECT51 notype       Static       | .xdata
+    Section length   1C, #relocs    1, #linenums    0, checksum ED56CF74, selection    5 (pick associative Section 0x7)
+229 00000000 SECT51 notype       Static       | $unwind$BufferAlloc
+22A 00000000 SECT52 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6F2C5505, selection    5 (pick associative Section 0x7)
+22C 00000000 SECT52 notype       Static       | $pdata$BufferAlloc
+22D 00000000 SECT53 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum AE090ED9, selection    5 (pick associative Section 0x7)
+22F 00000000 SECT53 notype       Static       | $chain$0$BufferAlloc
+230 00000000 SECT54 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 4DDA2F1D, selection    5 (pick associative Section 0x7)
+232 00000000 SECT54 notype       Static       | $pdata$0$BufferAlloc
+233 00000000 SECT55 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum D67BBFE9, selection    5 (pick associative Section 0x7)
+235 00000000 SECT55 notype       Static       | $chain$1$BufferAlloc
+236 00000000 SECT56 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 65477AEC, selection    5 (pick associative Section 0x7)
+238 00000000 SECT56 notype       Static       | $pdata$1$BufferAlloc
+239 00000000 SECT57 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 92682FA6, selection    5 (pick associative Section 0xB)
+23B 00000000 SECT57 notype       Static       | $unwind$FlushBuffer
+23C 00000000 SECT58 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A59B2387, selection    5 (pick associative Section 0xB)
+23E 00000000 SECT58 notype       Static       | $pdata$FlushBuffer
+23F 00000000 SECT59 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum  B96BD6F, selection    5 (pick associative Section 0xB)
+241 00000000 SECT59 notype       Static       | $chain$0$FlushBuffer
+242 00000000 SECT5A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2ACF4FF1, selection    5 (pick associative Section 0xB)
+244 00000000 SECT5A notype       Static       | $pdata$0$FlushBuffer
+245 00000000 SECT5B notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 1CCCC96B, selection    5 (pick associative Section 0xB)
+247 00000000 SECT5B notype       Static       | $chain$1$FlushBuffer
+248 00000000 SECT5C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6FB2F698, selection    5 (pick associative Section 0xB)
+24A 00000000 SECT5C notype       Static       | $pdata$1$FlushBuffer
+24B 0000054C SECT21 notype       Static       | $unwind$AtProcExit_Buffers
+24C 000003C0 SECT22 notype       Static       | $pdata$AtProcExit_Buffers
+24D 00000554 SECT21 notype       Static       | $unwind$rnode_comparator
+24E 000003CC SECT22 notype       Static       | $pdata$rnode_comparator
+24F 0000055C SECT21 notype       Static       | $unwind$buffertag_comparator
+250 000003D8 SECT22 notype       Static       | $pdata$buffertag_comparator
+251 00000000 SECT5D notype       Static       | .xdata
+    Section length   1C, #relocs    1, #linenums    0, checksum F9CA089E, selection    5 (pick associative Section 0xF)
+253 00000000 SECT5D notype       Static       | $unwind$InvalidateBuffer
+254 00000000 SECT5E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 72083B9A, selection    5 (pick associative Section 0xF)
+256 00000000 SECT5E notype       Static       | $pdata$InvalidateBuffer
+257 00000000 UNDEF  notype       External     | error_context_stack
+258 00000000 UNDEF  notype       External     | MyBackendId
+259 00000000 UNDEF  notype       External     | standbyState
+25A 00000000 UNDEF  notype       External     | wal_log_hints
+25B 00000000 UNDEF  notype       External     | wal_level
+25C 00000000 UNDEF  notype       External     | CheckpointStats
+25D 00000000 UNDEF  notype       External     | pgBufferUsage
+25E 00000000 UNDEF  notype       External     | NBuffers
+25F 00000000 UNDEF  notype       External     | MyProcPid
+260 00000000 UNDEF  notype       External     | VacuumCostPageHit
+261 00000000 UNDEF  notype       External     | VacuumCostPageMiss
+262 00000000 UNDEF  notype       External     | VacuumCostPageDirty
+263 00000000 UNDEF  notype       External     | VacuumPageHit
+264 00000000 UNDEF  notype       External     | VacuumPageMiss
+265 00000000 UNDEF  notype       External     | VacuumPageDirty
+266 00000000 UNDEF  notype       External     | VacuumCostBalance
+267 00000000 UNDEF  notype       External     | VacuumCostActive
+268 00000000 UNDEF  notype       External     | MainLWLockArray
+269 00000000 UNDEF  notype       External     | MyPgXact
+26A 00000000 UNDEF  notype       External     | BgWriterStats
+26B 00000000 UNDEF  notype       External     | pgStatBlockReadTime
+26C 00000000 UNDEF  notype       External     | pgStatBlockWriteTime
+26D 00000000 UNDEF  notype       External     | BgWriterDelay
+26E 00000000 UNDEF  notype       External     | CurrentResourceOwner
+26F 00000000 UNDEF  notype       External     | BufferBlocks
+270 00000000 UNDEF  notype       External     | NLocBuffer
+271 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+272 00000000 UNDEF  notype       External     | LocalRefCount
+273 00000000 UNDEF  notype       External     | BufferIOLWLockArray
+274 00000000 UNDEF  notype       External     | BufferDescriptors
+275 00000000 UNDEF  notype       External     | BackendWritebackContext
+276 00000000 UNDEF  notype       External     | LocalBufferDescriptors
+277 00000000 UNDEF  notype       External     | CkptBufferIds
+278 00000018 SECT4  notype       Static       | InProgressBuf
+279 00000020 SECT4  notype       Static       | IsForInput
+27A 00000028 SECT4  notype       Static       | PinCountWaitBuf
+27B 00000030 SECT4  notype       Static       | PrivateRefCountArray
+27C 00000070 SECT4  notype       Static       | PrivateRefCountHash
+27D 00000078 SECT4  notype       Static       | PrivateRefCountOverflowed
+27E 0000007C SECT4  notype       Static       | PrivateRefCountClock
+27F 00000080 SECT4  notype       Static       | ReservedRefCountEntry
+280 00000000 SECT5F notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum F06E39F5, selection    2 (pick any)
+282 00000000 SECT5F notype       External     | ??_C@_0BD@NFJJAPGF@ReadBufferExtended?$AA@ (`string')
+283 00000000 SECT60 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum  D2B259B, selection    2 (pick any)
+285 00000000 SECT60 notype       External     | ??_C@_0CE@JIGCGILB@src?1backend?1storage?1buffer?1bufmg@ (`string')
+286 00000000 SECT61 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum F6B312BC, selection    2 (pick any)
+288 00000000 SECT61 notype       External     | ??_C@_0DB@FLNJONLG@cannot?5access?5temporary?5tables?5o@ (`string')
+289 00000000 SECT62 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum  7A2D15B, selection    2 (pick any)
+28B 00000000 SECT62 notype       External     | ??_C@_0BC@JPEGOBOJ@ReadBuffer_common?$AA@ (`string')
+28C 00000000 SECT63 notype       Static       | .rdata
+    Section length   4F, #relocs    0, #linenums    0, checksum F874A5B2, selection    2 (pick any)
+28E 00000000 SECT63 notype       External     | ??_C@_0EP@JFBGDFPG@This?5has?5been?5seen?5to?5occur?5with@ (`string')
+28F 00000000 SECT64 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum 20FAA7AA, selection    2 (pick any)
+291 00000000 SECT64 notype       External     | ??_C@_0DG@OKKGDFKI@unexpected?5data?5beyond?5EOF?5in?5bl@ (`string')
+292 00000000 SECT65 notype       Static       | .rdata
+    Section length   3A, #relocs    0, #linenums    0, checksum E8577F0A, selection    2 (pick any)
+294 00000000 SECT65 notype       External     | ??_C@_0DK@NBHGOCOJ@invalid?5page?5in?5block?5?$CFu?5of?5rela@ (`string')
+295 00000000 SECT66 notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 9019DDE9, selection    2 (pick any)
+297 00000000 SECT66 notype       External     | ??_C@_0CI@IGAKBPKH@invalid?5page?5in?5block?5?$CFu?5of?5rela@ (`string')
+298 00000000 SECT67 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum  9C8B965, selection    2 (pick any)
+29A 00000000 SECT67 notype       External     | ??_C@_0BB@DPNILHCH@InvalidateBuffer?$AA@ (`string')
+29B 00000000 SECT68 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum CD7A44DA, selection    2 (pick any)
+29D 00000000 SECT68 notype       External     | ??_C@_0CF@BGFEMEEB@buffer?5is?5pinned?5in?5InvalidateBu@ (`string')
+29E 00000000 SECT69 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 11433BC5, selection    2 (pick any)
+2A0 00000000 SECT69 notype       External     | ??_C@_0BA@CAHIPGP@MarkBufferDirty?$AA@ (`string')
+2A1 00000000 SECT6A notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum E78CCAD0, selection    2 (pick any)
+2A3 00000000 SECT6A notype       External     | ??_C@_0BC@HPGIPKGC@bad?5buffer?5ID?3?5?$CFd?$AA@ (`string')
+2A4 00000021 SECT4  notype       Static       | ?saved_info_valid@?1??BgBufferSync@@9@9 (`BgBufferSync'::`2'::saved_info_valid)
+2A5 00000088 SECT4  notype       Static       | ?prev_strategy_buf_id@?1??BgBufferSync@@9@9 (`BgBufferSync'::`2'::prev_strategy_buf_id)
+2A6 0000008C SECT4  notype       Static       | ?prev_strategy_passes@?1??BgBufferSync@@9@9 (`BgBufferSync'::`2'::prev_strategy_passes)
+2A7 00000090 SECT4  notype       Static       | ?next_to_clean@?1??BgBufferSync@@9@9 (`BgBufferSync'::`2'::next_to_clean)
+2A8 00000094 SECT4  notype       Static       | ?next_passes@?1??BgBufferSync@@9@9 (`BgBufferSync'::`2'::next_passes)
+2A9 00000098 SECT4  notype       Static       | ?smoothed_alloc@?1??BgBufferSync@@9@9 (`BgBufferSync'::`2'::smoothed_alloc)
+2AA 00000010 SECT5  notype       Static       | ?smoothed_density@?1??BgBufferSync@@9@9 (`BgBufferSync'::`2'::smoothed_density)
+2AB 00000000 SECT6B notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 7F479293, selection    2 (pick any)
+2AD 00000000 SECT6B notype       External     | ??_C@_0BA@GMADCGDJ@PrivateRefCount?$AA@ (`string')
+2AE 00000000 SECT6C notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 80FCF7A4, selection    2 (pick any)
+2B0 00000000 SECT6C notype       External     | ??_C@_0BH@NKDCMBP@PrintBufferLeakWarning?$AA@ (`string')
+2B1 00000000 SECT6D notype       Static       | .rdata
+    Section length   4F, #relocs    0, #linenums    0, checksum 34AEEA7B, selection    2 (pick any)
+2B3 00000000 SECT6D notype       External     | ??_C@_0EP@FJMMHKDP@buffer?5refcount?5leak?3?5?$FL?$CF03d?$FN?5?$CIre@ (`string')
+2B4 00000000 SECT6E notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 653383A0, selection    2 (pick any)
+2B6 00000000 SECT6E notype       External     | ??_C@_0O@ELHHAFJI@ReleaseBuffer?$AA@ (`string')
+2B7 00000000 SECT6F notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum FFFED9A8, selection    2 (pick any)
+2B9 00000000 SECT6F notype       External     | ??_C@_0BE@PNELNNK@MarkBufferDirtyHint?$AA@ (`string')
+2BA 00000000 SECT70 notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum C78015F6, selection    2 (pick any)
+2BC 00000000 SECT70 notype       External     | ??_C@_0L@FDPIFLOF@LockBuffer?$AA@ (`string')
+2BD 00000000 SECT71 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 9D179BF9, selection    2 (pick any)
+2BF 00000000 SECT71 notype       External     | ??_C@_0CC@CDJJAICM@unrecognized?5buffer?5lock?5mode?3?5?$CF@ (`string')
+2C0 00000000 SECT72 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum D053C8CB, selection    2 (pick any)
+2C2 00000000 SECT72 notype       External     | ??_C@_0BF@GOKIPCLP@LockBufferForCleanup?$AA@ (`string')
+2C3 00000000 SECT73 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 1E620F0F, selection    2 (pick any)
+2C5 00000000 SECT73 notype       External     | ??_C@_0BO@OBJJMOEF@incorrect?5local?5pin?5count?3?5?$CFd?$AA@ (`string')
+2C6 00000000 SECT74 notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum 73E0CD8F, selection    2 (pick any)
+2C8 00000000 SECT74 notype       External     | ??_C@_0DE@EADEDNMA@multiple?5backends?5attempting?5to?5@ (`string')
+2C9 00000000 SECT75 notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum  B621079, selection    2 (pick any)
+2CB 00000000 SECT75 notype       External     | ??_C@_0O@CFCGJGEB@AbortBufferIO?$AA@ (`string')
+2CC 00000000 SECT76 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum 44833623, selection    2 (pick any)
+2CE 00000000 SECT76 notype       External     | ??_C@_0DG@IONPKECB@Multiple?5failures?5?9?9?9?5write?5erro@ (`string')
+2CF 00000000 SECT77 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 170228AF, selection    2 (pick any)
+2D1 00000000 SECT77 notype       External     | ??_C@_0BP@IBPEHLOA@could?5not?5write?5block?5?$CFu?5of?5?$CFs?$AA@ (`string')
+2D2 00000000 SECT78 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum C757E60C, selection    2 (pick any)
+2D4 00000000 SECT78 notype       External     | ??_C@_0CA@CBKCEMFO@writing?5block?5?$CFu?5of?5relation?5?$CFs?$AA@ (`string')
+2D5 00000000 SECT79 notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum 86AFA7CC, selection    2 (pick any)
+2D7 00000000 SECT79 notype       External     | ??_C@_0L@BCNHOJNP@LockBufHdr?$AA@ (`string')
+2D8 00000000 SECT7A notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum B6B89A9A, selection    2 (pick any)
+2DA 00000000 SECT7A notype       External     | ??_C@_0BD@JDEPKMAK@WaitBufHdrUnlocked?$AA@ (`string')
+2DB 00000000 SECT7B notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum E8C65658, selection    2 (pick any)
+2DD 00000000 SECT7B notype       External     | ??_C@_0BI@LEPIGDIH@TestForOldSnapshot_impl?$AA@ (`string')
+2DE 00000000 SECT7C notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum E6C646C9, selection    2 (pick any)
+2E0 00000000 SECT7C notype       External     | ??_C@_0BB@NANGEIIL@snapshot?5too?5old?$AA@ (`string')
+2E1 00000000 SECT7D notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum 63EBD45A, selection    2 (pick any)
+2E3 00000000 SECT7D notype       External     | __real@3d800000
+2E4 00000000 SECT7E notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum  1B97D4D, selection    2 (pick any)
+2E6 00000000 SECT7E notype       External     | __real@412e848000000000
+2E7 00000000 SECT7F notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum BC6A43F2, selection    2 (pick any)
+2E9 00000000 SECT7F notype       External     | __real@41dfffffffc00000
+2EA 00000000 SECT80 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum B1ABE3C6, selection    2 (pick any)
+2EC 00000000 SECT80 notype       External     | __real@43e0000000000000
+2ED 00000000 SECT81 notype       Static       | .rdata
+    Section length    4, #relocs    0, #linenums    0, checksum  4FE0475, selection    2 (pick any)
+2EF 00000000 SECT81 notype       External     | __real@47ea6000
+2F0 00000000 UNDEF  notype       External     | __security_cookie
+2F1 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x2D43 bytes
+
+  Summary
+
+          9C .bss
+          14 .data
+        FD38 .debug$S
+          68 .debug$T
+          5D .drectve
+         54C .pdata
+         3CF .rdata
+        3E87 .text$mn
+         794 .xdata

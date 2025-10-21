@@ -1,0 +1,77 @@
+
+Dump of file Release\postgres/gistscan.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5428, #relocs   76, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  593, #relocs   27, #linenums    0, checksum 8C756B04
+00A 00000000 UNDEF  notype       External     | __imp_memmove
+00B 00000000 UNDEF  notype ()    External     | elog_start
+00C 00000000 UNDEF  notype ()    External     | elog_finish
+00D 00000000 UNDEF  notype ()    External     | palloc
+00E 00000000 UNDEF  notype ()    External     | palloc0
+00F 00000000 UNDEF  notype ()    External     | pfree
+010 00000000 UNDEF  notype ()    External     | fmgr_info_copy
+011 00000000 UNDEF  notype ()    External     | CreateTemplateTupleDesc
+012 00000000 UNDEF  notype ()    External     | TupleDescInitEntry
+013 00000000 UNDEF  notype ()    External     | pairingheap_allocate
+014 00000000 UNDEF  notype ()    External     | RelationGetIndexScan
+015 00000000 UNDEF  notype ()    External     | createTempGistContext
+016 00000000 UNDEF  notype ()    External     | initGISTstate
+017 00000000 UNDEF  notype ()    External     | freeGISTstate
+018 00000000 SECT4  notype ()    External     | gistbeginscan
+019 00000100 SECT4  notype ()    External     | gistrescan
+01A 00000500 SECT4  notype ()    External     | gistendscan
+01B 00000000 UNDEF  notype ()    External     | get_func_rettype
+01C 00000000 UNDEF  notype ()    External     | MemoryContextReset
+01D 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+01E 00000520 SECT4  notype ()    Static       | pairingheap_GISTSearchItem_cmp
+01F 00000000 UNDEF  notype ()    External     | memset
+020 00000000 SECT4  notype       Label        | $LN9
+021 00000100 SECT4  notype       Label        | $LN68
+022 00000000 SECT5  notype       Static       | .xdata
+    Section length   34, #relocs    0, #linenums    0, checksum A95A00BE
+024 00000000 SECT5  notype       Static       | $unwind$gistbeginscan
+025 00000000 SECT6  notype       Static       | .pdata
+    Section length   18, #relocs    6, #linenums    0, checksum 66116AC8
+027 00000000 SECT6  notype       Static       | $pdata$gistbeginscan
+028 00000018 SECT5  notype       Static       | $unwind$gistrescan
+029 0000000C SECT6  notype       Static       | $pdata$gistrescan
+02A 00000000 UNDEF  notype       External     | CurrentMemoryContext
+02B 00000000 SECT7  notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum CFA1AE6E, selection    2 (pick any)
+02D 00000000 SECT7  notype       External     | ??_C@_0BD@OKFGJIPO@GiST?5queue?5context?$AA@ (`string')
+02E 00000000 SECT8  notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 2C26AAF4, selection    2 (pick any)
+030 00000000 SECT8  notype       External     | ??_C@_0BH@KBHJHBEP@GiST?5page?5data?5context?$AA@ (`string')
+031 00000000 SECT9  notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum B36DB65C, selection    2 (pick any)
+033 00000000 SECT9  notype       External     | ??_C@_0L@CHBFPIEP@gistrescan?$AA@ (`string')
+034 00000000 SECTA  notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum A9EE0B7C, selection    2 (pick any)
+036 00000000 SECTA  notype       External     | ??_C@_0CD@FPOJKDLE@src?1backend?1access?1gist?1gistscan@ (`string')
+037 00000000 SECTB  notype       Static       | .rdata
+    Section length   3B, #relocs    0, #linenums    0, checksum 18862EB5, selection    2 (pick any)
+039 00000000 SECTB  notype       External     | ??_C@_0DL@CBLMLMOK@missing?5support?5function?5?$CFd?5for?5@ (`string')
+03A 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x299 bytes
+
+  Summary
+
+        5428 .debug$S
+          68 .debug$T
+          5D .drectve
+          18 .pdata
+          93 .rdata
+         593 .text$mn
+          34 .xdata

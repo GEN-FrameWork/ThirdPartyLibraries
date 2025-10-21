@@ -1,0 +1,71 @@
+
+Dump of file Release\utf8_and_cyrillic/utf8_and_cyrillic.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   EF, #relocs    0, #linenums    0, checksum 9210FEB0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 3FCC, #relocs   5E, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   70, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length 1408, #relocs    4, #linenums    0, checksum 549DF439
+00A 00000000 SECT4  notype       Static       | koi8r_from_unicode_tree_table
+00B 00000550 SECT4  notype       Static       | koi8r_from_unicode_tree
+00C 000005C0 SECT4  notype       Static       | koi8r_to_unicode_tree_table
+00D 00000588 SECT4  notype       Static       | koi8r_to_unicode_tree
+00E 000009C0 SECT4  notype       Static       | koi8u_from_unicode_tree_table
+00F 00000F70 SECT4  notype       Static       | koi8u_from_unicode_tree
+010 00000FE0 SECT4  notype       Static       | koi8u_to_unicode_tree_table
+011 00000FA8 SECT4  notype       Static       | koi8u_to_unicode_tree
+012 000013E0 SECT4  notype       Static       | ?Pg_magic_data@?1??Pg_magic_func@@9@9 (`Pg_magic_func'::`2'::Pg_magic_data)
+013 0000054C SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_utf8_to_koi8r@@9@9 (`pg_finfo_utf8_to_koi8r'::`2'::my_finfo)
+014 000013FC SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_koi8r_to_utf8@@9@9 (`pg_finfo_koi8r_to_utf8'::`2'::my_finfo)
+015 00001400 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_utf8_to_koi8u@@9@9 (`pg_finfo_utf8_to_koi8u'::`2'::my_finfo)
+016 00001404 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_koi8u_to_utf8@@9@9 (`pg_finfo_koi8u_to_utf8'::`2'::my_finfo)
+017 00000000 SECT5  notype       Static       | .text$mn
+    Section length  248, #relocs   11, #linenums    0, checksum 4719173F
+019 00000000 UNDEF  notype ()    External     | UtfToLocal
+01A 00000000 UNDEF  notype ()    External     | LocalToUtf
+01B 00000000 UNDEF  notype ()    External     | check_encoding_conversion_args
+01C 00000000 SECT5  notype ()    External     | Pg_magic_func
+01D 00000010 SECT5  notype ()    External     | utf8_to_koi8r
+01E 00000090 SECT5  notype ()    External     | pg_finfo_utf8_to_koi8r
+01F 000000A0 SECT5  notype ()    External     | koi8r_to_utf8
+020 00000120 SECT5  notype ()    External     | pg_finfo_koi8r_to_utf8
+021 00000130 SECT5  notype ()    External     | utf8_to_koi8u
+022 000001B0 SECT5  notype ()    External     | pg_finfo_utf8_to_koi8u
+023 000001C0 SECT5  notype ()    External     | koi8u_to_utf8
+024 00000240 SECT5  notype ()    External     | pg_finfo_koi8u_to_utf8
+025 00000010 SECT5  notype       Label        | $LN4
+026 000000A0 SECT5  notype       Label        | $LN4
+027 00000130 SECT5  notype       Label        | $LN4
+028 000001C0 SECT5  notype       Label        | $LN4
+029 00000000 SECT6  notype       Static       | .xdata
+    Section length   40, #relocs    0, #linenums    0, checksum CD0E5514
+02B 00000000 SECT6  notype       Static       | $unwind$utf8_to_koi8r
+02C 00000000 SECT7  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum 2271705C
+02E 00000000 SECT7  notype       Static       | $pdata$utf8_to_koi8r
+02F 00000010 SECT6  notype       Static       | $unwind$koi8r_to_utf8
+030 0000000C SECT7  notype       Static       | $pdata$koi8r_to_utf8
+031 00000020 SECT6  notype       Static       | $unwind$utf8_to_koi8u
+032 00000018 SECT7  notype       Static       | $pdata$utf8_to_koi8u
+033 00000030 SECT6  notype       Static       | $unwind$koi8u_to_utf8
+034 00000024 SECT7  notype       Static       | $pdata$koi8u_to_utf8
+
+String Table Size = 0x325 bytes
+
+  Summary
+
+        3FCC .debug$S
+          70 .debug$T
+          EF .drectve
+          30 .pdata
+        1408 .rdata
+         248 .text$mn
+          40 .xdata

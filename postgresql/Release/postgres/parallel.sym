@@ -1,0 +1,392 @@
+
+Dump of file Release\postgres/parallel.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 70E4, #relocs  17A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .bss
+    Section length   20, #relocs    0, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       External     | ParallelMessagePending
+00B 00000000 SECT5  notype       Static       | .data
+    Section length   18, #relocs    2, #linenums    0, checksum 5C3E35DF
+00D 00000000 SECT5  notype       External     | ParallelWorkerNumber
+00E 00000001 SECT4  notype       External     | InitializingParallelWorker
+00F 00000008 SECT5  notype       Static       | pcxt_list
+010 00000000 SECT6  notype       Static       | .rdata
+    Section length   10, #relocs    2, #linenums    0, checksum        0
+012 00000000 SECT6  notype       Static       | InternalParallelWorkers
+013 00000000 SECT7  notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum A7823822, selection    2 (pick any)
+015 00000000 SECT7  notype       External     | ??_C@_0BC@DPGGAIJA@ParallelQueryMain?$AA@ (`string')
+016 00000000 UNDEF  notype ()    External     | ParallelQueryMain
+017 00000000 SECT8  notype       Static       | .text$mn
+    Section length 13B7, #relocs  126, #linenums    0, checksum 8A09574F
+019 00000000 SECT9  notype       Static       | .text$mn
+    Section length  1C9, #relocs   1A, #linenums    0, checksum ADBCFF32, selection    1 (pick no duplicates)
+01B 00000000 SECTA  notype       Static       | .debug$S
+    Section length  400, #relocs   2C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+01D 00000000 SECTB  notype       Static       | .text$mn
+    Section length   C1, #relocs    9, #linenums    0, checksum A872499B, selection    1 (pick no duplicates)
+01F 00000000 SECTC  notype       Static       | .debug$S
+    Section length  1B8, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+021 00000000 SECTD  notype       Static       | .text$mn
+    Section length   D1, #relocs    9, #linenums    0, checksum 4CEEFBEC, selection    1 (pick no duplicates)
+023 00000000 SECTE  notype       Static       | .debug$S
+    Section length  194, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0xD)
+025 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+026 00000000 UNDEF  notype ()    External     | pg_snprintf
+027 00000000 UNDEF  notype ()    External     | pg_sprintf
+028 00000000 UNDEF  notype ()    External     | pqsignal
+029 00000000 UNDEF  notype ()    External     | errstart
+02A 00000000 UNDEF  notype ()    External     | errfinish
+02B 00000000 UNDEF  notype ()    External     | errcode
+02C 00000000 UNDEF  notype ()    External     | errmsg
+02D 00000000 UNDEF  notype ()    External     | errhint
+02E 00000000 UNDEF  notype ()    External     | elog_start
+02F 00000000 UNDEF  notype ()    External     | elog_finish
+030 00000000 UNDEF  notype ()    External     | ThrowErrorData
+031 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+032 00000000 UNDEF  notype ()    External     | palloc0
+033 00000000 UNDEF  notype ()    External     | pfree
+034 00000000 UNDEF  notype ()    External     | pstrdup
+035 00000000 UNDEF  notype ()    External     | psprintf
+036 00000000 UNDEF  notype ()    External     | RegisterDynamicBackgroundWorker
+037 00000000 UNDEF  notype ()    External     | GetBackgroundWorkerPid
+038 00000000 UNDEF  notype ()    External     | WaitForBackgroundWorkerShutdown
+039 00000000 UNDEF  notype ()    External     | TerminateBackgroundWorker
+03A 00000000 UNDEF  notype ()    External     | BackgroundWorkerInitializeConnectionByOid
+03B 00000000 UNDEF  notype ()    External     | BackgroundWorkerUnblockSignals
+03C 00000000 UNDEF  notype ()    External     | dsm_create
+03D 00000000 UNDEF  notype ()    External     | dsm_attach
+03E 00000000 UNDEF  notype ()    External     | dsm_detach
+03F 00000000 UNDEF  notype ()    External     | dsm_segment_address
+040 00000000 UNDEF  notype ()    External     | dsm_segment_handle
+041 00000000 UNDEF  notype ()    External     | SetLatch
+042 00000000 UNDEF  notype ()    External     | ResetLatch
+043 00000000 UNDEF  notype ()    External     | WaitLatch
+044 00000000 UNDEF  notype ()    External     | s_lock
+045 00000000 UNDEF  notype ()    External     | add_size
+046 00000000 UNDEF  notype ()    External     | mul_size
+047 00000000 UNDEF  notype ()    External     | BecomeLockGroupLeader
+048 00000000 UNDEF  notype ()    External     | BecomeLockGroupMember
+049 00000000 UNDEF  notype ()    External     | shm_mq_create
+04A 00000000 UNDEF  notype ()    External     | shm_mq_set_receiver
+04B 00000000 UNDEF  notype ()    External     | shm_mq_set_sender
+04C 00000000 UNDEF  notype ()    External     | shm_mq_get_sender
+04D 00000000 UNDEF  notype ()    External     | shm_mq_attach
+04E 00000000 UNDEF  notype ()    External     | shm_mq_set_handle
+04F 00000000 UNDEF  notype ()    External     | shm_mq_detach
+050 00000000 UNDEF  notype ()    External     | shm_mq_get_queue
+051 00000000 UNDEF  notype ()    External     | shm_mq_receive
+052 00000000 UNDEF  notype ()    External     | shm_toc_create
+053 00000000 UNDEF  notype ()    External     | shm_toc_attach
+054 00000000 UNDEF  notype ()    External     | shm_toc_allocate
+055 00000000 UNDEF  notype ()    External     | shm_toc_insert
+056 00000000 UNDEF  notype ()    External     | shm_toc_lookup
+057 00000000 UNDEF  notype ()    External     | shm_toc_estimate
+058 00000000 SECT8  notype ()    External     | CreateParallelContext
+059 00000100 SECT8  notype ()    External     | InitializeParallelDSM
+05A 00000660 SECT8  notype ()    External     | ReinitializeParallelDSM
+05B 00000760 SECT8  notype ()    External     | LaunchParallelWorkers
+05C 00000930 SECT8  notype ()    External     | WaitForParallelWorkersToFinish
+05D 00000B00 SECT8  notype ()    External     | DestroyParallelContext
+05E 00000C00 SECT8  notype ()    External     | ParallelContextActive
+05F 00000C30 SECT8  notype ()    External     | HandleParallelMessageInterrupt
+060 00000C50 SECT8  notype ()    External     | HandleParallelMessages
+061 00000E60 SECT8  notype ()    External     | AtEOXact_Parallel
+062 00000EE0 SECT8  notype ()    External     | AtEOSubXact_Parallel
+063 00000F70 SECT8  notype ()    External     | ParallelWorkerReportLastRecEnd
+064 00000FE0 SECT8  notype ()    External     | ParallelWorkerMain
+065 00000000 UNDEF  notype ()    External     | initStringInfo
+066 00000000 UNDEF  notype ()    External     | appendBinaryStringInfo
+067 00000000 UNDEF  notype ()    External     | load_external_function
+068 00000000 UNDEF  notype ()    External     | EstimateLibraryStateSpace
+069 00000000 UNDEF  notype ()    External     | SerializeLibraryState
+06A 00000000 UNDEF  notype ()    External     | RestoreLibraryState
+06B 00000000 UNDEF  notype ()    External     | GetCurrentSubTransactionId
+06C 00000000 UNDEF  notype ()    External     | SetParallelStartTimestamps
+06D 00000000 UNDEF  notype ()    External     | GetCurrentTransactionStartTimestamp
+06E 00000000 UNDEF  notype ()    External     | GetCurrentStatementStartTimestamp
+06F 00000000 UNDEF  notype ()    External     | StartTransactionCommand
+070 00000000 UNDEF  notype ()    External     | CommitTransactionCommand
+071 00000000 UNDEF  notype ()    External     | EstimateTransactionStateSpace
+072 00000000 UNDEF  notype ()    External     | SerializeTransactionState
+073 00000000 UNDEF  notype ()    External     | StartParallelWorkerTransaction
+074 00000000 UNDEF  notype ()    External     | EndParallelWorkerTransaction
+075 00000000 UNDEF  notype ()    External     | EnterParallelMode
+076 00000000 UNDEF  notype ()    External     | ExitParallelMode
+077 00000000 UNDEF  notype ()    External     | GetTempNamespaceState
+078 00000000 UNDEF  notype ()    External     | SetTempNamespaceState
+079 00000000 UNDEF  notype ()    External     | NotifyMyFrontEnd
+07A 00000000 UNDEF  notype ()    External     | SetClientEncoding
+07B 00000000 UNDEF  notype ()    External     | GetDatabaseEncoding
+07C 00000000 UNDEF  notype ()    External     | pq_beginmessage
+07D 00000000 UNDEF  notype ()    External     | pq_sendint
+07E 00000000 UNDEF  notype ()    External     | pq_endmessage
+07F 00000000 UNDEF  notype ()    External     | pq_getmsgbyte
+080 00000000 UNDEF  notype ()    External     | pq_getmsgint
+081 00000000 UNDEF  notype ()    External     | pq_getmsgrawstring
+082 00000000 UNDEF  notype ()    External     | pq_getmsgend
+083 00000000 UNDEF  notype ()    External     | pq_redirect_to_shm_mq
+084 00000000 UNDEF  notype ()    External     | pq_set_parallel_master
+085 00000000 UNDEF  notype ()    External     | pq_parse_errornotice
+086 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+087 00000000 UNDEF  notype ()    External     | GetAuthenticatedUserId
+088 00000000 UNDEF  notype ()    External     | GetUserIdAndSecContext
+089 00000000 UNDEF  notype ()    External     | SetUserIdAndSecContext
+08A 00000000 UNDEF  notype ()    External     | GetCurrentRoleId
+08B 00000000 UNDEF  notype ()    External     | SetCurrentRoleId
+08C 00000000 UNDEF  notype ()    External     | on_shmem_exit
+08D 00000000 UNDEF  notype ()    External     | SendProcSignal
+08E 00000000 UNDEF  notype ()    External     | EstimateGUCStateSpace
+08F 00000000 UNDEF  notype ()    External     | SerializeGUCState
+090 00000000 UNDEF  notype ()    External     | RestoreGUCState
+091 00000000 UNDEF  notype ()    External     | die
+092 00000000 UNDEF  notype ()    External     | RestoreComboCIDState
+093 00000000 UNDEF  notype ()    External     | SerializeComboCIDState
+094 00000000 UNDEF  notype ()    External     | EstimateComboCIDStateSpace
+095 00000000 UNDEF  notype ()    External     | InvalidateSystemCaches
+096 00000000 UNDEF  notype ()    External     | MemoryContextReset
+097 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+098 00000000 UNDEF  notype ()    External     | ResourceOwnerCreate
+099 00000000 UNDEF  notype ()    External     | GetTransactionSnapshot
+09A 00000000 UNDEF  notype ()    External     | PushActiveSnapshot
+09B 00000000 UNDEF  notype ()    External     | PopActiveSnapshot
+09C 00000000 UNDEF  notype ()    External     | GetActiveSnapshot
+09D 00000000 UNDEF  notype ()    External     | EstimateSnapshotSpace
+09E 00000000 UNDEF  notype ()    External     | SerializeSnapshot
+09F 00000000 UNDEF  notype ()    External     | RestoreSnapshot
+0A0 00000000 UNDEF  notype ()    External     | RestoreTransactionSnapshot
+0A1 00000000 SECT9  notype ()    Static       | HandleParallelMessage
+0A2 00000000 SECTD  notype ()    Static       | WaitForParallelWorkersToExit
+0A3 00000000 SECTB  notype ()    Static       | LookupParallelWorkerFunction
+0A4 000013A0 SECT8  notype ()    Static       | ParallelWorkerShutdown
+0A5 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+0A6 00000000 UNDEF  notype ()    External     | __security_check_cookie
+0A7 00000000 UNDEF  notype ()    External     | memset
+0A8 00000000 UNDEF  notype ()    External     | strcmp
+0A9 00000000 SECT8  notype       Label        | $LN15
+0AA 00000100 SECT8  notype       Label        | $LN37
+0AB 00000660 SECT8  notype       Label        | $LN15
+0AC 00000760 SECT8  notype       Label        | $LN19
+0AD 00000930 SECT8  notype       Label        | $LN49
+0AE 00000B00 SECT8  notype       Label        | $LN22
+0AF 00000C50 SECT8  notype       Label        | $LN48
+0B0 00000E60 SECT8  notype       Label        | $LN22
+0B1 00000EE0 SECT8  notype       Label        | $LN24
+0B2 00000F70 SECT8  notype       Label        | $LN12
+0B3 00000FE0 SECT8  notype       Label        | $LN18
+0B4 00000000 SECTF  notype       Static       | .xdata
+    Section length  21C, #relocs   34, #linenums    0, checksum 2585CCA9
+0B6 00000000 SECTF  notype       Static       | $unwind$CreateParallelContext
+0B7 00000000 SECT10 notype       Static       | .pdata
+    Section length  150, #relocs   54, #linenums    0, checksum 4746F861
+0B9 00000000 SECT10 notype       Static       | $pdata$CreateParallelContext
+0BA 00000018 SECTF  notype       Static       | $unwind$InitializeParallelDSM
+0BB 0000000C SECT10 notype       Static       | $pdata$InitializeParallelDSM
+0BC 00000030 SECTF  notype       Static       | $unwind$ReinitializeParallelDSM
+0BD 00000018 SECT10 notype       Static       | $pdata$ReinitializeParallelDSM
+0BE 0000003C SECTF  notype       Static       | $chain$0$ReinitializeParallelDSM
+0BF 00000024 SECT10 notype       Static       | $pdata$0$ReinitializeParallelDSM
+0C0 00000050 SECTF  notype       Static       | $chain$3$ReinitializeParallelDSM
+0C1 00000030 SECT10 notype       Static       | $pdata$3$ReinitializeParallelDSM
+0C2 0000006C SECTF  notype       Static       | $chain$4$ReinitializeParallelDSM
+0C3 0000003C SECT10 notype       Static       | $pdata$4$ReinitializeParallelDSM
+0C4 0000007C SECTF  notype       Static       | $chain$5$ReinitializeParallelDSM
+0C5 00000048 SECT10 notype       Static       | $pdata$5$ReinitializeParallelDSM
+0C6 0000008C SECTF  notype       Static       | $unwind$LaunchParallelWorkers
+0C7 00000054 SECT10 notype       Static       | $pdata$LaunchParallelWorkers
+0C8 000000A0 SECTF  notype       Static       | $chain$2$LaunchParallelWorkers
+0C9 00000060 SECT10 notype       Static       | $pdata$2$LaunchParallelWorkers
+0CA 000000BC SECTF  notype       Static       | $chain$3$LaunchParallelWorkers
+0CB 0000006C SECT10 notype       Static       | $pdata$3$LaunchParallelWorkers
+0CC 000000D0 SECTF  notype       Static       | $chain$4$LaunchParallelWorkers
+0CD 00000078 SECT10 notype       Static       | $pdata$4$LaunchParallelWorkers
+0CE 000000E0 SECTF  notype       Static       | $chain$5$LaunchParallelWorkers
+0CF 00000084 SECT10 notype       Static       | $pdata$5$LaunchParallelWorkers
+0D0 000000F4 SECTF  notype       Static       | $chain$6$LaunchParallelWorkers
+0D1 00000090 SECT10 notype       Static       | $pdata$6$LaunchParallelWorkers
+0D2 00000104 SECTF  notype       Static       | $unwind$WaitForParallelWorkersToFinish
+0D3 0000009C SECT10 notype       Static       | $pdata$WaitForParallelWorkersToFinish
+0D4 0000011C SECTF  notype       Static       | $unwind$DestroyParallelContext
+0D5 000000A8 SECT10 notype       Static       | $pdata$DestroyParallelContext
+0D6 00000128 SECTF  notype       Static       | $chain$0$DestroyParallelContext
+0D7 000000B4 SECT10 notype       Static       | $pdata$0$DestroyParallelContext
+0D8 0000013C SECTF  notype       Static       | $chain$1$DestroyParallelContext
+0D9 000000C0 SECT10 notype       Static       | $pdata$1$DestroyParallelContext
+0DA 00000150 SECTF  notype       Static       | $chain$2$DestroyParallelContext
+0DB 000000CC SECT10 notype       Static       | $pdata$2$DestroyParallelContext
+0DC 00000160 SECTF  notype       Static       | $chain$3$DestroyParallelContext
+0DD 000000D8 SECT10 notype       Static       | $pdata$3$DestroyParallelContext
+0DE 00000170 SECTF  notype       Static       | $unwind$HandleParallelMessages
+0DF 000000E4 SECT10 notype       Static       | $pdata$HandleParallelMessages
+0E0 0000017C SECTF  notype       Static       | $chain$0$HandleParallelMessages
+0E1 000000F0 SECT10 notype       Static       | $pdata$0$HandleParallelMessages
+0E2 00000190 SECTF  notype       Static       | $chain$4$HandleParallelMessages
+0E3 000000FC SECT10 notype       Static       | $pdata$4$HandleParallelMessages
+0E4 000001B0 SECTF  notype       Static       | $chain$5$HandleParallelMessages
+0E5 00000108 SECT10 notype       Static       | $pdata$5$HandleParallelMessages
+0E6 000001C0 SECTF  notype       Static       | $chain$6$HandleParallelMessages
+0E7 00000114 SECT10 notype       Static       | $pdata$6$HandleParallelMessages
+0E8 000001D0 SECTF  notype       Static       | $unwind$AtEOXact_Parallel
+0E9 00000120 SECT10 notype       Static       | $pdata$AtEOXact_Parallel
+0EA 000001E0 SECTF  notype       Static       | $unwind$AtEOSubXact_Parallel
+0EB 0000012C SECT10 notype       Static       | $pdata$AtEOSubXact_Parallel
+0EC 000001F4 SECTF  notype       Static       | $unwind$ParallelWorkerReportLastRecEnd
+0ED 00000138 SECT10 notype       Static       | $pdata$ParallelWorkerReportLastRecEnd
+0EE 00000204 SECTF  notype       Static       | $unwind$ParallelWorkerMain
+0EF 00000144 SECT10 notype       Static       | $pdata$ParallelWorkerMain
+0F0 00000000 SECT11 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum D0199762, selection    5 (pick associative Section 0x9)
+0F2 00000000 SECT11 notype       Static       | $unwind$HandleParallelMessage
+0F3 00000000 SECT12 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C39E57A8, selection    5 (pick associative Section 0x9)
+0F5 00000000 SECT12 notype       Static       | $pdata$HandleParallelMessage
+0F6 00000000 SECT13 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum 3F196905, selection    5 (pick associative Section 0xD)
+0F8 00000000 SECT13 notype       Static       | $unwind$WaitForParallelWorkersToExit
+0F9 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 77F965B5, selection    5 (pick associative Section 0xD)
+0FB 00000000 SECT14 notype       Static       | $pdata$WaitForParallelWorkersToExit
+0FC 00000000 SECT15 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 1F12D08F, selection    5 (pick associative Section 0xD)
+0FE 00000000 SECT15 notype       Static       | $chain$1$WaitForParallelWorkersToExit
+0FF 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 15094E3F, selection    5 (pick associative Section 0xD)
+101 00000000 SECT16 notype       Static       | $pdata$1$WaitForParallelWorkersToExit
+102 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum CEAE8F59, selection    5 (pick associative Section 0xD)
+104 00000000 SECT17 notype       Static       | $chain$2$WaitForParallelWorkersToExit
+105 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 9A13AE92, selection    5 (pick associative Section 0xD)
+107 00000000 SECT18 notype       Static       | $pdata$2$WaitForParallelWorkersToExit
+108 00000000 SECT19 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0xB)
+10A 00000000 SECT19 notype       Static       | $unwind$LookupParallelWorkerFunction
+10B 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B60C47A9, selection    5 (pick associative Section 0xB)
+10D 00000000 SECT1A notype       Static       | $pdata$LookupParallelWorkerFunction
+10E 00000000 UNDEF  notype       External     | pg_signal_queue
+10F 00000000 UNDEF  notype       External     | pg_signal_mask
+110 00000000 UNDEF  notype       External     | error_context_stack
+111 00000000 UNDEF  notype       External     | CurrentMemoryContext
+112 00000000 UNDEF  notype       External     | MyBgworkerEntry
+113 00000000 UNDEF  notype       External     | dynamic_shared_memory_type
+114 00000000 UNDEF  notype       External     | MyBackendId
+115 00000000 UNDEF  notype       External     | ParallelMasterBackendId
+116 00000000 UNDEF  notype       External     | MyProc
+117 00000000 UNDEF  notype       External     | XactIsoLevel
+118 00000000 UNDEF  notype       External     | XactLastRecEnd
+119 00000000 UNDEF  notype       External     | PqCommMethods
+11A 00000000 UNDEF  notype       External     | InterruptPending
+11B 00000000 UNDEF  notype       External     | InterruptHoldoffCount
+11C 00000000 UNDEF  notype       External     | MyProcPid
+11D 00000000 UNDEF  notype       External     | MyLatch
+11E 00000000 UNDEF  notype       External     | MyCancelKey
+11F 00000000 UNDEF  notype       External     | MyDatabaseId
+120 00000000 UNDEF  notype       External     | force_parallel_mode
+121 00000000 UNDEF  notype       External     | session_auth_is_superuser
+122 00000000 UNDEF  notype       External     | TopMemoryContext
+123 00000000 UNDEF  notype       External     | TopTransactionContext
+124 00000000 UNDEF  notype       External     | CurrentResourceOwner
+125 00000008 SECT4  notype       Static       | MyFixedParallelState
+126 00000010 SECT4  notype       Static       | ParallelMasterPid
+127 00000000 SECT1B notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum F7840A8A, selection    2 (pick any)
+129 00000000 SECT1B notype       External     | ??_C@_0BL@BCABKHMG@parallel?5worker?5for?5PID?5?$CFd?$AA@ (`string')
+12A 00000000 SECT1C notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 14711417, selection    2 (pick any)
+12C 00000000 SECT1C notype       External     | ??_C@_08NIHPPEG@postgres?$AA@ (`string')
+12D 00000000 SECT1D notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum CC4DE482, selection    2 (pick any)
+12F 00000000 SECT1D notype       External     | ??_C@_0BD@OJLKNCBC@ParallelWorkerMain?$AA@ (`string')
+130 00000000 SECT1E notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 2DD4FC85, selection    2 (pick any)
+132 00000000 SECT1E notype       External     | ??_C@_0BP@LLCCKPMK@WaitForParallelWorkersToFinish?$AA@ (`string')
+133 00000000 SECT1F notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum FED7C331, selection    2 (pick any)
+135 00000000 SECT1F notype       External     | ??_C@_0CG@JJNBKHHN@src?1backend?1access?1transam?1paral@ (`string')
+136 00000000 SECT20 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum EE17C3F7, selection    2 (pick any)
+138 00000000 SECT20 notype       External     | ??_C@_0DB@EDHNDMPN@More?5details?5may?5be?5available?5in@ (`string')
+139 00000000 SECT21 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 3F08AEA2, selection    2 (pick any)
+13B 00000000 SECT21 notype       External     | ??_C@_0CF@OECGCODJ@parallel?5worker?5failed?5to?5initia@ (`string')
+13C 00000000 SECT22 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 598107FD, selection    2 (pick any)
+13E 00000000 SECT22 notype       External     | ??_C@_0BN@KNCKDNCE@WaitForParallelWorkersToExit?$AA@ (`string')
+13F 00000000 SECT23 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum 8B5EB46E, selection    2 (pick any)
+141 00000000 SECT23 notype       External     | ??_C@_0DA@IGCJPIAE@postmaster?5exited?5during?5a?5paral@ (`string')
+142 00000018 SECT4  notype       Static       | ?hpm_context@?1??HandleParallelMessages@@9@9 (`HandleParallelMessages'::`2'::hpm_context)
+143 00000000 SECT24 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 97C3E759, selection    2 (pick any)
+145 00000000 SECT24 notype       External     | ??_C@_0BH@BKJMDMOC@HandleParallelMessages?$AA@ (`string')
+146 00000000 SECT25 notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum EA7E1DBC, selection    2 (pick any)
+148 00000000 SECT25 notype       External     | ??_C@_0CD@BMHJLFHE@lost?5connection?5to?5parallel?5work@ (`string')
+149 00000000 SECT26 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 13F321BD, selection    2 (pick any)
+14B 00000000 SECT26 notype       External     | ??_C@_0BA@LHJFBH@parallel?5worker?$AA@ (`string')
+14C 00000000 SECT27 notype       Static       | .rdata
+    Section length    6, #relocs    0, #linenums    0, checksum BC3A40C0, selection    2 (pick any)
+14E 00000000 SECT27 notype       External     | ??_C@_05PCAHBOJM@?$CFs?6?$CFs?$AA@ (`string')
+14F 00000000 SECT28 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum D832F18D, selection    2 (pick any)
+151 00000000 SECT28 notype       External     | ??_C@_0BG@IPOELPJC@HandleParallelMessage?$AA@ (`string')
+152 00000000 SECT29 notype       Static       | .rdata
+    Section length   56, #relocs    0, #linenums    0, checksum C60E5457, selection    2 (pick any)
+154 00000000 SECT29 notype       External     | ??_C@_0FG@EBJCBIIN@unrecognized?5message?5type?5receiv@ (`string')
+155 00000000 SECT2A notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 615B61E1, selection    2 (pick any)
+157 00000000 SECT2A notype       External     | ??_C@_0BF@NPKAFLJF@AtEOSubXact_Parallel?$AA@ (`string')
+158 00000000 SECT2B notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum D1433903, selection    2 (pick any)
+15A 00000000 SECT2B notype       External     | ??_C@_0BI@INHNAMNM@leaked?5parallel?5context?$AA@ (`string')
+15B 00000000 SECT2C notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 6A022B34, selection    2 (pick any)
+15D 00000000 SECT2C notype       External     | ??_C@_0BC@PCOGBLIG@AtEOXact_Parallel?$AA@ (`string')
+15E 00000000 SECT2D notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum A623743B, selection    2 (pick any)
+160 00000000 SECT2D notype       External     | ??_C@_0BC@DOMHEEIJ@parallel?5toplevel?$AA@ (`string')
+161 00000000 SECT2E notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum  4CC5AC0, selection    2 (pick any)
+163 00000000 SECT2E notype       External     | ??_C@_0BA@BHIIOOGK@Parallel?5worker?$AA@ (`string')
+164 00000000 SECT2F notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum E194DF5D, selection    2 (pick any)
+166 00000000 SECT2F notype       External     | ??_C@_0CM@JNEPEGLO@could?5not?5map?5dynamic?5shared?5mem@ (`string')
+167 00000000 SECT30 notype       Static       | .rdata
+    Section length   36, #relocs    0, #linenums    0, checksum 4E33042B, selection    2 (pick any)
+169 00000000 SECT30 notype       External     | ??_C@_0DG@IEGPJGCJ@invalid?5magic?5number?5in?5dynamic?5@ (`string')
+16A 00000000 SECT31 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum A70EAE5B, selection    2 (pick any)
+16C 00000000 SECT31 notype       External     | ??_C@_0BP@DBPIPNBE@ParallelWorkerReportLastRecEnd?$AA@ (`string')
+16D 00000000 SECT32 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 5AE04E27, selection    2 (pick any)
+16F 00000000 SECT32 notype       External     | ??_C@_0BN@KOELHEPO@LookupParallelWorkerFunction?$AA@ (`string')
+170 00000000 SECT33 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum A1104A5C, selection    2 (pick any)
+172 00000000 SECT33 notype       External     | ??_C@_0CB@CEJDIPCO@internal?5function?5?$CC?$CFs?$CC?5not?5found@ (`string')
+173 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x1903 bytes
+
+  Summary
+
+          20 .bss
+          18 .data
+        7830 .debug$S
+          68 .debug$T
+          5D .drectve
+         18C .pdata
+         31D .rdata
+        1712 .text$mn
+         278 .xdata

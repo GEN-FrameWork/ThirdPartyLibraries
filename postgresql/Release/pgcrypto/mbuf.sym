@@ -1,0 +1,145 @@
+
+Dump of file Release\pgcrypto/mbuf.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5E7C, #relocs  196, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  9E0, #relocs   2F, #linenums    0, checksum A386A385
+00A 000009B0 SECT4  notype ()    Static       | push_into_mbuf
+00B 00000000 SECT5  notype       Static       | .rdata
+    Section length   38, #relocs    2, #linenums    0, checksum        0
+00D 00000000 SECT5  notype       Static       | mbuf_filter
+00E 00000980 SECT4  notype ()    Static       | pull_from_mbuf
+00F 00000020 SECT5  notype       Static       | mbuf_reader
+010 00000000 SECT6  notype       Static       | .text$mn
+    Section length   47, #relocs    1, #linenums    0, checksum 8934C1F9, selection    1 (pick no duplicates)
+012 00000000 SECT7  notype       Static       | .debug$S
+    Section length  19C, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+014 00000000 UNDEF  notype ()    External     | palloc
+015 00000000 UNDEF  notype ()    External     | repalloc
+016 00000000 UNDEF  notype ()    External     | pfree
+017 00000000 UNDEF  notype ()    External     | px_memset
+018 00000000 UNDEF  notype ()    External     | px_debug
+019 00000000 SECT4  notype ()    External     | mbuf_create
+01A 00000060 SECT4  notype ()    External     | mbuf_create_from_data
+01B 000000B0 SECT4  notype ()    External     | mbuf_tell
+01C 000000C0 SECT4  notype ()    External     | mbuf_avail
+01D 000000D0 SECT4  notype ()    External     | mbuf_size
+01E 000000E0 SECT4  notype ()    External     | mbuf_grab
+01F 00000110 SECT4  notype ()    External     | mbuf_steal_data
+020 00000140 SECT4  notype ()    External     | mbuf_append
+021 00000200 SECT4  notype ()    External     | mbuf_rewind
+022 00000210 SECT4  notype ()    External     | mbuf_free
+023 00000250 SECT4  notype ()    External     | pushf_create
+024 00000310 SECT4  notype ()    External     | pushf_write
+025 00000400 SECT4  notype ()    External     | pushf_free_all
+026 00000490 SECT4  notype ()    External     | pushf_free
+027 000004F0 SECT4  notype ()    External     | pushf_flush
+028 00000580 SECT4  notype ()    External     | pushf_create_mbuf_writer
+029 000005F0 SECT4  notype ()    External     | pullf_create
+02A 000006B0 SECT4  notype ()    External     | pullf_read
+02B 00000710 SECT4  notype ()    External     | pullf_read_max
+02C 00000840 SECT4  notype ()    External     | pullf_free
+02D 000008A0 SECT4  notype ()    External     | pullf_read_fixed
+02E 00000910 SECT4  notype ()    External     | pullf_create_mbuf_reader
+02F 00000000 SECT6  notype ()    Static       | wrap_process
+030 00000000 UNDEF  notype ()    External     | memcpy
+031 00000000 SECT4  notype       Label        | $LN5
+032 00000060 SECT4  notype       Label        | $LN4
+033 00000140 SECT4  notype       Label        | $LN8
+034 00000210 SECT4  notype       Label        | $LN5
+035 00000250 SECT4  notype       Label        | $LN10
+036 00000310 SECT4  notype       Label        | $LN33
+037 00000400 SECT4  notype       Label        | $LN15
+038 00000490 SECT4  notype       Label        | $LN6
+039 000004F0 SECT4  notype       Label        | $LN23
+03A 00000580 SECT4  notype       Label        | $LN11
+03B 000005F0 SECT4  notype       Label        | $LN10
+03C 000006B0 SECT4  notype       Label        | $LN7
+03D 00000710 SECT4  notype       Label        | $LN28
+03E 00000840 SECT4  notype       Label        | $LN6
+03F 000008A0 SECT4  notype       Label        | $LN7
+040 00000910 SECT4  notype       Label        | $LN11
+041 00000000 SECT8  notype       Static       | .xdata
+    Section length  138, #relocs   12, #linenums    0, checksum 1F2ADCA3
+043 00000000 SECT8  notype       Static       | $unwind$mbuf_create
+044 00000000 SECT9  notype       Static       | .pdata
+    Section length  114, #relocs   45, #linenums    0, checksum 70A89563
+046 00000000 SECT9  notype       Static       | $pdata$mbuf_create
+047 0000000C SECT8  notype       Static       | $unwind$mbuf_create_from_data
+048 0000000C SECT9  notype       Static       | $pdata$mbuf_create_from_data
+049 00000018 SECT8  notype       Static       | $unwind$mbuf_append
+04A 00000018 SECT9  notype       Static       | $pdata$mbuf_append
+04B 00000028 SECT8  notype       Static       | $chain$1$mbuf_append
+04C 00000024 SECT9  notype       Static       | $pdata$1$mbuf_append
+04D 0000003C SECT8  notype       Static       | $chain$2$mbuf_append
+04E 00000030 SECT9  notype       Static       | $pdata$2$mbuf_append
+04F 0000004C SECT8  notype       Static       | $unwind$mbuf_free
+050 0000003C SECT9  notype       Static       | $pdata$mbuf_free
+051 00000054 SECT8  notype       Static       | $unwind$pushf_create
+052 00000048 SECT9  notype       Static       | $pdata$pushf_create
+053 00000068 SECT8  notype       Static       | $unwind$pushf_write
+054 00000054 SECT9  notype       Static       | $pdata$pushf_write
+055 0000007C SECT8  notype       Static       | $chain$0$pushf_write
+056 00000060 SECT9  notype       Static       | $pdata$0$pushf_write
+057 00000090 SECT8  notype       Static       | $chain$1$pushf_write
+058 0000006C SECT9  notype       Static       | $pdata$1$pushf_write
+059 000000A0 SECT8  notype       Static       | $unwind$pushf_free_all
+05A 00000078 SECT9  notype       Static       | $pdata$pushf_free_all
+05B 000000A8 SECT8  notype       Static       | $chain$0$pushf_free_all
+05C 00000084 SECT9  notype       Static       | $pdata$0$pushf_free_all
+05D 000000BC SECT8  notype       Static       | $chain$1$pushf_free_all
+05E 00000090 SECT9  notype       Static       | $pdata$1$pushf_free_all
+05F 000000CC SECT8  notype       Static       | $unwind$pushf_free
+060 0000009C SECT9  notype       Static       | $pdata$pushf_free
+061 000000D4 SECT8  notype       Static       | $unwind$pushf_flush
+062 000000A8 SECT9  notype       Static       | $pdata$pushf_flush
+063 000000DC SECT8  notype       Static       | $unwind$pushf_create_mbuf_writer
+064 000000B4 SECT9  notype       Static       | $pdata$pushf_create_mbuf_writer
+065 000000E4 SECT8  notype       Static       | $unwind$pullf_create
+066 000000C0 SECT9  notype       Static       | $pdata$pullf_create
+067 000000F8 SECT8  notype       Static       | $unwind$pullf_read
+068 000000CC SECT9  notype       Static       | $pdata$pullf_read
+069 00000100 SECT8  notype       Static       | $unwind$pullf_read_max
+06A 000000D8 SECT9  notype       Static       | $pdata$pullf_read_max
+06B 00000114 SECT8  notype       Static       | $unwind$pullf_free
+06C 000000E4 SECT9  notype       Static       | $pdata$pullf_free
+06D 0000011C SECT8  notype       Static       | $unwind$pullf_read_fixed
+06E 000000F0 SECT9  notype       Static       | $pdata$pullf_read_fixed
+06F 00000128 SECT8  notype       Static       | $unwind$pullf_create_mbuf_reader
+070 000000FC SECT9  notype       Static       | $pdata$pullf_create_mbuf_reader
+071 00000000 SECTA  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum  FC539D1, selection    5 (pick associative Section 0x6)
+073 00000000 SECTA  notype       Static       | $unwind$wrap_process
+074 00000000 SECTB  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2358CBF4, selection    5 (pick associative Section 0x6)
+076 00000000 SECTB  notype       Static       | $pdata$wrap_process
+077 00000130 SECT8  notype       Static       | $unwind$push_into_mbuf
+078 00000108 SECT9  notype       Static       | $pdata$push_into_mbuf
+079 00000000 SECTC  notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum E8FF06AB, selection    2 (pick any)
+07B 00000000 SECTC  notype       External     | ??_C@_0BG@LPCJEILE@mbuf_append?3?5no_write?$AA@ (`string')
+07C 00000000 SECTD  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 4B0D5709, selection    2 (pick any)
+07E 00000000 SECTD  notype       External     | ??_C@_0CB@MOIOJCHL@pullf_read_fixed?3?5need?$DN?$CFd?5got?$DN?$CFd@ (`string')
+
+String Table Size = 0x61C bytes
+
+  Summary
+
+        6018 .debug$S
+          68 .debug$T
+          5D .drectve
+         120 .pdata
+          6F .rdata
+         A27 .text$mn
+         140 .xdata

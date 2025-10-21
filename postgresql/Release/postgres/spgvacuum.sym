@@ -1,0 +1,246 @@
+
+Dump of file Release\postgres/spgvacuum.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 4E44, #relocs   3A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  143, #relocs    A, #linenums    0, checksum 77F45FCE
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   6C, #relocs    2, #linenums    0, checksum 7138E956, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  1FC, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  2D2, #relocs   16, #linenums    0, checksum 795FC85C, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  4F8, #relocs   3A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  118, #relocs    B, #linenums    0, checksum FD7F2118, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  250, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length  104, #relocs    8, #linenums    0, checksum 97C16FFC, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  248, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 SECTD  notype       Static       | .text$mn
+    Section length  671, #relocs   2B, #linenums    0, checksum F75F45E7, selection    1 (pick no duplicates)
+01C 00000000 SECTE  notype       Static       | .debug$S
+    Section length  C10, #relocs   84, #linenums    0, checksum        0, selection    5 (pick associative Section 0xD)
+01E 00000000 SECTF  notype       Static       | .text$mn
+    Section length  21B, #relocs   13, #linenums    0, checksum C8D6279C, selection    1 (pick no duplicates)
+020 00000000 SECT10 notype       Static       | .debug$S
+    Section length  370, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0xF)
+022 00000000 SECT11 notype       Static       | .text$mn
+    Section length  26A, #relocs   10, #linenums    0, checksum ECC0A71E, selection    1 (pick no duplicates)
+024 00000000 SECT12 notype       Static       | .debug$S
+    Section length  544, #relocs   34, #linenums    0, checksum        0, selection    5 (pick associative Section 0x11)
+026 00000000 UNDEF  notype ()    External     | __report_rangecheckfailure
+027 00000000 UNDEF  notype ()    External     | elog_start
+028 00000000 UNDEF  notype ()    External     | elog_finish
+029 00000000 UNDEF  notype ()    External     | palloc
+02A 00000000 UNDEF  notype ()    External     | palloc0
+02B 00000000 UNDEF  notype ()    External     | pfree
+02C 00000000 UNDEF  notype ()    External     | ItemPointerEquals
+02D 00000000 UNDEF  notype ()    External     | PageIndexMultiDelete
+02E 00000000 SECT4  notype ()    External     | spgbulkdelete
+02F 00000080 SECT4  notype ()    External     | spgvacuumcleanup
+030 00000000 UNDEF  notype ()    External     | initSpGistState
+031 00000000 UNDEF  notype ()    External     | SpGistUpdateMetaPage
+032 00000000 UNDEF  notype ()    External     | SpGistSetLastUsedPage
+033 00000000 UNDEF  notype ()    External     | spgPageIndexMultiDelete
+034 00000000 UNDEF  notype ()    External     | TransactionIdPrecedes
+035 00000000 UNDEF  notype ()    External     | TransactionIdFollowsOrEquals
+036 00000000 UNDEF  notype ()    External     | XLogBeginInsert
+037 00000000 UNDEF  notype ()    External     | XLogInsert
+038 00000000 UNDEF  notype ()    External     | XLogRegisterData
+039 00000000 UNDEF  notype ()    External     | XLogRegisterBuffer
+03A 00000000 UNDEF  notype ()    External     | vacuum_delay_point
+03B 00000000 UNDEF  notype ()    External     | GetActiveSnapshot
+03C 00000000 UNDEF  notype ()    External     | ReadBufferExtended
+03D 00000000 UNDEF  notype ()    External     | UnlockReleaseBuffer
+03E 00000000 UNDEF  notype ()    External     | MarkBufferDirty
+03F 00000000 UNDEF  notype ()    External     | BufferGetBlockNumber
+040 00000000 UNDEF  notype ()    External     | RelationGetNumberOfBlocksInFork
+041 00000000 UNDEF  notype ()    External     | LockBuffer
+042 00000000 UNDEF  notype ()    External     | RecordFreeIndexPage
+043 00000000 UNDEF  notype ()    External     | IndexFreeSpaceMapVacuum
+044 00000000 UNDEF  notype ()    External     | LockRelationForExtension
+045 00000000 UNDEF  notype ()    External     | UnlockRelationForExtension
+046 00000000 SECT5  notype ()    Static       | spgAddPendingTID
+047 00000000 SECTD  notype ()    Static       | vacuumLeafPage
+048 00000000 SECTF  notype ()    Static       | vacuumLeafRoot
+049 00000000 SECT11 notype ()    Static       | vacuumRedirectAndPlaceholder
+04A 00000000 SECT9  notype ()    Static       | spgvacuumpage
+04B 00000000 SECT7  notype ()    Static       | spgprocesspending
+04C 00000000 SECTB  notype ()    Static       | spgvacuumscan
+04D 00000140 SECT4  notype ()    Static       | dummy_callback
+04E 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+04F 00000000 UNDEF  notype ()    External     | __chkstk
+050 00000000 UNDEF  notype ()    External     | __security_check_cookie
+051 00000000 UNDEF  notype ()    External     | memset
+052 00000000 SECT4  notype       Label        | $LN5
+053 00000080 SECT4  notype       Label        | $LN8
+054 00000671 SECTD  notype       Label        | $LN94
+055 00000000 SECT13 notype       Static       | .xdata
+    Section length   34, #relocs    2, #linenums    0, checksum 7360A5FC
+057 00000000 SECT13 notype       Static       | $unwind$spgbulkdelete
+058 00000000 SECT14 notype       Static       | .pdata
+    Section length   18, #relocs    6, #linenums    0, checksum F2B52215
+05A 00000000 SECT14 notype       Static       | $pdata$spgbulkdelete
+05B 00000018 SECT13 notype       Static       | $unwind$spgvacuumcleanup
+05C 0000000C SECT14 notype       Static       | $pdata$spgvacuumcleanup
+05D 00000000 SECT15 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 2559CD25, selection    5 (pick associative Section 0x5)
+05F 00000000 SECT15 notype       Static       | $unwind$spgAddPendingTID
+060 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 8744B5F4, selection    5 (pick associative Section 0x5)
+062 00000000 SECT16 notype       Static       | $pdata$spgAddPendingTID
+063 00000000 SECT17 notype       Static       | .xdata
+    Section length   24, #relocs    1, #linenums    0, checksum 2CDE105C, selection    5 (pick associative Section 0xD)
+065 00000000 SECT17 notype       Static       | $unwind$vacuumLeafPage
+066 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 45BF2CE6, selection    5 (pick associative Section 0xD)
+068 00000000 SECT18 notype       Static       | $pdata$vacuumLeafPage
+069 00000000 SECT19 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 3846EEA1, selection    5 (pick associative Section 0xD)
+06B 00000000 SECT19 notype       Static       | $chain$0$vacuumLeafPage
+06C 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5244C0A6, selection    5 (pick associative Section 0xD)
+06E 00000000 SECT1A notype       Static       | $pdata$0$vacuumLeafPage
+06F 00000000 SECT1B notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum FCE8C60A, selection    5 (pick associative Section 0xD)
+071 00000000 SECT1B notype       Static       | $chain$1$vacuumLeafPage
+072 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DDD8C7E3, selection    5 (pick associative Section 0xD)
+074 00000000 SECT1C notype       Static       | $pdata$1$vacuumLeafPage
+075 00000000 SECT1D notype       Static       | .xdata
+    Section length   18, #relocs    1, #linenums    0, checksum 449BAB9A, selection    5 (pick associative Section 0xF)
+077 00000000 SECT1D notype       Static       | $unwind$vacuumLeafRoot
+078 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 5E64A758, selection    5 (pick associative Section 0xF)
+07A 00000000 SECT1E notype       Static       | $pdata$vacuumLeafRoot
+07B 00000000 SECT1F notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 47D0808A, selection    5 (pick associative Section 0xF)
+07D 00000000 SECT1F notype       Static       | $chain$1$vacuumLeafRoot
+07E 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 38AC046D, selection    5 (pick associative Section 0xF)
+080 00000000 SECT20 notype       Static       | $pdata$1$vacuumLeafRoot
+081 00000000 SECT21 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum B1A62429, selection    5 (pick associative Section 0xF)
+083 00000000 SECT21 notype       Static       | $chain$3$vacuumLeafRoot
+084 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 448F5784, selection    5 (pick associative Section 0xF)
+086 00000000 SECT22 notype       Static       | $pdata$3$vacuumLeafRoot
+087 00000000 SECT23 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 81FBEE81, selection    5 (pick associative Section 0xF)
+089 00000000 SECT23 notype       Static       | $chain$4$vacuumLeafRoot
+08A 00000000 SECT24 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum C4F81C07, selection    5 (pick associative Section 0xF)
+08C 00000000 SECT24 notype       Static       | $pdata$4$vacuumLeafRoot
+08D 00000000 SECT25 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum E7334DB4, selection    5 (pick associative Section 0xF)
+08F 00000000 SECT25 notype       Static       | $chain$5$vacuumLeafRoot
+090 00000000 SECT26 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum ADE20C6E, selection    5 (pick associative Section 0xF)
+092 00000000 SECT26 notype       Static       | $pdata$5$vacuumLeafRoot
+093 00000000 SECT27 notype       Static       | .xdata
+    Section length   28, #relocs    1, #linenums    0, checksum 7B62FB22, selection    5 (pick associative Section 0x11)
+095 00000000 SECT27 notype       Static       | $unwind$vacuumRedirectAndPlaceholder
+096 00000000 SECT28 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D6B4AD5A, selection    5 (pick associative Section 0x11)
+098 00000000 SECT28 notype       Static       | $pdata$vacuumRedirectAndPlaceholder
+099 00000000 SECT29 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 4A7F8298, selection    5 (pick associative Section 0x9)
+09B 00000000 SECT29 notype       Static       | $unwind$spgvacuumpage
+09C 00000000 SECT2A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  929212A, selection    5 (pick associative Section 0x9)
+09E 00000000 SECT2A notype       Static       | $pdata$spgvacuumpage
+09F 00000000 SECT2B notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 864D2762, selection    5 (pick associative Section 0x7)
+0A1 00000000 SECT2B notype       Static       | $unwind$spgprocesspending
+0A2 00000000 SECT2C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7CBB312B, selection    5 (pick associative Section 0x7)
+0A4 00000000 SECT2C notype       Static       | $pdata$spgprocesspending
+0A5 00000000 SECT2D notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 1DEC377C, selection    5 (pick associative Section 0x7)
+0A7 00000000 SECT2D notype       Static       | $chain$1$spgprocesspending
+0A8 00000000 SECT2E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6E6B9A7B, selection    5 (pick associative Section 0x7)
+0AA 00000000 SECT2E notype       Static       | $pdata$1$spgprocesspending
+0AB 00000000 SECT2F notype       Static       | .xdata
+    Section length   20, #relocs    3, #linenums    0, checksum 82BD55C0, selection    5 (pick associative Section 0x7)
+0AD 00000000 SECT2F notype       Static       | $chain$5$spgprocesspending
+0AE 00000000 SECT30 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 2B0B6DFC, selection    5 (pick associative Section 0x7)
+0B0 00000000 SECT30 notype       Static       | $pdata$5$spgprocesspending
+0B1 00000000 SECT31 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum D73C7097, selection    5 (pick associative Section 0x7)
+0B3 00000000 SECT31 notype       Static       | $chain$6$spgprocesspending
+0B4 00000000 SECT32 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 50412FD3, selection    5 (pick associative Section 0x7)
+0B6 00000000 SECT32 notype       Static       | $pdata$6$spgprocesspending
+0B7 00000000 SECT33 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum C5ECDBC7, selection    5 (pick associative Section 0x7)
+0B9 00000000 SECT33 notype       Static       | $chain$7$spgprocesspending
+0BA 00000000 SECT34 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6480CC02, selection    5 (pick associative Section 0x7)
+0BC 00000000 SECT34 notype       Static       | $pdata$7$spgprocesspending
+0BD 00000000 SECT35 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum C2D1B755, selection    5 (pick associative Section 0xB)
+0BF 00000000 SECT35 notype       Static       | $unwind$spgvacuumscan
+0C0 00000000 SECT36 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 223D054E, selection    5 (pick associative Section 0xB)
+0C2 00000000 SECT36 notype       Static       | $pdata$spgvacuumscan
+0C3 00000000 UNDEF  notype       External     | CritSectionCount
+0C4 00000000 UNDEF  notype       External     | RecentGlobalXmin
+0C5 00000000 UNDEF  notype       External     | BufferBlocks
+0C6 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+0C7 00000000 SECT37 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 2C92B934, selection    2 (pick any)
+0C9 00000000 SECT37 notype       External     | ??_C@_0P@ELOEFCM@vacuumLeafPage?$AA@ (`string')
+0CA 00000000 SECT38 notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum B77EFFFE, selection    2 (pick any)
+0CC 00000000 SECT38 notype       External     | ??_C@_0CG@NAHIJLLC@src?1backend?1access?1spgist?1spgvac@ (`string')
+0CD 00000000 SECT39 notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum A0E6B511, selection    2 (pick any)
+0CF 00000000 SECT39 notype       External     | ??_C@_0DI@IMNBOPKH@inconsistent?5tuple?5chain?5links?5i@ (`string')
+0D0 00000000 SECT3A notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 670441FE, selection    2 (pick any)
+0D2 00000000 SECT3A notype       External     | ??_C@_0CC@NJIKNCCL@unexpected?5SPGiST?5tuple?5state?3?5?$CF@ (`string')
+0D3 00000000 SECT3B notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 38CFCC0E, selection    2 (pick any)
+0D5 00000000 SECT3B notype       External     | ??_C@_0CI@CONMAOEA@inconsistent?5counts?5of?5deletable@ (`string')
+0D6 00000000 SECT3C notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum EB47EFCF, selection    2 (pick any)
+0D8 00000000 SECT3C notype       External     | ??_C@_0P@MDGLBDNH@vacuumLeafRoot?$AA@ (`string')
+0D9 00000000 SECT3D notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum  86AFB3B, selection    2 (pick any)
+0DB 00000000 SECT3D notype       External     | ??_C@_0BC@JAIOMLIJ@spgprocesspending?$AA@ (`string')
+0DC 00000000 SECT3E notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 4B1F3DC5, selection    2 (pick any)
+0DE 00000000 SECT3E notype       External     | ??_C@_0CN@HCGAFFJO@redirection?5leads?5to?5root?5page?5o@ (`string')
+0DF 00000000 SECT3F notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+0E1 00000000 SECT3F notype       External     | __real@3ff0000000000000
+0E2 00000000 UNDEF  notype       External     | __security_cookie
+0E3 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x8A8 bytes
+
+  Summary
+
+        6E94 .debug$S
+          68 .debug$T
+          5D .drectve
+          E4 .pdata
+         10D .rdata
+        1193 .text$mn
+         1AC .xdata

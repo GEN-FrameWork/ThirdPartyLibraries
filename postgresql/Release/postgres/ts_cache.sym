@@ -1,0 +1,223 @@
+
+Dump of file Release\postgres/ts_cache.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5DD0, #relocs   F2, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .bss
+    Section length   3C, #relocs    0, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       External     | TSCurrentConfig
+00B 00000000 SECT5  notype       Static       | .text$mn
+    Section length  EB1, #relocs   C9, #linenums    0, checksum C309D133
+00D 00000000 SECT6  notype       Static       | .text$mn
+    Section length   D3, #relocs    B, #linenums    0, checksum 1A7F20DE, selection    1 (pick no duplicates)
+00F 00000000 SECT7  notype       Static       | .debug$S
+    Section length  150, #relocs    A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+011 00000000 UNDEF  notype       External     | __imp_free
+012 00000000 UNDEF  notype       External     | __imp_strdup
+013 00000000 UNDEF  notype ()    External     | errstart
+014 00000000 UNDEF  notype ()    External     | errfinish
+015 00000000 UNDEF  notype ()    External     | errcode
+016 00000000 UNDEF  notype ()    External     | errmsg
+017 00000000 UNDEF  notype ()    External     | elog_start
+018 00000000 UNDEF  notype ()    External     | elog_finish
+019 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+01A 00000000 UNDEF  notype ()    External     | pfree
+01B 00000000 UNDEF  notype ()    External     | fmgr_info_cxt
+01C 00000000 UNDEF  notype ()    External     | OidFunctionCall1Coll
+01D 00000000 UNDEF  notype ()    External     | ScanKeyInit
+01E 00000000 UNDEF  notype ()    External     | index_open
+01F 00000000 UNDEF  notype ()    External     | index_close
+020 00000000 UNDEF  notype ()    External     | systable_beginscan_ordered
+021 00000000 UNDEF  notype ()    External     | systable_getnext_ordered
+022 00000000 UNDEF  notype ()    External     | systable_endscan_ordered
+023 00000000 UNDEF  notype ()    External     | relation_close
+024 00000000 UNDEF  notype ()    External     | heap_open
+025 00000000 UNDEF  notype ()    External     | IsTransactionState
+026 00000000 UNDEF  notype ()    External     | hash_create
+027 00000000 UNDEF  notype ()    External     | hash_search
+028 00000000 UNDEF  notype ()    External     | hash_seq_init
+029 00000000 UNDEF  notype ()    External     | hash_seq_search
+02A 00000000 UNDEF  notype ()    External     | get_ts_config_oid
+02B 00000000 UNDEF  notype ()    External     | deserialize_deflist
+02C 00000000 SECT5  notype ()    External     | lookup_ts_parser_cache
+02D 00000360 SECT5  notype ()    External     | lookup_ts_dictionary_cache
+02E 00000750 SECT5  notype ()    External     | lookup_ts_config_cache
+02F 00000C20 SECT5  notype ()    External     | getTSCurrentConfig
+030 00000CC0 SECT5  notype ()    External     | check_TSCurrentConfig
+031 00000E30 SECT5  notype ()    External     | assign_TSCurrentConfig
+032 00000000 UNDEF  notype ()    External     | quote_qualified_identifier
+033 00000000 UNDEF  notype ()    External     | CreateCacheMemoryContext
+034 00000000 UNDEF  notype ()    External     | CacheRegisterSyscacheCallback
+035 00000000 UNDEF  notype ()    External     | get_namespace_name
+036 00000000 UNDEF  notype ()    External     | MemoryContextReset
+037 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+038 00000000 UNDEF  notype ()    External     | stringToQualifiedNameList
+039 00000000 UNDEF  notype ()    External     | SearchSysCache
+03A 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+03B 00000000 UNDEF  notype ()    External     | SysCacheGetAttr
+03C 00000E50 SECT5  notype ()    Static       | InvalidateTSCacheCallBack
+03D 00000000 SECT6  notype ()    Static       | init_ts_config_cache
+03E 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+03F 00000000 UNDEF  notype ()    External     | __chkstk
+040 00000000 UNDEF  notype ()    External     | __security_check_cookie
+041 00000000 UNDEF  notype ()    External     | memcpy
+042 00000000 UNDEF  notype ()    External     | memset
+043 00000000 SECT5  notype       Label        | $LN58
+044 00000360 SECT5  notype       Label        | $LN65
+045 00000750 SECT5  notype       Label        | $LN85
+046 00000C20 SECT5  notype       Label        | $LN14
+047 00000CC0 SECT5  notype       Label        | $LN19
+048 00000000 SECT8  notype       Static       | .xdata
+    Section length  170, #relocs   2B, #linenums    0, checksum 9DF52BAE
+04A 00000000 SECT8  notype       Static       | $unwind$lookup_ts_parser_cache
+04B 00000000 SECT9  notype       Static       | .pdata
+    Section length   F0, #relocs   3C, #linenums    0, checksum 8B024138
+04D 00000000 SECT9  notype       Static       | $pdata$lookup_ts_parser_cache
+04E 0000000C SECT8  notype       Static       | $chain$0$lookup_ts_parser_cache
+04F 0000000C SECT9  notype       Static       | $pdata$0$lookup_ts_parser_cache
+050 00000020 SECT8  notype       Static       | $chain$2$lookup_ts_parser_cache
+051 00000018 SECT9  notype       Static       | $pdata$2$lookup_ts_parser_cache
+052 00000038 SECT8  notype       Static       | $chain$3$lookup_ts_parser_cache
+053 00000024 SECT9  notype       Static       | $pdata$3$lookup_ts_parser_cache
+054 00000048 SECT8  notype       Static       | $chain$4$lookup_ts_parser_cache
+055 00000030 SECT9  notype       Static       | $pdata$4$lookup_ts_parser_cache
+056 00000058 SECT8  notype       Static       | $unwind$lookup_ts_dictionary_cache
+057 0000003C SECT9  notype       Static       | $pdata$lookup_ts_dictionary_cache
+058 00000064 SECT8  notype       Static       | $chain$0$lookup_ts_dictionary_cache
+059 00000048 SECT9  notype       Static       | $pdata$0$lookup_ts_dictionary_cache
+05A 00000078 SECT8  notype       Static       | $chain$5$lookup_ts_dictionary_cache
+05B 00000054 SECT9  notype       Static       | $pdata$5$lookup_ts_dictionary_cache
+05C 0000009C SECT8  notype       Static       | $chain$6$lookup_ts_dictionary_cache
+05D 00000060 SECT9  notype       Static       | $pdata$6$lookup_ts_dictionary_cache
+05E 000000AC SECT8  notype       Static       | $chain$7$lookup_ts_dictionary_cache
+05F 0000006C SECT9  notype       Static       | $pdata$7$lookup_ts_dictionary_cache
+060 000000BC SECT8  notype       Static       | $unwind$lookup_ts_config_cache
+061 00000078 SECT9  notype       Static       | $pdata$lookup_ts_config_cache
+062 000000CC SECT8  notype       Static       | $chain$0$lookup_ts_config_cache
+063 00000084 SECT9  notype       Static       | $pdata$0$lookup_ts_config_cache
+064 000000E0 SECT8  notype       Static       | $chain$2$lookup_ts_config_cache
+065 00000090 SECT9  notype       Static       | $pdata$2$lookup_ts_config_cache
+066 000000F8 SECT8  notype       Static       | $chain$7$lookup_ts_config_cache
+067 0000009C SECT9  notype       Static       | $pdata$7$lookup_ts_config_cache
+068 0000011C SECT8  notype       Static       | $chain$8$lookup_ts_config_cache
+069 000000A8 SECT9  notype       Static       | $pdata$8$lookup_ts_config_cache
+06A 00000130 SECT8  notype       Static       | $chain$9$lookup_ts_config_cache
+06B 000000B4 SECT9  notype       Static       | $pdata$9$lookup_ts_config_cache
+06C 00000140 SECT8  notype       Static       | $chain$10$lookup_ts_config_cache
+06D 000000C0 SECT9  notype       Static       | $pdata$10$lookup_ts_config_cache
+06E 00000150 SECT8  notype       Static       | $unwind$getTSCurrentConfig
+06F 000000CC SECT9  notype       Static       | $pdata$getTSCurrentConfig
+070 00000158 SECT8  notype       Static       | $unwind$check_TSCurrentConfig
+071 000000D8 SECT9  notype       Static       | $pdata$check_TSCurrentConfig
+072 00000168 SECT8  notype       Static       | $unwind$InvalidateTSCacheCallBack
+073 000000E4 SECT9  notype       Static       | $pdata$InvalidateTSCacheCallBack
+074 00000000 SECTA  notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum 8B09EE85, selection    5 (pick associative Section 0x6)
+076 00000000 SECTA  notype       Static       | $unwind$init_ts_config_cache
+077 00000000 SECTB  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 889271FF, selection    5 (pick associative Section 0x6)
+079 00000000 SECTB  notype       Static       | $pdata$init_ts_config_cache
+07A 00000000 UNDEF  notype       External     | CurrentMemoryContext
+07B 00000000 UNDEF  notype       External     | CacheMemoryContext
+07C 00000008 SECT4  notype       Static       | TSParserCacheHash
+07D 00000010 SECT4  notype       Static       | lastUsedParser
+07E 00000018 SECT4  notype       Static       | TSDictionaryCacheHash
+07F 00000020 SECT4  notype       Static       | lastUsedDictionary
+080 00000028 SECT4  notype       Static       | TSConfigCacheHash
+081 00000030 SECT4  notype       Static       | lastUsedConfig
+082 00000038 SECT4  notype       Static       | TSCurrentConfigCache
+083 00000000 SECTC  notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum A83A2E50, selection    2 (pick any)
+085 00000000 SECTC  notype       External     | ??_C@_0BF@BGMBBECE@Tsearch?5parser?5cache?$AA@ (`string')
+086 00000000 SECTD  notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum  75BA90F, selection    2 (pick any)
+088 00000000 SECTD  notype       External     | ??_C@_0BH@IKAEHCLE@lookup_ts_parser_cache?$AA@ (`string')
+089 00000000 SECTE  notype       Static       | .rdata
+    Section length   23, #relocs    0, #linenums    0, checksum 561B1B5F, selection    2 (pick any)
+08B 00000000 SECTE  notype       External     | ??_C@_0CD@KABMLDJH@src?1backend?1utils?1cache?1ts_cache@ (`string')
+08C 00000000 SECTF  notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum 27633555, selection    2 (pick any)
+08E 00000000 SECTF  notype       External     | ??_C@_0CO@NLODMCEB@cache?5lookup?5failed?5for?5text?5sea@ (`string')
+08F 00000000 SECT10 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 1A999B62, selection    2 (pick any)
+091 00000000 SECT10 notype       External     | ??_C@_0CN@CDOGPDDJ@text?5search?5parser?5?$CFu?5has?5no?5prs@ (`string')
+092 00000000 SECT11 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum  453DE32, selection    2 (pick any)
+094 00000000 SECT11 notype       External     | ??_C@_0CN@DNCMLGGJ@text?5search?5parser?5?$CFu?5has?5no?5prs@ (`string')
+095 00000000 SECT12 notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum 5E2FC0E9, selection    2 (pick any)
+097 00000000 SECT12 notype       External     | ??_C@_0CL@FJFJJECH@text?5search?5parser?5?$CFu?5has?5no?5prs@ (`string')
+098 00000000 SECT13 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum  9A66172, selection    2 (pick any)
+09A 00000000 SECT13 notype       External     | ??_C@_0BJ@BPJGJAAC@Tsearch?5dictionary?5cache?$AA@ (`string')
+09B 00000000 SECT14 notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 33C791EB, selection    2 (pick any)
+09D 00000000 SECT14 notype       External     | ??_C@_0BL@NGECDMKH@lookup_ts_dictionary_cache?$AA@ (`string')
+09E 00000000 SECT15 notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum 40E95173, selection    2 (pick any)
+0A0 00000000 SECT15 notype       External     | ??_C@_0DC@KAJBNCJC@cache?5lookup?5failed?5for?5text?5sea@ (`string')
+0A1 00000000 SECT16 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum F9F74CE6, selection    2 (pick any)
+0A3 00000000 SECT16 notype       External     | ??_C@_0CK@OCGHJLOC@text?5search?5dictionary?5?$CFu?5has?5no@ (`string')
+0A4 00000000 SECT17 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum DB009DF4, selection    2 (pick any)
+0A6 00000000 SECT17 notype       External     | ??_C@_0DA@NGHHNBJO@cache?5lookup?5failed?5for?5text?5sea@ (`string')
+0A7 00000000 SECT18 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 96E883BA, selection    2 (pick any)
+0A9 00000000 SECT18 notype       External     | ??_C@_0CN@KPJHOLOB@text?5search?5template?5?$CFu?5has?5no?5l@ (`string')
+0AA 00000000 SECT19 notype       Static       | .rdata
+    Section length   1C, #relocs    0, #linenums    0, checksum C7665166, selection    2 (pick any)
+0AC 00000000 SECT19 notype       External     | ??_C@_0BM@LIOJNJHA@Tsearch?5configuration?5cache?$AA@ (`string')
+0AD 00000000 SECT1A notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 50A360FE, selection    2 (pick any)
+0AF 00000000 SECT1A notype       External     | ??_C@_0BH@NNPMLLEF@lookup_ts_config_cache?$AA@ (`string')
+0B0 00000000 SECT1B notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum C98602A8, selection    2 (pick any)
+0B2 00000000 SECT1B notype       External     | ??_C@_0DF@CPNGIKFJ@cache?5lookup?5failed?5for?5text?5sea@ (`string')
+0B3 00000000 SECT1C notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum FB37F2C7, selection    2 (pick any)
+0B5 00000000 SECT1C notype       External     | ??_C@_0CL@PMEBKGAJ@text?5search?5configuration?5?$CFu?5has@ (`string')
+0B6 00000000 SECT1D notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum F6FC0B5A, selection    2 (pick any)
+0B8 00000000 SECT1D notype       External     | ??_C@_0CG@JBPKGPBG@maptokentype?5value?5?$CFd?5is?5out?5of?5@ (`string')
+0B9 00000000 SECT1E notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum B6FDD0B5, selection    2 (pick any)
+0BB 00000000 SECT1E notype       External     | ??_C@_0CG@NBPLLEPJ@maptokentype?5entries?5are?5out?5of?5@ (`string')
+0BC 00000000 SECT1F notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum 532A8D0D, selection    2 (pick any)
+0BE 00000000 SECT1F notype       External     | ??_C@_0DF@LFHKAFPM@too?5many?5pg_ts_config_map?5entrie@ (`string')
+0BF 00000000 SECT20 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 104E060F, selection    2 (pick any)
+0C1 00000000 SECT20 notype       External     | ??_C@_0BD@DFLJDAJP@getTSCurrentConfig?$AA@ (`string')
+0C2 00000000 SECT21 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum DC68ED09, selection    2 (pick any)
+0C4 00000000 SECT21 notype       External     | ??_C@_0CE@EJCBKACD@text?5search?5configuration?5isn?8t?5@ (`string')
+0C5 00000000 SECT22 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 42DE629D, selection    2 (pick any)
+0C7 00000000 SECT22 notype       External     | ??_C@_0BG@BFAICMIC@check_TSCurrentConfig?$AA@ (`string')
+0C8 00000000 SECT23 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum 36156D58, selection    2 (pick any)
+0CA 00000000 SECT23 notype       External     | ??_C@_0CO@MKJFJKEM@text?5search?5configuration?5?$CC?$CFs?$CC?5d@ (`string')
+0CB 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0xE7A bytes
+
+  Summary
+
+          3C .bss
+        5F20 .debug$S
+          68 .debug$T
+          5D .drectve
+          FC .pdata
+         37E .rdata
+         F84 .text$mn
+         178 .xdata

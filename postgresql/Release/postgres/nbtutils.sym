@@ -1,0 +1,335 @@
+
+Dump of file Release\postgres/nbtutils.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 8568, #relocs  264, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 1617, #relocs   76, #linenums    0, checksum 11782535
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length  20D, #relocs    7, #linenums    0, checksum C1B44C07, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  3F4, #relocs   22, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  252, #relocs    9, #linenums    0, checksum B35AEDBE, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  53C, #relocs   30, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  151, #relocs    E, #linenums    0, checksum 3C5E1503, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  358, #relocs   20, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length   C9, #relocs    0, #linenums    0, checksum 38B30236, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  2A4, #relocs   18, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 SECTD  notype       Static       | .text$mn
+    Section length   7B, #relocs    5, #linenums    0, checksum 84F12988, selection    1 (pick no duplicates)
+01C 00000000 SECTE  notype       Static       | .debug$S
+    Section length  1AC, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0xD)
+01E 00000000 SECTF  notype       Static       | .text$mn
+    Section length  181, #relocs    A, #linenums    0, checksum 15C88DC0, selection    1 (pick no duplicates)
+020 00000000 SECT10 notype       Static       | .debug$S
+    Section length  3BC, #relocs   26, #linenums    0, checksum        0, selection    5 (pick associative Section 0xF)
+022 00000000 UNDEF  notype ()    External     | qsort_arg
+023 00000000 UNDEF  notype ()    External     | elog_start
+024 00000000 UNDEF  notype ()    External     | elog_finish
+025 00000000 UNDEF  notype ()    External     | palloc
+026 00000000 UNDEF  notype ()    External     | palloc0
+027 00000000 UNDEF  notype ()    External     | pfree
+028 00000000 UNDEF  notype       External     | __imp__time64
+029 00000000 UNDEF  notype ()    External     | fmgr_info
+02A 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+02B 00000000 UNDEF  notype ()    External     | FunctionCall2Coll
+02C 00000000 UNDEF  notype ()    External     | OidFunctionCall2Coll
+02D 00000000 UNDEF  notype ()    External     | ScanKeyEntryInitializeWithInfo
+02E 00000000 UNDEF  notype ()    External     | ItemPointerEquals
+02F 00000000 UNDEF  notype ()    External     | index_getprocinfo
+030 00000000 UNDEF  notype ()    External     | nocache_index_getattr
+031 00000000 UNDEF  notype ()    External     | BufferGetLSNAtomic
+032 00000000 UNDEF  notype ()    External     | MarkBufferDirtyHint
+033 00000000 UNDEF  notype ()    External     | LockBuffer
+034 00000000 UNDEF  notype ()    External     | _bt_parallel_advance_array_keys
+035 00000000 UNDEF  notype ()    External     | _bt_getbuf
+036 00000000 UNDEF  notype ()    External     | _bt_relbuf
+037 00000000 SECT4  notype ()    External     | _bt_mkscankey
+038 000001B0 SECT4  notype ()    External     | _bt_mkscankey_nodata
+039 000002A0 SECT4  notype ()    External     | _bt_freeskey
+03A 000002B0 SECT4  notype ()    External     | _bt_freestack
+03B 000002E0 SECT4  notype ()    External     | _bt_preprocess_array_keys
+03C 00000630 SECT4  notype ()    External     | _bt_start_array_keys
+03D 000006B0 SECT4  notype ()    External     | _bt_advance_array_keys
+03E 00000770 SECT4  notype ()    External     | _bt_mark_array_keys
+03F 000007B0 SECT4  notype ()    External     | _bt_restore_array_keys
+040 00000830 SECT4  notype ()    External     | _bt_preprocess_keys
+041 00000DF0 SECT4  notype ()    External     | _bt_checkkeys
+042 00001060 SECT4  notype ()    External     | _bt_killitems
+043 00001250 SECT4  notype ()    External     | _bt_vacuum_cycleid
+044 000012E0 SECT4  notype ()    External     | _bt_start_vacuum
+045 00001440 SECT4  notype ()    External     | _bt_end_vacuum
+046 000014E0 SECT4  notype ()    External     | _bt_end_vacuum_callback
+047 000014F0 SECT4  notype ()    External     | BTreeShmemSize
+048 00001520 SECT4  notype ()    External     | BTreeShmemInit
+049 000015A0 SECT4  notype ()    External     | btoptions
+04A 000015C0 SECT4  notype ()    External     | btproperty
+04B 00000000 UNDEF  notype ()    External     | LWLockAcquire
+04C 00000000 UNDEF  notype ()    External     | LWLockRelease
+04D 00000000 UNDEF  notype ()    External     | ShmemInitStruct
+04E 00000000 UNDEF  notype ()    External     | add_size
+04F 00000000 UNDEF  notype ()    External     | mul_size
+050 00000000 UNDEF  notype ()    External     | default_reloptions
+051 00000000 UNDEF  notype ()    External     | deconstruct_array
+052 00000000 UNDEF  notype ()    External     | get_opfamily_member
+053 00000000 UNDEF  notype ()    External     | get_opfamily_proc
+054 00000000 UNDEF  notype ()    External     | get_opcode
+055 00000000 UNDEF  notype ()    External     | get_typlenbyvalalign
+056 00000000 UNDEF  notype ()    External     | MemoryContextReset
+057 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+058 00000000 SECT9  notype ()    Static       | _bt_find_extreme_element
+059 00000000 SECTF  notype ()    Static       | _bt_sort_array_elements
+05A 000015E0 SECT4  notype ()    Static       | _bt_compare_array_elements
+05B 00000000 SECT7  notype ()    Static       | _bt_compare_scankey_args
+05C 00000000 SECTB  notype ()    Static       | _bt_fix_scankey_strategy
+05D 00000000 SECTD  notype ()    Static       | _bt_mark_scankey_required
+05E 00000000 SECT5  notype ()    Static       | _bt_check_rowcompare
+05F 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+060 00000000 UNDEF  notype ()    External     | __security_check_cookie
+061 00000000 UNDEF  notype ()    External     | memcpy
+062 00000000 SECT4  notype       Label        | $LN26
+063 000001B0 SECT4  notype       Label        | $LN12
+064 000002B0 SECT4  notype       Label        | $LN11
+065 000002E0 SECT4  notype       Label        | $LN56
+066 00000630 SECT4  notype       Label        | $LN13
+067 000006B0 SECT4  notype       Label        | $LN24
+068 000007B0 SECT4  notype       Label        | $LN13
+069 00000830 SECT4  notype       Label        | $LN103
+06A 00000DF0 SECT4  notype       Label        | $LN67
+06B 00001060 SECT4  notype       Label        | $LN34
+06C 00001250 SECT4  notype       Label        | $LN14
+06D 000012E0 SECT4  notype       Label        | $LN25
+06E 00001440 SECT4  notype       Label        | $LN14
+06F 000014F0 SECT4  notype       Label        | $LN4
+070 00001520 SECT4  notype       Label        | $LN10
+071 00000000 SECT11 notype       Static       | .xdata
+    Section length  318, #relocs   58, #linenums    0, checksum 70FF3EE1
+073 00000000 SECT11 notype       Static       | $unwind$_bt_mkscankey
+074 00000000 SECT12 notype       Static       | .pdata
+    Section length  21C, #relocs   87, #linenums    0, checksum A5D070AA
+076 00000000 SECT12 notype       Static       | $pdata$_bt_mkscankey
+077 00000014 SECT11 notype       Static       | $chain$1$_bt_mkscankey
+078 0000000C SECT12 notype       Static       | $pdata$1$_bt_mkscankey
+079 0000002C SECT11 notype       Static       | $chain$2$_bt_mkscankey
+07A 00000018 SECT12 notype       Static       | $pdata$2$_bt_mkscankey
+07B 0000003C SECT11 notype       Static       | $unwind$_bt_mkscankey_nodata
+07C 00000024 SECT12 notype       Static       | $pdata$_bt_mkscankey_nodata
+07D 0000004C SECT11 notype       Static       | $chain$2$_bt_mkscankey_nodata
+07E 00000030 SECT12 notype       Static       | $pdata$2$_bt_mkscankey_nodata
+07F 00000068 SECT11 notype       Static       | $chain$3$_bt_mkscankey_nodata
+080 0000003C SECT12 notype       Static       | $pdata$3$_bt_mkscankey_nodata
+081 00000078 SECT11 notype       Static       | $unwind$_bt_freestack
+082 00000048 SECT12 notype       Static       | $pdata$_bt_freestack
+083 00000080 SECT11 notype       Static       | $unwind$_bt_preprocess_array_keys
+084 00000054 SECT12 notype       Static       | $pdata$_bt_preprocess_array_keys
+085 00000094 SECT11 notype       Static       | $chain$0$_bt_preprocess_array_keys
+086 00000060 SECT12 notype       Static       | $pdata$0$_bt_preprocess_array_keys
+087 000000A8 SECT11 notype       Static       | $chain$1$_bt_preprocess_array_keys
+088 0000006C SECT12 notype       Static       | $pdata$1$_bt_preprocess_array_keys
+089 000000B8 SECT11 notype       Static       | $chain$2$_bt_preprocess_array_keys
+08A 00000078 SECT12 notype       Static       | $pdata$2$_bt_preprocess_array_keys
+08B 000000CC SECT11 notype       Static       | $chain$3$_bt_preprocess_array_keys
+08C 00000084 SECT12 notype       Static       | $pdata$3$_bt_preprocess_array_keys
+08D 000000E0 SECT11 notype       Static       | $chain$4$_bt_preprocess_array_keys
+08E 00000090 SECT12 notype       Static       | $pdata$4$_bt_preprocess_array_keys
+08F 000000F0 SECT11 notype       Static       | $chain$5$_bt_preprocess_array_keys
+090 0000009C SECT12 notype       Static       | $pdata$5$_bt_preprocess_array_keys
+091 00000100 SECT11 notype       Static       | $unwind$_bt_start_array_keys
+092 000000A8 SECT12 notype       Static       | $pdata$_bt_start_array_keys
+093 0000010C SECT11 notype       Static       | $unwind$_bt_advance_array_keys
+094 000000B4 SECT12 notype       Static       | $pdata$_bt_advance_array_keys
+095 00000114 SECT11 notype       Static       | $chain$0$_bt_advance_array_keys
+096 000000C0 SECT12 notype       Static       | $pdata$0$_bt_advance_array_keys
+097 00000128 SECT11 notype       Static       | $chain$1$_bt_advance_array_keys
+098 000000CC SECT12 notype       Static       | $pdata$1$_bt_advance_array_keys
+099 0000013C SECT11 notype       Static       | $chain$2$_bt_advance_array_keys
+09A 000000D8 SECT12 notype       Static       | $pdata$2$_bt_advance_array_keys
+09B 0000014C SECT11 notype       Static       | $chain$3$_bt_advance_array_keys
+09C 000000E4 SECT12 notype       Static       | $pdata$3$_bt_advance_array_keys
+09D 0000015C SECT11 notype       Static       | $unwind$_bt_restore_array_keys
+09E 000000F0 SECT12 notype       Static       | $pdata$_bt_restore_array_keys
+09F 00000168 SECT11 notype       Static       | $unwind$_bt_preprocess_keys
+0A0 000000FC SECT12 notype       Static       | $pdata$_bt_preprocess_keys
+0A1 00000180 SECT11 notype       Static       | $chain$1$_bt_preprocess_keys
+0A2 00000108 SECT12 notype       Static       | $pdata$1$_bt_preprocess_keys
+0A3 00000198 SECT11 notype       Static       | $chain$4$_bt_preprocess_keys
+0A4 00000114 SECT12 notype       Static       | $pdata$4$_bt_preprocess_keys
+0A5 000001B4 SECT11 notype       Static       | $chain$5$_bt_preprocess_keys
+0A6 00000120 SECT12 notype       Static       | $pdata$5$_bt_preprocess_keys
+0A7 000001C4 SECT11 notype       Static       | $chain$6$_bt_preprocess_keys
+0A8 0000012C SECT12 notype       Static       | $pdata$6$_bt_preprocess_keys
+0A9 000001D4 SECT11 notype       Static       | $unwind$_bt_checkkeys
+0AA 00000138 SECT12 notype       Static       | $pdata$_bt_checkkeys
+0AB 000001E4 SECT11 notype       Static       | $chain$3$_bt_checkkeys
+0AC 00000144 SECT12 notype       Static       | $pdata$3$_bt_checkkeys
+0AD 00000204 SECT11 notype       Static       | $chain$5$_bt_checkkeys
+0AE 00000150 SECT12 notype       Static       | $pdata$5$_bt_checkkeys
+0AF 00000224 SECT11 notype       Static       | $unwind$_bt_killitems
+0B0 0000015C SECT12 notype       Static       | $pdata$_bt_killitems
+0B1 00000238 SECT11 notype       Static       | $chain$0$_bt_killitems
+0B2 00000168 SECT12 notype       Static       | $pdata$0$_bt_killitems
+0B3 0000024C SECT11 notype       Static       | $chain$1$_bt_killitems
+0B4 00000174 SECT12 notype       Static       | $pdata$1$_bt_killitems
+0B5 00000260 SECT11 notype       Static       | $chain$2$_bt_killitems
+0B6 00000180 SECT12 notype       Static       | $pdata$2$_bt_killitems
+0B7 00000270 SECT11 notype       Static       | $chain$4$_bt_killitems
+0B8 0000018C SECT12 notype       Static       | $pdata$4$_bt_killitems
+0B9 00000288 SECT11 notype       Static       | $chain$5$_bt_killitems
+0BA 00000198 SECT12 notype       Static       | $pdata$5$_bt_killitems
+0BB 00000298 SECT11 notype       Static       | $unwind$_bt_vacuum_cycleid
+0BC 000001A4 SECT12 notype       Static       | $pdata$_bt_vacuum_cycleid
+0BD 000002A4 SECT11 notype       Static       | $unwind$_bt_start_vacuum
+0BE 000001B0 SECT12 notype       Static       | $pdata$_bt_start_vacuum
+0BF 000002B0 SECT11 notype       Static       | $chain$0$_bt_start_vacuum
+0C0 000001BC SECT12 notype       Static       | $pdata$0$_bt_start_vacuum
+0C1 000002C4 SECT11 notype       Static       | $chain$1$_bt_start_vacuum
+0C2 000001C8 SECT12 notype       Static       | $pdata$1$_bt_start_vacuum
+0C3 000002D8 SECT11 notype       Static       | $chain$2$_bt_start_vacuum
+0C4 000001D4 SECT12 notype       Static       | $pdata$2$_bt_start_vacuum
+0C5 000002E8 SECT11 notype       Static       | $chain$3$_bt_start_vacuum
+0C6 000001E0 SECT12 notype       Static       | $pdata$3$_bt_start_vacuum
+0C7 000002F8 SECT11 notype       Static       | $unwind$_bt_end_vacuum
+0C8 000001EC SECT12 notype       Static       | $pdata$_bt_end_vacuum
+0C9 00000300 SECT11 notype       Static       | $unwind$BTreeShmemSize
+0CA 000001F8 SECT12 notype       Static       | $pdata$BTreeShmemSize
+0CB 00000308 SECT11 notype       Static       | $unwind$BTreeShmemInit
+0CC 00000204 SECT12 notype       Static       | $pdata$BTreeShmemInit
+0CD 00000000 SECT13 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 9DE405EF, selection    5 (pick associative Section 0x9)
+0CF 00000000 SECT13 notype       Static       | $unwind$_bt_find_extreme_element
+0D0 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3FFBF8EC, selection    5 (pick associative Section 0x9)
+0D2 00000000 SECT14 notype       Static       | $pdata$_bt_find_extreme_element
+0D3 00000000 SECT15 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum DC2C6713, selection    5 (pick associative Section 0xF)
+0D5 00000000 SECT15 notype       Static       | $unwind$_bt_sort_array_elements
+0D6 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B85DDE25, selection    5 (pick associative Section 0xF)
+0D8 00000000 SECT16 notype       Static       | $pdata$_bt_sort_array_elements
+0D9 00000000 SECT17 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 28D0C55E, selection    5 (pick associative Section 0xF)
+0DB 00000000 SECT17 notype       Static       | $chain$2$_bt_sort_array_elements
+0DC 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 14952ABB, selection    5 (pick associative Section 0xF)
+0DE 00000000 SECT18 notype       Static       | $pdata$2$_bt_sort_array_elements
+0DF 00000000 SECT19 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum  10A34C9, selection    5 (pick associative Section 0xF)
+0E1 00000000 SECT19 notype       Static       | $chain$3$_bt_sort_array_elements
+0E2 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  A6E62A9, selection    5 (pick associative Section 0xF)
+0E4 00000000 SECT1A notype       Static       | $pdata$3$_bt_sort_array_elements
+0E5 00000310 SECT11 notype       Static       | $unwind$_bt_compare_array_elements
+0E6 00000210 SECT12 notype       Static       | $pdata$_bt_compare_array_elements
+0E7 00000000 SECT1B notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum ED4F81A7, selection    5 (pick associative Section 0x7)
+0E9 00000000 SECT1B notype       Static       | $unwind$_bt_compare_scankey_args
+0EA 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 809CE592, selection    5 (pick associative Section 0x7)
+0EC 00000000 SECT1C notype       Static       | $pdata$_bt_compare_scankey_args
+0ED 00000000 SECT1D notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum F4D9A8A3, selection    5 (pick associative Section 0xD)
+0EF 00000000 SECT1D notype       Static       | $unwind$_bt_mark_scankey_required
+0F0 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F13A8DC6, selection    5 (pick associative Section 0xD)
+0F2 00000000 SECT1E notype       Static       | $pdata$_bt_mark_scankey_required
+0F3 00000000 SECT1F notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum C2D1B755, selection    5 (pick associative Section 0x5)
+0F5 00000000 SECT1F notype       Static       | $unwind$_bt_check_rowcompare
+0F6 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  C9A04F8, selection    5 (pick associative Section 0x5)
+0F8 00000000 SECT20 notype       Static       | $pdata$_bt_check_rowcompare
+0F9 00000000 UNDEF  notype       External     | CurrentMemoryContext
+0FA 00000000 UNDEF  notype       External     | BufferBlocks
+0FB 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+0FC 00000000 UNDEF  notype       External     | MainLWLockArray
+0FD 00000000 UNDEF  notype       External     | IsUnderPostmaster
+0FE 00000000 UNDEF  notype       External     | MaxBackends
+0FF 00000000 SECT21 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum D2BDCAB4, selection    2 (pick any)
+101 00000000 SECT21 notype       External     | ??_C@_0BE@CCJHKOMG@BTree?5array?5context?$AA@ (`string')
+102 00000000 SECT22 notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum C07163FB, selection    2 (pick any)
+104 00000000 SECT22 notype       External     | ??_C@_0BK@JAGCCCDG@_bt_preprocess_array_keys?$AA@ (`string')
+105 00000000 SECT23 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 1DF34D32, selection    2 (pick any)
+107 00000000 SECT23 notype       External     | ??_C@_0CF@MGNNMNKJ@src?1backend?1access?1nbtree?1nbtuti@ (`string')
+108 00000000 SECT24 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 723DF886, selection    2 (pick any)
+10A 00000000 SECT24 notype       External     | ??_C@_0CA@JEMIFCNE@unrecognized?5StrategyNumber?3?5?$CFd?$AA@ (`string')
+10B 00000000 SECT25 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 9E8FBE72, selection    2 (pick any)
+10D 00000000 SECT25 notype       External     | ??_C@_0BJ@IILPEPAC@_bt_find_extreme_element?$AA@ (`string')
+10E 00000000 SECT26 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum  F453653, selection    2 (pick any)
+110 00000000 SECT26 notype       External     | ??_C@_0CK@BENFOBFH@missing?5operator?5?$CFd?$CI?$CFu?0?$CFu?$CJ?5in?5op@ (`string')
+111 00000000 SECT27 notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 20111E61, selection    2 (pick any)
+113 00000000 SECT27 notype       External     | ??_C@_0CA@MGOELEDD@missing?5oprcode?5for?5operator?5?$CFu?$AA@ (`string')
+114 00000000 SECT28 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum B4397ECA, selection    2 (pick any)
+116 00000000 SECT28 notype       External     | ??_C@_0BI@OIAHELBF@_bt_sort_array_elements?$AA@ (`string')
+117 00000000 SECT29 notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum F89B4FA5, selection    2 (pick any)
+119 00000000 SECT29 notype       External     | ??_C@_0DC@BIODMMEE@missing?5support?5function?5?$CFd?$CI?$CFu?0?$CF@ (`string')
+11A 00000000 SECT2A notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum A32CF644, selection    2 (pick any)
+11C 00000000 SECT2A notype       External     | ??_C@_0BE@FDAGJCDG@_bt_preprocess_keys?$AA@ (`string')
+11D 00000000 SECT2B notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum 9226D8B1, selection    2 (pick any)
+11F 00000000 SECT2B notype       External     | ??_C@_0CO@GOKGCPKF@btree?5index?5keys?5must?5be?5ordered@ (`string')
+120 00000000 SECT2C notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 23CFAEFF, selection    2 (pick any)
+122 00000000 SECT2C notype       External     | ??_C@_0BJ@DFPPFPIP@_bt_compare_scankey_args?$AA@ (`string')
+123 00000000 SECT2D notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 6CBEE873, selection    2 (pick any)
+125 00000000 SECT2D notype       External     | ??_C@_0BK@DMKNKJLO@_bt_mark_scankey_required?$AA@ (`string')
+126 00000000 SECT2E notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 19F75348, selection    2 (pick any)
+128 00000000 SECT2E notype       External     | ??_C@_0BF@KHAMGJDM@_bt_check_rowcompare?$AA@ (`string')
+129 00000000 SECT2F notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum F59D7BB0, selection    2 (pick any)
+12B 00000000 SECT2F notype       External     | ??_C@_0CA@BDGINBOC@unrecognized?5RowCompareType?3?5?$CFd?$AA@ (`string')
+12C 00000000 SECT30 notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+12E 00000000 SECT30 notype       Static       | btvacinfo
+12F 00000000 SECT31 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum E11CB9BF, selection    2 (pick any)
+131 00000000 SECT31 notype       External     | ??_C@_0BB@NHAMLHPN@_bt_start_vacuum?$AA@ (`string')
+132 00000000 SECT32 notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 904A5F52, selection    2 (pick any)
+134 00000000 SECT32 notype       External     | ??_C@_0CH@OPEHFEIN@multiple?5active?5vacuums?5for?5inde@ (`string')
+135 00000000 SECT33 notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum 5AE9F3E2, selection    2 (pick any)
+137 00000000 SECT33 notype       External     | ??_C@_0BH@NHLGCIFJ@out?5of?5btvacinfo?5slots?$AA@ (`string')
+138 00000000 SECT34 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 5A7E132E, selection    2 (pick any)
+13A 00000000 SECT34 notype       External     | ??_C@_0BD@HPIJCFLO@BTree?5Vacuum?5State?$AA@ (`string')
+13B 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x141F bytes
+
+  Summary
+
+           8 .bss
+        99FC .debug$S
+          68 .debug$T
+          5D .drectve
+         270 .pdata
+         22C .rdata
+        1E8C .text$mn
+         39C .xdata

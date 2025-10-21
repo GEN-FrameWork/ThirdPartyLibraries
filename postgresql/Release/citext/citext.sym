@@ -1,0 +1,112 @@
+
+Dump of file Release\citext/citext.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length  18D, #relocs    0, #linenums    0, checksum 4F9CCF53
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 528C, #relocs   D8, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   64, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .rdata
+    Section length   44, #relocs    0, #linenums    0, checksum AFF0217B
+00A 00000000 SECT4  notype       Static       | ?Pg_magic_data@?1??Pg_magic_func@@9@9 (`Pg_magic_func'::`2'::Pg_magic_data)
+00B 0000001C SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_citext_cmp@@9@9 (`pg_finfo_citext_cmp'::`2'::my_finfo)
+00C 00000020 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_citext_hash@@9@9 (`pg_finfo_citext_hash'::`2'::my_finfo)
+00D 00000024 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_citext_eq@@9@9 (`pg_finfo_citext_eq'::`2'::my_finfo)
+00E 00000028 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_citext_ne@@9@9 (`pg_finfo_citext_ne'::`2'::my_finfo)
+00F 0000002C SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_citext_lt@@9@9 (`pg_finfo_citext_lt'::`2'::my_finfo)
+010 00000030 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_citext_le@@9@9 (`pg_finfo_citext_le'::`2'::my_finfo)
+011 00000034 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_citext_gt@@9@9 (`pg_finfo_citext_gt'::`2'::my_finfo)
+012 00000038 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_citext_ge@@9@9 (`pg_finfo_citext_ge'::`2'::my_finfo)
+013 0000003C SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_citext_smaller@@9@9 (`pg_finfo_citext_smaller'::`2'::my_finfo)
+014 00000040 SECT4  notype       Static       | ?my_finfo@?1??pg_finfo_citext_larger@@9@9 (`pg_finfo_citext_larger'::`2'::my_finfo)
+015 00000000 SECT5  notype       Static       | .text$mn
+    Section length  838, #relocs   3F, #linenums    0, checksum   D7AB30
+017 00000000 SECT6  notype       Static       | .text$mn
+    Section length  15E, #relocs    5, #linenums    0, checksum DA5F34EE, selection    1 (pick no duplicates)
+019 00000000 SECT7  notype       Static       | .debug$S
+    Section length  1F0, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+01B 00000000 UNDEF  notype ()    External     | pfree
+01C 00000000 UNDEF  notype ()    External     | pg_detoast_datum_packed
+01D 00000000 UNDEF  notype ()    External     | hash_any
+01E 00000000 UNDEF  notype ()    External     | str_tolower
+01F 00000000 UNDEF  notype ()    External     | varstr_cmp
+020 00000000 SECT5  notype ()    External     | Pg_magic_func
+021 00000000 SECT6  notype ()    Static       | citextcmp
+022 00000010 SECT5  notype ()    External     | citext_cmp
+023 00000090 SECT5  notype ()    External     | pg_finfo_citext_cmp
+024 000000A0 SECT5  notype ()    External     | citext_hash
+025 00000190 SECT5  notype ()    External     | pg_finfo_citext_hash
+026 000001A0 SECT5  notype ()    External     | citext_eq
+027 00000330 SECT5  notype ()    External     | pg_finfo_citext_eq
+028 00000340 SECT5  notype ()    External     | citext_ne
+029 000004D0 SECT5  notype ()    External     | pg_finfo_citext_ne
+02A 000004E0 SECT5  notype ()    External     | citext_lt
+02B 00000570 SECT5  notype ()    External     | pg_finfo_citext_lt
+02C 00000580 SECT5  notype ()    External     | citext_le
+02D 00000610 SECT5  notype ()    External     | pg_finfo_citext_le
+02E 00000620 SECT5  notype ()    External     | citext_gt
+02F 000006B0 SECT5  notype ()    External     | pg_finfo_citext_gt
+030 000006C0 SECT5  notype ()    External     | citext_ge
+031 00000750 SECT5  notype ()    External     | pg_finfo_citext_ge
+032 00000760 SECT5  notype ()    External     | citext_smaller
+033 000007C0 SECT5  notype ()    External     | pg_finfo_citext_smaller
+034 000007D0 SECT5  notype ()    External     | citext_larger
+035 00000830 SECT5  notype ()    External     | pg_finfo_citext_larger
+036 00000010 SECT5  notype       Label        | $LN12
+037 000000A0 SECT5  notype       Label        | $LN20
+038 000001A0 SECT5  notype       Label        | $LN34
+039 00000340 SECT5  notype       Label        | $LN34
+03A 000004E0 SECT5  notype       Label        | $LN12
+03B 00000580 SECT5  notype       Label        | $LN12
+03C 00000620 SECT5  notype       Label        | $LN12
+03D 000006C0 SECT5  notype       Label        | $LN12
+03E 00000760 SECT5  notype       Label        | $LN4
+03F 000007D0 SECT5  notype       Label        | $LN4
+040 00000000 SECT8  notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum BB650C39, selection    5 (pick associative Section 0x6)
+042 00000000 SECT8  notype       Static       | $unwind$citextcmp
+043 00000000 SECT9  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E6DBEA40, selection    5 (pick associative Section 0x6)
+045 00000000 SECT9  notype       Static       | $pdata$citextcmp
+046 00000000 SECTA  notype       Static       | .xdata
+    Section length   D0, #relocs    0, #linenums    0, checksum F2246BB3
+048 00000000 SECTA  notype       Static       | $unwind$citext_cmp
+049 00000000 SECTB  notype       Static       | .pdata
+    Section length   78, #relocs   1E, #linenums    0, checksum 4943F8DF
+04B 00000000 SECTB  notype       Static       | $pdata$citext_cmp
+04C 00000014 SECTA  notype       Static       | $unwind$citext_hash
+04D 0000000C SECTB  notype       Static       | $pdata$citext_hash
+04E 00000028 SECTA  notype       Static       | $unwind$citext_eq
+04F 00000018 SECTB  notype       Static       | $pdata$citext_eq
+050 00000044 SECTA  notype       Static       | $unwind$citext_ne
+051 00000024 SECTB  notype       Static       | $pdata$citext_ne
+052 00000060 SECTA  notype       Static       | $unwind$citext_lt
+053 00000030 SECTB  notype       Static       | $pdata$citext_lt
+054 00000074 SECTA  notype       Static       | $unwind$citext_le
+055 0000003C SECTB  notype       Static       | $pdata$citext_le
+056 00000088 SECTA  notype       Static       | $unwind$citext_gt
+057 00000048 SECTB  notype       Static       | $pdata$citext_gt
+058 0000009C SECTA  notype       Static       | $unwind$citext_ge
+059 00000054 SECTB  notype       Static       | $pdata$citext_ge
+05A 000000B0 SECTA  notype       Static       | $unwind$citext_smaller
+05B 00000060 SECTB  notype       Static       | $pdata$citext_smaller
+05C 000000C0 SECTA  notype       Static       | $unwind$citext_larger
+05D 0000006C SECTB  notype       Static       | $pdata$citext_larger
+
+String Table Size = 0x4CC bytes
+
+  Summary
+
+        547C .debug$S
+          64 .debug$T
+         18D .drectve
+          84 .pdata
+          44 .rdata
+         996 .text$mn
+          EC .xdata

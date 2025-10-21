@@ -1,0 +1,159 @@
+
+Dump of file Release\postgres/smgr.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6158, #relocs  16E, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 UNDEF  notype ()    External     | mdinit
+009 00000000 UNDEF  notype ()    External     | mdclose
+00A 00000000 UNDEF  notype ()    External     | mdcreate
+00B 00000000 UNDEF  notype ()    External     | mdexists
+00C 00000000 UNDEF  notype ()    External     | mdunlink
+00D 00000000 UNDEF  notype ()    External     | mdextend
+00E 00000000 UNDEF  notype ()    External     | mdprefetch
+00F 00000000 UNDEF  notype ()    External     | mdread
+010 00000000 UNDEF  notype ()    External     | mdwrite
+011 00000000 UNDEF  notype ()    External     | mdwriteback
+012 00000000 UNDEF  notype ()    External     | mdnblocks
+013 00000000 UNDEF  notype ()    External     | mdtruncate
+014 00000000 UNDEF  notype ()    External     | mdimmedsync
+015 00000000 UNDEF  notype ()    External     | mdpreckpt
+016 00000000 UNDEF  notype ()    External     | mdsync
+017 00000000 UNDEF  notype ()    External     | mdpostckpt
+018 00000000 SECT4  notype       Static       | .rdata
+    Section length   88, #relocs   10, #linenums    0, checksum        0
+01A 00000000 SECT4  notype       Static       | smgrsw
+01B 00000000 SECT5  notype       Static       | .bss
+    Section length   10, #relocs    0, #linenums    0, checksum        0
+01D 00000000 SECT5  notype       Static       | first_unowned_reln
+01E 00000000 SECT6  notype       Static       | .text$mn
+    Section length  B53, #relocs   5F, #linenums    0, checksum A5AD285C
+020 00000000 UNDEF  notype ()    External     | elog_start
+021 00000000 UNDEF  notype ()    External     | elog_finish
+022 00000000 UNDEF  notype ()    External     | palloc
+023 00000000 UNDEF  notype ()    External     | pfree
+024 00000000 UNDEF  notype ()    External     | TablespaceCreateDbspace
+025 00000000 UNDEF  notype ()    External     | DropRelFileNodeBuffers
+026 00000000 UNDEF  notype ()    External     | DropRelFileNodesAllBuffers
+027 00000000 UNDEF  notype ()    External     | on_proc_exit
+028 00000000 SECT6  notype ()    External     | smgrinit
+029 00000030 SECT6  notype ()    External     | smgropen
+02A 000001A0 SECT6  notype ()    External     | smgrexists
+02B 000001C0 SECT6  notype ()    External     | smgrsetowner
+02C 00000230 SECT6  notype ()    External     | smgrclearowner
+02D 00000260 SECT6  notype ()    External     | smgrclose
+02E 00000340 SECT6  notype ()    External     | smgrcloseall
+02F 00000490 SECT6  notype ()    External     | smgrclosenode
+030 000004F0 SECT6  notype ()    External     | smgrcreate
+031 00000560 SECT6  notype ()    External     | smgrdounlink
+032 00000620 SECT6  notype ()    External     | smgrdounlinkall
+033 000007C0 SECT6  notype ()    External     | smgrdounlinkfork
+034 00000860 SECT6  notype ()    External     | smgrextend
+035 00000890 SECT6  notype ()    External     | smgrprefetch
+036 000008B0 SECT6  notype ()    External     | smgrread
+037 000008D0 SECT6  notype ()    External     | smgrwrite
+038 00000900 SECT6  notype ()    External     | smgrwriteback
+039 00000920 SECT6  notype ()    External     | smgrnblocks
+03A 00000940 SECT6  notype ()    External     | smgrtruncate
+03B 000009B0 SECT6  notype ()    External     | smgrimmedsync
+03C 000009D0 SECT6  notype ()    External     | smgrpreckpt
+03D 000009F0 SECT6  notype ()    External     | smgrsync
+03E 00000A10 SECT6  notype ()    External     | smgrpostckpt
+03F 00000A30 SECT6  notype ()    External     | AtEOXact_SMgr
+040 00000000 UNDEF  notype ()    External     | hash_create
+041 00000000 UNDEF  notype ()    External     | hash_search
+042 00000000 UNDEF  notype ()    External     | hash_seq_init
+043 00000000 UNDEF  notype ()    External     | hash_seq_search
+044 00000000 UNDEF  notype ()    External     | CacheInvalidateSmgr
+045 00000B50 SECT6  notype ()    Static       | smgrshutdown
+046 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+047 00000000 UNDEF  notype ()    External     | __security_check_cookie
+048 00000000 UNDEF  notype ()    External     | memset
+049 00000000 SECT6  notype       Label        | $LN12
+04A 00000030 SECT6  notype       Label        | $LN29
+04B 00000260 SECT6  notype       Label        | $LN29
+04C 00000340 SECT6  notype       Label        | $LN40
+04D 00000490 SECT6  notype       Label        | $LN6
+04E 000004F0 SECT6  notype       Label        | $LN5
+04F 00000560 SECT6  notype       Label        | $LN11
+050 00000620 SECT6  notype       Label        | $LN41
+051 000007C0 SECT6  notype       Label        | $LN4
+052 00000940 SECT6  notype       Label        | $LN4
+053 00000A30 SECT6  notype       Label        | $LN38
+054 00000000 SECT7  notype       Static       | .xdata
+    Section length  16C, #relocs   1B, #linenums    0, checksum 4795F94A
+056 00000000 SECT7  notype       Static       | $unwind$smgrinit
+057 00000000 SECT8  notype       Static       | .pdata
+    Section length   E4, #relocs   39, #linenums    0, checksum AD84BAD2
+059 00000000 SECT8  notype       Static       | $pdata$smgrinit
+05A 00000008 SECT7  notype       Static       | $unwind$smgropen
+05B 0000000C SECT8  notype       Static       | $pdata$smgropen
+05C 00000024 SECT7  notype       Static       | $unwind$smgrclose
+05D 00000018 SECT8  notype       Static       | $pdata$smgrclose
+05E 00000034 SECT7  notype       Static       | $unwind$smgrcloseall
+05F 00000024 SECT8  notype       Static       | $pdata$smgrcloseall
+060 0000003C SECT7  notype       Static       | $chain$0$smgrcloseall
+061 00000030 SECT8  notype       Static       | $pdata$0$smgrcloseall
+062 00000050 SECT7  notype       Static       | $chain$4$smgrcloseall
+063 0000003C SECT8  notype       Static       | $pdata$4$smgrcloseall
+064 00000070 SECT7  notype       Static       | $chain$5$smgrcloseall
+065 00000048 SECT8  notype       Static       | $pdata$5$smgrcloseall
+066 00000080 SECT7  notype       Static       | $chain$6$smgrcloseall
+067 00000054 SECT8  notype       Static       | $pdata$6$smgrcloseall
+068 00000090 SECT7  notype       Static       | $unwind$smgrclosenode
+069 00000060 SECT8  notype       Static       | $pdata$smgrclosenode
+06A 000000A0 SECT7  notype       Static       | $unwind$smgrcreate
+06B 0000006C SECT8  notype       Static       | $pdata$smgrcreate
+06C 000000B0 SECT7  notype       Static       | $unwind$smgrdounlink
+06D 00000078 SECT8  notype       Static       | $pdata$smgrdounlink
+06E 000000CC SECT7  notype       Static       | $unwind$smgrdounlinkall
+06F 00000084 SECT8  notype       Static       | $pdata$smgrdounlinkall
+070 000000D8 SECT7  notype       Static       | $chain$4$smgrdounlinkall
+071 00000090 SECT8  notype       Static       | $pdata$4$smgrdounlinkall
+072 000000FC SECT7  notype       Static       | $chain$5$smgrdounlinkall
+073 0000009C SECT8  notype       Static       | $pdata$5$smgrdounlinkall
+074 0000010C SECT7  notype       Static       | $unwind$smgrdounlinkfork
+075 000000A8 SECT8  notype       Static       | $pdata$smgrdounlinkfork
+076 00000124 SECT7  notype       Static       | $unwind$smgrtruncate
+077 000000B4 SECT8  notype       Static       | $pdata$smgrtruncate
+078 00000134 SECT7  notype       Static       | $unwind$AtEOXact_SMgr
+079 000000C0 SECT8  notype       Static       | $pdata$AtEOXact_SMgr
+07A 0000013C SECT7  notype       Static       | $chain$3$AtEOXact_SMgr
+07B 000000CC SECT8  notype       Static       | $pdata$3$AtEOXact_SMgr
+07C 0000015C SECT7  notype       Static       | $chain$4$AtEOXact_SMgr
+07D 000000D8 SECT8  notype       Static       | $pdata$4$AtEOXact_SMgr
+07E 00000008 SECT5  notype       Static       | SMgrRelationHash
+07F 00000000 SECT9  notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum  A027A18, selection    2 (pick any)
+081 00000000 SECT9  notype       External     | ??_C@_0BE@PKCIBOGK@smgr?5relation?5table?$AA@ (`string')
+082 00000000 SECTA  notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum EE5179CE, selection    2 (pick any)
+084 00000000 SECTA  notype       External     | ??_C@_09PCCEOOEH@smgrclose?$AA@ (`string')
+085 00000000 SECTB  notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum B3A889A2, selection    2 (pick any)
+087 00000000 SECTB  notype       External     | ??_C@_0CA@FFFNCDPA@src?1backend?1storage?1smgr?1smgr?4c?$AA@ (`string')
+088 00000000 SECTC  notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum  1AE0E57, selection    2 (pick any)
+08A 00000000 SECTC  notype       External     | ??_C@_0CB@IECNMLCF@SMgrRelation?5hashtable?5corrupted@ (`string')
+08B 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x665 bytes
+
+  Summary
+
+          10 .bss
+        6158 .debug$S
+          68 .debug$T
+          5D .drectve
+          E4 .pdata
+          E7 .rdata
+         B53 .text$mn
+         16C .xdata

@@ -1,0 +1,384 @@
+
+Dump of file Release\postgres/pathnode.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length ED5C, #relocs  634, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 3D2C, #relocs  166, #linenums    0, checksum  1175419
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   B0, #relocs    0, #linenums    0, checksum B43B7C49, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  1BC, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length    D, #relocs    0, #linenums    0, checksum 7F648353, selection    2 (pick any)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length   D4, #relocs    6, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype       External     | __imp_rint
+013 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+014 00000000 UNDEF  notype ()    External     | elog_start
+015 00000000 UNDEF  notype ()    External     | elog_finish
+016 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+017 00000000 UNDEF  notype ()    External     | pfree
+018 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+019 00000000 UNDEF  notype ()    External     | bms_copy
+01A 00000000 UNDEF  notype ()    External     | bms_equal
+01B 00000000 UNDEF  notype ()    External     | bms_free
+01C 00000000 UNDEF  notype ()    External     | bms_union
+01D 00000000 UNDEF  notype ()    External     | bms_is_subset
+01E 00000000 UNDEF  notype ()    External     | bms_subset_compare
+01F 00000000 UNDEF  notype ()    External     | bms_overlap
+020 00000000 UNDEF  notype ()    External     | bms_is_empty
+021 00000000 UNDEF  notype ()    External     | bms_del_members
+022 00000000 UNDEF  notype ()    External     | equal
+023 00000000 SECT7  notype ()    Static       | list_head
+024 00000000 UNDEF  notype ()    External     | lappend
+025 00000000 UNDEF  notype ()    External     | lappend_int
+026 00000000 UNDEF  notype ()    External     | lappend_cell
+027 00000000 UNDEF  notype ()    External     | lcons
+028 00000000 UNDEF  notype ()    External     | list_nth
+029 00000000 UNDEF  notype ()    External     | list_delete_cell
+02A 00000000 UNDEF  notype ()    External     | list_copy
+02B 00000000 UNDEF  notype ()    External     | expression_returns_set_rows
+02C 00000000 UNDEF  notype ()    External     | is_parallel_safe
+02D 00000000 UNDEF  notype ()    External     | clamp_row_est
+02E 00000000 UNDEF  notype ()    External     | cost_seqscan
+02F 00000000 UNDEF  notype ()    External     | cost_samplescan
+030 00000000 UNDEF  notype ()    External     | cost_index
+031 00000000 UNDEF  notype ()    External     | cost_bitmap_heap_scan
+032 00000000 UNDEF  notype ()    External     | cost_bitmap_and_node
+033 00000000 UNDEF  notype ()    External     | cost_bitmap_or_node
+034 00000000 UNDEF  notype ()    External     | cost_tidscan
+035 00000000 UNDEF  notype ()    External     | cost_subqueryscan
+036 00000000 UNDEF  notype ()    External     | cost_functionscan
+037 00000000 UNDEF  notype ()    External     | cost_valuesscan
+038 00000000 UNDEF  notype ()    External     | cost_tablefuncscan
+039 00000000 UNDEF  notype ()    External     | cost_ctescan
+03A 00000000 UNDEF  notype ()    External     | cost_namedtuplestorescan
+03B 00000000 UNDEF  notype ()    External     | cost_recursive_union
+03C 00000000 UNDEF  notype ()    External     | cost_sort
+03D 00000000 UNDEF  notype ()    External     | cost_merge_append
+03E 00000000 UNDEF  notype ()    External     | cost_material
+03F 00000000 UNDEF  notype ()    External     | cost_agg
+040 00000000 UNDEF  notype ()    External     | cost_windowagg
+041 00000000 UNDEF  notype ()    External     | cost_group
+042 00000000 UNDEF  notype ()    External     | final_cost_nestloop
+043 00000000 UNDEF  notype ()    External     | final_cost_mergejoin
+044 00000000 UNDEF  notype ()    External     | final_cost_hashjoin
+045 00000000 UNDEF  notype ()    External     | cost_gather
+046 00000000 UNDEF  notype ()    External     | cost_qual_eval
+047 00000000 UNDEF  notype ()    External     | cost_gather_merge
+048 00000000 SECT4  notype ()    External     | compare_path_costs
+049 00000070 SECT4  notype ()    External     | compare_fractional_path_costs
+04A 00000100 SECT4  notype ()    External     | set_cheapest
+04B 00000310 SECT4  notype ()    External     | add_path
+04C 00000640 SECT4  notype ()    External     | add_path_precheck
+04D 00000760 SECT4  notype ()    External     | add_partial_path
+04E 000008F0 SECT4  notype ()    External     | add_partial_path_precheck
+04F 00000A60 SECT4  notype ()    External     | create_seqscan_path
+050 00000B20 SECT4  notype ()    External     | create_samplescan_path
+051 00000BD0 SECT4  notype ()    External     | create_index_path
+052 00000D00 SECT4  notype ()    External     | create_bitmap_heap_path
+053 00000DE0 SECT4  notype ()    External     | create_bitmap_and_path
+054 00000E80 SECT4  notype ()    External     | create_bitmap_or_path
+055 00000F20 SECT4  notype ()    External     | create_tidscan_path
+056 00000FF0 SECT4  notype ()    External     | create_append_path
+057 00001130 SECT4  notype ()    External     | create_merge_append_path
+058 00001350 SECT4  notype ()    External     | create_result_path
+059 00001460 SECT4  notype ()    External     | create_material_path
+05A 00001520 SECT4  notype ()    External     | create_unique_path
+05B 00001960 SECT4  notype ()    External     | create_gather_path
+05C 00001A50 SECT4  notype ()    External     | create_gather_merge_path
+05D 00001BF0 SECT4  notype ()    External     | create_subqueryscan_path
+05E 00001CD0 SECT4  notype ()    External     | create_functionscan_path
+05F 00001D90 SECT4  notype ()    External     | create_valuesscan_path
+060 00001E40 SECT4  notype ()    External     | create_tablefuncscan_path
+061 00001EF0 SECT4  notype ()    External     | create_ctescan_path
+062 00001FA0 SECT4  notype ()    External     | create_namedtuplestorescan_path
+063 00002050 SECT4  notype ()    External     | create_worktablescan_path
+064 00002100 SECT4  notype ()    External     | create_foreignscan_path
+065 000021F0 SECT4  notype ()    External     | calc_nestloop_required_outer
+066 00002260 SECT4  notype ()    External     | calc_non_nestloop_required_outer
+067 00002290 SECT4  notype ()    External     | create_nestloop_path
+068 00002480 SECT4  notype ()    External     | create_mergejoin_path
+069 000025F0 SECT4  notype ()    External     | create_hashjoin_path
+06A 00002740 SECT4  notype ()    External     | create_projection_path
+06B 000028B0 SECT4  notype ()    External     | apply_projection_to_path
+06C 000029B0 SECT4  notype ()    External     | create_set_projection_path
+06D 00002B10 SECT4  notype ()    External     | create_sort_path
+06E 00002C10 SECT4  notype ()    External     | create_group_path
+06F 00002D30 SECT4  notype ()    External     | create_upper_unique_path
+070 00002E00 SECT4  notype ()    External     | create_agg_path
+071 00002F60 SECT4  notype ()    External     | create_groupingsets_path
+072 000032D0 SECT4  notype ()    External     | create_minmaxagg_path
+073 000033B0 SECT4  notype ()    External     | create_windowagg_path
+074 000034F0 SECT4  notype ()    External     | create_setop_path
+075 00003600 SECT4  notype ()    External     | create_recursiveunion_path
+076 000036D0 SECT4  notype ()    External     | create_lockrows_path
+077 00003780 SECT4  notype ()    External     | create_modifytable_path
+078 00003920 SECT4  notype ()    External     | create_limit_path
+079 00003B00 SECT4  notype ()    External     | reparameterize_path
+07A 00000000 UNDEF  notype ()    External     | get_baserel_parampathinfo
+07B 00000000 UNDEF  notype ()    External     | get_joinrel_parampathinfo
+07C 00000000 UNDEF  notype ()    External     | get_appendrel_parampathinfo
+07D 00000000 UNDEF  notype ()    External     | relation_has_unique_index_for
+07E 00000000 UNDEF  notype ()    External     | expand_indexqual_conditions
+07F 00000000 UNDEF  notype ()    External     | compare_pathkeys
+080 00000000 UNDEF  notype ()    External     | pathkeys_contained_in
+081 00000000 UNDEF  notype ()    External     | is_projection_capable_path
+082 00000000 UNDEF  notype ()    External     | query_supports_distinctness
+083 00000000 UNDEF  notype ()    External     | query_is_distinct_for
+084 00000000 UNDEF  notype ()    External     | join_clause_is_movable_into
+085 00000000 UNDEF  notype ()    External     | estimate_num_groups
+086 00000000 SECT5  notype ()    Static       | compare_path_costs_fuzzily
+087 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+088 00000000 UNDEF  notype ()    External     | __security_check_cookie
+089 00000100 SECT4  notype       Label        | $LN85
+08A 00000310 SECT4  notype       Label        | $LN98
+08B 00000640 SECT4  notype       Label        | $LN31
+08C 00000760 SECT4  notype       Label        | $LN45
+08D 000008F0 SECT4  notype       Label        | $LN53
+08E 00000A60 SECT4  notype       Label        | $LN4
+08F 00000B20 SECT4  notype       Label        | $LN4
+090 00000BD0 SECT4  notype       Label        | $LN4
+091 00000D00 SECT4  notype       Label        | $LN4
+092 00000DE0 SECT4  notype       Label        | $LN4
+093 00000E80 SECT4  notype       Label        | $LN4
+094 00000F20 SECT4  notype       Label        | $LN4
+095 00000FF0 SECT4  notype       Label        | $LN20
+096 00001130 SECT4  notype       Label        | $LN26
+097 00001350 SECT4  notype       Label        | $LN6
+098 00001460 SECT4  notype       Label        | $LN6
+099 00001520 SECT4  notype       Label        | $LN75
+09A 00001960 SECT4  notype       Label        | $LN5
+09B 00001A50 SECT4  notype       Label        | $LN8
+09C 00001BF0 SECT4  notype       Label        | $LN6
+09D 00001CD0 SECT4  notype       Label        | $LN4
+09E 00001D90 SECT4  notype       Label        | $LN4
+09F 00001E40 SECT4  notype       Label        | $LN4
+0A0 00001EF0 SECT4  notype       Label        | $LN4
+0A1 00001FA0 SECT4  notype       Label        | $LN4
+0A2 00002050 SECT4  notype       Label        | $LN4
+0A3 00002100 SECT4  notype       Label        | $LN6
+0A4 000021F0 SECT4  notype       Label        | $LN11
+0A5 00002290 SECT4  notype       Label        | $LN21
+0A6 00002480 SECT4  notype       Label        | $LN6
+0A7 000025F0 SECT4  notype       Label        | $LN6
+0A8 00002740 SECT4  notype       Label        | $LN10
+0A9 000028B0 SECT4  notype       Label        | $LN8
+0AA 000029B0 SECT4  notype       Label        | $LN18
+0AB 00002B10 SECT4  notype       Label        | $LN6
+0AC 00002C10 SECT4  notype       Label        | $LN10
+0AD 00002D30 SECT4  notype       Label        | $LN6
+0AE 00002E00 SECT4  notype       Label        | $LN12
+0AF 00002F60 SECT4  notype       Label        | $LN54
+0B0 000032D0 SECT4  notype       Label        | $LN15
+0B1 000033B0 SECT4  notype       Label        | $LN14
+0B2 000034F0 SECT4  notype       Label        | $LN12
+0B3 00003600 SECT4  notype       Label        | $LN6
+0B4 000036D0 SECT4  notype       Label        | $LN4
+0B5 00003780 SECT4  notype       Label        | $LN17
+0B6 00003920 SECT4  notype       Label        | $LN20
+0B7 00003CF4 SECT4  notype       Static       | $LN28
+0B8 00003B73 SECT4  notype       Label        | $LN8
+0B9 00003B8B SECT4  notype       Label        | $LN9
+0BA 00003BA0 SECT4  notype       Label        | $LN10
+0BB 00003C42 SECT4  notype       Label        | $LN11
+0BC 00003C62 SECT4  notype       Label        | $LN12
+0BD 00003C7E SECT4  notype       Label        | $LN13
+0BE 00003CDE SECT4  notype       Label        | $LN15
+0BF 00003B00 SECT4  notype       Label        | $LN30
+0C0 00000000 SECT9  notype       Static       | .xdata
+    Section length  5AC, #relocs   3A, #linenums    0, checksum 2FEC6ACD
+0C2 00000000 SECT9  notype       Static       | $unwind$set_cheapest
+0C3 00000000 SECTA  notype       Static       | .pdata
+    Section length  318, #relocs   C6, #linenums    0, checksum  E4C6AD0
+0C5 00000000 SECTA  notype       Static       | $pdata$set_cheapest
+0C6 00000018 SECT9  notype       Static       | $chain$0$set_cheapest
+0C7 0000000C SECTA  notype       Static       | $pdata$0$set_cheapest
+0C8 0000002C SECT9  notype       Static       | $chain$1$set_cheapest
+0C9 00000018 SECTA  notype       Static       | $pdata$1$set_cheapest
+0CA 0000003C SECT9  notype       Static       | $unwind$add_path
+0CB 00000024 SECTA  notype       Static       | $pdata$add_path
+0CC 00000060 SECT9  notype       Static       | $unwind$add_path_precheck
+0CD 00000030 SECTA  notype       Static       | $pdata$add_path_precheck
+0CE 00000084 SECT9  notype       Static       | $unwind$add_partial_path
+0CF 0000003C SECTA  notype       Static       | $pdata$add_partial_path
+0D0 000000A8 SECT9  notype       Static       | $unwind$add_partial_path_precheck
+0D1 00000048 SECTA  notype       Static       | $pdata$add_partial_path_precheck
+0D2 000000C4 SECT9  notype       Static       | $chain$0$add_partial_path_precheck
+0D3 00000054 SECTA  notype       Static       | $pdata$0$add_partial_path_precheck
+0D4 000000D8 SECT9  notype       Static       | $chain$1$add_partial_path_precheck
+0D5 00000060 SECTA  notype       Static       | $pdata$1$add_partial_path_precheck
+0D6 000000E8 SECT9  notype       Static       | $chain$2$add_partial_path_precheck
+0D7 0000006C SECTA  notype       Static       | $pdata$2$add_partial_path_precheck
+0D8 000000FC SECT9  notype       Static       | $chain$3$add_partial_path_precheck
+0D9 00000078 SECTA  notype       Static       | $pdata$3$add_partial_path_precheck
+0DA 0000010C SECT9  notype       Static       | $chain$4$add_partial_path_precheck
+0DB 00000084 SECTA  notype       Static       | $pdata$4$add_partial_path_precheck
+0DC 00000120 SECT9  notype       Static       | $unwind$create_seqscan_path
+0DD 00000090 SECTA  notype       Static       | $pdata$create_seqscan_path
+0DE 00000138 SECT9  notype       Static       | $unwind$create_samplescan_path
+0DF 0000009C SECTA  notype       Static       | $pdata$create_samplescan_path
+0E0 0000014C SECT9  notype       Static       | $unwind$create_index_path
+0E1 000000A8 SECTA  notype       Static       | $pdata$create_index_path
+0E2 00000160 SECT9  notype       Static       | $unwind$create_bitmap_heap_path
+0E3 000000B4 SECTA  notype       Static       | $pdata$create_bitmap_heap_path
+0E4 00000178 SECT9  notype       Static       | $unwind$create_bitmap_and_path
+0E5 000000C0 SECTA  notype       Static       | $pdata$create_bitmap_and_path
+0E6 0000018C SECT9  notype       Static       | $unwind$create_bitmap_or_path
+0E7 000000CC SECTA  notype       Static       | $pdata$create_bitmap_or_path
+0E8 000001A0 SECT9  notype       Static       | $unwind$create_tidscan_path
+0E9 000000D8 SECTA  notype       Static       | $pdata$create_tidscan_path
+0EA 000001B8 SECT9  notype       Static       | $unwind$create_append_path
+0EB 000000E4 SECTA  notype       Static       | $pdata$create_append_path
+0EC 000001D0 SECT9  notype       Static       | $unwind$create_merge_append_path
+0ED 000000F0 SECTA  notype       Static       | $pdata$create_merge_append_path
+0EE 000001F8 SECT9  notype       Static       | $chain$0$create_merge_append_path
+0EF 000000FC SECTA  notype       Static       | $pdata$0$create_merge_append_path
+0F0 0000020C SECT9  notype       Static       | $chain$1$create_merge_append_path
+0F1 00000108 SECTA  notype       Static       | $pdata$1$create_merge_append_path
+0F2 0000021C SECT9  notype       Static       | $unwind$create_result_path
+0F3 00000114 SECTA  notype       Static       | $pdata$create_result_path
+0F4 00000238 SECT9  notype       Static       | $unwind$create_material_path
+0F5 00000120 SECTA  notype       Static       | $pdata$create_material_path
+0F6 00000248 SECT9  notype       Static       | $unwind$create_unique_path
+0F7 0000012C SECTA  notype       Static       | $pdata$create_unique_path
+0F8 00000258 SECT9  notype       Static       | $chain$2$create_unique_path
+0F9 00000138 SECTA  notype       Static       | $pdata$2$create_unique_path
+0FA 00000274 SECT9  notype       Static       | $chain$3$create_unique_path
+0FB 00000144 SECTA  notype       Static       | $pdata$3$create_unique_path
+0FC 00000288 SECT9  notype       Static       | $chain$4$create_unique_path
+0FD 00000150 SECTA  notype       Static       | $pdata$4$create_unique_path
+0FE 00000298 SECT9  notype       Static       | $chain$5$create_unique_path
+0FF 0000015C SECTA  notype       Static       | $pdata$5$create_unique_path
+100 000002A8 SECT9  notype       Static       | $unwind$create_gather_path
+101 00000168 SECTA  notype       Static       | $pdata$create_gather_path
+102 000002C0 SECT9  notype       Static       | $unwind$create_gather_merge_path
+103 00000174 SECTA  notype       Static       | $pdata$create_gather_merge_path
+104 000002D8 SECT9  notype       Static       | $chain$0$create_gather_merge_path
+105 00000180 SECTA  notype       Static       | $pdata$0$create_gather_merge_path
+106 000002EC SECT9  notype       Static       | $chain$1$create_gather_merge_path
+107 0000018C SECTA  notype       Static       | $pdata$1$create_gather_merge_path
+108 000002FC SECT9  notype       Static       | $chain$2$create_gather_merge_path
+109 00000198 SECTA  notype       Static       | $pdata$2$create_gather_merge_path
+10A 00000310 SECT9  notype       Static       | $chain$3$create_gather_merge_path
+10B 000001A4 SECTA  notype       Static       | $pdata$3$create_gather_merge_path
+10C 00000320 SECT9  notype       Static       | $unwind$create_subqueryscan_path
+10D 000001B0 SECTA  notype       Static       | $pdata$create_subqueryscan_path
+10E 00000338 SECT9  notype       Static       | $unwind$create_functionscan_path
+10F 000001BC SECTA  notype       Static       | $pdata$create_functionscan_path
+110 00000350 SECT9  notype       Static       | $unwind$create_valuesscan_path
+111 000001C8 SECTA  notype       Static       | $pdata$create_valuesscan_path
+112 00000364 SECT9  notype       Static       | $unwind$create_tablefuncscan_path
+113 000001D4 SECTA  notype       Static       | $pdata$create_tablefuncscan_path
+114 00000378 SECT9  notype       Static       | $unwind$create_ctescan_path
+115 000001E0 SECTA  notype       Static       | $pdata$create_ctescan_path
+116 0000038C SECT9  notype       Static       | $unwind$create_namedtuplestorescan_path
+117 000001EC SECTA  notype       Static       | $pdata$create_namedtuplestorescan_path
+118 000003A0 SECT9  notype       Static       | $unwind$create_worktablescan_path
+119 000001F8 SECTA  notype       Static       | $pdata$create_worktablescan_path
+11A 000003B4 SECT9  notype       Static       | $unwind$create_foreignscan_path
+11B 00000204 SECTA  notype       Static       | $pdata$create_foreignscan_path
+11C 000003CC SECT9  notype       Static       | $unwind$calc_nestloop_required_outer
+11D 00000210 SECTA  notype       Static       | $pdata$calc_nestloop_required_outer
+11E 000003D4 SECT9  notype       Static       | $unwind$create_nestloop_path
+11F 0000021C SECTA  notype       Static       | $pdata$create_nestloop_path
+120 000003EC SECT9  notype       Static       | $unwind$create_mergejoin_path
+121 00000228 SECTA  notype       Static       | $pdata$create_mergejoin_path
+122 00000408 SECT9  notype       Static       | $unwind$create_hashjoin_path
+123 00000234 SECTA  notype       Static       | $pdata$create_hashjoin_path
+124 00000424 SECT9  notype       Static       | $unwind$create_projection_path
+125 00000240 SECTA  notype       Static       | $pdata$create_projection_path
+126 00000440 SECT9  notype       Static       | $unwind$apply_projection_to_path
+127 0000024C SECTA  notype       Static       | $pdata$apply_projection_to_path
+128 00000454 SECT9  notype       Static       | $unwind$create_set_projection_path
+129 00000258 SECTA  notype       Static       | $pdata$create_set_projection_path
+12A 00000470 SECT9  notype       Static       | $unwind$create_sort_path
+12B 00000264 SECTA  notype       Static       | $pdata$create_sort_path
+12C 00000488 SECT9  notype       Static       | $unwind$create_group_path
+12D 00000270 SECTA  notype       Static       | $pdata$create_group_path
+12E 000004A0 SECT9  notype       Static       | $unwind$create_upper_unique_path
+12F 0000027C SECTA  notype       Static       | $pdata$create_upper_unique_path
+130 000004B0 SECT9  notype       Static       | $unwind$create_agg_path
+131 00000288 SECTA  notype       Static       | $pdata$create_agg_path
+132 000004C8 SECT9  notype       Static       | $unwind$create_groupingsets_path
+133 00000294 SECTA  notype       Static       | $pdata$create_groupingsets_path
+134 000004E4 SECT9  notype       Static       | $chain$1$create_groupingsets_path
+135 000002A0 SECTA  notype       Static       | $pdata$1$create_groupingsets_path
+136 000004FC SECT9  notype       Static       | $chain$2$create_groupingsets_path
+137 000002AC SECTA  notype       Static       | $pdata$2$create_groupingsets_path
+138 0000050C SECT9  notype       Static       | $unwind$create_minmaxagg_path
+139 000002B8 SECTA  notype       Static       | $pdata$create_minmaxagg_path
+13A 0000051C SECT9  notype       Static       | $unwind$create_windowagg_path
+13B 000002C4 SECTA  notype       Static       | $pdata$create_windowagg_path
+13C 00000534 SECT9  notype       Static       | $unwind$create_setop_path
+13D 000002D0 SECTA  notype       Static       | $pdata$create_setop_path
+13E 00000544 SECT9  notype       Static       | $unwind$create_recursiveunion_path
+13F 000002DC SECTA  notype       Static       | $pdata$create_recursiveunion_path
+140 00000558 SECT9  notype       Static       | $unwind$create_lockrows_path
+141 000002E8 SECTA  notype       Static       | $pdata$create_lockrows_path
+142 00000568 SECT9  notype       Static       | $unwind$create_modifytable_path
+143 000002F4 SECTA  notype       Static       | $pdata$create_modifytable_path
+144 0000057C SECT9  notype       Static       | $unwind$create_limit_path
+145 00000300 SECTA  notype       Static       | $pdata$create_limit_path
+146 00000598 SECT9  notype       Static       | $unwind$reparameterize_path
+147 0000030C SECTA  notype       Static       | $pdata$reparameterize_path
+148 00000000 UNDEF  notype       External     | pg_signal_queue
+149 00000000 UNDEF  notype       External     | pg_signal_mask
+14A 00000000 UNDEF  notype       External     | CurrentMemoryContext
+14B 00000000 UNDEF  notype       External     | InterruptPending
+14C 00000000 UNDEF  notype       External     | work_mem
+14D 00000000 UNDEF  notype       External     | newNodeMacroHolder
+14E 00000000 UNDEF  notype       External     | cpu_tuple_cost
+14F 00000000 UNDEF  notype       External     | cpu_operator_cost
+150 00000000 SECTB  notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 2523C331, selection    2 (pick any)
+152 00000000 SECTB  notype       External     | ??_C@_0N@NFKIHKEM@set_cheapest?$AA@ (`string')
+153 00000000 SECTC  notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 8DA96352, selection    2 (pick any)
+155 00000000 SECTC  notype       External     | ??_C@_0CG@OKKPAHBO@src?1backend?1optimizer?1util?1pathn@ (`string')
+156 00000000 SECTD  notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum 82BBA156, selection    2 (pick any)
+158 00000000 SECTD  notype       External     | ??_C@_0DC@GCMDCCLH@could?5not?5devise?5a?5query?5plan?5fo@ (`string')
+159 00000000 UNDEF  notype       External     | __ImageBase
+15A 00000000 SECTE  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 93848CA1, selection    2 (pick any)
+15C 00000000 SECTE  notype       External     | __real@3fb999999999999a
+15D 00000000 SECTF  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum E818DED1, selection    2 (pick any)
+15F 00000000 SECTF  notype       External     | __real@3fe0000000000000
+160 00000000 SECT10 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+162 00000000 SECT10 notype       External     | __real@3ff0000000000000
+163 00000000 SECT11 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 7F2014F9, selection    2 (pick any)
+165 00000000 SECT11 notype       External     | __real@3ff000000006df38
+166 00000000 SECT12 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 5B43DA45, selection    2 (pick any)
+168 00000000 SECT12 notype       External     | __real@3ff028f5c28f5c29
+169 00000000 SECT13 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 4F624FA0, selection    2 (pick any)
+16B 00000000 SECT13 notype       External     | __real@bff0000000000000
+16C 00000000 UNDEF  notype       External     | __security_cookie
+16D 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x19DC bytes
+
+  Summary
+
+        EFEC .debug$S
+          68 .debug$T
+          5D .drectve
+         318 .pdata
+          95 .rdata
+        3DE9 .text$mn
+         5AC .xdata

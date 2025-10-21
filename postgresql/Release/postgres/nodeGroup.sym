@@ -1,0 +1,96 @@
+
+Dump of file Release\postgres/nodeGroup.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 51D4, #relocs   5E, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  32B, #relocs   23, #linenums    0, checksum 70F77301
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   74, #relocs    4, #linenums    0, checksum 4D3F8A20, selection    2 (pick any)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  230, #relocs   12, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   45, #relocs    3, #linenums    0, checksum E9A3DE57, selection    2 (pick any)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  218, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+013 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+014 00000000 UNDEF  notype ()    External     | ExecClearTuple
+015 00000000 UNDEF  notype ()    External     | ExecCopySlot
+016 00000000 UNDEF  notype ()    External     | ExecReScan
+017 00000000 UNDEF  notype ()    External     | execTuplesMatch
+018 00000000 UNDEF  notype ()    External     | execTuplesMatchPrepare
+019 00000000 UNDEF  notype ()    External     | ExecInitNode
+01A 00000000 UNDEF  notype ()    External     | ExecEndNode
+01B 00000000 UNDEF  notype ()    External     | ExecInitQual
+01C 00000000 SECT5  notype ()    Static       | ExecProject
+01D 00000000 SECT7  notype ()    Static       | ExecQual
+01E 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+01F 00000000 UNDEF  notype ()    External     | ExecInitScanTupleSlot
+020 00000000 UNDEF  notype ()    External     | ExecAssignExprContext
+021 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+022 00000000 UNDEF  notype ()    External     | ExecAssignProjectionInfo
+023 00000000 UNDEF  notype ()    External     | ExecFreeExprContext
+024 00000000 UNDEF  notype ()    External     | ExecAssignScanTypeFromOuterPlan
+025 00000000 SECT4  notype ()    External     | ExecInitGroup
+026 000000F0 SECT4  notype ()    External     | ExecEndGroup
+027 00000120 SECT4  notype ()    External     | ExecReScanGroup
+028 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+029 00000160 SECT4  notype ()    Static       | ExecGroup
+02A 00000000 SECT4  notype       Label        | $LN4
+02B 000000F0 SECT4  notype       Label        | $LN4
+02C 00000120 SECT4  notype       Label        | $LN5
+02D 00000000 SECT9  notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 533B2AD9, selection    5 (pick associative Section 0x5)
+02F 00000000 SECT9  notype       Static       | $unwind$ExecProject
+030 00000000 SECTA  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 281A9F6A, selection    5 (pick associative Section 0x5)
+032 00000000 SECTA  notype       Static       | $pdata$ExecProject
+033 00000000 SECTB  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum DEE23616, selection    5 (pick associative Section 0x7)
+035 00000000 SECTB  notype       Static       | $unwind$ExecQual
+036 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 617DCC89, selection    5 (pick associative Section 0x7)
+038 00000000 SECTC  notype       Static       | $pdata$ExecQual
+039 00000000 SECTD  notype       Static       | .xdata
+    Section length   44, #relocs    0, #linenums    0, checksum C930F69E
+03B 00000000 SECTD  notype       Static       | $unwind$ExecInitGroup
+03C 00000000 SECTE  notype       Static       | .pdata
+    Section length   30, #relocs    C, #linenums    0, checksum C02A65D0
+03E 00000000 SECTE  notype       Static       | $pdata$ExecInitGroup
+03F 00000014 SECTD  notype       Static       | $unwind$ExecEndGroup
+040 0000000C SECTE  notype       Static       | $pdata$ExecEndGroup
+041 0000001C SECTD  notype       Static       | $unwind$ExecReScanGroup
+042 00000018 SECTE  notype       Static       | $pdata$ExecReScanGroup
+043 00000024 SECTD  notype       Static       | $unwind$ExecGroup
+044 00000024 SECTE  notype       Static       | $pdata$ExecGroup
+045 00000000 UNDEF  notype       External     | pg_signal_queue
+046 00000000 UNDEF  notype       External     | pg_signal_mask
+047 00000000 UNDEF  notype       External     | CurrentMemoryContext
+048 00000000 UNDEF  notype       External     | newNodeMacroHolder
+049 00000000 UNDEF  notype       External     | InterruptPending
+04A 00000000 SECTF  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+04C 00000000 SECTF  notype       External     | __real@3ff0000000000000
+04D 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x313 bytes
+
+  Summary
+
+        561C .debug$S
+          68 .debug$T
+          5D .drectve
+          48 .pdata
+           8 .rdata
+         3E4 .text$mn
+          64 .xdata

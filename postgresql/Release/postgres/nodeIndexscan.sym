@@ -1,0 +1,332 @@
+
+Dump of file Release\postgres/nodeIndexscan.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 9AA4, #relocs  282, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length 1CBB, #relocs   DF, #linenums    0, checksum C59B5417
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   A1, #relocs    3, #linenums    0, checksum 4E3383FC, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  2F8, #relocs   20, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length   45, #relocs    3, #linenums    0, checksum E9A3DE57, selection    2 (pick any)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  218, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length   CF, #relocs    0, #linenums    0, checksum 9B4094D1, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  358, #relocs   2E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 SECTB  notype       Static       | .text$mn
+    Section length   A9, #relocs    5, #linenums    0, checksum 865AB02A, selection    1 (pick no duplicates)
+018 00000000 SECTC  notype       Static       | .debug$S
+    Section length  1A4, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0xB)
+01A 00000000 SECTD  notype       Static       | .text$mn
+    Section length  115, #relocs    9, #linenums    0, checksum  CE4C9E3, selection    1 (pick no duplicates)
+01C 00000000 SECTE  notype       Static       | .debug$S
+    Section length  334, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0xD)
+01E 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+01F 00000000 UNDEF  notype ()    External     | elog_start
+020 00000000 UNDEF  notype ()    External     | elog_finish
+021 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+022 00000000 UNDEF  notype ()    External     | palloc
+023 00000000 UNDEF  notype ()    External     | palloc0
+024 00000000 UNDEF  notype ()    External     | repalloc
+025 00000000 UNDEF  notype ()    External     | pfree
+026 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+027 00000000 UNDEF  notype ()    External     | ScanKeyEntryInitialize
+028 00000000 UNDEF  notype ()    External     | pairingheap_allocate
+029 00000000 UNDEF  notype ()    External     | pairingheap_add
+02A 00000000 UNDEF  notype ()    External     | pairingheap_first
+02B 00000000 UNDEF  notype ()    External     | pairingheap_remove_first
+02C 00000000 UNDEF  notype ()    External     | index_open
+02D 00000000 UNDEF  notype ()    External     | index_close
+02E 00000000 UNDEF  notype ()    External     | index_beginscan
+02F 00000000 UNDEF  notype ()    External     | index_rescan
+030 00000000 UNDEF  notype ()    External     | index_endscan
+031 00000000 UNDEF  notype ()    External     | index_markpos
+032 00000000 UNDEF  notype ()    External     | index_restrpos
+033 00000000 UNDEF  notype ()    External     | index_parallelscan_estimate
+034 00000000 UNDEF  notype ()    External     | index_parallelscan_initialize
+035 00000000 UNDEF  notype ()    External     | index_parallelrescan
+036 00000000 UNDEF  notype ()    External     | index_beginscan_parallel
+037 00000000 UNDEF  notype ()    External     | index_getnext
+038 00000000 UNDEF  notype ()    External     | heap_copytuple
+039 00000000 UNDEF  notype ()    External     | ExecStoreTuple
+03A 00000000 UNDEF  notype ()    External     | ExecClearTuple
+03B 00000000 UNDEF  notype ()    External     | PrepareSortSupportFromOrderingOp
+03C 00000000 UNDEF  notype ()    External     | deconstruct_array
+03D 00000000 UNDEF  notype ()    External     | ExecReScan
+03E 00000000 UNDEF  notype ()    External     | ExecInitExpr
+03F 00000000 UNDEF  notype ()    External     | ExecInitQual
+040 00000000 UNDEF  notype ()    External     | ExecInitExprList
+041 00000000 SECT7  notype ()    Static       | ExecQual
+042 00000000 UNDEF  notype ()    External     | ExecScan
+043 00000000 UNDEF  notype ()    External     | ExecAssignScanProjectionInfo
+044 00000000 UNDEF  notype ()    External     | ExecScanReScan
+045 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+046 00000000 UNDEF  notype ()    External     | ExecInitScanTupleSlot
+047 00000000 UNDEF  notype ()    External     | ExecAssignExprContext
+048 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+049 00000000 UNDEF  notype ()    External     | ExecAssignScanType
+04A 00000000 UNDEF  notype ()    External     | ExecRelationIsTargetRelation
+04B 00000000 UNDEF  notype ()    External     | ExecOpenScanRelation
+04C 00000000 UNDEF  notype ()    External     | ExecCloseScanRelation
+04D 00000000 UNDEF  notype ()    External     | add_size
+04E 00000000 UNDEF  notype ()    External     | shm_toc_allocate
+04F 00000000 UNDEF  notype ()    External     | shm_toc_insert
+050 00000000 UNDEF  notype ()    External     | shm_toc_lookup
+051 00000000 SECT4  notype ()    External     | ExecInitIndexScan
+052 00000380 SECT4  notype ()    External     | ExecEndIndexScan
+053 00000400 SECT4  notype ()    External     | ExecIndexMarkPos
+054 00000480 SECT4  notype ()    External     | ExecIndexRestrPos
+055 00000500 SECT4  notype ()    External     | ExecReScanIndexScan
+056 000005C0 SECT4  notype ()    External     | ExecIndexScanEstimate
+057 00000630 SECT4  notype ()    External     | ExecIndexScanInitializeDSM
+058 00000710 SECT4  notype ()    External     | ExecIndexScanReInitializeDSM
+059 00000730 SECT4  notype ()    External     | ExecIndexScanInitializeWorker
+05A 000007D0 SECT4  notype ()    External     | ExecIndexBuildScanKeys
+05B 000013D0 SECT4  notype ()    External     | ExecIndexEvalRuntimeKeys
+05C 00001470 SECT4  notype ()    External     | ExecIndexEvalArrayKeys
+05D 000015F0 SECT4  notype ()    External     | ExecIndexAdvanceArrayKeys
+05E 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+05F 00000000 UNDEF  notype ()    External     | exprType
+060 00000000 UNDEF  notype ()    External     | exprCollation
+061 00000000 UNDEF  notype ()    External     | get_leftop
+062 00000000 UNDEF  notype ()    External     | get_rightop
+063 00000000 UNDEF  notype ()    External     | datumCopy
+064 00000000 UNDEF  notype ()    External     | get_op_opfamily_properties
+065 00000000 UNDEF  notype ()    External     | get_opfamily_proc
+066 00000000 UNDEF  notype ()    External     | get_typlenbyval
+067 00000000 UNDEF  notype ()    External     | get_typlenbyvalalign
+068 00000000 UNDEF  notype ()    External     | get_typstorage
+069 00000000 UNDEF  notype ()    External     | MemoryContextReset
+06A 000016A0 SECT4  notype ()    Static       | IndexNext
+06B 00001860 SECT4  notype ()    Static       | IndexNextWithReorder
+06C 00000000 SECT5  notype ()    Static       | EvalOrderByExpressions
+06D 00001BC0 SECT4  notype ()    Static       | IndexRecheck
+06E 00000000 SECT9  notype ()    Static       | cmp_orderbyvals
+06F 00001C40 SECT4  notype ()    Static       | reorderqueue_cmp
+070 00000000 SECTD  notype ()    Static       | reorderqueue_push
+071 00000000 SECTB  notype ()    Static       | reorderqueue_pop
+072 00001C70 SECT4  notype ()    Static       | ExecIndexScan
+073 00000000 SECT4  notype       Label        | $LN24
+074 00000380 SECT4  notype       Label        | $LN6
+075 00000400 SECT4  notype       Label        | $LN11
+076 00000480 SECT4  notype       Label        | $LN11
+077 00000500 SECT4  notype       Label        | $LN13
+078 000005C0 SECT4  notype       Label        | $LN4
+079 00000630 SECT4  notype       Label        | $LN6
+07A 00000730 SECT4  notype       Label        | $LN6
+07B 000007D0 SECT4  notype       Label        | $LN195
+07C 000013D0 SECT4  notype       Label        | $LN22
+07D 00001470 SECT4  notype       Label        | $LN27
+07E 000015F0 SECT4  notype       Label        | $LN23
+07F 000019C1 SECT4  notype       Label        | $next_indextuple$76
+080 00000000 SECTF  notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum DEE23616, selection    5 (pick associative Section 0x7)
+082 00000000 SECTF  notype       Static       | $unwind$ExecQual
+083 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 617DCC89, selection    5 (pick associative Section 0x7)
+085 00000000 SECT10 notype       Static       | $pdata$ExecQual
+086 00000000 SECT11 notype       Static       | .xdata
+    Section length  254, #relocs   33, #linenums    0, checksum 66386064
+088 00000000 SECT11 notype       Static       | $unwind$ExecInitIndexScan
+089 00000000 SECT12 notype       Static       | .pdata
+    Section length  198, #relocs   66, #linenums    0, checksum 3C321926
+08B 00000000 SECT12 notype       Static       | $pdata$ExecInitIndexScan
+08C 00000010 SECT11 notype       Static       | $chain$1$ExecInitIndexScan
+08D 0000000C SECT12 notype       Static       | $pdata$1$ExecInitIndexScan
+08E 00000028 SECT11 notype       Static       | $chain$2$ExecInitIndexScan
+08F 00000018 SECT12 notype       Static       | $pdata$2$ExecInitIndexScan
+090 0000003C SECT11 notype       Static       | $chain$3$ExecInitIndexScan
+091 00000024 SECT12 notype       Static       | $pdata$3$ExecInitIndexScan
+092 0000004C SECT11 notype       Static       | $chain$4$ExecInitIndexScan
+093 00000030 SECT12 notype       Static       | $pdata$4$ExecInitIndexScan
+094 0000005C SECT11 notype       Static       | $unwind$ExecEndIndexScan
+095 0000003C SECT12 notype       Static       | $pdata$ExecEndIndexScan
+096 00000070 SECT11 notype       Static       | $unwind$ExecIndexMarkPos
+097 00000048 SECT12 notype       Static       | $pdata$ExecIndexMarkPos
+098 00000078 SECT11 notype       Static       | $unwind$ExecIndexRestrPos
+099 00000054 SECT12 notype       Static       | $pdata$ExecIndexRestrPos
+09A 00000080 SECT11 notype       Static       | $unwind$ExecReScanIndexScan
+09B 00000060 SECT12 notype       Static       | $pdata$ExecReScanIndexScan
+09C 00000088 SECT11 notype       Static       | $chain$0$ExecReScanIndexScan
+09D 0000006C SECT12 notype       Static       | $pdata$0$ExecReScanIndexScan
+09E 0000009C SECT11 notype       Static       | $chain$1$ExecReScanIndexScan
+09F 00000078 SECT12 notype       Static       | $pdata$1$ExecReScanIndexScan
+0A0 000000AC SECT11 notype       Static       | $unwind$ExecIndexScanEstimate
+0A1 00000084 SECT12 notype       Static       | $pdata$ExecIndexScanEstimate
+0A2 000000B8 SECT11 notype       Static       | $unwind$ExecIndexScanInitializeDSM
+0A3 00000090 SECT12 notype       Static       | $pdata$ExecIndexScanInitializeDSM
+0A4 000000CC SECT11 notype       Static       | $unwind$ExecIndexScanInitializeWorker
+0A5 0000009C SECT12 notype       Static       | $pdata$ExecIndexScanInitializeWorker
+0A6 000000D4 SECT11 notype       Static       | $unwind$ExecIndexBuildScanKeys
+0A7 000000A8 SECT12 notype       Static       | $pdata$ExecIndexBuildScanKeys
+0A8 000000E0 SECT11 notype       Static       | $chain$5$ExecIndexBuildScanKeys
+0A9 000000B4 SECT12 notype       Static       | $pdata$5$ExecIndexBuildScanKeys
+0AA 00000108 SECT11 notype       Static       | $chain$6$ExecIndexBuildScanKeys
+0AB 000000C0 SECT12 notype       Static       | $pdata$6$ExecIndexBuildScanKeys
+0AC 0000011C SECT11 notype       Static       | $chain$7$ExecIndexBuildScanKeys
+0AD 000000CC SECT12 notype       Static       | $pdata$7$ExecIndexBuildScanKeys
+0AE 0000012C SECT11 notype       Static       | $chain$8$ExecIndexBuildScanKeys
+0AF 000000D8 SECT12 notype       Static       | $pdata$8$ExecIndexBuildScanKeys
+0B0 0000013C SECT11 notype       Static       | $unwind$ExecIndexEvalRuntimeKeys
+0B1 000000E4 SECT12 notype       Static       | $pdata$ExecIndexEvalRuntimeKeys
+0B2 00000148 SECT11 notype       Static       | $chain$1$ExecIndexEvalRuntimeKeys
+0B3 000000F0 SECT12 notype       Static       | $pdata$1$ExecIndexEvalRuntimeKeys
+0B4 00000160 SECT11 notype       Static       | $chain$2$ExecIndexEvalRuntimeKeys
+0B5 000000FC SECT12 notype       Static       | $pdata$2$ExecIndexEvalRuntimeKeys
+0B6 00000170 SECT11 notype       Static       | $unwind$ExecIndexEvalArrayKeys
+0B7 00000108 SECT12 notype       Static       | $pdata$ExecIndexEvalArrayKeys
+0B8 00000180 SECT11 notype       Static       | $chain$2$ExecIndexEvalArrayKeys
+0B9 00000114 SECT12 notype       Static       | $pdata$2$ExecIndexEvalArrayKeys
+0BA 0000019C SECT11 notype       Static       | $chain$4$ExecIndexEvalArrayKeys
+0BB 00000120 SECT12 notype       Static       | $pdata$4$ExecIndexEvalArrayKeys
+0BC 000001B8 SECT11 notype       Static       | $chain$5$ExecIndexEvalArrayKeys
+0BD 0000012C SECT12 notype       Static       | $pdata$5$ExecIndexEvalArrayKeys
+0BE 000001C8 SECT11 notype       Static       | $unwind$ExecIndexAdvanceArrayKeys
+0BF 00000138 SECT12 notype       Static       | $pdata$ExecIndexAdvanceArrayKeys
+0C0 000001D0 SECT11 notype       Static       | $chain$3$ExecIndexAdvanceArrayKeys
+0C1 00000144 SECT12 notype       Static       | $pdata$3$ExecIndexAdvanceArrayKeys
+0C2 000001F0 SECT11 notype       Static       | $chain$4$ExecIndexAdvanceArrayKeys
+0C3 00000150 SECT12 notype       Static       | $pdata$4$ExecIndexAdvanceArrayKeys
+0C4 00000200 SECT11 notype       Static       | $unwind$IndexNext
+0C5 0000015C SECT12 notype       Static       | $pdata$IndexNext
+0C6 0000021C SECT11 notype       Static       | $unwind$IndexNextWithReorder
+0C7 00000168 SECT12 notype       Static       | $pdata$IndexNextWithReorder
+0C8 00000000 SECT13 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 58EC15A6, selection    5 (pick associative Section 0x5)
+0CA 00000000 SECT13 notype       Static       | $unwind$EvalOrderByExpressions
+0CB 00000000 SECT14 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6BB8C590, selection    5 (pick associative Section 0x5)
+0CD 00000000 SECT14 notype       Static       | $pdata$EvalOrderByExpressions
+0CE 00000000 SECT15 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum AE3FAB44, selection    5 (pick associative Section 0x5)
+0D0 00000000 SECT15 notype       Static       | $chain$0$EvalOrderByExpressions
+0D1 00000000 SECT16 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 490CA532, selection    5 (pick associative Section 0x5)
+0D3 00000000 SECT16 notype       Static       | $pdata$0$EvalOrderByExpressions
+0D4 00000000 SECT17 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum D2EF2F7C, selection    5 (pick associative Section 0x5)
+0D6 00000000 SECT17 notype       Static       | $chain$1$EvalOrderByExpressions
+0D7 00000000 SECT18 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E91D2D12, selection    5 (pick associative Section 0x5)
+0D9 00000000 SECT18 notype       Static       | $pdata$1$EvalOrderByExpressions
+0DA 00000238 SECT11 notype       Static       | $unwind$IndexRecheck
+0DB 00000174 SECT12 notype       Static       | $pdata$IndexRecheck
+0DC 00000000 SECT19 notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum A9C5B249, selection    5 (pick associative Section 0x9)
+0DE 00000000 SECT19 notype       Static       | $unwind$cmp_orderbyvals
+0DF 00000000 SECT1A notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A386559B, selection    5 (pick associative Section 0x9)
+0E1 00000000 SECT1A notype       Static       | $pdata$cmp_orderbyvals
+0E2 00000244 SECT11 notype       Static       | $unwind$reorderqueue_cmp
+0E3 00000180 SECT12 notype       Static       | $pdata$reorderqueue_cmp
+0E4 00000000 SECT1B notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum  B87DB6D, selection    5 (pick associative Section 0xD)
+0E6 00000000 SECT1B notype       Static       | $unwind$reorderqueue_push
+0E7 00000000 SECT1C notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 922C34FB, selection    5 (pick associative Section 0xD)
+0E9 00000000 SECT1C notype       Static       | $pdata$reorderqueue_push
+0EA 00000000 SECT1D notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum CBA82A37, selection    5 (pick associative Section 0xB)
+0EC 00000000 SECT1D notype       Static       | $unwind$reorderqueue_pop
+0ED 00000000 SECT1E notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum CD2D5D19, selection    5 (pick associative Section 0xB)
+0EF 00000000 SECT1E notype       Static       | $pdata$reorderqueue_pop
+0F0 00000000 SECT1F notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 4DA8827F, selection    5 (pick associative Section 0xB)
+0F2 00000000 SECT1F notype       Static       | $chain$0$reorderqueue_pop
+0F3 00000000 SECT20 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum E6B5D903, selection    5 (pick associative Section 0xB)
+0F5 00000000 SECT20 notype       Static       | $pdata$0$reorderqueue_pop
+0F6 00000000 SECT21 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 747AB7F5, selection    5 (pick associative Section 0xB)
+0F8 00000000 SECT21 notype       Static       | $chain$1$reorderqueue_pop
+0F9 00000000 SECT22 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 7E75D8B3, selection    5 (pick associative Section 0xB)
+0FB 00000000 SECT22 notype       Static       | $pdata$1$reorderqueue_pop
+0FC 0000024C SECT11 notype       Static       | $unwind$ExecIndexScan
+0FD 0000018C SECT12 notype       Static       | $pdata$ExecIndexScan
+0FE 00000000 UNDEF  notype       External     | pg_signal_queue
+0FF 00000000 UNDEF  notype       External     | pg_signal_mask
+100 00000000 UNDEF  notype       External     | CurrentMemoryContext
+101 00000000 UNDEF  notype       External     | newNodeMacroHolder
+102 00000000 UNDEF  notype       External     | InterruptPending
+103 00000000 SECT23 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum 8F7575ED, selection    2 (pick any)
+105 00000000 SECT23 notype       External     | ??_C@_0BF@DBIOEPJJ@IndexNextWithReorder?$AA@ (`string')
+106 00000000 SECT24 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 48394DC1, selection    2 (pick any)
+108 00000000 SECT24 notype       External     | ??_C@_0CF@JDBHMNFK@src?1backend?1executor?1nodeIndexsc@ (`string')
+109 00000000 SECT25 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 2A68BACA, selection    2 (pick any)
+10B 00000000 SECT25 notype       External     | ??_C@_0CF@PBEGDKFB@index?5returned?5tuples?5in?5wrong?5o@ (`string')
+10C 00000000 SECT26 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 589E48D3, selection    2 (pick any)
+10E 00000000 SECT26 notype       External     | ??_C@_0BB@GOIOEGJB@ExecIndexMarkPos?$AA@ (`string')
+10F 00000000 SECT27 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum 690DA918, selection    2 (pick any)
+111 00000000 SECT27 notype       External     | ??_C@_0DA@GEHKOFHC@unexpected?5ExecIndexMarkPos?5call@ (`string')
+112 00000000 SECT28 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum BE21C134, selection    2 (pick any)
+114 00000000 SECT28 notype       External     | ??_C@_0BC@CGMFPBIG@ExecIndexRestrPos?$AA@ (`string')
+115 00000000 SECT29 notype       Static       | .rdata
+    Section length   31, #relocs    0, #linenums    0, checksum EE0E2B0C, selection    2 (pick any)
+117 00000000 SECT29 notype       External     | ??_C@_0DB@EDGENEAG@unexpected?5ExecIndexRestrPos?5cal@ (`string')
+118 00000000 SECT2A notype       Static       | .rdata
+    Section length   17, #relocs    0, #linenums    0, checksum  3F2AE0A, selection    2 (pick any)
+11A 00000000 SECT2A notype       External     | ??_C@_0BH@IOKNHFLB@ExecIndexBuildScanKeys?$AA@ (`string')
+11B 00000000 SECT2B notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 9DC4276F, selection    2 (pick any)
+11D 00000000 SECT2B notype       External     | ??_C@_0CI@ILNHOFCB@indexqual?5doesn?8t?5have?5key?5on?5le@ (`string')
+11E 00000000 SECT2C notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum 9EE8F253, selection    2 (pick any)
+120 00000000 SECT2C notype       External     | ??_C@_0BK@MOPLLDJO@bogus?5index?5qualification?$AA@ (`string')
+121 00000000 SECT2D notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum F5ED1752, selection    2 (pick any)
+123 00000000 SECT2D notype       External     | ??_C@_0CF@COMDJHMJ@bogus?5RowCompare?5index?5qualifica@ (`string')
+124 00000000 SECT2E notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum 8CC1C26F, selection    2 (pick any)
+126 00000000 SECT2E notype       External     | ??_C@_0DH@GCAFPPNB@RowCompare?5index?5qualification?5c@ (`string')
+127 00000000 SECT2F notype       Static       | .rdata
+    Section length   32, #relocs    0, #linenums    0, checksum F89B4FA5, selection    2 (pick any)
+129 00000000 SECT2F notype       External     | ??_C@_0DC@BIODMMEE@missing?5support?5function?5?$CFd?$CI?$CFu?0?$CF@ (`string')
+12A 00000000 SECT30 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum 54613C09, selection    2 (pick any)
+12C 00000000 SECT30 notype       External     | ??_C@_0CB@NBOCPJHL@NullTest?5indexqual?5has?5wrong?5key@ (`string')
+12D 00000000 SECT31 notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum BEDCED14, selection    2 (pick any)
+12F 00000000 SECT31 notype       External     | ??_C@_0BO@EBCHCMFO@unrecognized?5nulltesttype?3?5?$CFd?$AA@ (`string')
+130 00000000 SECT32 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum 64A47DA5, selection    2 (pick any)
+132 00000000 SECT32 notype       External     | ??_C@_0BP@PCFCCOOK@unsupported?5indexqual?5type?3?5?$CFd?$AA@ (`string')
+133 00000000 SECT33 notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum 63CE82C0, selection    2 (pick any)
+135 00000000 SECT33 notype       External     | ??_C@_0DF@IFJOAKDB@ScalarArrayOpExpr?5index?5qual?5fou@ (`string')
+136 00000000 SECT34 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+138 00000000 SECT34 notype       External     | __real@3ff0000000000000
+139 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x1386 bytes
+
+  Summary
+
+        A7E4 .debug$S
+          68 .debug$T
+          5D .drectve
+         204 .pdata
+         265 .rdata
+        202E .text$mn
+         308 .xdata

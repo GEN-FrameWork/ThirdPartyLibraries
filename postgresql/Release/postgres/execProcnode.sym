@@ -1,0 +1,262 @@
+
+Dump of file Release\postgres/execProcnode.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 7E00, #relocs   F8, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  A3E, #relocs   D3, #linenums    0, checksum 20595A00
+00A 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+00B 00000000 UNDEF  notype ()    External     | elog_start
+00C 00000000 UNDEF  notype ()    External     | elog_finish
+00D 00000000 UNDEF  notype ()    External     | lappend
+00E 00000000 UNDEF  notype ()    External     | bms_free
+00F 00000000 UNDEF  notype ()    External     | InstrAlloc
+010 00000000 UNDEF  notype ()    External     | InstrStartNode
+011 00000000 UNDEF  notype ()    External     | InstrStopNode
+012 00000000 UNDEF  notype ()    External     | ExecReScan
+013 00000000 SECT4  notype ()    External     | ExecInitNode
+014 00000510 SECT4  notype ()    External     | MultiExecProcNode
+015 000005E0 SECT4  notype ()    External     | ExecEndNode
+016 00000910 SECT4  notype ()    External     | ExecShutdownNode
+017 00000000 UNDEF  notype ()    External     | ExecInitAgg
+018 00000000 UNDEF  notype ()    External     | ExecEndAgg
+019 00000000 UNDEF  notype ()    External     | ExecInitAppend
+01A 00000000 UNDEF  notype ()    External     | ExecEndAppend
+01B 00000000 UNDEF  notype ()    External     | ExecInitBitmapAnd
+01C 00000000 UNDEF  notype ()    External     | MultiExecBitmapAnd
+01D 00000000 UNDEF  notype ()    External     | ExecEndBitmapAnd
+01E 00000000 UNDEF  notype ()    External     | ExecInitBitmapHeapScan
+01F 00000000 UNDEF  notype ()    External     | ExecEndBitmapHeapScan
+020 00000000 UNDEF  notype ()    External     | ExecInitBitmapIndexScan
+021 00000000 UNDEF  notype ()    External     | MultiExecBitmapIndexScan
+022 00000000 UNDEF  notype ()    External     | ExecEndBitmapIndexScan
+023 00000000 UNDEF  notype ()    External     | ExecInitBitmapOr
+024 00000000 UNDEF  notype ()    External     | MultiExecBitmapOr
+025 00000000 UNDEF  notype ()    External     | ExecEndBitmapOr
+026 00000000 UNDEF  notype ()    External     | ExecInitCteScan
+027 00000000 UNDEF  notype ()    External     | ExecEndCteScan
+028 00000000 UNDEF  notype ()    External     | ExecInitCustomScan
+029 00000000 UNDEF  notype ()    External     | ExecEndCustomScan
+02A 00000000 UNDEF  notype ()    External     | ExecShutdownCustomScan
+02B 00000000 UNDEF  notype ()    External     | ExecInitForeignScan
+02C 00000000 UNDEF  notype ()    External     | ExecEndForeignScan
+02D 00000000 UNDEF  notype ()    External     | ExecShutdownForeignScan
+02E 00000000 UNDEF  notype ()    External     | ExecInitFunctionScan
+02F 00000000 UNDEF  notype ()    External     | ExecEndFunctionScan
+030 00000000 UNDEF  notype ()    External     | ExecInitGather
+031 00000000 UNDEF  notype ()    External     | ExecEndGather
+032 00000000 UNDEF  notype ()    External     | ExecShutdownGather
+033 00000000 UNDEF  notype ()    External     | ExecInitGatherMerge
+034 00000000 UNDEF  notype ()    External     | ExecEndGatherMerge
+035 00000000 UNDEF  notype ()    External     | ExecShutdownGatherMerge
+036 00000000 UNDEF  notype ()    External     | ExecInitGroup
+037 00000000 UNDEF  notype ()    External     | ExecEndGroup
+038 00000000 UNDEF  notype ()    External     | ExecInitHash
+039 00000000 UNDEF  notype ()    External     | MultiExecHash
+03A 00000000 UNDEF  notype ()    External     | ExecEndHash
+03B 00000000 UNDEF  notype ()    External     | ExecInitHashJoin
+03C 00000000 UNDEF  notype ()    External     | ExecEndHashJoin
+03D 00000000 UNDEF  notype ()    External     | ExecInitIndexOnlyScan
+03E 00000000 UNDEF  notype ()    External     | ExecEndIndexOnlyScan
+03F 00000000 UNDEF  notype ()    External     | ExecInitIndexScan
+040 00000000 UNDEF  notype ()    External     | ExecEndIndexScan
+041 00000000 UNDEF  notype ()    External     | ExecInitLimit
+042 00000000 UNDEF  notype ()    External     | ExecEndLimit
+043 00000000 UNDEF  notype ()    External     | ExecInitLockRows
+044 00000000 UNDEF  notype ()    External     | ExecEndLockRows
+045 00000000 UNDEF  notype ()    External     | ExecInitMaterial
+046 00000000 UNDEF  notype ()    External     | ExecEndMaterial
+047 00000000 UNDEF  notype ()    External     | ExecInitMergeAppend
+048 00000000 UNDEF  notype ()    External     | ExecEndMergeAppend
+049 00000000 UNDEF  notype ()    External     | ExecInitMergeJoin
+04A 00000000 UNDEF  notype ()    External     | ExecEndMergeJoin
+04B 00000000 UNDEF  notype ()    External     | ExecInitModifyTable
+04C 00000000 UNDEF  notype ()    External     | ExecEndModifyTable
+04D 00000000 UNDEF  notype ()    External     | ExecInitNamedTuplestoreScan
+04E 00000000 UNDEF  notype ()    External     | ExecEndNamedTuplestoreScan
+04F 00000000 UNDEF  notype ()    External     | ExecInitNestLoop
+050 00000000 UNDEF  notype ()    External     | ExecEndNestLoop
+051 00000000 UNDEF  notype ()    External     | ExecInitProjectSet
+052 00000000 UNDEF  notype ()    External     | ExecEndProjectSet
+053 00000000 UNDEF  notype ()    External     | ExecInitRecursiveUnion
+054 00000000 UNDEF  notype ()    External     | ExecEndRecursiveUnion
+055 00000000 UNDEF  notype ()    External     | ExecInitResult
+056 00000000 UNDEF  notype ()    External     | ExecEndResult
+057 00000000 UNDEF  notype ()    External     | ExecInitSampleScan
+058 00000000 UNDEF  notype ()    External     | ExecEndSampleScan
+059 00000000 UNDEF  notype ()    External     | ExecInitSeqScan
+05A 00000000 UNDEF  notype ()    External     | ExecEndSeqScan
+05B 00000000 UNDEF  notype ()    External     | ExecInitSetOp
+05C 00000000 UNDEF  notype ()    External     | ExecEndSetOp
+05D 00000000 UNDEF  notype ()    External     | ExecInitSort
+05E 00000000 UNDEF  notype ()    External     | ExecEndSort
+05F 00000000 UNDEF  notype ()    External     | ExecInitSubPlan
+060 00000000 UNDEF  notype ()    External     | ExecInitSubqueryScan
+061 00000000 UNDEF  notype ()    External     | ExecEndSubqueryScan
+062 00000000 UNDEF  notype ()    External     | ExecInitTableFuncScan
+063 00000000 UNDEF  notype ()    External     | ExecEndTableFuncScan
+064 00000000 UNDEF  notype ()    External     | ExecInitTidScan
+065 00000000 UNDEF  notype ()    External     | ExecEndTidScan
+066 00000000 UNDEF  notype ()    External     | ExecInitUnique
+067 00000000 UNDEF  notype ()    External     | ExecEndUnique
+068 00000000 UNDEF  notype ()    External     | ExecInitValuesScan
+069 00000000 UNDEF  notype ()    External     | ExecEndValuesScan
+06A 00000000 UNDEF  notype ()    External     | ExecInitWindowAgg
+06B 00000000 UNDEF  notype ()    External     | ExecEndWindowAgg
+06C 00000000 UNDEF  notype ()    External     | ExecInitWorkTableScan
+06D 00000000 UNDEF  notype ()    External     | ExecEndWorkTableScan
+06E 00000000 UNDEF  notype ()    External     | planstate_tree_walker
+06F 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+070 00000000 UNDEF  notype ()    External     | check_stack_depth
+071 000009B0 SECT4  notype ()    Static       | ExecProcNodeFirst
+072 000009F0 SECT4  notype ()    Static       | ExecProcNodeInstr
+073 00000458 SECT4  notype       Static       | $LN62
+074 0000005E SECT4  notype       Label        | $LN11
+075 00000074 SECT4  notype       Label        | $LN12
+076 0000008A SECT4  notype       Label        | $LN13
+077 000000A0 SECT4  notype       Label        | $LN14
+078 000000B6 SECT4  notype       Label        | $LN15
+079 000000CC SECT4  notype       Label        | $LN16
+07A 000000E2 SECT4  notype       Label        | $LN17
+07B 000000F8 SECT4  notype       Label        | $LN18
+07C 0000010E SECT4  notype       Label        | $LN19
+07D 00000124 SECT4  notype       Label        | $LN20
+07E 0000013A SECT4  notype       Label        | $LN21
+07F 00000150 SECT4  notype       Label        | $LN22
+080 00000166 SECT4  notype       Label        | $LN23
+081 0000017C SECT4  notype       Label        | $LN24
+082 00000192 SECT4  notype       Label        | $LN25
+083 000001A8 SECT4  notype       Label        | $LN26
+084 000001BE SECT4  notype       Label        | $LN27
+085 000001D4 SECT4  notype       Label        | $LN28
+086 000001EA SECT4  notype       Label        | $LN29
+087 00000200 SECT4  notype       Label        | $LN30
+088 00000216 SECT4  notype       Label        | $LN31
+089 0000022C SECT4  notype       Label        | $LN32
+08A 00000242 SECT4  notype       Label        | $LN33
+08B 00000258 SECT4  notype       Label        | $LN34
+08C 0000026E SECT4  notype       Label        | $LN35
+08D 00000284 SECT4  notype       Label        | $LN36
+08E 0000029A SECT4  notype       Label        | $LN37
+08F 000002B0 SECT4  notype       Label        | $LN38
+090 000002C6 SECT4  notype       Label        | $LN39
+091 000002DC SECT4  notype       Label        | $LN40
+092 000002F2 SECT4  notype       Label        | $LN41
+093 00000308 SECT4  notype       Label        | $LN42
+094 0000031E SECT4  notype       Label        | $LN43
+095 00000334 SECT4  notype       Label        | $LN44
+096 0000034A SECT4  notype       Label        | $LN45
+097 0000035D SECT4  notype       Label        | $LN46
+098 00000370 SECT4  notype       Label        | $LN47
+099 00000383 SECT4  notype       Label        | $LN48
+09A 00000396 SECT4  notype       Label        | $LN49
+09B 000003A9 SECT4  notype       Label        | $LN6
+09C 00000000 SECT4  notype       Label        | $LN64
+09D 00000510 SECT4  notype       Label        | $LN21
+09E 0000085C SECT4  notype       Static       | $LN51
+09F 0000062F SECT4  notype       Label        | $LN9
+0A0 0000063C SECT4  notype       Label        | $LN10
+0A1 00000649 SECT4  notype       Label        | $LN11
+0A2 00000656 SECT4  notype       Label        | $LN12
+0A3 00000663 SECT4  notype       Label        | $LN13
+0A4 00000670 SECT4  notype       Label        | $LN14
+0A5 0000067D SECT4  notype       Label        | $LN15
+0A6 0000068A SECT4  notype       Label        | $LN16
+0A7 00000697 SECT4  notype       Label        | $LN17
+0A8 000006A4 SECT4  notype       Label        | $LN18
+0A9 000006B1 SECT4  notype       Label        | $LN19
+0AA 000006BE SECT4  notype       Label        | $LN20
+0AB 000006CB SECT4  notype       Label        | $LN21
+0AC 000006D8 SECT4  notype       Label        | $LN22
+0AD 000006E5 SECT4  notype       Label        | $LN23
+0AE 000006F2 SECT4  notype       Label        | $LN24
+0AF 000006FF SECT4  notype       Label        | $LN25
+0B0 0000070C SECT4  notype       Label        | $LN26
+0B1 00000719 SECT4  notype       Label        | $LN27
+0B2 00000726 SECT4  notype       Label        | $LN28
+0B3 00000733 SECT4  notype       Label        | $LN29
+0B4 00000740 SECT4  notype       Label        | $LN30
+0B5 0000074D SECT4  notype       Label        | $LN31
+0B6 0000075A SECT4  notype       Label        | $LN32
+0B7 00000767 SECT4  notype       Label        | $LN33
+0B8 00000774 SECT4  notype       Label        | $LN34
+0B9 00000781 SECT4  notype       Label        | $LN35
+0BA 0000078E SECT4  notype       Label        | $LN36
+0BB 0000079B SECT4  notype       Label        | $LN37
+0BC 000007A8 SECT4  notype       Label        | $LN38
+0BD 000007B5 SECT4  notype       Label        | $LN39
+0BE 000007C2 SECT4  notype       Label        | $LN40
+0BF 000007CF SECT4  notype       Label        | $LN41
+0C0 000007DC SECT4  notype       Label        | $LN42
+0C1 000007E9 SECT4  notype       Label        | $LN43
+0C2 000007F6 SECT4  notype       Label        | $LN44
+0C3 00000803 SECT4  notype       Label        | $LN45
+0C4 00000810 SECT4  notype       Label        | $LN46
+0C5 0000081D SECT4  notype       Label        | $LN47
+0C6 0000082A SECT4  notype       Label        | $LN6
+0C7 000005E0 SECT4  notype       Label        | $LN54
+0C8 00000910 SECT4  notype       Label        | $LN14
+0C9 00000000 SECT5  notype       Static       | .xdata
+    Section length   60, #relocs    6, #linenums    0, checksum 43271025
+0CB 00000000 SECT5  notype       Static       | $unwind$ExecInitNode
+0CC 00000000 SECT6  notype       Static       | .pdata
+    Section length   60, #relocs   18, #linenums    0, checksum 634CDC3F
+0CE 00000000 SECT6  notype       Static       | $pdata$ExecInitNode
+0CF 00000010 SECT5  notype       Static       | $chain$0$ExecInitNode
+0D0 0000000C SECT6  notype       Static       | $pdata$0$ExecInitNode
+0D1 00000024 SECT5  notype       Static       | $chain$1$ExecInitNode
+0D2 00000018 SECT6  notype       Static       | $pdata$1$ExecInitNode
+0D3 00000034 SECT5  notype       Static       | $unwind$MultiExecProcNode
+0D4 00000024 SECT6  notype       Static       | $pdata$MultiExecProcNode
+0D5 0000003C SECT5  notype       Static       | $unwind$ExecEndNode
+0D6 00000030 SECT6  notype       Static       | $pdata$ExecEndNode
+0D7 00000044 SECT5  notype       Static       | $unwind$ExecShutdownNode
+0D8 0000003C SECT6  notype       Static       | $pdata$ExecShutdownNode
+0D9 0000004C SECT5  notype       Static       | $unwind$ExecProcNodeFirst
+0DA 00000048 SECT6  notype       Static       | $pdata$ExecProcNodeFirst
+0DB 00000054 SECT5  notype       Static       | $unwind$ExecProcNodeInstr
+0DC 00000054 SECT6  notype       Static       | $pdata$ExecProcNodeInstr
+0DD 00000000 UNDEF  notype       External     | pg_signal_queue
+0DE 00000000 UNDEF  notype       External     | pg_signal_mask
+0DF 00000000 UNDEF  notype       External     | InterruptPending
+0E0 00000000 SECT7  notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 73A8ECEC, selection    2 (pick any)
+0E2 00000000 SECT7  notype       External     | ??_C@_0N@IDCDFFJB@ExecInitNode?$AA@ (`string')
+0E3 00000000 SECT8  notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 64E666DB, selection    2 (pick any)
+0E5 00000000 SECT8  notype       External     | ??_C@_0CE@PBKPCLPB@src?1backend?1executor?1execProcnod@ (`string')
+0E6 00000000 SECT9  notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 37C5203E, selection    2 (pick any)
+0E8 00000000 SECT9  notype       External     | ??_C@_0BL@NCEAINHC@unrecognized?5node?5type?3?5?$CFd?$AA@ (`string')
+0E9 00000000 SECTA  notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum CC283726, selection    2 (pick any)
+0EB 00000000 SECTA  notype       External     | ??_C@_0BC@FEMMAHJE@MultiExecProcNode?$AA@ (`string')
+0EC 00000000 SECTB  notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 44424A1D, selection    2 (pick any)
+0EE 00000000 SECTB  notype       External     | ??_C@_0M@MAGIHDIN@ExecEndNode?$AA@ (`string')
+0EF 00000000 UNDEF  notype       External     | __ImageBase
+0F0 00000000 SECTC  notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+0F2 00000000 SECTC  notype       External     | __real@3ff0000000000000
+0F3 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x9C6 bytes
+
+  Summary
+
+        7E00 .debug$S
+          68 .debug$T
+          5D .drectve
+          60 .pdata
+          72 .rdata
+         A3E .text$mn
+          60 .xdata

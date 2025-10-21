@@ -1,0 +1,334 @@
+
+Dump of file Release\postgres/checkpointer.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6AB4, #relocs  13E, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .data
+    Section length   14, #relocs    0, #linenums    0, checksum FC35C6D6
+00A 00000000 SECT4  notype       External     | CheckPointTimeout
+00B 00000004 SECT4  notype       External     | CheckPointWarning
+00C 00000008 SECT4  notype       External     | CheckPointCompletionTarget
+00D 00000000 SECT5  notype       Static       | .text$mn
+    Section length  E92, #relocs  12F, #linenums    0, checksum 38C43077
+00F 00000000 SECT6  notype       Static       | .text$mn
+    Section length   C6, #relocs   13, #linenums    0, checksum 79E87AF2, selection    1 (pick no duplicates)
+011 00000000 SECT7  notype       Static       | .debug$S
+    Section length  254, #relocs   14, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+013 00000000 SECT8  notype       Static       | .text$mn
+    Section length  1EE, #relocs   16, #linenums    0, checksum D0576095, selection    1 (pick no duplicates)
+015 00000000 SECT9  notype       Static       | .debug$S
+    Section length  3CC, #relocs   26, #linenums    0, checksum        0, selection    5 (pick associative Section 0x8)
+017 00000000 SECTA  notype       Static       | .text$mn
+    Section length   F0, #relocs    F, #linenums    0, checksum  AC59F06, selection    1 (pick no duplicates)
+019 00000000 SECTB  notype       Static       | .debug$S
+    Section length  22C, #relocs   10, #linenums    0, checksum        0, selection    5 (pick associative Section 0xA)
+01B 00000000 SECTC  notype       Static       | .text$mn
+    Section length   3B, #relocs    7, #linenums    0, checksum 35785FAA, selection    1 (pick no duplicates)
+01D 00000000 SECTD  notype       Static       | .debug$S
+    Section length   D8, #relocs    4, #linenums    0, checksum        0, selection    5 (pick associative Section 0xC)
+01F 00000000 UNDEF  notype       External     | __imp__errno
+020 00000000 UNDEF  notype       External     | __imp_exit
+021 00000000 UNDEF  notype       External     | __imp__exit
+022 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+023 00000000 UNDEF  notype ()    External     | pg_usleep
+024 00000000 UNDEF  notype ()    External     | pgkill
+025 00000000 UNDEF  notype ()    External     | gettimeofday
+026 00000000 UNDEF  notype ()    External     | pqsignal
+027 00000000 UNDEF  notype ()    External     | errstart
+028 00000000 UNDEF  notype ()    External     | errfinish
+029 00000000 UNDEF  notype ()    External     | errmsg
+02A 00000000 UNDEF  notype ()    External     | errmsg_plural
+02B 00000000 UNDEF  notype ()    External     | errhint
+02C 00000000 UNDEF  notype ()    External     | elog_start
+02D 00000000 UNDEF  notype ()    External     | elog_finish
+02E 00000000 UNDEF  notype ()    External     | EmitErrorReport
+02F 00000000 UNDEF  notype ()    External     | FlushErrorState
+030 00000000 UNDEF  notype ()    External     | palloc
+031 00000000 UNDEF  notype ()    External     | palloc0
+032 00000000 UNDEF  notype ()    External     | pfree
+033 00000000 UNDEF  notype       External     | __imp__time64
+034 00000000 UNDEF  notype ()    External     | AtEOXact_Files
+035 00000000 UNDEF  notype ()    External     | RecoveryInProgress
+036 00000000 UNDEF  notype ()    External     | GetXLogReplayRecPtr
+037 00000000 UNDEF  notype ()    External     | ShutdownXLOG
+038 00000000 UNDEF  notype ()    External     | CreateCheckPoint
+039 00000000 UNDEF  notype ()    External     | CreateRestartPoint
+03A 00000000 UNDEF  notype ()    External     | UpdateFullPageWrites
+03B 00000000 UNDEF  notype ()    External     | GetInsertRecPtr
+03C 00000000 UNDEF  notype ()    External     | GetLastImportantRecPtr
+03D 00000000 UNDEF  notype ()    External     | GetLastSegSwitchData
+03E 00000000 UNDEF  notype ()    External     | RequestXLogSwitch
+03F 00000000 UNDEF  notype ()    External     | pqsigsetmask
+040 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+041 00000000 UNDEF  notype ()    External     | SetLatch
+042 00000000 UNDEF  notype ()    External     | ResetLatch
+043 00000000 UNDEF  notype ()    External     | WaitLatch
+044 00000000 UNDEF  notype ()    External     | s_lock
+045 00000000 UNDEF  notype ()    External     | LWLockAcquire
+046 00000000 UNDEF  notype ()    External     | LWLockRelease
+047 00000000 UNDEF  notype ()    External     | LWLockReleaseAll
+048 00000000 UNDEF  notype ()    External     | hash_create
+049 00000000 UNDEF  notype ()    External     | hash_destroy
+04A 00000000 UNDEF  notype ()    External     | hash_search
+04B 00000000 UNDEF  notype ()    External     | AtEOXact_HashTables
+04C 00000000 UNDEF  notype ()    External     | ShmemInitStruct
+04D 00000000 UNDEF  notype ()    External     | add_size
+04E 00000000 UNDEF  notype ()    External     | mul_size
+04F 00000000 UNDEF  notype ()    External     | pgstat_send_bgwriter
+050 00000000 SECT5  notype ()    External     | CheckpointerMain
+051 000005E0 SECT5  notype ()    External     | RequestCheckpoint
+052 000008D0 SECT5  notype ()    External     | CheckpointWriteDelay
+053 00000990 SECT5  notype ()    External     | ForwardFsyncRequest
+054 00000AF0 SECT5  notype ()    External     | AbsorbFsyncRequests
+055 00000C00 SECT5  notype ()    External     | CheckpointerShmemSize
+056 00000C30 SECT5  notype ()    External     | CheckpointerShmemInit
+057 00000D00 SECT5  notype ()    External     | FirstCallSinceLastCheckpoint
+058 00000000 UNDEF  notype ()    External     | ProcessConfigFile
+059 00000000 UNDEF  notype ()    External     | SyncRepUpdateSyncStandbysDefined
+05A 00000000 UNDEF  notype ()    External     | ResourceOwnerCreate
+05B 00000000 UNDEF  notype ()    External     | ResourceOwnerRelease
+05C 00000000 UNDEF  notype ()    External     | AtEOXact_Buffers
+05D 00000000 UNDEF  notype ()    External     | UnlockBuffers
+05E 00000000 UNDEF  notype ()    External     | AbortBufferIO
+05F 00000000 UNDEF  notype ()    External     | ConditionVariableCancelSleep
+060 00000000 UNDEF  notype ()    External     | proc_exit
+061 00000000 UNDEF  notype ()    External     | smgrcloseall
+062 00000000 UNDEF  notype ()    External     | AtEOXact_SMgr
+063 00000000 UNDEF  notype ()    External     | RememberFsyncRequest
+064 00000000 UNDEF  notype ()    External     | MemoryContextReset
+065 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+066 00000000 SECT6  notype ()    Static       | CheckArchiveTimeout
+067 00000000 SECTA  notype ()    Static       | IsCheckpointOnSchedule
+068 00000000 SECT8  notype ()    Static       | CompactCheckpointerRequestQueue
+069 00000000 SECTC  notype ()    Static       | UpdateSharedMemoryConfig
+06A 00000D90 SECT5  notype ()    Static       | chkpt_quickdie
+06B 00000DB0 SECT5  notype ()    Static       | ChkptSigHupHandler
+06C 00000DF0 SECT5  notype ()    Static       | ReqCheckpointHandler
+06D 00000E30 SECT5  notype ()    Static       | chkpt_sigusr1_handler
+06E 00000E60 SECT5  notype ()    Static       | ReqShutdownHandler
+06F 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+070 00000000 UNDEF  notype ()    External     | __security_check_cookie
+071 00000000 UNDEF  notype ()    External     | _setjmp
+072 00000000 UNDEF  notype ()    External     | memcpy
+073 00000000 UNDEF  notype ()    External     | memset
+074 000005CB SECT5  notype       Label        | $LN86
+075 00000000 SECT5  notype       Label        | $LN89
+076 000005E0 SECT5  notype       Label        | $LN94
+077 000008D0 SECT5  notype       Label        | $LN14
+078 00000990 SECT5  notype       Label        | $LN17
+079 00000AF0 SECT5  notype       Label        | $LN17
+07A 00000C00 SECT5  notype       Label        | $LN4
+07B 00000C30 SECT5  notype       Label        | $LN23
+07C 00000D00 SECT5  notype       Label        | $LN10
+07D 00000DA0 SECT5  notype       Label        | $LN3
+07E 00000000 SECTE  notype       Static       | .xdata
+    Section length   FC, #relocs    D, #linenums    0, checksum F8751FD9
+080 00000000 SECTE  notype       Static       | $unwind$CheckpointerMain
+081 00000000 SECTF  notype       Static       | .pdata
+    Section length   CC, #relocs   33, #linenums    0, checksum 25BFDEB7
+083 00000000 SECTF  notype       Static       | $pdata$CheckpointerMain
+084 0000002C SECTE  notype       Static       | $unwind$RequestCheckpoint
+085 0000000C SECTF  notype       Static       | $pdata$RequestCheckpoint
+086 0000004C SECTE  notype       Static       | $unwind$CheckpointWriteDelay
+087 00000018 SECTF  notype       Static       | $pdata$CheckpointWriteDelay
+088 00000054 SECTE  notype       Static       | $unwind$ForwardFsyncRequest
+089 00000024 SECTF  notype       Static       | $pdata$ForwardFsyncRequest
+08A 00000064 SECTE  notype       Static       | $unwind$AbsorbFsyncRequests
+08B 00000030 SECTF  notype       Static       | $pdata$AbsorbFsyncRequests
+08C 0000006C SECTE  notype       Static       | $chain$1$AbsorbFsyncRequests
+08D 0000003C SECTF  notype       Static       | $pdata$1$AbsorbFsyncRequests
+08E 00000084 SECTE  notype       Static       | $chain$2$AbsorbFsyncRequests
+08F 00000048 SECTF  notype       Static       | $pdata$2$AbsorbFsyncRequests
+090 00000094 SECTE  notype       Static       | $unwind$CheckpointerShmemSize
+091 00000054 SECTF  notype       Static       | $pdata$CheckpointerShmemSize
+092 0000009C SECTE  notype       Static       | $unwind$CheckpointerShmemInit
+093 00000060 SECTF  notype       Static       | $pdata$CheckpointerShmemInit
+094 000000A4 SECTE  notype       Static       | $chain$0$CheckpointerShmemInit
+095 0000006C SECTF  notype       Static       | $pdata$0$CheckpointerShmemInit
+096 000000B8 SECTE  notype       Static       | $chain$1$CheckpointerShmemInit
+097 00000078 SECTF  notype       Static       | $pdata$1$CheckpointerShmemInit
+098 000000C8 SECTE  notype       Static       | $unwind$FirstCallSinceLastCheckpoint
+099 00000084 SECTF  notype       Static       | $pdata$FirstCallSinceLastCheckpoint
+09A 00000000 SECT10 notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum  FC539D1, selection    5 (pick associative Section 0x6)
+09C 00000000 SECT10 notype       Static       | $unwind$CheckArchiveTimeout
+09D 00000000 SECT11 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F9766256, selection    5 (pick associative Section 0x6)
+09F 00000000 SECT11 notype       Static       | $pdata$CheckArchiveTimeout
+0A0 00000000 SECT12 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 989D799D, selection    5 (pick associative Section 0x6)
+0A2 00000000 SECT12 notype       Static       | $chain$0$CheckArchiveTimeout
+0A3 00000000 SECT13 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum AE3D9C51, selection    5 (pick associative Section 0x6)
+0A5 00000000 SECT13 notype       Static       | $pdata$0$CheckArchiveTimeout
+0A6 00000000 SECT14 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 402188BA, selection    5 (pick associative Section 0x6)
+0A8 00000000 SECT14 notype       Static       | $chain$1$CheckArchiveTimeout
+0A9 00000000 SECT15 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 77C8DACF, selection    5 (pick associative Section 0x6)
+0AB 00000000 SECT15 notype       Static       | $pdata$1$CheckArchiveTimeout
+0AC 00000000 SECT16 notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 9E5BF642, selection    5 (pick associative Section 0xA)
+0AE 00000000 SECT16 notype       Static       | $unwind$IsCheckpointOnSchedule
+0AF 00000000 SECT17 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum FF6B144A, selection    5 (pick associative Section 0xA)
+0B1 00000000 SECT17 notype       Static       | $pdata$IsCheckpointOnSchedule
+0B2 00000000 SECT18 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum 58D7C4DD, selection    5 (pick associative Section 0x8)
+0B4 00000000 SECT18 notype       Static       | $unwind$CompactCheckpointerRequestQueue
+0B5 00000000 SECT19 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 302D3CE7, selection    5 (pick associative Section 0x8)
+0B7 00000000 SECT19 notype       Static       | $pdata$CompactCheckpointerRequestQueue
+0B8 00000000 SECT1A notype       Static       | .xdata
+    Section length    8, #relocs    0, #linenums    0, checksum  FC539D1, selection    5 (pick associative Section 0xC)
+0BA 00000000 SECT1A notype       Static       | $unwind$UpdateSharedMemoryConfig
+0BB 00000000 SECT1B notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum D8A74F2B, selection    5 (pick associative Section 0xC)
+0BD 00000000 SECT1B notype       Static       | $pdata$UpdateSharedMemoryConfig
+0BE 000000D4 SECTE  notype       Static       | $unwind$chkpt_quickdie
+0BF 00000090 SECTF  notype       Static       | $pdata$chkpt_quickdie
+0C0 000000DC SECTE  notype       Static       | $unwind$ChkptSigHupHandler
+0C1 0000009C SECTF  notype       Static       | $pdata$ChkptSigHupHandler
+0C2 000000E4 SECTE  notype       Static       | $unwind$ReqCheckpointHandler
+0C3 000000A8 SECTF  notype       Static       | $pdata$ReqCheckpointHandler
+0C4 000000EC SECTE  notype       Static       | $unwind$chkpt_sigusr1_handler
+0C5 000000B4 SECTF  notype       Static       | $pdata$chkpt_sigusr1_handler
+0C6 000000F4 SECTE  notype       Static       | $unwind$ReqShutdownHandler
+0C7 000000C0 SECTF  notype       Static       | $pdata$ReqShutdownHandler
+0C8 00000000 UNDEF  notype       External     | pg_signal_queue
+0C9 00000000 UNDEF  notype       External     | pg_signal_mask
+0CA 00000000 UNDEF  notype       External     | error_context_stack
+0CB 00000000 UNDEF  notype       External     | PG_exception_stack
+0CC 00000000 UNDEF  notype       External     | CurrentMemoryContext
+0CD 00000000 UNDEF  notype       External     | XLogArchiveTimeout
+0CE 00000000 UNDEF  notype       External     | CheckPointSegments
+0CF 00000000 UNDEF  notype       External     | UnBlockSig
+0D0 00000000 UNDEF  notype       External     | BlockSig
+0D1 00000000 UNDEF  notype       External     | InterruptPending
+0D2 00000000 UNDEF  notype       External     | InterruptHoldoffCount
+0D3 00000000 UNDEF  notype       External     | CritSectionCount
+0D4 00000000 UNDEF  notype       External     | IsPostmasterEnvironment
+0D5 00000000 UNDEF  notype       External     | IsUnderPostmaster
+0D6 00000000 UNDEF  notype       External     | ExitOnAnyError
+0D7 00000000 UNDEF  notype       External     | NBuffers
+0D8 00000000 UNDEF  notype       External     | MyProcPid
+0D9 00000000 UNDEF  notype       External     | MyLatch
+0DA 00000000 UNDEF  notype       External     | MyAuxProcType
+0DB 00000000 UNDEF  notype       External     | MainLWLockArray
+0DC 00000000 UNDEF  notype       External     | MyProc
+0DD 00000000 UNDEF  notype       External     | ProcGlobal
+0DE 00000000 UNDEF  notype       External     | pgstat_track_activities
+0DF 00000000 UNDEF  notype       External     | BgWriterStats
+0E0 00000000 UNDEF  notype       External     | CurrentResourceOwner
+0E1 00000000 UNDEF  notype       External     | TopMemoryContext
+0E2 00000000 SECT1C notype       Static       | .bss
+    Section length   44, #relocs    0, #linenums    0, checksum        0
+0E4 00000000 SECT1C notype       Static       | CheckpointerShmem
+0E5 00000008 SECT1C notype       Static       | got_SIGHUP
+0E6 0000000C SECT1C notype       Static       | checkpoint_requested
+0E7 00000010 SECT1C notype       Static       | shutdown_requested
+0E8 00000014 SECT1C notype       Static       | ckpt_active
+0E9 00000018 SECT1C notype       Static       | ckpt_start_time
+0EA 00000020 SECT1C notype       Static       | ckpt_start_recptr
+0EB 00000028 SECT1C notype       Static       | ckpt_cached_elapsed
+0EC 00000030 SECT1C notype       Static       | last_checkpoint_time
+0ED 00000038 SECT1C notype       Static       | last_xlog_switch_time
+0EE 00000000 SECT1D notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 846362B5, selection    2 (pick any)
+0F0 00000000 SECT1D notype       External     | ??_C@_0N@HEOINLMI@Checkpointer?$AA@ (`string')
+0F1 00000000 SECT1E notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 5A7B64A3, selection    2 (pick any)
+0F3 00000000 SECT1E notype       External     | ??_C@_0BB@GMGLGKOB@CheckpointerMain?$AA@ (`string')
+0F4 00000000 SECT1F notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum C72AFBFB, selection    2 (pick any)
+0F6 00000000 SECT1F notype       External     | ??_C@_0CG@KACMJPLH@src?1backend?1postmaster?1checkpoin@ (`string')
+0F7 00000000 SECT20 notype       Static       | .rdata
+    Section length   40, #relocs    0, #linenums    0, checksum 6D0DCA33, selection    2 (pick any)
+0F9 00000000 SECT20 notype       External     | ??_C@_0EA@OHHPFGPK@Consider?5increasing?5the?5configur@ (`string')
+0FA 00000000 SECT21 notype       Static       | .rdata
+    Section length   3C, #relocs    0, #linenums    0, checksum EF31D277, selection    2 (pick any)
+0FC 00000000 SECT21 notype       External     | ??_C@_0DM@BENMKEIA@checkpoints?5are?5occurring?5too?5fr@ (`string')
+0FD 00000000 SECT22 notype       Static       | .rdata
+    Section length   3B, #relocs    0, #linenums    0, checksum 439B8711, selection    2 (pick any)
+0FF 00000000 SECT22 notype       External     | ??_C@_0DL@HKKBBFEO@checkpoints?5are?5occurring?5too?5fr@ (`string')
+100 00000000 SECT23 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum CB226A5F, selection    2 (pick any)
+102 00000000 SECT23 notype       External     | ??_C@_0BE@DLAIAOCN@CheckArchiveTimeout?$AA@ (`string')
+103 00000000 SECT24 notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum A367C60D, selection    2 (pick any)
+105 00000000 SECT24 notype       External     | ??_C@_0DD@HEIKGMGA@write?9ahead?5log?5switch?5forced?5?$CIa@ (`string')
+106 00000010 SECT4  notype       Static       | ?absorb_counter@?1??CheckpointWriteDelay@@9@9 (`CheckpointWriteDelay'::`2'::absorb_counter)
+107 00000000 SECT25 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 5A2D6169, selection    2 (pick any)
+109 00000000 SECT25 notype       External     | ??_C@_0BC@MCMJFBNL@Checkpointer?5Data?$AA@ (`string')
+10A 00000000 SECT26 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 69A7BE99, selection    2 (pick any)
+10C 00000000 SECT26 notype       External     | ??_C@_0BC@PBEDIOCL@RequestCheckpoint?$AA@ (`string')
+10D 00000000 SECT27 notype       Static       | .rdata
+    Section length   3E, #relocs    0, #linenums    0, checksum B3DC1437, selection    2 (pick any)
+10F 00000000 SECT27 notype       External     | ??_C@_0DO@FBEHEMKJ@could?5not?5request?5checkpoint?5bec@ (`string')
+110 00000000 SECT28 notype       Static       | .rdata
+    Section length   24, #relocs    0, #linenums    0, checksum 854742F0, selection    2 (pick any)
+112 00000000 SECT28 notype       External     | ??_C@_0CE@BAAOAPNK@could?5not?5signal?5for?5checkpoint?3@ (`string')
+113 00000000 SECT29 notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum 7341ACDD, selection    2 (pick any)
+115 00000000 SECT29 notype       External     | ??_C@_0DH@JNIFJBGD@Consult?5recent?5messages?5in?5the?5s@ (`string')
+116 00000000 SECT2A notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum B9DF52A3, selection    2 (pick any)
+118 00000000 SECT2A notype       External     | ??_C@_0BK@OJMMBDGO@checkpoint?5request?5failed?$AA@ (`string')
+119 00000000 SECT2B notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum F21EB895, selection    2 (pick any)
+11B 00000000 SECT2B notype       External     | ??_C@_0BE@CDENMOH@ForwardFsyncRequest?$AA@ (`string')
+11C 00000000 SECT2C notype       Static       | .rdata
+    Section length   37, #relocs    0, #linenums    0, checksum 5146A0FA, selection    2 (pick any)
+11E 00000000 SECT2C notype       External     | ??_C@_0DH@LPICJNEE@ForwardFsyncRequest?5must?5not?5be?5@ (`string')
+11F 00000000 SECT2D notype       Static       | .rdata
+    Section length   20, #relocs    0, #linenums    0, checksum 72C25D9A, selection    2 (pick any)
+121 00000000 SECT2D notype       External     | ??_C@_0CA@JEDHPHMI@CompactCheckpointerRequestQueue?$AA@ (`string')
+122 00000000 SECT2E notype       Static       | .rdata
+    Section length   3C, #relocs    0, #linenums    0, checksum B106762F, selection    2 (pick any)
+124 00000000 SECT2E notype       External     | ??_C@_0DM@EKOLAANI@compacted?5fsync?5request?5queue?5fr@ (`string')
+125 00000000 SECT2F notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 76945519, selection    2 (pick any)
+127 00000000 SECT2F notype       External     | ??_C@_0BJ@GAKEKEGJ@UpdateSharedMemoryConfig?$AA@ (`string')
+128 00000000 SECT30 notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum A4EDA6E0, selection    2 (pick any)
+12A 00000000 SECT30 notype       External     | ??_C@_0DI@IINKPMFG@checkpointer?5updated?5shared?5memo@ (`string')
+12B 00000040 SECT1C notype       Static       | ?ckpt_done@?1??FirstCallSinceLastCheckpoint@@9@9 (`FirstCallSinceLastCheckpoint'::`2'::ckpt_done)
+12C 00000000 SECT31 notype       Static       | .rdata
+    Section length   1D, #relocs    0, #linenums    0, checksum 78B8F587, selection    2 (pick any)
+12E 00000000 SECT31 notype       External     | ??_C@_0BN@IMBDMPFO@FirstCallSinceLastCheckpoint?$AA@ (`string')
+12F 00000000 SECT32 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum EE5E645D, selection    2 (pick any)
+131 00000000 SECT32 notype       External     | __real@3e70000000000000
+132 00000000 SECT33 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum  1B97D4D, selection    2 (pick any)
+134 00000000 SECT33 notype       External     | __real@412e848000000000
+135 00000000 SECT34 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum FB69F197, selection    2 (pick any)
+137 00000000 SECT34 notype       External     | __real@43f0000000000000
+138 00000000 UNDEF  notype       External     | __security_cookie
+139 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x1188 bytes
+
+  Summary
+
+          44 .bss
+          14 .data
+        73D8 .debug$S
+          68 .debug$T
+          5D .drectve
+         114 .pdata
+         346 .rdata
+        1271 .text$mn
+         154 .xdata

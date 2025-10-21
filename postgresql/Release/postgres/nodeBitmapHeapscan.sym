@@ -1,0 +1,179 @@
+
+Dump of file Release\postgres/nodeBitmapHeapscan.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 6C78, #relocs   D8, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  963, #relocs   62, #linenums    0, checksum C520FF2D
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   92, #relocs    5, #linenums    0, checksum 9F6B2A3C, selection    1 (pick no duplicates)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  17C, #relocs    C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  241, #relocs    9, #linenums    0, checksum 72287092, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  444, #relocs   34, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 UNDEF  notype       External     | __imp_rint
+013 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+014 00000000 UNDEF  notype ()    External     | elog_start
+015 00000000 UNDEF  notype ()    External     | elog_finish
+016 00000000 UNDEF  notype ()    External     | MemoryContextAllocZeroAligned
+017 00000000 UNDEF  notype ()    External     | tbm_free
+018 00000000 UNDEF  notype ()    External     | tbm_free_shared_area
+019 00000000 UNDEF  notype ()    External     | tbm_begin_iterate
+01A 00000000 UNDEF  notype ()    External     | tbm_prepare_shared_iterate
+01B 00000000 UNDEF  notype ()    External     | tbm_iterate
+01C 00000000 UNDEF  notype ()    External     | tbm_shared_iterate
+01D 00000000 UNDEF  notype ()    External     | tbm_end_iterate
+01E 00000000 UNDEF  notype ()    External     | tbm_end_shared_iterate
+01F 00000000 UNDEF  notype ()    External     | tbm_attach_shared_iterate
+020 00000000 UNDEF  notype ()    External     | heap_beginscan_bm
+021 00000000 UNDEF  notype ()    External     | heap_rescan
+022 00000000 UNDEF  notype ()    External     | heap_endscan
+023 00000000 UNDEF  notype ()    External     | heap_hot_search_buffer
+024 00000000 UNDEF  notype ()    External     | heap_update_snapshot
+025 00000000 UNDEF  notype ()    External     | heap_page_prune_opt
+026 00000000 UNDEF  notype ()    External     | s_lock
+027 00000000 UNDEF  notype ()    External     | ExecStoreTuple
+028 00000000 UNDEF  notype ()    External     | ExecClearTuple
+029 00000000 UNDEF  notype ()    External     | ConditionVariableInit
+02A 00000000 UNDEF  notype ()    External     | ConditionVariableSleep
+02B 00000000 UNDEF  notype ()    External     | ConditionVariableCancelSleep
+02C 00000000 UNDEF  notype ()    External     | ConditionVariableBroadcast
+02D 00000000 UNDEF  notype ()    External     | ExecReScan
+02E 00000000 UNDEF  notype ()    External     | ExecInitNode
+02F 00000000 UNDEF  notype ()    External     | MultiExecProcNode
+030 00000000 UNDEF  notype ()    External     | ExecEndNode
+031 00000000 UNDEF  notype ()    External     | ExecInitQual
+032 00000000 UNDEF  notype ()    External     | ExecScan
+033 00000000 UNDEF  notype ()    External     | ExecAssignScanProjectionInfo
+034 00000000 UNDEF  notype ()    External     | ExecScanReScan
+035 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+036 00000000 UNDEF  notype ()    External     | ExecInitScanTupleSlot
+037 00000000 UNDEF  notype ()    External     | ExecAssignExprContext
+038 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+039 00000000 UNDEF  notype ()    External     | ExecFreeExprContext
+03A 00000000 UNDEF  notype ()    External     | ExecAssignScanType
+03B 00000000 UNDEF  notype ()    External     | ExecOpenScanRelation
+03C 00000000 UNDEF  notype ()    External     | ExecCloseScanRelation
+03D 00000000 UNDEF  notype ()    External     | add_size
+03E 00000000 UNDEF  notype ()    External     | shm_toc_allocate
+03F 00000000 UNDEF  notype ()    External     | shm_toc_insert
+040 00000000 UNDEF  notype ()    External     | shm_toc_lookup
+041 00000000 SECT4  notype ()    External     | ExecInitBitmapHeapScan
+042 000001A0 SECT4  notype ()    External     | ExecEndBitmapHeapScan
+043 00000260 SECT4  notype ()    External     | ExecReScanBitmapHeapScan
+044 00000330 SECT4  notype ()    External     | ExecBitmapHeapEstimate
+045 000003A0 SECT4  notype ()    External     | ExecBitmapHeapInitializeDSM
+046 00000440 SECT4  notype ()    External     | ExecBitmapHeapReInitializeDSM
+047 000004B0 SECT4  notype ()    External     | ExecBitmapHeapInitializeWorker
+048 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+049 00000000 UNDEF  notype ()    External     | EstimateSnapshotSpace
+04A 00000000 UNDEF  notype ()    External     | SerializeSnapshot
+04B 00000000 UNDEF  notype ()    External     | RestoreSnapshot
+04C 00000000 UNDEF  notype ()    External     | ComputeIoConcurrency
+04D 00000000 UNDEF  notype ()    External     | ReleaseAndReadBuffer
+04E 00000000 UNDEF  notype ()    External     | LockBuffer
+04F 00000000 UNDEF  notype ()    External     | PredicateLockTuple
+050 00000000 UNDEF  notype ()    External     | CheckForSerializableConflictOut
+051 00000000 UNDEF  notype ()    External     | MemoryContextReset
+052 00000000 UNDEF  notype ()    External     | get_tablespace_io_concurrency
+053 00000500 SECT4  notype ()    Static       | BitmapHeapNext
+054 00000000 SECT7  notype ()    Static       | bitgetpage
+055 00000000 SECT5  notype ()    Static       | BitmapShouldInitializeSharedState
+056 000008D0 SECT4  notype ()    Static       | BitmapHeapRecheck
+057 00000950 SECT4  notype ()    Static       | ExecBitmapHeapScan
+058 00000000 SECT4  notype       Label        | $LN6
+059 000001A0 SECT4  notype       Label        | $LN9
+05A 00000260 SECT4  notype       Label        | $LN10
+05B 00000330 SECT4  notype       Label        | $LN4
+05C 000003A0 SECT4  notype       Label        | $LN8
+05D 00000440 SECT4  notype       Label        | $LN7
+05E 000004B0 SECT4  notype       Label        | $LN4
+05F 00000000 SECT9  notype       Static       | .xdata
+    Section length   AC, #relocs    6, #linenums    0, checksum BC52660A
+061 00000000 SECT9  notype       Static       | $unwind$ExecInitBitmapHeapScan
+062 00000000 SECTA  notype       Static       | .pdata
+    Section length   84, #relocs   21, #linenums    0, checksum 13C17107
+064 00000000 SECTA  notype       Static       | $pdata$ExecInitBitmapHeapScan
+065 00000014 SECT9  notype       Static       | $unwind$ExecEndBitmapHeapScan
+066 0000000C SECTA  notype       Static       | $pdata$ExecEndBitmapHeapScan
+067 00000024 SECT9  notype       Static       | $unwind$ExecReScanBitmapHeapScan
+068 00000018 SECTA  notype       Static       | $pdata$ExecReScanBitmapHeapScan
+069 00000030 SECT9  notype       Static       | $unwind$ExecBitmapHeapEstimate
+06A 00000024 SECTA  notype       Static       | $pdata$ExecBitmapHeapEstimate
+06B 0000003C SECT9  notype       Static       | $unwind$ExecBitmapHeapInitializeDSM
+06C 00000030 SECTA  notype       Static       | $pdata$ExecBitmapHeapInitializeDSM
+06D 0000004C SECT9  notype       Static       | $chain$0$ExecBitmapHeapInitializeDSM
+06E 0000003C SECTA  notype       Static       | $pdata$0$ExecBitmapHeapInitializeDSM
+06F 00000060 SECT9  notype       Static       | $chain$1$ExecBitmapHeapInitializeDSM
+070 00000048 SECTA  notype       Static       | $pdata$1$ExecBitmapHeapInitializeDSM
+071 00000070 SECT9  notype       Static       | $unwind$ExecBitmapHeapReInitializeDSM
+072 00000054 SECTA  notype       Static       | $pdata$ExecBitmapHeapReInitializeDSM
+073 0000007C SECT9  notype       Static       | $unwind$ExecBitmapHeapInitializeWorker
+074 00000060 SECTA  notype       Static       | $pdata$ExecBitmapHeapInitializeWorker
+075 00000084 SECT9  notype       Static       | $unwind$BitmapHeapNext
+076 0000006C SECTA  notype       Static       | $pdata$BitmapHeapNext
+077 00000000 SECTB  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum AEDE399D, selection    5 (pick associative Section 0x7)
+079 00000000 SECTB  notype       Static       | $unwind$bitgetpage
+07A 00000000 SECTC  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 72A8D35A, selection    5 (pick associative Section 0x7)
+07C 00000000 SECTC  notype       Static       | $pdata$bitgetpage
+07D 00000000 SECTD  notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum C2D1B755, selection    5 (pick associative Section 0x5)
+07F 00000000 SECTD  notype       Static       | $unwind$BitmapShouldInitializeSharedState
+080 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6DA5B38C, selection    5 (pick associative Section 0x5)
+082 00000000 SECTE  notype       Static       | $pdata$BitmapShouldInitializeSharedState
+083 000000A0 SECT9  notype       Static       | $unwind$BitmapHeapRecheck
+084 00000078 SECTA  notype       Static       | $pdata$BitmapHeapRecheck
+085 00000000 UNDEF  notype       External     | pg_signal_queue
+086 00000000 UNDEF  notype       External     | pg_signal_mask
+087 00000000 UNDEF  notype       External     | CurrentMemoryContext
+088 00000000 UNDEF  notype       External     | newNodeMacroHolder
+089 00000000 UNDEF  notype       External     | InterruptPending
+08A 00000000 UNDEF  notype       External     | target_prefetch_pages
+08B 00000000 UNDEF  notype       External     | BufferBlocks
+08C 00000000 UNDEF  notype       External     | effective_io_concurrency
+08D 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+08E 00000000 SECTF  notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum CA7D2C42, selection    2 (pick any)
+090 00000000 SECTF  notype       External     | ??_C@_0P@OCFBNAFK@BitmapHeapNext?$AA@ (`string')
+091 00000000 SECT10 notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum  C00A3F8, selection    2 (pick any)
+093 00000000 SECT10 notype       External     | ??_C@_0CK@BHJAHEPM@src?1backend?1executor?1nodeBitmapH@ (`string')
+094 00000000 SECT11 notype       Static       | .rdata
+    Section length   21, #relocs    0, #linenums    0, checksum FA3D1444, selection    2 (pick any)
+096 00000000 SECT11 notype       External     | ??_C@_0CB@HPLONBDG@unrecognized?5result?5from?5subplan@ (`string')
+097 00000000 SECT12 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum AFB3A521, selection    2 (pick any)
+099 00000000 SECT12 notype       External     | ??_C@_0CC@BBDNDGPE@BitmapDoneInitializingSharedStat@ (`string')
+09A 00000000 SECT13 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum A17B94BB, selection    2 (pick any)
+09C 00000000 SECT13 notype       External     | ??_C@_0CC@BPPFAHGO@BitmapShouldInitializeSharedStat@ (`string')
+09D 00000000 SECT14 notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum A2DACC80, selection    2 (pick any)
+09F 00000000 SECT14 notype       External     | __real@3ff0000000000000
+0A0 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0xA43 bytes
+
+  Summary
+
+        7238 .debug$S
+          68 .debug$T
+          5D .drectve
+          9C .pdata
+          A6 .rdata
+         C36 .text$mn
+          DC .xdata

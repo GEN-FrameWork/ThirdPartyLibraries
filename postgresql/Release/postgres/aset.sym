@@ -1,0 +1,140 @@
+
+Dump of file Release\postgres/aset.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 52D0, #relocs  152, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  A3E, #relocs   3A, #linenums    0, checksum A7E77FC4
+00A 00000240 SECT4  notype ()    Static       | AllocSetAlloc
+00B 00000540 SECT4  notype ()    Static       | AllocSetFree
+00C 00000650 SECT4  notype ()    Static       | AllocSetRealloc
+00D 00000790 SECT4  notype ()    Static       | AllocSetInit
+00E 000007A0 SECT4  notype ()    Static       | AllocSetReset
+00F 00000860 SECT4  notype ()    Static       | AllocSetDelete
+010 000008E0 SECT4  notype ()    Static       | AllocSetGetChunkSpace
+011 000008F0 SECT4  notype ()    Static       | AllocSetIsEmpty
+012 00000900 SECT4  notype ()    Static       | AllocSetStats
+013 00000000 SECT5  notype       Static       | .data
+    Section length   48, #relocs    9, #linenums    0, checksum        0
+015 00000000 SECT5  notype       Static       | AllocSetMethods
+016 00000000 SECT6  notype       Static       | .rdata
+    Section length  100, #relocs    0, #linenums    0, checksum 1C57E544
+018 00000000 SECT6  notype       Static       | LogTable256
+019 00000000 SECT7  notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 3625808A, selection    2 (pick any)
+01B 00000000 SECT7  notype       External     | ??_C@_0BO@MJNOEBMA@src?1backend?1utils?1mmgr?1aset?4c?$AA@ (`string')
+01C 00000000 SECT8  notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 800804A3, selection    2 (pick any)
+01E 00000000 SECT8  notype       External     | ??_C@_0N@HAIDLNNO@AllocSetFree?$AA@ (`string')
+01F 00000000 SECT9  notype       Static       | .rdata
+    Section length   29, #relocs    0, #linenums    0, checksum 7C3C7350, selection    2 (pick any)
+021 00000000 SECT9  notype       External     | ??_C@_0CJ@ONEOAMAF@could?5not?5find?5block?5containing?5@ (`string')
+022 00000000 SECTA  notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum  12BEFBB, selection    2 (pick any)
+024 00000000 SECTA  notype       External     | ??_C@_0BA@BCGPFLBB@AllocSetRealloc?$AA@ (`string')
+025 00000000 SECTB  notype       Static       | .rdata
+    Section length    3, #relocs    0, #linenums    0, checksum ADC96242, selection    2 (pick any)
+027 00000000 SECTB  notype       External     | ??_C@_02KNHHEEKP@?5?5?$AA@ (`string')
+028 00000000 SECTC  notype       Static       | .rdata
+    Section length   3E, #relocs    0, #linenums    0, checksum 245774FA, selection    2 (pick any)
+02A 00000000 SECTC  notype       External     | ??_C@_0DO@MGMMCMGE@?$CFs?3?5?$CFzu?5total?5in?5?$CFzd?5blocks?$DL?5?$CFzu@ (`string')
+02B 00000000 UNDEF  notype       External     | __imp___acrt_iob_func
+02C 00000000 UNDEF  notype       External     | __imp_free
+02D 00000000 UNDEF  notype       External     | __imp_malloc
+02E 00000000 UNDEF  notype       External     | __imp_realloc
+02F 00000000 UNDEF  notype ()    External     | pg_fprintf
+030 00000000 UNDEF  notype ()    External     | errstart
+031 00000000 UNDEF  notype ()    External     | errfinish
+032 00000000 UNDEF  notype ()    External     | errcode
+033 00000000 UNDEF  notype ()    External     | errmsg
+034 00000000 UNDEF  notype ()    External     | errdetail
+035 00000000 UNDEF  notype ()    External     | elog_start
+036 00000000 UNDEF  notype ()    External     | elog_finish
+037 00000000 UNDEF  notype ()    External     | MemoryContextStats
+038 00000000 UNDEF  notype ()    External     | MemoryContextCreate
+039 00000000 SECT4  notype ()    External     | AllocSetContextCreate
+03A 00000000 UNDEF  notype ()    External     | memcpy
+03B 00000000 SECT4  notype       Label        | $LN40
+03C 00000000 SECTD  notype       Static       | .xdata
+    Section length  150, #relocs   24, #linenums    0, checksum CD13F246
+03E 00000000 SECTD  notype       Static       | $unwind$AllocSetContextCreate
+03F 00000000 SECTE  notype       Static       | .pdata
+    Section length   E4, #relocs   39, #linenums    0, checksum DA5F7DC4
+041 00000000 SECTE  notype       Static       | $pdata$AllocSetContextCreate
+042 00000018 SECTD  notype       Static       | $unwind$AllocSetAlloc
+043 0000000C SECTE  notype       Static       | $pdata$AllocSetAlloc
+044 00000028 SECTD  notype       Static       | $chain$0$AllocSetAlloc
+045 00000018 SECTE  notype       Static       | $pdata$0$AllocSetAlloc
+046 0000003C SECTD  notype       Static       | $chain$2$AllocSetAlloc
+047 00000024 SECTE  notype       Static       | $pdata$2$AllocSetAlloc
+048 00000050 SECTD  notype       Static       | $unwind$AllocSetFree
+049 00000030 SECTE  notype       Static       | $pdata$AllocSetFree
+04A 0000005C SECTD  notype       Static       | $chain$0$AllocSetFree
+04B 0000003C SECTE  notype       Static       | $pdata$0$AllocSetFree
+04C 00000070 SECTD  notype       Static       | $chain$1$AllocSetFree
+04D 00000048 SECTE  notype       Static       | $pdata$1$AllocSetFree
+04E 00000080 SECTD  notype       Static       | $unwind$AllocSetRealloc
+04F 00000054 SECTE  notype       Static       | $pdata$AllocSetRealloc
+050 00000098 SECTD  notype       Static       | $unwind$AllocSetReset
+051 00000060 SECTE  notype       Static       | $pdata$AllocSetReset
+052 000000A4 SECTD  notype       Static       | $chain$0$AllocSetReset
+053 0000006C SECTE  notype       Static       | $pdata$0$AllocSetReset
+054 000000B8 SECTD  notype       Static       | $chain$1$AllocSetReset
+055 00000078 SECTE  notype       Static       | $pdata$1$AllocSetReset
+056 000000C8 SECTD  notype       Static       | $unwind$AllocSetDelete
+057 00000084 SECTE  notype       Static       | $pdata$AllocSetDelete
+058 000000D0 SECTD  notype       Static       | $chain$0$AllocSetDelete
+059 00000090 SECTE  notype       Static       | $pdata$0$AllocSetDelete
+05A 000000E4 SECTD  notype       Static       | $chain$1$AllocSetDelete
+05B 0000009C SECTE  notype       Static       | $pdata$1$AllocSetDelete
+05C 000000F4 SECTD  notype       Static       | $unwind$AllocSetStats
+05D 000000A8 SECTE  notype       Static       | $pdata$AllocSetStats
+05E 00000108 SECTD  notype       Static       | $chain$0$AllocSetStats
+05F 000000B4 SECTE  notype       Static       | $pdata$0$AllocSetStats
+060 0000011C SECTD  notype       Static       | $chain$1$AllocSetStats
+061 000000C0 SECTE  notype       Static       | $pdata$1$AllocSetStats
+062 00000130 SECTD  notype       Static       | $chain$2$AllocSetStats
+063 000000CC SECTE  notype       Static       | $pdata$2$AllocSetStats
+064 00000140 SECTD  notype       Static       | $chain$3$AllocSetStats
+065 000000D8 SECTE  notype       Static       | $pdata$3$AllocSetStats
+066 00000000 UNDEF  notype       External     | TopMemoryContext
+067 00000000 SECTF  notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum E3C23828, selection    2 (pick any)
+069 00000000 SECTF  notype       External     | ??_C@_0BG@LEBEHGDH@AllocSetContextCreate?$AA@ (`string')
+06A 00000000 SECT10 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum 99C6D65D, selection    2 (pick any)
+06C 00000000 SECT10 notype       External     | ??_C@_0CO@GFEGCBEJ@invalid?5initBlockSize?5for?5memory@ (`string')
+06D 00000000 SECT11 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 3E577E19, selection    2 (pick any)
+06F 00000000 SECT11 notype       External     | ??_C@_0CN@HCIBGEC@invalid?5maxBlockSize?5for?5memory?5@ (`string')
+070 00000000 SECT12 notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum 79BC9347, selection    2 (pick any)
+072 00000000 SECT12 notype       External     | ??_C@_0CP@GDJKMHMN@invalid?5minContextSize?5for?5memor@ (`string')
+073 00000000 SECT13 notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum  AA1142D, selection    2 (pick any)
+075 00000000 SECT13 notype       External     | ??_C@_0CL@NNHEAOD@Failed?5while?5creating?5memory?5con@ (`string')
+076 00000000 SECT14 notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 33969D75, selection    2 (pick any)
+078 00000000 SECT14 notype       External     | ??_C@_0O@BNNCBLEN@out?5of?5memory?$AA@ (`string')
+
+String Table Size = 0x72E bytes
+
+  Summary
+
+          48 .data
+        52D0 .debug$S
+          68 .debug$T
+          5D .drectve
+          E4 .pdata
+         27E .rdata
+         A3E .text$mn
+         150 .xdata

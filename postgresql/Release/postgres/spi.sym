@@ -1,0 +1,824 @@
+
+Dump of file Release\postgres/spi.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   C3, #relocs    0, #linenums    0, checksum A1386E9F
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length CE54, #relocs  434, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .bss
+    Section length   70, #relocs    0, #linenums    0, checksum        0
+00A 00000000 SECT4  notype       External     | SPI_processed
+00B 00000008 SECT4  notype       External     | SPI_lastoid
+00C 00000010 SECT4  notype       External     | SPI_tuptable
+00D 0000000C SECT4  notype       External     | SPI_result
+00E 00000000 SECT5  notype       Static       | .text$mn
+    Section length 268E, #relocs  1D7, #linenums    0, checksum 203478DF
+010 00000000 SECT6  notype       Static       | .text$mn
+    Section length  4BD, #relocs   4E, #linenums    0, checksum 80B4B43F, selection    1 (pick no duplicates)
+012 00000000 SECT7  notype       Static       | .debug$S
+    Section length  9D4, #relocs   4C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x6)
+014 00000000 SECT8  notype       Static       | .text$mn
+    Section length   C9, #relocs    1, #linenums    0, checksum 8E5F6966, selection    1 (pick no duplicates)
+016 00000000 SECT9  notype       Static       | .debug$S
+    Section length  28C, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x8)
+018 00000000 SECTA  notype       Static       | .text$mn
+    Section length  170, #relocs   1D, #linenums    0, checksum F935D096, selection    1 (pick no duplicates)
+01A 00000000 SECTB  notype       Static       | .debug$S
+    Section length  3C0, #relocs   1E, #linenums    0, checksum        0, selection    5 (pick associative Section 0xA)
+01C 00000000 SECTC  notype       Static       | .text$mn
+    Section length  5D9, #relocs   41, #linenums    0, checksum 6D2FEAFC, selection    1 (pick no duplicates)
+01E 00000000 SECTD  notype       Static       | .debug$S
+    Section length  D48, #relocs   92, #linenums    0, checksum        0, selection    5 (pick associative Section 0xC)
+020 00000000 SECTE  notype       Static       | .text$mn
+    Section length  133, #relocs    B, #linenums    0, checksum CF234C2B, selection    1 (pick no duplicates)
+022 00000000 SECTF  notype       Static       | .debug$S
+    Section length  330, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0xE)
+024 00000000 SECT10 notype       Static       | .text$mn
+    Section length  158, #relocs    A, #linenums    0, checksum A608F104, selection    1 (pick no duplicates)
+026 00000000 SECT11 notype       Static       | .debug$S
+    Section length  2D8, #relocs   1A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x10)
+028 00000000 SECT12 notype       Static       | .text$mn
+    Section length   C1, #relocs    8, #linenums    0, checksum F58DD1D4, selection    1 (pick no duplicates)
+02A 00000000 SECT13 notype       Static       | .debug$S
+    Section length  2D0, #relocs   1A, #linenums    0, checksum        0, selection    5 (pick associative Section 0x12)
+02C 00000000 SECT14 notype       Static       | .text$mn
+    Section length  161, #relocs    D, #linenums    0, checksum 4A407066, selection    1 (pick no duplicates)
+02E 00000000 SECT15 notype       Static       | .debug$S
+    Section length  344, #relocs   20, #linenums    0, checksum        0, selection    5 (pick associative Section 0x14)
+030 00000000 SECT16 notype       Static       | .text$mn
+    Section length  149, #relocs    E, #linenums    0, checksum C834FCA4, selection    1 (pick no duplicates)
+032 00000000 SECT17 notype       Static       | .debug$S
+    Section length  32C, #relocs   1C, #linenums    0, checksum        0, selection    5 (pick associative Section 0x16)
+034 00000000 UNDEF  notype       External     | __imp_strncmp
+035 00000000 UNDEF  notype ()    External     | pg_sprintf
+036 00000000 UNDEF  notype ()    External     | errstart
+037 00000000 UNDEF  notype ()    External     | errfinish
+038 00000000 UNDEF  notype ()    External     | errcode
+039 00000000 UNDEF  notype ()    External     | errmsg
+03A 00000000 UNDEF  notype ()    External     | errdetail
+03B 00000000 UNDEF  notype ()    External     | errhint
+03C 00000000 UNDEF  notype ()    External     | set_errcontext_domain
+03D 00000000 UNDEF  notype ()    External     | errcontext_msg
+03E 00000000 UNDEF  notype ()    External     | errposition
+03F 00000000 UNDEF  notype ()    External     | internalerrposition
+040 00000000 UNDEF  notype ()    External     | internalerrquery
+041 00000000 UNDEF  notype ()    External     | geterrposition
+042 00000000 UNDEF  notype ()    External     | elog_start
+043 00000000 UNDEF  notype ()    External     | elog_finish
+044 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+045 00000000 UNDEF  notype ()    External     | palloc
+046 00000000 UNDEF  notype ()    External     | palloc0
+047 00000000 UNDEF  notype ()    External     | repalloc
+048 00000000 UNDEF  notype ()    External     | pfree
+049 00000000 UNDEF  notype ()    External     | repalloc_huge
+04A 00000000 UNDEF  notype ()    External     | MemoryContextStrdup
+04B 00000000 UNDEF  notype ()    External     | pstrdup
+04C 00000000 UNDEF  notype ()    External     | copyObjectImpl
+04D 00000000 UNDEF  notype ()    External     | lappend
+04E 00000000 UNDEF  notype ()    External     | CreateTupleDescCopy
+04F 00000000 UNDEF  notype ()    External     | nocachegetattr
+050 00000000 UNDEF  notype ()    External     | heap_getsysattr
+051 00000000 UNDEF  notype ()    External     | heap_copytuple
+052 00000000 UNDEF  notype ()    External     | heap_copy_tuple_as_datum
+053 00000000 UNDEF  notype ()    External     | heap_form_tuple
+054 00000000 UNDEF  notype ()    External     | heap_deform_tuple
+055 00000000 UNDEF  notype ()    External     | heap_freetuple
+056 00000000 UNDEF  notype ()    External     | pg_detoast_datum
+057 00000000 UNDEF  notype ()    External     | OidOutputFunctionCall
+058 00000000 UNDEF  notype ()    External     | copyParamList
+059 00000000 UNDEF  notype ()    External     | create_queryEnv
+05A 00000000 UNDEF  notype ()    External     | register_ENR
+05B 00000000 UNDEF  notype ()    External     | unregister_ENR
+05C 00000000 UNDEF  notype ()    External     | get_ENR
+05D 00000000 UNDEF  notype ()    External     | ExecCopySlotTuple
+05E 00000000 UNDEF  notype ()    External     | tuplestore_tuple_count
+05F 00000000 UNDEF  notype ()    External     | CreateDestReceiver
+060 00000000 UNDEF  notype ()    External     | CreateQueryDesc
+061 00000000 UNDEF  notype ()    External     | FreeQueryDesc
+062 00000000 UNDEF  notype ()    External     | CreateCachedPlan
+063 00000000 UNDEF  notype ()    External     | CreateOneShotCachedPlan
+064 00000000 UNDEF  notype ()    External     | CompleteCachedPlan
+065 00000000 UNDEF  notype ()    External     | SaveCachedPlan
+066 00000000 UNDEF  notype ()    External     | DropCachedPlan
+067 00000000 UNDEF  notype ()    External     | CachedPlanSetParentContext
+068 00000000 UNDEF  notype ()    External     | CopyCachedPlan
+069 00000000 UNDEF  notype ()    External     | CachedPlanIsValid
+06A 00000000 UNDEF  notype ()    External     | GetCachedPlan
+06B 00000000 UNDEF  notype ()    External     | ReleaseCachedPlan
+06C 00000000 UNDEF  notype ()    External     | CreatePortal
+06D 00000000 UNDEF  notype ()    External     | CreateNewPortal
+06E 00000000 UNDEF  notype ()    External     | PortalDrop
+06F 00000000 UNDEF  notype ()    External     | GetPortalByName
+070 00000000 UNDEF  notype ()    External     | PortalDefineQuery
+071 00000000 SECT5  notype ()    External     | spi_dest_startup
+072 00000150 SECT5  notype ()    External     | spi_printtup
+073 00000000 UNDEF  notype ()    External     | GetCurrentSubTransactionId
+074 00000000 UNDEF  notype ()    External     | CommandCounterIncrement
+075 00000000 UNDEF  notype ()    External     | IsInParallelMode
+076 00000000 UNDEF  notype ()    External     | SystemAttributeDefinition
+077 00000000 UNDEF  notype ()    External     | SystemAttributeByName
+078 00000000 UNDEF  notype ()    External     | ExecSupportsBackwardScan
+079 00000000 UNDEF  notype ()    External     | ExecutorStart
+07A 00000000 UNDEF  notype ()    External     | ExecutorRun
+07B 00000000 UNDEF  notype ()    External     | ExecutorFinish
+07C 00000000 UNDEF  notype ()    External     | ExecutorEnd
+07D 00000250 SECT5  notype ()    External     | SPI_connect
+07E 00000450 SECT5  notype ()    External     | SPI_finish
+07F 00000520 SECT5  notype ()    External     | SPI_execute
+080 00000630 SECT5  notype ()    External     | SPI_execute_plan
+081 00000740 SECT5  notype ()    External     | SPI_execute_plan_with_paramlist
+082 00000810 SECT5  notype ()    External     | SPI_exec
+083 00000820 SECT5  notype ()    External     | SPI_execp
+084 00000840 SECT5  notype ()    External     | SPI_execute_snapshot
+085 00000960 SECT5  notype ()    External     | SPI_execute_with_args
+086 00000AD0 SECT5  notype ()    External     | SPI_prepare
+087 00000AE0 SECT5  notype ()    External     | SPI_prepare_cursor
+088 00000C00 SECT5  notype ()    External     | SPI_prepare_params
+089 00000D10 SECT5  notype ()    External     | SPI_keepplan
+08A 00000D90 SECT5  notype ()    External     | SPI_saveplan
+08B 00000E00 SECT5  notype ()    External     | SPI_freeplan
+08C 00000E70 SECT5  notype ()    External     | SPI_getargtypeid
+08D 00000EB0 SECT5  notype ()    External     | SPI_getargcount
+08E 00000EE0 SECT5  notype ()    External     | SPI_is_cursor_plan
+08F 00000F40 SECT5  notype ()    External     | SPI_plan_is_valid
+090 00000F90 SECT5  notype ()    External     | SPI_result_code_string
+091 000011B0 SECT5  notype ()    External     | SPI_plan_get_plan_sources
+092 000011C0 SECT5  notype ()    External     | SPI_plan_get_cached_plan
+093 00001250 SECT5  notype ()    External     | SPI_copytuple
+094 000012C0 SECT5  notype ()    External     | SPI_returntuple
+095 00001380 SECT5  notype ()    External     | SPI_modifytuple
+096 000015B0 SECT5  notype ()    External     | SPI_fnumber
+097 00001650 SECT5  notype ()    External     | SPI_fname
+098 000016C0 SECT5  notype ()    External     | SPI_getvalue
+099 00001870 SECT5  notype ()    External     | SPI_getbinval
+09A 00001A70 SECT5  notype ()    External     | SPI_gettype
+09B 00001B40 SECT5  notype ()    External     | SPI_gettypeid
+09C 00001BB0 SECT5  notype ()    External     | SPI_getrelname
+09D 00001BC0 SECT5  notype ()    External     | SPI_getnspname
+09E 00001BE0 SECT5  notype ()    External     | SPI_palloc
+09F 00001C40 SECT5  notype ()    External     | SPI_repalloc
+0A0 00001C50 SECT5  notype ()    External     | SPI_pfree
+0A1 00001C60 SECT5  notype ()    External     | SPI_datumTransfer
+0A2 00001D00 SECT5  notype ()    External     | SPI_freetuple
+0A3 00001D10 SECT5  notype ()    External     | SPI_freetuptable
+0A4 00001DD0 SECT5  notype ()    External     | SPI_cursor_open
+0A5 00001E40 SECT5  notype ()    External     | SPI_cursor_open_with_args
+0A6 00002000 SECT5  notype ()    External     | SPI_cursor_open_with_paramlist
+0A7 00002010 SECT5  notype ()    External     | SPI_cursor_find
+0A8 00002020 SECT5  notype ()    External     | SPI_cursor_fetch
+0A9 00002070 SECT5  notype ()    External     | SPI_cursor_move
+0AA 00002090 SECT5  notype ()    External     | SPI_scroll_cursor_fetch
+0AB 000020E0 SECT5  notype ()    External     | SPI_scroll_cursor_move
+0AC 00002100 SECT5  notype ()    External     | SPI_cursor_close
+0AD 00002150 SECT5  notype ()    External     | SPI_register_relation
+0AE 000021F0 SECT5  notype ()    External     | SPI_unregister_relation
+0AF 00002260 SECT5  notype ()    External     | SPI_register_trigger_data
+0B0 00002350 SECT5  notype ()    External     | AtEOXact_SPI
+0B1 00002420 SECT5  notype ()    External     | AtEOSubXact_SPI
+0B2 00000000 UNDEF  notype ()    External     | PreventCommandIfParallelMode
+0B3 00000000 UNDEF  notype ()    External     | PortalStart
+0B4 00000000 UNDEF  notype ()    External     | PortalRunFetch
+0B5 00000000 UNDEF  notype ()    External     | pg_parse_query
+0B6 00000000 UNDEF  notype ()    External     | pg_analyze_and_rewrite
+0B7 00000000 UNDEF  notype ()    External     | pg_analyze_and_rewrite_params
+0B8 00000000 UNDEF  notype ()    External     | ProcessUtility
+0B9 00000000 UNDEF  notype ()    External     | CreateCommandTag
+0BA 00000000 UNDEF  notype ()    External     | CommandIsReadOnly
+0BB 00000000 UNDEF  notype ()    External     | namestrcmp
+0BC 00000000 UNDEF  notype ()    External     | pg_strtouint64
+0BD 00000000 UNDEF  notype ()    External     | datumTransfer
+0BE 00000000 UNDEF  notype ()    External     | getTypeOutputInfo
+0BF 00000000 UNDEF  notype ()    External     | get_namespace_name
+0C0 00000000 UNDEF  notype ()    External     | MemoryContextReset
+0C1 00000000 UNDEF  notype ()    External     | MemoryContextDelete
+0C2 00000000 UNDEF  notype ()    External     | MemoryContextSetParent
+0C3 00000000 UNDEF  notype ()    External     | AllocSetContextCreate
+0C4 00000000 UNDEF  notype ()    External     | GetTransactionSnapshot
+0C5 00000000 UNDEF  notype ()    External     | PushActiveSnapshot
+0C6 00000000 UNDEF  notype ()    External     | PushCopiedSnapshot
+0C7 00000000 UNDEF  notype ()    External     | UpdateActiveSnapshotCommandId
+0C8 00000000 UNDEF  notype ()    External     | PopActiveSnapshot
+0C9 00000000 UNDEF  notype ()    External     | GetActiveSnapshot
+0CA 00000000 UNDEF  notype ()    External     | ActiveSnapshotSet
+0CB 00000000 UNDEF  notype ()    External     | SearchSysCache
+0CC 00000000 UNDEF  notype ()    External     | ReleaseSysCache
+0CD 00000000 UNDEF  notype ()    External     | assign_record_type_typmod
+0CE 00000000 SECT6  notype ()    Static       | SPI_cursor_open_internal
+0CF 00000000 SECT14 notype ()    Static       | _SPI_prepare_plan
+0D0 00000000 SECT12 notype ()    Static       | _SPI_prepare_oneshot_plan
+0D1 00000000 SECTC  notype ()    Static       | _SPI_execute_plan
+0D2 00000000 SECT8  notype ()    Static       | _SPI_convert_params
+0D3 00000000 SECT10 notype ()    Static       | _SPI_pquery
+0D4 00002630 SECT5  notype ()    Static       | _SPI_error_callback
+0D5 00000000 SECTA  notype ()    Static       | _SPI_cursor_operation
+0D6 00000000 SECTE  notype ()    Static       | _SPI_make_plan_non_temp
+0D7 00000000 SECT16 notype ()    Static       | _SPI_save_plan
+0D8 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+0D9 00000000 UNDEF  notype ()    External     | __security_check_cookie
+0DA 00000000 UNDEF  notype ()    External     | memcpy
+0DB 00000000 SECT5  notype       Label        | $LN24
+0DC 00000150 SECT5  notype       Label        | $LN19
+0DD 00000250 SECT5  notype       Label        | $LN24
+0DE 00000450 SECT5  notype       Label        | $LN18
+0DF 00000520 SECT5  notype       Label        | $LN23
+0E0 00000630 SECT5  notype       Label        | $LN24
+0E1 00000740 SECT5  notype       Label        | $LN23
+0E2 00000820 SECT5  notype       Label        | $LN4
+0E3 00000840 SECT5  notype       Label        | $LN24
+0E4 00000960 SECT5  notype       Label        | $LN25
+0E5 00000AE0 SECT5  notype       Label        | $LN24
+0E6 00000C00 SECT5  notype       Label        | $LN22
+0E7 00000D10 SECT5  notype       Label        | $LN17
+0E8 00000D90 SECT5  notype       Label        | $LN24
+0E9 00000E00 SECT5  notype       Label        | $LN17
+0EA 00000F40 SECT5  notype       Label        | $LN17
+0EB 00001128 SECT5  notype       Static       | $LN33
+0EC 00000FB6 SECT5  notype       Label        | $LN4
+0ED 00000FC2 SECT5  notype       Label        | $LN5
+0EE 00000FCE SECT5  notype       Label        | $LN6
+0EF 00000FDA SECT5  notype       Label        | $LN7
+0F0 00000FE6 SECT5  notype       Label        | $LN8
+0F1 00000FF2 SECT5  notype       Label        | $LN9
+0F2 00000FFE SECT5  notype       Label        | $LN10
+0F3 0000100A SECT5  notype       Label        | $LN11
+0F4 00001016 SECT5  notype       Label        | $LN12
+0F5 00001022 SECT5  notype       Label        | $LN13
+0F6 0000102E SECT5  notype       Label        | $LN14
+0F7 0000103A SECT5  notype       Label        | $LN15
+0F8 00001046 SECT5  notype       Label        | $LN16
+0F9 00001052 SECT5  notype       Label        | $LN17
+0FA 0000105E SECT5  notype       Label        | $LN18
+0FB 0000106A SECT5  notype       Label        | $LN19
+0FC 00001076 SECT5  notype       Label        | $LN20
+0FD 00001082 SECT5  notype       Label        | $LN21
+0FE 0000108E SECT5  notype       Label        | $LN22
+0FF 0000109A SECT5  notype       Label        | $LN23
+100 000010A6 SECT5  notype       Label        | $LN24
+101 000010B2 SECT5  notype       Label        | $LN25
+102 000010BE SECT5  notype       Label        | $LN26
+103 000010CA SECT5  notype       Label        | $LN27
+104 000010D6 SECT5  notype       Label        | $LN28
+105 000010E2 SECT5  notype       Label        | $LN29
+106 000010EE SECT5  notype       Label        | $LN30
+107 000010FA SECT5  notype       Label        | $LN31
+108 00001106 SECT5  notype       Label        | $LN2
+109 00000F90 SECT5  notype       Label        | $LN35
+10A 000011C0 SECT5  notype       Label        | $LN15
+10B 00001250 SECT5  notype       Label        | $LN10
+10C 000012C0 SECT5  notype       Label        | $LN13
+10D 00001380 SECT5  notype       Label        | $LN33
+10E 000015B0 SECT5  notype       Label        | $LN15
+10F 00001650 SECT5  notype       Label        | $LN8
+110 000016C0 SECT5  notype       Label        | $LN30
+111 00001870 SECT5  notype       Label        | $LN25
+112 00001A70 SECT5  notype       Label        | $LN10
+113 00001B40 SECT5  notype       Label        | $LN8
+114 00001BE0 SECT5  notype       Label        | $LN9
+115 00001C60 SECT5  notype       Label        | $LN13
+116 00001D10 SECT5  notype       Label        | $LN32
+117 00001DD0 SECT5  notype       Label        | $LN6
+118 00001E40 SECT5  notype       Label        | $LN38
+119 00002020 SECT5  notype       Label        | $LN4
+11A 00002090 SECT5  notype       Label        | $LN4
+11B 00002100 SECT5  notype       Label        | $LN9
+11C 00002150 SECT5  notype       Label        | $LN31
+11D 000021F0 SECT5  notype       Label        | $LN27
+11E 00002260 SECT5  notype       Label        | $LN11
+11F 00002350 SECT5  notype       Label        | $LN10
+120 00002420 SECT5  notype       Label        | $LN44
+121 0000053B SECTC  notype       Label        | $fail$82
+122 00000000 SECT18 notype       Static       | .xdata
+    Section length  404, #relocs   4B, #linenums    0, checksum F68AF0C9
+124 00000000 SECT18 notype       Static       | $unwind$spi_dest_startup
+125 00000000 SECT19 notype       Static       | .pdata
+    Section length  318, #relocs   C6, #linenums    0, checksum  8421763
+127 00000000 SECT19 notype       Static       | $pdata$spi_dest_startup
+128 00000014 SECT18 notype       Static       | $unwind$spi_printtup
+129 0000000C SECT19 notype       Static       | $pdata$spi_printtup
+12A 00000024 SECT18 notype       Static       | $unwind$SPI_connect
+12B 00000018 SECT19 notype       Static       | $pdata$SPI_connect
+12C 0000002C SECT18 notype       Static       | $unwind$SPI_finish
+12D 00000024 SECT19 notype       Static       | $pdata$SPI_finish
+12E 00000034 SECT18 notype       Static       | $unwind$SPI_execute
+12F 00000030 SECT19 notype       Static       | $pdata$SPI_execute
+130 00000044 SECT18 notype       Static       | $unwind$SPI_execute_plan
+131 0000003C SECT19 notype       Static       | $pdata$SPI_execute_plan
+132 0000005C SECT18 notype       Static       | $unwind$SPI_execute_plan_with_paramlist
+133 00000048 SECT19 notype       Static       | $pdata$SPI_execute_plan_with_paramlist
+134 00000070 SECT18 notype       Static       | $unwind$SPI_execp
+135 00000054 SECT19 notype       Static       | $pdata$SPI_execp
+136 00000078 SECT18 notype       Static       | $unwind$SPI_execute_snapshot
+137 00000060 SECT19 notype       Static       | $pdata$SPI_execute_snapshot
+138 00000090 SECT18 notype       Static       | $unwind$SPI_execute_with_args
+139 0000006C SECT19 notype       Static       | $pdata$SPI_execute_with_args
+13A 000000A4 SECT18 notype       Static       | $unwind$SPI_prepare_cursor
+13B 00000078 SECT19 notype       Static       | $pdata$SPI_prepare_cursor
+13C 000000B8 SECT18 notype       Static       | $chain$0$SPI_prepare_cursor
+13D 00000084 SECT19 notype       Static       | $pdata$0$SPI_prepare_cursor
+13E 000000CC SECT18 notype       Static       | $chain$1$SPI_prepare_cursor
+13F 00000090 SECT19 notype       Static       | $pdata$1$SPI_prepare_cursor
+140 000000DC SECT18 notype       Static       | $unwind$SPI_prepare_params
+141 0000009C SECT19 notype       Static       | $pdata$SPI_prepare_params
+142 000000F0 SECT18 notype       Static       | $chain$0$SPI_prepare_params
+143 000000A8 SECT19 notype       Static       | $pdata$0$SPI_prepare_params
+144 00000104 SECT18 notype       Static       | $chain$1$SPI_prepare_params
+145 000000B4 SECT19 notype       Static       | $pdata$1$SPI_prepare_params
+146 00000114 SECT18 notype       Static       | $unwind$SPI_keepplan
+147 000000C0 SECT19 notype       Static       | $pdata$SPI_keepplan
+148 0000011C SECT18 notype       Static       | $unwind$SPI_saveplan
+149 000000CC SECT19 notype       Static       | $pdata$SPI_saveplan
+14A 00000124 SECT18 notype       Static       | $unwind$SPI_freeplan
+14B 000000D8 SECT19 notype       Static       | $pdata$SPI_freeplan
+14C 0000012C SECT18 notype       Static       | $chain$0$SPI_freeplan
+14D 000000E4 SECT19 notype       Static       | $pdata$0$SPI_freeplan
+14E 00000140 SECT18 notype       Static       | $chain$1$SPI_freeplan
+14F 000000F0 SECT19 notype       Static       | $pdata$1$SPI_freeplan
+150 00000150 SECT18 notype       Static       | $unwind$SPI_plan_is_valid
+151 000000FC SECT19 notype       Static       | $pdata$SPI_plan_is_valid
+152 00000158 SECT18 notype       Static       | $unwind$SPI_result_code_string
+153 00000108 SECT19 notype       Static       | $pdata$SPI_result_code_string
+154 00000160 SECT18 notype       Static       | $unwind$SPI_plan_get_cached_plan
+155 00000114 SECT19 notype       Static       | $pdata$SPI_plan_get_cached_plan
+156 00000168 SECT18 notype       Static       | $unwind$SPI_copytuple
+157 00000120 SECT19 notype       Static       | $pdata$SPI_copytuple
+158 00000174 SECT18 notype       Static       | $unwind$SPI_returntuple
+159 0000012C SECT19 notype       Static       | $pdata$SPI_returntuple
+15A 00000180 SECT18 notype       Static       | $chain$0$SPI_returntuple
+15B 00000138 SECT19 notype       Static       | $pdata$0$SPI_returntuple
+15C 00000194 SECT18 notype       Static       | $chain$1$SPI_returntuple
+15D 00000144 SECT19 notype       Static       | $pdata$1$SPI_returntuple
+15E 000001A4 SECT18 notype       Static       | $unwind$SPI_modifytuple
+15F 00000150 SECT19 notype       Static       | $pdata$SPI_modifytuple
+160 000001B4 SECT18 notype       Static       | $chain$3$SPI_modifytuple
+161 0000015C SECT19 notype       Static       | $pdata$3$SPI_modifytuple
+162 000001D4 SECT18 notype       Static       | $chain$4$SPI_modifytuple
+163 00000168 SECT19 notype       Static       | $pdata$4$SPI_modifytuple
+164 000001E4 SECT18 notype       Static       | $unwind$SPI_fnumber
+165 00000174 SECT19 notype       Static       | $pdata$SPI_fnumber
+166 000001F8 SECT18 notype       Static       | $unwind$SPI_fname
+167 00000180 SECT19 notype       Static       | $pdata$SPI_fname
+168 00000200 SECT18 notype       Static       | $unwind$SPI_getvalue
+169 0000018C SECT19 notype       Static       | $pdata$SPI_getvalue
+16A 0000020C SECT18 notype       Static       | $chain$0$SPI_getvalue
+16B 00000198 SECT19 notype       Static       | $pdata$0$SPI_getvalue
+16C 00000220 SECT18 notype       Static       | $chain$2$SPI_getvalue
+16D 000001A4 SECT19 notype       Static       | $pdata$2$SPI_getvalue
+16E 00000234 SECT18 notype       Static       | $chain$3$SPI_getvalue
+16F 000001B0 SECT19 notype       Static       | $pdata$3$SPI_getvalue
+170 00000244 SECT18 notype       Static       | $unwind$SPI_getbinval
+171 000001BC SECT19 notype       Static       | $pdata$SPI_getbinval
+172 00000254 SECT18 notype       Static       | $unwind$SPI_gettype
+173 000001C8 SECT19 notype       Static       | $pdata$SPI_gettype
+174 0000025C SECT18 notype       Static       | $chain$0$SPI_gettype
+175 000001D4 SECT19 notype       Static       | $pdata$0$SPI_gettype
+176 00000270 SECT18 notype       Static       | $chain$2$SPI_gettype
+177 000001E0 SECT19 notype       Static       | $pdata$2$SPI_gettype
+178 00000284 SECT18 notype       Static       | $chain$3$SPI_gettype
+179 000001EC SECT19 notype       Static       | $pdata$3$SPI_gettype
+17A 00000294 SECT18 notype       Static       | $unwind$SPI_gettypeid
+17B 000001F8 SECT19 notype       Static       | $pdata$SPI_gettypeid
+17C 0000029C SECT18 notype       Static       | $unwind$SPI_palloc
+17D 00000204 SECT19 notype       Static       | $pdata$SPI_palloc
+17E 000002A4 SECT18 notype       Static       | $unwind$SPI_datumTransfer
+17F 00000210 SECT19 notype       Static       | $pdata$SPI_datumTransfer
+180 000002B8 SECT18 notype       Static       | $unwind$SPI_freetuptable
+181 0000021C SECT19 notype       Static       | $pdata$SPI_freetuptable
+182 000002C0 SECT18 notype       Static       | $unwind$SPI_cursor_open
+183 00000228 SECT19 notype       Static       | $pdata$SPI_cursor_open
+184 000002D0 SECT18 notype       Static       | $unwind$SPI_cursor_open_with_args
+185 00000234 SECT19 notype       Static       | $pdata$SPI_cursor_open_with_args
+186 000002E8 SECT18 notype       Static       | $unwind$SPI_cursor_fetch
+187 00000240 SECT19 notype       Static       | $pdata$SPI_cursor_fetch
+188 000002F8 SECT18 notype       Static       | $unwind$SPI_scroll_cursor_fetch
+189 0000024C SECT19 notype       Static       | $pdata$SPI_scroll_cursor_fetch
+18A 00000308 SECT18 notype       Static       | $unwind$SPI_cursor_close
+18B 00000258 SECT19 notype       Static       | $pdata$SPI_cursor_close
+18C 00000310 SECT18 notype       Static       | $unwind$SPI_register_relation
+18D 00000264 SECT19 notype       Static       | $pdata$SPI_register_relation
+18E 00000318 SECT18 notype       Static       | $chain$0$SPI_register_relation
+18F 00000270 SECT19 notype       Static       | $pdata$0$SPI_register_relation
+190 0000032C SECT18 notype       Static       | $chain$2$SPI_register_relation
+191 0000027C SECT19 notype       Static       | $pdata$2$SPI_register_relation
+192 00000340 SECT18 notype       Static       | $chain$4$SPI_register_relation
+193 00000288 SECT19 notype       Static       | $pdata$4$SPI_register_relation
+194 00000354 SECT18 notype       Static       | $chain$5$SPI_register_relation
+195 00000294 SECT19 notype       Static       | $pdata$5$SPI_register_relation
+196 00000364 SECT18 notype       Static       | $unwind$SPI_unregister_relation
+197 000002A0 SECT19 notype       Static       | $pdata$SPI_unregister_relation
+198 0000036C SECT18 notype       Static       | $unwind$SPI_register_trigger_data
+199 000002AC SECT19 notype       Static       | $pdata$SPI_register_trigger_data
+19A 0000037C SECT18 notype       Static       | $unwind$AtEOXact_SPI
+19B 000002B8 SECT19 notype       Static       | $pdata$AtEOXact_SPI
+19C 00000384 SECT18 notype       Static       | $chain$1$AtEOXact_SPI
+19D 000002C4 SECT19 notype       Static       | $pdata$1$AtEOXact_SPI
+19E 0000039C SECT18 notype       Static       | $chain$2$AtEOXact_SPI
+19F 000002D0 SECT19 notype       Static       | $pdata$2$AtEOXact_SPI
+1A0 000003AC SECT18 notype       Static       | $unwind$AtEOSubXact_SPI
+1A1 000002DC SECT19 notype       Static       | $pdata$AtEOSubXact_SPI
+1A2 00000000 SECT1A notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum 26D1555B, selection    5 (pick associative Section 0x6)
+1A4 00000000 SECT1A notype       Static       | $unwind$SPI_cursor_open_internal
+1A5 00000000 SECT1B notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B9BCE765, selection    5 (pick associative Section 0x6)
+1A7 00000000 SECT1B notype       Static       | $pdata$SPI_cursor_open_internal
+1A8 00000000 SECT1C notype       Static       | .xdata
+    Section length    C, #relocs    0, #linenums    0, checksum 9C642CD9, selection    5 (pick associative Section 0x14)
+1AA 00000000 SECT1C notype       Static       | $unwind$_SPI_prepare_plan
+1AB 00000000 SECT1D notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 36D2D9C6, selection    5 (pick associative Section 0x14)
+1AD 00000000 SECT1D notype       Static       | $pdata$_SPI_prepare_plan
+1AE 00000000 SECT1E notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum CFF4388E, selection    5 (pick associative Section 0x14)
+1B0 00000000 SECT1E notype       Static       | $chain$0$_SPI_prepare_plan
+1B1 00000000 SECT1F notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum ED666C95, selection    5 (pick associative Section 0x14)
+1B3 00000000 SECT1F notype       Static       | $pdata$0$_SPI_prepare_plan
+1B4 00000000 SECT20 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum 8A2982D0, selection    5 (pick associative Section 0x14)
+1B6 00000000 SECT20 notype       Static       | $chain$2$_SPI_prepare_plan
+1B7 00000000 SECT21 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum A15FC494, selection    5 (pick associative Section 0x14)
+1B9 00000000 SECT21 notype       Static       | $pdata$2$_SPI_prepare_plan
+1BA 00000000 SECT22 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 54318679, selection    5 (pick associative Section 0x14)
+1BC 00000000 SECT22 notype       Static       | $chain$3$_SPI_prepare_plan
+1BD 00000000 SECT23 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum DB0D63E6, selection    5 (pick associative Section 0x14)
+1BF 00000000 SECT23 notype       Static       | $pdata$3$_SPI_prepare_plan
+1C0 00000000 SECT24 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 8F85332A, selection    5 (pick associative Section 0x14)
+1C2 00000000 SECT24 notype       Static       | $chain$4$_SPI_prepare_plan
+1C3 00000000 SECT25 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 48DDF8DE, selection    5 (pick associative Section 0x14)
+1C5 00000000 SECT25 notype       Static       | $pdata$4$_SPI_prepare_plan
+1C6 00000000 SECT26 notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum DC13BCBF, selection    5 (pick associative Section 0x12)
+1C8 00000000 SECT26 notype       Static       | $unwind$_SPI_prepare_oneshot_plan
+1C9 00000000 SECT27 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 74F7DEBB, selection    5 (pick associative Section 0x12)
+1CB 00000000 SECT27 notype       Static       | $pdata$_SPI_prepare_oneshot_plan
+1CC 00000000 SECT28 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 89730AFB, selection    5 (pick associative Section 0x12)
+1CE 00000000 SECT28 notype       Static       | $chain$0$_SPI_prepare_oneshot_plan
+1CF 00000000 SECT29 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  B98FB13, selection    5 (pick associative Section 0x12)
+1D1 00000000 SECT29 notype       Static       | $pdata$0$_SPI_prepare_oneshot_plan
+1D2 00000000 SECT2A notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum A1E8B558, selection    5 (pick associative Section 0x12)
+1D4 00000000 SECT2A notype       Static       | $chain$1$_SPI_prepare_oneshot_plan
+1D5 00000000 SECT2B notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 483DDDEB, selection    5 (pick associative Section 0x12)
+1D7 00000000 SECT2B notype       Static       | $pdata$1$_SPI_prepare_oneshot_plan
+1D8 00000000 SECT2C notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum B2CF11FF, selection    5 (pick associative Section 0x12)
+1DA 00000000 SECT2C notype       Static       | $chain$2$_SPI_prepare_oneshot_plan
+1DB 00000000 SECT2D notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F1088F5B, selection    5 (pick associative Section 0x12)
+1DD 00000000 SECT2D notype       Static       | $pdata$2$_SPI_prepare_oneshot_plan
+1DE 00000000 SECT2E notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum CDA03457, selection    5 (pick associative Section 0x12)
+1E0 00000000 SECT2E notype       Static       | $chain$3$_SPI_prepare_oneshot_plan
+1E1 00000000 SECT2F notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum AB4161BB, selection    5 (pick associative Section 0x12)
+1E3 00000000 SECT2F notype       Static       | $pdata$3$_SPI_prepare_oneshot_plan
+1E4 00000000 SECT30 notype       Static       | .xdata
+    Section length   1C, #relocs    1, #linenums    0, checksum B6D5FFE2, selection    5 (pick associative Section 0xC)
+1E6 00000000 SECT30 notype       Static       | $unwind$_SPI_execute_plan
+1E7 00000000 SECT31 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 3F196BD1, selection    5 (pick associative Section 0xC)
+1E9 00000000 SECT31 notype       Static       | $pdata$_SPI_execute_plan
+1EA 00000000 SECT32 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum BBE13FC4, selection    5 (pick associative Section 0xC)
+1EC 00000000 SECT32 notype       Static       | $chain$1$_SPI_execute_plan
+1ED 00000000 SECT33 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B237A504, selection    5 (pick associative Section 0xC)
+1EF 00000000 SECT33 notype       Static       | $pdata$1$_SPI_execute_plan
+1F0 00000000 SECT34 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum 864E813D, selection    5 (pick associative Section 0xC)
+1F2 00000000 SECT34 notype       Static       | $chain$2$_SPI_execute_plan
+1F3 00000000 SECT35 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 50A912ED, selection    5 (pick associative Section 0xC)
+1F5 00000000 SECT35 notype       Static       | $pdata$2$_SPI_execute_plan
+1F6 00000000 SECT36 notype       Static       | .xdata
+    Section length   18, #relocs    3, #linenums    0, checksum  F277597, selection    5 (pick associative Section 0xC)
+1F8 00000000 SECT36 notype       Static       | $chain$3$_SPI_execute_plan
+1F9 00000000 SECT37 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 180DA9B3, selection    5 (pick associative Section 0xC)
+1FB 00000000 SECT37 notype       Static       | $pdata$3$_SPI_execute_plan
+1FC 00000000 SECT38 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum F9BADD89, selection    5 (pick associative Section 0x8)
+1FE 00000000 SECT38 notype       Static       | $unwind$_SPI_convert_params
+1FF 00000000 SECT39 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 62737787, selection    5 (pick associative Section 0x8)
+201 00000000 SECT39 notype       Static       | $pdata$_SPI_convert_params
+202 00000000 SECT3A notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 6C6F4CD3, selection    5 (pick associative Section 0x8)
+204 00000000 SECT3A notype       Static       | $chain$0$_SPI_convert_params
+205 00000000 SECT3B notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 71B921CC, selection    5 (pick associative Section 0x8)
+207 00000000 SECT3B notype       Static       | $pdata$0$_SPI_convert_params
+208 00000000 SECT3C notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum DB249D6B, selection    5 (pick associative Section 0x8)
+20A 00000000 SECT3C notype       Static       | $chain$1$_SPI_convert_params
+20B 00000000 SECT3D notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 6C8D4C0A, selection    5 (pick associative Section 0x8)
+20D 00000000 SECT3D notype       Static       | $pdata$1$_SPI_convert_params
+20E 00000000 SECT3E notype       Static       | .xdata
+    Section length   10, #relocs    0, #linenums    0, checksum ED4F81A7, selection    5 (pick associative Section 0x10)
+210 00000000 SECT3E notype       Static       | $unwind$_SPI_pquery
+211 00000000 SECT3F notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 20B4E3C7, selection    5 (pick associative Section 0x10)
+213 00000000 SECT3F notype       Static       | $pdata$_SPI_pquery
+214 000003C4 SECT18 notype       Static       | $unwind$_SPI_error_callback
+215 000002E8 SECT19 notype       Static       | $pdata$_SPI_error_callback
+216 000003CC SECT18 notype       Static       | $chain$0$_SPI_error_callback
+217 000002F4 SECT19 notype       Static       | $pdata$0$_SPI_error_callback
+218 000003E0 SECT18 notype       Static       | $chain$2$_SPI_error_callback
+219 00000300 SECT19 notype       Static       | $pdata$2$_SPI_error_callback
+21A 000003F4 SECT18 notype       Static       | $chain$3$_SPI_error_callback
+21B 0000030C SECT19 notype       Static       | $pdata$3$_SPI_error_callback
+21C 00000000 SECT40 notype       Static       | .xdata
+    Section length   18, #relocs    0, #linenums    0, checksum C2D1B755, selection    5 (pick associative Section 0xA)
+21E 00000000 SECT40 notype       Static       | $unwind$_SPI_cursor_operation
+21F 00000000 SECT41 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum  A279A24, selection    5 (pick associative Section 0xA)
+221 00000000 SECT41 notype       Static       | $pdata$_SPI_cursor_operation
+222 00000000 SECT42 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 32DAD2AC, selection    5 (pick associative Section 0xE)
+224 00000000 SECT42 notype       Static       | $unwind$_SPI_make_plan_non_temp
+225 00000000 SECT43 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 51B26353, selection    5 (pick associative Section 0xE)
+227 00000000 SECT43 notype       Static       | $pdata$_SPI_make_plan_non_temp
+228 00000000 SECT44 notype       Static       | .xdata
+    Section length   14, #relocs    3, #linenums    0, checksum 31395665, selection    5 (pick associative Section 0xE)
+22A 00000000 SECT44 notype       Static       | $chain$0$_SPI_make_plan_non_temp
+22B 00000000 SECT45 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 64C46608, selection    5 (pick associative Section 0xE)
+22D 00000000 SECT45 notype       Static       | $pdata$0$_SPI_make_plan_non_temp
+22E 00000000 SECT46 notype       Static       | .xdata
+    Section length   10, #relocs    3, #linenums    0, checksum E8E589BF, selection    5 (pick associative Section 0xE)
+230 00000000 SECT46 notype       Static       | $chain$1$_SPI_make_plan_non_temp
+231 00000000 SECT47 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum F2148104, selection    5 (pick associative Section 0xE)
+233 00000000 SECT47 notype       Static       | $pdata$1$_SPI_make_plan_non_temp
+234 00000000 SECT48 notype       Static       | .xdata
+    Section length   14, #relocs    0, #linenums    0, checksum 79191DC9, selection    5 (pick associative Section 0x16)
+236 00000000 SECT48 notype       Static       | $unwind$_SPI_save_plan
+237 00000000 SECT49 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum 90A5D272, selection    5 (pick associative Section 0x16)
+239 00000000 SECT49 notype       Static       | $pdata$_SPI_save_plan
+23A 00000000 UNDEF  notype       External     | error_context_stack
+23B 00000000 UNDEF  notype       External     | CurrentMemoryContext
+23C 00000000 UNDEF  notype       External     | None_Receiver
+23D 00000000 UNDEF  notype       External     | CacheMemoryContext
+23E 00000000 UNDEF  notype       External     | TopTransactionContext
+23F 00000018 SECT4  notype       Static       | _SPI_stack
+240 00000020 SECT4  notype       Static       | _SPI_current
+241 00000028 SECT4  notype       Static       | _SPI_stack_depth
+242 00000000 SECT4A notype       Static       | .data
+    Section length    4, #relocs    0, #linenums    0, checksum DEBB20E3
+244 00000000 SECT4A notype       Static       | _SPI_connected
+245 00000000 SECT4B notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum C64305FD, selection    2 (pick any)
+247 00000000 SECT4B notype       External     | ??_C@_0M@ECGJDMGN@SPI_connect?$AA@ (`string')
+248 00000000 SECT4C notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 2212A62D, selection    2 (pick any)
+24A 00000000 SECT4C notype       External     | ??_C@_0BL@MHJHALGB@src?1backend?1executor?1spi?4c?$AA@ (`string')
+24B 00000000 SECT4D notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 6AACA661, selection    2 (pick any)
+24D 00000000 SECT4D notype       External     | ??_C@_0BE@JKIGMCBD@SPI?5stack?5corrupted?$AA@ (`string')
+24E 00000000 SECT4E notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 3CB8A84C, selection    2 (pick any)
+250 00000000 SECT4E notype       External     | ??_C@_08CFEOEDBN@SPI?5Proc?$AA@ (`string')
+251 00000000 SECT4F notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum F692D50C, selection    2 (pick any)
+253 00000000 SECT4F notype       External     | ??_C@_08OPGEDOFN@SPI?5Exec?$AA@ (`string')
+254 00000000 SECT50 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 5E23636B, selection    2 (pick any)
+256 00000000 SECT50 notype       External     | ??_C@_0N@KOKINKBG@AtEOXact_SPI?$AA@ (`string')
+257 00000000 SECT51 notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum E5908C32, selection    2 (pick any)
+259 00000000 SECT51 notype       External     | ??_C@_0CG@ICJGOIHO@Check?5for?5missing?5?$CCSPI_finish?$CC?5c@ (`string')
+25A 00000000 SECT52 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum 654F2E23, selection    2 (pick any)
+25C 00000000 SECT52 notype       External     | ??_C@_0CF@LOGBKOLI@transaction?5left?5non?9empty?5SPI?5s@ (`string')
+25D 00000000 SECT53 notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 9389DFE8, selection    2 (pick any)
+25F 00000000 SECT53 notype       External     | ??_C@_0BA@IAMNGLEC@AtEOSubXact_SPI?$AA@ (`string')
+260 00000000 SECT54 notype       Static       | .rdata
+    Section length   28, #relocs    0, #linenums    0, checksum 12242BD5, selection    2 (pick any)
+262 00000000 SECT54 notype       External     | ??_C@_0CI@EDHOJJL@subtransaction?5left?5non?9empty?5SP@ (`string')
+263 00000000 SECT55 notype       Static       | .rdata
+    Section length    B, #relocs    0, #linenums    0, checksum A9D60301, selection    2 (pick any)
+265 00000000 SECT55 notype       External     | ??_C@_0L@DNKOENBC@SPI_palloc?$AA@ (`string')
+266 00000000 SECT56 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum 48E6F048, selection    2 (pick any)
+268 00000000 SECT56 notype       External     | ??_C@_0CN@HBJJJIBD@SPI_palloc?5called?5while?5not?5conn@ (`string')
+269 00000000 SECT57 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum FA419598, selection    2 (pick any)
+26B 00000000 SECT57 notype       External     | ??_C@_0BC@GCKFKFCK@SPI_datumTransfer?$AA@ (`string')
+26C 00000000 SECT58 notype       Static       | .rdata
+    Section length   34, #relocs    0, #linenums    0, checksum EA3018AD, selection    2 (pick any)
+26E 00000000 SECT58 notype       External     | ??_C@_0DE@NJOEOIOC@SPI_datumTransfer?5called?5while?5n@ (`string')
+26F 00000000 SECT59 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 35F6CDB4, selection    2 (pick any)
+271 00000000 SECT59 notype       External     | ??_C@_0BB@DOGMDPG@SPI_freetuptable?$AA@ (`string')
+272 00000000 SECT5A notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum 7E958E58, selection    2 (pick any)
+274 00000000 SECT5A notype       External     | ??_C@_0CL@HJODNKJG@attempt?5to?5delete?5invalid?5SPITup@ (`string')
+275 00000000 SECT5B notype       Static       | .rdata
+    Section length   1A, #relocs    0, #linenums    0, checksum FFF5799D, selection    2 (pick any)
+277 00000000 SECT5B notype       External     | ??_C@_0BK@KPOGDIFA@SPI_cursor_open_with_args?$AA@ (`string')
+278 00000000 SECT5C notype       Static       | .rdata
+    Section length   38, #relocs    0, #linenums    0, checksum 1770E384, selection    2 (pick any)
+27A 00000000 SECT5C notype       External     | ??_C@_0DI@DLEHLJDC@SPI_cursor_open_with_args?5called@ (`string')
+27B 00000000 SECT5D notype       Static       | .rdata
+    Section length   39, #relocs    0, #linenums    0, checksum E64F597C, selection    2 (pick any)
+27D 00000000 SECT5D notype       External     | ??_C@_0DJ@MEGBHIJP@SPI_cursor_open_with_args?5called@ (`string')
+27E 00000000 SECT5E notype       Static       | .rdata
+    Section length   35, #relocs    0, #linenums    0, checksum 51115B01, selection    2 (pick any)
+280 00000000 SECT5E notype       External     | ??_C@_0DF@LHEBNDPA@SPI_cursor_open_with_args?5called@ (`string')
+281 00000000 SECT5F notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum 7DE0717A, selection    2 (pick any)
+283 00000000 SECT5F notype       External     | ??_C@_0BJ@GLNAIAAK@SPI_cursor_open_internal?$AA@ (`string')
+284 00000000 SECT60 notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum E3CA4377, selection    2 (pick any)
+286 00000000 SECT60 notype       External     | ??_C@_0CH@JMMHEIKI@cannot?5open?5multi?9query?5plan?5as?5@ (`string')
+287 00000000 SECT61 notype       Static       | .rdata
+    Section length   1F, #relocs    0, #linenums    0, checksum  EE95BC5, selection    2 (pick any)
+289 00000000 SECT61 notype       External     | ??_C@_0BP@JIBPAIIK@cannot?5open?5?$CFs?5query?5as?5cursor?$AA@ (`string')
+28A 00000000 SECT62 notype       Static       | .rdata
+    Section length   2B, #relocs    0, #linenums    0, checksum 17727707, selection    2 (pick any)
+28C 00000000 SECT62 notype       External     | ??_C@_0CL@BAAECDMJ@SPI_cursor_open?5called?5while?5not@ (`string')
+28D 00000000 SECT63 notype       Static       | .rdata
+    Section length   26, #relocs    0, #linenums    0, checksum 31DA7332, selection    2 (pick any)
+28F 00000000 SECT63 notype       External     | ??_C@_0CG@FGNMBHHO@Scrollable?5cursors?5must?5be?5READ?5@ (`string')
+290 00000000 SECT64 notype       Static       | .rdata
+    Section length   3C, #relocs    0, #linenums    0, checksum AB5E5B48, selection    2 (pick any)
+292 00000000 SECT64 notype       External     | ??_C@_0DM@FALDCNLP@DECLARE?5SCROLL?5CURSOR?5?4?4?4?5FOR?5UP@ (`string')
+293 00000000 SECT65 notype       Static       | .rdata
+    Section length   2D, #relocs    0, #linenums    0, checksum F43227FA, selection    2 (pick any)
+295 00000000 SECT65 notype       External     | ??_C@_0CN@MNENEPKB@?$CFs?5is?5not?5allowed?5in?5a?5non?9volat@ (`string')
+296 00000000 SECT66 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum EFCAE10D, selection    2 (pick any)
+298 00000000 SECT66 notype       External     | ??_C@_0BB@NJNKOPEP@SPI_cursor_close?$AA@ (`string')
+299 00000000 SECT67 notype       Static       | .rdata
+    Section length   27, #relocs    0, #linenums    0, checksum 6E4F034E, selection    2 (pick any)
+29B 00000000 SECT67 notype       External     | ??_C@_0CH@BBECAIJB@invalid?5portal?5in?5SPI?5cursor?5ope@ (`string')
+29C 00000030 SECT4  notype       Static       | ?buf@?1??SPI_result_code_string@@9@9 (`SPI_result_code_string'::`2'::buf)
+29D 00000000 SECT68 notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum F39C76BA, selection    2 (pick any)
+29F 00000000 SECT68 notype       External     | ??_C@_0BC@GLHIEGAI@SPI_ERROR_CONNECT?$AA@ (`string')
+2A0 00000000 SECT69 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum E88CA162, selection    2 (pick any)
+2A2 00000000 SECT69 notype       External     | ??_C@_0P@MAKAFNHK@SPI_ERROR_COPY?$AA@ (`string')
+2A3 00000000 SECT6A notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum AD530E15, selection    2 (pick any)
+2A5 00000000 SECT6A notype       External     | ??_C@_0BE@FNHJGKGH@SPI_ERROR_OPUNKNOWN?$AA@ (`string')
+2A6 00000000 SECT6B notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 5692076D, selection    2 (pick any)
+2A8 00000000 SECT6B notype       External     | ??_C@_0BG@BEEEJHC@SPI_ERROR_UNCONNECTED?$AA@ (`string')
+2A9 00000000 SECT6C notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum C4FBD7F8, selection    2 (pick any)
+2AB 00000000 SECT6C notype       External     | ??_C@_0BD@OBAMOBGI@SPI_ERROR_ARGUMENT?$AA@ (`string')
+2AC 00000000 SECT6D notype       Static       | .rdata
+    Section length   10, #relocs    0, #linenums    0, checksum 64CD498A, selection    2 (pick any)
+2AE 00000000 SECT6D notype       External     | ??_C@_0BA@HHIJPNCA@SPI_ERROR_PARAM?$AA@ (`string')
+2AF 00000000 SECT6E notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 3A31C7F2, selection    2 (pick any)
+2B1 00000000 SECT6E notype       External     | ??_C@_0BG@GNOHIJON@SPI_ERROR_TRANSACTION?$AA@ (`string')
+2B2 00000000 SECT6F notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 7B12303F, selection    2 (pick any)
+2B4 00000000 SECT6F notype       External     | ??_C@_0BG@CMMEHOCA@SPI_ERROR_NOATTRIBUTE?$AA@ (`string')
+2B5 00000000 SECT70 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum E247A79A, selection    2 (pick any)
+2B7 00000000 SECT70 notype       External     | ??_C@_0BE@BCGNMDOI@SPI_ERROR_NOOUTFUNC?$AA@ (`string')
+2B8 00000000 SECT71 notype       Static       | .rdata
+    Section length   15, #relocs    0, #linenums    0, checksum A0C1A532, selection    2 (pick any)
+2BA 00000000 SECT71 notype       External     | ??_C@_0BF@BODKJPEG@SPI_ERROR_TYPUNKNOWN?$AA@ (`string')
+2BB 00000000 SECT72 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum  A98B23A, selection    2 (pick any)
+2BD 00000000 SECT72 notype       External     | ??_C@_0BI@FGKGIHOF@SPI_ERROR_REL_DUPLICATE?$AA@ (`string')
+2BE 00000000 SECT73 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 155FEA4E, selection    2 (pick any)
+2C0 00000000 SECT73 notype       External     | ??_C@_0BI@EJGBNPJB@SPI_ERROR_REL_NOT_FOUND?$AA@ (`string')
+2C1 00000000 SECT74 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum 8518CA5D, selection    2 (pick any)
+2C3 00000000 SECT74 notype       External     | ??_C@_0P@KNDEDGEF@SPI_OK_CONNECT?$AA@ (`string')
+2C4 00000000 SECT75 notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum F315E2B5, selection    2 (pick any)
+2C6 00000000 SECT75 notype       External     | ??_C@_0O@NNFBGEIN@SPI_OK_FINISH?$AA@ (`string')
+2C7 00000000 SECT76 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum 8A612006, selection    2 (pick any)
+2C9 00000000 SECT76 notype       External     | ??_C@_0N@HKOKJJHL@SPI_OK_FETCH?$AA@ (`string')
+2CA 00000000 SECT77 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum DBC12D1D, selection    2 (pick any)
+2CC 00000000 SECT77 notype       External     | ??_C@_0P@PDONNBAF@SPI_OK_UTILITY?$AA@ (`string')
+2CD 00000000 SECT78 notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 7B768352, selection    2 (pick any)
+2CF 00000000 SECT78 notype       External     | ??_C@_0O@FFDCAFGK@SPI_OK_SELECT?$AA@ (`string')
+2D0 00000000 SECT79 notype       Static       | .rdata
+    Section length    F, #relocs    0, #linenums    0, checksum C565204D, selection    2 (pick any)
+2D2 00000000 SECT79 notype       External     | ??_C@_0P@ONEJNMFF@SPI_OK_SELINTO?$AA@ (`string')
+2D3 00000000 SECT7A notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 2D4B7905, selection    2 (pick any)
+2D5 00000000 SECT7A notype       External     | ??_C@_0O@DAPPPDN@SPI_OK_INSERT?$AA@ (`string')
+2D6 00000000 SECT7B notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum 93BFB7F7, selection    2 (pick any)
+2D8 00000000 SECT7B notype       External     | ??_C@_0O@LNPLDBMP@SPI_OK_DELETE?$AA@ (`string')
+2D9 00000000 SECT7C notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum BE1F6F33, selection    2 (pick any)
+2DB 00000000 SECT7C notype       External     | ??_C@_0O@JAFLOJAL@SPI_OK_UPDATE?$AA@ (`string')
+2DC 00000000 SECT7D notype       Static       | .rdata
+    Section length    E, #relocs    0, #linenums    0, checksum EA9C6245, selection    2 (pick any)
+2DE 00000000 SECT7D notype       External     | ??_C@_0O@MENIOEHN@SPI_OK_CURSOR?$AA@ (`string')
+2DF 00000000 SECT7E notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 87321BB5, selection    2 (pick any)
+2E1 00000000 SECT7E notype       External     | ??_C@_0BI@NLAMCOGK@SPI_OK_INSERT_RETURNING?$AA@ (`string')
+2E2 00000000 SECT7F notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum E8E5B186, selection    2 (pick any)
+2E4 00000000 SECT7F notype       External     | ??_C@_0BI@LENLIEFJ@SPI_OK_DELETE_RETURNING?$AA@ (`string')
+2E5 00000000 SECT80 notype       Static       | .rdata
+    Section length   18, #relocs    0, #linenums    0, checksum 324943AC, selection    2 (pick any)
+2E7 00000000 SECT80 notype       External     | ??_C@_0BI@GOHHHGHD@SPI_OK_UPDATE_RETURNING?$AA@ (`string')
+2E8 00000000 SECT81 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum 57C59714, selection    2 (pick any)
+2EA 00000000 SECT81 notype       External     | ??_C@_0BB@GBNFJJFG@SPI_OK_REWRITTEN?$AA@ (`string')
+2EB 00000000 SECT82 notype       Static       | .rdata
+    Section length   14, #relocs    0, #linenums    0, checksum 2BBBF92C, selection    2 (pick any)
+2ED 00000000 SECT82 notype       External     | ??_C@_0BE@NLJBJNFO@SPI_OK_REL_REGISTER?$AA@ (`string')
+2EE 00000000 SECT83 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 85BD1233, selection    2 (pick any)
+2F0 00000000 SECT83 notype       External     | ??_C@_0BG@NCGLFMCM@SPI_OK_REL_UNREGISTER?$AA@ (`string')
+2F1 00000000 SECT84 notype       Static       | .rdata
+    Section length   19, #relocs    0, #linenums    0, checksum B2609139, selection    2 (pick any)
+2F3 00000000 SECT84 notype       External     | ??_C@_0BJ@KEFAGAEJ@Unrecognized?5SPI?5code?5?$CFd?$AA@ (`string')
+2F4 00000000 SECT85 notype       Static       | .rdata
+    Section length   11, #relocs    0, #linenums    0, checksum  5B3D6F3, selection    2 (pick any)
+2F6 00000000 SECT85 notype       External     | ??_C@_0BB@DDKDNILB@spi_dest_startup?$AA@ (`string')
+2F7 00000000 SECT86 notype       Static       | .rdata
+    Section length   33, #relocs    0, #linenums    0, checksum  86AF4D9, selection    2 (pick any)
+2F9 00000000 SECT86 notype       External     | ??_C@_0DD@NPIHFOLE@spi_dest_startup?5called?5while?5no@ (`string')
+2FA 00000000 SECT87 notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum 2AB607B8, selection    2 (pick any)
+2FC 00000000 SECT87 notype       External     | ??_C@_0CC@JEDIJEGN@improper?5call?5to?5spi_dest_startu@ (`string')
+2FD 00000000 SECT88 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum B620FC9E, selection    2 (pick any)
+2FF 00000000 SECT88 notype       External     | ??_C@_0N@EGKLEFOD@SPI?5TupTable?$AA@ (`string')
+300 00000000 SECT89 notype       Static       | .rdata
+    Section length    D, #relocs    0, #linenums    0, checksum E7FE746B, selection    2 (pick any)
+302 00000000 SECT89 notype       External     | ??_C@_0N@BHHFMNBG@spi_printtup?$AA@ (`string')
+303 00000000 SECT8A notype       Static       | .rdata
+    Section length   2F, #relocs    0, #linenums    0, checksum 44DB9F31, selection    2 (pick any)
+305 00000000 SECT8A notype       External     | ??_C@_0CP@FOPNMLLL@spi_printtup?5called?5while?5not?5co@ (`string')
+306 00000000 SECT8B notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum E72579D4, selection    2 (pick any)
+308 00000000 SECT8B notype       External     | ??_C@_0BO@BINOLIJO@improper?5call?5to?5spi_printtup?$AA@ (`string')
+309 00000000 SECT8C notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum D86B6094, selection    2 (pick any)
+30B 00000000 SECT8C notype       External     | ??_C@_0BC@EAIPFACG@_SPI_execute_plan?$AA@ (`string')
+30C 00000000 SECT8D notype       Static       | .rdata
+    Section length    8, #relocs    0, #linenums    0, checksum 5283E6C8, selection    2 (pick any)
+30E 00000000 SECT8D notype       External     | ??_C@_07MIFOMGFO@SELECT?5?$AA@ (`string')
+30F 00000000 SECT8E notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 50C4B466, selection    2 (pick any)
+311 00000000 SECT8E notype       External     | ??_C@_0M@NEOOINPG@_SPI_pquery?$AA@ (`string')
+312 00000000 SECT8F notype       Static       | .rdata
+    Section length   2C, #relocs    0, #linenums    0, checksum E7A00782, selection    2 (pick any)
+314 00000000 SECT8F notype       External     | ??_C@_0CM@JLHLJOGB@consistency?5check?5on?5SPI?5tuple?5c@ (`string')
+315 00000000 SECT90 notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum 5DA60986, selection    2 (pick any)
+317 00000000 SECT90 notype       External     | ??_C@_0BD@HIFBDPBG@SQL?5statement?5?$CC?$CFs?$CC?$AA@ (`string')
+318 00000000 SECT91 notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum EAAEE392, selection    2 (pick any)
+31A 00000000 SECT91 notype       External     | ??_C@_0BG@LNHIKNIN@_SPI_cursor_operation?$AA@ (`string')
+31B 00000000 SECT92 notype       Static       | .rdata
+    Section length   30, #relocs    0, #linenums    0, checksum CA3E1728, selection    2 (pick any)
+31D 00000000 SECT92 notype       External     | ??_C@_0DA@MHEJFLEC@SPI?5cursor?5operation?5called?5whil@ (`string')
+31E 00000000 SECT93 notype       Static       | .rdata
+    Section length    9, #relocs    0, #linenums    0, checksum 334EDBA7, selection    2 (pick any)
+320 00000000 SECT93 notype       External     | ??_C@_08CKLIDAPG@SPI?5Plan?$AA@ (`string')
+321 00000000 UNDEF  notype       External     | __ImageBase
+322 00000000 UNDEF  notype       External     | __security_cookie
+323 00000000 UNDEF  notype       External     | _fltused
+
+String Table Size = 0x2B36 bytes
+
+  Summary
+
+          70 .bss
+           4 .data
+        FB04 .debug$S
+          68 .debug$T
+          C3 .drectve
+         438 .pdata
+         746 .rdata
+        3953 .text$mn
+         5D8 .xdata

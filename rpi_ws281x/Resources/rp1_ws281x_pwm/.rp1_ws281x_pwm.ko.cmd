@@ -1,0 +1,1 @@
+cmd_/mnt/pendrive/homeserver/rp1_ws281x_pwm/rp1_ws281x_pwm.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /mnt/pendrive/homeserver/rp1_ws281x_pwm/rp1_ws281x_pwm.ko /mnt/pendrive/homeserver/rp1_ws281x_pwm/rp1_ws281x_pwm.o /mnt/pendrive/homeserver/rp1_ws281x_pwm/rp1_ws281x_pwm.mod.o;  true

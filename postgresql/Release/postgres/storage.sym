@@ -1,0 +1,141 @@
+
+Dump of file Release\postgres/storage.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 576C, #relocs   CA, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  864, #relocs   55, #linenums    0, checksum 41473B63
+00A 00000000 UNDEF  notype ()    External     | elog_start
+00B 00000000 UNDEF  notype ()    External     | elog_finish
+00C 00000000 UNDEF  notype ()    External     | MemoryContextAlloc
+00D 00000000 UNDEF  notype ()    External     | palloc
+00E 00000000 UNDEF  notype ()    External     | repalloc
+00F 00000000 UNDEF  notype ()    External     | pfree
+010 00000000 UNDEF  notype ()    External     | visibilitymap_truncate
+011 00000000 UNDEF  notype ()    External     | GetCurrentTransactionNestLevel
+012 00000000 UNDEF  notype ()    External     | XLogBeginInsert
+013 00000000 UNDEF  notype ()    External     | XLogInsert
+014 00000000 UNDEF  notype ()    External     | XLogRegisterData
+015 00000000 UNDEF  notype ()    External     | XLogFlush
+016 00000000 UNDEF  notype ()    External     | XLogTruncateRelation
+017 00000000 UNDEF  notype ()    External     | CreateFakeRelcacheEntry
+018 00000000 UNDEF  notype ()    External     | FreeFakeRelcacheEntry
+019 00000000 SECT4  notype ()    External     | RelationCreateStorage
+01A 00000150 SECT4  notype ()    External     | RelationDropStorage
+01B 000001D0 SECT4  notype ()    External     | RelationPreserveStorage
+01C 00000270 SECT4  notype ()    External     | RelationTruncate
+01D 000003C0 SECT4  notype ()    External     | smgrDoPendingDeletes
+01E 00000510 SECT4  notype ()    External     | smgrGetPendingDeletes
+01F 000005E0 SECT4  notype ()    External     | AtSubCommit_smgr
+020 00000620 SECT4  notype ()    External     | AtSubAbort_smgr
+021 00000630 SECT4  notype ()    External     | PostPrepare_smgr
+022 00000680 SECT4  notype ()    External     | log_smgrcreate
+023 000006E0 SECT4  notype ()    External     | smgr_redo
+024 00000000 UNDEF  notype ()    External     | FreeSpaceMapTruncateRel
+025 00000000 UNDEF  notype ()    External     | smgropen
+026 00000000 UNDEF  notype ()    External     | smgrexists
+027 00000000 UNDEF  notype ()    External     | smgrsetowner
+028 00000000 UNDEF  notype ()    External     | smgrclose
+029 00000000 UNDEF  notype ()    External     | smgrcreate
+02A 00000000 UNDEF  notype ()    External     | smgrdounlinkall
+02B 00000000 UNDEF  notype ()    External     | smgrtruncate
+02C 00000000 UNDEF  notype ()    External     | __GSHandlerCheck
+02D 00000000 UNDEF  notype ()    External     | __security_check_cookie
+02E 00000000 SECT4  notype       Label        | $LN17
+02F 00000150 SECT4  notype       Label        | $LN8
+030 000001D0 SECT4  notype       Label        | $LN15
+031 00000270 SECT4  notype       Label        | $LN13
+032 000003C0 SECT4  notype       Label        | $LN28
+033 00000510 SECT4  notype       Label        | $LN22
+034 000005E0 SECT4  notype       Label        | $LN12
+035 00000630 SECT4  notype       Label        | $LN11
+036 00000680 SECT4  notype       Label        | $LN4
+037 000006E0 SECT4  notype       Label        | $LN15
+038 00000000 SECT5  notype       Static       | .xdata
+    Section length  158, #relocs   21, #linenums    0, checksum 6B6E7758
+03A 00000000 SECT5  notype       Static       | $unwind$RelationCreateStorage
+03B 00000000 SECT6  notype       Static       | .pdata
+    Section length   F0, #relocs   3C, #linenums    0, checksum A55FC114
+03D 00000000 SECT6  notype       Static       | $pdata$RelationCreateStorage
+03E 00000014 SECT5  notype       Static       | $chain$0$RelationCreateStorage
+03F 0000000C SECT6  notype       Static       | $pdata$0$RelationCreateStorage
+040 00000028 SECT5  notype       Static       | $chain$1$RelationCreateStorage
+041 00000018 SECT6  notype       Static       | $pdata$1$RelationCreateStorage
+042 00000038 SECT5  notype       Static       | $unwind$RelationDropStorage
+043 00000024 SECT6  notype       Static       | $pdata$RelationDropStorage
+044 00000044 SECT5  notype       Static       | $unwind$RelationPreserveStorage
+045 00000030 SECT6  notype       Static       | $pdata$RelationPreserveStorage
+046 00000054 SECT5  notype       Static       | $chain$0$RelationPreserveStorage
+047 0000003C SECT6  notype       Static       | $pdata$0$RelationPreserveStorage
+048 00000068 SECT5  notype       Static       | $chain$1$RelationPreserveStorage
+049 00000048 SECT6  notype       Static       | $pdata$1$RelationPreserveStorage
+04A 00000078 SECT5  notype       Static       | $unwind$RelationTruncate
+04B 00000054 SECT6  notype       Static       | $pdata$RelationTruncate
+04C 00000094 SECT5  notype       Static       | $unwind$smgrDoPendingDeletes
+04D 00000060 SECT6  notype       Static       | $pdata$smgrDoPendingDeletes
+04E 000000A8 SECT5  notype       Static       | $chain$1$smgrDoPendingDeletes
+04F 0000006C SECT6  notype       Static       | $pdata$1$smgrDoPendingDeletes
+050 000000C0 SECT5  notype       Static       | $chain$2$smgrDoPendingDeletes
+051 00000078 SECT6  notype       Static       | $pdata$2$smgrDoPendingDeletes
+052 000000D0 SECT5  notype       Static       | $unwind$smgrGetPendingDeletes
+053 00000084 SECT6  notype       Static       | $pdata$smgrGetPendingDeletes
+054 000000E4 SECT5  notype       Static       | $unwind$AtSubCommit_smgr
+055 00000090 SECT6  notype       Static       | $pdata$AtSubCommit_smgr
+056 000000EC SECT5  notype       Static       | $unwind$PostPrepare_smgr
+057 0000009C SECT6  notype       Static       | $pdata$PostPrepare_smgr
+058 000000F4 SECT5  notype       Static       | $chain$0$PostPrepare_smgr
+059 000000A8 SECT6  notype       Static       | $pdata$0$PostPrepare_smgr
+05A 00000108 SECT5  notype       Static       | $chain$1$PostPrepare_smgr
+05B 000000B4 SECT6  notype       Static       | $pdata$1$PostPrepare_smgr
+05C 00000118 SECT5  notype       Static       | $unwind$log_smgrcreate
+05D 000000C0 SECT6  notype       Static       | $pdata$log_smgrcreate
+05E 00000128 SECT5  notype       Static       | $unwind$smgr_redo
+05F 000000CC SECT6  notype       Static       | $pdata$smgr_redo
+060 00000134 SECT5  notype       Static       | $chain$0$smgr_redo
+061 000000D8 SECT6  notype       Static       | $pdata$0$smgr_redo
+062 00000148 SECT5  notype       Static       | $chain$1$smgr_redo
+063 000000E4 SECT6  notype       Static       | $pdata$1$smgr_redo
+064 00000000 UNDEF  notype       External     | MyBackendId
+065 00000000 UNDEF  notype       External     | ParallelMasterBackendId
+066 00000000 UNDEF  notype       External     | TopMemoryContext
+067 00000000 SECT7  notype       Static       | .bss
+    Section length    8, #relocs    0, #linenums    0, checksum        0
+069 00000000 SECT7  notype       Static       | pendingDeletes
+06A 00000000 SECT8  notype       Static       | .rdata
+    Section length   16, #relocs    0, #linenums    0, checksum 6BF1CB3E, selection    2 (pick any)
+06C 00000000 SECT8  notype       External     | ??_C@_0BG@DMCHIFCB@RelationCreateStorage?$AA@ (`string')
+06D 00000000 SECT9  notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum F15196FF, selection    2 (pick any)
+06F 00000000 SECT9  notype       External     | ??_C@_0BO@OKKFHLF@src?1backend?1catalog?1storage?4c?$AA@ (`string')
+070 00000000 SECTA  notype       Static       | .rdata
+    Section length   1B, #relocs    0, #linenums    0, checksum 1EC8845E, selection    2 (pick any)
+072 00000000 SECTA  notype       External     | ??_C@_0BL@PLENCJBC@invalid?5relpersistence?3?5?$CFc?$AA@ (`string')
+073 00000000 SECTB  notype       Static       | .rdata
+    Section length    A, #relocs    0, #linenums    0, checksum CE022AE0, selection    2 (pick any)
+075 00000000 SECTB  notype       External     | ??_C@_09NCHHLNGJ@smgr_redo?$AA@ (`string')
+076 00000000 SECTC  notype       Static       | .rdata
+    Section length   1E, #relocs    0, #linenums    0, checksum 33C33E8A, selection    2 (pick any)
+078 00000000 SECTC  notype       External     | ??_C@_0BO@MMDIPPMA@smgr_redo?3?5unknown?5op?5code?5?$CFu?$AA@ (`string')
+079 00000000 UNDEF  notype       External     | __security_cookie
+
+String Table Size = 0x7B9 bytes
+
+  Summary
+
+           8 .bss
+        576C .debug$S
+          68 .debug$T
+          5D .drectve
+          F0 .pdata
+          77 .rdata
+         864 .text$mn
+         158 .xdata

@@ -1,0 +1,1053 @@
+Performing C++ SOURCE FILE Test HAVE_LLVM_LIBCPP failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3494827012/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3494827012.dir/build.make CMakeFiles/cmTryCompileExec3494827012.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3494827012.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_LLVM_LIBCPP   -o CMakeFiles/cmTryCompileExec3494827012.dir/src.cxx.o -c /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3494827012
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3494827012.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_LLVM_LIBCPP    CMakeFiles/cmTryCompileExec3494827012.dir/src.cxx.o  -o cmTryCompileExec3494827012 -rdynamic 
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+#include <ciso646>
+int main()
+{
+#ifdef _LIBCPP_VERSION
+  return 0;
+#else
+  return 1;
+#endif
+}
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec276003228/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec276003228.dir/build.make CMakeFiles/cmTryCompileExec276003228.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec276003228.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec276003228.dir/CheckSymbolExists.c.o   -c /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec276003228
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec276003228.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec276003228.dir/CheckSymbolExists.c.o  -o cmTryCompileExec276003228 -rdynamic 
+CMakeFiles/cmTryCompileExec276003228.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0xa): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec276003228.dir/build.make:88: recipe for target 'cmTryCompileExec276003228' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec276003228] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec276003228/fast' failed
+make: *** [cmTryCompileExec276003228/fast] Error 2
+
+File /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4267239871/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4267239871.dir/build.make CMakeFiles/cmTryCompileExec4267239871.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4267239871.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec4267239871.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4267239871
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4267239871.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec4267239871.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4267239871 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec4267239871.dir/build.make:88: recipe for target 'cmTryCompileExec4267239871' failed
+make[1]: *** [cmTryCompileExec4267239871] Error 1
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec4267239871/fast' failed
+make: *** [cmTryCompileExec4267239871/fast] Error 2
+
+
+Determining if the function floor exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2390887501/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2390887501.dir/build.make CMakeFiles/cmTryCompileExec2390887501.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2390887501.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTryCompileExec2390887501.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘floor’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2390887501
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2390887501.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=floor    CMakeFiles/cmTryCompileExec2390887501.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2390887501 -rdynamic 
+CMakeFiles/cmTryCompileExec2390887501.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `floor'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec2390887501.dir/build.make:88: recipe for target 'cmTryCompileExec2390887501' failed
+make[1]: *** [cmTryCompileExec2390887501] Error 1
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2390887501/fast' failed
+make: *** [cmTryCompileExec2390887501/fast] Error 2
+
+
+Determining if the function crypt exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3164117982/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3164117982.dir/build.make CMakeFiles/cmTryCompileExec3164117982.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3164117982.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crypt   -o CMakeFiles/cmTryCompileExec3164117982.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3164117982
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3164117982.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crypt    CMakeFiles/cmTryCompileExec3164117982.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3164117982 -rdynamic 
+CMakeFiles/cmTryCompileExec3164117982.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `crypt'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3164117982.dir/build.make:88: recipe for target 'cmTryCompileExec3164117982' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3164117982] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3164117982/fast' failed
+make: *** [cmTryCompileExec3164117982/fast] Error 2
+
+
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3426907206/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3426907206.dir/build.make CMakeFiles/cmTryCompileExec3426907206.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3426907206.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTryCompileExec3426907206.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3426907206
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3426907206.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTryCompileExec3426907206.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3426907206 -rdynamic 
+CMakeFiles/cmTryCompileExec3426907206.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `dlopen'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3426907206.dir/build.make:88: recipe for target 'cmTryCompileExec3426907206' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3426907206] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3426907206/fast' failed
+make: *** [cmTryCompileExec3426907206/fast] Error 2
+
+
+Determining if the function timer_create exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3273503775/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3273503775.dir/build.make CMakeFiles/cmTryCompileExec3273503775.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3273503775.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=timer_create   -o CMakeFiles/cmTryCompileExec3273503775.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3273503775
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3273503775.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=timer_create    CMakeFiles/cmTryCompileExec3273503775.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3273503775 -rdynamic 
+CMakeFiles/cmTryCompileExec3273503775.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `timer_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3273503775.dir/build.make:88: recipe for target 'cmTryCompileExec3273503775' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3273503775] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3273503775/fast' failed
+make: *** [cmTryCompileExec3273503775/fast] Error 2
+
+
+Determining if the function atomic_thread_fence exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3625390963/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3625390963.dir/build.make CMakeFiles/cmTryCompileExec3625390963.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3625390963.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=atomic_thread_fence   -o CMakeFiles/cmTryCompileExec3625390963.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3625390963
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3625390963.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=atomic_thread_fence    CMakeFiles/cmTryCompileExec3625390963.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3625390963 -rdynamic 
+CMakeFiles/cmTryCompileExec3625390963.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `atomic_thread_fence'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3625390963.dir/build.make:88: recipe for target 'cmTryCompileExec3625390963' failed
+make[1]: *** [cmTryCompileExec3625390963] Error 1
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3625390963/fast' failed
+make: *** [cmTryCompileExec3625390963/fast] Error 2
+
+
+Determining if the function atomic_thread_fence exists in the atomic failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec935286324/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec935286324.dir/build.make CMakeFiles/cmTryCompileExec935286324.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec935286324.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=atomic_thread_fence   -o CMakeFiles/cmTryCompileExec935286324.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec935286324
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec935286324.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=atomic_thread_fence    CMakeFiles/cmTryCompileExec935286324.dir/CheckFunctionExists.c.o  -o cmTryCompileExec935286324 -rdynamic -latomic 
+CMakeFiles/cmTryCompileExec935286324.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `atomic_thread_fence'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec935286324.dir/build.make:88: recipe for target 'cmTryCompileExec935286324' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec935286324] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec935286324/fast' failed
+make: *** [cmTryCompileExec935286324/fast] Error 2
+
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2841106005/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2841106005.dir/build.make CMakeFiles/cmTryCompileExec2841106005.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2841106005.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2841106005.dir/CheckIncludeFiles.c.o   -c /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: ieeefp.h: No such file or directory
+ #include <ieeefp.h>
+                    ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec2841106005.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2841106005.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2841106005.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec2841106005/fast' failed
+make: *** [cmTryCompileExec2841106005/fast] Error 2
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(){return 0;}
+
+Determining if files curses.h;term.h exist failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3156522214/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3156522214.dir/build.make CMakeFiles/cmTryCompileExec3156522214.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3156522214.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3156522214.dir/CheckIncludeFiles.c.o   -c /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: curses.h: No such file or directory
+ #include <curses.h>
+                    ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec3156522214.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3156522214.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3156522214.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3156522214/fast' failed
+make: *** [cmTryCompileExec3156522214/fast] Error 2
+
+Source:
+/* */
+#include <curses.h>
+#include <term.h>
+
+
+int main(){return 0;}
+
+Determining if files vis.h exist failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1375582020/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1375582020.dir/build.make CMakeFiles/cmTryCompileExec1375582020.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1375582020.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1375582020.dir/CheckIncludeFiles.c.o   -c /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:17: fatal error: vis.h: No such file or directory
+ #include <vis.h>
+                 ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec1375582020.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1375582020.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1375582020.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec1375582020/fast' failed
+make: *** [cmTryCompileExec1375582020/fast] Error 2
+
+Source:
+/* */
+#include <vis.h>
+
+
+int main(){return 0;}
+
+Determining if files sasl/sasl.h exist failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1225124786/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1225124786.dir/build.make CMakeFiles/cmTryCompileExec1225124786.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1225124786.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1225124786.dir/CheckIncludeFiles.c.o   -c /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: sasl/sasl.h: No such file or directory
+ #include <sasl/sasl.h>
+                       ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec1225124786.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1225124786.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1225124786.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1225124786/fast' failed
+make: *** [cmTryCompileExec1225124786/fast] Error 2
+
+Source:
+/* */
+#include <sasl/sasl.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/devpoll.h exist failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4033409693/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4033409693.dir/build.make CMakeFiles/cmTryCompileExec4033409693.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4033409693.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4033409693.dir/CheckIncludeFiles.c.o   -c /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: sys/devpoll.h: No such file or directory
+ #include <sys/devpoll.h>
+                         ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec4033409693.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4033409693.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4033409693.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec4033409693/fast' failed
+make: *** [cmTryCompileExec4033409693/fast] Error 2
+
+Source:
+/* */
+#include <sys/devpoll.h>
+
+
+int main(){return 0;}
+
+Determining if the function _aligned_malloc exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1682513865/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1682513865.dir/build.make CMakeFiles/cmTryCompileExec1682513865.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1682513865.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_aligned_malloc   -o CMakeFiles/cmTryCompileExec1682513865.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1682513865
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1682513865.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_aligned_malloc    CMakeFiles/cmTryCompileExec1682513865.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1682513865 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1682513865.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `_aligned_malloc'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec1682513865.dir/build.make:88: recipe for target 'cmTryCompileExec1682513865' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1682513865] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec1682513865/fast' failed
+make: *** [cmTryCompileExec1682513865/fast] Error 2
+
+
+Determining if the function printstack exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1330021221/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1330021221.dir/build.make CMakeFiles/cmTryCompileExec1330021221.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1330021221.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=printstack   -o CMakeFiles/cmTryCompileExec1330021221.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1330021221
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1330021221.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=printstack    CMakeFiles/cmTryCompileExec1330021221.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1330021221 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1330021221.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `printstack'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec1330021221.dir/build.make:88: recipe for target 'cmTryCompileExec1330021221' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1330021221] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec1330021221/fast' failed
+make: *** [cmTryCompileExec1330021221/fast] Error 2
+
+
+Determining if the function directio exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1338024874/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1338024874.dir/build.make CMakeFiles/cmTryCompileExec1338024874.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1338024874.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=directio   -o CMakeFiles/cmTryCompileExec1338024874.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1338024874
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1338024874.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=directio    CMakeFiles/cmTryCompileExec1338024874.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1338024874 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1338024874.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `directio'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec1338024874.dir/build.make:88: recipe for target 'cmTryCompileExec1338024874' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1338024874] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec1338024874/fast' failed
+make: *** [cmTryCompileExec1338024874/fast] Error 2
+
+
+Determining if the function compress exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3019535573/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3019535573.dir/build.make CMakeFiles/cmTryCompileExec3019535573.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3019535573.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compress   -o CMakeFiles/cmTryCompileExec3019535573.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3019535573
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3019535573.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compress    CMakeFiles/cmTryCompileExec3019535573.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3019535573 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3019535573.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `compress'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3019535573.dir/build.make:88: recipe for target 'cmTryCompileExec3019535573' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3019535573] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3019535573/fast' failed
+make: *** [cmTryCompileExec3019535573/fast] Error 2
+
+
+Determining if the function gethrtime exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1885005775/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1885005775.dir/build.make CMakeFiles/cmTryCompileExec1885005775.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1885005775.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethrtime   -o CMakeFiles/cmTryCompileExec1885005775.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1885005775
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1885005775.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethrtime    CMakeFiles/cmTryCompileExec1885005775.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1885005775 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1885005775.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `gethrtime'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec1885005775.dir/build.make:88: recipe for target 'cmTryCompileExec1885005775' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1885005775] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec1885005775/fast' failed
+make: *** [cmTryCompileExec1885005775/fast] Error 2
+
+
+Determining if the function getpassphrase exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3036324928/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3036324928.dir/build.make CMakeFiles/cmTryCompileExec3036324928.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3036324928.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpassphrase   -o CMakeFiles/cmTryCompileExec3036324928.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3036324928
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3036324928.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpassphrase    CMakeFiles/cmTryCompileExec3036324928.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3036324928 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3036324928.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `getpassphrase'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3036324928.dir/build.make:88: recipe for target 'cmTryCompileExec3036324928' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3036324928] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3036324928/fast' failed
+make: *** [cmTryCompileExec3036324928/fast] Error 2
+
+
+Determining if the function issetugid exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3232707688/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3232707688.dir/build.make CMakeFiles/cmTryCompileExec3232707688.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3232707688.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=issetugid   -o CMakeFiles/cmTryCompileExec3232707688.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3232707688
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3232707688.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=issetugid    CMakeFiles/cmTryCompileExec3232707688.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3232707688 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3232707688.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `issetugid'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3232707688.dir/build.make:88: recipe for target 'cmTryCompileExec3232707688' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3232707688] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3232707688/fast' failed
+make: *** [cmTryCompileExec3232707688/fast] Error 2
+
+
+Determining if the function setfd exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4262392282/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4262392282.dir/build.make CMakeFiles/cmTryCompileExec4262392282.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4262392282.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setfd   -o CMakeFiles/cmTryCompileExec4262392282.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4262392282
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4262392282.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setfd    CMakeFiles/cmTryCompileExec4262392282.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4262392282 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec4262392282.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `setfd'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec4262392282.dir/build.make:88: recipe for target 'cmTryCompileExec4262392282' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec4262392282] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec4262392282/fast' failed
+make: *** [cmTryCompileExec4262392282/fast] Error 2
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1137375249/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1137375249.dir/build.make CMakeFiles/cmTryCompileExec1137375249.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1137375249.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTryCompileExec1137375249.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1137375249
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1137375249.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTryCompileExec1137375249.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1137375249 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1137375249.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec1137375249.dir/build.make:88: recipe for target 'cmTryCompileExec1137375249' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1137375249] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec1137375249/fast' failed
+make: *** [cmTryCompileExec1137375249/fast] Error 2
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2420258316/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2420258316.dir/build.make CMakeFiles/cmTryCompileExec2420258316.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2420258316.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTryCompileExec2420258316.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2420258316
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2420258316.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcat    CMakeFiles/cmTryCompileExec2420258316.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2420258316 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2420258316.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `strlcat'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec2420258316.dir/build.make:88: recipe for target 'cmTryCompileExec2420258316' failed
+make[1]: *** [cmTryCompileExec2420258316] Error 1
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2420258316/fast' failed
+make: *** [cmTryCompileExec2420258316/fast] Error 2
+
+
+Determining if the function fgetln exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1389512989/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1389512989.dir/build.make CMakeFiles/cmTryCompileExec1389512989.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1389512989.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fgetln   -o CMakeFiles/cmTryCompileExec1389512989.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1389512989
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1389512989.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fgetln    CMakeFiles/cmTryCompileExec1389512989.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1389512989 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1389512989.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `fgetln'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec1389512989.dir/build.make:88: recipe for target 'cmTryCompileExec1389512989' failed
+make[1]: *** [cmTryCompileExec1389512989] Error 1
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1389512989/fast' failed
+make: *** [cmTryCompileExec1389512989/fast] Error 2
+
+
+Determining if the function tell exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1958882574/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1958882574.dir/build.make CMakeFiles/cmTryCompileExec1958882574.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1958882574.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=tell   -o CMakeFiles/cmTryCompileExec1958882574.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1958882574
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1958882574.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=tell    CMakeFiles/cmTryCompileExec1958882574.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1958882574 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1958882574.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `tell'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec1958882574.dir/build.make:88: recipe for target 'cmTryCompileExec1958882574' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1958882574] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec1958882574/fast' failed
+make: *** [cmTryCompileExec1958882574/fast] Error 2
+
+
+Determining if the function ntohll exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2188490774/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2188490774.dir/build.make CMakeFiles/cmTryCompileExec2188490774.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2188490774.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ntohll   -o CMakeFiles/cmTryCompileExec2188490774.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2188490774
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2188490774.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ntohll    CMakeFiles/cmTryCompileExec2188490774.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2188490774 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2188490774.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `ntohll'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec2188490774.dir/build.make:88: recipe for target 'cmTryCompileExec2188490774' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec2188490774] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec2188490774/fast' failed
+make: *** [cmTryCompileExec2188490774/fast] Error 2
+
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3042991944/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3042991944.dir/build.make CMakeFiles/cmTryCompileExec3042991944.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3042991944.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTryCompileExec3042991944.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3042991944
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3042991944.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTryCompileExec3042991944.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3042991944 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3042991944.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `kqueue'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3042991944.dir/build.make:88: recipe for target 'cmTryCompileExec3042991944' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3042991944] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3042991944/fast' failed
+make: *** [cmTryCompileExec3042991944/fast] Error 2
+
+
+Determining if the FIONREAD exist failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1340506625/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1340506625.dir/build.make CMakeFiles/cmTryCompileExec1340506625.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1340506625.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1340506625.dir/CheckSymbolExists.c.o   -c /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:23: fatal error: sys/filio.h: No such file or directory
+ #include <sys/filio.h>
+                       ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec1340506625.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1340506625.dir/CheckSymbolExists.c.o' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1340506625.dir/CheckSymbolExists.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec1340506625/fast' failed
+make: *** [cmTryCompileExec1340506625/fast] Error 2
+
+File /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/filio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FIONREAD
+  return ((int*)(&FIONREAD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the SIGEV_PORT exist failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2181781250/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2181781250.dir/build.make CMakeFiles/cmTryCompileExec2181781250.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2181781250.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2181781250.dir/CheckSymbolExists.c.o   -c /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:25: fatal error: sys/siginfo.h: No such file or directory
+ #include <sys/siginfo.h>
+                         ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec2181781250.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2181781250.dir/CheckSymbolExists.c.o' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2181781250.dir/CheckSymbolExists.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec2181781250/fast' failed
+make: *** [cmTryCompileExec2181781250/fast] Error 2
+
+File /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+#include <time.h>
+#include <sys/siginfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SIGEV_PORT
+  return ((int*)(&SIGEV_PORT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec718961539/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec718961539.dir/build.make CMakeFiles/cmTryCompileExec718961539.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec718961539.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTryCompileExec718961539.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec718961539
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec718961539.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTryCompileExec718961539.dir/CheckFunctionExists.c.o  -o cmTryCompileExec718961539 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec718961539.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `kqueue'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec718961539.dir/build.make:88: recipe for target 'cmTryCompileExec718961539' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec718961539] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec718961539/fast' failed
+make: *** [cmTryCompileExec718961539/fast] Error 2
+
+
+Determining if the EVFILT_TIMER exist failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec188369443/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec188369443.dir/build.make CMakeFiles/cmTryCompileExec188369443.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec188369443.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec188369443.dir/CheckSymbolExists.c.o   -c /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:23: fatal error: sys/event.h: No such file or directory
+ #include <sys/event.h>
+                       ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec188369443.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec188369443.dir/CheckSymbolExists.c.o' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec188369443.dir/CheckSymbolExists.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec188369443/fast' failed
+make: *** [cmTryCompileExec188369443/fast] Error 2
+
+File /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/event.h>
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef EVFILT_TIMER
+  return ((int*)(&EVFILT_TIMER))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1474889221/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1474889221.dir/build.make CMakeFiles/cmTryCompileExec1474889221.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1474889221.dir/TestEndianess.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1474889221.dir/TestEndianess.c.o   -c /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec1474889221
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1474889221.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1474889221.dir/TestEndianess.c.o  -o cmTryCompileExec1474889221 -rdynamic 
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file netinet/in6.h exists failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec704714767/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec704714767.dir/build.make CMakeFiles/cmTryCompileExec704714767.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec704714767.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -o CMakeFiles/cmTryCompileExec704714767.dir/CheckIncludeFile.c.o   -c /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: netinet/in6.h: No such file or directory
+ #include <netinet/in6.h>
+                         ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec704714767.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec704714767.dir/CheckIncludeFile.c.o' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec704714767.dir/CheckIncludeFile.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec704714767/fast' failed
+make: *** [cmTryCompileExec704714767/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN_SIN_LEN failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3834912854/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3834912854.dir/build.make CMakeFiles/cmTryCompileExec3834912854.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3834912854.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -DHAVE_SOCKADDR_IN_SIN_LEN   -o CMakeFiles/cmTryCompileExec3834912854.dir/src.c.o   -c /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/src.c
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/src.c:9:7: error: ‘struct sockaddr_in’ has no member named ‘sin_len’
+    tmp->sin_len;
+       ^
+CMakeFiles/cmTryCompileExec3834912854.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3834912854.dir/src.c.o' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3834912854.dir/src.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3834912854/fast' failed
+make: *** [cmTryCompileExec3834912854/fast] Error 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+
+int main()
+{
+   struct sockaddr_in* tmp;
+   tmp->sin_len;
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_LEN failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3499198540/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3499198540.dir/build.make CMakeFiles/cmTryCompileExec3499198540.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3499198540.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -DHAVE_SOCKADDR_IN6_SIN6_LEN   -o CMakeFiles/cmTryCompileExec3499198540.dir/src.c.o   -c /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/src.c
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/src.c:9:7: error: ‘struct sockaddr_in6’ has no member named ‘sin6_len’
+    tmp->sin6_len;
+       ^
+CMakeFiles/cmTryCompileExec3499198540.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3499198540.dir/src.c.o' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3499198540.dir/src.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3499198540/fast' failed
+make: *** [cmTryCompileExec3499198540/fast] Error 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+
+int main()
+{
+   struct sockaddr_in6* tmp;
+   tmp->sin6_len;
+   return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_IMPLICIT_DEPENDENT_NAME_TYPING failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec985162230/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec985162230.dir/build.make CMakeFiles/cmTryCompileExec985162230.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec985162230.dir/src.cxx.o
+/usr/bin/c++   -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -DHAVE_IMPLICIT_DEPENDENT_NAME_TYPING   -o CMakeFiles/cmTryCompileExec985162230.dir/src.cxx.o -c /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/src.cxx
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/src.cxx: In member function ‘void ct2<T>::func()’:
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/src.cxx:15:5: error: need ‘typename’ before ‘std::vector<T>::iterator’ because ‘std::vector<T>’ is a dependent scope
+     std::vector<T>::iterator itr = vec.begin();
+     ^
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/src.cxx:15:30: error: expected ‘;’ before ‘itr’
+     std::vector<T>::iterator itr = vec.begin();
+                              ^
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/src.cxx: In instantiation of ‘void ct2<T>::func() [with T = double]’:
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/src.cxx:21:13:   required from here
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/src.cxx:15:5: error: dependent-name ‘std::vector<T>::iterator’ is parsed as a non-type, but instantiation yields a type
+     std::vector<T>::iterator itr = vec.begin();
+     ^
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/src.cxx:15:5: note: say ‘typename std::vector<T>::iterator’ if a type is meant
+CMakeFiles/cmTryCompileExec985162230.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec985162230.dir/src.cxx.o' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec985162230.dir/src.cxx.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec985162230/fast' failed
+make: *** [cmTryCompileExec985162230/fast] Error 2
+
+Source file was:
+
+  #include <vector>
+  template<typename T>
+  class ct2
+  {
+  public:
+    typedef T type;
+    void func();
+  };
+
+  template<typename T>
+  void ct2<T>::func()
+  {
+    std::vector<T> vec;
+    std::vector<T>::iterator itr = vec.begin();
+  }
+
+  int main(int argc, char **argv)
+  {
+    ct2<double> o2;
+    o2.func();
+    return 0;
+  }
+  
+Determining if files numaif.h exist failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec997638142/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec997638142.dir/build.make CMakeFiles/cmTryCompileExec997638142.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec997638142.dir/CheckIncludeFiles.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -o CMakeFiles/cmTryCompileExec997638142.dir/CheckIncludeFiles.c.o   -c /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: numaif.h: No such file or directory
+ #include <numaif.h>
+                    ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec997638142.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec997638142.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec997638142.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec997638142/fast' failed
+make: *** [cmTryCompileExec997638142/fast] Error 2
+
+Source:
+/* */
+#include <numaif.h>
+
+
+int main(){return 0;}
+
+Determining size of socklen_t failed with the following output:
+Change Dir: /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1090006312/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1090006312.dir/build.make CMakeFiles/cmTryCompileExec1090006312.dir/build
+make[1]: Entering directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1090006312.dir/SIZEOF_SOCKLEN_T.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -o CMakeFiles/cmTryCompileExec1090006312.dir/SIZEOF_SOCKLEN_T.c.o   -c /mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:17:22: error: ‘socklen_t’ undeclared here (not in a function)
+ #define SIZE (sizeof(socklen_t))
+                      ^
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec1090006312.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1090006312.dir/SIZEOF_SOCKLEN_T.c.o' failed
+make[1]: Leaving directory '/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1090006312.dir/SIZEOF_SOCKLEN_T.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec1090006312/fast' failed
+make: *** [cmTryCompileExec1090006312/fast] Error 2
+
+/mnt/GENFrameWork/ThirdPartyLibraries/mysql-connector-c/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(socklen_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+

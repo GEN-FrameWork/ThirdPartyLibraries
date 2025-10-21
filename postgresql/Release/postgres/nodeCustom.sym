@@ -1,0 +1,118 @@
+
+Dump of file Release\postgres/nodeCustom.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5D58, #relocs   A8, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  4E3, #relocs   28, #linenums    0, checksum AA5A551B
+00A 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+00B 00000000 UNDEF  notype ()    External     | errstart
+00C 00000000 UNDEF  notype ()    External     | errfinish
+00D 00000000 UNDEF  notype ()    External     | errcode
+00E 00000000 UNDEF  notype ()    External     | errmsg
+00F 00000000 UNDEF  notype ()    External     | add_size
+010 00000000 UNDEF  notype ()    External     | shm_toc_allocate
+011 00000000 UNDEF  notype ()    External     | shm_toc_insert
+012 00000000 UNDEF  notype ()    External     | shm_toc_lookup
+013 00000000 UNDEF  notype ()    External     | ExecClearTuple
+014 00000000 UNDEF  notype ()    External     | ExecInitQual
+015 00000000 UNDEF  notype ()    External     | ExecAssignScanProjectionInfoWithVarno
+016 00000000 UNDEF  notype ()    External     | ExecInitResultTupleSlot
+017 00000000 UNDEF  notype ()    External     | ExecInitScanTupleSlot
+018 00000000 UNDEF  notype ()    External     | ExecTypeFromTL
+019 00000000 UNDEF  notype ()    External     | ExecAssignExprContext
+01A 00000000 UNDEF  notype ()    External     | ExecAssignResultTypeFromTL
+01B 00000000 UNDEF  notype ()    External     | ExecFreeExprContext
+01C 00000000 UNDEF  notype ()    External     | ExecAssignScanType
+01D 00000000 UNDEF  notype ()    External     | ExecOpenScanRelation
+01E 00000000 UNDEF  notype ()    External     | ExecCloseScanRelation
+01F 00000000 SECT4  notype ()    External     | ExecInitCustomScan
+020 00000120 SECT4  notype ()    External     | ExecEndCustomScan
+021 00000180 SECT4  notype ()    External     | ExecReScanCustomScan
+022 000001A0 SECT4  notype ()    External     | ExecCustomMarkPos
+023 00000230 SECT4  notype ()    External     | ExecCustomRestrPos
+024 000002C0 SECT4  notype ()    External     | ExecCustomScanEstimate
+025 00000330 SECT4  notype ()    External     | ExecCustomScanInitializeDSM
+026 000003C0 SECT4  notype ()    External     | ExecCustomScanReInitializeDSM
+027 00000420 SECT4  notype ()    External     | ExecCustomScanInitializeWorker
+028 00000480 SECT4  notype ()    External     | ExecShutdownCustomScan
+029 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+02A 000004A0 SECT4  notype ()    Static       | ExecCustomScan
+02B 00000000 SECT4  notype       Label        | $LN8
+02C 00000120 SECT4  notype       Label        | $LN5
+02D 000001A0 SECT4  notype       Label        | $LN10
+02E 00000230 SECT4  notype       Label        | $LN10
+02F 000002C0 SECT4  notype       Label        | $LN5
+030 00000330 SECT4  notype       Label        | $LN5
+031 000003C0 SECT4  notype       Label        | $LN5
+032 00000420 SECT4  notype       Label        | $LN5
+033 00000000 SECT5  notype       Static       | .xdata
+    Section length   E4, #relocs   12, #linenums    0, checksum 8ABD9A0A
+035 00000000 SECT5  notype       Static       | $unwind$ExecInitCustomScan
+036 00000000 SECT6  notype       Static       | .pdata
+    Section length   B4, #relocs   2D, #linenums    0, checksum E6820324
+038 00000000 SECT6  notype       Static       | $pdata$ExecInitCustomScan
+039 00000018 SECT5  notype       Static       | $unwind$ExecEndCustomScan
+03A 0000000C SECT6  notype       Static       | $pdata$ExecEndCustomScan
+03B 00000020 SECT5  notype       Static       | $unwind$ExecCustomMarkPos
+03C 00000018 SECT6  notype       Static       | $pdata$ExecCustomMarkPos
+03D 00000028 SECT5  notype       Static       | $chain$0$ExecCustomMarkPos
+03E 00000024 SECT6  notype       Static       | $pdata$0$ExecCustomMarkPos
+03F 0000003C SECT5  notype       Static       | $chain$1$ExecCustomMarkPos
+040 00000030 SECT6  notype       Static       | $pdata$1$ExecCustomMarkPos
+041 0000004C SECT5  notype       Static       | $unwind$ExecCustomRestrPos
+042 0000003C SECT6  notype       Static       | $pdata$ExecCustomRestrPos
+043 00000054 SECT5  notype       Static       | $chain$0$ExecCustomRestrPos
+044 00000048 SECT6  notype       Static       | $pdata$0$ExecCustomRestrPos
+045 00000068 SECT5  notype       Static       | $chain$1$ExecCustomRestrPos
+046 00000054 SECT6  notype       Static       | $pdata$1$ExecCustomRestrPos
+047 00000078 SECT5  notype       Static       | $unwind$ExecCustomScanEstimate
+048 00000060 SECT6  notype       Static       | $pdata$ExecCustomScanEstimate
+049 00000084 SECT5  notype       Static       | $unwind$ExecCustomScanInitializeDSM
+04A 0000006C SECT6  notype       Static       | $pdata$ExecCustomScanInitializeDSM
+04B 00000094 SECT5  notype       Static       | $chain$1$ExecCustomScanInitializeDSM
+04C 00000078 SECT6  notype       Static       | $pdata$1$ExecCustomScanInitializeDSM
+04D 000000AC SECT5  notype       Static       | $chain$2$ExecCustomScanInitializeDSM
+04E 00000084 SECT6  notype       Static       | $pdata$2$ExecCustomScanInitializeDSM
+04F 000000BC SECT5  notype       Static       | $unwind$ExecCustomScanReInitializeDSM
+050 00000090 SECT6  notype       Static       | $pdata$ExecCustomScanReInitializeDSM
+051 000000CC SECT5  notype       Static       | $unwind$ExecCustomScanInitializeWorker
+052 0000009C SECT6  notype       Static       | $pdata$ExecCustomScanInitializeWorker
+053 000000DC SECT5  notype       Static       | $unwind$ExecCustomScan
+054 000000A8 SECT6  notype       Static       | $pdata$ExecCustomScan
+055 00000000 UNDEF  notype       External     | pg_signal_queue
+056 00000000 UNDEF  notype       External     | pg_signal_mask
+057 00000000 UNDEF  notype       External     | InterruptPending
+058 00000000 SECT7  notype       Static       | .rdata
+    Section length   12, #relocs    0, #linenums    0, checksum 7DA16AD6, selection    2 (pick any)
+05A 00000000 SECT7  notype       External     | ??_C@_0BC@OFEFFKGE@ExecCustomMarkPos?$AA@ (`string')
+05B 00000000 SECT8  notype       Static       | .rdata
+    Section length   22, #relocs    0, #linenums    0, checksum D402087B, selection    2 (pick any)
+05D 00000000 SECT8  notype       External     | ??_C@_0CC@GKIMJLKO@src?1backend?1executor?1nodeCustom?4@ (`string')
+05E 00000000 SECT9  notype       Static       | .rdata
+    Section length   2A, #relocs    0, #linenums    0, checksum EB24526C, selection    2 (pick any)
+060 00000000 SECT9  notype       External     | ??_C@_0CK@PALEIFGI@custom?5scan?5?$CC?$CFs?$CC?5does?5not?5suppor@ (`string')
+061 00000000 SECTA  notype       Static       | .rdata
+    Section length   13, #relocs    0, #linenums    0, checksum CE6E0A99, selection    2 (pick any)
+063 00000000 SECTA  notype       External     | ??_C@_0BD@OLJJDMAJ@ExecCustomRestrPos?$AA@ (`string')
+
+String Table Size = 0x6F0 bytes
+
+  Summary
+
+        5D58 .debug$S
+          68 .debug$T
+          5D .drectve
+          B4 .pdata
+          71 .rdata
+         4E3 .text$mn
+          E4 .xdata

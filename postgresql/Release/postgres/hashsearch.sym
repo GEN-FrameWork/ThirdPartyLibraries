@@ -1,0 +1,115 @@
+
+Dump of file Release\postgres/hashsearch.obj
+
+File Type: COFF OBJECT
+
+COFF SYMBOL TABLE
+000 01045E97 ABS    notype       Static       | @comp.id
+001 80000190 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length 5974, #relocs   8A, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .debug$T
+    Section length   68, #relocs    0, #linenums    0, checksum        0
+008 00000000 SECT4  notype       Static       | .text$mn
+    Section length  774, #relocs   36, #linenums    0, checksum D6A20BEA
+00A 00000000 SECT5  notype       Static       | .text$mn
+    Section length   57, #relocs    4, #linenums    0, checksum 2E6F7DEB, selection    2 (pick any)
+00C 00000000 SECT6  notype       Static       | .debug$S
+    Section length  17C, #relocs    E, #linenums    0, checksum        0, selection    5 (pick associative Section 0x5)
+00E 00000000 SECT7  notype       Static       | .text$mn
+    Section length  16F, #relocs    F, #linenums    0, checksum AB21E925, selection    1 (pick no duplicates)
+010 00000000 SECT8  notype       Static       | .debug$S
+    Section length  338, #relocs   22, #linenums    0, checksum        0, selection    5 (pick associative Section 0x7)
+012 00000000 SECT9  notype       Static       | .text$mn
+    Section length  1DE, #relocs   13, #linenums    0, checksum D53835B1, selection    1 (pick no duplicates)
+014 00000000 SECTA  notype       Static       | .debug$S
+    Section length  3B0, #relocs   24, #linenums    0, checksum        0, selection    5 (pick associative Section 0x9)
+016 00000000 UNDEF  notype ()    External     | pgwin32_dispatch_queued_signals
+017 00000000 UNDEF  notype ()    External     | errstart
+018 00000000 UNDEF  notype ()    External     | errfinish
+019 00000000 UNDEF  notype ()    External     | errcode
+01A 00000000 UNDEF  notype ()    External     | errmsg
+01B 00000000 UNDEF  notype ()    External     | HeapTupleSatisfiesMVCC
+01C 00000000 UNDEF  notype ()    External     | HeapTupleSatisfiesToast
+01D 00000000 UNDEF  notype ()    External     | BufferGetBlockNumber
+01E 00000000 UNDEF  notype ()    External     | LockBuffer
+01F 00000000 UNDEF  notype ()    External     | TestForOldSnapshot_impl
+020 00000000 SECT5  notype ()    Static       | TestForOldSnapshot
+021 00000000 UNDEF  notype ()    External     | _hash_getbuf
+022 00000000 UNDEF  notype ()    External     | _hash_getbucketbuf_from_hashkey
+023 00000000 UNDEF  notype ()    External     | _hash_relbuf
+024 00000000 UNDEF  notype ()    External     | _hash_dropbuf
+025 00000000 UNDEF  notype ()    External     | _hash_dropscanbuf
+026 00000000 SECT4  notype ()    External     | _hash_next
+027 000000C0 SECT4  notype ()    External     | _hash_first
+028 00000420 SECT4  notype ()    External     | _hash_step
+029 00000000 UNDEF  notype ()    External     | _hash_checkqual
+02A 00000000 UNDEF  notype ()    External     | _hash_datum2hashkey
+02B 00000000 UNDEF  notype ()    External     | _hash_datum2hashkey_type
+02C 00000000 UNDEF  notype ()    External     | _hash_checkpage
+02D 00000000 UNDEF  notype ()    External     | _hash_get_indextuple_hashkey
+02E 00000000 UNDEF  notype ()    External     | _hash_binsearch
+02F 00000000 UNDEF  notype ()    External     | _hash_binsearch_last
+030 00000000 UNDEF  notype ()    External     | _hash_get_oldblock_from_newbucket
+031 00000000 UNDEF  notype ()    External     | _hash_kill_items
+032 00000000 UNDEF  notype ()    External     | ProcessInterrupts
+033 00000000 SECT7  notype ()    Static       | _hash_readnext
+034 00000000 SECT9  notype ()    Static       | _hash_readprev
+035 00000000 SECT4  notype       Label        | $LN7
+036 000000C0 SECT4  notype       Label        | $LN46
+037 00000420 SECT4  notype       Label        | $LN97
+038 00000000 SECTB  notype       Static       | .xdata
+    Section length   6C, #relocs    6, #linenums    0, checksum 7ACD6CF4
+03A 00000000 SECTB  notype       Static       | $unwind$_hash_next
+03B 00000000 SECTC  notype       Static       | .pdata
+    Section length   3C, #relocs    F, #linenums    0, checksum C99B1D57
+03D 00000000 SECTC  notype       Static       | $pdata$_hash_next
+03E 00000014 SECTB  notype       Static       | $unwind$_hash_first
+03F 0000000C SECTC  notype       Static       | $pdata$_hash_first
+040 00000030 SECTB  notype       Static       | $chain$3$_hash_first
+041 00000018 SECTC  notype       Static       | $pdata$3$_hash_first
+042 00000044 SECTB  notype       Static       | $chain$4$_hash_first
+043 00000024 SECTC  notype       Static       | $pdata$4$_hash_first
+044 00000054 SECTB  notype       Static       | $unwind$_hash_step
+045 00000030 SECTC  notype       Static       | $pdata$_hash_step
+046 00000000 SECTD  notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum A9C5B249, selection    5 (pick associative Section 0x7)
+048 00000000 SECTD  notype       Static       | $unwind$_hash_readnext
+049 00000000 SECTE  notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum AFBCB9A3, selection    5 (pick associative Section 0x7)
+04B 00000000 SECTE  notype       Static       | $pdata$_hash_readnext
+04C 00000000 SECTF  notype       Static       | .xdata
+    Section length   1C, #relocs    0, #linenums    0, checksum  B87DB6D, selection    5 (pick associative Section 0x9)
+04E 00000000 SECTF  notype       Static       | $unwind$_hash_readprev
+04F 00000000 SECT10 notype       Static       | .pdata
+    Section length    C, #relocs    3, #linenums    0, checksum B5E06F9A, selection    5 (pick associative Section 0x9)
+051 00000000 SECT10 notype       Static       | $pdata$_hash_readprev
+052 00000000 UNDEF  notype       External     | pg_signal_queue
+053 00000000 UNDEF  notype       External     | pg_signal_mask
+054 00000000 UNDEF  notype       External     | old_snapshot_threshold
+055 00000000 UNDEF  notype       External     | BufferBlocks
+056 00000000 UNDEF  notype       External     | LocalBufferBlockPointers
+057 00000000 UNDEF  notype       External     | InterruptPending
+058 00000000 SECT11 notype       Static       | .rdata
+    Section length    C, #relocs    0, #linenums    0, checksum 133DFB99, selection    2 (pick any)
+05A 00000000 SECT11 notype       External     | ??_C@_0M@JHBHMCAJ@_hash_first?$AA@ (`string')
+05B 00000000 SECT12 notype       Static       | .rdata
+    Section length   25, #relocs    0, #linenums    0, checksum A054DA7C, selection    2 (pick any)
+05D 00000000 SECT12 notype       External     | ??_C@_0CF@HLHKFKOH@src?1backend?1access?1hash?1hashsear@ (`string')
+05E 00000000 SECT13 notype       Static       | .rdata
+    Section length   2E, #relocs    0, #linenums    0, checksum 45FB86B5, selection    2 (pick any)
+060 00000000 SECT13 notype       External     | ??_C@_0CO@LJHLHBKB@hash?5indexes?5do?5not?5support?5whol@ (`string')
+
+String Table Size = 0x438 bytes
+
+  Summary
+
+        61D8 .debug$S
+          68 .debug$T
+          5D .drectve
+          54 .pdata
+          5F .rdata
+         B18 .text$mn
+          A4 .xdata
