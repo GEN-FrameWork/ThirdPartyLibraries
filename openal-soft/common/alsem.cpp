@@ -18,13 +18,11 @@
  * Or go to http://www.gnu.org/copyleft/lgpl.html
  */
 
-#include "alsnd_config.h"
+#include "config.h"
 
 #include "alsem.h"
 
 #include <system_error>
-
-#include "opthelpers.h"
 
 
 #ifdef _WIN32
@@ -39,7 +37,8 @@ semaphore::semaphore(unsigned int initial)
 {
     if(initial > static_cast<unsigned int>(std::numeric_limits<int>::max()))
         throw std::system_error(std::make_error_code(std::errc::value_too_large));
-    mSem = CreateSemaphore(nullptr, initial, std::numeric_limits<int>::max(), nullptr);
+    mSem = CreateSemaphoreW(nullptr, static_cast<LONG>(initial), std::numeric_limits<int>::max(),
+        nullptr);
     if(mSem == nullptr)
         throw std::system_error(std::make_error_code(std::errc::resource_unavailable_try_again));
 }

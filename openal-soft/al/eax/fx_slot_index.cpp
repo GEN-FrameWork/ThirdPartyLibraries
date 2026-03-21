@@ -1,4 +1,4 @@
-#include "alsnd_config.h"
+#include "config.h"
 
 #include "fx_slot_index.h"
 

@@ -1,7 +1,7 @@
 
 #include "verstr.h"
 
-#include "alsnd_version.h"
+#include "version.h"
 
 
 QString GetVersionString()

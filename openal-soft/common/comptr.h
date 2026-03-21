@@ -1,11 +1,9 @@
 #ifndef COMMON_COMPTR_H
 #define COMMON_COMPTR_H
 
+#ifdef _WIN32
 #include <cstddef>
-#include <memory>
-#include <type_traits>
 #include <utility>
-#include <variant>
 
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
@@ -17,7 +15,7 @@ struct ComWrapper {
     ComWrapper(void *reserved, DWORD coinit)
         : mStatus{CoInitializeEx(reserved, coinit)}
     { }
-    ComWrapper(DWORD coinit=COINIT_APARTMENTTHREADED)
+    explicit ComWrapper(DWORD coinit=COINIT_APARTMENTTHREADED)
         : mStatus{CoInitializeEx(nullptr, coinit)}
     { }
     ComWrapper(ComWrapper&& rhs) { mStatus = std::exchange(rhs.mStatus, E_FAIL); }
@@ -33,6 +31,7 @@ struct ComWrapper {
     }
     ComWrapper& operator=(const ComWrapper&) = delete;
 
+    [[nodiscard]]
     HRESULT status() const noexcept { return mStatus; }
     explicit operator bool() const noexcept { return SUCCEEDED(status()); }
 
@@ -45,7 +44,7 @@ struct ComWrapper {
 };
 
 
-template<typename T>
+template<typename T> /* NOLINTNEXTLINE(clazy-rule-of-three) False positive */
 struct ComPtr {
     using element_type = T;
 
@@ -56,10 +55,11 @@ struct ComPtr {
     ComPtr(const ComPtr &rhs) noexcept(RefIsNoexcept) : mPtr{rhs.mPtr}
     { if(mPtr) mPtr->AddRef(); }
     ComPtr(ComPtr&& rhs) noexcept : mPtr{rhs.mPtr} { rhs.mPtr = nullptr; }
-    ComPtr(std::nullptr_t) noexcept { }
+    ComPtr(std::nullptr_t) noexcept { } /* NOLINT(google-explicit-constructor) */
     explicit ComPtr(T *ptr) noexcept : mPtr{ptr} { }
     ~ComPtr() { if(mPtr) mPtr->Release(); }
 
+    /* NOLINTNEXTLINE(bugprone-unhandled-self-assignment) Yes it is. */
     ComPtr& operator=(const ComPtr &rhs) noexcept(RefIsNoexcept)
     {
         if constexpr(RefIsNoexcept)
@@ -107,43 +107,6 @@ struct ComPtr {
 private:
     T *mPtr{nullptr};
 };
-
-
-namespace al {
-
-template<typename SP, typename PT, typename ...Args>
-class out_ptr_t {
-    static_assert(!std::is_same_v<PT,void*>);
-
-    SP &mRes;
-    std::variant<PT,void*> mPtr{};
-
-public:
-    out_ptr_t(SP &res) : mRes{res} { }
-    ~out_ptr_t()
-    {
-        auto set_res = [this](auto &ptr)
-        { mRes.reset(static_cast<PT>(ptr)); };
-        std::visit(set_res, mPtr);
-    }
-    out_ptr_t(const out_ptr_t&) = delete;
-
-    out_ptr_t& operator=(const out_ptr_t&) = delete;
-
-    operator PT*() noexcept
-    { return &std::get<PT>(mPtr); }
-
-    operator void**() noexcept
-    { return &mPtr.template emplace<void*>(); }
-};
-
-template<typename T=void, typename SP, typename ...Args>
-auto out_ptr(SP &res)
-{
-    using ptype = typename SP::element_type*;
-    return out_ptr_t<SP,ptype>{res};
-}
-
-} // namespace al
+#endif /* _WIN32 */
 
 #endif

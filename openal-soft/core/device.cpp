@@ -1,5 +1,5 @@
 
-#include "alsnd_config.h"
+#include "config.h"
 
 #include "bformatdec.h"
 #include "bs2b.h"
@@ -9,15 +9,9 @@
 #include "mastering.h"
 
 
-al::FlexArray<ContextBase*> DeviceBase::sEmptyContextArray{0u};
-
-
-DeviceBase::DeviceBase(DeviceType type) : Type{type}, mContexts{&sEmptyContextArray}
+DeviceBase::DeviceBase(DeviceType type)
+    : Type{type}, mContexts{al::FlexArray<ContextBase*>::Create(0)}
 {
 }
 
-DeviceBase::~DeviceBase()
-{
-    auto *oldarray = mContexts.exchange(nullptr, std::memory_order_relaxed);
-    if(oldarray != &sEmptyContextArray) delete oldarray;
-}
+DeviceBase::~DeviceBase() = default;
