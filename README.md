@@ -53,7 +53,7 @@ Additionally, to facilitate the use of FrameWork GEN you have available this dow
 1. [**LibPNG**](#libpng)                                                         **1.6.40**
 1. [**Lua**](#lua)                                                               **5.3.4**  
 1. [**MySQL Connector C**](#mysql-connector-c)                                   **6.1.11** 
-1. [**OpenAL Soft**](#openal-soft)                                               **1.23.1**  
+1. [**OpenAL Soft**](#openal-soft)                                               **1.24.3**  
 1. [**OpenGL-Registry**](#opengl-registry)                                       **N/A** 
 1. [**LibPQ**](#libpq)                                                           **11.1**  
 1. [**rpi_ws281x**](#rpi_ws281x)											                           **N/A**
@@ -226,11 +226,11 @@ It´s neccesary download the binary files. Used dinamic librarys to run GEN appl
 OpenAL provides capabilities for playing audio in a virtual 3D environment. Distance attenuation, doppler shift, and directional sound emitters are among the features handled by the API. More advanced effects, including air absorption, occlusion, and environmental reverb, are available through the EFX extension. It also facilitates streaming audio, multi-channel buffers, and audio capture.
 
 Directory        **openal-soft**  
-Version          **1.23.1**  
+Version          **1.24.3**  
 Web              **openal-soft.org/**  
-Download URL     **github.com/kcat/openal-soft**  
+Download URL     **github.com/kcat/openal-soft/releases/tag/1.24.3**  
 Comments
-It´s neccesary download the binary files. Used dinamic librarys to run GEN applications.
+Download the source package and extract it into **ThirdPartyLibraries/openal-soft**. GEN builds OpenAL Soft directly from those sources for all supported platforms, including Android.
 
 
 ### **OpenGL-Registry**
