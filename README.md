@@ -62,12 +62,14 @@ Additionally, to facilitate the use of FrameWork GEN you have available this dow
 1. [**STB Vorbis**](#stb)                                                        **2.31**  
 1. [**WinToast**](WinToast)                                                      **1.1**  
 1. [**Zlib**](#zlib)                                                             **1.2.12**        
-1. [**Android NDK**](#android-ndk)								                               **r17**  
+1. [**Android NDK**](#android-ndk)								                               **r27d**  
+1. [**Android SDK**](#android-sdk)								                               **r27d**  
 1. [**GoogleTest**](#GoogleTest)                                                 **1.12.1** + **1.10.0** 
 1. [**esp-idf**](#ESP-IDF)                                                       **v5.1** 
           
 
 ## Details of third party libraries
+
 
 
 ### **AGG**
@@ -81,6 +83,7 @@ Download URL     **www.antigrain.com/download/index.html**
 Comments   
 
 
+
 ### **Duktape** 
 
 Duktape is an embeddable Javascript engine, with a focus on portability and compact footprint. Duktape is easy to integrate into a C/C++ project.
@@ -90,6 +93,7 @@ Version          **2.7.0**
 Web              **duktape.org**  
 Download URL     **duktape.org/download.html**   
 Comments  
+
 
 
 ### **FFmpeg**
@@ -104,6 +108,7 @@ Comments
 It´s neccesary download the binary files. Used dinamic librarys to run GEN applications.      
 
 
+
 ### **FreeType** 
 
 FreeType is a freely available software library to render fonts.
@@ -113,6 +118,7 @@ Version          **2.10.1**
 Web              **freetype.org/**  
 Download URL     **gnuwin32.sourceforge.net/packages/freetype.htm**   
 Comments         
+
 
 
 ### **OpenGL Extension Wrangler Library**
@@ -127,6 +133,7 @@ Comments
 It is necessary to modify the file glew.h.
 
 
+
 ### **InpOut 32/64**
 
 InpOut32 is an open source windows DLL and Driver to give direct access to hardware ports (for example the parallel and serial port from user level programs. It is originally developed by the people at Logix4U for Windows 9x and 32bit variations of NT (NT/2000/XP/2003 etc.).
@@ -139,6 +146,7 @@ Comments
 Only for Windows platform. 
 
 
+
 ### **jpeglib**  
 
 This library is distributes by IJG (is an informal group). The first version was released on 7-Oct-1991.This is a stable and solid foundation for many application's JPEG support.
@@ -148,6 +156,7 @@ Version          **9e of 16-Jan-2022**
 Web              **www.ijg.org**  
 Download URL     **www.ijg.org/files/jpegsr9c.zip**  
 Comments         **Create jconfig.h**  
+
 
 
 ### **libpcap**
@@ -162,6 +171,7 @@ Comments
 It´s neccesary download the binary files. Used dinamic librarys to run GEN applications.
 
 
+
 ### **npcap**  (for windows)
 
 The Packet Capture library provides a high level interface to packet capture systems. All packets on the network, even those destined for other hosts, are accessible through this mechanism. It also supports saving captured packets to a savefile, and reading packets from a savefile.
@@ -172,6 +182,7 @@ Web              **npcap.com**
 Download URL     **npcap.com/#download**  
 Comments
 It´s neccesary download the binary files. Used dinamic librarys to run GEN applications.
+
 
 
 ### **LibPNG**  
@@ -186,6 +197,7 @@ Comments
 You must use the command ./configure in linux and eliminate some #defines of pngconf.h
 
 
+
 ### **Lua** 
 
 Lua is a powerful, efficient, lightweight, embeddable scripting language. It supports procedural programming, object-oriented programming, functional programming, data-driven programming, and data description.
@@ -195,6 +207,7 @@ Version          **5.3.4**
 Web              **www.lua.org**  
 Download URL     **www.lua.org/download.html**   
 Comments  
+
 
 
 ### **MySQL Connector C**
@@ -209,6 +222,7 @@ Comments
 It´s neccesary download the binary files. Used dinamic librarys to run GEN applications.
 
 
+
 ### **npcap**
 
 The Packet Capture library for windows provides a high level interface to packet capture systems. All packets on the network, even those destined for other hosts, are accessible through this mechanism. It also supports saving captured packets to a savefile, and reading packets from a savefile.
@@ -219,6 +233,7 @@ Web              **nmap.org/npcap/**
 Download URL     **nmap.org/npcap/dist/npcap-sdk-1.12.zip**  
 Comments
 It´s neccesary download the binary files. Used dinamic librarys to run GEN applications.
+
 
 
 ### **OpenAL Soft**
@@ -233,6 +248,7 @@ Comments
 Download the source package and extract it into **ThirdPartyLibraries/openal-soft**. GEN builds OpenAL Soft directly from those sources for all supported platforms, including Android.
 
 
+
 ### **OpenGL-Registry**
 
 API and Extension registries for the OpenGL family APIs - OpenGL, OpenGL ES, and OpenGL SC. It includes API specifications; specifications of Khronos- and vendor-approved extensions; header files corresponding to the specifications; the XML API Registry definining each API; and related tools and scripts.
@@ -243,6 +259,7 @@ Web              **www.khronos.org/registry/OpenGL/**
 Download URL     **github.com/KhronosGroup/OpenGL-Registry**  
 Comments
 Only the header glext.h is used.
+
 
 
 ### **LibPQ**
@@ -257,6 +274,7 @@ Comments
 It´s neccesary download the binary files. Used dinamic librarys to run GEN applications.
 
 
+
 ### **rpi_ws281x**
 
 Userspace Raspberry Pi library for controlling WS281X LEDs. This includes WS2812 and SK6812RGB RGB LEDs
@@ -269,6 +287,7 @@ Comments
 Version only for Raspberry Pi.
 
 
+
 ### **SQLite**
 
 SQLite is a self-contained, high-reliability, embedded, full-featured, public-domain, SQL database engine. SQLite is the most used database engine in the world. 
@@ -278,6 +297,7 @@ Version          **3.23.1**
 Web              **www.sqlite.org/index.html**  
 Download URL     **www.sqlite.org/download.html**   
 Comments
+
 
 
 ### **StackWalker** 
@@ -293,6 +313,7 @@ Comments
 This librarys are only for WINDOWS.
 
 
+
 ### **STB**  
 
 Collection of libraries for C/C++- Most libraries by stb, except: stb_dxt by Fabian "ryg" Giesen, stb_image_resize by Jorge L. "VinoBS" Rodriguez, and stb_sprintf by Jeff Roberts.
@@ -303,6 +324,7 @@ Web              **nothings.org/stb_vorbis/**
 Download URL     **github.com/nothings/stb**  
 Comments         
 Need add stb_vorbis.h (OGG file format) to GEN compile. 
+
 
 
 ### **WinToast**
@@ -317,6 +339,7 @@ Comments
 This librarys are only for WINDOWS.
 
 
+
 ### **Zlib**
 
 A Massively Spiffy Yet Delicately Unobtrusive Compression Library. It was written by Jean-loup Gailly (compression) and Mark Adler (decompression).
@@ -329,16 +352,31 @@ Comments
 You must use the command ./configure in linux.  GEN use also some .H + .C of the subdirectory contrib/minicom. 
 
 
+
 ### **Android NDK**
 
 The Android NDK (Native Developed Kit) is a toolset that lets you implement parts of your app in native code, using languages such as C and C++. 
 
 Directory        **android-ndk**   
-Version          **r17**   
+Version          **r27d**   
 Web              **developer.android.com/ndk/**    
 Download URL     **developer.android.com/ndk/downloads/**    
 Comments
 Only for Android platform. Only use the Android **Native App Glue**.
+
+
+
+### **Android SDK**
+
+The Android SDK (Software Development Kit) is a set of tools, libraries, and APIs essential for developing applications on Android.
+
+Directory        **android-sdk**   
+Version          **r27d**  (Windows) 
+Web              **developer.android.com/tools/sdkmanager?hl=es-419**    
+Download URL     **androidsdkmanager.azurewebsites.net/cmdline-tools.html**    
+Comments
+It is necessary to use sdkmanager to install, update, and uninstall packages for the Android SDK.
+
 
 
 ### **GoogleTest**
