@@ -28,7 +28,6 @@
 #include <stdio.h>
 #pragma comment(lib, "version.lib")  // for "VerQueryValue"
 
-
 #pragma warning (disable : 4091)   // warning C4091: 'typedef ': ignored on left of '---' when no variable is declared
 #pragma warning (disable : 4996)   // warning C4996: was declared deprecated
 #pragma warning (disable : 4067)   // warning LNK4067: ambiguous entry point; selected 'mainCRTStartup'
@@ -552,7 +551,7 @@ private:
     pGMI = (tGMI) GetProcAddress( hPsapi, "GetModuleInformation" );
     if ( (pEPM == NULL) || (pGMFNE == NULL) || (pGMBN == NULL) || (pGMI == NULL) )
     {
-      // we couldn´t find all functions
+      // we couldn t find all functions
       FreeLibrary(hPsapi);
       return FALSE;
     }
