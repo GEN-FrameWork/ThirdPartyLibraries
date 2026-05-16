@@ -491,21 +491,22 @@ void MirrorLeftHrirs(const al::span<const HrtfStore::Elevation> elevs, al::span<
 
 
 template<size_t num_bits, typename T>
-constexpr std::enable_if_t<std::is_signed<T>::value && num_bits < sizeof(T)*8,
-T> fixsign(T value) noexcept
+constexpr T fixsign(T val) noexcept
 {
-    constexpr auto signbit = static_cast<T>(1u << (num_bits-1));
-    return static_cast<T>((value^signbit) - signbit);
+    if constexpr(std::is_signed_v<T> && num_bits < sizeof(T)*8)
+    {
+        constexpr auto signbit = static_cast<T>(1u << (num_bits-1));
+        return static_cast<T>((val^signbit) - signbit);
+    }
+    else
+    {
+        return val;
+    }
 }
 
-template<size_t num_bits, typename T>
-constexpr std::enable_if_t<!std::is_signed<T>::value || num_bits == sizeof(T)*8,
-T> fixsign(T value) noexcept
-{ return value; }
-
 template<typename T, size_t num_bits=sizeof(T)*8>
-inline std::enable_if_t<al::endian::native == al::endian::little,
-T> readle(std::istream &data)
+inline std::enable_if_t<al::endian::native == al::endian::little, T>
+readle(std::istream &data)
 {
     static_assert((num_bits&7) == 0, "num_bits must be a multiple of 8");
     static_assert(num_bits <= sizeof(T)*8, "num_bits is too large for the type");
@@ -518,8 +519,8 @@ T> readle(std::istream &data)
 }
 
 template<typename T, size_t num_bits=sizeof(T)*8>
-inline std::enable_if_t<al::endian::native == al::endian::big,
-T> readle(std::istream &data)
+inline std::enable_if_t<al::endian::native == al::endian::big, T>
+readle(std::istream &data)
 {
     static_assert((num_bits&7) == 0, "num_bits must be a multiple of 8");
     static_assert(num_bits <= sizeof(T)*8, "num_bits is too large for the type");
