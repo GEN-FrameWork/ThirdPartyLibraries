@@ -42,6 +42,7 @@ Additionally, to facilitate the use of FrameWork GEN you have available this dow
 **Name                                                                           Version**   
 
 1. [**Anti-Grain Geometry (AGG)**](#AGG)									                       **2.5** 
+1. [**ANGLE - Almost Native Graphics Layer Engine**](#ANGLE)                     **--**
 1. [**Duktape**](#duktape)                                                       **2.7.0**       
 1. [**FFmpeg**](#ffmpeg)                                                         **4.0**
 1. [**freetype**](freetype)                                                      **2.12.1**
@@ -80,6 +81,18 @@ Directory        **agg**
 Version          **2.5**    
 Web              **www.antigrain.com/**  
 Download URL     **www.antigrain.com/download/index.html**  
+Comments   
+
+
+
+### **ANGLE**
+
+ANGLE is to allow users of multiple operating systems to seamlessly run WebGL and other OpenGL ES content by translating OpenGL ES API calls to one of the hardware-supported APIs available for that platform.
+
+Directory        **ANGLE**  
+Version          **---**    
+Web              **https://github.com/google/angle**  
+Download URL     **https://github.com/google/angle/archive/refs/heads/main.zip**  
 Comments   
 
 
