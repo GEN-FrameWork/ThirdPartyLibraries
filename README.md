@@ -32,9 +32,6 @@ Next, you have a list of the libraries used with:
 - Download URL (if applicable)
 - Additional comments for your configuration.
 
-Additionally, to facilitate the use of FrameWork GEN you have available this download URL in which in a single compressed file is all the contents of this directory:
-
-[Third Party Libraries URL **genframework.dyndns.org/thirdpartylibraries.zip**](genframework.dyndns.org/thirdpartylibraries.zip)
 
 
 ## List of third party libraries
@@ -63,8 +60,8 @@ Additionally, to facilitate the use of FrameWork GEN you have available this dow
 1. [**STB Vorbis**](#stb)                                                        **2.31**  
 1. [**WinToast**](WinToast)                                                      **1.1**  
 1. [**Zlib**](#zlib)                                                             **1.2.12**        
-1. [**Android NDK**](#android-ndk)								                               **r27d**  
-1. [**Android SDK**](#android-sdk)								                               **r27d**  
+1. [**Android NDK**](#android-ndk)                                                **r27d (Pkg.Revision 27.3.13750724)**  
+1. [**Android SDK**](#android-sdk)                                                **platform-tools 37.0.0; build-tools 34.0.0/35.0.0; Android 24/34/35**  
 1. [**GoogleTest**](#GoogleTest)                                                 **1.12.1** + **1.10.0** 
 1. [**esp-idf**](#ESP-IDF)                                                       **v5.1** 
           
@@ -368,14 +365,33 @@ You must use the command ./configure in linux.  GEN use also some .H + .C of the
 
 ### **Android NDK**
 
-The Android NDK (Native Developed Kit) is a toolset that lets you implement parts of your app in native code, using languages such as C and C++. 
+The Android NDK (Native Development Kit) is a toolset that lets you implement parts of your app in native code, using languages such as C and C++. 
 
 Directory        **android-ndk**   
-Version          **r27d**   
-Web              **developer.android.com/ndk/**    
-Download URL     **developer.android.com/ndk/downloads/**    
+Version          **r27d** (**Pkg.Revision 27.3.13750724**)   
+Web              **https://developer.android.com/ndk/**    
+Download URL     **https://github.com/android/ndk/wiki/Unsupported-Downloads#r27d**    
 Comments
-Only for Android platform. Only use the Android **Native App Glue**.
+Only for the Android platform. GEN uses the Android **Native App Glue**.
+
+#### Installation
+
+1. Download **Android NDK r27d** for your host operating system from the official Android/Google download links on the page above.
+2. Extract the downloaded package.
+3. Move or rename the extracted directory so that the NDK is located exactly at:
+
+   ```text
+   ThirdPartyLibraries/android-ndk
+   ```
+
+   For example, if the archive creates `android-ndk-r27d`, rename that directory to `android-ndk`.
+4. Verify the installation by opening `ThirdPartyLibraries/android-ndk/source.properties` and checking that it contains:
+
+   ```text
+   Pkg.Revision = 27.3.13750724
+   ```
+
+`android-ndk/` is a local toolchain directory and is intentionally not versioned in Git. Each developer or build agent must install it locally.
 
 
 
@@ -384,11 +400,58 @@ Only for Android platform. Only use the Android **Native App Glue**.
 The Android SDK (Software Development Kit) is a set of tools, libraries, and APIs essential for developing applications on Android.
 
 Directory        **android-sdk**   
-Version          **r27d**  (Windows) 
-Web              **developer.android.com/tools/sdkmanager?hl=es-419**    
-Download URL     **androidsdkmanager.azurewebsites.net/cmdline-tools.html**    
+Version          **platform-tools 37.0.0; build-tools 34.0.0 and 35.0.0; platforms android-24, android-34, and android-35**   
+Web              **https://developer.android.com/tools/sdkmanager**    
+Download URL     **https://developer.android.com/studio#command-line-tools-only**    
 Comments
-It is necessary to use sdkmanager to install, update, and uninstall packages for the Android SDK.
+Use Google's official Android SDK Command-Line Tools and `sdkmanager` to install the required packages.
+
+#### Installation
+
+1. Download the **Command line tools only** package for your operating system from the official Android Studio download page above.
+2. Create this directory inside the repository:
+
+   ```text
+   ThirdPartyLibraries/android-sdk/cmdline-tools/latest
+   ```
+
+3. Extract the command-line tools and place their contents (`bin`, `lib`, `NOTICE.txt`, and `source.properties`) inside the `latest` directory. The resulting executable must be located at:
+
+   ```text
+   ThirdPartyLibraries/android-sdk/cmdline-tools/latest/bin/sdkmanager
+   ```
+
+   On Windows, the executable is `sdkmanager.bat`.
+4. From the `ThirdPartyLibraries` directory, install the required SDK packages.
+
+   Windows PowerShell:
+
+   ```powershell
+   .\android-sdk\cmdline-tools\latest\bin\sdkmanager.bat --sdk_root="$PWD\android-sdk" "platform-tools" "build-tools;34.0.0" "build-tools;35.0.0" "platforms;android-24" "platforms;android-34" "platforms;android-35"
+   .\android-sdk\cmdline-tools\latest\bin\sdkmanager.bat --sdk_root="$PWD\android-sdk" --licenses
+   ```
+
+   Linux or macOS:
+
+   ```bash
+   ./android-sdk/cmdline-tools/latest/bin/sdkmanager --sdk_root="$PWD/android-sdk" "platform-tools" "build-tools;34.0.0" "build-tools;35.0.0" "platforms;android-24" "platforms;android-34" "platforms;android-35"
+   ./android-sdk/cmdline-tools/latest/bin/sdkmanager --sdk_root="$PWD/android-sdk" --licenses
+   ```
+
+5. Confirm that the resulting local SDK contains:
+
+   ```text
+   ThirdPartyLibraries/android-sdk/platform-tools/          37.0.0
+   ThirdPartyLibraries/android-sdk/build-tools/34.0.0/
+   ThirdPartyLibraries/android-sdk/build-tools/35.0.0/
+   ThirdPartyLibraries/android-sdk/platforms/android-24/
+   ThirdPartyLibraries/android-sdk/platforms/android-34/
+   ThirdPartyLibraries/android-sdk/platforms/android-35/
+   ```
+
+   The `platform-tools` package name does not include a version in `sdkmanager`; it installs the revision currently offered by Google. The GEN configuration documented here was validated with **37.0.0**. Check the installed revision in `android-sdk/platform-tools/source.properties` when an exact reproducible setup is required.
+
+`android-sdk/` is a local toolchain directory and is intentionally not versioned in Git. Each developer or build agent must install it locally.
 
 
 
@@ -413,6 +476,4 @@ Version          **v5.1**
 Web              **docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html**    
 Download URL     **github.com/espressif/esp-idf**    
 Comments
-
-
 
