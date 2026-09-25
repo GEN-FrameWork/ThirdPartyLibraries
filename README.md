@@ -376,6 +376,8 @@ Only for the Android platform. GEN uses the Android **Native App Glue**.
 
 #### Installation
 
+The automated installer described above is recommended. The following steps describe the equivalent manual installation.
+
 1. Download **Android NDK r27d** for your host operating system from the official Android/Google download links on the page above.
 2. Extract the downloaded package.
 3. Move or rename the extracted directory so that the NDK is located exactly at:
@@ -407,6 +409,8 @@ Comments
 Use Google's official Android SDK Command-Line Tools and `sdkmanager` to install the required packages.
 
 #### Installation
+
+The automated installer described above is recommended. The following steps describe the equivalent manual installation.
 
 1. Download the **Command line tools only** package for your operating system from the official Android Studio download page above.
 2. Create this directory inside the repository:
@@ -477,3 +481,53 @@ Web              **docs.espressif.com/projects/esp-idf/en/latest/esp32/index.htm
 Download URL     **github.com/espressif/esp-idf**    
 Comments
 
+
+
+
+
+## **Automated Android SDK and NDK installation**
+
+GEN provides platform-specific scripts that automate the Android SDK and NDK installation described in the following sections. The scripts are located at:
+
+```text
+Common/Scripts/Android/
+├── AndroidPackages.cfg
+├── InstallAndroid.bat
+└── InstallAndroid.bash
+```
+
+They download the pinned Android Command-line Tools and Android NDK packages, verify their checksums, install the SDK packages required by GEN, and validate the resulting environment. The installation destinations remain:
+
+```text
+ThirdPartyLibraries/android-sdk
+ThirdPartyLibraries/android-ndk
+```
+
+The scripts resolve these destinations from their own location, so they may be launched from any working directory as long as `Common` and `ThirdPartyLibraries` remain sibling directories in the GEN FrameWork tree.
+
+On Windows, run:
+
+```bat
+Common\Scripts\Android\InstallAndroid.bat
+```
+
+On Linux, run:
+
+```bash
+chmod +x Common/Scripts/Android/InstallAndroid.bash
+Common/Scripts/Android/InstallAndroid.bash
+```
+
+Use `--check` to validate an existing installation without downloading anything:
+
+```bat
+Common\Scripts\Android\InstallAndroid.bat --check
+```
+
+```bash
+Common/Scripts/Android/InstallAndroid.bash --check
+```
+
+Both installers also support `--sdk-only`, `--ndk-only`, `--force`, and `--help`. The required versions, official download URLs, and checksums are shared through `AndroidPackages.cfg`.
+
+The automated installer is the recommended method for preparing the Android environment. The manual procedures below remain available for reference, troubleshooting, or environments where the scripts cannot be used.
