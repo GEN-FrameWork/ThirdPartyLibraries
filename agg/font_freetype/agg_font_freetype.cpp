@@ -625,6 +625,7 @@ namespace agg
             {
                 m_cur_face = m_faces[idx];
                 m_name     = m_face_names[idx];
+                m_last_error = 0;
             }
             else
             {
@@ -674,7 +675,7 @@ namespace agg
             }
 
 
-            if(m_last_error == 0)
+            if(m_last_error == 0 && m_cur_face)
             {
                 ret = true;
                 
