@@ -583,6 +583,40 @@ static const rpi_hw_t rpi_hw_info[] = {
     },
 };
 
+/*
+ * Pi 5, CM5, CM5 Lite and Pi 500 share the RP1 kernel driver. Memory size and
+ * manufacturer live in other fields, so an exact hwver match misses boards
+ * such as CM5 4GB (0x00c04180, model type 0x18).
+ */
+static const rpi_hw_t rpi_hw_pi5_family = {
+    .hwver  = 0,
+    .type = RPI_HWVER_TYPE_PI5,
+    .periph_base = 0,
+    .videocore_base = 0,
+    .desc = "Pi 5 family",
+};
+
+static int rpi_hw_is_pi5_family(uint32_t rev)
+{
+    uint32_t model;
+
+    /* New-style revision: bit 23 set. Model type is bits 4..11. */
+    if ((rev & (1u << 23)) == 0)
+        return 0;
+
+    model = (rev >> 4) & 0xff;
+    switch (model)
+    {
+        case 0x17: /* Pi 5 */
+        case 0x18: /* Compute Module 5 */
+        case 0x19: /* Pi 500 / 500+ */
+        case 0x1a: /* Compute Module 5 Lite */
+            return 1;
+        default:
+            return 0;
+    }
+}
+
 
 const rpi_hw_t *rpi_hw_detect(void)
 {
@@ -615,9 +649,13 @@ const rpi_hw_t *rpi_hw_detect(void)
             goto done;
         }
     }
+
+    if (rpi_hw_is_pi5_family(rev))
+        result = &rpi_hw_pi5_family;
 #else
     FILE *f = fopen("/proc/cpuinfo", "r");
     char line[LINE_WIDTH_MAX];
+    int have_rev = 0;
 
     if (!f)
     {
@@ -642,6 +680,7 @@ const rpi_hw_t *rpi_hw_detect(void)
             {
                 continue;
             }
+            have_rev = 1;
 
             for (i = 0; i < (sizeof(rpi_hw_info) / sizeof(rpi_hw_info[0])); i++)
             {
@@ -660,6 +699,9 @@ const rpi_hw_t *rpi_hw_detect(void)
             }
         }
     }
+
+    if (have_rev && rpi_hw_is_pi5_family(rev))
+        result = &rpi_hw_pi5_family;
 #endif
 done:
     fclose(f);

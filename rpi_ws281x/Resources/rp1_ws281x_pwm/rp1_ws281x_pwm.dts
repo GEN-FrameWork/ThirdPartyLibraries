@@ -1,27 +1,31 @@
 /dts-v1/;
 /plugin/;
 
+/*
+ * Pi 5 / CM5 (bcm2712): bind rp1-ws281x-pwm onto the stock RP1 PWM0 node.
+ * Prefer target-path so runtime dtoverlay does not depend on &rp1_pwm0 existing
+ * in __symbols__. Only &rp1_dma is needed (clocks already present on pwm@98000).
+ */
 / {
-    fragment@0 {
-        target-path = "/axi/pcie@120000/rp1";
+	compatible = "brcm,bcm2712";
 
-        __overlay__ {
-            #address-cells = <2>;
-            #size-cells = <2>;
+	/* Ensure RP1 DMA is available for the PWM FIFO */
+	fragment@0 {
+		target-path = "/axi/pcie@1000120000/rp1/dma@188000";
+		__overlay__ {
+			status = "okay";
+		};
+	};
 
-            ws281x_pwm@98000 {
-                compatible = "rp1-ws281x-pwm";
-                clocks = <&rp1_clocks 0x11>;
-                assigned-clocks = <&rp1_clocks 0x11>;
-                assigned-clock-rates = <2400000>;
-                reg = <0xc0 0x40098000 0x00 0x100>;
-                #pwm-cells = <0x03>;
-                dmas = <&rp1_dma 0x18>;  // RP1_DMA_PWM0
-                dma-names = "pwm0";
-                status = "okay";
-            };
-    
-        };
-    };
+	/* Retarget stock pwm@98000 instead of adding a sibling at the same reg */
+	fragment@1 {
+		target-path = "/axi/pcie@1000120000/rp1/pwm@98000";
+		__overlay__ {
+			compatible = "rp1-ws281x-pwm";
+			assigned-clock-rates = <2400000>;
+			dmas = <&rp1_dma 0x18>; /* RP1_DMA_PWM0 */
+			dma-names = "pwm0";
+			status = "okay";
+		};
+	};
 };
-

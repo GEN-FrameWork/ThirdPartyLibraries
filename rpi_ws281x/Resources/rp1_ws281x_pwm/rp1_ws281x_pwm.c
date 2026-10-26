@@ -31,6 +31,7 @@
 #include <linux/of_irq.h>
 #include <linux/of_dma.h>
 #include <linux/dma-mapping.h>
+#include <linux/version.h>
 
 #include "rp1_ws281x_pwm.h"
 
@@ -471,7 +472,13 @@ int rp1_ws281x_pwm_probe(struct platform_device *pdev) {
     return 0;
 }
 
-int rp1_ws281x_pwm_remove(struct platform_device *pdev) {
+/* Linux 6.11+: platform_driver.remove returns void (breaks Debian 13 / 6.12+ headers). */
+#if LINUX_VERSION_CODE >= KERNEL_VERSION(6, 11, 0)
+void rp1_ws281x_pwm_remove(struct platform_device *pdev)
+#else
+int rp1_ws281x_pwm_remove(struct platform_device *pdev)
+#endif
+{
     rp1_ws281x_pwm_cleanup();
 
     misc_deregister(&rp1_ws281x_pwm.mdev);
@@ -482,7 +489,9 @@ int rp1_ws281x_pwm_remove(struct platform_device *pdev) {
 
     rp1_ws281x_pwm.pdev = NULL;
 
+#if LINUX_VERSION_CODE < KERNEL_VERSION(6, 11, 0)
     return 0;
+#endif
 }
 
 static const struct of_device_id rp1_ws281x_pwm_of_match[] = {
