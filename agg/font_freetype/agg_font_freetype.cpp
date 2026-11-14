@@ -907,6 +907,14 @@ namespace agg
 
 
     //------------------------------------------------------------------------
+    bool font_engine_freetype_base::has_char(unsigned glyph_code) const
+    {
+        if(!m_cur_face) return false;
+        return FT_Get_Char_Index(m_cur_face, glyph_code) != 0;
+    }
+
+
+    //------------------------------------------------------------------------
     bool font_engine_freetype_base::prepare_glyph(unsigned glyph_code)
     {
         m_glyph_index = FT_Get_Char_Index(m_cur_face, glyph_code);

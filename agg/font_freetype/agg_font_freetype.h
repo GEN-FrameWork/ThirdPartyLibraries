@@ -98,6 +98,9 @@ namespace agg
         int             change_stamp()   const { return m_change_stamp; }
 
         bool            prepare_glyph(unsigned glyph_code);
+        // Glyph presence for the active face (FT_Get_Char_Index only — no Load/Render).
+        // Used by GRP2DCANVAS::VectorFont_HasChar for font-stack probing across GEN apps.
+        bool            has_char(unsigned glyph_code) const;
         unsigned        glyph_index() const { return m_glyph_index; }
         unsigned        data_size()   const { return m_data_size;   }
         glyph_data_type data_type()   const { return m_data_type;   }
