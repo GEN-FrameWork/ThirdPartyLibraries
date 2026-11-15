@@ -722,7 +722,19 @@ namespace agg
                     }
                     break;
                 }
-                update_signature();
+                // Face switch must re-apply pixel size on THIS FT_Face. Signature-only left
+                // FT_Set_Pixel_Sizes stale; height()/width() then no-op when m_height unchanged,
+                // so PrintStack (mono/default/CJK) mixed glyph sizes across faces.
+                // update_char_size() also refreshes the glyph-cache signature (FPS: once per
+                // actual face change, not per Print — Select early-outs when already active).
+                if(m_height || m_width)
+                  {
+                    update_char_size();
+                  }
+                 else
+                  {
+                    update_signature();
+                  }
             }
         }
         return ret;
