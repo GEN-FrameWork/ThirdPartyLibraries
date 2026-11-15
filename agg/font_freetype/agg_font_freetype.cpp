@@ -768,7 +768,10 @@ namespace agg
     //------------------------------------------------------------------------
     bool font_engine_freetype_base::height(double h)
     {
-        m_height = int(h * 64.0);
+        unsigned nh = (unsigned)(h * 64.0);
+        // Idempotent: GetWidth/Print re-apply size every call; skip FT resize + signature CRC.
+        if(nh == m_height) return m_cur_face != 0;
+        m_height = nh;
         if(m_cur_face)
         {
             update_char_size();
@@ -780,7 +783,9 @@ namespace agg
     //------------------------------------------------------------------------
     bool font_engine_freetype_base::width(double w)
     {
-        m_width = int(w * 64.0);
+        unsigned nw = (unsigned)(w * 64.0);
+        if(nw == m_width) return m_cur_face != 0;
+        m_width = nw;
         if(m_cur_face)
         {
             update_char_size();
@@ -792,6 +797,7 @@ namespace agg
     //------------------------------------------------------------------------
     void font_engine_freetype_base::hinting(bool h)
     { 
+        if(m_hinting == h) return;
         m_hinting = h; 
         if(m_cur_face)
         {
@@ -802,6 +808,7 @@ namespace agg
     //------------------------------------------------------------------------
     void font_engine_freetype_base::flip_y(bool f)
     { 
+        if(m_flip_y == f) return;
         m_flip_y = f; 
         if(m_cur_face)
         {
